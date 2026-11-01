@@ -405,12 +405,362 @@ assert 14 <= len(flagship) <= 18, len(flagship)
 
 zero_sign = [c for c in cases if c["_score"] == 0]
 
+# ---------------------------------------------------------------- charts (figures)
+# Every chart is drawn here from the same data as the tables. Nothing is summed across
+# currencies or eras; amounts stay single figures.
+import math
+
+ERA_CLS = {"era-1": "e1", "era-2": "e2", "era-3": "e3", "era-4": "e4", "era-5": "e5", "era-6": "e6", "era-x": "e7"}
+GOOD = ("verified", "corrected")
+
+
+def fig(fid, title, body, source, extra_cls=""):
+    """One chart: <figure id> with a one-line takeaway title and a source line."""
+    return (f'<figure class="ch{extra_cls}" id="{fid}"><figcaption><span class="tk">{title}</span></figcaption>'
+            f'{body}<p class="src">{source}</p></figure>')
+
+
+def best_money(c):
+    """Largest single clean amount among all the case's figures: (amount, currency, figure) or None."""
+    best = None
+    for f in c["figures"]:
+        m = money_amount(c, f)
+        if m and (best is None or m[1] > best[0]):
+            best = (m[1], m[0], f)
+    return best
+
+
+def size_bucket(amt):
+    if amt is None:
+        return 0
+    if amt < 1e8:
+        return 1
+    if amt < 1e9:
+        return 2
+    if amt < 1e10:
+        return 3
+    return 4
+
+
+RADIUS = [2.6, 4.2, 5.6, 7.4, 9.6]
+SIZE_LABEL = ["no clean amount", "under 100 mn", "100 mn – 1 bn", "1 – 10 bn", "10 bn or more"]
+
+# --- 1. story in one picture: every entry by start year
+SEGS = [(1500, 1822, 40, 230), (1822, 1964, 230, 470), (1964, 2027, 470, 950)]
+
+
+def sx(y):
+    for a, b, xa, xb in SEGS:
+        if a <= y <= b:
+            return xa + (y - a) * (xb - xa) / (b - a)
+    return SEGS[-1][3]
+
+
+def short_name(r):
+    r = r.split("(")[0].strip()
+    rep = {"Luiz Inácio Lula da Silva": "Lula", "Fernando Henrique Cardoso": "FHC", "Getúlio Vargas": "Vargas",
+           "Dilma Rousseff": "Dilma", "Jair Bolsonaro": "Bolsonaro", "Michel Temer": "Temer", "José Sarney": "Sarney",
+           "Fernando Collor": "Collor", "Itamar Franco": "Itamar", "Ernesto Geisel": "Geisel", "João Figueiredo": "Figueiredo",
+           "Emílio Garrastazu Médici": "Médici", "Juscelino Kubitschek": "JK", "Eurico Gaspar Dutra": "Dutra",
+           "João Goulart": "Goulart", "Humberto de Alencar Castelo Branco": "Castelo", "Artur da Costa e Silva": "Costa e Silva"}
+    return rep.get(r, r.split()[-1] if r else r)
+
+
+def story_svg():
+    W = 960
+    dots = []
+    for c in cases:
+        bm = best_money(c)
+        dots.append([c, sx(c["start_year"] + 0.5), RADIUS[size_bucket(bm[0] if bm else None)], bm])
+    # greedy beeswarm: biggest first, each dot rises until it touches nothing
+    placed = []
+    for d in sorted(dots, key=lambda d: (-d[2], d[0]["start_year"], d[0]["id"])):
+        x, r = d[1], d[2]
+        y = r
+        while True:
+            hit = [p for p in placed if abs(p[1] - x) < p[2] + r + 0.6 and abs(p[4] - y) < p[2] + r + 0.6
+                   and (p[1] - x) ** 2 + (p[4] - y) ** 2 < (p[2] + r + 0.6) ** 2]
+            if not hit:
+                break
+            y = max(p[4] + math.sqrt(max((p[2] + r + 0.6) ** 2 - (p[1] - x) ** 2, 0)) for p in hit) + 0.01
+        d.append(y)
+        placed.append(d)
+    top = 44
+    hmax = max(d[4] + d[2] for d in placed)
+    base = top + hmax + 6
+    H = base + 34
+    out = [f'<svg viewBox="0 0 {W} {H:.0f}" role="img" aria-labelledby="fig-story-t">']
+    # colony block, then president bands (consecutive terms of one ruler merged)
+    out.append(f'<rect class="band b0" x="{SEGS[0][2]}" y="{top - 22}" width="{SEGS[0][3] - SEGS[0][2]:.1f}" height="{base - top + 22:.1f}"><title>Portuguese crown, 1500–1822</title></rect>')
+    out.append(f'<text class="bl" x="{(SEGS[0][2] + SEGS[0][3]) / 2:.1f}" y="{top - 9}">Portuguese crown</text>')
+    bands = []
+    for t in TD["terms"]:
+        a = t["_start"].year + (t["_start"].timetuple().tm_yday - 1) / 365.25
+        b = 2026.83 if t["_open"] else t["_end"].year + (t["_end"].timetuple().tm_yday - 1) / 365.25
+        nm = short_name(t["ruler"])
+        dic = "dictatorship" in t["regime"]
+        if bands and bands[-1][2] == nm:
+            bands[-1][1] = b
+        else:
+            bands.append([a, b, nm, dic])
+    for i, (a, b, nm, dic) in enumerate(bands):
+        xa, xb = sx(a), sx(min(b, 2027))
+        cls = "band d" if dic else f"band b{1 + i % 2}"
+        out.append(f'<rect class="{cls}" x="{xa:.1f}" y="{top - 22}" width="{max(xb - xa, .5):.1f}" height="{base - top + 22:.1f}"><title>{esc(nm)}, {int(a)}–{int(b) if b < 2026.5 else "today"}</title></rect>')
+        if xb - xa >= 6.2 * len(nm) + 4 and a >= 1930:
+            out.append(f'<text class="bl" x="{(xa + xb) / 2:.1f}" y="{top - 9}">{esc(nm)}</text>')
+    # axis
+    out.append(f'<line class="axl" x1="{SEGS[0][2]}" x2="{W - 10}" y1="{base:.1f}" y2="{base:.1f}"/>')
+    for y in (1500, 1600, 1700, 1822, 1889, 1930, 1964, 1985, 2003, 2016, 2026):
+        out.append(f'<line class="axl" x1="{sx(y):.1f}" x2="{sx(y):.1f}" y1="{base:.1f}" y2="{base + 5:.1f}"/>'
+                   f'<text class="ax" x="{sx(y):.1f}" y="{base + 18:.1f}">{y}</text>')
+    for a, b, xa, xb in SEGS[1:]:
+        out.append(f'<line class="brk" x1="{xa}" x2="{xa}" y1="{top - 22}" y2="{base:.1f}"/>')
+    for c, x, r, bm, y in placed:
+        cy = base - y
+        money = f"largest amount {human(bm[0], bm[1])} ({bm[2]['status']})" if bm else "no clean amount"
+        out.append(f'<a href="#{c["id"]}"><circle class="dot {ERA_CLS[c["_era"]]}" cx="{x:.1f}" cy="{cy:.1f}" r="{r}">'
+                   f'<title>{c["start_year"]} · {esc(c["id"])}: {esc(c["title"])} · {money}</title></circle></a>')
+    out.append("</svg>")
+    return "".join(out)
+
+
+era_counts = collections.Counter(c["_era"] for c in cases)
+n_after85 = sum(1 for c in cases if c["start_year"] >= 1985)
+legend_era = "".join(f'<li><i class="sw {ERA_CLS[e]}"></i>{esc(s)} <span class="muted">({era_counts[e]})</span></li>' for e, _, s in ERAS)
+legend_size = "".join(f'<li><svg viewBox="0 0 22 22" width="18" height="18" aria-hidden="true"><circle class="dot e7" cx="11" cy="11" r="{RADIUS[i]}"/></svg>{SIZE_LABEL[i]}</li>' for i in range(5))
+n_sized = sum(1 for c in cases if best_money(c))
+FIG_STORY = fig(
+    "fig-story",
+    f'<span id="fig-story-t">{N_CASES} entries from {min(c["start_year"] for c in cases)} to {max(c["start_year"] for c in cases)}: {n_after85} of them start in 1985 or later</span>',
+    f'<ul class="lg">{legend_era}</ul><div class="sx story">{story_svg()}</div>'
+    f'<ul class="lg">{legend_size}</ul>',
+    f'Each dot is one entry at its start year; tap or hover for the title, click to open it. Colour = era. Size = the largest single amount in reais (1994 on) or US dollars among its figures, <strong>not converted or added</strong>, money of its year; {N_CASES - n_sized} entries with no clean amount get the smallest dot. '
+    'Bands behind = who ruled (shaded red-brown = dictatorship). <strong>The year axis is stretched</strong>: 1500–1822 is squeezed, 1964–2026 is widest. Source: data/g1–g7, terms.json.')
+
+# --- 2. money per era, verified versus not (one dot per figure, log scale; nothing added)
+money_pts = collections.defaultdict(list)   # (cur, era) -> [(amount, status, case, figure)]
+for c in cases:
+    for f in c["figures"]:
+        if f["kind"] in KIND_LABEL and f["kind"] != "land-area":
+            m = money_amount(c, f)
+            if m:
+                money_pts[(m[0], c["_era"])].append((m[1], f["status"], c, f))
+
+
+def money_strip(cur):
+    eras = [e for e, *_ in ERAS if money_pts.get((cur, e))]
+    if not eras:
+        return ""
+    vals = [p[0] for e in eras for p in money_pts[(cur, e)]]
+    lo = 10 ** math.floor(math.log10(min(vals)))
+    hi = 10 ** math.ceil(math.log10(max(vals)))
+    W, L, R, RH = 900, 150, 130, 34
+    H = 26 + RH * len(eras)
+
+    def X(v):
+        return L + (math.log10(v) - math.log10(lo)) / (math.log10(hi) - math.log10(lo)) * (W - L - R)
+    pre = {"BRL": "R$", "USD": "US$"}[cur]
+    out = [f'<svg viewBox="0 0 {W} {H}" role="img" aria-label="Money figures by era in {cur}, one dot per figure, log scale">']
+    k = math.log10(lo)
+    while 10 ** k <= hi * 1.001:
+        v = 10 ** k
+        lab = f"{pre} {v/1e9:g} bn" if v >= 1e9 else f"{pre} {v/1e6:g} mn" if v >= 1e6 else f"{pre} {v/1e3:g} k"
+        out.append(f'<line class="grid" x1="{X(v):.1f}" x2="{X(v):.1f}" y1="14" y2="{H - 4}"/><text class="ax" x="{X(v):.1f}" y="11">{lab}</text>')
+        k += 1
+    for i, e in enumerate(eras):
+        y = 26 + RH * i + RH / 2
+        pts = money_pts[(cur, e)]
+        ng = sum(1 for p in pts if p[1] in GOOD)
+        out.append(f'<text class="rl" x="{L - 10}" y="{y + 4:.1f}">{esc(ERA_SHORT[e])}</text>'
+                   f'<line class="axl" x1="{L}" x2="{W - R}" y1="{y:.1f}" y2="{y:.1f}"/>'
+                   f'<text class="rr" x="{W - R + 8}" y="{y + 4:.1f}">{ng} of {len(pts)} checked</text>')
+        for j, (amt, st, c, f) in enumerate(sorted(pts, key=lambda p: p[0])):
+            jit = ((j % 3) - 1) * 7
+            cls = f"dot {ERA_CLS[e]}" if st in GOOD else "dot unv"
+            out.append(f'<a href="#{c["id"]}"><circle class="{cls}" cx="{X(amt):.1f}" cy="{y + jit:.1f}" r="5">'
+                       f'<title>{esc(c["id"])} {esc(f["label"])}: {esc(human(amt, cur))} ({esc(f.get("value_year") or "year n/a")}, {st})</title></circle></a>')
+    out.append("</svg>")
+    return f'<h4 class="chh">{"Reais (R$), 1994 on" if cur == "BRL" else "US dollars"}</h4><div class="sx mw">{"".join(out)}</div>'
+
+
+_mp_all = [p for v in money_pts.values() for p in v]
+_mp_good = sum(1 for p in _mp_all if p[1] in GOOD)
+_mp_top = max(money_pts, key=lambda k: len(money_pts[k]))
+FIG_MONEY = fig(
+    "fig-money-era",
+    f'{len(_mp_all)} single amounts of money moved; {_mp_good} are verified or corrected, {len(_mp_all) - _mp_good} are not',
+    '<p class="lg2"><span><i class="sw e4"></i>filled = verified or corrected</span> <span><i class="sw unv"></i>grey hatched = unverified or disputed</span></p>'
+    + money_strip("BRL") + money_strip("USD"),
+    'One dot per figure, placed on a log scale (each grid step is 10 times the last). Dots are <strong>never added up</strong>: eras and currencies differ, and values are in the money of their year. '
+    'Only figures of a transfer kind (price gap, subsidy, bailout, debt absorbed, public finance to buyer, guaranteed return) that state one clean amount. Source: data/g1–g7, column "figures".')
+
+# --- 3. who got it: receiver type by keyword rules (first match wins)
+RECV_RULES = [
+    ("none", "No private receiver named", r"^(not |no |nobody|owners not confirmed|the public sector|the union gets|the state kept|buyers and prices)"),
+    ("foreign", "Foreign firms or capital", r"\b(british|canadian|belgian|french|japanese|german|italian|spanish|peru|abu dhabi|foreign|transnational|north american|new york|cleveland|"
+     r"us financier|the us |ford|hanna|bethlehem|farquhar|telefonica|iberdrola|aes|edf|enel|hsbc|santander|shell|total|chevron|exxonmobil|mubadala|brookfield|engie|tractebel|duke|enron|"
+     r"volkswagen|siemens|kraftwerk|alcan|ludwig|liquig|portugal telecom|telecom italia|southern electric|aena|zurich|cnpc|cnooc|modec|big tech|bright|telcon)\b"),
+    ("bank", "Banks and financial groups", r"\b(bank|banks|banco|itau|itaú|bradesco|unibanco|bcn|financial|brokerage|lenders|fgc|opportunity|pactual|bozano|cacciola|mortgage)"),
+    ("land", "Landholders, occupants and agribusiness", r"\b(landhold|landowner|occupant|occupier|claimant|settler|planter|farmer|rancher|agribusiness|coloni|squatter|sesmaria|mill |grain|logger|miners|donat|elites|oligarch|ex-slaveholder)"),
+    ("firm", "Brazilian firms, groups and merchants", r"\b(group|grupo|consorti|company|companies|firms|firm|contractor|contratador|merchant|concessionaire|capitalist|bidders|buyers|investors|shareholders|market|family|families|"
+     r"odebrecht|petrobras|vale|csn|votorantim|aegea|equatorial|cpfl|eike|jbs|mau|telemar|norte energia|aracruz|igu|copagaz|carmo|ccr|ream|invepar|eletrobras|caemi|albras|"
+     r"enterprise|employers|exporters|developers|debtors|s\.a\.|ltd|cia\.|& )"),
+    ("other", "Others: workers, consumers, households, sectors", r"."),
+]
+
+
+def recv_type(c):
+    t = _fold_txt(c.get("who_got") or "")[:180]
+    return first_named(t, RECV_RULES)
+
+
+def first_named(t, rules, last_resort=()):
+    """The first rule is a 'nothing named' test on the start of the text. Otherwise the type whose
+    words appear earliest in the text wins; on a tie, the earlier rule. Nothing matched -> the last rule."""
+    if rules[0][2].startswith("^") and re.search(rules[0][2], t):
+        return rules[0][0]
+    for pool in ([r for r in rules[:-1] if r[0] not in last_resort], [r for r in rules[:-1] if r[0] in last_resort]):
+        best = None
+        for i, (key, _, rx) in enumerate(pool):
+            if rx.startswith("^"):
+                continue
+            m = re.search(rx, t)
+            if m and (best is None or (m.start(), i) < best[0]):
+                best = ((m.start(), i), key)
+        if best:
+            return best[1]
+    return rules[-1][0]
+
+
+def _fold_txt(s):
+    import unicodedata
+    return "".join(ch for ch in unicodedata.normalize("NFKD", str(s).lower()) if not unicodedata.combining(ch))
+
+
+RECV = {c["id"]: recv_type(c) for c in cases}
+
+
+def era_stack_bars(groups, labels, total_note):
+    """groups: key -> list of cases. One HTML bar per key, split into era segments, labelled directly."""
+    mx = max(len(v) for v in groups.values()) or 1
+    rows = []
+    for key, lab in labels:
+        cs = groups.get(key, [])
+        cnt = collections.Counter(c["_era"] for c in cs)
+        segs = "".join(
+            f'<i class="sg {ERA_CLS[e]}" style="width:{100 * cnt[e] / mx:.2f}%" title="{esc(ERA_SHORT[e])}: {cnt[e]}"></i>'
+            for e, *_ in ERAS if cnt[e])
+        rows.append(f'<div class="hb"><span class="hl">{esc(lab)}</span><span class="ht">{segs}<b>{len(cs)}</b></span></div>')
+    return f'<div class="hbars">{"".join(rows)}</div>'
+
+
+recv_groups = collections.defaultdict(list)
+for c in cases:
+    recv_groups[RECV[c["id"]]].append(c)
+_rl = [(k, l) for k, l, _ in RECV_RULES]
+_rtop = max((k for k, _ in _rl if k not in ("none", "other")), key=lambda k: len(recv_groups[k]))
+_rlab = dict(_rl)
+rules_html = "".join(f'<li><strong>{esc(l)}</strong>: <code>{esc(rx if len(rx) < 260 else rx[:257] + "…")}</code></li>' for _, l, rx in RECV_RULES[:-1])
+FIG_RECV = fig(
+    "fig-receivers",
+    f'Who got it: {_rlab[_rtop].lower()} are the largest named group, {len(recv_groups[_rtop])} of {N_CASES} entries',
+    f'<ul class="lg">{legend_era}</ul>' + era_stack_bars(recv_groups, _rl, "")
+    + f'<details class="more"><summary>The keyword rules</summary><p class="small">Read on the first 180 characters of each entry\'s "who got it" text, lower case, accents removed. If the text starts by saying no receiver is named, it goes to the first group. Otherwise the type whose words come <strong>first in the text</strong> wins. No match: "Others".</p><ol class="small rules">{rules_html}</ol></details>',
+    'Each entry is counted once, by the receiver type named first in its "who got it" text, so a consortium counts by its first-named member. This is a rough sort by words, not a legal finding. Source: data/g1–g7, field "who_got".')
+
+# --- 4. mechanism mix per era (primary mechanism, first match wins)
+MECH_RULES = [
+    ("bail", "Bailout or debt taken over", r"(rescue|bailout|bail-out|proer|proes|socorro|debt|absor|fgc|intervened|liquidat|refinanc)"),
+    ("sale", "Sale or privatization", r"(privati|desestatiz|\bpnd\b|share offering|sale|sold|auction of|divest|capitaliz|block sale|leilao de acoes)"),
+    ("conc", "Concession, lease or monopoly", r"(concession|lease|arrendamento|charter|monopol|contract|\bppp\b|tender|round|licen|outorga|auction|franchise|privilege)"),
+    ("land", "Land grant or titling", r"(land|sesmaria|titl|regulari|hectare|grant|amnesty|car )"),
+    ("cred", "Public credit or finance", r"(bndes|bnde\b|credit|loan|financ|fund|bank)"),
+    ("tax", "Tax break, subsidy or tariff", r"(tax|incentive|exempt|subsid|waiver|sudam|sudene|tariff|royalt|levy)"),
+    ("law", "Law or rule change", r"(\blei\b|law|decree|decreto|\bmp\b|provisional|amendment|rule|resolution|bill)"),
+    ("other", "Other", r"."),
+]
+
+
+def mech_type(c):
+    t = _fold_txt((c.get("mechanism") or "") + " | " + (c.get("title") or ""))
+    return first_named(t, MECH_RULES, last_resort=("law",))
+
+
+MECH_OF = {c["id"]: mech_type(c) for c in cases}
+MK_CLS = {k: f"k{i + 1}" for i, (k, _, _) in enumerate(MECH_RULES)}
+
+
+def mech_mix():
+    rows = []
+    for e, name, short in ERAS:
+        cs = cases_by_era[e]
+        cnt = collections.Counter(MECH_OF[c["id"]] for c in cs)
+        segs = []
+        for k, lab, _ in MECH_RULES:
+            if not cnt[k]:
+                continue
+            w = 100 * cnt[k] / len(cs)
+            txt = f"{cnt[k]}" if w >= 7 else ""
+            segs.append(f'<i class="sg {MK_CLS[k]}" style="width:{w:.2f}%" title="{esc(lab)}: {cnt[k]} of {len(cs)}">{txt}</i>')
+        top = cnt.most_common(1)[0]
+        rows.append(f'<div class="mrow"><span class="ml"><a href="#{e}">{esc(short)}</a> <span class="muted small">({len(cs)})</span>'
+                    f'<br><span class="small muted">most: {esc(dict((k, l) for k, l, _ in MECH_RULES)[top[0]].lower())}</span></span>'
+                    f'<span class="mt">{"".join(segs)}</span></div>')
+    return "".join(rows)
+
+
+legend_mech = "".join(f'<li><i class="sw {MK_CLS[k]}"></i>{esc(l)}</li>' for k, l, _ in MECH_RULES)
+mrules_html = "".join(f'<li><strong>{esc(l)}</strong>: <code>{esc(rx)}</code></li>' for _, l, rx in MECH_RULES[:-1])
+_m_era = {e: collections.Counter(MECH_OF[c["id"]] for c in cases_by_era[e]).most_common(1)[0][0] for e, *_ in ERAS}
+_ml = {k: l for k, l, _ in MECH_RULES}
+FIG_MECH = fig(
+    "fig-mechanisms",
+    f'How it was done: {_ml[_m_era["era-1"]].lower()} leads in the colony, {_ml[_m_era["era-4"]].lower()} in 1985–2002',
+    f'<ul class="lg">{legend_mech}</ul><div class="mix">{mech_mix()}</div>'
+    + f'<details class="more"><summary>The keyword rules</summary><p class="small">Read on each entry\'s "mechanism" text, then its title, lower case, accents removed. The type whose words come <strong>first in the text</strong> wins. "Law or rule change" counts only when no other type matches, since most entries cite a law. No match: "Other".</p><ol class="small rules">{mrules_html}</ol></details>',
+    'Each bar is one era at 100%; numbers are entries. Each entry gets one main mechanism: the type named first in its text, so a sale paid with public credit counts as a sale. Source: data/g1–g7, fields "mechanism" and "title".')
+
+# --- 5. signs profile: one square per entry tagged
+def signs_units():
+    tiles = []
+    for key, (sid, g, label, *_r) in sorted(SIGNS.items(), key=lambda kv: -sign_count[kv[0]]):
+        n = sign_count[key]
+        sq = '<i></i>' * n
+        tiles.append(f'<a class="st {g}" href="#{sid}"><span class="sn">{n}</span><span class="sl">{esc(label)}</span><span class="su">{sq}</span></a>')
+    return "".join(tiles)
+
+
+_top_sign = sign_count.most_common(1)[0]
+FIG_SIGNS = fig(
+    "fig-signs",
+    f'The most common sign is "{esc(SIGNS[_top_sign[0]][2].lower())}", in {_top_sign[1]} of {N_CASES} entries; {len(zero_sign)} entries have none',
+    '<p class="lg2">' + " ".join(f'<span><i class="sw {g}"></i>{esc(t.split(". ", 1)[1])}</span>' for _, g, t, _ in MECHS) + '</p>'
+    + f'<div class="units">{signs_units()}</div>',
+    'One square per entry tagged with the sign; colour = mechanism. An entry can carry several signs. Tags are the data builders\' reading of the notes and were not fact-checked. Source: data/g1–g7, field "signs".')
+
+if "-v" in sys.argv:
+    for k, l, _ in RECV_RULES:
+        print(f"  recv {k:8s} {len(recv_groups[k]):3d}: " + " ".join(c["id"] for c in recv_groups[k]))
+    for k, l, _ in MECH_RULES:
+        print(f"  mech {k:6s}: " + " ".join(c["id"] for c in cases if MECH_OF[c["id"]] == k))
+
+
 # ---------------------------------------------------------------- sections
 parts = []
 
 
 def H(s):
     parts.append(s)
+
+
+H(f'''<section id="story"><h2 id="story-h">The story in pictures</h2>
+<p class="lead"><strong>Five centuries of transfers on one page.</strong> Each chart says its point in the title; tap a dot or bar for detail.</p>
+{FIG_STORY}
+{FIG_MECH}
+{FIG_RECV}
+<p class="small">More charts: <a href="#fig-signs">the signs</a>, <a href="#fig-money-era">money by era</a>, and on the <a href="disasters.html#fig-dis-time">disasters page</a>. The <a href="timeline-charts.html">full-size timeline charts</a> have their own page.</p>
+</section>''')
 
 
 # ---- double-check
@@ -529,11 +879,13 @@ H(f'''<section id="answer"><h2 id="answer-h">The short answer</h2>
 # ---- contents
 era_toc = "".join(f'<li><a href="#{e}">{esc(n)}</a></li>' for e, n, _ in ERAS)
 H(f'''<nav id="contents" aria-label="Contents"><h2 id="contents-h">Contents</h2><ol class="toc">
+<li><a href="#story">The story in pictures</a><ul><li><a href="#fig-story">Every entry by year</a></li><li><a href="#fig-mechanisms">How it was done, by era</a></li><li><a href="#fig-receivers">Who got it</a></li></ul></li>
+<li><a href="timeline-charts.html">Timeline charts (own page)</a></li>
 <li><a href="timeline.html">Timeline page: terms, decision-makers, wages and wealth</a><ul><li><a href="#timeline-in-progress">The timeline</a></li><li><a href="#political-power">Political power in every term</a></li><li><a href="#decision-makers">Who could decide</a></li></ul></li>
 <li><a href="#double-check">What did the double-check find?</a><ul><li><a href="#dc-status">Status now</a></li><li><a href="#dc-corrections">Biggest corrections</a></li><li><a href="#dc-added">What was added</a></li></ul></li>
 <li><a href="#answer">The short answer</a></li>
-<li><a href="#profile">The profile</a><ul><li><a href="#mech-assets">1. Hand over the asset</a></li><li><a href="#mech-money">2. Public money behind private control</a></li><li><a href="#mech-rules">3. Rules bent to fit</a></li><li><a href="#mech-losses">4. Losses go public</a></li><li><a href="#by-era">Signs by era</a></li><li><a href="#counter-signs">Entries with no sign</a></li><li><a href="#scoring">How the score works</a></li><li><a href="#flagship">Flagship cases scored</a></li></ul></li>
-<li><a href="#wealth-moved">How much moved</a><ul><li><a href="#land-chart">Land</a></li><li><a href="#money-charts">Money by currency and era</a></li><li><a href="#transfers-table">Every figure</a></li></ul></li>
+<li><a href="#profile">The profile</a><ul><li><a href="#fig-signs">The signs, counted</a></li><li><a href="#mech-assets">1. Hand over the asset</a></li><li><a href="#mech-money">2. Public money behind private control</a></li><li><a href="#mech-rules">3. Rules bent to fit</a></li><li><a href="#mech-losses">4. Losses go public</a></li><li><a href="#by-era">Signs by era</a></li><li><a href="#counter-signs">Entries with no sign</a></li><li><a href="#scoring">How the score works</a></li><li><a href="#flagship">Flagship cases scored</a></li></ul></li>
+<li><a href="#wealth-moved">How much moved</a><ul><li><a href="#fig-money-era">Money by era, checked or not</a></li><li><a href="#land-chart">Land</a></li><li><a href="#money-charts">Money by currency and era</a></li><li><a href="#transfers-table">Every figure</a></li></ul></li>
 <li><a href="#history">History by era</a><ul>{era_toc}</ul></li>
 <li><a href="#disasters-link">Transfers linked to later disasters</a></li>
 <li><a href="#gaps">What could not be verified</a></li></ol></nav>''')
@@ -596,6 +948,7 @@ H(f'''<section id="profile"><h2 id="profile-h">What a public-to-private transfer
 <p class="lead">A transfer is a deal where <strong>public wealth or power ends up in private hands</strong>: land, a monopoly, a company, cheap money or a debt the public takes over.</p>
 <p>Across 500 years the same <strong>13 signs</strong> keep showing up. They fall into <strong>4 mechanisms</strong>: hand over the asset, put public money behind private control, bend the rules, and let the losses go public.</p>
 <p>A deal does not need every sign. The more signs it shows, the closer it is to the pattern. Each card below has a one-line test you can run on a new deal.</p>
+{FIG_SIGNS}
 {"".join(mech_html)}
 <h3 id="by-era">Which signs show up in which era</h3>
 <p>Each number counts the entries in that era tagged with the sign. Darker means more. Eras differ in size, so compare <strong>shapes</strong>, not totals.</p>
@@ -673,6 +1026,7 @@ n_land_kinds = sum(1 for _, f in all_figs if f["kind"] == "land-area")
 H(f'''<section id="wealth-moved"><h2 id="wealth-moved-h">How much moved: every numbered transfer</h2>
 <p class="lead"><strong>{n_w} figures</strong> put a number on a transfer: a price gap, a subsidy, a bailout, a debt taken over, public money lent to a buyer, a guaranteed return, or land handed over.</p>
 <div class="callout"><strong>Nothing is added up.</strong> The figures span five centuries and many currencies (réis, pounds, cruzeiros, reais, dollars). Bars compare figures <strong>inside one chart only</strong>. Each value is in the money of the year shown, not converted to one year.</div>
+{FIG_MONEY}
 <h3 id="kinds-by-era">What kind of transfer, in which era</h3>
 <p>Number of figures of each kind. Darker means more.</p>
 <div class="tw"><table class="heatmap"><thead><tr><th>Kind</th>{era_heads}<th>All</th></tr></thead><tbody>{"".join(kind_rows)}</tbody></table></div>
@@ -859,6 +1213,7 @@ h3{font-size:1.1rem;margin:1.6em 0 .4em}
 h4{font-size:1rem;margin:1.2em 0 .2em}
 section,nav{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin:18px 0}
 section:target,tr:target{outline:3px solid #ffb454;outline-offset:8px;border-radius:8px}
+section:target,tr:target,figure:target{outline:3px solid #ffb454;outline-offset:8px;border-radius:8px}
 tr:target td{background:var(--gAb)}
 h3:target,h4:target,article:target{outline:3px solid #ffb454;outline-offset:4px;border-radius:6px}
 a{color:var(--acc)}
@@ -913,6 +1268,57 @@ ul.figs,ul.srcs{margin:0;padding-left:1.1em}ul.figs li{margin:.3em 0}ul.srcs li{
 details.more summary{cursor:pointer;color:var(--acc)}
 .steps li{margin:.3em 0}
 nav ol{margin:.3em 0}
+/* charts: one palette (eras e1-e7, categories k1-k8, unverified = grey hatch) */
+:root{--e1:#8a5a2b;--e2:#a8813a;--e3:#a83232;--e4:#1f5f99;--e5:#2f7d4f;--e6:#7a4aa8;--e7:#0f8080;
+--k1:#a02525;--k2:#1f5f99;--k3:#c0620e;--k4:#2f7d4f;--k5:#7a4aa8;--k6:#b8930f;--k7:#0f8080;--k8:#8b8f96;
+--unv:#a3a8b0;--band1:rgba(30,40,60,.045);--band2:rgba(30,40,60,.0);--bandd:rgba(160,60,40,.13);--ink:#1d2127}
+@media (prefers-color-scheme:dark){:root{--e1:#d29a62;--e2:#d8b46a;--e3:#e07a7a;--e4:#6cb0e6;--e5:#7fcf9b;--e6:#c4a0e8;--e7:#5fc9c9;
+--k1:#f08a8a;--k2:#6cb0e6;--k3:#f0a35e;--k4:#7fcf9b;--k5:#c4a0e8;--k6:#e6c75a;--k7:#5fc9c9;--k8:#8b919a;
+--unv:#6b717a;--band1:rgba(255,255,255,.05);--band2:rgba(255,255,255,0);--bandd:rgba(240,120,100,.16);--ink:#e6e8eb}}
+figure.ch{margin:16px 0;padding:12px;border:1px solid var(--line);border-radius:8px;background:var(--card);min-width:0}
+figure.ch figcaption .tk{font-weight:700;font-size:1.05rem;display:block;margin-bottom:6px}
+figure.ch .src{font-size:.8rem;color:var(--muted);margin:.5em 0 0}
+.chh{margin:.6em 0 .2em}
+.sx{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:4px 0}
+.sx svg{display:block;width:100%;height:auto;min-width:720px}
+.sx.story svg{min-width:820px}
+svg .dot{stroke:var(--card);stroke-width:.8}
+svg .e1{fill:var(--e1)}svg .e2{fill:var(--e2)}svg .e3{fill:var(--e3)}svg .e4{fill:var(--e4)}svg .e5{fill:var(--e5)}svg .e6{fill:var(--e6)}svg .e7{fill:var(--e7)}
+svg .dot.unv{fill:url(#hatch);stroke:var(--unv);stroke-width:1.2}
+svg a:hover .dot,svg a:focus .dot{stroke:var(--ink);stroke-width:2}
+svg .band.b0{fill:var(--band1)}svg .band.b1{fill:var(--band1)}svg .band.b2{fill:var(--band2)}svg .band.d{fill:var(--bandd)}
+svg .bl{fill:var(--muted);font-size:11px;text-anchor:middle}
+svg .ax{fill:var(--muted);font-size:12px;text-anchor:middle}
+svg .rl{fill:var(--ink);font-size:13px;text-anchor:end}svg .rr{fill:var(--muted);font-size:12px}
+svg .axl{stroke:var(--line);stroke-width:1}svg .grid{stroke:var(--line);stroke-width:1;stroke-dasharray:2 3}
+svg .brk{stroke:var(--muted);stroke-width:1;stroke-dasharray:1 3}
+ul.lg{list-style:none;margin:4px 0;padding:0;display:flex;flex-wrap:wrap;gap:2px 14px;font-size:.85rem}
+ul.lg li{display:flex;align-items:center;gap:5px}
+.lg2{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:.85rem;margin:4px 0}.lg2 span{display:inline-flex;align-items:center;gap:5px}
+i.sw{display:inline-block;width:12px;height:12px;border-radius:3px;flex:none}
+.sw.e1,.sg.e1{background:var(--e1)}.sw.e2,.sg.e2{background:var(--e2)}.sw.e3,.sg.e3{background:var(--e3)}.sw.e4,.sg.e4{background:var(--e4)}
+.sw.e5,.sg.e5{background:var(--e5)}.sw.e6,.sg.e6{background:var(--e6)}.sw.e7,.sg.e7{background:var(--e7)}
+.sw.k1,.sg.k1{background:var(--k1)}.sw.k2,.sg.k2{background:var(--k2)}.sw.k3,.sg.k3{background:var(--k3)}.sw.k4,.sg.k4{background:var(--k4)}
+.sw.k5,.sg.k5{background:var(--k5)}.sw.k6,.sg.k6{background:var(--k6)}.sw.k7,.sg.k7{background:var(--k7)}.sw.k8,.sg.k8{background:var(--k8)}
+.sw.unv{background:repeating-linear-gradient(45deg,var(--unv) 0 2px,transparent 2px 5px);border:1px solid var(--unv)}
+.sw.gA{background:var(--gA)}.sw.gB{background:var(--gB)}.sw.gC{background:var(--gC)}.sw.gD{background:var(--gD)}
+.hbars{margin:6px 0}
+.hb{display:grid;grid-template-columns:minmax(120px,34%) 1fr;gap:8px;align-items:center;padding:4px 0;font-size:.88rem;border-bottom:1px dotted var(--line)}
+.ht{display:flex;align-items:center;height:18px;min-width:0}.ht .sg{display:block;height:100%}.ht b{margin-left:6px;font-variant-numeric:tabular-nums}
+.mrow{display:grid;grid-template-columns:minmax(110px,22%) 1fr;gap:8px;align-items:center;padding:4px 0;border-bottom:1px dotted var(--line)}
+.ml{font-size:.88rem;line-height:1.25}
+.mt{display:flex;height:24px;border-radius:4px;overflow:hidden;min-width:0}
+.mt .sg{display:flex;align-items:center;justify-content:center;color:#fff;font-size:.72rem;font-weight:700;min-width:0;overflow:hidden}
+@media (prefers-color-scheme:dark){.mt .sg{color:#10141a}}
+.units{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px;margin:8px 0}
+a.st{display:grid;grid-template-columns:auto 1fr;gap:0 8px;padding:6px 8px;border:1px solid var(--line);border-left:5px solid;border-radius:6px;text-decoration:none;color:var(--fg);background:var(--bg)}
+a.st.gA{border-left-color:var(--gA)}a.st.gB{border-left-color:var(--gB)}a.st.gC{border-left-color:var(--gC)}a.st.gD{border-left-color:var(--gD)}
+a.st .sn{grid-row:span 2;font-size:1.5rem;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.1}
+a.st .sl{font-size:.85rem;font-weight:600;line-height:1.2}
+a.st .su{display:flex;flex-wrap:wrap;gap:2px;margin-top:4px}a.st .su i{width:6px;height:6px;border-radius:1px;background:currentColor}
+a.st.gA .su i{background:var(--gA)}a.st.gB .su i{background:var(--gB)}a.st.gC .su i{background:var(--gC)}a.st.gD .su i{background:var(--gD)}
+svg .hpb{fill:var(--card)}svg .hpl{stroke:var(--unv);stroke-width:2.2}
+ol.rules code{font-size:.75rem;word-break:break-all}
 @media (max-width:640px){.brow{grid-template-columns:1fr;gap:2px}.toc{columns:1}main{padding:8px}section,nav{padding:12px}details.case dl{grid-template-columns:1fr}}
 """
 
@@ -921,8 +1327,9 @@ page = f'''<!doctype html>
 <title>Brazil: public wealth moving into private hands</title>
 <style>{CSS}</style></head>
 <body><main id="top">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><pattern id="hatch" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect class="hpb" width="5" height="5"/><line class="hpl" x1="0" y1="0" x2="0" y2="5"/></pattern></defs></svg>
 <h1 id="title">Brazil: when public wealth and power moved into private hands</h1>
-<p class="sub">A profile of what marks such a deal, and the record from 1500 to 2026. Built from the data files by build.py. Disasters are on a <a href="disasters.html">separate page</a>.</p>
+<p class="sub">A profile of what marks such a deal, and the record from 1500 to 2026. Built from the data files by build.py. Disasters are on a <a href="disasters.html">separate page</a>. Timeline charts: <a href="timeline-charts.html">full-size page</a>.</p>
 {"".join(parts)}
 <p class="muted small">Generated by build.py from data/g1–g7 (cases) and data/g8–g10 (disasters). Every figure carries its source and fact-check status.</p>
 </main></body></html>

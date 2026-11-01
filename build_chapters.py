@@ -8,6 +8,7 @@ import ast
 import collections
 import html
 import json
+import math
 import os
 import re
 import unicodedata
@@ -169,17 +170,29 @@ def near(pts, y, tol=2):
 
 
 def spark(pts, a, b, sy, ey):
+    """Series curve with the term shaded; dots and value labels at the inherited (a) and handed-over (b) points."""
     ys = sorted(pts)
     lo, hi = min(pts.values()), max(pts.values())
     y0, y1 = ys[0], ys[-1]
-    w, h = 120, 28
-    X = lambda y: 2 + (y - y0) / max(1, y1 - y0) * (w - 4)
-    Y = lambda v: h - 3 - (v - lo) / ((hi - lo) or 1) * (h - 6)
+    w, h, px, pt, pb = 260, 64, 4, 16, 6
+    X = lambda y: px + (y - y0) / max(1, y1 - y0) * (w - 2 * px)
+    Y = lambda v: pt + (1 - (v - lo) / ((hi - lo) or 1)) * (h - pt - pb)
     line = " ".join(f"{X(y):.1f},{Y(pts[y]):.1f}" for y in ys)
-    sx0, sx1 = X(max(a, y0)), X(min(b, y1))
+    sx0, sx1 = X(max(sy, y0)), X(min(ey, y1))
+    lab = ""
+    for yy, anc, dx in ((a, "end", -5), (b, "start", 5)):
+        if yy in pts:
+            x, yv = X(yy), Y(pts[yy])
+            if anc == "end" and x < 40:
+                anc, dx = "start", 5
+            if anc == "start" and x > w - 40:
+                anc, dx = "end", -5
+            lab += (f'<circle class="sp-d" cx="{x:.1f}" cy="{yv:.1f}" r="2.8"/>'
+                    f'<text class="sp-v" x="{x + dx:.1f}" y="{max(11, yv - 5):.1f}" text-anchor="{anc}">{fmt(pts[yy])}</text>')
     return (f'<svg class="spark" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" aria-label="Series {y0} to {y1}, term {sy} to {ey} shaded">'
             f'<rect class="sp-t" x="{sx0:.1f}" y="0" width="{max(2, sx1 - sx0):.1f}" height="{h}"/>'
-            f'<polyline class="sp-l" points="{line}"/></svg>')
+            f'<polyline class="sp-l" points="{line}"/>{lab}'
+            f'<text class="sp-a" x="{px}" y="{h - 1}">{y0}</text><text class="sp-a" x="{w - px}" y="{h - 1}" text-anchor="end">{y1}</text></svg>')
 
 
 def term_numbers(t):
@@ -201,7 +214,7 @@ def term_numbers(t):
             rows.append(f'<tr><th scope="row">{esc(label)}<br><span class="small muted">{esc(unit)}</span></th>'
                         f'<td class="nw">{fmt(va)}<br><span class="small muted">{a}</span></td>'
                         f'<td class="nw">{fmt(vb)}<br><span class="small muted">{b}</span></td>'
-                        f'<td class="nw">{ch:+.2f}{pct}</td><td>{spark(pts, sy, ey_eff, sy, ey_eff)}</td>'
+                        f'<td class="nw">{ch:+.2f}{pct}</td><td>{spark(pts, a, b, sy, ey_eff)}</td>'
                         f'<td class="small">{src(S[sid].get("source_url"), S[sid].get("source_title") or "source")}</td></tr>')
             found += 1
             done = True
@@ -353,15 +366,16 @@ def role_bar(counts):
     return f'<div class="rolebar" role="img" aria-label="Deals by role">{segs}</div><p class="small legend">{leg}</p>'
 
 
-def deal_row_classified(c):
+def deal_row_classified(c, rid=None):
     ds = " ".join(f'<a href="../disasters.html#{esc(x)}">{esc(DIS_BY_ID[x]["name"])}</a>' if x in DIS_PAGE_IDS and x in DIS_BY_ID else "" for x in c.get("disasters") or [])
     money = f'{esc(c.get("money") or "no figure")} {money_pill(c.get("money_status"))}'
-    return (f'<tr><td class="nw">{esc(c.get("year"))}</td><td>{case_a(c["id"], c["id"] + ": " + c["title"])}</td>'
+    ida = f' id="{esc(rid)}"' if rid else ""
+    return (f'<tr{ida}><td class="nw">{esc(c.get("year"))}</td><td>{case_a(c["id"], c["id"] + ": " + c["title"])}</td>'
             f'<td>{first_sentence(c.get("who_got"))}</td><td>{first_sentence(c.get("who_paid"))}</td>'
             f'<td>{money}</td><td class="small">{esc(c.get("reason"))}</td></tr>')
 
 
-def role_tables(cases, tid_prefix):
+def role_tables(cases, tid_prefix, tp):
     by = collections.defaultdict(list)
     for c in cases:
         by[c["role"]].append(c)
@@ -375,7 +389,7 @@ def role_tables(cases, tid_prefix):
         else:
             rows = sorted(rows, key=lambda c: (str(c.get("year")), c["id"]))
         tbl = ('<div class="tw"><table class="ledger"><thead><tr><th>Year</th><th>Deal</th><th>Who got</th><th>Who paid</th><th>Money</th><th>Reason</th></tr></thead><tbody>'
-               + "".join(deal_row_classified(c) for c in rows) + "</tbody></table></div>")
+               + "".join(deal_row_classified(c, f"{tp}-d-{c['id']}") for c in rows) + "</tbody></table></div>")
         sid = f"{tid_prefix}-{r}"
         if r == "context-only":
             out.append(f'<details id="{sid}" class="role"><summary><h4 id="{sid}-h">{esc(ROLE_TEXT[r])} ({len(rows)})</h4></summary>{tbl}</details>')
@@ -399,12 +413,19 @@ def ledger_cases(tid):
     return deals, ongoing
 
 
-def ledger_html(tid):
+def ledger_html(tid, tp):
     deals, ongoing = ledger_cases(tid)
+    seen = set()
+
+    def rid(c):
+        if c["id"] in seen:
+            return ""
+        seen.add(c["id"])
+        return f' id="{esc(tp)}-d-{esc(c["id"])}"'
     out = ['<div class="callout"><strong>Roles are not classified yet</strong> for this president (started, continued, reversed, and so on). This is the plain ledger of deals signed in the term.</div>']
     if deals:
         out.append('<div class="tw"><table class="ledger"><thead><tr><th>Year</th><th>Deal</th><th>Who got</th><th>Who paid</th><th>Key figure</th></tr></thead><tbody>'
-                   + "".join(f'<tr><td class="nw">{y}</td><td>{case_a(c["id"], c["id"] + ": " + c["title"])}'
+                   + "".join(f'<tr{rid(c)}><td class="nw">{y}</td><td>{case_a(c["id"], c["id"] + ": " + c["title"])}'
                              + (f'<br><span class="small muted">{esc(n)}</span>' if n else "") + f'</td><td>{first_sentence(c.get("who_got"))}</td>'
                              f'<td>{first_sentence(c.get("who_paid"))}</td><td>{key_figure(c)}</td></tr>' for y, c, n in deals)
                    + "</tbody></table></div>")
@@ -476,6 +497,390 @@ def foreign_html(case_ids, name):
     return "".join(out), len(fx) + len(ties)
 
 
+# ------------------------------------------------------------------ charts (inline SVG / CSS, generated from data)
+def fig(fid, title, body, source, empty):
+    """One chart: takeaway title, body, source line. Empty body -> a short 'no data yet' note."""
+    if not body:
+        body = f'<p class="nodata">No data yet: {esc(empty)}</p>'
+    return (f'<figure id="{esc(fid)}" class="chart"><figcaption>{esc(title)}</figcaption>{body}'
+            f'<p class="fsrc small muted">Source: {source}</p></figure>')
+
+
+YR = re.compile(r"\b(1[5-9]\d\d|20\d\d)\b")
+MONTHS = {m: i for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
+
+
+def span(t):
+    """Years drawn on chart axes: start year to the last year in office (the year before, if it ended in January-March)."""
+    ey = td.term_ref_years(t)[1]
+    ey = td.TODAY.year if ey is None else ey
+    return t["_start"].year, max(t["_start"].year, ey)
+
+
+def deal_year(c, t):
+    """First 4-digit year of the deal's 'year' text that falls inside the term; else the first year clamped to the term."""
+    ys = [int(y) for y in YR.findall(str(c.get("year") or ""))]
+    lo, hi = span(t)
+    for y in ys:
+        if lo <= y <= hi:
+            return y
+    return min(max(ys[0], lo), hi) if ys else lo
+
+
+def trunc(s, n):
+    s = s or ""
+    return s if len(s) <= n else s[:n - 1].rstrip() + "…"
+
+
+def role_k(role):
+    return f"k{ROLE_ORDER.index(role)}" if role in ROLE_ORDER else "kn"
+
+
+STRIP_RULE = "one dot per deal at the first year of its date that falls in the term (ranges that start earlier sit at the term start)."
+SIZE_RULE = {True: " Dot area follows the money figure in R$ bn; hollow dots have no figure.", False: " All dots are one size: money is not converted to R$ bn for this president."}
+
+
+def strip_svg(segs):
+    """segs: [(lo, hi, label, items)]; item = dict(y, title, role, m, href). Broken axis: one segment per term."""
+    if not any(s[3] for s in segs):
+        return ""
+    allm = [i["m"] for s in segs for i in s[3] if i.get("m")]
+    mx = max(allm) if allm else 1
+    R = lambda m: 4 + 9 * math.sqrt(m / mx) if m else 5
+    W, gap, pad = 640, 22, 10
+    spans = [s[1] - s[0] + 1 for s in segs]
+    unit = (W - 2 * pad - gap * (len(segs) - 1)) / sum(spans)
+    x0, lay, segl, maxh = pad, [], [], 0
+    for (lo, hi, lab, items), sp in zip(segs, spans):
+        by = collections.defaultdict(list)
+        for it in items:
+            by[it["y"]].append(it)
+        for y, lst in by.items():
+            lst.sort(key=lambda i: -(i.get("m") or 0))
+            h = 0
+            for it in lst:
+                r = R(it.get("m"))
+                lay.append((x0 + (y - lo + .5) * unit, h + r, r, it))
+                h += 2 * r + 3
+            maxh = max(maxh, h)
+        segl.append((x0, sp * unit, lo, hi, lab))
+        x0 += sp * unit + gap
+    top = 20
+    ax = top + maxh + 4
+    H = ax + 22
+    o = [f'<svg class="ch-svg" viewBox="0 0 {W} {H:.0f}" role="img" aria-label="Deals by year">']
+    for sx, sw, lo, hi, lab in segl:
+        o.append(f'<line class="ch-ax" x1="{sx:.1f}" y1="{ax:.1f}" x2="{sx + sw:.1f}" y2="{ax:.1f}"/>')
+        if len(segl) > 1:
+            o.append(f'<text class="ch-t ch-b" x="{sx + 2:.1f}" y="13">{esc(lab)}</text>')
+        step = 1 if unit >= 34 else 2 if unit >= 17 else 5
+        for y in range(lo, hi + 1):
+            if (y - lo) % step == 0 or y == hi and unit >= 20:
+                x = sx + (y - lo + .5) * unit
+                o.append(f'<line class="ch-ax" x1="{x:.1f}" y1="{ax:.1f}" x2="{x:.1f}" y2="{ax + 4:.1f}"/><text class="ch-t ch-m" x="{x:.1f}" y="{ax + 16:.1f}" text-anchor="middle">{y}</text>')
+    for x, cy, r, it in lay:
+        cls = role_k(it.get("role")) + ("" if it.get("m") or it.get("role") is None else " u")
+        tip = f'{it["y"]}: {it["title"]}' + (f' (R$ {it["m"]:g} bn)' if it.get("m") else "") + (f', {it["role"]}' if it.get("role") else "")
+        o.append(f'<a href="{esc(it["href"])}"><title>{esc(tip)}</title><circle class="ch-dot {cls}" cx="{x:.1f}" cy="{ax - 3 - cy:.1f}" r="{r:.1f}"/></a>')
+    o.append("</svg>")
+    keys = collections.Counter(it.get("role") for s in segs for it in s[3])
+    key = " ".join(f'<span class="ch-key"><i class="ch-sw {role_k(r)}"></i>{esc(r or "signed (role not classified)")} <b>{n}</b></span>'
+                   for r, n in sorted(keys.items(), key=lambda kv: ROLE_ORDER.index(kv[0]) if kv[0] in ROLE_ORDER else 99))
+    return f'<div class="ch-box"><div class="ch-in">{"".join(o)}</div></div><p class="small ch-keys">{key}</p>'
+
+
+# money kind: keyword rules on the money text, first match wins
+MONEY_KIND = [
+    ("loan volume", r"\bloan|bndes|disburs|financ|credit|treasury transfer"),
+    ("revenue given up", r"forg[ao]|forgone|waiver|exempt|tax break|not collected"),
+    ("price or payment", r"\bpaid|bought|bonus|price|outorga|purchase|\bfor \d"),
+]
+
+
+def money_kind(txt):
+    t = (txt or "").lower()
+    for k, rx in MONEY_KIND:
+        if re.search(rx, t):
+            return k
+    return "other figure"
+
+
+def money_html(cs, href):
+    have = sorted([c for c in cs if c.get("money_brl_bn")], key=lambda c: -c["money_brl_bn"])
+    none = [c for c in cs if not c.get("money_brl_bn")]
+    if not have:
+        return ""
+    mx = have[0]["money_brl_bn"]
+    rows = []
+    for c in have:
+        v = c["money_brl_bn"]
+        ok = c.get("money_status") == "verified"
+        w = max(1.5, v / mx * 100)
+        vs = f"{v:,.1f}" if v >= 1 else f"{v:,.3g}"
+        rows.append(f'<div class="mrow"><div class="mlab"><a href="{esc(href(c))}">{esc(trunc(c["title"], 70))}</a></div>'
+                    f'<div class="mtr"><span class="mbar{"" if ok else " unv"}" style="width:{w:.1f}%"></span>'
+                    f'<span class="mval">R$ {vs} bn · {esc(money_kind(c.get("money")))}{"" if ok else " · " + esc(c.get("money_status") or "unverified")}</span></div></div>')
+    kinds = collections.Counter(money_kind(c.get("money")) for c in have)
+    note = ""
+    if len(kinds) > 1:
+        note = (f'<p class="callout small"><strong>Not all comparable.</strong> These bars mix {", ".join(f"{k} ({n})" for k, n in kinds.items())}. '
+                'A loan volume is money lent (it can be repaid); a price is money paid; revenue given up is tax or debt not collected.</p>')
+    miss = ('<p class="small muted">No money figure: ' + "; ".join(f'<a href="{esc(href(c))}">{esc(trunc(c["title"], 50))}</a>' for c in none) + "</p>") if none else ""
+    rules = ('<details class="small"><summary>How the kind label is chosen</summary><ul class="pl">'
+             + "".join(f'<li><strong>{esc(k)}</strong>: money text matches <code>{esc(rx)}</code></li>' for k, rx in MONEY_KIND)
+             + '<li>otherwise: <strong>other figure</strong></li></ul></details>')
+    return f'<div class="mbars">{"".join(rows)}</div>{note}{miss}{rules}'
+
+
+# receiver type: keyword rules on the first sentence of who_got, first match wins
+WHO_RULES = [
+    ("foreign", r"foreign|multinational|transnational|international|modec|paraguay|bolivia|argentin|venezuel|shell|total\b|cnpc|cnooc|chevron|exxon|alcoa|japanese|portug|chinese|british|american|french|german|spanish|big tech|petrogal|\bus\b|\buk\b"),
+    ("banks and funds", r"\bbank|banco|financ|fgc|creditor|bondholder|\bfip\b|\bfund"),
+    ("landholders", r"\bland|occupant|farmer|rancher|agribusiness|planter|grile|estate owner|latifund"),
+    ("contractors", r"consorti|contractor|construct|odebrecht|camargo|andrade|\boas\b|engineering|shipyard|builder"),
+    ("state or public body", r"state-controlled|state compan|state-owned|public compan|municipal|eletro|petrobras \(state"),
+    ("domestic private", r"group|grupo|firm|compan|famil|private|shareholder|investor|owner|controller|industr|merchant|\bs\.a\.|ltda"),
+]
+WHO_K = {k: f"g{i}" for i, (k, _rx) in enumerate(WHO_RULES)}
+WHO_K["other or not stated"] = "g6"
+
+
+def who_type(txt):
+    s = (txt or "").strip()
+    m = re.match(r"(.+?[.;])(\s|$)", s)
+    s = (m.group(1) if m else s).lower()
+    for k, rx in WHO_RULES:
+        if re.search(rx, s):
+            return k
+    return "other or not stated"
+
+
+def who_html(cs, href):
+    if not cs:
+        return ""
+    by = collections.OrderedDict((k, []) for k in list(WHO_K))
+    for c in cs:
+        by[who_type(c.get("who_got"))].append(c)
+    tot = len(cs)
+    segs = "".join(f'<span class="wseg {WHO_K[k]}" style="width:{len(v) / tot * 100:.2f}%" title="{esc(k)}: {len(v)}"></span>' for k, v in by.items() if v)
+    lst = "".join(f'<li><span class="ch-key"><i class="ch-sw {WHO_K[k]}"></i><strong>{esc(k)}</strong> <b>{len(v)}</b></span>: '
+                  + "; ".join(f'<a href="{esc(href(c))}" title="{esc(c.get("who_got"))}">{esc(trunc(first_sent(c.get("who_got")), 60))}</a>' for c in v) + "</li>"
+                  for k, v in by.items() if v)
+    rules = ('<details class="small"><summary>The keyword rules (first match wins, on the first sentence of "who got")</summary><ol class="pl">'
+             + "".join(f'<li><strong>{esc(k)}</strong>: <code>{esc(rx)}</code></li>' for k, rx in WHO_RULES)
+             + '<li>otherwise: <strong>other or not stated</strong></li></ol></details>')
+    return f'<div class="wbar" role="img" aria-label="Deals by receiver type">{segs}</div><ul class="pl wlist">{lst}</ul>{rules}'
+
+
+def first_sent(s):
+    s = (s or "").strip()
+    m = re.match(r"(.+?[.;])(\s|$)", s)
+    return m.group(1).rstrip(".;") if m else s
+
+
+def chain_html(cs, fol, href, t):
+    """deal box -> its later disaster boxes (year, deaths)."""
+    if not fol:
+        return ""
+    per = collections.OrderedDict()
+    for d, cids in sorted(fol.values(), key=lambda x: (x[0]["_y"] or 0, x[0]["id"])):
+        for cid in cids:
+            per.setdefault(cid, []).append(d)
+    known = {c["id"]: c for c in cs}
+    rows = []
+    for cid, ds in per.items():
+        c = known.get(cid) or CASE.get(cid, {"id": cid, "title": cid})
+        dy = deal_year(c, t)
+        dbox = []
+        for d in ds:
+            n = td.deaths_count(d.get("deaths"))
+            dt = "no death count" if n is None else ("no deaths recorded" if n == 0 else f"{n:,} dead")
+            inner = f'<span class="cy">{d["_y"]}</span> {esc(trunc(d.get("name"), 70))}<br><strong class="cd">{esc(dt)}</strong>'
+            dbox.append(f'<a class="cbox dis" href="../disasters.html#{esc(d["id"])}">{inner}</a>' if d["id"] in DIS_PAGE_IDS else f'<span class="cbox dis">{inner}</span>')
+        rows.append(f'<div class="crow"><a class="cbox deal" href="{esc(href(c))}"><span class="cy">{dy}</span> {esc(trunc(c["title"], 70))}</a>'
+                    f'<span class="carr" aria-hidden="true"></span><div class="cdis">{"".join(dbox)}</div></div>')
+    return f'<div class="chain">{"".join(rows)}</div>'
+
+
+
+def coalition_nums(x):
+    xs = x if isinstance(x, list) else [x] if isinstance(x, dict) else []
+    return [(e["value"], e.get("note") or e.get("source_title") or "", e) for e in xs if isinstance(e, dict) and num(e.get("value"))]
+
+
+def dotgrid(total, rows, vals):
+    """total seats as a column-major dot grid; vals = sorted coalition numbers (low solid, band to high lighter)."""
+    cols = math.ceil(total / rows)
+    s, r = 11, 4.2
+    W, H = cols * s + 4, rows * s + 24
+    lo = vals[0] if vals else 0
+    hi = vals[-1] if vals else 0
+    o = [f'<svg class="ch-svg" viewBox="0 0 {W} {H}" role="img" aria-label="{total} seats">']
+    for i in range(total):
+        cx, cy = 2 + (i // rows) * s + s / 2, (i % rows) * s + s / 2
+        cls = "gov" if i < lo else "gov2" if i < hi else "rest"
+        o.append(f'<circle class="ch-seat {cls}" cx="{cx:.1f}" cy="{cy:.1f}" r="{r}"/>')
+    half = total / 2
+    xh = 2 + (half / rows) * s
+    o.append(f'<line class="ch-half" x1="{xh:.1f}" y1="-2" x2="{xh:.1f}" y2="{rows * s + 3}"/>'
+             f'<text class="ch-t ch-m ch-big" x="{xh:.1f}" y="{rows * s + 17}" text-anchor="middle">half ({total // 2 + 1} = majority)</text></svg>')
+    return "".join(o)
+
+
+def defeat_marks(ent, t):
+    ds = ent.get("defeats") if isinstance(ent, dict) else None
+    if not ds:
+        return ""
+    lo, hi = span(t)
+    pts, nodate = [], []
+    for d in ds:
+        v = d.get("value") if isinstance(d, dict) else d
+        if not isinstance(v, str):
+            continue
+        ys = [int(y) for y in YR.findall(v) if lo <= int(y) <= hi]
+        if not ys and re.search(r"year one|first year", v, re.I):
+            ys = [lo]
+        (pts if ys else nodate).append((ys[0] if ys else None, v))
+    W, pad = 360, 22
+    X = lambda y: pad + (y - lo + .5) / (hi - lo + 1) * (W - 2 * pad)
+    o = [f'<svg class="ch-svg" viewBox="0 0 {W} 46" role="img" aria-label="Big defeats by year"><line class="ch-ax" x1="{pad}" y1="30" x2="{W - pad}" y2="30"/>']
+    for y in range(lo, hi + 1, 1 if hi - lo < 8 else 2):
+        o.append(f'<text class="ch-t ch-m" x="{X(y):.1f}" y="44" text-anchor="middle">{y}</text>')
+    cnt = collections.Counter()
+    for y, v in pts:
+        k = cnt[y]
+        cnt[y] += 1
+        x, yy = X(y) + (k - 0) * 12 - 0, 20
+        o.append(f'<g><title>{esc(v)}</title><path class="ch-def" d="M{x - 5:.1f},{yy - 5} l10,10 m0,-10 l-10,10"/></g>')
+    o.append("</svg>")
+    lst = "".join(f'<li><span class="ch-defk">✕</span> {esc(v)}</li>' for _y, v in pts + nodate)
+    return f'<p class="small ch-sub"><strong>Big defeats</strong> (✕ at the year in the text)</p><div class="ch-fit sm">{"".join(o)}</div><ul class="pl small">{lst}</ul>'
+
+
+def congress_html(ent, t, tp):
+    if not isinstance(ent, dict):
+        return "", []
+    cg = ent.get("congress") or {}
+    out = []
+    srcs = []
+    for key, total, rows, nm in (("camara", 513, 9, "Chamber of Deputies"), ("senado", 81, 9, "Senate")):
+        h = cg.get(key) or {}
+        vals = coalition_nums(h.get("coalition_seats"))
+        if not vals:
+            out.append(f'<div class="cg"><p class="small"><strong>{nm}</strong> ({total} seats): <span class="nodata">no data yet, no sourced coalition seat count.</span></p></div>')
+            continue
+        ns = sorted(v for v, _n, _e in vals)
+        lab = f'{ns[0]}' + (f'–{ns[-1]}' if ns[-1] != ns[0] else "")
+        pct = f'{ns[0] / total * 100:.0f}' + (f'–{ns[-1] / total * 100:.0f}' if ns[-1] != ns[0] else "")
+        notes = "; ".join(f'{v}: {esc(trunc(n, 80))}' for v, n, _e in vals)
+        srcs += [src(e.get("source_url"), e.get("source_title") or "source") for _v, _n, e in vals]
+        out.append(f'<div class="cg"><p class="small"><strong>{nm}</strong>: government coalition <strong>{lab} of {total}</strong> ({pct}%). '
+                   f'<span class="muted">{notes}</span></p><div class="ch-box"><div class="ch-in cgin">{dotgrid(total, rows, ns)}</div></div></div>')
+    dm = defeat_marks(ent, t)
+    body = "".join(out) + dm
+    return body, srcs
+
+
+def appr_points(ent):
+    pts = []
+    for a in (ent.get("approval") or []) if isinstance(ent, dict) else []:
+        v = a.get("value") if isinstance(a, dict) else None
+        if not isinstance(v, str) or (isinstance(a, dict) and a.get("status") == "unverified"):
+            continue
+        m = re.search(r"(\d{1,2})% ótimo/bom", v) or re.search(r"(\d{1,2})%", v)
+        y = YR.search(v)
+        if not m or not y:
+            continue
+        mo = re.search(r"\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.? (?:\d{4})", v, re.I)
+        month = MONTHS[mo.group(1).lower()] if mo else (12 if re.match(r"\s*end", v, re.I) else 1 if re.match(r"\s*start", v, re.I) else 6)
+        pts.append(dict(t=int(y.group(1)) + (month - .5) / 12, pct=int(m.group(1)), ob="ótimo/bom" in v, lab=v, a=a))
+    return sorted(pts, key=lambda p: p["t"])
+
+
+def approval_svg(segs):
+    """segs: [(lo, hi, label, points)]; broken axis, line joins points only inside one term."""
+    if not any(s[3] for s in segs):
+        return ""
+    W, gap, padl, padr = 480, 18, 46, 10
+    spans = [s[1] - s[0] + 1 for s in segs]
+    unit = (W - padl - padr - gap * (len(segs) - 1)) / sum(spans)
+    top, ph = 22 if len(segs) > 1 else 10, 120
+    Y = lambda p: top + ph - p / 100 * ph
+    H = top + ph + 22
+    o = [f'<svg class="ch-svg" viewBox="0 0 {W} {H}" role="img" aria-label="Approval points">']
+    for g in (0, 50, 100):
+        o.append(f'<line class="ch-grid" x1="{padl}" y1="{Y(g):.1f}" x2="{W - padr}" y2="{Y(g):.1f}"/><text class="ch-t ch-m" x="{padl - 4}" y="{Y(g) + 4:.1f}" text-anchor="end">{g}%</text>')
+    x0 = padl
+    star = False
+    for (lo, hi, lab, pts), sp in zip(segs, spans):
+        X = lambda tt, x0=x0, lo=lo: x0 + (tt - lo) * unit
+        o.append(f'<line class="ch-ax" x1="{x0:.1f}" y1="{top + ph:.1f}" x2="{x0 + sp * unit:.1f}" y2="{top + ph:.1f}"/>')
+        if len(segs) > 1:
+            o.append(f'<text class="ch-t ch-b" x="{x0 + 2:.1f}" y="13">{esc(lab)}</text>')
+        step = 1 if unit >= 44 else 2 if unit >= 22 else 5
+        for y in range(lo, hi + 1, step):
+            o.append(f'<text class="ch-t ch-m" x="{X(y + .5):.1f}" y="{top + ph + 16:.1f}" text-anchor="middle">{y}</text>')
+        if len(pts) > 1:
+            o.append('<polyline class="ch-line" points="' + " ".join(f"{X(p['t']):.1f},{Y(p['pct']):.1f}" for p in pts) + '"/>')
+        for p in pts:
+            star = star or not p["ob"]
+            o.append(f'<g><title>{esc(p["lab"])}</title><circle class="ch-ap" cx="{X(p["t"]):.1f}" cy="{Y(p["pct"]):.1f}" r="4"/>'
+                     f'<text class="ch-t ch-v" x="{X(p["t"]):.1f}" y="{Y(p["pct"]) - 8:.1f}" text-anchor="middle">{p["pct"]}%{"" if p["ob"] else "*"}</text></g>')
+        x0 += sp * unit + gap
+    o.append("</svg>")
+    note = '<p class="small muted">Points are Datafolha "ótimo/bom" (good or great) where the text gives it. * = the text gives "approve" instead; not the same measure. Only verified points are drawn.</p>'
+    return f'<div class="ch-fit">{"".join(o)}</div>' + note
+
+
+def courts_html(ent):
+    if not isinstance(ent, dict) or not isinstance(ent.get("courts"), dict):
+        return "", "", 0, 0
+    ap = [a for a in ent["courts"].get("appointed") or [] if isinstance(a, dict) and a.get("name")]
+    if not ap:
+        return "", "", 0, 0
+    seated = [a for a in ap if not re.search(r"never seated|rejected", str(a.get("note") or ""), re.I)]
+    out = [a for a in ap if a not in seated]
+    chips = [f'<span class="seatc on" title="{esc(a.get("value"))}"><b>{esc(a["name"])}</b><span class="small">{esc(a.get("year"))}</span></span>' for a in seated]
+    chips += [f'<span class="seatc off" title="{esc(a.get("note"))}"><b>{esc(a["name"])}</b><span class="small">{esc(a.get("year"))}, {esc(a.get("note") or "not seated")}</span></span>' for a in out]
+    chips += ['<span class="seatc"><span class="small muted">other</span></span>'] * max(0, 11 - len(seated) - len(out))
+    s = src(ap[0].get("source_url"), ap[0].get("source_title") or "source")
+    return f'<div class="seats11">{"".join(chips)}</div>', s, len(seated), len(out)
+
+
+def people_svg(t, ids, href_of):
+    pids = D["term_people"].get(t["id"], [])
+    ids = list(dict.fromkeys(ids))
+    links = []
+    for pid in pids:
+        for l in PEOPLE[pid]["case_links"]:
+            if l["case_id"] in ids:
+                links.append((pid, l["case_id"], l["basis"], l.get("role") or ""))
+    if not links:
+        return "", 0, 0
+    ps = list(dict.fromkeys(p for p, *_ in links))
+    cs = [c for c in ids if any(c == x for _p, x, *_ in links)]
+    pi = {p: i for i, p in enumerate(ps)}
+    cs.sort(key=lambda c: sum(pi[p] for p, x, *_ in links if x == c) / sum(1 for _p, x, *_ in links if x == c))
+    ci = {c: i for i, c in enumerate(cs)}
+    ps.sort(key=lambda p: sum(ci[x] for q, x, *_ in links if q == p) / sum(1 for q, *_ in links if q == p))
+    rh = 22
+    n = max(len(ps), len(cs))
+    H = n * rh + 10
+    W, xl, xr = 700, 200, 470
+    py = {p: 5 + (i + .5) * (n * rh / len(ps)) for i, p in enumerate(ps)}
+    cy = {c: 5 + (i + .5) * (n * rh / len(cs)) for i, c in enumerate(cs)}
+    o = [f'<svg class="ch-svg" viewBox="0 0 {W} {H}" role="img" aria-label="People and the deals they decided">']
+    for p, c, b, role in links:
+        o.append(f'<path class="ch-pl {"acted" if b == "documented-act" else "inoff"}" d="M{xl + 6},{py[p]:.1f} C{(xl + xr) / 2},{py[p]:.1f} {(xl + xr) / 2},{cy[c]:.1f} {xr - 6},{cy[c]:.1f}"><title>{esc(PEOPLE[p]["name"])}: {esc(role)} ({esc(td.BASIS_TEXT.get(b, b))})</title></path>')
+    for p in ps:
+        o.append(f'<a href="../timeline.html#{esc(td.person_anchor(p, t["id"]))}"><text class="ch-t ch-n" x="{xl}" y="{py[p] + 4:.1f}" text-anchor="end">{esc(trunc(PEOPLE[p]["name"], 28))}</text></a>')
+    for c in cs:
+        ti = CASE[c]["title"] if c in CASE else c
+        o.append(f'<a href="{esc(href_of(c))}"><text class="ch-t ch-n" x="{xr}" y="{cy[c] + 4:.1f}">{esc(c)} {esc(trunc(ti, 30))}</text></a>')
+    o.append("</svg>")
+    return f'<div class="ch-box"><div class="ch-in ppl">{"".join(o)}</div></div>', len(ps), len(cs)
+
+
 # ------------------------------------------------------------------ CSS
 def base_css():
     tree = ast.parse(open(os.path.join(ROOT, "build_timeline.py"), encoding="utf-8").read())
@@ -495,15 +900,57 @@ h1{font-size:2.1rem}h2{font-size:1.7rem;margin-bottom:.7em}h3{font-size:1.35rem;
 .subnav{display:flex;flex-wrap:wrap;gap:6px 14px;margin:.4em 0 1.2em}.subnav a{font-weight:600}
 .big{font-size:1.15rem;line-height:1.7}ul.facts li{margin:.7em 0}
 .rolebar{display:flex;height:18px;border-radius:9px;overflow:hidden;border:1px solid var(--line);margin:.5em 0}
-.seg{display:block;height:100%}.r0{background:var(--c1)}.r1{background:var(--c3)}.r2{background:var(--c2)}.r3{background:var(--rg-mil)}.r4{background:var(--c4)}.r5{background:var(--dk)}
+.seg{display:block;height:100%}.r0{background:var(--k0)}.r1{background:var(--k1)}.r2{background:var(--k2)}.r3{background:var(--k3)}.r4{background:var(--k4)}.r5{background:var(--k5)}
 .legend .lg{margin-right:12px;white-space:nowrap}.sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px}
 .bar{height:12px;background:var(--grid);border-radius:6px;overflow:hidden;margin:2px 0 8px}.bar span{display:block;height:100%;background:var(--c1)}
-.spark{display:block}.sp-t{fill:var(--shade);stroke:none}.sp-l{fill:none;stroke:var(--c1);stroke-width:1.5}
+.spark{display:block;max-width:none}.sp-t{fill:var(--shade);stroke:none}.sp-l{fill:none;stroke:var(--c1);stroke-width:1.8}.sp-d{fill:var(--fg)}.sp-v{fill:var(--fg);font-size:11px;font-weight:700}.sp-a{fill:var(--muted);font-size:9px}
 html[data-x]{}.sp-t{fill:rgba(255,180,84,.35)}
 table.num td,table.num th{white-space:nowrap}table.num th[scope=row]{white-space:normal;min-width:130px}
 .kv{margin:.25em 0}.term-block{border-left:6px solid var(--acc)}
 .cmp td,.cmp th{text-align:left}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}.cards a{display:block;padding:12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);text-decoration:none}
+/* chart palette: one set of variables, light and dark */
+:root{--k0:#1f5f99;--k1:#2f7d4f;--k2:#c0620e;--k3:#9b2d2d;--k4:#7a4aa8;--k5:#a7a29a;--kn:#4f5b66;--kgov:#1f5f99;--kgov2:#9cc0e0;--krest:#d4d0c6;--kunv:#8d8a84;--kdef:#c4001a;
+--g0:#1f5f99;--g1:#7a4aa8;--g2:#c0620e;--g3:#2f7d4f;--g4:#a8813a;--g5:#2c8a8a;--g6:#a7a29a}
+@media (prefers-color-scheme:dark){:root{--k0:#6cb0e6;--k1:#7fcf9b;--k2:#f0a35e;--k3:#e07a7a;--k4:#c4a0e8;--k5:#6b6760;--kn:#b8c2cc;--kgov:#6cb0e6;--kgov2:#2f557a;--krest:#3a4049;--kunv:#8f8b84;--kdef:#ff6b6b;
+--g0:#6cb0e6;--g1:#c4a0e8;--g2:#f0a35e;--g3:#7fcf9b;--g4:#d6b26a;--g5:#6fd0d0;--g6:#6b6760}}
+section:target,tr:target,figure:target{outline:3px solid #ffb454;outline-offset:8px;border-radius:8px}
+figure.chart{margin:16px 0;padding:12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);max-width:100%;min-width:0}
+figure.chart figcaption{font-weight:700;margin:0 0 .5em;line-height:1.35}
+.fsrc{margin:.5em 0 0}.nodata{color:var(--muted);font-style:italic;margin:.3em 0}
+.ch-box{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}.ch-in{min-width:520px}.ch-in.cgin{min-width:0;max-width:640px}.ch-in.ppl{min-width:600px}
+.ch-svg{display:block;width:100%;height:auto}.ch-fit{max-width:640px}.ch-fit.sm{max-width:480px}.ch-big{font-size:19px}
+tr,figure,section,h3,h4{scroll-margin-top:64px}
+.ch-t{fill:var(--fg);font:11px system-ui,-apple-system,sans-serif}.ch-m{fill:var(--muted)}.ch-b{font-weight:700}.ch-v{font-weight:700;font-size:12px}.ch-n{font-size:12px;fill:var(--acc)}
+.ch-ax{stroke:var(--muted);stroke-width:1}.ch-grid{stroke:var(--grid);stroke-width:1}
+.ch-dot{stroke-width:1.5;fill-opacity:.85}.ch-dot.u{fill-opacity:.12}a:hover .ch-dot,a:focus .ch-dot{stroke:var(--fg);stroke-width:2.5}
+.ch-dot.k0,.ch-sw.k0{fill:var(--k0);stroke:var(--k0);background:var(--k0)}.ch-dot.k1,.ch-sw.k1{fill:var(--k1);stroke:var(--k1);background:var(--k1)}
+.ch-dot.k2,.ch-sw.k2{fill:var(--k2);stroke:var(--k2);background:var(--k2)}.ch-dot.k3,.ch-sw.k3{fill:var(--k3);stroke:var(--k3);background:var(--k3)}
+.ch-dot.k4,.ch-sw.k4{fill:var(--k4);stroke:var(--k4);background:var(--k4)}.ch-dot.k5,.ch-sw.k5{fill:var(--k5);stroke:var(--k5);background:var(--k5)}
+.ch-dot.kn,.ch-sw.kn{fill:var(--kn);stroke:var(--kn);background:var(--kn)}
+.ch-key{margin-right:12px;white-space:nowrap}.ch-sw{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:4px;vertical-align:-1px}
+.mbars{display:grid;gap:8px}.mrow{display:grid;grid-template-columns:minmax(0,38%) minmax(0,1fr);gap:4px 12px;align-items:center}
+.mlab{font-size:.9rem;line-height:1.3}.mtr{display:flex;align-items:center;gap:6px;min-width:0}
+.mbar{display:block;height:16px;flex:0 0 auto;max-width:62%;background:var(--k0);border-radius:2px}
+.mbar.unv{background:repeating-linear-gradient(135deg,var(--kunv) 0 3px,transparent 3px 6px);border:1px solid var(--kunv)}
+.mval{font-size:.82rem;white-space:normal;font-variant-numeric:tabular-nums}
+.wbar{display:flex;height:22px;border-radius:4px;overflow:hidden;border:1px solid var(--line);margin:.3em 0 .6em}.wseg{display:block;height:100%}
+.g0{background:var(--g0)}.g1{background:var(--g1)}.g2{background:var(--g2)}.g3{background:var(--g3)}.g4{background:var(--g4)}.g5{background:var(--g5)}.g6{background:var(--g6)}
+.wlist li{margin:.35em 0;font-size:.9rem}
+.chain{display:grid;gap:10px}.crow{display:grid;grid-template-columns:minmax(0,1fr) 28px minmax(0,1.3fr);align-items:center}
+.cbox{display:block;padding:6px 10px;border-radius:6px;border:1px solid var(--line);background:var(--card);text-decoration:none;font-size:.88rem;line-height:1.35}
+.cbox.deal{border-left:5px solid var(--k0)}.cbox.dis{border-left:5px solid var(--kdef);margin:3px 0}
+.cy{font-weight:700;color:var(--fg)}.cd{color:var(--kdef)}
+.carr{height:2px;background:var(--muted);position:relative}.carr::after{content:"";position:absolute;right:-1px;top:-4px;border:5px solid transparent;border-left:7px solid var(--muted);border-right:0}
+.ch-seat.gov{fill:var(--kgov)}.ch-seat.gov2{fill:var(--kgov2)}.ch-seat.rest{fill:var(--krest)}
+.ch-half{stroke:var(--fg);stroke-width:1.5;stroke-dasharray:4 3}.ch-def{stroke:var(--kdef);stroke-width:2.5;fill:none}.ch-defk{color:var(--kdef);font-weight:700}
+.cg{margin:.4em 0 .8em}.ch-sub{margin:.6em 0 .2em}
+.ch-line{fill:none;stroke:var(--k0);stroke-width:2}.ch-ap{fill:var(--k0);stroke:var(--card);stroke-width:1.5}
+.seats11{display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:6px}
+.seatc{display:flex;flex-direction:column;justify-content:center;min-height:52px;padding:5px 8px;border-radius:26px;border:2px solid var(--krest);text-align:center;font-size:.82rem;line-height:1.2}
+.seatc.on{background:var(--kgov);border-color:var(--kgov);color:var(--card)}.seatc.off{border-style:dashed;border-color:var(--kgov)}
+.ch-pl{fill:none;stroke-width:1.6;opacity:.8}.ch-pl.acted{stroke:var(--k2)}.ch-pl.inoff{stroke:var(--muted);stroke-dasharray:5 4}
+@media (max-width:640px){.mrow{grid-template-columns:1fr}.crow{grid-template-columns:1fr}.carr{width:2px;height:16px;margin:2px 0 2px 18px}.carr::after{right:-4px;top:auto;bottom:-2px;border:5px solid transparent;border-top:7px solid var(--muted);border-bottom:0}figure.chart{padding:8px}.ch-fit .ch-t{font-size:15px}.ch-fit .ch-v{font-size:16px}}
 code{font-size:.85em}
 @media (max-width:640px){h1{font-size:1.6rem}h2{font-size:1.4rem}section{padding:14px 12px;margin:24px 0}table.num td,table.num th{white-space:normal}}
 """
@@ -530,6 +977,7 @@ def build_chapter(P):
     all_case_ids = []
     all_dis = collections.OrderedDict()
     tblocks, overview = [], []
+    strip_segs, appr_segs = [], []
     totals = {"deals": 0, "people": 0, "deaths": 0}
     for t in terms:
         k = tshort(t)
@@ -538,14 +986,49 @@ def build_chapter(P):
         if classified is not None:
             cs = [c for c in classified if t["id"] in c["terms"]]
             n_by = collections.Counter(c["role"] for c in cs)
-            deals_html = role_tables(cs, f"{tp}-deals") if cs else '<p class="muted">No classified deal for this term.</p>'
+            deals_html = role_tables(cs, f"{tp}-deals", tp) if cs else '<p class="muted">No classified deal for this term.</p>'
             started = [c for c in cs if c["role"] == "started"]
             ids = [c["id"] for c in cs if c["role"] != "context-only"]
             n_deals, n_main = len(cs), len(started)
+            rows_here = {c["id"] for c in cs}
+            strip_cs = [(deal_year(c, t), c, c["role"], c.get("money_brl_bn")) for c in cs if c["role"] != "context-only"]
+            money_cs = started
+            who_cs = [c for c in cs if c["role"] not in ("context-only", "relief-or-public-side")]
+            src_deals = f'roles and money from <code>data/{esc(slug)}-deals.json</code>'
         else:
-            deals_html, n_deals, lc = ledger_html(t["id"])
+            deals_html, n_deals, lc = ledger_html(t["id"], tp)
             ids = [c["id"] for c in lc]
             n_by, n_main = None, n_deals
+            dl, _ong = ledger_cases(t["id"])
+            rows_here = {c["id"] for _y, c, _n in dl}
+            strip_cs = list({c["id"]: ((y if isinstance(y, int) and span(t)[0] <= y <= span(t)[1] else deal_year(c, t)), c, None, None)
+                             for y, c, _n in reversed(dl)}.values())
+            money_cs = None
+            who_cs = lc
+            src_deals = "the case ledger (data/g*.json), deals signed in the term"
+        href = (lambda c, tp=tp, rh=rows_here: f"#{tp}-d-{c['id']}" if c["id"] in rh else f"../index.html#{c['id']}")
+        hid = (lambda cid, href=href: href({"id": cid}))
+        tyrs = term_years(t)
+        items = [dict(y=y, title=c["title"], role=r, m=m, href=href(c), cid=c["id"]) for y, c, r, m in sorted(strip_cs, key=lambda x: (x[0], x[1]["id"]))]
+        strip_segs.append((*span(t), tyrs, items))
+        nrole = collections.Counter(i["role"] for i in items)
+        f_strip = fig(f"{tp}-f-strip", f"{len(items)} deals in {tyrs}, placed by year" + (": " + ", ".join(f"{n} {r}" for r, n in nrole.items()) if classified is not None else ""),
+                      strip_svg([(*span(t), tyrs, items)]), f"{src_deals}. Rule: {STRIP_RULE}{SIZE_RULE[classified is not None]} Click a dot for its row.", "no dated deal for this term.")
+        if money_cs is None:
+            f_money = fig(f"{tp}-f-money", f"Money moved by the deals of {tyrs}", "", "case ledger.",
+                          "roles are not classified for this president, so money is not converted to R$ bn and the started deals are not marked.")
+        else:
+            mh = [c for c in money_cs if c.get("money_brl_bn")]
+            big = max(mh, key=lambda c: c["money_brl_bn"]) if mh else None
+            f_money = fig(f"{tp}-f-money", (f"{len(mh)} of {len(money_cs)} deals started in {tyrs} have a figure in R$ bn; the largest is {trunc(big['title'], 60)}, R$ {big['money_brl_bn']:,.1f} bn"
+                                            if big else f"Money moved by the deals started in {tyrs}"),
+                          money_html(money_cs, href), f"{src_deals} (<code>money_brl_bn</code>, nominal). Grey hatched bars are not verified (unverified, corrected, disputed or only in the case text) and are drawn at face value.",
+                          "no deal started in this term has a money figure in R$ bn.")
+        wc = collections.Counter(who_type(c.get("who_got")) for c in who_cs)
+        wtop = wc.most_common(1)[0] if wc else None
+        f_who = fig(f"{tp}-f-who", (f"Largest receiver group in {tyrs}: {wtop[0]}, {wtop[1]} of {len(who_cs)} deals" if wtop else f"Who got the deals of {tyrs}"),
+                    who_html(who_cs, href), f'"who got" text of each deal ({src_deals}), sorted by the keyword rules shown.' + (" Relief and context-only deals are left out." if classified is not None else ""),
+                    "no deal for this term.")
         all_case_ids += [i for i in ids if i not in all_case_ids]
         fol = followed_rows(ids)
         for did, v in fol.items():
@@ -555,6 +1038,36 @@ def build_chapter(P):
         nh, nfound = term_numbers(t)
         pwh, real = power_html(pw, t)
         pw_real = pw_real or real
+        pdeaths = deaths
+        f_chain = fig(f"{tp}-f-chain", (f"{len(fol)} later disasters are linked to deals of {tyrs}, with {pdeaths:,} deaths recorded" if fol else f"Deals of {tyrs} followed by disasters"),
+                      chain_html(cs if classified is not None else lc, fol, href, t),
+                      "disaster files matched to the cases by text plus hand overrides (timeline_data.py). This shows order in time, not proof of cause.",
+                      "no disaster is linked to these deals.")
+        ent, _ = power_for_term(pw, t)
+        cgh, cgs = congress_html(ent, t, tp)
+        cam = coalition_nums(((ent or {}).get("congress") or {}).get("camara", {}).get("coalition_seats")) if isinstance(ent, dict) else []
+        if cam:
+            ns = sorted(v for v, _n, _e in cam)
+            ctitle = f"Government coalition in {tyrs}: {ns[0]}" + (f"–{ns[-1]}" if ns[-1] != ns[0] else "") + f" of 513 deputies; majority is 257"
+        else:
+            ctitle = f"Congress strength in {tyrs}"
+        f_cong = fig(f"{tp}-f-congress", ctitle, cgh if cam or (ent and ent.get("defeats")) else "",
+                     (" · ".join(dict.fromkeys(cgs)) or f"<code>data/power-{esc(slug)}.json</code>") + ". Dark = the lower count, lighter = up to the higher count (different counting methods or dates); grey = the rest.",
+                     f"no sourced coalition seat count for this term (data/power-{slug}.json).")
+        aps = appr_points(ent)
+        appr_segs.append((*span(t), tyrs, aps))
+        f_appr = fig(f"{tp}-f-approval", ("Approval in " + tyrs + ": " + ", ".join(f'{p["pct"]}% ({int(p["t"])})' for p in aps)) if aps else f"Approval in {tyrs}",
+                     approval_svg([(*span(t), tyrs, aps)]),
+                     " · ".join(dict.fromkeys(src(p["a"].get("source_url"), p["a"].get("source_title") or "source") for p in aps)) or f"<code>data/power-{esc(slug)}.json</code>",
+                     "no verified approval figure for this term.")
+        cth, cts, nseat, nout = courts_html(ent)
+        f_court = fig(f"{tp}-f-courts", (f"{name} named {nseat} of the 11 STF ministers in {tyrs}" + (f"; {nout} more nominee not seated" if nout else "")) if cth else f"Supreme Court seats named in {tyrs}",
+                      cth, (cts or f"<code>data/power-{esc(slug)}.json</code>") + ". Filled = named in this term; the other seats are not broken down.",
+                      "no list of court appointments for this term.")
+        pph, nps, ncs = people_svg(t, ids, hid)
+        f_ppl = fig(f"{tp}-f-people", (f"{nps} decision-makers are linked to {ncs} deals of {tyrs}" if pph else f"People and deals in {tyrs}"),
+                    pph, "case links in the people files (data/people-e*.json). Solid line = acted (documented act); dashed = in office at the time. Click a name or a deal.",
+                    "no person in the people files is linked to these deals.")
         sy, ey = td.term_ref_years(t)
         pws = ""
         ptxt = ""
@@ -567,10 +1080,10 @@ def build_chapter(P):
         tblocks.append(f'''<section id="{tp}" class="term-block"><h2 id="{tp}-h">{esc(name)}, {term_years(t)}{' <span class="flag">interim</span>' if t.get("interim") else ""}</h2>
 <p class="big"><strong>{esc(t["title"])}.</strong> {esc(t["how_came_to_power"])} <strong>Left:</strong> {esc(t["how_left"])}.</p>{mini}
 <p class="subnav"><a href="#{tp}-deals">Deals</a><a href="#{tp}-followed">What followed</a><a href="#{tp}-power">Power</a><a href="#{tp}-people">People</a><a href="#{tp}-numbers">Numbers</a><a href="#top">Top</a></p>
-<h3 id="{tp}-deals">Deals, {term_years(t)}</h3>{deals_html}
-<h3 id="{tp}-followed">What followed, {term_years(t)}</h3>{followed_table(fol)}
-<h3 id="{tp}-power">Who could help or block, {term_years(t)}</h3>{pwh}
-<h3 id="{tp}-people">The people who decided, {term_years(t)} ({n_people})</h3>{ph}
+<h3 id="{tp}-deals">Deals, {term_years(t)}</h3>{f_strip}{f_money}{f_who}{deals_html}
+<h3 id="{tp}-followed">What followed, {term_years(t)}</h3>{f_chain}{followed_table(fol)}
+<h3 id="{tp}-power">Who could help or block, {term_years(t)}</h3>{f_cong}{f_appr}{f_court}{pwh}
+<h3 id="{tp}-people">The people who decided, {term_years(t)} ({n_people})</h3>{f_ppl}{ph}
 <h3 id="{tp}-numbers">Inherited and handed over, {term_years(t)}</h3>{nh}<p class="callout">This is the situation they worked in, not a score.</p>
 <p class="small muted">Term sources: {sources or "none"}</p></section>''')
         overview.append(dict(t=t, tp=tp, n_deals=n_deals, n_main=n_main, n_by=n_by, n_dis=len(fol), deaths=deaths, n_people=n_people, real=real))
@@ -606,11 +1119,26 @@ def build_chapter(P):
             s = e.get("summary") if isinstance(e, dict) else None
             if s:
                 pw_sum.append(f'<li><strong>{term_years(t)}:</strong> {gen(s)}</li>')
+    seen_c, all_segs = set(), []
+    for lo, hi, lab, its in strip_segs:
+        keep = [i for i in its if i["cid"] not in seen_c]
+        seen_c.update(i["cid"] for i in keep)
+        all_segs.append((lo, hi, lab, keep))
+    nall = sum(len(x[3]) for x in all_segs)
+    f_all = fig("summary-strip", f"{nall} deals across {yrs}, one dot each at its year" + (", coloured by role" if classified is not None else ""),
+                strip_svg(all_segs), ("roles and money from <code>data/" + esc(slug) + "-deals.json</code>" if classified is not None else "the case ledger") + f". Rule: {STRIP_RULE}{SIZE_RULE[classified is not None]} The axis skips the years out of office. Click a dot for its row.",
+                "no dated deal in the data for these terms.")
+    f_all_ap = ""
+    if any(x[3] for x in appr_segs) and len(appr_segs) > 1:
+        aps_all = [p for x in appr_segs for p in x[3]]
+        f_all_ap = fig("summary-approval", "Approval across terms: " + ", ".join(f'{p["pct"]}% ({int(p["t"])})' for p in aps_all), approval_svg(appr_segs),
+                       " · ".join(dict.fromkeys(src(p["a"].get("source_url"), p["a"].get("source_title") or "source") for p in aps_all)) + ". Lines join points only inside one term.", "")
     summary = f'''<section id="summary"><h2 id="summary-h">{esc(name)} in one screen</h2>
+{f_all}
 <p class="lead big"><strong>{esc(P["full"])}</strong> held office in {len(terms)} term{"s" if len(terms) != 1 else ""}: {yrs}.</p>
 <h3 id="summary-how">How they came and left</h3><p>{ent}</p>
 <h3 id="summary-facts">The biggest facts</h3><ul class="facts big">{"".join(f"<li>{b}</li>" for b in bullets)}</ul>
-{('<h3 id="summary-power">Power, per term</h3><ul>' + "".join(pw_sum) + '</ul>') if pw_sum else ''}
+{('<h3 id="summary-power">Power, per term</h3><ul>' + "".join(pw_sum) + '</ul>') if pw_sum else ''}{f_all_ap}
 <p class="small muted">Plain facts from the sections below. No verdict.</p></section>'''
 
     # ---- overview (side by side)
