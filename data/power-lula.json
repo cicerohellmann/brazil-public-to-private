@@ -1,0 +1,1001 @@
+{
+  "schema_note": "Reusable per-president schema. Every leaf fact: {value, source_url, source_title, quote, status (verified|unverified), note?, searched? (for unverified)}. Quotes are the supporting text as extracted from the opened page; some quotes join fragments with … (...).",
+  "generated": "2026-11-02",
+  "terms": [
+    {
+      "term_id": "lula-1",
+      "president": "Luiz Inácio Lula da Silva",
+      "party": "PT",
+      "from": "2003-01-01",
+      "to": "2006-12-31",
+      "summary": "Lula took office as a minority president: PT had 90 of 513 deputies and his first formal coalition reached only about 219-248 deputies (43-48%), with no confirmed Senate majority. He held the Câmara presidency through João Paulo Cunha (PT) until 2005, when the backbench revolt elected Severino Cavalcanti 300 to 195 against the government's candidate. Votes were bought or bargained: the PGR charged 40 people over the Mensalão (2003-04 payments for allied-party support), which later became STF case AP 470. Budget power still sat with the president (amendments were not yet mandatory). He named six STF ministers in this term and kept a market-friendly Central Bank under Henrique Meirelles. The biggest checks were his thin, bought coalition and the Mensalão investigation by the PGR he himself appointed.",
+      "congress": {
+        "camara": {
+          "total": 513,
+          "party_seats": {
+            "PT": {
+              "value": 90,
+              "source_url": "https://www.congressoemfoco.com.br/noticia/87698/quadro-1",
+              "source_title": "Primeira coalizão de governo do presidente Lula (jan-dez 2003) (Congresso em Foco, dados Tendências/Câmara)",
+              "quote": "PT 90 ... PTB 41, PL 33, PSB 28, PDT 17, PPS 21, PCdoB 12, PV 6 ... total 248",
+              "status": "verified"
+            }
+          },
+          "coalition_seats": [
+            {
+              "value": 248,
+              "source_url": "https://www.congressoemfoco.com.br/noticia/87698/quadro-1",
+              "source_title": "Primeira coalizão de governo do presidente Lula (jan-dez 2003) (Congresso em Foco)",
+              "quote": "PT 90, PTB 41, PL 33, PSB 28, PDT 17, PPS 21, PCdoB 12, PV 6 - total 248",
+              "status": "verified",
+              "note": "First coalition, Jan-Dec 2003; 248/513 = 48%."
+            },
+            {
+              "value": 219,
+              "source_url": "https://www.cnnbrasil.com.br/politica/partidos-com-ministerios-no-governo-lula-representam-51-da-camara-dos-deputados/",
+              "source_title": "Partidos com ministérios no governo Lula representam 51% da Câmara dos Deputados (CNN Brasil)",
+              "quote": "Em 2003, Lula tinha 219 deputados aliados, segundo esses cálculos.",
+              "status": "verified",
+              "note": "Observatório do Legislativo Brasileiro count (parties holding ministries); 219/513 = 43%."
+            },
+            {
+              "value": "Midpoint change after PMDB joined the cabinet (2004)",
+              "source_url": null,
+              "source_title": null,
+              "quote": null,
+              "status": "unverified",
+              "searched": "Searched 'PMDB entra no governo Lula 2004 ministérios bancada'; no opened source gave the post-2004 coalition seat total."
+            }
+          ],
+          "presidents": [
+            {
+              "name": "João Paulo Cunha",
+              "party": "PT",
+              "allied": true,
+              "from": "2003",
+              "to": "2005",
+              "value": "João Paulo Cunha 2003-2005",
+              "source_url": "https://www2.camara.leg.br/a-camara/conheca/historia/presidentes",
+              "source_title": "Presidentes da Câmara dos Deputados (Câmara, história)",
+              "quote": "Arthur Lira 2023 - 2025 ... Michel Temer 2009 - 2010 Arlindo Chinaglia 2007 - 2009 Aldo Rebelo 2005 - 2007 Severino Cavalcanti 2005 João Paulo Cunha 2003 - 2005",
+              "status": "verified"
+            },
+            {
+              "name": "Severino Cavalcanti",
+              "party": "PP",
+              "allied": false,
+              "from": "2005",
+              "to": "2005",
+              "value": "Severino Cavalcanti 2005, elected against the government candidate",
+              "source_url": "https://memoria.ebc.com.br/agenciabrasil//noticia/2005-02-15/administration-loses-congressional-elections",
+              "source_title": "Administration loses congressional elections (Agência Brasil, 15 Feb 2005)",
+              "quote": "by 300 to 195 ... The defeat of Greenhalgh, the Administration's candidate, was a demonstration that the majority of the Congress is unhappy",
+              "status": "verified",
+              "note": "Party label PP not in the opened source text."
+            },
+            {
+              "name": "Aldo Rebelo",
+              "party": "PCdoB",
+              "allied": true,
+              "from": "2005",
+              "to": "2007",
+              "value": "Aldo Rebelo 2005-2007",
+              "source_url": "https://www2.camara.leg.br/a-camara/conheca/historia/presidentes",
+              "source_title": "Presidentes da Câmara dos Deputados (Câmara, história)",
+              "quote": "Arthur Lira 2023 - 2025 ... Michel Temer 2009 - 2010 Arlindo Chinaglia 2007 - 2009 Aldo Rebelo 2005 - 2007 Severino Cavalcanti 2005 João Paulo Cunha 2003 - 2005",
+              "status": "verified",
+              "note": "Party and allied status not stated in source; Rebelo was Lula's former minister (not verified here)."
+            }
+          ]
+        },
+        "senado": {
+          "total": 81,
+          "party_seats": {
+            "value": null,
+            "source_url": null,
+            "source_title": null,
+            "quote": null,
+            "status": "unverified",
+            "searched": "Searched 'Senado 2003 bancadas PMDB PFL PT PSDB senadores posse fevereiro 2003'; found only a pre-election 2006 table and a 2000 Senate report, no 2003 breakdown opened."
+          },
+          "coalition_seats": {
+            "value": null,
+            "source_url": null,
+            "source_title": null,
+            "quote": null,
+            "status": "unverified",
+            "searched": "Same search; no source with the 2003 government bloc size in the Senate."
+          },
+          "presidents": [
+            {
+              "name": "José Sarney",
+              "party": "PMDB",
+              "allied": true,
+              "from": "2003",
+              "to": "2005",
+              "value": "José Sarney 2003-2005",
+              "source_url": "https://www25.senado.leg.br/web/senadores/nova-republica",
+              "source_title": "Presidentes do Senado - Nova República (Senado Federal)",
+              "quote": "2003 - 2005 José Sarney 2005 - 2007 Renan Calheiros 2007 - 2007 Renan Calheiros * 2007 - 2007 Tião Vianna * 2007 - 2009 Garibaldi Alves * 2009 - 2011 José Sarney ... 2021 - 2023 Rodrigo Pacheco 2023 - 2025 Rodrigo Pacheco",
+              "status": "verified",
+              "note": "Allied status is a reading of the PT-PMDB deal; party label not in the quoted list."
+            },
+            {
+              "name": "Renan Calheiros",
+              "party": "PMDB",
+              "allied": true,
+              "from": "2005",
+              "to": "2007",
+              "value": "Renan Calheiros 2005-2007",
+              "source_url": "https://www25.senado.leg.br/web/senadores/nova-republica",
+              "source_title": "Presidentes do Senado - Nova República (Senado Federal)",
+              "quote": "2003 - 2005 José Sarney 2005 - 2007 Renan Calheiros 2007 - 2007 Renan Calheiros * 2007 - 2007 Tião Vianna * 2007 - 2009 Garibaldi Alves * 2009 - 2011 José Sarney ... 2021 - 2023 Rodrigo Pacheco 2023 - 2025 Rodrigo Pacheco",
+              "status": "verified"
+            }
+          ]
+        }
+      },
+      "defeats": [
+        {
+          "value": "Feb 2005: government candidate Greenhalgh loses Câmara presidency to Severino Cavalcanti, 300-195",
+          "source_url": "https://memoria.ebc.com.br/agenciabrasil//noticia/2005-02-15/administration-loses-congressional-elections",
+          "source_title": "Administration loses congressional elections (Agência Brasil)",
+          "quote": "by 300 to 195",
+          "status": "verified"
+        }
+      ],
+      "vote_buying_or_bargaining": [
+        {
+          "value": "Mensalão: PGR charges 40 people (11 Apr 2006)",
+          "source_url": "https://www.congressoemfoco.com.br/noticia/98219/mensalao-procurador-geral-denuncia-40-pessoas",
+          "source_title": "Mensalão: procurador-geral denuncia 40 pessoas (Congresso em Foco)",
+          "quote": "havia oferecido ao Supremo Tribunal Federal (STF) denúncia contra 40 pessoas envolvidas no mensalão ... o esquema do mensalão era uma organização criminosa dividida em três núcleos",
+          "status": "verified"
+        },
+        {
+          "value": "AP 470: STF judged purchase of allied-party support in 2003-2004",
+          "source_url": "https://www.cartacapital.com.br/politica/stf-retoma-julgamento-do-mensalao-e-define-quem-comprou-apoio-politico/",
+          "source_title": "STF retoma julgamento do mensalão e define quem comprou apoio político (CartaCapital, 9 Oct 2012)",
+          "quote": "para definir quais réus são responsáveis pela compra de apoio político entre 2003 e 2004",
+          "status": "verified"
+        },
+        {
+          "value": "José Dirceu (Lula's chief of staff) sentenced to 10 years 10 months in AP 470 (Nov 2012)",
+          "source_url": "https://jornalgrandebahia.com.br/2012/11/ex-ministro-jose-dirceu-e-condenado-a-mais-de-dez-anos-de-prisao-por-formacao-de-quadrilha-e-corrupcao-ativa/",
+          "source_title": "Ex-ministro José Dirceu é condenado a mais de dez anos de prisão (Jornal Grande Bahia)",
+          "quote": "foi condenado a dez anos e dez meses de prisão como resultado do julgamento da Ação Penal 470",
+          "status": "verified"
+        },
+        {
+          "value": "Ministries traded: PT held 20 of 36 ministries in the first coalition",
+          "source_url": "https://www.congressoemfoco.com.br/noticia/87698/quadro-1",
+          "source_title": "Primeira coalizão de governo do presidente Lula (jan-dez 2003) (Congresso em Foco)",
+          "quote": "PT 20 of 36 ministérios (quadro)",
+          "status": "verified"
+        },
+        {
+          "value": "Over the two terms, 30 of 63 ministers were PT members",
+          "source_url": "https://www.congressoemfoco.com.br/noticia/87718/coalizao-petista",
+          "source_title": "Coalizão petista (Congresso em Foco)",
+          "quote": "Dos 63 ministros nomeados pelo presidente, 30 exerceram suas funções filiados ao Partido dos Trabalhadores.",
+          "status": "verified"
+        }
+      ],
+      "courts": {
+        "appointed": [
+          {
+            "name": "Joaquim Barbosa",
+            "year": 2003,
+            "value": "Joaquim Barbosa (2003)",
+            "source_url": "https://www.poder360.com.br/poder-justica/com-messias-lula-ja-indicou-um-stf-inteiro/",
+            "source_title": "Com Messias, Lula já indicou um STF inteiro (Poder360)",
+            "quote": "2003: Joaquim Barbosa; 2003: Cezar Peluso; 2003: Ayres Britto; 2004: Eros Grau; 2006: Ricardo Lewandowski; 2006: Cármen Lúcia; 2007: Menezes Direito; 2009: Dias Toffoli; 2023: Cristiano Zanin; 2023: Flávio Dino; 2025: Jorge Messias.",
+            "status": "verified"
+          },
+          {
+            "name": "Cezar Peluso",
+            "year": 2003,
+            "value": "Cezar Peluso (2003)",
+            "source_url": "https://www.poder360.com.br/poder-justica/com-messias-lula-ja-indicou-um-stf-inteiro/",
+            "source_title": "Com Messias, Lula já indicou um STF inteiro (Poder360)",
+            "quote": "2003: Joaquim Barbosa; 2003: Cezar Peluso; 2003: Ayres Britto; 2004: Eros Grau; 2006: Ricardo Lewandowski; 2006: Cármen Lúcia; 2007: Menezes Direito; 2009: Dias Toffoli; 2023: Cristiano Zanin; 2023: Flávio Dino; 2025: Jorge Messias.",
+            "status": "verified"
+          },
+          {
+            "name": "Ayres Britto",
+            "year": 2003,
+            "value": "Ayres Britto (2003)",
+            "source_url": "https://www.poder360.com.br/poder-justica/com-messias-lula-ja-indicou-um-stf-inteiro/",
+            "source_title": "Com Messias, Lula já indicou um STF inteiro (Poder360)",
+            "quote": "2003: Joaquim Barbosa; 2003: Cezar Peluso; 2003: Ayres Britto; 2004: Eros Grau; 2006: Ricardo Lewandowski; 2006: Cármen Lúcia; 2007: Menezes Direito; 2009: Dias Toffoli; 2023: Cristiano Zanin; 2023: Flávio Dino; 2025: Jorge Messias.",
+            "status": "verified"
+          },
+          {
+            "name": "Eros Grau",
+            "year": 2004,
+            "value": "Eros Grau (2004)",
+            "source_url": "https://www.poder360.com.br/poder-justica/com-messias-lula-ja-indicou-um-stf-inteiro/",
+            "source_title": "Com Messias, Lula já indicou um STF inteiro (Poder360)",
+            "quote": "2003: Joaquim Barbosa; 2003: Cezar Peluso; 2003: Ayres Britto; 2004: Eros Grau; 2006: Ricardo Lewandowski; 2006: Cármen Lúcia; 2007: Menezes Direito; 2009: Dias Toffoli; 2023: Cristiano Zanin; 2023: Flávio Dino; 2025: Jorge Messias.",
+            "status": "verified"
+          },
+          {
+            "name": "Ricardo Lewandowski",
+            "year": 2006,
+            "value": "Ricardo Lewandowski (2006)",
+            "source_url": "https://www.poder360.com.br/poder-justica/com-messias-lula-ja-indicou-um-stf-inteiro/",
+            "source_title": "Com Messias, Lula já indicou um STF inteiro (Poder360)",
+            "quote": "2003: Joaquim Barbosa; 2003: Cezar Peluso; 2003: Ayres Britto; 2004: Eros Grau; 2006: Ricardo Lewandowski; 2006: Cármen Lúcia; 2007: Menezes Direito; 2009: Dias Toffoli; 2023: Cristiano Zanin; 2023: Flávio Dino; 2025: Jorge Messias.",
+            "status": "verified"
+          },
+          {
+            "name": "Cármen Lúcia",
+            "year": 2006,
+            "value": "Cármen Lúcia (2006)",
+            "source_url": "https://www.poder360.com.br/poder-justica/com-messias-lula-ja-indicou-um-stf-inteiro/",
+            "source_title": "Com Messias, Lula já indicou um STF inteiro (Poder360)",
+            "quote": "2003: Joaquim Barbosa; 2003: Cezar Peluso; 2003: Ayres Britto; 2004: Eros Grau; 2006: Ricardo Lewandowski; 2006: Cármen Lúcia; 2007: Menezes Direito; 2009: Dias Toffoli; 2023: Cristiano Zanin; 2023: Flávio Dino; 2025: Jorge Messias.",
+            "status": "verified"
+          }
+        ],
+        "lula_appointees_sitting": {
+          "value": "6 of 11 at end of 2006 (derived: all six term-1 nominees, none had left yet)",
+          "source_url": null,
+          "source_title": null,
+          "quote": null,
+          "status": "unverified",
+          "searched": "Derived from the Poder360 nominee list; no opened source states the count or confirms no departures before Dec 2006."
+        },
+        "notable_rulings": []
+      },
+      "central_bank": {
+        "governor": "Henrique Meirelles",
+        "legal_autonomy": false,
+        "facts": [
+          {
+            "value": "Meirelles headed the BC from 2003 and left at end of 2010",
+            "source_url": "https://www.congressoemfoco.com.br/noticia/70646/meirelles-confirma-saida-do-banco-central",
+            "source_title": "Meirelles confirma saída do Banco Central (Congresso em Foco, 24 Nov 2010)",
+            "quote": "No cargo desde 2003 ... confirmou há pouco que está de saída",
+            "status": "verified"
+          }
+        ],
+        "president_controls_rates": "Formally yes (no legal autonomy before LC 179/2021; governor removable), but Lula chose to keep an orthodox governor for both terms."
+      },
+      "other_checks": [
+        {
+          "value": "PGR: Lula named Cláudio Fonteles (2003), then Antonio Fernando de Souza twice, picking the most-voted name on the lista tríplice",
+          "source_url": "https://www.congressoemfoco.com.br/noticia/83338/procuradores-definem-tres-nomes-para-a-pgr",
+          "source_title": "Procuradores definem três nomes para a PGR (Congresso em Foco)",
+          "quote": "O primeiro escolhido por Lula foi Cláudio Fonteles, em 2003. ... Depois, o presidente conduziu Antônio Fernando de Souza ao cargo por duas vezes. ... o presidente Lula tem indicado o nome mais votado na lista tríplice",
+          "status": "verified"
+        },
+        {
+          "value": "His own PGR (Antonio Fernando) indicted the Mensalão 40",
+          "source_url": "https://www.congressoemfoco.com.br/noticia/98219/mensalao-procurador-geral-denuncia-40-pessoas",
+          "source_title": "Mensalão: procurador-geral denuncia 40 pessoas (Congresso em Foco)",
+          "quote": "havia oferecido ao Supremo Tribunal Federal (STF) denúncia contra 40 pessoas",
+          "status": "verified"
+        },
+        {
+          "value": "FPA (ruralist caucus) seat count 2003-2007",
+          "source_url": null,
+          "source_title": null,
+          "quote": null,
+          "status": "unverified",
+          "searched": "Searched 'Frente Parlamentar da Agropecuária número de deputados' by legislature; FPA was formalized only in 2008 (SciELO, Rev. Sociologia e Política) and no opened source gave a member count for this legislature."
+        },
+        {
+          "value": "Governors, CNI/FIESP, TCU, PF and military as checks in 2003-06",
+          "source_url": null,
+          "source_title": null,
+          "quote": null,
+          "status": "unverified",
+          "searched": "Not researched in depth for this term; no source opened."
+        }
+      ],
+      "approval": [
+        {
+          "value": "Start 2003 (Datafolha ótimo/bom)",
+          "source_url": null,
+          "source_title": null,
+          "quote": null,
+          "status": "unverified",
+          "searched": "Searched 'Datafolha aprovação Lula março 2003 ótimo bom'; no 2003 figure found in opened sources."
+        },
+        {
+          "value": "Low point 2005 (Mensalão): 28% ótimo/bom, Datafolha",
+          "source_url": "https://www.cnnbrasil.com.br/politica/datafolha-pesquisa-fevereiro-2025/",
+          "source_title": "Aprovação do governo Lula desaba para 24%, a pior nos três mandatos (CNN Brasil, 14 Feb 2025)",
+          "quote": "28% de aprovação (2005, durante o mensalão)",
+          "status": "verified",
+          "note": "The page reports this as the previous low across his three terms."
+        },
+        {
+          "value": "End 2006 (Datafolha ótimo/bom)",
+          "source_url": null,
+          "source_title": null,
+          "quote": null,
+          "status": "unverified",
+          "searched": "Searched 'Datafolha dezembro 2006 aprovação Lula ótimo bom'; nothing found."
+        }
+      ]
+    },
+    {
+      "term_id": "lula-2",
+      "president": "Luiz Inácio Lula da Silva",
+      "party": "PT",
+      "from": "2007-01-01",
+      "to": "2010-12-31",
+      "summary": "Lula's strongest term. With PMDB inside, allied parties held about 311 of 513 deputies (61%), and allies presided over both houses almost the whole time (Chinaglia of PT, then Temer of PMDB in the Câmara; Renan, Garibaldi and Sarney of PMDB in the Senado). He did not have a reliable Senate supermajority: in December 2007 the Senate killed the CPMF tax with only 45 of the 49 votes needed, his biggest defeat. He named two more STF ministers and kept Meirelles at the Central Bank. He picked the most-voted PGR on the lista tríplice (Gurgel, 2009). He left with 83% ótimo/bom in Datafolha. Main checks: the opposition PSDB-DEM bloc in the Senate, and the coalition partners whose votes still had to be paid for with ministries.",
+      "congress": {
+        "camara": {
+          "total": 513,
+          "party_seats": {
+            "PT": {
+              "value": 83,
+              "source_url": "https://www.camara.leg.br/noticias/90392-pt-tem-maior-votacao-para-deputado-federal-no-pais",
+              "source_title": "PT tem maior votação para deputado federal no país (Agência Câmara, 3 Oct 2006)",
+              "quote": "83 deputados eleitos",
+              "status": "verified"
+            },
+            "PMDB": {
+              "value": 89,
+              "source_url": "https://www.camara.leg.br/noticias/90392-pt-tem-maior-votacao-para-deputado-federal-no-pais",
+              "source_title": "PT tem maior votação para deputado federal no país (Agência Câmara, 3 Oct 2006)",
+              "quote": "89 deputados eleitos",
+              "status": "verified"
+            }
+          },
+          "coalition_seats": [
+            {
+              "value": 311,
+              "source_url": "https://www.cnnbrasil.com.br/politica/partidos-com-ministerios-no-governo-lula-representam-51-da-camara-dos-deputados/",
+              "source_title": "Partidos com ministérios no governo Lula representam 51% da Câmara dos Deputados (CNN Brasil)",
+              "quote": "Em 2007, eram 311.",
+              "status": "verified",
+              "note": "311/513 = 61%."
+            }
+          ],
+          "presidents": [
+            {
+              "name": "Arlindo Chinaglia",
+              "party": "PT",
+              "allied": true,
+              "from": "2007",
+              "to": "2009",
+              "value": "Arlindo Chinaglia 2007-2009",
+              "source_url": "https://www2.camara.leg.br/a-camara/conheca/historia/presidentes",
+              "source_title": "Presidentes da Câmara dos Deputados (Câmara, história)",
+              "quote": "Arthur Lira 2023 - 2025 ... Michel Temer 2009 - 2010 Arlindo Chinaglia 2007 - 2009 Aldo Rebelo 2005 - 2007 Severino Cavalcanti 2005 João Paulo Cunha 2003 - 2005",
+              "status": "verified"
+            },
+            {
+              "name": "Michel Temer",
+              "party": "PMDB",
+              "allied": true,
+              "from": "2009",
+              "to": "2010",
+              "value": "Michel Temer 2009-2010",
+              "source_url": "https://www2.camara.leg.br/a-camara/conheca/historia/presidentes",
+              "source_title": "Presidentes da Câmara dos Deputados (Câmara, história)",
+              "quote": "Arthur Lira 2023 - 2025 ... Michel Temer 2009 - 2010 Arlindo Chinaglia 2007 - 2009 Aldo Rebelo 2005 - 2007 Severino Cavalcanti 2005 João Paulo Cunha 2003 - 2005",
+              "status": "verified"
+            }
+          ]
+        },
+        "senado": {
+          "total": 81,
+          "party_seats": {
+            "value": {
+              "PMDB": 18,
+              "PFL": 18,
+              "PSDB": 13,
+              "PT": 10,
+              "PDT": 5,
+              "PTB": 4,
+              "PSB": 3,
+              "PL": 3,
+              "PCdoB": 2,
+              "PRB": 1,
+              "PPS": 1,
+              "PRTB": 1,
+              "PP": 1,
+              "Psol": 1
+            },
+            "source_url": "https://www.congressoemfoco.com.br/noticia/97173/eleicao-nos-estados-muda-composicao-do-novo-senado",
+            "source_title": "Eleição nos estados muda composição do novo Senado (Congresso em Foco, 30 Oct 2006)",
+            "quote": "PMDB: 18 senadores; PFL: 18 senadores; PSDB: 13 senadores; PT: 10 senadores; PDT: 5 senadores; PTB: 4 senadores; PSB: 3 senadores; PL: 3 senadores; PCdoB: 2 senadores ...",
+            "status": "verified"
+          },
+          "coalition_seats": {
+            "value": "about 47 if PMDB, PT, PDT, PTB, PSB, PL, PCdoB, PRB and PP are counted (my sum, not sourced)",
+            "source_url": null,
+            "source_title": null,
+            "quote": null,
+            "status": "unverified",
+            "searched": "Searched 'Senado 2007 base governista oposição número senadores'; party seats found, but no source gives the government bloc total."
+          },
+          "presidents": [
+            {
+              "name": "Renan Calheiros",
+              "party": "PMDB",
+              "allied": true,
+              "from": "2007-02",
+              "to": "2007-12-04",
+              "value": "Renan Calheiros, took leave 11/10/2007, resigned 04/12/2007",
+              "source_url": "https://www25.senado.leg.br/web/senadores/nova-republica",
+              "source_title": "Presidentes do Senado - Nova República (Senado Federal)",
+              "quote": "2003 - 2005 José Sarney 2005 - 2007 Renan Calheiros 2007 - 2007 Renan Calheiros * 2007 - 2007 Tião Vianna * 2007 - 2009 Garibaldi Alves * 2009 - 2011 José Sarney ... 2021 - 2023 Rodrigo Pacheco 2023 - 2025 Rodrigo Pacheco",
+              "status": "verified"
+            },
+            {
+              "name": "Tião Viana",
+              "party": "PT",
+              "allied": true,
+              "from": "2007-10",
+              "to": "2007-12",
+              "value": "Tião Viana interim",
+              "source_url": "https://www25.senado.leg.br/web/senadores/nova-republica",
+              "source_title": "Presidentes do Senado - Nova República (Senado Federal)",
+              "quote": "2003 - 2005 José Sarney 2005 - 2007 Renan Calheiros 2007 - 2007 Renan Calheiros * 2007 - 2007 Tião Vianna * 2007 - 2009 Garibaldi Alves * 2009 - 2011 José Sarney ... 2021 - 2023 Rodrigo Pacheco 2023 - 2025 Rodrigo Pacheco",
+              "status": "verified"
+            },
+            {
+              "name": "Garibaldi Alves Filho",
+              "party": "PMDB",
+              "allied": true,
+              "from": "2007-12-12",
+              "to": "2009",
+              "value": "Garibaldi Alves 2007-2009",
+              "source_url": "https://www25.senado.leg.br/web/senadores/nova-republica",
+              "source_title": "Presidentes do Senado - Nova República (Senado Federal)",
+              "quote": "2003 - 2005 José Sarney 2005 - 2007 Renan Calheiros 2007 - 2007 Renan Calheiros * 2007 - 2007 Tião Vianna * 2007 - 2009 Garibaldi Alves * 2009 - 2011 José Sarney ... 2021 - 2023 Rodrigo Pacheco 2023 - 2025 Rodrigo Pacheco",
+              "status": "verified"
+            },
+            {
+              "name": "José Sarney",
+              "party": "PMDB",
+              "allied": true,
+              "from": "2009",
+              "to": "2011",
+              "value": "José Sarney 2009-2011",
+              "source_url": "https://www25.senado.leg.br/web/senadores/nova-republica",
+              "source_title": "Presidentes do Senado - Nova República (Senado Federal)",
+              "quote": "2003 - 2005 José Sarney 2005 - 2007 Renan Calheiros 2007 - 2007 Renan Calheiros * 2007 - 2007 Tião Vianna * 2007 - 2009 Garibaldi Alves * 2009 - 2011 José Sarney ... 2021 - 2023 Rodrigo Pacheco 2023 - 2025 Rodrigo Pacheco",
+              "status": "verified"
+            }
+          ]
+        }
+      },
+      "defeats": [
+        {
+          "value": "13 Dec 2007: Senate rejects CPMF extension, 45 votes for (49 needed)",
+          "source_url": "https://congressoemfoco.com.br/noticias/senado-rejeita-prorrogacao-da-cpmf-e-aprova-dru",
+          "source_title": "Senado rejeita prorrogação da CPMF e aprova DRU (Congresso em Foco)",
+          "quote": "O governo conseguiu apenas 45 votos favoráveis ... seriam necessários 49 votos.",
+          "status": "verified"
+        }
+      ],
+      "vote_buying_or_bargaining": [
+        {
+          "value": "End of first term: PT 18 ministries, PMDB 3, PSB 2",
+          "source_url": "https://www.congressoemfoco.com.br/noticia/87718/coalizao-petista",
+          "source_title": "Coalizão petista (Congresso em Foco)",
+          "quote": "PT 18 ministérios, PMDB 3, PSB 2 (fim do primeiro mandato)",
+          "status": "verified"
+        }
+      ],
+      "courts": {
+        "appointed": [
+          {
+            "name": "Menezes Direito",
+            "year": 2007,
+            "value": "Menezes Direito (2007)",
+            "source_url": "https://www.poder360.com.br/poder-justica/com-messias-lula-ja-indicou-um-stf-inteiro/",
+            "source_title": "Com Messias, Lula já indicou um STF inteiro (Poder360)",
+            "quote": "2003: Joaquim Barbosa; 2003: Cezar Peluso; 2003: Ayres Britto; 2004: Eros Grau; 2006: Ricardo Lewandowski; 2006: Cármen Lúcia; 2007: Menezes Direito; 2009: Dias Toffoli; 2023: Cristiano Zanin; 2023: Flávio Dino; 2025: Jorge Messias.",
+            "status": "verified"
+          },
+          {
+            "name": "Dias Toffoli",
+            "year": 2009,
+            "value": "Dias Toffoli (2009)",
+            "source_url": "https://www.poder360.com.br/poder-justica/com-messias-lula-ja-indicou-um-stf-inteiro/",
+            "source_title": "Com Messias, Lula já indicou um STF inteiro (Poder360)",
+            "quote": "2003: Joaquim Barbosa; 2003: Cezar Peluso; 2003: Ayres Britto; 2004: Eros Grau; 2006: Ricardo Lewandowski; 2006: Cármen Lúcia; 2007: Menezes Direito; 2009: Dias Toffoli; 2023: Cristiano Zanin; 2023: Flávio Dino; 2025: Jorge Messias.",
+            "status": "verified"
+          }
+        ],
+        "lula_appointees_sitting": {
+          "value": "6 at end of 2010 (Barbosa, Peluso, Ayres Britto, Lewandowski, Cármen Lúcia, Toffoli), after Direito died (2009) and Eros Grau retired (2010)",
+          "source_url": null,
+          "source_title": null,
+          "quote": null,
+          "status": "unverified",
+          "searched": "Departure dates of Direito and Eros Grau were not confirmed in an opened source; count derived."
+        },
+        "notable_rulings": []
+      },
+      "central_bank": {
+        "governor": "Henrique Meirelles",
+        "legal_autonomy": false,
+        "facts": [
+          {
+            "value": "Meirelles stayed through 2010",
+            "source_url": "https://www.congressoemfoco.com.br/noticia/70646/meirelles-confirma-saida-do-banco-central",
+            "source_title": "Meirelles confirma saída do Banco Central (Congresso em Foco)",
+            "quote": "No cargo desde 2003 ... confirmou há pouco que está de saída",
+            "status": "verified"
+          }
+        ],
+        "president_controls_rates": "Formally yes; in practice delegated to Meirelles."
+      },
+      "other_checks": [
+        {
+          "value": "PGR: Roberto Gurgel named 2009, most-voted on the list (482 votes)",
+          "source_url": "https://www.congressoemfoco.com.br/noticia/73290/lula-indica-roberto-gurgel-para-procurador-geral-da-republica",
+          "source_title": "Lula indica Roberto Gurgel para procurador-geral da República (Congresso em Foco, 29 Jun 2009)",
+          "quote": "Gurgel recebeu 482 votos ... Gurgel substituirá Antonio Fernando de Souza",
+          "status": "verified"
+        },
+        {
+          "value": "FPA seat count 2007-2011",
+          "source_url": null,
+          "source_title": null,
+          "quote": null,
+          "status": "unverified",
+          "searched": "Searched 'Frente Parlamentar da Agropecuária número de deputados' by legislature; FPA was formalized only in 2008 (SciELO, Rev. Sociologia e Política) and no opened source gave a member count for this legislature."
+        },
+        {
+          "value": "Governors, CNI/FIESP, TCU, PF and military as checks in 2007-10",
+          "source_url": null,
+          "source_title": null,
+          "quote": null,
+          "status": "unverified",
+          "searched": "Not researched in depth for this term; no source opened."
+        }
+      ],
+      "approval": [
+        {
+          "value": "Start 2007 (Datafolha ótimo/bom)",
+          "source_url": null,
+          "source_title": null,
+          "quote": null,
+          "status": "unverified",
+          "searched": "Searched Datafolha approval for early 2007; no opened source."
+        },
+        {
+          "value": "End 2010: 83% ótimo/bom (Datafolha, Dec 2010, 4,037 interviews)",
+          "source_url": "https://www.cnnbrasil.com.br/politica/fatos-primeiro-lula-acerta-sobre-popularidade-de-seu-governo/",
+          "source_title": "Fatos Primeiro: Lula acerta sobre popularidade de seu governo (CNN Brasil)",
+          "quote": "83% ... ótimo ou bom ... 4.037 entrevistados de 243 municípios",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "term_id": "lula-3",
+      "president": "Luiz Inácio Lula da Silva",
+      "party": "PT",
+      "from": "2023-01-01",
+      "to": "2026-12-31",
+      "summary": "Lula's weakest hand. Parties with ministries held 262 of 513 deputies (51%) at the start, but PT had only 68 deputies and 8 senators, and the right-wing PL was the largest party in both houses. Congress now controls a large slice of the budget through mandatory amendments (R$ 31.5 billion paid in 2025), so ministries buy less loyalty. He supported the winning Câmara and Senado presidents (Lira, Pacheco, Motta, Alcolumbre), but they were not his men: Congress overrode 40% of his vetoes in year one, restored the Marco Temporal over the STF's ruling, suspended his IOF decree (the first decree struck down in 33 years) and in April 2026 rejected his STF nominee Messias, the first rejection in over 132 years. The STF was a partial ally (it reined in amendments) and he named two ministers who sat. The Central Bank was legally independent: Campos Neto kept rates high until Dec 2024, and even his own pick Galípolo raised the Selic to 15%. Biggest checks: the Centrão-led Congress with its own budget money, and the independent Central Bank.",
+      "congress": {
+        "camara": {
+          "total": 513,
+          "party_seats": {
+            "PT": {
+              "value": 68,
+              "source_url": "https://www.cnnbrasil.com.br/politica/partidos-com-ministerios-no-governo-lula-representam-51-da-camara-dos-deputados/",
+              "source_title": "Partidos com ministérios no governo Lula representam 51% da Câmara dos Deputados (CNN Brasil)",
+              "quote": "PT 68 (bancada) ... a coalizão ... terá 262 dos 513 deputados federais",
+              "status": "verified"
+            },
+            "PL": {
+              "value": 95,
+              "source_url": "https://www.poder360.com.br/congresso/1o-ano-de-lula-3-termina-com-base-de-apoio-instavel-na-camara/",
+              "source_title": "1º ano de Lula 3 termina com base de apoio instável na Câmara (Poder360, 2 Jan 2024)",
+              "quote": "PL ... agora com 95 deputados",
+              "status": "verified"
+            }
+          },
+          "coalition_seats": [
+            {
+              "value": 262,
+              "source_url": "https://www.cnnbrasil.com.br/politica/partidos-com-ministerios-no-governo-lula-representam-51-da-camara-dos-deputados/",
+              "source_title": "Partidos com ministérios no governo Lula representam 51% da Câmara dos Deputados (CNN Brasil)",
+              "quote": "a coalizão ... terá 262 dos 513 deputados federais ... representam 51,07%",
+              "status": "verified",
+              "note": "Start of 2023, parties with ministries."
+            },
+            {
+              "value": 317,
+              "source_url": "https://www.poder360.com.br/congresso/1o-ano-de-lula-3-termina-com-base-de-apoio-instavel-na-camara/",
+              "source_title": "1º ano de Lula 3 termina com base de apoio instável na Câmara (Poder360)",
+              "quote": "o Planalto tem em torno 317 votos ... 11 siglas tendo representantes na equipe ministerial",
+              "status": "verified",
+              "note": "End of 2023, unstable base; 317/513 = 62%."
+            }
+          ],
+          "presidents": [
+            {
+              "name": "Arthur Lira",
+              "party": "PP",
+              "allied": "partly (backed by PT and PL)",
+              "from": "2023",
+              "to": "2025",
+              "value": "Lira re-elected with 464 votes, backed by PL and PT",
+              "source_url": "https://www.poder360.com.br/congresso/lira-e-reeleito-com-464-votos-e-bate-recorde-historico/",
+              "source_title": "Lira é reeleito com 464 votos e bate recorde histórico (Poder360)",
+              "quote": "com 464 votos em 1º turno ... o PL, de Bolsonaro, e o PT, do presidente Luiz Inácio Lula da Silva, com 99 e 68 deputados, respectivamente.",
+              "status": "verified"
+            },
+            {
+              "name": "Hugo Motta",
+              "party": "Republicanos",
+              "allied": "partly (backed by PT and PL)",
+              "from": "2025",
+              "to": "2027",
+              "value": "Motta elected with 444 votes for 2025-2026",
+              "source_url": "https://www.camara.leg.br/noticias/1128935-hugo-motta-e-o-novo-presidente-da-camara-dos-deputados",
+              "source_title": "Hugo Motta é o novo presidente da Câmara dos Deputados (Agência Câmara)",
+              "quote": "O deputado Hugo Motta (Republicanos-PB) foi eleito presidente da Câmara dos Deputados para o biênio 2025-2026 ... com 444 votos",
+              "status": "verified"
+            }
+          ]
+        },
+        "senado": {
+          "total": 81,
+          "party_seats": [
+            {
+              "value": {
+                "PL": 13,
+                "União": 12,
+                "MDB": 10,
+                "PSD": 10
+              },
+              "source_url": "https://poder360.com.br/eleicoes/senado-tera-15-partidos-em-sua-composicao-a-partir-de-2023/",
+              "source_title": "Senado terá 15 partidos em sua composição a partir de 2023 (Poder360)",
+              "quote": "PL tem a maior bancada, com 13 senadores ... MDB e PSD elegeram 10 senadores cada",
+              "status": "verified"
+            },
+            {
+              "value": {
+                "PSD": 15,
+                "PL": 12,
+                "MDB": 11,
+                "PT": 8
+              },
+              "source_url": "https://www12.senado.leg.br/noticias/materias/2024/02/05/psd-prossegue-como-maior-bancada-do-senado-em-2024",
+              "source_title": "PSD prossegue como maior bancada do Senado em 2024 (Agência Senado, 5 Feb 2024)",
+              "quote": "PT com oito",
+              "status": "verified",
+              "note": "Midpoint, Feb 2024."
+            }
+          ],
+          "coalition_seats": {
+            "value": null,
+            "source_url": null,
+            "source_title": null,
+            "quote": null,
+            "status": "unverified",
+            "searched": "Searched for the 2023 government bloc size in the Senate; sources give party seats only. Pacheco's 49-32 win (government-backed) is the best proxy."
+          },
+          "presidents": [
+            {
+              "name": "Rodrigo Pacheco",
+              "party": "PSD",
+              "allied": true,
+              "from": "2023",
+              "to": "2025",
+              "value": "Pacheco re-elected 49-32 with government support",
+              "source_url": "https://www.poder360.com.br/congresso/pacheco-vence-por-49-a-32-e-e-reeleito-presidente-do-senado/",
+              "source_title": "Pacheco vence por 49 a 32 e é reeleito presidente do Senado (Poder360)",
+              "quote": "conquistou 49 dos 81 votos ... entrou em campo para garantir vitória de aliado",
+              "status": "verified"
+            },
+            {
+              "name": "Davi Alcolumbre",
+              "party": "União",
+              "allied": "partly; turned against him over the STF seat",
+              "from": "2025",
+              "to": "2027",
+              "value": "Alcolumbre elected with 73 votes until Feb 2027",
+              "source_url": "https://www12.senado.leg.br/noticias/materias/2025/02/01/davi-alcolumbre-e-o-novo-presidente-do-senado",
+              "source_title": "Davi Alcolumbre é o novo presidente do Senado (Agência Senado)",
+              "quote": "Davi Alcolumbre (União-AP) ... eleito ... em primeiro turno, com um total de 73 votos",
+              "status": "verified"
+            }
+          ]
+        }
+      },
+      "defeats": [
+        {
+          "value": "Year one: 40% of vetoes overridden (91 veto items)",
+          "source_url": "https://congressoemfoco.com.br/noticia/19100/lula-3-teve-no-primeiro-ano-de-governo-91-vetos-derrubados-pelo-congresso-bolsonaro-57",
+          "source_title": "Lula 3 teve no primeiro ano de governo 91 vetos derrubados pelo Congresso; Bolsonaro, 57 (Congresso em Foco)",
+          "quote": "Lula teve 40% dos vetos derrubados no primeiro ano. Bolsonaro, 10%.",
+          "status": "verified"
+        },
+        {
+          "value": "14 Dec 2023: Marco Temporal veto overridden 321-137 (Câmara) and 53-19 (Senado), after the STF ruled the thesis unconstitutional 9-2",
+          "source_url": "https://www.poder360.com.br/congresso/agro-prevalece-e-congresso-derruba-veto-de-lula-ao-marco-temporal/",
+          "source_title": "Agro prevalece e Congresso derruba veto de Lula ao marco temporal (Poder360)",
+          "quote": "Na Câmara, o veto foi derrubado por 321 votos a 137 e uma abstenção. ... No Senado, foi rejeitado por 53 votos a 19.",
+          "status": "verified"
+        },
+        {
+          "value": "25 Jun 2025: Câmara suspends IOF decree 383-98, the first decree struck down in 33 years",
+          "source_url": "https://www.poder360.com.br/poder-congresso/motta-da-recado-a-haddad-e-camara-aprova-derrubada-do-iof/",
+          "source_title": "Motta dá recado a Haddad e Câmara aprova derrubada do IOF (Poder360)",
+          "quote": "por 383 votos a 98 ... a pior derrota na Câmara",
+          "status": "verified"
+        },
+        {
+          "value": "IOF: first presidential decree overturned since 1992",
+          "source_url": "https://www.opovo.com.br/noticias/economia/2025/06/26/congresso-susta-alta-do-iof-e-derruba-decreto-pela-1-vez-em-33-anos.html",
+          "source_title": "Congresso susta alta do IOF e derruba decreto pela 1ª vez em 33 anos (O Povo)",
+          "quote": "Esta foi a primeira vez em 33 anos em que o Parlamento brasileiro derruba um decreto presidencial.",
+          "status": "verified"
+        },
+        {
+          "value": "27 Nov 2025: licensing-law vetoes overridden (Câmara 268-190, Senado 50-18)",
+          "source_url": "https://www.poder360.com.br/poder-congresso/senado-derruba-vetos-e-impoe-derrota-a-lula-no-licenciamento-ambiental/",
+          "source_title": "Senado derruba vetos e impõe derrota a Lula no licenciamento ambiental (Poder360)",
+          "quote": "Na Câmara, foram 268 votos para derrubar 24 vetos e 190 para mantê-los",
+          "status": "verified"
+        },
+        {
+          "value": "29 Apr 2026: Senate rejects STF nominee Jorge Messias 42-34, first rejection in over 132 years",
+          "source_url": "https://exame.com/brasil/em-derrota-do-governo-lula-senado-recusa-nome-de-messias-ao-stf/",
+          "source_title": "Em derrota do governo Lula, Senado recusa nome de Messias ao STF (Exame)",
+          "quote": "Essa é a primeira vez que um nome indicado ao STF é rejeitado em mais de 132 anos.",
+          "status": "verified"
+        }
+      ],
+      "vote_buying_or_bargaining": [
+        {
+          "value": "Mandatory amendments: individual since EC 86/2015 (1.2% of RCL), caucus since EC 100/2019 (1% of RCL)",
+          "source_url": "https://www.congressonacional.leg.br/pt_BR/legislacao-e-publicacoes/glossario-orcamentario/-/orcamentario/termo/emenda_obrigatoria",
+          "source_title": "Glossário orçamentário: emenda obrigatória (Congresso Nacional)",
+          "quote": "As emendas individuais são impositivas desde a promulgação da Emenda Constitucional nº 86/2015 ... limitadas a 1,2% da Receita Corrente Líquida (RCL)",
+          "status": "verified"
+        },
+        {
+          "value": "19 Dec 2022: STF strikes down RP9 'orçamento secreto' 6-5",
+          "source_url": "https://www.infomoney.com.br/?p=2011420",
+          "source_title": "STF derruba orçamento secreto (InfoMoney)",
+          "quote": "por 6 votos a 5",
+          "status": "verified"
+        },
+        {
+          "value": "Aug 2024: STF unanimously upholds Dino's suspension of mandatory amendments pending transparency rules",
+          "source_url": "https://www.migalhas.com.br/quentes/413474/stf-tem-unanimidade-para-manter-suspensao-de-emendas-impositivas",
+          "source_title": "STF tem unanimidade para manter suspensão de emendas impositivas (Migalhas)",
+          "quote": "O plenário do STF decidiu por unanimidade manter a liminar ... até que o Congresso Nacional estabeleça regras que garantam transparência",
+          "status": "verified"
+        },
+        {
+          "value": "Record R$ 31.54 billion in amendments paid in 2025 (vs R$ 44.9 million in 2015)",
+          "source_url": "https://www.diariodepernambuco.com.br/politica/2026/01/11704130-governo-lula-registra-pagamento-recorde-de-rs-315-bilhoes-em-emendas-em-2025.html",
+          "source_title": "Governo Lula registra pagamento recorde de R$ 31,5 bilhões em emendas em 2025 (Diario de Pernambuco)",
+          "quote": "foram pagos R$ 31,54 bilhões ao longo do ano ... Em 2015, por exemplo, apenas R$ 44,9 milhões haviam sido pagos.",
+          "status": "verified"
+        },
+        {
+          "value": "Ministries shared with 11 parties by end of 2023",
+          "source_url": "https://www.poder360.com.br/congresso/1o-ano-de-lula-3-termina-com-base-de-apoio-instavel-na-camara/",
+          "source_title": "1º ano de Lula 3 termina com base de apoio instável na Câmara (Poder360)",
+          "quote": "11 siglas tendo representantes na equipe ministerial",
+          "status": "verified"
+        }
+      ],
+      "courts": {
+        "appointed": [
+          {
+            "name": "Cristiano Zanin",
+            "year": 2023,
+            "value": "Cristiano Zanin (2023)",
+            "source_url": "https://www.poder360.com.br/poder-justica/com-messias-lula-ja-indicou-um-stf-inteiro/",
+            "source_title": "Com Messias, Lula já indicou um STF inteiro (Poder360)",
+            "quote": "2003: Joaquim Barbosa; 2003: Cezar Peluso; 2003: Ayres Britto; 2004: Eros Grau; 2006: Ricardo Lewandowski; 2006: Cármen Lúcia; 2007: Menezes Direito; 2009: Dias Toffoli; 2023: Cristiano Zanin; 2023: Flávio Dino; 2025: Jorge Messias.",
+            "status": "verified"
+          },
+          {
+            "name": "Flávio Dino",
+            "year": 2023,
+            "value": "Flávio Dino (2023)",
+            "source_url": "https://www.poder360.com.br/poder-justica/com-messias-lula-ja-indicou-um-stf-inteiro/",
+            "source_title": "Com Messias, Lula já indicou um STF inteiro (Poder360)",
+            "quote": "2003: Joaquim Barbosa; 2003: Cezar Peluso; 2003: Ayres Britto; 2004: Eros Grau; 2006: Ricardo Lewandowski; 2006: Cármen Lúcia; 2007: Menezes Direito; 2009: Dias Toffoli; 2023: Cristiano Zanin; 2023: Flávio Dino; 2025: Jorge Messias.",
+            "status": "verified"
+          },
+          {
+            "name": "Jorge Messias",
+            "year": 2025,
+            "value": "Messias nominated (2025) but rejected by the Senate on 29 Apr 2026",
+            "source_url": "https://exame.com/brasil/em-derrota-do-governo-lula-senado-recusa-nome-de-messias-ao-stf/",
+            "source_title": "Em derrota do governo Lula, Senado recusa nome de Messias ao STF (Exame)",
+            "quote": "42 votos a 34",
+            "status": "verified",
+            "note": "Never seated."
+          }
+        ],
+        "lula_appointees_sitting": {
+          "value": "4 of 10 sitting (Toffoli, Cármen Lúcia, Zanin, Dino); seat vacant since Barroso left Oct 2025",
+          "source_url": null,
+          "source_title": null,
+          "quote": null,
+          "status": "unverified",
+          "searched": "Vacancy verified (O Povo, 12 May 2026: 'a Corte opera há mais de sete meses com apenas dez ministros'); which Lula appointees remain was not confirmed in one opened source."
+        },
+        "notable_rulings": [
+          {
+            "value": "Apr 2021 (before term): STF upholds 8-3 Fachin's annulment of Lula's Lava Jato convictions, restoring his eligibility",
+            "source_url": "https://noticias.stf.jus.br/postsnoticias/stf-confirma-anulacao-de-condenacoes-do-ex-presidente-lula-na-lava-jato/",
+            "source_title": "STF confirma anulação de condenações do ex-presidente Lula na Lava Jato (STF)",
+            "quote": "Por 8 votos a 3, o colegiado rejeitou recurso (agravo regimental) da Procuradoria-Geral da República (PGR)",
+            "status": "verified"
+          },
+          {
+            "value": "21 Sep 2023: STF rules Marco Temporal unconstitutional 9-2 (for his agenda; Congress then overrode)",
+            "source_url": "https://www.poder360.com.br/congresso/agro-prevalece-e-congresso-derruba-veto-de-lula-ao-marco-temporal/",
+            "source_title": "Agro prevalece e Congresso derruba veto de Lula ao marco temporal (Poder360)",
+            "quote": "por 9 votos a 2, que a tese era inconstitucional",
+            "status": "verified"
+          },
+          {
+            "value": "Seat vacant since Oct 2025 (Barroso retired, effective 18 Oct 2025)",
+            "source_url": "https://noticias.stf.jus.br/postsnoticias/publicado-decreto-de-aposentadoria-do-ministro-luis-roberto-barroso/",
+            "source_title": "Publicado decreto de aposentadoria do ministro Luís Roberto Barroso (STF)",
+            "quote": "A aposentadoria terá efeitos a partir do próximo sábado (18).",
+            "status": "verified"
+          }
+        ]
+      },
+      "central_bank": {
+        "governors": [
+          {
+            "name": "Roberto Campos Neto",
+            "appointed_by": "Bolsonaro",
+            "to": "2024-12-31"
+          },
+          {
+            "name": "Gabriel Galípolo",
+            "appointed_by": "Lula",
+            "from": "2025-01-01"
+          }
+        ],
+        "legal_autonomy": true,
+        "facts": [
+          {
+            "value": "LC 179/2021: BC goal is price stability, not tied to any ministry",
+            "source_url": "https://www2.camara.leg.br/legin/fed/leicom/2021/leicomplementar-179-24-fevereiro-2021-791083-publicacaooriginal-162335-pl.html",
+            "source_title": "Lei Complementar nº 179, de 24 de fevereiro de 2021 (Câmara, Legin)",
+            "quote": "O Banco Central do Brasil tem por objetivo fundamental assegurar a estabilidade de preços.",
+            "status": "verified"
+          },
+          {
+            "value": "Governor mandates do not coincide with the president's",
+            "source_url": "https://www12.senado.leg.br/noticias/materias/2021/02/25/lei-da-autonomia-do-banco-central-entra-em-vigor",
+            "source_title": "Lei da autonomia do Banco Central entra em vigor (Agência Senado)",
+            "quote": "Esses mandatos ocorrerão em ciclos não coincidentes com a gestão do presidente da República.",
+            "status": "verified"
+          },
+          {
+            "value": "Lula attacks Campos Neto over 13.75% Selic (Jun 2023)",
+            "source_url": "https://www.poder360.com.br/governo/lula-chama-campos-neto-de-novo-de-esse-cidadao-e-critica-juros/",
+            "source_title": "Lula chama Campos Neto de novo de 'esse cidadão' e critica juros (Poder360)",
+            "quote": "esse cidadão que ninguém sabe quem botou lá ... que traz os juros em 13,75%",
+            "status": "verified"
+          },
+          {
+            "value": "Galípolo approved 66-5 for a 4-year mandate from Jan 2025",
+            "source_url": "https://www.congressoemfoco.com.br/noticia/5949/senado-aprova-gabriel-galipolo-para-comando-do-banco-central-a-partir-de-2025",
+            "source_title": "Senado aprova Gabriel Galípolo para comando do Banco Central a partir de 2025 (Congresso em Foco)",
+            "quote": "Por 66 votos a 5 ... assumirá a presidência do BC em janeiro de 2025 para um mandato de quatro anos",
+            "status": "verified"
+          },
+          {
+            "value": "Under Galípolo, Selic raised to 15%, highest since 2006",
+            "source_url": "https://www.brasildefato.com.br/2025/06/19/sob-comando-de-galipolo-copom-aumenta-divida-publica-em-r-150-bi-com-altas-da-selic/",
+            "source_title": "Sob comando de Galípolo, Copom aumenta dívida pública em R$ 150 bi com altas da Selic (Brasil de Fato)",
+            "quote": "levou a taxa para 15% ao ano, seu maior patamar desde 2006",
+            "status": "verified"
+          }
+        ],
+        "president_controls_rates": "No. Legal autonomy; he could not remove Campos Neto, and his own appointee kept tightening."
+      },
+      "other_checks": [
+        {
+          "value": "PGR: Paulo Gonet nominated 27 Nov 2023 from outside the lista tríplice",
+          "source_url": "https://www.correiobraziliense.com.br/politica/2023/11/6661452-lula-indica-gonet-a-pgr-saiba-como-e-feita-escolha-do-cargo.html",
+          "source_title": "Lula indica Gonet à PGR: saiba como é feita a escolha do cargo (Correio Braziliense)",
+          "quote": "optar por um nome fora da lista, como foram os casos de Aras e de Paulo Gonet.",
+          "status": "verified"
+        },
+        {
+          "value": "Gonet confirmed 65-11 (2023), re-confirmed 45-26 (2025) amid right-wing criticism over the coup case",
+          "source_url": "https://www.poder360.com.br/poder-congresso/senado-aprova-reconducao-de-paulo-gonet-a-pgr/",
+          "source_title": "Senado aprova recondução de Paulo Gonet à PGR (Poder360)",
+          "quote": "Foram 45 votos favoráveis e 26 contrários",
+          "status": "verified"
+        },
+        {
+          "value": "Military: Lula fires Army commander Gen. Júlio Cesar de Arruda (21 Jan 2023), after 8 January",
+          "source_url": "https://www.cnnbrasil.com.br/politica/lula-demite-comandante-do-exercito/",
+          "source_title": "Lula demite comandante do Exército (CNN Brasil)",
+          "quote": "demitiu neste sábado (21) o comandante do Exército, general Júlio Cesar de Arruda",
+          "status": "verified",
+          "note": "Successor named as Gen. Tomás Miguel Ribeiro Paiva. The source gives no reason."
+        },
+        {
+          "value": "FPA (ruralist caucus): 300 of 513 deputies and 47 of 81 senators in 2023 (up from 241 and 39)",
+          "source_url": "https://deolhonosruralistas.com.br/2023/04/26/pl-compoe-1-4-da-bancada-ruralista-na-camara-que-chega-a-300-deputados/",
+          "source_title": "PL compõe 1/4 da bancada ruralista na Câmara, que chega a 300 deputados (De Olho nos Ruralistas)",
+          "quote": "cresceu 24% na Câmara dos Deputados em relação à legislatura anterior, chegando a 300 membros",
+          "status": "verified"
+        },
+        {
+          "value": "TCU (e.g. Pé-de-Meia 2025) as a check",
+          "source_url": null,
+          "source_title": null,
+          "quote": null,
+          "status": "unverified",
+          "searched": "Not searched in depth; no source opened."
+        },
+        {
+          "value": "Governors, CNI/FIESP and the 2025 coup trial as checks",
+          "source_url": null,
+          "source_title": null,
+          "quote": null,
+          "status": "unverified",
+          "searched": "Not researched in depth; no source opened."
+        }
+      ],
+      "approval": [
+        {
+          "value": "Start 2023 (Datafolha ótimo/bom)",
+          "source_url": null,
+          "source_title": null,
+          "quote": null,
+          "status": "unverified",
+          "searched": "Searched 'Datafolha aprovação governo Lula março 2023'; only Dec 2023 found."
+        },
+        {
+          "value": "Dec 2023: 38% approve, 30% disapprove, 30% regular (Datafolha)",
+          "source_url": "https://www.brasildefato.com.br/2023/12/07/datafolha-avaliacao-positiva-do-governo-lula-e-de-38-em-cenario-de-estabilidade/",
+          "source_title": "Datafolha: avaliação positiva do governo Lula é de 38% (Brasil de Fato)",
+          "quote": "38% de aprovação ... 30% de reprovação ... outros 30% de avaliação regular",
+          "status": "verified"
+        },
+        {
+          "value": "Feb 2025: 24% ótimo/bom, lowest of his three terms (Datafolha)",
+          "source_url": "https://www.cnnbrasil.com.br/politica/datafolha-pesquisa-fevereiro-2025/",
+          "source_title": "Aprovação do governo Lula desaba para 24%, a pior nos três mandatos (CNN Brasil)",
+          "quote": "O índice de aprovação caiu para 24% ... Os que acham o governo ruim ou péssimo são 41%.",
+          "status": "verified"
+        },
+        {
+          "value": "Oct 2026: 49% approve, 48% disapprove; 36% ótimo/bom, 39% ruim/péssimo (Datafolha, 20-22 Oct)",
+          "source_url": "https://www.em.com.br/politica/2026/10/7526075-datafolha-lula-tem-49-de-aprovacao-melhor-indice-desde-julho.html",
+          "source_title": "Datafolha: Lula tem 49% de aprovação, melhor índice desde julho (Estado de Minas)",
+          "quote": "Lula registra 49% de aprovação e 48% de desaprovação",
+          "status": "verified"
+        }
+      ],
+      "outcome": {
+        "value": "Re-elected 25 Oct 2026 for a 4th term",
+        "source_url": "https://www.migalhas.com.br/quentes/467205/reeleito-lula-podera-indicar-4-ministros-ao-stf-e-ao-menos-6-ao-stj",
+        "source_title": "Reeleito, Lula poderá indicar 4 ministros ao STF e ao menos 6 ao STJ (Migalhas)",
+        "quote": "neste domingo, 25",
+        "status": "verified"
+      }
+    }
+  ],
+  "counts": {
+    "verified": 81,
+    "unverified": 18
+  }
+}

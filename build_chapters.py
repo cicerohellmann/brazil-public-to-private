@@ -614,7 +614,7 @@ def money_html(cs, href):
     rows = []
     for c in have:
         v = c["money_brl_bn"]
-        ok = c.get("money_status") == "verified"
+        ok = c.get("money_status") in ("verified", "corrected")
         w = max(1.5, v / mx * 100)
         vs = f"{v:,.1f}" if v >= 1 else f"{v:,.3g}"
         rows.append(f'<div class="mrow"><div class="mlab"><a href="{esc(href(c))}">{esc(trunc(c["title"], 70))}</a></div>'
@@ -772,7 +772,7 @@ def congress_html(ent, t, tp):
         ns = sorted(v for v, _n, _e in vals)
         lab = f'{ns[0]}' + (f'–{ns[-1]}' if ns[-1] != ns[0] else "")
         pct = f'{ns[0] / total * 100:.0f}' + (f'–{ns[-1] / total * 100:.0f}' if ns[-1] != ns[0] else "")
-        notes = "; ".join(f'{v}: {esc(trunc(n, 80))}' for v, n, _e in vals)
+        notes = "; ".join(f'{v}: {esc(trunc(n, 80).rstrip("."))}' for v, n, _e in vals)
         srcs += [src(e.get("source_url"), e.get("source_title") or "source") for _v, _n, e in vals]
         out.append(f'<div class="cg"><p class="small"><strong>{nm}</strong>: government coalition <strong>{lab} of {total}</strong> ({pct}%). '
                    f'<span class="muted">{notes}</span></p><div class="ch-box"><div class="ch-in cgin">{dotgrid(total, rows, ns)}</div></div></div>')
@@ -841,8 +841,8 @@ def courts_html(ent):
     seated = [a for a in ap if not re.search(r"never seated|rejected", str(a.get("note") or ""), re.I)]
     out = [a for a in ap if a not in seated]
     chips = [f'<span class="seatc on" title="{esc(a.get("value"))}"><b>{esc(a["name"])}</b><span class="small">{esc(a.get("year"))}</span></span>' for a in seated]
+    chips += ['<span class="seatc"><span class="small muted">other</span></span>'] * max(0, 11 - len(seated))
     chips += [f'<span class="seatc off" title="{esc(a.get("note"))}"><b>{esc(a["name"])}</b><span class="small">{esc(a.get("year"))}, {esc(a.get("note") or "not seated")}</span></span>' for a in out]
-    chips += ['<span class="seatc"><span class="small muted">other</span></span>'] * max(0, 11 - len(seated) - len(out))
     s = src(ap[0].get("source_url"), ap[0].get("source_title") or "source")
     return f'<div class="seats11">{"".join(chips)}</div>', s, len(seated), len(out)
 
@@ -912,7 +912,7 @@ table.num td,table.num th{white-space:nowrap}table.num th[scope=row]{white-space
 /* chart palette: one set of variables, light and dark */
 :root{--k0:#1f5f99;--k1:#2f7d4f;--k2:#c0620e;--k3:#9b2d2d;--k4:#7a4aa8;--k5:#a7a29a;--kn:#4f5b66;--kgov:#1f5f99;--kgov2:#9cc0e0;--krest:#d4d0c6;--kunv:#8d8a84;--kdef:#c4001a;
 --g0:#1f5f99;--g1:#7a4aa8;--g2:#c0620e;--g3:#2f7d4f;--g4:#a8813a;--g5:#2c8a8a;--g6:#a7a29a}
-@media (prefers-color-scheme:dark){:root{--k0:#6cb0e6;--k1:#7fcf9b;--k2:#f0a35e;--k3:#e07a7a;--k4:#c4a0e8;--k5:#6b6760;--kn:#b8c2cc;--kgov:#6cb0e6;--kgov2:#2f557a;--krest:#3a4049;--kunv:#8f8b84;--kdef:#ff6b6b;
+@media (prefers-color-scheme:dark){:root{--k0:#6cb0e6;--k1:#7fcf9b;--k2:#f0a35e;--k3:#e07a7a;--k4:#c4a0e8;--k5:#6b6760;--kn:#b8c2cc;--kgov:#6cb0e6;--kgov2:#2f6fa8;--krest:#3a4049;--kunv:#8f8b84;--kdef:#ff6b6b;
 --g0:#6cb0e6;--g1:#c4a0e8;--g2:#f0a35e;--g3:#7fcf9b;--g4:#d6b26a;--g5:#6fd0d0;--g6:#6b6760}}
 section:target,tr:target,figure:target{outline:3px solid #ffb454;outline-offset:8px;border-radius:8px}
 figure.chart{margin:16px 0;padding:12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);max-width:100%;min-width:0}
@@ -1022,7 +1022,7 @@ def build_chapter(P):
             big = max(mh, key=lambda c: c["money_brl_bn"]) if mh else None
             f_money = fig(f"{tp}-f-money", (f"{len(mh)} of {len(money_cs)} deals started in {tyrs} have a figure in R$ bn; the largest is {trunc(big['title'], 60)}, R$ {big['money_brl_bn']:,.1f} bn"
                                             if big else f"Money moved by the deals started in {tyrs}"),
-                          money_html(money_cs, href), f"{src_deals} (<code>money_brl_bn</code>, nominal). Grey hatched bars are not verified (unverified, corrected, disputed or only in the case text) and are drawn at face value.",
+                          money_html(money_cs, href), f"{src_deals} (<code>money_brl_bn</code>, nominal). Grey hatched bars are not verified (unverified, disputed or only in the case text); corrected figures count as checked and are drawn at face value.",
                           "no deal started in this term has a money figure in R$ bn.")
         wc = collections.Counter(who_type(c.get("who_got")) for c in who_cs)
         wtop = wc.most_common(1)[0] if wc else None
@@ -1052,7 +1052,7 @@ def build_chapter(P):
         else:
             ctitle = f"Congress strength in {tyrs}"
         f_cong = fig(f"{tp}-f-congress", ctitle, cgh if cam or (ent and ent.get("defeats")) else "",
-                     (" · ".join(dict.fromkeys(cgs)) or f"<code>data/power-{esc(slug)}.json</code>") + ". Dark = the lower count, lighter = up to the higher count (different counting methods or dates); grey = the rest.",
+                     (" · ".join(dict.fromkeys(cgs)) or f"<code>data/power-{esc(slug)}.json</code>") + ". Full blue = the lower count, faded blue = up to the higher count (different counting methods or dates); grey = the rest.",
                      f"no sourced coalition seat count for this term (data/power-{slug}.json).")
         aps = appr_points(ent)
         appr_segs.append((*span(t), tyrs, aps))
@@ -1062,7 +1062,7 @@ def build_chapter(P):
                      "no verified approval figure for this term.")
         cth, cts, nseat, nout = courts_html(ent)
         f_court = fig(f"{tp}-f-courts", (f"{name} named {nseat} of the 11 STF ministers in {tyrs}" + (f"; {nout} more nominee not seated" if nout else "")) if cth else f"Supreme Court seats named in {tyrs}",
-                      cth, (cts or f"<code>data/power-{esc(slug)}.json</code>") + ". Filled = named in this term; the other seats are not broken down.",
+                      cth, (cts or f"<code>data/power-{esc(slug)}.json</code>") + ". 11 seats; filled = named in this term and seated; the other seats are not broken down. A dashed box after the 11 = nominee never seated.",
                       "no list of court appointments for this term.")
         pph, nps, ncs = people_svg(t, ids, hid)
         f_ppl = fig(f"{tp}-f-people", (f"{nps} decision-makers are linked to {ncs} deals of {tyrs}" if pph else f"People and deals in {tyrs}"),
@@ -1208,7 +1208,7 @@ def build_index():
         rows.append(f'<tr id="c-{P["slug"]}"><td class="nw">{ts[0]["_start"].year}–{"today" if ts[-1]["_open"] else ts[-1]["_end"].year}</td>'
                     f'<td><a href="{P["slug"]}.html">{esc(P["name"])}</a></td><td class="small">{", ".join(term_years(t) for t in ts)}</td>'
                     f'<td class="small">{esc(ts[0]["regime"])}</td></tr>')
-    body = (f'<p class="sub"><a href="../timeline.html">← Timeline</a> · <a href="../index.html">Transfer cases</a></p><h1 id="title">President chapters</h1>'
+    body = (f'<p class="sub"><a href="../timeline.html">← Timeline</a> · <a href="../timeline-charts.html">Timeline chart, 1822–2026</a> · <a href="../index.html">Transfer cases</a></p><h1 id="title">President chapters</h1>'
             f'<p class="lead">One page per ruler of the republic, with every term, deal, disaster link, person and number in one place. Time order.</p>'
             f'<nav id="contents"><h2 id="contents-h">Contents</h2><ol class="toc"><li><a href="#all">All chapters</a></li></ol></nav>'
             f'<section id="all"><h2 id="all-h">All {len(PERSONS)} chapters</h2><div class="tw"><table><thead><tr><th>Years</th><th>Chapter</th><th>Terms</th><th>Regime</th></tr></thead><tbody>'

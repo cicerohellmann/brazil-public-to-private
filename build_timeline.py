@@ -8,6 +8,7 @@ import collections
 import html
 import json
 import os
+import re
 import sys
 
 import timeline_data as td
@@ -898,6 +899,50 @@ left_out = "; ".join(f'{case_a(k, k)}: {esc(v)}' for k, v in td.NOT_DEALS.items(
 same_txt = "; ".join(f'{case_a(x, x)} is listed under {case_a(e, e)}' for x, e in td.SAME_DEAL.items())
 unl = "; ".join(f'{dis_a(DIS_BY_ID[k])}: {esc(v[2]) if v[1] == "override" else "no case matched the text"}' for k, v in DMATCH.items() if not v[0])
 
+# =============================================================== deals per term + later deaths (chart band)
+def deals_band():
+    """Bar per term: height = deals signed in that term (TERM_DEALS). Under it, one circle per term for the
+    deaths in disasters later tied to those deals (term_totals); a hollow ring when the only tied disasters
+    have no death count."""
+    mx = max(_per_term) or 1
+    hb, hd = 74, 44
+    h = hb + hd
+    out = [svg_open(h, "Deals signed per term, and deaths in disasters later tied to those deals"), frame(h)]
+    out.append(f'<line class="base" x1="{L}" x2="{W - R}" y1="{hb - 2}" y2="{hb - 2}"/>')
+    mxd = max(term_totals(t["id"])[2] for t in TERMS) or 1
+    for t in TERMS:
+        a, b_ = td.frac(t["_start"]), td.frac(t["_end"])
+        x, w = X(a), max((b_ - a) * PX, 1.2)
+        n, nd, deaths, nocount = term_totals(t["id"])
+        tip = f'{t["ruler"]}, {years_txt(t)}: {n} deal{"s" if n != 1 else ""} signed'
+        if n:
+            bh = 4 + (hb - 22) * n / mx
+            out.append(f'<a href="#deals-in-{t["id"][2:]}"><rect class="db" x="{x + .3:.1f}" y="{hb - 2 - bh:.1f}" width="{max(w - .6, 1):.1f}" height="{bh:.1f}"><title>{esc(tip)}</title></rect></a>')
+            if n >= max(3, mx * .3):
+                out.append(f'<text class="dbl" x="{x + w / 2:.1f}" y="{hb - 6 - bh:.1f}">{n}</text>')
+        if nd:
+            cx, cy = x + w / 2, hb + hd / 2
+            dtip = f'{t["ruler"]}: {nd} later disaster{"s" if nd != 1 else ""} tied to deals of this term, {deaths:,} deaths recorded' + (f', {nocount} with no death count' if nocount else '')
+            r = 3.5 + 14 * (deaths / mxd) ** .5 if deaths else 4
+            out.append(f'<a href="#deals-in-{t["id"][2:]}"><circle class="ld{"" if deaths else " nc"}" cx="{cx:.1f}" cy="{cy:.1f}" r="{r:.1f}"><title>{esc(dtip)}</title></circle></a>')
+            if deaths:
+                out.append(f'<text class="ldl" x="{cx + r + 3:.1f}" y="{cy + 4:.1f}">{deaths:,}</text>')
+    out.append(svg_close(h))
+    return "".join(out)
+
+
+_mx_deals = max(len(TERM_DEALS.get(t["id"], [])) for t in TERMS)
+_top_deals = [t for t in TERMS if len(TERM_DEALS.get(t["id"], [])) == _mx_deals]
+_top_txt = " and ".join(f'{esc(short_ruler(t["ruler"]))} {t["_start"].year}' for t in _top_deals)
+_dead_terms = [t for t in TERMS if term_totals(t["id"])[1]]
+FIG_DEALS = (f'<figure id="fig-deals-per-term" class="tlf"><div class="ph" id="tl-deals"><span class="pt">1b. Deals per term: most in {_top_txt} ({_mx_deals} each)</span> '
+             f'<span class="muted small">'
+             f'Bar height = deals signed in the term (long terms have room for more). Circle = deaths in disasters later tied to those deals '
+             f'({len(_dead_terms)} terms); a hollow ring means no death count; each count keeps its own status on the disasters page. Click to open the term in the deals list. '
+             f'Source: data/g1–g10, placed by the <a href="#deals-rules">deal rules</a>.</span></div>'
+             + deals_band() + '</figure>')
+panel_html.insert(1, FIG_DEALS)
+
 deals = f'''<section id="deals"><h2 id="deals-h">What deals did each president sign, and what followed?</h2>
 <p class="lead">Each row is a signed deal. 'Followed by' shows disasters later tied to that deal. A link is not proof of cause; read the chain.</p>
 <p class="small muted">{n_deal_cases} deals over {n_deal_rows} rows (a deal with signing acts in two terms is listed under each, with that year). {n_ongoing} long processes are listed as "ongoing under" their start term. {n_linked} disasters are tied to a deal from their "linked transfer" text. Who got and who paid show the first sentence of the case; hover for the full text. Deaths are added up only where the data gives a number.</p>
@@ -925,6 +970,19 @@ for d in DIS:
         dis_js[d["_y"]] += 1
 TLD = {"L": L, "PX": PX, "y0": Y0, "y1": Y1, "series": READ, "terms": term_js, "cases": case_js, "dis": dis_js}
 tl_json = json.dumps(TLD, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+# year panel data, only for the charts page: deals signed per year (deal rules above) and disasters per year
+_yd = collections.defaultdict(dict)
+for c in CASES:
+    _st, _places = DEAL[c["id"]]
+    if _st == "deal":
+        for _pl, _y, _n in _places:
+            _yd[_y][c["id"]] = c["title"]
+_yx = collections.defaultdict(list)
+for d in sorted(DIS, key=lambda d: d.get("date") or ""):
+    if d["_y"]:
+        _yx[d["_y"]].append([d["id"], d.get("name"), html.unescape(re.sub(r"<[^>]+>", "", deaths_txt(d)))])
+TLD_CH = dict(TLD, charts=1, base="timeline.html", ydeals={y: [[k, v] for k, v in sorted(m.items())] for y, m in _yd.items()}, ydis=_yx)
+tl_json_ch = json.dumps(TLD_CH, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 
 JS = r"""
 (function(){
@@ -939,7 +997,7 @@ function setYear(y){
   var te=document.getElementById('tl-t'); te.textContent='';
   D.terms.filter(function(t){return t[0]<y+1&&t[1]>y;}).forEach(function(t,i){
     if(i) te.appendChild(document.createTextNode(', '));
-    var a=document.createElement('a'); a.href='#'+t[4]; a.textContent=t[2]; te.appendChild(a);
+    var a=document.createElement('a'); a.href=(D.base||'')+'#'+t[4]; a.textContent=t[2]; te.appendChild(a);
     te.appendChild(document.createTextNode(' ('+t[3]+')'));
   });
   var n=D.cases[y]||0, m=D.dis[y]||0;
@@ -948,12 +1006,26 @@ function setYear(y){
     var v=(D.series[s.getAttribute('data-s')]||{})[y];
     s.textContent=(v===undefined)?'no data':v; s.classList.toggle('nd',v===undefined);
   });
+  if(D.charts){panel(y);clearTimeout(ht);ht=setTimeout(function(){history.replaceState(null,'','#y'+y);},250);}
 }
+var ht=null;
+function h(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+function panel(y){
+  var p=document.getElementById('tl-yp'); if(!p) return;
+  var ts=D.terms.filter(function(t){return t[0]<y+1&&t[1]>y;});
+  var dl=D.ydeals[y]||[], ds=D.ydis[y]||[];
+  var o='<h3 id="tl-yp-h">'+y+'</h3><div class="ypc"><p><b>In power:</b> '+(ts.length?ts.map(function(t){return '<a href="'+D.base+'#'+h(t[4])+'">'+h(t[2])+'</a> <span class="muted small">('+h(t[3])+')</span>';}).join(', '):'<span class="muted">Portuguese crown (before 1822) or no term in the data</span>')+'</p></div>';
+  o+='<div class="ypc"><p><b>Deals signed ('+dl.length+'):</b></p>'+(dl.length?'<ul>'+dl.map(function(c){return '<li><a href="index.html#'+h(c[0])+'">'+h(c[1])+'</a></li>';}).join('')+'</ul>':'<p class="muted small">None in the data this year.</p>')+'</div>';
+  o+='<div class="ypc"><p><b>Disasters ('+ds.length+'):</b></p>'+(ds.length?'<ul>'+ds.map(function(d){return '<li><a href="disasters.html#'+h(d[0])+'">'+h(d[1])+'</a> <span class="muted small">'+h(d[2])+'</span></li>';}).join('')+'</ul>':'<p class="muted small">None in the data this year.</p>')+'</div>';
+  p.innerHTML=o;
+}
+function fromHash(){var m=/^#y(\d{4})$/.exec(location.hash); return m?+m[1]:null;}
 function yearAt(e){var r=ref.getBoundingClientRect(); var x=(e.clientX-r.left)*ref.viewBox.baseVal.width/r.width; return Math.floor((x-D.L)/D.PX)+D.y0;}
 box.addEventListener('pointermove',function(e){if(e.pointerType==='mouse'&&e.target.closest('svg.trk')) setYear(yearAt(e));});
 box.addEventListener('click',function(e){if(e.target.closest('a')||!e.target.closest('svg.trk')) return; setYear(yearAt(e));});
 rng.addEventListener('input',function(){setYear(+rng.value);});
-setYear(1998);
+var y0=D.charts?fromHash():null; setYear(y0||1998);
+if(D.charts) window.addEventListener('hashchange',function(){var y=fromHash(); if(y) setYear(y);});
 })();
 (function(){
 function fit(){document.querySelectorAll('.tl-box,.colony-box').forEach(function(b){if(b.scrollWidth>b.clientWidth)b.scrollLeft=b.scrollWidth;});}
@@ -966,8 +1038,9 @@ function reveal(){
 }
 window.addEventListener('hashchange',reveal);reveal();
 function all(o){document.querySelectorAll('details.term-d').forEach(function(d){d.open=o;});}
-document.getElementById('terms-open').addEventListener('click',function(){all(true);});
-document.getElementById('terms-close').addEventListener('click',function(){all(false);});
+var to=document.getElementById('terms-open'), tc=document.getElementById('terms-close');
+if(to) to.addEventListener('click',function(){all(true);});
+if(tc) tc.addEventListener('click',function(){all(false);});
 })();
 """
 
@@ -1033,6 +1106,7 @@ h5{font-size:.85rem;margin:.8em 0 .2em;text-transform:uppercase;letter-spacing:.
 section,nav{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin:18px 0}
 section section{margin:14px 0;background:var(--bg)}
 section:target,tr:target{outline:3px solid #ffb454;outline-offset:8px;border-radius:8px}
+section:target,tr:target,figure:target{outline:3px solid #ffb454;outline-offset:8px;border-radius:8px}
 details:target,h3:target,.cap:target,.ph:target{outline:3px solid #ffb454;outline-offset:4px;border-radius:6px}
 a{color:var(--acc)}
 .lead{font-size:1.08rem}.muted{color:var(--muted)}.small{font-size:.85rem}.sub{color:var(--muted);margin:0}
@@ -1086,6 +1160,10 @@ svg .tl{fill:var(--rgt);font-size:10px;pointer-events:none}
 svg .tk{fill:var(--tk)}svg .dk{fill:var(--dk)}
 svg a:hover .tk,svg a:hover .dk{fill:var(--xh)}
 svg .indep{stroke:var(--xh);stroke-dasharray:3 2}
+figure.tlf{margin:0}svg .base{stroke:var(--line)}svg .db{fill:var(--tk);opacity:.8}svg a:hover .db{fill:var(--xh);opacity:1}
+svg .dbl{fill:var(--fg);font-size:10px;text-anchor:middle;font-weight:600}
+svg .ld{fill:var(--dk);stroke:var(--fg);stroke-width:.8;fill-opacity:.85}svg .ld.nc{fill:var(--card);stroke:var(--dk);stroke-width:1.5}
+svg .ldl{fill:var(--fg);font-size:10px}svg a:hover .ld{stroke:var(--xh);stroke-width:2}
 .colony-box{overflow-x:auto;border:1px solid var(--line);border-radius:8px;padding:6px;margin:8px 0;background:var(--card)}
 /* tables and people */
 .tw{overflow-x:auto;border:1px solid var(--line);border-radius:8px;margin:8px 0;-webkit-overflow-scrolling:touch}
@@ -1113,12 +1191,46 @@ details.term-d>summary h3{display:inline;margin:0}
 """
 
 colony_cases_n = n_colony
+
+TL_TOC = ('<li><a href="#tl-colony">Colony cases 1500–1822</a></li><li><a href="#tl-terms">Terms of power</a></li>'
+          '<li><a href="#fig-deals-per-term">Chart: deals per term and later deaths</a></li>'
+          '<li><a href="#tl-cases">Cases and disasters</a></li><li><a href="#tl-patrimony">Public patrimony</a></li><li><a href="#tl-purchasing">Purchasing power</a></li>'
+          '<li><a href="#tl-concentration">Concentration</a></li><li><a href="#tl-political">Political power</a></li><li><a href="#tl-notes">Notes on every series</a></li>')
+
+def timeline_section(charts):
+    """The timeline section. timeline.html uses it as is; timeline-charts.html (charts=True) adds an intro,
+    a how-to-read line and a year panel, and folds the colony strip into a details box."""
+    colony_html = (f'<h3 id="tl-colony">Before independence: {colony_cases_n} transfer cases, 1500–1822</h3>\n'
+                   f'<div class="colony-box">{colony_s}</div>')
+    intro = year_panel = ""
+    if charts:
+        colony_html = (f'<details class="notes" id="tl-colony-d"><summary>Before independence: {colony_cases_n} transfer cases, 1500–1822 (open the strip)</summary>'
+                       f'<h3 id="tl-colony">Colony cases by start year</h3><div class="colony-box">{colony_s}</div></details>')
+        intro = ('<p class="lead">Every term of power, every deal and disaster, and the data on public patrimony, wages and wealth, on one year axis from 1822 to today.</p>'
+                 '<p class="howto"><strong>How to read it:</strong> each row shares the same years. Pick a year (hover, tap or drag the slider); the red line marks it in every chart, '
+                 'and the panel below lists who was in power, the deals signed and the disasters that year. The link in the address bar opens on that year.</p>')
+        year_panel = '<aside class="yp" id="tl-yp" aria-live="polite"></aside>'
+    return f'''<section id="timeline"><h2 id="timeline-h">The timeline, 1822–2026</h2>
+{intro}<p class="lead"><strong>Hover, tap or drag the slider</strong> to pick a year. The bar shows who was in power, and every series shows its value for that year.</p>
+<p class="small">{legend_regimes} <span class="muted">· Shaded years = dictatorship. <strong>Dashed line or hollow dot</strong> = unverified, modelled or imputed. Lines join only back-to-back years; a gap means no data.</span></p>
+{colony_html}
+<div class="tl-bar" aria-live="polite"><b id="tl-y">1998</b> <span id="tl-t"></span> <span id="tl-c" class="muted small"></span>
+<input id="tl-year" type="range" min="{Y0}" max="{Y1}" value="1998" aria-label="Pick a year"></div>
+<div class="tl-box" id="tl-box"><div class="tl-inner">
+{"".join(panel_html)}
+</div></div>
+{year_panel}<p class="muted small">On a phone, swipe sideways inside the box. Units, sources and status sit above each chart.</p>
+<details class="notes" id="tl-notes"><summary>Notes on every series drawn ({len(DRAWN)}), with the method notes as the researchers wrote them</summary>
+<ul>{"".join(series_notes)}</ul>
+<p><strong>In the data but not drawn ({len(not_drawn)}):</strong></p><ul class="small">{nd_notes}</ul></details>
+</section>'''
+
 page = f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Brazil timeline: patrimony, purchasing power, concentration and who decided</title>
 <style>{CSS}</style></head>
 <body><main id="top">
-<p class="sub"><a href="index.html">← Main page: the transfer cases</a> · <a href="disasters.html">Disasters</a> · <a href="chapters/index.html">President chapters</a></p>
+<p class="sub"><a href="index.html">← Main page: the transfer cases</a> · <a href="disasters.html">Disasters</a> · <a href="chapters/index.html">President chapters</a> · <a href="timeline-charts.html">Timeline charts, full width</a></p>
 <h1 id="title">Brazil 1822–2026: who ruled, what was handed over, and what happened to wages and wealth</h1>
 <p class="sub">One shared year axis for every term of power, every transfer case, and the data on public patrimony, purchasing power, concentration and democracy. Built from the data files by build_timeline.py.</p>
 {answer}
@@ -1126,7 +1238,7 @@ page = f'''<!doctype html>
 <nav id="contents" aria-label="Contents"><h2 id="contents-h">Contents</h2><ol class="toc">
 <li><a href="#answer">What the timeline shows</a></li>
 <li><a href="#deals">What deals did each president sign, and what followed?</a></li>
-<li><a href="#timeline">The timeline</a><ul><li><a href="#tl-colony">Colony cases 1500–1822</a></li><li><a href="#tl-terms">Terms of power</a></li><li><a href="#tl-cases">Cases and disasters</a></li><li><a href="#tl-patrimony">Public patrimony</a></li><li><a href="#tl-purchasing">Purchasing power</a></li><li><a href="#tl-concentration">Concentration</a></li><li><a href="#tl-political">Political power</a></li><li><a href="#tl-notes">Notes on every series</a></li></ul></li>
+<li><a href="#timeline">The timeline</a> (also <a href="timeline-charts.html">on its own, full-width page</a>)<ul>{TL_TOC}</ul></li>
 <li><a href="#terms">Every term: scorecard and decision-makers</a></li>
 <li><a href="#both-sides">People on both sides</a></li>
 <li><a href="#foreign">Foreign counterparts by country</a></li>
@@ -1134,21 +1246,7 @@ page = f'''<!doctype html>
 <li><a href="#gaps">What data is missing</a></li>
 </ol></nav>
 
-<section id="timeline"><h2 id="timeline-h">The timeline, 1822–2026</h2>
-<p class="lead"><strong>Hover, tap or drag the slider</strong> to pick a year. The bar shows who was in power, and every series shows its value for that year.</p>
-<p class="small">{legend_regimes} <span class="muted">· Shaded years = dictatorship. <strong>Dashed line or hollow dot</strong> = unverified, modelled or imputed. Lines join only back-to-back years; a gap means no data.</span></p>
-<h3 id="tl-colony">Before independence: {colony_cases_n} transfer cases, 1500–1822</h3>
-<div class="colony-box">{colony_s}</div>
-<div class="tl-bar" aria-live="polite"><b id="tl-y">1998</b> <span id="tl-t"></span> <span id="tl-c" class="muted small"></span>
-<input id="tl-year" type="range" min="{Y0}" max="{Y1}" value="1998" aria-label="Pick a year"></div>
-<div class="tl-box" id="tl-box"><div class="tl-inner">
-{"".join(panel_html)}
-</div></div>
-<p class="muted small">On a phone, swipe sideways inside the box. Units, sources and status sit above each chart.</p>
-<details class="notes" id="tl-notes"><summary>Notes on every series drawn ({len(DRAWN)}), with the method notes as the researchers wrote them</summary>
-<ul>{"".join(series_notes)}</ul>
-<p><strong>In the data but not drawn ({len(not_drawn)}):</strong></p><ul class="small">{nd_notes}</ul></details>
-</section>
+{timeline_section(False)}
 
 <section id="terms"><h2 id="terms-h">Every term: scorecard and decision-makers</h2>
 <p class="lead"><strong>{len(TERMS)} terms</strong>, oldest first, each with the six-question scorecard, the indicator change, the people who could decide, and the cases that started.</p>
@@ -1230,6 +1328,40 @@ page = f'''<!doctype html>
 
 with open(OUT, "w", encoding="utf-8") as fh:
     fh.write(page)
+
+# =============================================================== timeline-charts.html: the same section on its own page
+CSS_CH = """
+main{max-width:1400px}
+.howto{font-size:.95rem}
+@media (min-width:1000px){.tl-inner{width:auto}.tl-box svg.trk{width:100%;height:auto}.ph,.cap{width:auto;max-width:none}}
+@media (min-width:601px){.tl-bar #tl-y{font-size:2.2rem;line-height:1}}
+.yp{position:sticky;bottom:0;z-index:6;background:var(--card);border:2px solid var(--line);border-radius:8px;padding:6px 14px;margin:8px 0;max-height:28vh;overflow:auto;font-size:.88rem;box-shadow:0 -4px 14px rgba(0,0,0,.12)}
+.yp h3{margin:0;font-size:1.5rem;font-variant-numeric:tabular-nums}.yp p{margin:.2em 0}.yp ul{margin:.1em 0 .3em;padding-left:1.1em}
+@media (min-width:900px){.yp{display:grid;grid-template-columns:5rem minmax(0,1fr) minmax(0,1.4fr) minmax(0,1.2fr);gap:0 20px;align-items:start}}
+@media (max-width:600px){.yp{position:static;max-height:none}}
+"""
+CH_TOC = ('<li><a href="#timeline">The timeline</a><ul><li><a href="#tl-yp">The year you picked</a></li>'
+          + TL_TOC.replace('href="#tl-colony"', 'href="#tl-colony-d"') + '</ul></li>')
+page_ch = f'''<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Brazil 1822–2026 on one year axis: timeline charts</title>
+<style>{CSS}{CSS_CH}</style></head>
+<body><main id="top">
+<p class="sub"><a href="timeline.html">← Full timeline page (terms, people, deals)</a> · <a href="index.html">Main page</a> · <a href="disasters.html">Disasters</a></p>
+<h1 id="title">Brazil 1822–2026 on one year axis</h1>
+<nav id="contents" aria-label="Contents"><h2 id="contents-h">Contents</h2><ol class="toc">{CH_TOC}</ol></nav>
+{timeline_section(True)}
+<p class="muted small">Generated by build_timeline.py from the same code as the timeline section of timeline.html.</p>
+</main>
+<script type="application/json" id="tl-data">{tl_json_ch}</script>
+<script>{JS}</script>
+</body></html>
+'''
+_ids_ch = set(re.findall(r'\bid="([^"]+)"', page_ch))
+page_ch = re.sub(r'href="#([^"]+)"', lambda m: m.group(0) if m.group(1) in _ids_ch else f'href="timeline.html#{m.group(1)}"', page_ch)
+with open(os.path.join(ROOT, "timeline-charts.html"), "w", encoding="utf-8") as fh:
+    fh.write(page_ch)
+print(f"wrote timeline-charts.html ({len(page_ch):,} bytes)")
 print(f"wrote {OUT} ({len(page):,} bytes)")
 print(f"terms {len(TERMS)}, people {n_people} (appearances {n_term_people}), series drawn {len(DRAWN)} of {len(S)}, "
       f"cases {n_cases}, both-sides verified people {n_both_people} rows {len(both_v)} unverified {len(both_u)}, countries {len(by_country)}")

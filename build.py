@@ -519,7 +519,7 @@ def story_svg():
     for c, x, r, bm, y in placed:
         cy = base - y
         money = f"largest amount {human(bm[0], bm[1])} ({bm[2]['status']})" if bm else "no clean amount"
-        out.append(f'<a href="#{c["id"]}"><circle class="dot {ERA_CLS[c["_era"]]}" cx="{x:.1f}" cy="{cy:.1f}" r="{r}">'
+        out.append(f'<a href="#{c["id"]}"><circle class="dot {ERA_CLS[c["_era"]]}{" pale" if bm and bm[2]["status"] not in GOOD else ""}" cx="{x:.1f}" cy="{cy:.1f}" r="{r}">'
                    f'<title>{c["start_year"]} · {esc(c["id"])}: {esc(c["title"])} · {money}</title></circle></a>')
     out.append("</svg>")
     return "".join(out)
@@ -529,11 +529,12 @@ era_counts = collections.Counter(c["_era"] for c in cases)
 n_after85 = sum(1 for c in cases if c["start_year"] >= 1985)
 legend_era = "".join(f'<li><i class="sw {ERA_CLS[e]}"></i>{esc(s)} <span class="muted">({era_counts[e]})</span></li>' for e, _, s in ERAS)
 legend_size = "".join(f'<li><svg viewBox="0 0 22 22" width="18" height="18" aria-hidden="true"><circle class="dot e7" cx="11" cy="11" r="{RADIUS[i]}"/></svg>{SIZE_LABEL[i]}</li>' for i in range(5))
+legend_size += '<li><svg viewBox="0 0 22 22" width="18" height="18" aria-hidden="true"><circle class="dot e7 pale" cx="11" cy="11" r="7.4"/></svg>pale, dashed = that amount is unverified or disputed</li>'
 n_sized = sum(1 for c in cases if best_money(c))
 FIG_STORY = fig(
     "fig-story",
     f'<span id="fig-story-t">{N_CASES} entries from {min(c["start_year"] for c in cases)} to {max(c["start_year"] for c in cases)}: {n_after85} of them start in 1985 or later</span>',
-    f'<ul class="lg">{legend_era}</ul><div class="sx story">{story_svg()}</div>'
+    f'<ul class="lg">{legend_era}</ul><p class="hint">Swipe sideways for all years; the chart opens at the most recent.</p><div class="sx story" data-end>{story_svg()}</div>'
     f'<ul class="lg">{legend_size}</ul>',
     f'Each dot is one entry at its start year; tap or hover for the title, click to open it. Colour = era. Size = the largest single amount in reais (1994 on) or US dollars among its figures, <strong>not converted or added</strong>, money of its year; {N_CASES - n_sized} entries with no clean amount get the smallest dot. '
     'Bands behind = who ruled (shaded red-brown = dictatorship). <strong>The year axis is stretched</strong>: 1500–1822 is squeezed, 1964–2026 is widest. Source: data/g1–g7, terms.json.')
@@ -664,7 +665,7 @@ _rlab = dict(_rl)
 rules_html = "".join(f'<li><strong>{esc(l)}</strong>: <code>{esc(rx if len(rx) < 260 else rx[:257] + "…")}</code></li>' for _, l, rx in RECV_RULES[:-1])
 FIG_RECV = fig(
     "fig-receivers",
-    f'Who got it: {_rlab[_rtop].lower()} are the largest named group, {len(recv_groups[_rtop])} of {N_CASES} entries',
+    f'Who got it: {_rlab[_rtop][0].lower() + _rlab[_rtop][1:] if not _rlab[_rtop].startswith("Brazil") else _rlab[_rtop]} are the largest named group, {len(recv_groups[_rtop])} of {N_CASES} entries',
     f'<ul class="lg">{legend_era}</ul>' + era_stack_bars(recv_groups, _rl, "")
     + f'<details class="more"><summary>The keyword rules</summary><p class="small">Read on the first 180 characters of each entry\'s "who got it" text, lower case, accents removed. If the text starts by saying no receiver is named, it goes to the first group. Otherwise the type whose words come <strong>first in the text</strong> wins. No match: "Others".</p><ol class="small rules">{rules_html}</ol></details>',
     'Each entry is counted once, by the receiver type named first in its "who got it" text, so a consortium counts by its first-named member. This is a rough sort by words, not a legal finding. Source: data/g1–g7, field "who_got".')
@@ -1282,9 +1283,11 @@ figure.ch .src{font-size:.8rem;color:var(--muted);margin:.5em 0 0}
 .sx{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:4px 0}
 .sx svg{display:block;width:100%;height:auto;min-width:720px}
 .sx.story svg{min-width:820px}
+.hint{display:none;font-size:.8rem;color:var(--muted);margin:2px 0}@media(max-width:860px){.hint{display:block}}
 svg .dot{stroke:var(--card);stroke-width:.8}
 svg .e1{fill:var(--e1)}svg .e2{fill:var(--e2)}svg .e3{fill:var(--e3)}svg .e4{fill:var(--e4)}svg .e5{fill:var(--e5)}svg .e6{fill:var(--e6)}svg .e7{fill:var(--e7)}
 svg .dot.unv{fill:url(#hatch);stroke:var(--unv);stroke-width:1.2}
+svg .dot.pale{fill-opacity:.3;stroke:var(--ink);stroke-width:.9;stroke-dasharray:2 1.5}
 svg a:hover .dot,svg a:focus .dot{stroke:var(--ink);stroke-width:2}
 svg .band.b0{fill:var(--band1)}svg .band.b1{fill:var(--band1)}svg .band.b2{fill:var(--band2)}svg .band.d{fill:var(--bandd)}
 svg .bl{fill:var(--muted);font-size:11px;text-anchor:middle}
@@ -1332,7 +1335,7 @@ page = f'''<!doctype html>
 <p class="sub">A profile of what marks such a deal, and the record from 1500 to 2026. Built from the data files by build.py. Disasters are on a <a href="disasters.html">separate page</a>. Timeline charts: <a href="timeline-charts.html">full-size page</a>.</p>
 {"".join(parts)}
 <p class="muted small">Generated by build.py from data/g1–g7 (cases) and data/g8–g10 (disasters). Every figure carries its source and fact-check status.</p>
-</main></body></html>
+</main><script>document.querySelectorAll('.sx[data-end]').forEach(function(s){{s.scrollLeft=s.scrollWidth}});</script></body></html>
 '''
 
 with open(OUT, "w", encoding="utf-8") as fh:

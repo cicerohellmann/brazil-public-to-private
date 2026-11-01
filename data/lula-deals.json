@@ -1,0 +1,983 @@
+{
+ "cases": [
+  {
+   "id": "e3-14",
+   "title": "Tucuruí dam and subsidised power for Albras, Alunorte and Alumar",
+   "role": "continued",
+   "terms": [
+    "t-lula-2003"
+   ],
+   "year": "1974–2004",
+   "money": "US$3.4 bn, 20-year power contract renewed 1 May 2004",
+   "money_status": "in-text (not in figures)",
+   "money_brl_bn": 17,
+   "who_got": "Albras/Alunorte/Alumar smelters (Japanese, Alcoa)",
+   "who_paid": "Eletronorte, Treasury, household power consumers",
+   "disasters": [
+    "d-tucurui-dam-1984"
+   ],
+   "reason": "\"Contract renewed 1 May 2004 for 20 years (US$3.4 bn, US$170 mn a year)\"; set up under Geisel/Figueiredo."
+  },
+  {
+   "id": "e4-06",
+   "title": "BNDES loans to privatization buyers",
+   "role": "context-only",
+   "terms": [
+    "t-lula-2003"
+   ],
+   "year": "1991–2003",
+   "money": "R$22 bn of BNDES money to power distributors (audit)",
+   "money_status": "unverified",
+   "money_brl_bn": 22,
+   "who_got": "Electricity privatization buyers (AES etc.)",
+   "who_paid": "Taxpayers via BNDES/Treasury",
+   "disasters": [],
+   "reason": "Collor-to-Cardoso loans; only \"audit in Lula's first year\" and the 2003 AES debt deal touch him."
+  },
+  {
+   "id": "e4-18",
+   "title": "CC5 accounts and the Banestado CPI",
+   "role": "context-only",
+   "terms": [
+    "t-lula-2003"
+   ],
+   "year": "1996–2004",
+   "money": "Evasion up to R$150 bn (CPMI report)",
+   "money_status": "verified",
+   "money_brl_bn": 150,
+   "who_got": "CC5 account holders sending money abroad",
+   "who_paid": "Treasury (tax evasion), Banestado",
+   "disasters": [],
+   "reason": "Cardoso-era flows; \"Lula (CPMI, installed 18 Jun 2003)\": inquiry only, \"ended unvoted\"."
+  },
+  {
+   "id": "e4-31",
+   "title": "Electricity rationing and the tariff recomposition (RTE)",
+   "role": "continued",
+   "terms": [
+    "t-lula-2003"
+   ],
+   "year": "2001–2002",
+   "money": "R$7 bn BNDES financing of RTE",
+   "money_status": "unverified",
+   "money_brl_bn": 7,
+   "who_got": "Power distributors and generators",
+   "who_paid": "Consumers via RTE tariff; taxpayers via BNDES",
+   "disasters": [],
+   "reason": "Cardoso crisis cabinet created RTE; \"settlement under Lula\" kept the surcharge and BNDES loans running (judged from case summary; thin)."
+  },
+  {
+   "id": "e4-32",
+   "title": "Seguro-apagao (emergency capacity charge, CBEE)",
+   "role": "continued",
+   "terms": [
+    "t-lula-2003"
+   ],
+   "year": "2002–2005",
+   "money": "R$0.0057/kWh (2002), R$0.0067/kWh (Feb 2005)",
+   "money_status": "unverified",
+   "money_brl_bn": null,
+   "who_got": "CBEE and contracted emergency plants",
+   "who_paid": "Grid consumers except low-income",
+   "disasters": [],
+   "reason": "\"Cardoso, then Lula\": charge raised to R$0.0067 per kWh in Feb 2005 and ended Dec 2005."
+  },
+  {
+   "id": "e4-17",
+   "title": "PROES and the sale of state banks",
+   "role": "continued",
+   "terms": [
+    "t-lula-2003"
+   ],
+   "year": "1996–2004",
+   "money": "PROES total cost above R$73 bn (ANPUH, whole program)",
+   "money_status": "verified",
+   "money_brl_bn": 73,
+   "who_got": "Itau, Bradesco and other state-bank buyers",
+   "who_paid": "Taxpayers via Union bonds",
+   "disasters": [],
+   "reason": "Cardoso program; only link: \"BEM (2004) and BEC (2005) were sold later\" under Lula. Marginal, unsure."
+  },
+  {
+   "id": "e4-21",
+   "title": "Cemig (MG): 1997 stake sale and the shareholders' agreement fight",
+   "role": "context-only",
+   "terms": [
+    "t-lula-2007"
+   ],
+   "year": "1997–2009",
+   "money": "SEB debt to BNDES R$3.19 bn (end 2008)",
+   "money_status": "unverified",
+   "money_brl_bn": 3.19,
+   "who_got": "Southern Electric Brasil (Cemig stake)",
+   "who_paid": "BNDES, state of Minas Gerais",
+   "disasters": [],
+   "reason": "State-level 1997 sale; 2007-09 BNDES settlement of the buyer's debt overlaps Lula 2, no federal act named. Unsure."
+  },
+  {
+   "id": "e5-01",
+   "title": "Oil and gas concession rounds 5 to 13 (ANP)",
+   "role": "continued",
+   "terms": [
+    "t-lula-2003",
+    "t-lula-2007"
+   ],
+   "year": "2003–2015",
+   "money": "Round 7 signing bonus R$1,085 mn (Round 6: R$665 mn)",
+   "money_status": "verified",
+   "money_brl_bn": 1.085,
+   "who_got": "Petrobras, foreign majors, small Brazilian firms",
+   "who_paid": "The Union gave up subsoil rights for bonuses",
+   "disasters": [
+    "d-chevron-frade-2011"
+   ],
+   "reason": "Concession model of Lei 9.478/1997 (inherited); Lula held rounds 5-10 and stopped pre-salt rounds \"after the 2007 pre-salt discoveries\". Frade link weak (round not identified)."
+  },
+  {
+   "id": "e5-02",
+   "title": "BNDES export-service loans to Brazilian contractors abroad (Odebrecht, Mariel, Angola)",
+   "role": "continued",
+   "terms": [
+    "t-lula-2003",
+    "t-lula-2007"
+   ],
+   "year": "2003–2015",
+   "money": "US$10.5 bn service-export disbursements 1998-2019",
+   "money_status": "corrected",
+   "money_brl_bn": 52,
+   "who_got": "Odebrecht (76%), Andrade Gutierrez, other contractors; Cuba/Angola borrowers",
+   "who_paid": "BNDES and Treasury carry default risk",
+   "disasters": [],
+   "reason": "Program dates from 1998; Lula era scaled it, e.g. Mariel port financing US$692 mn (2008-14)."
+  },
+  {
+   "id": "e5-03",
+   "title": "Petrobras contractor cartel and kickbacks (Lava Jato) and the leniency deals",
+   "role": "context-only",
+   "terms": [
+    "t-lula-2003",
+    "t-lula-2007"
+   ],
+   "year": "about 2004–2014 (revealed 2014; leniency deals 2015–2019)",
+   "money": "MPF civil suits R$44.7 bn",
+   "money_status": "unverified",
+   "money_brl_bn": 44.7,
+   "who_got": "Odebrecht, Andrade Gutierrez and cartel firms; parties PP/PT/PMDB",
+   "who_paid": "Petrobras, Eletrobras, taxpayers",
+   "disasters": [],
+   "reason": "A cartel/kickback scheme \"about 2004-2014\", not a government-signed deal; unsure, could be read as started via Petrobras tenders."
+  },
+  {
+   "id": "e5-04",
+   "title": "PPP law and the first PPP, São Paulo Metro Line 4",
+   "role": "started",
+   "terms": [
+    "t-lula-2003"
+   ],
+   "year": "2004–2006",
+   "money": "Govt pays 80% of Line 4 civil works (no total)",
+   "money_status": "verified",
+   "money_brl_bn": null,
+   "who_got": "ViaQuatro consortium",
+   "who_paid": "Sao Paulo state treasury (guarantee/demand risk)",
+   "disasters": [],
+   "reason": "\"Sponsored and administrative concessions under Lei 11.079 of 30 Dec 2004\" (Lula 1 federal PPP law)."
+  },
+  {
+   "id": "e5-05",
+   "title": "Public forest concessions (Lei de Gestão de Florestas Públicas)",
+   "role": "started",
+   "terms": [
+    "t-lula-2003",
+    "t-lula-2007"
+   ],
+   "year": "2006–2010",
+   "money": "R$5.5 mn paid by concessionaires up to 2012",
+   "money_status": "corrected",
+   "money_brl_bn": 0.0055,
+   "who_got": "Private timber firms",
+   "who_paid": "Public forests, communities (not researched)",
+   "disasters": [],
+   "reason": "\"Lei 11.284/2006, with tenders run by the forest service. Contracts allow up to 40 years.\""
+  },
+  {
+   "id": "e5-06",
+   "title": "Madeira River dams: Santo Antonio and Jirau (Rondônia)",
+   "role": "started",
+   "terms": [
+    "t-lula-2007"
+   ],
+   "year": "2007–2016 (suits 2014 and 2025)",
+   "money": "BNDES loans R$6.1 bn (Santo Antonio) + R$7.2 bn (Jirau)",
+   "money_status": "verified",
+   "money_brl_bn": 13.3,
+   "who_got": "Santo Antonio and Jirau consortia (Odebrecht, Furnas, Cemig...)",
+   "who_paid": "Displaced riverside residents; Union via Furnas stake and BNDES",
+   "disasters": [
+    "d-madeira-river-flood-2014",
+    "d-jirau-riot-2011"
+   ],
+   "reason": "\"ANEEL auctions in 2007-2008 and BNDES project-finance loans\" (Santo Antonio 10 Dec 2007, Jirau May 2008)."
+  },
+  {
+   "id": "e5-07",
+   "title": "BNDES 'national champion' equity in JBS and Bertin",
+   "role": "started",
+   "terms": [
+    "t-lula-2007"
+   ],
+   "year": "2007–2013 (TCU audits 2015–2018, ruling 2024)",
+   "money": "BNDES disbursements to JBS group R$8.11 bn (2007-13)",
+   "money_status": "verified",
+   "money_brl_bn": 8.11,
+   "who_got": "JBS/Friboi (Batista family), Bertin",
+   "who_paid": "BNDES and Treasury",
+   "disasters": [],
+   "reason": "\"Discretionary BNDESPar equity purchases and debentures under the 'national champions' industrial policy\"; Bertin stake bought 2008."
+  },
+  {
+   "id": "e5-08",
+   "title": "Eike Batista's EBX group (OGX, MMX, LLX/Prumo, OSX, MPX)",
+   "role": "started",
+   "terms": [
+    "t-lula-2007"
+   ],
+   "year": "2007–2014 (collapse 2013)",
+   "money": "R$10.4 bn BNDES granted to Eike companies (approved, not disbursed)",
+   "money_status": "corrected",
+   "money_brl_bn": 10.4,
+   "who_got": "Eike Batista's EBX companies",
+   "who_paid": "BNDES and so the Treasury",
+   "disasters": [],
+   "reason": "BNDES/BNDESPar credit \"since 2007\"; OGX collapsed 2013 under Dilma."
+  },
+  {
+   "id": "e5-09",
+   "title": "Oi / Brasil Telecom merger ('supertele') and public-bank exposure",
+   "role": "started",
+   "terms": [
+    "t-lula-2007"
+   ],
+   "year": "2008–2018 (collapse 2016)",
+   "money": "BNDES loan R$2.569 bn to restructure Telemar control",
+   "money_status": "verified",
+   "money_brl_bn": 2.569,
+   "who_got": "Telemar/Oi controllers, then Portugal Telecom",
+   "who_paid": "BNDES, Banco do Brasil, Caixa and the Union",
+   "disasters": [],
+   "reason": "\"Decree 6.654/2008 (new Plano Geral de Outorgas) plus BNDES credit\" enabled the Oi/Brasil Telecom merger."
+  },
+  {
+   "id": "e5-10",
+   "title": "Votorantim Celulose (VCP) buys Aracruz and becomes Fibria",
+   "role": "started",
+   "terms": [
+    "t-lula-2007"
+   ],
+   "year": "2008–2009 (Suzano merger 2018)",
+   "money": "BNDES commitment up to R$2.4 bn",
+   "money_status": "verified",
+   "money_brl_bn": 2.4,
+   "who_got": "Votorantim group",
+   "who_paid": "BNDES as co-investor",
+   "disasters": [],
+   "reason": "\"BNDES equity and credit support for a private merger\" (VCP buys Aracruz, 2008-09)."
+  },
+  {
+   "id": "e5-11",
+   "title": "Angra 3 nuclear plant contracts",
+   "role": "continued",
+   "terms": [
+    "t-lula-2007"
+   ],
+   "year": "2008–2017",
+   "money": "Total cost over R$25 bn incl. sunk costs (2008 est. R$8.3 bn)",
+   "money_status": "verified",
+   "money_brl_bn": 25,
+   "who_got": "Camargo Correa, UTC, Andrade consortium",
+   "who_paid": "Eletrobras and electricity consumers",
+   "disasters": [],
+   "reason": "Inherited nuclear plant relaunched in 2008 (\"Lula 2, Dilma 1 and 2, Temer\"); cartel tender itself was 2013 under Dilma."
+  },
+  {
+   "id": "e5-12",
+   "title": "Treasury funding of BNDES and PSI subsidised credit ('bolsa-empresário')",
+   "role": "started",
+   "terms": [
+    "t-lula-2007"
+   ],
+   "year": "2008–2015",
+   "money": "Treasury transfers to BNDES since 2008: R$414 bn (subsidy est. R$11.6-15.9 bn for 2008-10)",
+   "money_status": "corrected",
+   "money_brl_bn": 414,
+   "who_got": "Large firms (67.9% of 2012 disbursements)",
+   "who_paid": "Taxpayers via public debt",
+   "disasters": [],
+   "reason": "\"Treasury bond issues on-lent to BNDES at TJLP\" from 2008; the transfers are loans, not a cost; the cost is the subsidy figure."
+  },
+  {
+   "id": "e5-13",
+   "title": "Terra Legal: land regularisation in the Amazon (MP 458/2009, Lei 11.952/2009)",
+   "role": "started",
+   "terms": [
+    "t-lula-2007"
+   ],
+   "year": "2009 onward",
+   "money": "28,331 titles, 2.06 mn ha issued to 2017 (no price)",
+   "money_status": "verified",
+   "money_brl_bn": null,
+   "who_got": "Occupants of federal Amazon land",
+   "who_paid": "The public land stock",
+   "disasters": [],
+   "reason": "\"MP 458/2009 converted into Lei 11.952/2009.\""
+  },
+  {
+   "id": "e5-14",
+   "title": "Caixa buys a stake in Banco Panamericano",
+   "role": "started",
+   "terms": [
+    "t-lula-2007"
+   ],
+   "year": "2009–2021",
+   "money": "Caixa paid R$739 mn for 35.54%",
+   "money_status": "verified",
+   "money_brl_bn": 0.739,
+   "who_got": "Grupo Silvio Santos",
+   "who_paid": "FGC (banks) for the R$2.5 bn hole; Caixa risk",
+   "disasters": [],
+   "reason": "Caixa equity purchase, Dec 2009 (70%) and Jul 2010; Central Bank approved 15 Jul 2010."
+  },
+  {
+   "id": "e5-15",
+   "title": "Belo Monte dam (Xingu, Pará)",
+   "role": "started",
+   "terms": [
+    "t-lula-2007"
+   ],
+   "year": "2010–2016+",
+   "money": "BNDES loan R$22.5 bn of R$28.9 bn investment",
+   "money_status": "verified",
+   "money_brl_bn": 22.5,
+   "who_got": "Norte Energia consortium",
+   "who_paid": "Xingu Indigenous and riverine people; Treasury via BNDES",
+   "disasters": [
+    "d-belo-monte-2010"
+   ],
+   "reason": "\"A legislative decree (DL 788/2005) authorised works without prior Indigenous consultation, followed by an ANEEL auction\" (April 2010); loan Nov 2012 under Dilma."
+  },
+  {
+   "id": "e5-16",
+   "title": "Cessão onerosa and the 2010 Petrobras capitalisation",
+   "role": "started",
+   "terms": [
+    "t-lula-2007"
+   ],
+   "year": "2010",
+   "money": "Petrobras paid about R$75 bn (US$42 bn) for 5 bn barrels",
+   "money_status": "corrected",
+   "money_brl_bn": 75,
+   "who_got": "Petrobras (state-controlled)",
+   "who_paid": "The Union and Petrobras minority shareholders",
+   "disasters": [],
+   "reason": "\"Lei 12.276/2010, with payment in Treasury securities within the Petrobras capitalisation.\""
+  },
+  {
+   "id": "e5-17",
+   "title": "Pre-salt production-sharing regime (Lei 12.351/2010) and the Libra auction (2013)",
+   "role": "started",
+   "terms": [
+    "t-lula-2007"
+   ],
+   "year": "2010–2013 (Lei 13.365 in 2016)",
+   "money": "Libra signing bonus R$15 bn (2013)",
+   "money_status": "verified",
+   "money_brl_bn": 15,
+   "who_got": "Libra consortium (Petrobras, Shell, Total, CNPC, CNOOC)",
+   "who_paid": "The Union forgoes upside",
+   "disasters": [],
+   "reason": "\"Lei 12.351/2010: production sharing\"; the Libra auction itself was 2013 under Dilma."
+  },
+  {
+   "id": "e5-18",
+   "title": "Sete Brasil (drilling-rig company for the pre-salt)",
+   "role": "started",
+   "terms": [
+    "t-lula-2007"
+   ],
+   "year": "2010–2020",
+   "money": "Debt at judicial recovery about R$14-18 bn",
+   "money_status": "disputed",
+   "money_brl_bn": 14,
+   "who_got": "Sete Brasil shareholders and shipyards",
+   "who_paid": "Pension funds, FI-FGTS, Union as largest creditor",
+   "disasters": [],
+   "reason": "Rig company for pre-salt founded 2010 under \"Lula 2\"; collapsed 2016."
+  },
+  {
+   "id": "e3-09",
+   "title": "Aracruz Celulose and Tupinikim/Guarani land (Espírito Santo)",
+   "role": "relief-or-public-side",
+   "terms": [
+    "t-lula-2003"
+   ],
+   "year": "1967–2006",
+   "money": "About 11,900 ha transferred to Tupinikim/Guarani (no money)",
+   "money_status": "unverified",
+   "money_brl_bn": null,
+   "who_got": "Tupinikim and Guarani (land return)",
+   "who_paid": "Aracruz Celulose (land lost)",
+   "disasters": [],
+   "reason": "Aracruz subsidy case from the dictatorship; \"a 2006 TAC transferred about 11,900 ha\". Lula not named: unsure."
+  },
+  {
+   "id": "e3-13",
+   "title": "Itaipu: contracts and beneficiaries",
+   "role": "continued",
+   "terms": [
+    "t-lula-2007"
+   ],
+   "year": "1973–2023",
+   "money": "Brazil payments to Paraguay US$120 mn to US$360 mn a year (2009 deal)",
+   "money_status": "in-text (not in figures)",
+   "money_brl_bn": null,
+   "who_got": "Paraguay (compensation); Itaipu creditors",
+   "who_paid": "Brazilian consumers via tariff",
+   "disasters": [],
+   "reason": "1973 treaty inherited; \"The 2009 deal raised Paraguay's compensation by 200%\". Lula not named in text: unsure."
+  },
+  {
+   "id": "x-02",
+   "title": "FCVS (housing-fund salary-variation compensation)",
+   "role": "context-only",
+   "terms": [
+    "t-lula-2003",
+    "t-lula-2007"
+   ],
+   "year": "1967-2011",
+   "money": "Total FCVS debt not confirmed",
+   "money_status": "unverified",
+   "money_brl_bn": null,
+   "who_got": "Mortgage lenders and failed banks",
+   "who_paid": "The Union and FGTS",
+   "disasters": [],
+   "reason": "Measures cited are Lei 10.150/2000 and a 2011 rider; Lula is named but not tied to any act."
+  },
+  {
+   "id": "x-08",
+   "title": "Gleba/Fazenda Curua (Altamira), Grupo C.R. Almeida",
+   "role": "context-only",
+   "terms": [
+    "t-lula-2007"
+   ],
+   "year": "1984-2011",
+   "money": "About 4.5 mn ha of public land",
+   "money_status": "disputed",
+   "money_brl_bn": null,
+   "who_got": "C.R. Almeida group (Incenxil)",
+   "who_paid": "The Union, Para, Indigenous communities",
+   "disasters": [],
+   "reason": "1984/1993 fraud; \"Lula/Dilma period (2011 sentence)\": a court cancelled the registration."
+  },
+  {
+   "id": "x-11",
+   "title": "Lei Kandir: ICMS exemption on exports of primary goods",
+   "role": "continued",
+   "terms": [
+    "t-lula-2003"
+   ],
+   "year": "1996-2037",
+   "money": "State losses R$268.9 bn 1997-2016 (settlement R$58 bn, 2020)",
+   "money_status": "disputed",
+   "money_brl_bn": 268.9,
+   "who_got": "Exporters of ore, soy, meat, pulp",
+   "who_paid": "The states",
+   "disasters": [],
+   "reason": "\"EC 42/2003 wrote the exemption into the Constitution and created ADCT art. 91\"; Lula named nowhere; unsure."
+  },
+  {
+   "id": "x-12",
+   "title": "Dividend tax exemption",
+   "role": "reversed",
+   "terms": [
+    "t-lula-2023"
+   ],
+   "year": "1996-2025",
+   "money": "R$43 bn a year forgone (Ipea, 2015 estimate)",
+   "money_status": "disputed",
+   "money_brl_bn": 43,
+   "who_got": "Company owners and shareholders",
+   "who_paid": "Wage earners and the Treasury",
+   "disasters": [],
+   "reason": "\"After about 30 years, Lei 15.270/2025 reintroduced a withholding, effective 1 Jan 2026\" (Lula III); old dividends stay exempt."
+  },
+  {
+   "id": "x-14",
+   "title": "Oil royalties and the special participation",
+   "role": "continued",
+   "terms": [
+    "t-lula-2007"
+   ],
+   "year": "1969-2025 (main law 1997)",
+   "money": "Royalties and special participation R$58.22 bn paid 2024",
+   "money_status": "verified",
+   "money_brl_bn": 58.22,
+   "who_got": "Oil companies; producing municipalities",
+   "who_paid": "Non-producing states and municipalities",
+   "disasters": [],
+   "reason": "Concession model from 1997; Lula (2010) added \"production sharing in the pre-salt (Lei 12.351/2010)\". Mixed rent-sharing case, unsure."
+  },
+  {
+   "id": "x-15",
+   "title": "Repetro: customs regime for oil and gas equipment",
+   "role": "continued",
+   "terms": [
+    "t-lula-2007"
+   ],
+   "year": "1999-2040",
+   "money": "R$260 bn of incentives to 267 firms 2015-2023",
+   "money_status": "disputed",
+   "money_brl_bn": 260,
+   "who_got": "Transnational oil-service firms (MODEC etc.)",
+   "who_paid": "The federal budget",
+   "disasters": [],
+   "reason": "Regime from 1999; \"Lei 12.276/2010 and 12.351/2010 (pre-salt)\" extended it in Lula 2. Lula not named: unsure."
+  },
+  {
+   "id": "x-17",
+   "title": "REFIS and tax amnesties (special instalment programs)",
+   "role": "started",
+   "terms": [
+    "t-lula-2003",
+    "t-lula-2007"
+   ],
+   "year": "2000-2017",
+   "money": "Refis da Crise forgave R$60.9 bn (all ~40 programs cost R$176 bn)",
+   "money_status": "in-text (not in figures)",
+   "money_brl_bn": 60.9,
+   "who_got": "Debtors including large firms",
+   "who_paid": "The Treasury and social security funds",
+   "disasters": [],
+   "reason": "\"Lula (Paes 2003, Paex 2006, Refis da Crise 2009)\": each is a \"medida provisoria converted into law\"."
+  },
+  {
+   "id": "x-18",
+   "title": "Para registry with more land than the state, and the CNJ cancellations",
+   "role": "reversed",
+   "terms": [
+    "t-lula-2003",
+    "t-lula-2007"
+   ],
+   "year": "2006-2010",
+   "money": "91.1 mn ha of Para registrations cancelled (land, no money)",
+   "money_status": "verified",
+   "money_brl_bn": null,
+   "who_got": "Claimants through phantom owners and fake inventories",
+   "who_paid": "The state and the Union (land lost)",
+   "disasters": [],
+   "reason": "Lula-era cancellations: \"Provimento 13/2006 blocked registrations\", CNJ-driven cancellations hit 10,728 registrations."
+  },
+  {
+   "id": "x-19",
+   "title": "Federal tax expenditures (gastos tributarios) series",
+   "role": "continued",
+   "terms": [
+    "t-lula-2007",
+    "t-lula-2023"
+   ],
+   "year": "2008-2024",
+   "money": "Federal tax expenditure R$519 bn in 2023 (R$114.8 bn in 2008)",
+   "money_status": "verified",
+   "money_brl_bn": 519,
+   "who_got": "Simples, agribusiness, regional regimes etc.",
+   "who_paid": "Other taxpayers",
+   "disasters": [],
+   "reason": "\"The series grows under all of them\" (Lula II, Dilma, Temer, Bolsonaro, Lula III)."
+  },
+  {
+   "id": "x-20",
+   "title": "Terra Legal: prices charged versus market value, and the TCU audits",
+   "role": "started",
+   "terms": [
+    "t-lula-2007"
+   ],
+   "year": "2009-2021",
+   "money": "R$62-88 bn forgone if 19.6 mn ha privatised at legal values",
+   "money_status": "verified",
+   "money_brl_bn": 62,
+   "who_got": "Occupants of federal Amazon land",
+   "who_paid": "The Treasury, forest, small occupants",
+   "disasters": [],
+   "reason": "\"Lei 11.952 art. 12: larger areas at 10% to 50% of the INCRA minimum land-value table\"; the figure is a counterfactual."
+  },
+  {
+   "id": "x-21",
+   "title": "Amnesty laws and moving cutoff dates",
+   "role": "started",
+   "terms": [
+    "t-lula-2007"
+   ],
+   "year": "2008-2019",
+   "money": "19.6 mn ha undesignated federal land in play (no money)",
+   "money_status": "verified",
+   "money_brl_bn": null,
+   "who_got": "Occupants up to 2,500 ha; large claimants",
+   "who_paid": "The Treasury and the forest",
+   "disasters": [],
+   "reason": "\"Lei 11.952 set a cutoff of 22 July 2008\"; Temer and Bolsonaro later moved it."
+  },
+  {
+   "id": "x-22",
+   "title": "Votorantim and Banco do Brasil",
+   "role": "started",
+   "terms": [
+    "t-lula-2007"
+   ],
+   "year": "2009",
+   "money": "R$4.2 bn for 49.99% of Banco Votorantim",
+   "money_status": "verified",
+   "money_brl_bn": 4.2,
+   "who_got": "Votorantim group",
+   "who_paid": "Banco do Brasil shareholders, Treasury",
+   "disasters": [],
+   "reason": "\"Banco do Brasil bought 49.99% of Banco Votorantim for R$4.2 bn, announced Jan-Sep 2009.\""
+  },
+  {
+   "id": "x-23",
+   "title": "Panamericano and Caixa",
+   "role": "started",
+   "terms": [
+    "t-lula-2007"
+   ],
+   "year": "2009-2011",
+   "money": "FGC loan to controller R$2.5 bn; Caixa bought 36.6%",
+   "money_status": "unverified",
+   "money_brl_bn": 2.5,
+   "who_got": "Grupo Silvio Santos",
+   "who_paid": "FGC (banks); Caixa carried risk",
+   "disasters": [],
+   "reason": "Companion to e5-14: \"Caixa bought a stake in Banco Panamericano in Dec 2009\"."
+  },
+  {
+   "id": "e6-03",
+   "title": "Petrobras import-parity pricing (PPI) and dividends to private shareholders",
+   "role": "reversed",
+   "terms": [
+    "t-lula-2023"
+   ],
+   "year": "2016–2023",
+   "money": "Dividends announced 2022: R$215.7 bn (Union got about R$79 bn)",
+   "money_status": "unverified",
+   "money_brl_bn": 215.7,
+   "who_got": "Shareholders: Union, BNDES, foreign holders",
+   "who_paid": "Fuel consumers (import-parity prices)",
+   "disasters": [],
+   "reason": "\"New pricing formula announced May 2023\"; payout rule cut from 60% to 45% in 2023."
+  },
+  {
+   "id": "e6-04",
+   "title": "Early renewal of Vale railway concessions (EFVM, EFC) and Rumo Malha Paulista",
+   "role": "continued",
+   "terms": [
+    "t-lula-2023"
+   ],
+   "year": "2016–2020",
+   "money": "Final outorga R$11.8 bn (commitments R$24.7 bn to 2057)",
+   "money_status": "corrected",
+   "money_brl_bn": 11.8,
+   "who_got": "Vale (EFVM, EFC), Rumo",
+   "who_paid": "The Treasury (value of the grant)",
+   "disasters": [],
+   "reason": "Temer/Bolsonaro early renewal; \"Repactuation: Dec 2024 protocol of about R$ 17 bn\" under Lula 3. Lula not named: unsure."
+  },
+  {
+   "id": "e6-05",
+   "title": "Ferrogrão and the cut of Jamanxim National Park (Lei 13.452/2017)",
+   "role": "context-only",
+   "terms": [
+    "t-lula-2023"
+   ],
+   "year": "2016–2021",
+   "money": "862 ha cut from Jamanxim park (no money)",
+   "money_status": "verified",
+   "money_brl_bn": null,
+   "who_got": "Grain traders via the railway concession",
+   "who_paid": "Indigenous peoples and the park",
+   "disasters": [],
+   "reason": "Temer law; \"Lula 3 (STF ruling)\" is a court validation in May 2026, not a government act."
+  },
+  {
+   "id": "e6-09",
+   "title": "Garimpo expansion, Yanomami crisis and PL 191/2020 (mining on Indigenous land)",
+   "role": "reversed",
+   "terms": [
+    "t-lula-2023"
+   ],
+   "year": "2018–2023",
+   "money": "Mining deforestation up 309% (no money)",
+   "money_status": "corrected",
+   "money_brl_bn": null,
+   "who_got": "Illegal gold miners and financiers",
+   "who_paid": "Yanomami lives and health",
+   "disasters": [],
+   "reason": "Bolsonaro-era failure; Lula 3 \"declared a national public-health emergency (ESPIN, 20 Jan 2023)\"."
+  },
+  {
+   "id": "e6-11",
+   "title": "Federal airport concession rounds 2019-2022 (5th, 6th, 7th) and the returns of Viracopos and Galeão",
+   "role": "continued",
+   "terms": [
+    "t-lula-2023"
+   ],
+   "year": "2019–2026",
+   "money": "5th round total R$2.377 bn vs minimum R$219 mn (2019)",
+   "money_status": "unverified",
+   "money_brl_bn": 2.377,
+   "who_got": "Aena, Zurich, CCR, Vinci",
+   "who_paid": "Taxpayers carrying hand-backs of the 2010-14 round",
+   "disasters": [],
+   "reason": "Bolsonaro held all three auctions; Lula 3 handled \"relicitacoes\" (Viracopos, Galeao)."
+  },
+  {
+   "id": "e6-12",
+   "title": "Federal road concessions 2019-2025 (Dutra 2021, relicitação and repactuação)",
+   "role": "continued",
+   "terms": [
+    "t-lula-2023"
+   ],
+   "year": "2019–2025",
+   "money": "Dutra outorga R$1.77 bn; 2023-24: 9 auctions, R$111 bn potential investment",
+   "money_status": "unverified",
+   "money_brl_bn": 111,
+   "who_got": "CCR, EcoRodovias and other concessionaires",
+   "who_paid": "Road users, state in renegotiation",
+   "disasters": [],
+   "reason": "Lula 3 ran \"2023-25 rounds, repactuacao\" and the 2023 optimization program (Portaria 848) on inherited contracts."
+  },
+  {
+   "id": "e6-16",
+   "title": "RLAM refinery (Bahia) sold to Mubadala / Acelen",
+   "role": "reversed",
+   "terms": [
+    "t-lula-2023"
+   ],
+   "year": "2021",
+   "money": "Sale price US$1.65 bn (Petrobras base scenario US$3.04 bn)",
+   "money_status": "verified",
+   "money_brl_bn": 8.25,
+   "who_got": "Mubadala Capital / Acelen",
+   "who_paid": "Bahia fuel buyers; Treasury if price too low",
+   "disasters": [
+    "d-mataripe-gas-leak-2023"
+   ],
+   "reason": "Bolsonaro sale; \"Petrobras resumed talks to buy the refinery back\"; no deal yet, so only partly reversed. Unsure."
+  },
+  {
+   "id": "e6-18",
+   "title": "Petrobras refinery sales 2021-2023 (Reman, Lubnor, SIX; failed Refap, Repar, RNEST)",
+   "role": "reversed",
+   "terms": [
+    "t-lula-2023"
+   ],
+   "year": "2021–2023",
+   "money": "Reman US$189.5-257.2 mn; Lubnor US$34 mn",
+   "money_status": "disputed",
+   "money_brl_bn": 1.3,
+   "who_got": "Ream/Atem, Grepar, Forbes & Manhattan",
+   "who_paid": "Regional fuel consumers",
+   "disasters": [],
+   "reason": "\"Lubnor contract terminated 27 Nov 2023\"; Lula 3 (cancellation) of refinery sales."
+  },
+  {
+   "id": "e6-19",
+   "title": "Petrobras field and gas asset sales and divestment totals (Polo Bahia Terra, Carmópolis, Gaspetro/Bahiagas)",
+   "role": "reversed",
+   "terms": [
+    "t-lula-2023"
+   ],
+   "year": "2021–2023",
+   "money": "Compass paid R$2.03 bn for 51% of Gaspetro; Carmopolis US$1.1 bn",
+   "money_status": "unverified",
+   "money_brl_bn": 2.03,
+   "who_got": "Compass (Cosan), Carmo Energy, Bahia state",
+   "who_paid": "Union and Petrobras shareholders if prices low",
+   "disasters": [],
+   "reason": "Bolsonaro sales; \"Lula 3 (end of E&P divestments)\"."
+  },
+  {
+   "id": "e6-20",
+   "title": "Correios: privatization attempt and 2025 financial crisis",
+   "role": "relief-or-public-side",
+   "terms": [
+    "t-lula-2023"
+   ],
+   "year": "2021–2026",
+   "money": "Treasury-guaranteed bank loan R$12 bn (2025)",
+   "money_status": "corrected",
+   "money_brl_bn": 12,
+   "who_got": "Nobody: Correios stays public",
+   "who_paid": "The Treasury as guarantor",
+   "disasters": [],
+   "reason": "Privatization bill (PL 591/2021) stalled; Lula 3 backed a R$12 bn loan and R$6 bn injection to keep it public."
+  },
+  {
+   "id": "e6-21",
+   "title": "Eletrobras 10% voting cap and the Union's reply (ADI 7385)",
+   "role": "reversed",
+   "terms": [
+    "t-lula-2023"
+   ],
+   "year": "2023–2025",
+   "money": "Eletronuclear/Angra investment R$2.4 bn in settlement",
+   "money_status": "corrected",
+   "money_brl_bn": 2.4,
+   "who_got": "Private Eletrobras shareholders keep the 10% cap",
+   "who_paid": "Union (about 42% of common shares, limited votes)",
+   "disasters": [],
+   "reason": "Union challenged the voting cap (ADI 7385) and won board seats in a \"Settlement in the STF conciliation centre\"."
+  },
+  {
+   "id": "e6-22",
+   "title": "Desenrola Brasil and Novo Desenrola (household-debt relief)",
+   "role": "relief-or-public-side",
+   "terms": [
+    "t-lula-2023"
+   ],
+   "year": "2023",
+   "money": "Lender discounts R$126 bn face value; guarantees up to R$15 bn",
+   "money_status": "unverified",
+   "money_brl_bn": 15,
+   "who_got": "Indebted households (and lenders recovering bad debt)",
+   "who_paid": "Banks (write-downs) and a small public guarantee",
+   "disasters": [],
+   "reason": "\"Desenrola Brasil\": household debt relief with FGO guarantee."
+  },
+  {
+   "id": "e6-23",
+   "title": "Foz do Amazonas / Margem Equatorial: licensing and block auction",
+   "role": "started",
+   "terms": [
+    "t-lula-2023"
+   ],
+   "year": "2023–2026",
+   "money": "Total signing bonus R$989.26 mn for 34 blocks",
+   "money_status": "corrected",
+   "money_brl_bn": 0.989,
+   "who_got": "Chevron-CNPC, Petrobras/ExxonMobil, Petrobras/Petrogal",
+   "who_paid": "Environmental, Indigenous and coastal communities",
+   "disasters": [],
+   "reason": "\"ANP permanent-offer auction plus Ibama licensing\" in Jun 2025 under Lula 3."
+  },
+  {
+   "id": "e6-24",
+   "title": "Marco Temporal (Lei 14.701/2023 and STF ruling)",
+   "role": "imposed",
+   "terms": [
+    "t-lula-2023"
+   ],
+   "year": "2023–2025",
+   "money": "No price; land rights",
+   "money_status": "verified",
+   "money_brl_bn": null,
+   "who_got": "Landholders, agribusiness, mining, energy (had it stood)",
+   "who_paid": "Indigenous peoples",
+   "disasters": [],
+   "reason": "\"Ordinary law passed by Congress after overriding vetoes\" (Lei 14.701/2023); STF later struck the marco."
+  },
+  {
+   "id": "e6-26",
+   "title": "Ports: STS10 terminal (Santos) and other leasings",
+   "role": "started",
+   "terms": [
+    "t-lula-2023"
+   ],
+   "year": "2024–2026",
+   "money": "Outorga floor R$500 mn vs R$1.044 bn total",
+   "money_status": "disputed",
+   "money_brl_bn": 0.5,
+   "who_got": "Not yet awarded",
+   "who_paid": "Not yet",
+   "disasters": [],
+   "reason": "STS10 port lease auction launched under Lula 3; no award, suspension requested Apr 2026."
+  },
+  {
+   "id": "e6-27",
+   "title": "General Environmental Licensing Law (Lei 15.190/2025, 'PL da devastação') and LAE",
+   "role": "imposed",
+   "terms": [
+    "t-lula-2023"
+   ],
+   "year": "2025",
+   "money": "No price; 52-56 of 63 vetoes overridden",
+   "money_status": "disputed",
+   "money_brl_bn": null,
+   "who_got": "Developers of infrastructure, agribusiness, energy",
+   "who_paid": "Environment and Indigenous/traditional communities",
+   "disasters": [],
+   "reason": "\"Law approved by Congress, with vetoes overridden\" (Lei 15.190/2025); sanctioned with 63 vetoes."
+  },
+  {
+   "id": "e6-28",
+   "title": "Federal tax expenditures (renúncias / gastos tributários)",
+   "role": "continued",
+   "terms": [
+    "t-lula-2023"
+   ],
+   "year": "2025–2026",
+   "money": "Federal tax expenditure R$543.7 bn in 2025 (4.4% of GDP)",
+   "money_status": "verified",
+   "money_brl_bn": 543.7,
+   "who_got": "Simples, Zona Franca, agribusiness, deductions",
+   "who_paid": "Treasury and other taxpayers",
+   "disasters": [],
+   "reason": "\"The trend has grown\": 4.8% of GDP in 2025 versus 1.3% in 2002 (FGV, snippet)."
+  },
+  {
+   "id": "e6-29",
+   "title": "Redata: special tax regime for data centers",
+   "role": "started",
+   "terms": [
+    "t-lula-2023"
+   ],
+   "year": "2025–2026",
+   "money": "Waivers about R$5.2 bn in 2026, then R$1 bn a year",
+   "money_status": "verified",
+   "money_brl_bn": 5.2,
+   "who_got": "Data-center investors, largely foreign big tech",
+   "who_paid": "The Treasury; energy consumers",
+   "disasters": [],
+   "reason": "\"Tax-regime law replacing a lapsed provisional measure\" (Redata), Lula 3."
+  },
+  {
+   "id": "e6-30",
+   "title": "Braskem control sale (Novonor to IG4)",
+   "role": "started",
+   "terms": [
+    "t-lula-2023"
+   ],
+   "year": "2025–2026",
+   "money": "No cash price; IG4 bought about R$20 bn of Novonor debts",
+   "money_status": "unverified",
+   "money_brl_bn": 20,
+   "who_got": "Shine I FIP (Vortx/IG4)",
+   "who_paid": "Minority shareholders; Petrobras possibly",
+   "disasters": [],
+   "reason": "Private control sale where Petrobras stays co-controller via new shareholder agreement; government role is indirect. Unsure."
+  }
+ ],
+ "counts": {
+  "by_role": {
+   "continued": 16,
+   "context-only": 7,
+   "started": 23,
+   "relief-or-public-side": 3,
+   "reversed": 8,
+   "imposed": 2
+  },
+  "by_term": {
+   "t-lula-2003": 16,
+   "t-lula-2007": 30,
+   "t-lula-2023": 21
+  },
+  "total": 59
+ }
+}
