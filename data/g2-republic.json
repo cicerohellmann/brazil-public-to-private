@@ -1,0 +1,1531 @@
+[
+ {
+  "id": "e2-01",
+  "year": "1882–1943 (republican period 1889–1943)",
+  "start_year": 1882,
+  "title": "Mate Laranjeira lease, Mato Grosso",
+  "era": "1889–1964 Republic",
+  "government": "Empire (1882 decree), then First Republic to Vargas (ended 1943)",
+  "what": "Lease of public (devolved) land on the Paraguay border for yerba mate extraction. About 2,000,000 ha were worked. Larger estimates of 5,000,000 to 5,400,000 ha exist but were not confirmed.",
+  "who_got": "Thomaz Laranjeira (1882). In 1892 he partnered with Banco Rio e Mato Grosso (Murtinho family, politically influential). In 1902 it became Larangeira Mendes & Cia. One note says a Buenos Aires firm with foreign capital took over after 1902; the fact-check did not confirm 'Buenos Aires'.",
+  "terms": "Royalty and rent terms were not found. Imperial decree n. 8.799 of 9 Dec 1882 legalised mate extraction on devolved land.",
+  "mechanism": "Imperial decree of 1882 (concession/lease for exploration). The fact-check says 'monopoly' is not stated; the paper calls it one of the largest land lessees of the First Republic.",
+  "who_paid": "Workers, mostly Paraguayan, and Indigenous Guarani/Kaiowa lands. Debt peonage and Indigenous impact were NOT verified here.",
+  "after": "Vargas saw the firm as an obstacle to the 'March to the West' and to denationalisation. Decree 5.941 of 1943 created the Colonia Agricola Nacional de Dourados in the new Federal Territory of Ponta Pora. Further details not confirmed.",
+  "counter_view": null,
+  "signs": [
+   "land-grant"
+  ],
+  "figures": [
+   {
+    "label": "Area worked",
+    "value": "about 2,000,000",
+    "currency": "ha",
+    "value_year": null,
+    "estimator": "Albuquerque 2013",
+    "kind": "land-area",
+    "source_url": "https://periodicos.ufms.br/index.php/AlbRHis/article/download/4029/3214",
+    "status": "verified",
+    "note": "Paper says 'approximately two million hectares'."
+   },
+   {
+    "label": "Total leased area (estimates)",
+    "value": "5,000,000 to 5,400,000",
+    "currency": "ha",
+    "value_year": null,
+    "estimator": "Barros 1996 (via notes)",
+    "kind": "land-area",
+    "source_url": "https://ojs.ufgd.edu.br/FRONTEIRAS/article/download/4549/2328/13983",
+    "status": "unverified",
+    "note": "Not found in the opened paper. Range given by sources: 2,000,000 worked vs 5,000,000-5,400,000 total."
+   }
+  ],
+  "summary": "A large block of public land on the Paraguay border was leased for mate in 1882 and stayed in private hands into the Republic. About two million hectares were worked. Vargas ended it in 1943.",
+  "sources": [
+   {
+    "title": "Albuquerque 2013, Albuquerque paper (UFMS)",
+    "url": "https://periodicos.ufms.br/index.php/AlbRHis/article/download/4029/3214"
+   },
+   {
+    "title": "Fronteiras (UFGD) paper",
+    "url": "https://ojs.ufgd.edu.br/FRONTEIRAS/article/download/4549/2328/13983"
+   }
+  ]
+ },
+ {
+  "id": "e2-02",
+  "year": "1888–1980",
+  "start_year": 1888,
+  "title": "Companhia Docas de Santos port concession",
+  "era": "1889–1964 Republic",
+  "government": "Empire (1888 tender), concession ran through the Republic to 1980",
+  "what": "Right to build and operate Brazil's main coffee port at Santos.",
+  "who_got": "Gaffree and Guinle (Eduardo Guinle family) after rival bidders withdrew. Grantees under Decreto 9.979 also included Pinto de Oliveira, Avellar, Valdetaro and others. Financed by the concessionaires; initial partnership capital was 4,000 contos for 4 years.",
+  "terms": "Decreto 9.979 of 12 Jul 1888 gave 39 years, with reversion to the state without compensation. A later paper says it was extended to the 90-year maximum. Tariffs were set in the decree. Customs-duty exemption on construction materials and usufruct of reclaimed land. No interest guarantee in the text. The 1869 ports law allowed rate cuts only if net profit exceeded 12%.",
+  "mechanism": "Public tender (1888); Decreto 9.979 of 12 Jul 1888; extension up to the 90-year maximum under Decreto 1.746 of 1869 (1890 or 1892, date uncertain). Build-operate-transfer.",
+  "who_paid": "Port users through tariffs. The state also invested heavily in the port itself (PUC-SP). Profits, dividends, tariff history and buy-out price were not found. An undated claim says tariffs rose 50% when dividends reached 8% (unverified).",
+  "after": "Ended 1980. Codesp (Companhia Docas do Estado de Sao Paulo, controlled by the federal government) was created 1 Oct 1980; Decree 85.309 of 30 Oct 1980 regulated operation. The date 7 Nov 1980 was not verified. Reported repressive toward workers after 1964.",
+  "counter_view": "The 1888 decree had no interest guarantee and the concessionaires financed the port. It reverted to the state at the end, so it is a build-operate-transfer concession (fact-check).",
+  "signs": [
+   "exclusive-privilege",
+   "subsidy-or-tax-break"
+  ],
+  "figures": [
+   {
+    "label": "Concession term as granted",
+    "value": 39,
+    "currency": "years",
+    "value_year": 1888,
+    "estimator": "Decreto 9.979",
+    "kind": "other",
+    "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-9979-12-julho-1888-542680-publicacaooriginal-51939-pe.html",
+    "status": "corrected",
+    "note": "Old note said 90 or 92 years. The 1888 decree gave 39 years; a later extension reached the 90-year maximum (extension date uncertain)."
+   },
+   {
+    "label": "Concession term after extension",
+    "value": "up to 90 (some sources say 92)",
+    "currency": "years",
+    "value_year": null,
+    "estimator": "mlawreview paper",
+    "kind": "other",
+    "source_url": "https://mlawreview.emnuvens.com.br/mlaw/article/download/54/139",
+    "status": "disputed",
+    "note": "90 vs 92 years; 92 is unverified."
+   },
+   {
+    "label": "Initial partnership capital",
+    "value": 4000,
+    "currency": "contos de reis",
+    "value_year": 1888,
+    "estimator": "PUC-SP research note",
+    "kind": "other",
+    "source_url": "https://www.pucsp.br/sites/default/files/download/cehal/download/INf-Publico-Pesqusa-Docas-Codesp.pdf",
+    "status": "unverified",
+    "note": "Not covered by the fact-check."
+   }
+  ],
+  "summary": "Gaffree and Guinle won the Santos port concession in 1888 for 39 years, later extended to the 90-year maximum. It ended in 1980 when the state company Codesp took over. The decree gave customs exemptions but no interest guarantee.",
+  "sources": [
+   {
+    "title": "Eduardo Palassin Guinle (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Eduardo_Palassin_Guinle"
+   },
+   {
+    "title": "Porto de Santos celebra 124 anos (SETCESP)",
+    "url": "https://setcesp.org.br/noticias/porto-de-santos-celebra-124-anos-mas-com-5-seculos-de-historia/"
+   },
+   {
+    "title": "Decreto 9.979 of 12 Jul 1888",
+    "url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-9979-12-julho-1888-542680-publicacaooriginal-51939-pe.html"
+   },
+   {
+    "title": "mlawreview paper on Docas de Santos",
+    "url": "https://mlawreview.emnuvens.com.br/mlaw/article/download/54/139"
+   },
+   {
+    "title": "PUC-SP research note on Docas and Codesp",
+    "url": "https://www.pucsp.br/sites/default/files/download/cehal/download/INf-Publico-Pesqusa-Docas-Codesp.pdf"
+   }
+  ]
+ },
+ {
+  "id": "e2-03",
+  "year": "1889–1892 (peak 1890–91)",
+  "start_year": 1889,
+  "title": "Encilhamento: money creation and company boom",
+  "era": "1889–1964 Republic",
+  "government": "Provisional Government under Deodoro da Fonseca; Finance Minister Rui Barbosa (left Jan 1891)",
+  "what": "Not one asset but a licence to create money and companies. The law of 17 Jan 1890 created three regional emission banks (Norte, Centro, Nordeste) allowed to issue up to 450,000 contos, more than double the paper money in circulation. Notes were inconvertible and backed by public-debt bonds. Decrees 164 and 165 cut the paid-in capital needed to trade shares from 20% to 10%.",
+  "who_got": "Ex-slaveholders and coffee rentiers (liquidity after abolition), bankers such as Mayrink, and British banks (Rothschilds) per Nassif/Franco/Levy. Financed by the new notes themselves. Banco Nacional do Brasil shares traded at up to a 45% premium (Levy 1980).",
+  "terms": "Exchange rate in pence per 1,000 reis: 27 (Nov 1889), 8 (1892), 12 (1902), from a partisan Austrian-school blog (its own '337%' figure is a miscalculation and was not used). Furtado: paper money fell from 216,000 to 197,000 contos in 1880–1889 while foreign trade rose from 411,000 to 477,000 contos, so the starting shortage was real.",
+  "mechanism": "Decree-laws of the Provisional Government: banking law 17 Jan 1890; company-formation decrees 164/165; Decreto 1.154 of 7 Dec 1890 merged the banks into the Banco da Republica, allowed to issue three times its reserves (decree seen in search results only).",
+  "who_paid": "Small investors who lost in the crash; consumers through inflation and devaluation; the Treasury, which funded the rescue with foreign borrowing (Rothschild loans totalled GBP 7.5m from 1894). The Baring crisis of Nov 1890 raised Brazil's risk premium in London.",
+  "after": "The bubble burst in 1891–92. Rui's banks were merged and liquidated. The 1898 funding loan followed.",
+  "counter_view": "Stein, Fishlow, Suzigan, Versiani and Lobo argue the credit helped textile and industrial formation and that devaluation protected industry. Fonseca calls Rui a precursor of developmentalism. Critics: Taunay 1923, Furtado, Almeida & Croce 2016 (all via the Analise Economica article).",
+  "signs": [
+   "paid-in-paper-or-cheap-credit",
+   "law-rewritten-for-deal",
+   "bailout"
+  ],
+  "figures": [
+   {
+    "label": "Emission authorised for three regional banks",
+    "value": 450000,
+    "currency": "contos de reis",
+    "value_year": 1890,
+    "estimator": "Analise Economica article",
+    "kind": "other",
+    "source_url": "https://seer.ufrgs.br/AnaliseEconomica/article/download/74976/54428",
+    "status": "unverified",
+    "note": "Not covered by the fact-check. 'More than double the paper money in circulation.'"
+   },
+   {
+    "label": "Money supply growth 1889 to 1894",
+    "value": "3.5 times",
+    "currency": "n/a",
+    "value_year": 1894,
+    "estimator": "Franco & Lago 2012 (via article)",
+    "kind": "other",
+    "source_url": "https://seer.ufrgs.br/AnaliseEconomica/article/download/74976/54428",
+    "status": "unverified",
+    "note": "Not covered by the fact-check."
+   },
+   {
+    "label": "Listed companies",
+    "value": "about 90 (1888) to about 450 (1891)",
+    "currency": "count",
+    "value_year": 1891,
+    "estimator": "Franco & Lago 2011 (via pt.wikipedia)",
+    "kind": "other",
+    "source_url": "https://pt.wikipedia.org/wiki/Encilhamento",
+    "status": "unverified",
+    "note": "Not covered by the fact-check."
+   },
+   {
+    "label": "Note issue 1890–91",
+    "value": 335000,
+    "currency": "contos de reis",
+    "value_year": 1891,
+    "estimator": "thesis quote",
+    "kind": "other",
+    "source_url": null,
+    "status": "unverified",
+    "note": "Source not traced."
+   },
+   {
+    "label": "Rothschild loans from 1894",
+    "value": 7500000,
+    "currency": "GBP",
+    "value_year": 1894,
+    "estimator": "Cobden Centre blog",
+    "kind": "bailout",
+    "source_url": "https://www.cobdencentre.org/?p=26973",
+    "status": "unverified",
+    "note": "Partisan source; not independently checked."
+   }
+  ],
+  "summary": "In 1890 the new Republic let regional banks print huge amounts of money and cut the capital needed to trade shares. A stock and company bubble followed and burst in 1891–92. Small investors, consumers and the Treasury paid, while the credit may have helped early industry.",
+  "sources": [
+   {
+    "title": "Analise Economica article on the Encilhamento",
+    "url": "https://seer.ufrgs.br/AnaliseEconomica/article/download/74976/54428"
+   },
+   {
+    "title": "Encilhamento (pt.wikipedia)",
+    "url": "https://pt.wikipedia.org/wiki/Encilhamento"
+   },
+   {
+    "title": "Cobden Centre blog",
+    "url": "https://www.cobdencentre.org/?p=26973"
+   },
+   {
+    "title": "Decree 1.154 of 1890 (Senate, search result only)",
+    "url": "https://legis.senado.leg.br/norma/391295/publicacao/15813363"
+   }
+  ]
+ },
+ {
+  "id": "e2-04",
+  "year": "1890–1916",
+  "start_year": 1890,
+  "title": "Sao Paulo-Rio Grande railway land strip, Lumber company and Contestado",
+  "era": "1889–1964 Republic",
+  "government": "Concession 1890 (Decreto 305 of 7 Apr 1890); line commissioned 1908; Hermes da Fonseca (army campaign in the Contestado War)",
+  "what": "The railway concession carried a strip of land along the track. Up to 15 km each side (fact-check: 9 km per km of track up to a maximum of 15 km). The Southern Brazil Lumber & Colonization Co. held rights to extract timber and resell the land. By 1913 it held about 3,248 km2 along the railway, of which about 1,800 km2 at Tres Barras (SC), plus 1,046 km2 at Jaguariaiva (PR).",
+  "who_got": "Brazil Railway Co. (Farquhar, North American). The original Teixeira Soares concession was transferred into this group.",
+  "terms": "The original concession carried 6% gold interest on 37,000:000$000 of capital for 30 years and 30 km of land each side for 50 years. Decreto 305 of 1890 set capital at 30 contos per km and cut the land zone to 15 km each side. The counter-source says the company built 1,400+ km of line.",
+  "mechanism": "Railway concession with a land grant and a guaranteed return; a lumber and colonisation company to log and resell the land.",
+  "who_paid": "Subsistence farmers (posseiros) were expelled. Construction workers were dismissed when the railway finished; many joined the rebel movement of monk Jose Maria. Contestado War, Oct 1912 to Aug 1916: 10,000 to 20,000 deaths (Wikipedia infobox).",
+  "after": "Land fights. The Lumber company logged the araucaria forest: in its first five years at the Tres Barras mill about 107 million cubic feet (about 249,000 m3) of logs, clearing about 6,011 ha (company report, April 1917).",
+  "counter_view": "The land grant was the usual railway-subsidy mechanism of the time (land instead of a cash guarantee), and the company argued it built 1,400+ km of line. The rural-conflict view (settlers already on the land, caboclos without titles) comes from the Contestado literature (Contestado War page).",
+  "signs": [
+   "land-grant",
+   "guaranteed-return"
+  ],
+  "figures": [
+   {
+    "label": "Land strip width",
+    "value": "up to 15 km each side",
+    "currency": "km",
+    "value_year": 1890,
+    "estimator": "Rede Brasileira de Historia Ambiental article; Wikipedia",
+    "kind": "land-area",
+    "source_url": "https://www.uvm.edu/~jfarley/UFSC AE PES/literature/desmatamento.html",
+    "status": "corrected",
+    "note": "Old note said 15 km each side (about 30 km wide). Corrected to 9 km per km of track up to a maximum of 15 km each side. Decreto 305 of 1890 cut the original 30 km to 15 km."
+   },
+   {
+    "label": "Lumber company land held by 1913",
+    "value": 324800,
+    "currency": "ha",
+    "value_year": 1913,
+    "estimator": "Thome; Gauld (via UVM page)",
+    "kind": "land-area",
+    "source_url": "https://www.uvm.edu/~jfarley/UFSC AE PES/literature/desmatamento.html",
+    "status": "verified",
+    "note": "About 3,248 km2; hectares were 'not found' in the original notes. Includes 180,000 ha at Tres Barras and 104,600 ha (1,046 km2) at Jaguariaiva (PR)."
+   },
+   {
+    "label": "Guaranteed interest on original concession capital",
+    "value": "6% gold on 37,000:000$000 for 30 years",
+    "currency": "reis",
+    "value_year": 1890,
+    "estimator": "Correa thesis, citing Gremaud 1992",
+    "kind": "guaranteed-return",
+    "source_url": "https://memoriaferroviaria.assis.unesp.br/colecoes/wp-content/uploads/tainacan-items/9388/38405/correa_lm_dr_assis.pdf",
+    "status": "unverified",
+    "note": "Not covered by the fact-check."
+   },
+   {
+    "label": "Contestado War deaths",
+    "value": "10,000 to 20,000",
+    "currency": "count",
+    "value_year": 1916,
+    "estimator": "Wikipedia infobox",
+    "kind": "other",
+    "source_url": "https://en.wikipedia.org/wiki/Contestado_War",
+    "status": "disputed",
+    "note": "Wide range: rebels 5,000-8,000 dead/wounded/missing; government casualties 800-1,000."
+   },
+   {
+    "label": "Logs cut in first five years at Tres Barras",
+    "value": 249000,
+    "currency": "m3",
+    "value_year": 1917,
+    "estimator": "Company report April 1917 (via UVM page)",
+    "kind": "other",
+    "source_url": "https://www.uvm.edu/~jfarley/UFSC AE PES/literature/desmatamento.html",
+    "status": "verified",
+    "note": "About 107 million cubic feet; about 6,011 ha cleared."
+   }
+  ],
+  "summary": "A railway concession gave a private group a wide land strip and a timber company that could log and resell it. Settlers were pushed off and railway workers were laid off, which fed the Contestado War. Estimates of the dead run from 10,000 to 20,000.",
+  "sources": [
+   {
+    "title": "Contestado War (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Contestado_War"
+   },
+   {
+    "title": "The Contestado War (UFSC IDENTS)",
+    "url": "https://idents.paginas.ufsc.br/2020/04/15/the-contestado-war-brazils-biggest-civil-war/"
+   },
+   {
+    "title": "Rede Brasileira de Historia Ambiental article (UVM copy)",
+    "url": "https://www.uvm.edu/~jfarley/UFSC AE PES/literature/desmatamento.html"
+   },
+   {
+    "title": "Correa thesis on railways (UNESP)",
+    "url": "https://memoriaferroviaria.assis.unesp.br/colecoes/wp-content/uploads/tainacan-items/9388/38405/correa_lm_dr_assis.pdf"
+   }
+  ]
+ },
+ {
+  "id": "e2-05",
+  "year": "1891",
+  "start_year": 1891,
+  "title": "Transfer of public lands to the states, Constitution of 1891",
+  "era": "1889–1964 Republic",
+  "government": "First Republic (Constitution of 24 Feb 1891)",
+  "what": "Art. 64 moved ownership of 'terras devolutas' from the Union to the states. The Union kept land needed for frontier defence, fortifications, military works and railways.",
+  "who_got": "State oligarchies and land speculators. Later colonisation and railway companies bought or received grants from states (see the Norte do Parana case).",
+  "terms": "Not applicable (a constitutional transfer, no price).",
+  "mechanism": "Constitutional Art. 64, from the Julio de Castilho amendment.",
+  "who_paid": "Posseiros and Indigenous peoples. Grilagem (forged titles) through notaries, surveyors and judges is claimed in the literature; this was NOT verified.",
+  "after": "Not covered in the notes.",
+  "counter_view": null,
+  "signs": [
+   "land-grant"
+  ],
+  "figures": [],
+  "summary": "The 1891 Constitution handed ownership of unclaimed public land to the states. This put land allocation in the hands of state oligarchies. Later land grants and sales to companies followed from it.",
+  "sources": [
+   {
+    "title": "Regularizacao fundiaria: experiencias regionais (Senado)",
+    "url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/602494/Regularizacao_fundiaria_experiencias_regionais.pdf"
+   },
+   {
+    "title": "Revista Perseu article",
+    "url": "https://revistaperseu.fpabramo.org.br/index.php/revista-perseu/article/download/303/250"
+   }
+  ]
+ },
+ {
+  "id": "e2-06",
+  "year": "1899–1979",
+  "start_year": 1899,
+  "title": "Light: Sao Paulo Tramway, Light and Power and Rio Light",
+  "era": "1889–1964 Republic",
+  "government": "First Republic concessions; buy-back under Geisel (Dec 1978 decision, closed 12 Jan 1979)",
+  "what": "Monopoly-type concessions for urban power and trams in the two biggest cities. Duration and tariff terms were not found. In 1978–79 Eletrobras bought Brascan's 83% stake in Light.",
+  "who_got": "Canadian capital (with US and European), William Mackenzie and F.S. Pearson. SPTL&P founded 1899 in Toronto; Rio Light founded 1904 and authorised 1905; both under Brazilian Traction from 1912; later Brascan.",
+  "terms": "1978–79 buy-back price is disputed: US$380m (or 382m) versus US$1.14bn. A Globe and Mail-based source says US$460m below book value. A private-market alternative backed by ministers Simonsen and Ueki was blocked by Antonio Carlos Magalhaes (Carazza).",
+  "mechanism": "Urban concessions; in 1978–79 a share purchase by Eletrobras.",
+  "who_paid": "Consumers (tariffs, not quantified), and in 1978–79 the Treasury and Eletrobras. A critic (Leite 1997) says the concession expired in 1990 with assets reverting free to the Union, so the state paid for what it would have received.",
+  "after": "Tramways were bought by the Companhia Municipal de Transportes Coletivos in 1946. Eletropaulo was created in 1981. Light passed to the Rio de Janeiro state government and was privatised on 21 May 1996 (Carazza, Valor, 10 Feb 2020).",
+  "counter_view": "Light financed and built the first large-scale hydro and tram networks when neither the state nor Brazilian capital would (SPTL&P Wikipedia page). Wikipedia's Brascan page says Brascan was 'forced by the dictatorship'; a purchase below book value argues against overpayment. A fair summary needs a source on consumer tariffs (not found).",
+  "signs": [
+   "exclusive-privilege"
+  ],
+  "figures": [
+   {
+    "label": "1978–79 buy-back price for Brascan's 83% stake",
+    "value": "380 to 382 million vs 1,140 million",
+    "currency": "USD",
+    "value_year": 1979,
+    "estimator": "Globe and Mail via Wikipedia (Brascan); UPF thesis; Brazil Journal; Carazza (Valor)",
+    "kind": "other",
+    "source_url": "https://en.wikipedia.org/wiki/Brascan",
+    "status": "disputed",
+    "note": "Range: US$380-382m vs US$1.14bn (Carazza; basis unexplained, may include debt). Fact-check: the US$1.14bn is a single source, not independently confirmed."
+   },
+   {
+    "label": "Amount said to be below book value",
+    "value": 460000000,
+    "currency": "USD",
+    "value_year": 1979,
+    "estimator": "Globe and Mail via Wikipedia (Brascan)",
+    "kind": "price-gap",
+    "source_url": "https://en.wikipedia.org/wiki/Brascan",
+    "status": "unverified",
+    "note": "Implied book value about US$840m (derived, not stated)."
+   }
+  ],
+  "summary": "Canadian-led Light held power and tram concessions in Sao Paulo and Rio for most of the century. In 1979 the state bought it back, at a price sources put anywhere from US$380m to US$1.14bn. Light was privatised again in 1996.",
+  "sources": [
+   {
+    "title": "Sao Paulo Tramway, Light and Power Company (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Tramway,_Light_and_Power_Company"
+   },
+   {
+    "title": "Light S.A. (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Light_S.A."
+   },
+   {
+    "title": "Brascan (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Brascan"
+   },
+   {
+    "title": "Carazza, Valor 10 Feb 2020 (GESEL-UFRJ)",
+    "url": "https://www.gesel.ie.ufrj.br/app/webroot/files/IFES/BV/carazza1.pdf"
+   },
+   {
+    "title": "UPF thesis",
+    "url": "https://repositorio.upf.br/server/api/core/bitstreams/e4538f1a-5e44-4135-af7f-b7e7aa6cc55c/content"
+   },
+   {
+    "title": "Brazil Journal on Light",
+    "url": "https://braziljournal.com/breaking-ronaldo-cezar-coelho-dobra-aposta-e-chega-a-15-da-light/"
+   },
+   {
+    "title": "BNDES timeline of the electricity sector",
+    "url": "https://web.bndes.gov.br/bib/jspui/bitstream/1408/920/1/O%20setor%20el%c3%a9trico%20brasileiro%20e%20o%20BNDES_reflex%c3%b5es_P-final.pdf"
+   }
+  ]
+ },
+ {
+  "id": "e2-07",
+  "year": "1901–1903",
+  "start_year": 1901,
+  "title": "Bolivian Syndicate lease of Acre",
+  "era": "1889–1964 Republic",
+  "government": "Bolivia signed the lease (11 Jun 1901); undone under Rodrigues Alves (Brazil) in 1903",
+  "what": "Bolivia leased the Acre region (rubber territory; about 191,000 km2 later ceded to Brazil) for 30 years, with 'almost total control'.",
+  "who_got": "The Bolivian Syndicate, a New York/Jersey City company. Reported shareholders included the King of Belgium and relatives of US President McKinley (Wikipedia: 'very influential shareholders').",
+  "terms": "Lease tax, customs and police terms were not found. Brazil ended the lease by paying the Syndicate GBP 110,000 (Wikipedia, Portal Amazonia) or GBP 114,000 (InfoEscola, distrato of 26 Feb 1903).",
+  "mechanism": "A foreign-state lease/charter, undone by a negotiated buy-out and the Treaty of Petropolis (17 Nov 1903): GBP 2 million to Bolivia in two instalments, a territory swap, and a promise to build the Madeira-Mamore railway.",
+  "who_paid": "The Treasury (indemnity, GBP 2m, and the railway) and the rubber tappers in the Acre War.",
+  "after": "Acre became Brazilian. The railway promise created the Madeira-Mamore case.",
+  "counter_view": "This was a Bolivian sovereign lease, Bolivia's attempt to assert control over a territory it could not police. Brazil's buy-out ended a foreign-run charter; it was not a giveaway of Brazilian public wealth. Acre was largely settled by Brazilian rubber tappers (Acre War page).",
+  "signs": [
+   "exclusive-privilege"
+  ],
+  "figures": [
+   {
+    "label": "Indemnity paid to the Syndicate",
+    "value": "110,000 to 114,000",
+    "currency": "GBP",
+    "value_year": 1903,
+    "estimator": "Wikipedia, Portal Amazonia (110,000); InfoEscola (114,000)",
+    "kind": "other",
+    "source_url": "https://www.infoescola.com/historia/tratado-de-petropolis/",
+    "status": "disputed",
+    "note": "Wikipedia does not name the currency (about 35m reis). Unresolved: about 110-114 thousand pounds."
+   },
+   {
+    "label": "Payment to Bolivia under Treaty of Petropolis",
+    "value": 2000000,
+    "currency": "GBP",
+    "value_year": 1903,
+    "estimator": "Treaty of Petropolis page",
+    "kind": "other",
+    "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Petr%C3%B3polis",
+    "status": "verified",
+    "note": "Two instalments; treaty effective 10 Mar 1904."
+   },
+   {
+    "label": "Area of Acre",
+    "value": 191000,
+    "currency": "km2",
+    "value_year": 1903,
+    "estimator": "Treaty of Petropolis page",
+    "kind": "land-area",
+    "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Petr%C3%B3polis",
+    "status": "verified",
+    "note": "Brazil also gave up more than 3,000 km2 between Abuna and Madeira."
+   }
+  ],
+  "summary": "In 1901 Bolivia leased rubber-rich Acre to a foreign-backed syndicate for 30 years. Brazil bought out the lease in 1903 and took Acre by treaty, promising a railway. The cost fell on the Treasury and on rubber tappers.",
+  "sources": [
+   {
+    "title": "Acre War (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Acre_War"
+   },
+   {
+    "title": "Treaty of Petropolis (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Treaty_of_Petr%C3%B3polis"
+   },
+   {
+    "title": "Portal Amazonia on the Treaty of Petropolis",
+    "url": "https://portalamazonia.com/amazonia/brasil-x-bolivia-saiba-o-que-foi-o-tratado-de-petropolis/"
+   },
+   {
+    "title": "InfoEscola on the Treaty of Petropolis",
+    "url": "https://www.infoescola.com/historia/tratado-de-petropolis/"
+   }
+  ]
+ },
+ {
+  "id": "e2-08",
+  "year": "1906–1922",
+  "start_year": 1906,
+  "title": "Coffee valorization and the Taubate Agreement",
+  "era": "1889–1964 Republic",
+  "government": "Sao Paulo state (Tibirica); Rodrigues Alves federal role from Decree 1489 of 6 Aug 1906; Union guarantee from 1908; Epitacio Pessoa 1919–22",
+  "what": "Public credit, state loans and later paper-money emissions were used to buy surplus coffee for planters. Taubate Convention signed 26 Feb 1906 by Tibirica, Francisco Sales and Quintino Bocaiuva (Sao Paulo, Minas, Rio). Minimum price 55–65 gold francs per 60 kg bag; Caixa de Conversao. Peak stock reported at 8,474,623 bags. Later rounds in 1917, 1921–22 and the Coffee Institute of 1924.",
+  "who_got": "Planters, plus foreign banks and traders. Financiers had 'large profits', planters 'some net profit', Sao Paulo state a net loss (US report). Theodor Wille & Co. bought at 7$000 per arroba and took 200 reis per bag commission. A seven-member committee included Sielcken of Crossman & Sielcken.",
+  "terms": "Foreign loans were repaid from a gold-payable export levy of 3 francs per bag (Lei 990), later raised to 5. 1906 crop about 16m bags vs world consumption 16m; supply 29.6m. 1922 terms were harsher than 1908, a creditor committee controlled stock sales, Brazil agreed to no new valorization while the loan ran, and Brazilian Warrant Co. got exclusive rights over valorization operations. No independent valuation of stock vs loan terms found.",
+  "mechanism": "State convention, then federal guarantee (Law 1.127 of 25 Aug 1908, seen in search results only); emission decrees (Decreto 3.316 of 16 Aug 1917; Decreto 4.182 of 13 Nov 1920) and a Banco do Brasil rediscount window.",
+  "who_paid": "Foreign consumers (US consumers paid about US$57m a year for a 6-cent rise, per the US report) and domestic taxpayers through the surtax, the federal guarantee and inflation from the emissions. Other states refused the surtax and Rio state's coffee was hurt.",
+  "after": "The Vargas government assumed Sao Paulo's foreign debts in 1930. Coffee Institute in 1924. Prices stayed artificially high and production kept growing. US report: the scheme ended with the loan repaid and price higher than before 1906 (an interpretation; no net-profit total found).",
+  "counter_view": "Purchases were mostly financed by foreign bank loans repaid from the export tax, with coffee as collateral, and prices recovered from 1908 (Brasil Agro). The 1917 round was financed by money issue (MPRA paper). Furtado held that the operation postponed a structural imbalance.",
+  "signs": [
+   "guaranteed-return",
+   "paid-in-paper-or-cheap-credit",
+   "bailout",
+   "exclusive-privilege"
+  ],
+  "figures": [
+   {
+    "label": "Loan ceiling in Lei 990 / Convention",
+    "value": 15000000,
+    "currency": "GBP",
+    "value_year": 1906,
+    "estimator": "Lei 990 of 4 Jun 1906; Griscom dispatch",
+    "kind": "other",
+    "source_url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1906/lei-990-04.06.1906.html",
+    "status": "corrected",
+    "note": "Old note said the GBP 15m was not confirmed. It is the authorised ceiling in Law 990 and the Convention, not an amount borrowed."
+   },
+   {
+    "label": "Export surtax",
+    "value": 3,
+    "currency": "gold francs per 60 kg bag",
+    "value_year": 1906,
+    "estimator": "Lei 990, art. 2",
+    "kind": "subsidy",
+    "source_url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1906/lei-990-04.06.1906.html",
+    "status": "verified",
+    "note": "Later raised to 5 francs (US report, unverified)."
+   },
+   {
+    "label": "Minimum price",
+    "value": "55 to 65",
+    "currency": "gold francs per 60 kg bag",
+    "value_year": 1906,
+    "estimator": "Mendonca (rbgdr)",
+    "kind": "guaranteed-return",
+    "source_url": "https://www.rbgdr.net/revista/index.php/rbgdr/article/download/154/126",
+    "status": "unverified",
+    "note": "Not covered by the fact-check."
+   },
+   {
+    "label": "Loans: Treasury notes 7 Aug 1906",
+    "value": 1000000,
+    "currency": "GBP",
+    "value_year": 1906,
+    "estimator": "US report (FRUS 1913)",
+    "kind": "other",
+    "source_url": "https://history.state.gov/historicaldocuments/frus1913/d37",
+    "status": "unverified",
+    "note": "Net GBP 919,000. OCR garbled."
+   },
+   {
+    "label": "Loan from Schroeder and National City Bank, 14 Dec 1906",
+    "value": 3000000,
+    "currency": "GBP",
+    "value_year": 1906,
+    "estimator": "US report (FRUS 1913)",
+    "kind": "other",
+    "source_url": "https://history.state.gov/historicaldocuments/frus1913/d37",
+    "status": "unverified",
+    "note": "OCR garbled."
+   },
+   {
+    "label": "Loan under N.M. Rothschild, 28 Jan 1908",
+    "value": 3000000,
+    "currency": "GBP",
+    "value_year": 1908,
+    "estimator": "US report (FRUS 1913)",
+    "kind": "other",
+    "source_url": "https://history.state.gov/historicaldocuments/frus1913/d37",
+    "status": "unverified",
+    "note": "Fact-check: a search snippet shows a Rothschild GBP 3m loan in Jan 1908 and a further loan in Aug 1908; the date '28 Jan' was not verified."
+   },
+   {
+    "label": "Peak stock held",
+    "value": "8,474,623 bags at cost GBP 17,227,243",
+    "currency": "bags / GBP",
+    "value_year": 1908,
+    "estimator": "US report (FRUS 1913)",
+    "kind": "other",
+    "source_url": "https://history.state.gov/historicaldocuments/frus1913/d37",
+    "status": "unverified",
+    "note": "Fact-check: seen in search results only; OCR garbled."
+   },
+   {
+    "label": "1917 emission earmarked for coffee defence",
+    "value": 150000,
+    "currency": "contos de reis",
+    "value_year": 1917,
+    "estimator": "MPRA paper",
+    "kind": "public-finance-to-buyer",
+    "source_url": "https://mpra.ub.uni-muenchen.de/119179/1/MPRA_paper_119179.pdf",
+    "status": "unverified",
+    "note": "Decreto 3.316 authorised up to 300,000 contos; only 110,000 contos reached Sao Paulo, which bought about 3.1m bags at 4$900 per 10 kg."
+   },
+   {
+    "label": "1921–22 foreign credits",
+    "value": "GBP 5.5m (Nov 1921) and GBP 9m consolidation loan (May 1922)",
+    "currency": "GBP",
+    "value_year": 1922,
+    "estimator": "MPRA paper",
+    "kind": "other",
+    "source_url": "https://mpra.ub.uni-muenchen.de/119179/1/MPRA_paper_119179.pdf",
+    "status": "unverified",
+    "note": "1922 loan from N.M. Rothschild, Baring Brothers and J. Henry Schroder."
+   },
+   {
+    "label": "US consumers' extra cost",
+    "value": 57000000,
+    "currency": "USD per year",
+    "value_year": 1911,
+    "estimator": "US report (FRUS 1913)",
+    "kind": "other",
+    "source_url": "https://history.state.gov/historicaldocuments/frus1913/d37",
+    "status": "unverified",
+    "note": "Outstanding debt about US$64m on 1 Jan 1911; OCR garbled."
+   }
+  ],
+  "summary": "From 1906 the state of Sao Paulo, then the Union, borrowed abroad and later printed money to buy surplus coffee for planters. The loans were repaid from a per-bag export levy, and foreign financiers earned large profits. The Vargas government took over Sao Paulo's foreign debts in 1930.",
+  "sources": [
+   {
+    "title": "Taubate Agreement (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Taubat%C3%A9_Agreement"
+   },
+   {
+    "title": "Sao Paulo Lei 990 of 4 Jun 1906",
+    "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1906/lei-990-04.06.1906.html"
+   },
+   {
+    "title": "FRUS 1906 d101",
+    "url": "https://history.state.gov/historicaldocuments/frus1906p1/d101"
+   },
+   {
+    "title": "FRUS 1913 d37",
+    "url": "https://history.state.gov/historicaldocuments/frus1913/d37"
+   },
+   {
+    "title": "Lei 1.127 of 25 Aug 1908 (search result only)",
+    "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1908/lei-1127-25.08.1908.html"
+   },
+   {
+    "title": "MPRA paper on 1917–22 valorization",
+    "url": "https://mpra.ub.uni-muenchen.de/119179/1/MPRA_paper_119179.pdf"
+   },
+   {
+    "title": "Mendonca, rbgdr",
+    "url": "https://www.rbgdr.net/revista/index.php/rbgdr/article/download/154/126"
+   },
+   {
+    "title": "Brasil Agro on coffee and the US",
+    "url": "https://www.brasilagro.com.br/conteudo/cafe-brasileiro-gerou-tensao-nos-eua-ha-um-seculo.html"
+   }
+  ]
+ },
+ {
+  "id": "e2-09",
+  "year": "1906–1917 (again 1920s)",
+  "start_year": 1906,
+  "title": "Brazil Railway Company / Farquhar syndicate",
+  "era": "1889–1964 Republic",
+  "government": "Afonso Pena and following governments; Vargas restricted his activities after 1930",
+  "what": "Control of about 11,000 km of the national network's 23,400 km (about 47%) within ten years. Also Sorocabana, Paulista, Mogiana, Madeira-Mamore, Sao Paulo-Rio Grande and Vitoria-Minas lines, trams in Salvador, Sao Paulo, Belem and Rio Grande, ports, Rio Light interests, telephones, lumber, colonisation, meatpacking and hotels.",
+  "who_got": "Percival Farquhar with Belgian, French and British capital. Company created 7 Sept 1906 (founded 9 Nov 1906 per pt.wikipedia).",
+  "terms": "Government interest and revenue guarantees, 'often through personal bribery' (Wikipedia on Farquhar; weak, no academic source opened). Port of Para: 6% guarantee on construction capital plus a 2% gold tax on port imports. Authorised US$32m of shares, US$23.5m issued, a GBP 3.6m 50-year 5% bond and 62.5m francs of 60-year 5% bonds.",
+  "mechanism": "Concessions with guarantees and land zones; share and bond issues.",
+  "who_paid": "The treasury (guarantees), investors, and Indigenous peoples and settlers (Wikipedia says 'thousands' of Indigenous deaths, no figures or source).",
+  "after": "Bankrupt by about 1914 as WWI financing was cut (search results; a forced agreement in 1917). Control lasted to about mid-1917. Partial recovery after the war, failed again after 1929; Vargas restricted Farquhar after 1930 and he left Brazil. Madeira-Mamore was handed to the Union in 1931 (price not found).",
+  "counter_view": null,
+  "signs": [
+   "guaranteed-return",
+   "land-grant",
+   "conflict-of-interest-or-kickbacks"
+  ],
+  "figures": [
+   {
+    "label": "Share of national rail network controlled",
+    "value": "about 11,000 of 23,400 km (about 47%)",
+    "currency": "km",
+    "value_year": 1916,
+    "estimator": "pt.wikipedia (Brazil Railway Company)",
+    "kind": "other",
+    "source_url": "https://pt.wikipedia.org/wiki/Brazil_Railway_Company",
+    "status": "verified",
+    "note": "Confirmed as one article's figure."
+   },
+   {
+    "label": "Port of Para authorised shares / issued",
+    "value": "32,000,000 / 23,500,000",
+    "currency": "USD",
+    "value_year": 1906,
+    "estimator": "Correa thesis, citing Gremaud 1992",
+    "kind": "other",
+    "source_url": "https://memoriaferroviaria.assis.unesp.br/colecoes/wp-content/uploads/tainacan-items/9388/38405/correa_lm_dr_assis.pdf",
+    "status": "unverified",
+    "note": "Not covered by the fact-check."
+   },
+   {
+    "label": "Port of Para 50-year bond",
+    "value": 3600000,
+    "currency": "GBP",
+    "value_year": 1906,
+    "estimator": "Correa thesis",
+    "kind": "other",
+    "source_url": "https://memoriaferroviaria.assis.unesp.br/colecoes/wp-content/uploads/tainacan-items/9388/38405/correa_lm_dr_assis.pdf",
+    "status": "unverified",
+    "note": "5%; plus 62.5m francs of 60-year 5% bonds. Not covered by the fact-check."
+   }
+  ],
+  "summary": "Farquhar's Brazil Railway Company gathered nearly half of Brazil's rail network, plus ports, trams and land, in ten years. It leaned on state guarantees and, per weakly sourced claims, bribes. It went bankrupt around 1914 and left the public with the guarantees.",
+  "sources": [
+   {
+    "title": "Brazil Railway Company (pt.wikipedia)",
+    "url": "https://pt.wikipedia.org/wiki/Brazil_Railway_Company"
+   },
+   {
+    "title": "Percival Farquhar (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Percival_Farquhar"
+   },
+   {
+    "title": "Correa thesis on railways (UNESP)",
+    "url": "https://memoriaferroviaria.assis.unesp.br/colecoes/wp-content/uploads/tainacan-items/9388/38405/correa_lm_dr_assis.pdf"
+   }
+  ]
+ },
+ {
+  "id": "e2-10",
+  "year": "1907–1912 (abandoned 1972)",
+  "start_year": 1907,
+  "title": "Madeira-Mamore Railway",
+  "era": "1889–1964 Republic",
+  "government": "Rodrigues Alves / Afonso Pena / Nilo Pecanha era; contract tied to the 1903 treaty (Decreto 6.106 of 7 Aug 1906; 6.755 of 28 Nov 1907; 6.838 of 30 Jan 1908)",
+  "what": "Construction and operation of the rail link around the Madeira rapids. Third attempt; an earlier company (Collins) gave up in Aug 1879 (search only). Construction began 1907; 366 km of track in five years.",
+  "who_got": "Percival Farquhar (US financier). Port of Para Co. held 50% of the shares in 1907 (Correa thesis).",
+  "terms": "Cost of the project: US$33m (Treaty page). Guarantee terms were not found on any opened page; the claim that Farquhar lived on state guarantees is weak and unconfirmed. An income statement lists a GBP 130,000 profit on issuing GBP 1.6m of 5% bonds and GBP 3,000 guarantee commission (dating unclear). Founders projected about US$70m profit in 10 years.",
+  "mechanism": "Contract under a treaty obligation: Treaty of Petropolis (1903) traded Acre for building the line within four years plus GBP 2m.",
+  "who_paid": "Workers. Death toll is uncertain: 3,500–7,000 (Brown Univ.), 6,000 (Brazilian government), 7,000–10,000 (Uys), over 30,000 (Picoli); pt.wikipedia says about 6,000 deaths among about 30,000 workers.",
+  "after": "The rubber boom collapsed (Asian plantations) and the line became redundant. Handed to the Union in 1931. Deactivated by Decreto 58.501 of 25 May 1966; last train 1972, after BR-364.",
+  "counter_view": "The line was the price of Acre, a state treaty obligation to Bolivia (free transit), not purely a concession to a private investor (fact-check).",
+  "signs": [
+   "public-money-private-control"
+  ],
+  "figures": [
+   {
+    "label": "Cost of the project",
+    "value": 33000000,
+    "currency": "USD",
+    "value_year": 1912,
+    "estimator": "Treaty of Petropolis page",
+    "kind": "other",
+    "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Petr%C3%B3polis",
+    "status": "verified",
+    "note": "Gap filled by the fact-check."
+   },
+   {
+    "label": "Deaths among workers",
+    "value": "3,500 to over 30,000",
+    "currency": "count",
+    "value_year": 1912,
+    "estimator": "Brown Univ.; Brazilian government; Uys; Picoli",
+    "kind": "other",
+    "source_url": "https://en.wikipedia.org/wiki/Madeira-Mamor%C3%A9_Railroad",
+    "status": "disputed",
+    "note": "3,500-7,000 (Brown); 6,000 (government); 7,000-10,000 (Uys); over 30,000 (Picoli)."
+   },
+   {
+    "label": "Completion date",
+    "value": "30 Apr 1912 vs 15 Jul 1912",
+    "currency": "date",
+    "value_year": 1912,
+    "estimator": "Madeira-Mamore page vs Treaty page",
+    "kind": "other",
+    "source_url": "https://en.wikipedia.org/wiki/Madeira-Mamor%C3%A9_Railroad",
+    "status": "disputed",
+    "note": "Cite '1912'."
+   },
+   {
+    "label": "Profit on 5% bond issue",
+    "value": 130000,
+    "currency": "GBP",
+    "value_year": null,
+    "estimator": "Correa thesis",
+    "kind": "other",
+    "source_url": "https://memoriaferroviaria.assis.unesp.br/colecoes/wp-content/uploads/tainacan-items/9388/38405/correa_lm_dr_assis.pdf",
+    "status": "unverified",
+    "note": "On GBP 1.6m of bonds; dating unclear."
+   }
+  ],
+  "summary": "The Madeira-Mamore railway was built by Farquhar's group because Brazil promised it in the 1903 treaty that gave it Acre. Thousands of workers died, with estimates from 3,500 to over 30,000. The rubber boom ended soon after and the line was abandoned in 1972.",
+  "sources": [
+   {
+    "title": "Madeira-Mamore Railroad (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Madeira-Mamor%C3%A9_Railroad"
+   },
+   {
+    "title": "Percival Farquhar (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Percival_Farquhar"
+   },
+   {
+    "title": "Brown Univ. Brasiliana page",
+    "url": "https://library.brown.edu/create/brasiliana/?p=169"
+   },
+   {
+    "title": "Estrada de Ferro Madeira-Mamore (pt.wikipedia)",
+    "url": "https://pt.wikipedia.org/wiki/Estrada_de_Ferro_Madeira-Mamor%C3%A9"
+   },
+   {
+    "title": "Treaty of Petropolis (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Treaty_of_Petr%C3%B3polis"
+   },
+   {
+    "title": "Correa thesis on railways (UNESP)",
+    "url": "https://memoriaferroviaria.assis.unesp.br/colecoes/wp-content/uploads/tainacan-items/9388/38405/correa_lm_dr_assis.pdf"
+   }
+  ]
+ },
+ {
+  "id": "e2-11",
+  "year": "1911–1942",
+  "start_year": 1911,
+  "title": "Itabira Iron Ore Co. (Farquhar) and its end in Vale do Rio Doce",
+  "era": "1889–1964 Republic",
+  "government": "Epitacio Pessoa (contract signed for the government); Vargas (Vale created 1942)",
+  "what": "Sought: Itabira ore deposits, a railway to a port near Vitoria, and export rights. Farquhar bought the Brazilian Hematite Syndicate in 1911 and renamed it Itabira Iron Ore Co. (the Farquhar Wikipedia page does not mention Itabira). He worked on the project 1919–1941.",
+  "who_got": "Percival Farquhar's Itabira Iron Ore Co. The company was 'Brazilianized' in the 1930s into Companhia Brasileira de Mineracao e Siderurgia.",
+  "terms": "Railway construction was guaranteed a 6% return in gold on invested capital, up to Cr$30,000 per km (Rogers 1959). Compensation to Itabira holders was not found.",
+  "mechanism": "Contract with the government signed by Epitacio Pessoa with Transport Minister J. Pires do Rio (the year 1920 is not on the opened page).",
+  "who_paid": "Not stated; the project was largely not carried out as planned.",
+  "after": "Opposition came from Minas's state Secretary of Agriculture and Industry, Clodimiro de Oliveira, under President Bernardes (the old note called it a 'Bernardes veto'). Vitoria-Minas line linked 1936; ore first exported 1940 (about 5,740 t to Great Britain on the Modesta). Decree-law 4,352 (1 Jun 1942) created CVRD, capitalised Cr$200,000,000. CVRD was privatised in May 1997 (41.73% sold).",
+  "counter_view": null,
+  "signs": [
+   "guaranteed-return"
+  ],
+  "figures": [
+   {
+    "label": "Return guaranteed on railway capital",
+    "value": "6% in gold, up to Cr$30,000 per km",
+    "currency": "Cr$",
+    "value_year": 1920,
+    "estimator": "Rogers 1959",
+    "kind": "guaranteed-return",
+    "source_url": "https://www.cambridge.org/core/journals/journal-of-inter-american-studies/article/brazils-rio-doce-valley-project/926AD0E9227DFA3A539C0727DB8FB498",
+    "status": "corrected",
+    "note": "Old note read this as financing terms (ambiguous). Rogers says it was a 6% gold return guarantee on invested capital."
+   },
+   {
+    "label": "Vale initial capital",
+    "value": 200000000,
+    "currency": "Cr$",
+    "value_year": 1942,
+    "estimator": "Rogers 1959",
+    "kind": "other",
+    "source_url": "https://www.cambridge.org/core/journals/journal-of-inter-american-studies/article/brazils-rio-doce-valley-project/926AD0E9227DFA3A539C0727DB8FB498",
+    "status": "verified",
+    "note": "Decree-law 4,352 of 1 Jun 1942."
+   },
+   {
+    "label": "First ore export",
+    "value": 5740,
+    "currency": "tonnes",
+    "value_year": 1940,
+    "estimator": "Rogers 1959",
+    "kind": "other",
+    "source_url": "https://www.cambridge.org/core/journals/journal-of-inter-american-studies/article/brazils-rio-doce-valley-project/926AD0E9227DFA3A539C0727DB8FB498",
+    "status": "verified",
+    "note": "On the Modesta, to Great Britain."
+   },
+   {
+    "label": "Vale privatisation, 41.73% stake",
+    "value": 3340000000,
+    "currency": "BRL",
+    "value_year": 1997,
+    "estimator": "Wikipedia (Vale)",
+    "kind": "other",
+    "source_url": "https://en.wikipedia.org/wiki/Companhia_Vale_do_Rio_Doce",
+    "status": "verified",
+    "note": "About US$3.13bn. Later era, context only."
+   }
+  ],
+  "summary": "Farquhar tried to get the Itabira iron ore and a guaranteed-return railway in the 1910s–30s. The state answered by creating Vale in 1942. Vale was itself privatised in 1997.",
+  "sources": [
+   {
+    "title": "Rogers 1959, Brazil's Rio Doce Valley Project (Cambridge)",
+    "url": "https://www.cambridge.org/core/journals/journal-of-inter-american-studies/article/brazils-rio-doce-valley-project/926AD0E9227DFA3A539C0727DB8FB498"
+   },
+   {
+    "title": "Companhia Vale do Rio Doce (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Companhia_Vale_do_Rio_Doce"
+   },
+   {
+    "title": "MPRA paper (not readable)",
+    "url": "https://mpra.ub.uni-muenchen.de/92489"
+   }
+  ]
+ },
+ {
+  "id": "e2-12",
+  "year": "1925–1944/51",
+  "start_year": 1925,
+  "title": "Companhia de Terras Norte do Parana",
+  "era": "1889–1964 Republic",
+  "government": "State of Parana land sales (Brazil Plantations Syndicate organised 1924; CTNP organised 24 Sept 1925)",
+  "what": "Land in northern Parana. About 515,000 alqueires paulistas were planned for colonisation between the Paranapanema, Ivai and Tibagi rivers (one source says over 500,000; hectares not computed). The company bought the Sao Paulo-Parana railway project in 1928.",
+  "who_got": "British Parana Plantations Ltd / Brazil Plantations Syndicate (Lord Lovat named in a search result only), organised by Arthur Thomas and Antonio Moraes Barros. Founded Londrina.",
+  "terms": "Purchase price per alqueire and title disputes were not found. Reportedly bought from the Parana state government. Purchases of 350,000 and 100,000 alqueires in 1925 (search summaries only).",
+  "mechanism": "State land sales; colonisation company.",
+  "who_paid": "Costs to existing posseiros and Indigenous (Kaingang) were not found.",
+  "after": "The British sold in 1944 to Sao Paulo businessmen. Renamed Companhia Melhoramentos Norte do Parana in 1951.",
+  "counter_view": "The company sold planned plots to small farmers and founded Londrina, so large areas were settled and not left idle (search only).",
+  "signs": [],
+  "figures": [
+   {
+    "label": "Planned colonisation area",
+    "value": 515000,
+    "currency": "alqueires paulistas",
+    "value_year": 1925,
+    "estimator": "IBGE municipal profile (via search)",
+    "kind": "land-area",
+    "source_url": "https://www.canninghouse.org/canning-insights/the-british-in-parana",
+    "status": "unverified",
+    "note": "Another source gives 'over 500,000' and 1928; the cited IBGE PDF was not opened."
+   }
+  ],
+  "summary": "A British-backed company bought a very large block of northern Parana land in the 1920s and sold it in plots, founding Londrina. Prices, titles and the costs to Kaingang people were not found. The British sold out in 1944.",
+  "sources": [
+   {
+    "title": "The British in Parana (Canning House)",
+    "url": "https://www.canninghouse.org/canning-insights/the-british-in-parana"
+   },
+   {
+    "title": "Londrina municipal repository",
+    "url": "https://repositorio.londrina.pr.gov.br/index.php/ippul/eivs-digitais/23107-113-eiv/file"
+   }
+  ]
+ },
+ {
+  "id": "e2-13",
+  "year": "1927–1950s",
+  "start_year": 1927,
+  "title": "Light's Billings project: Pinheiros reversal and Cubatao",
+  "era": "1889–1964 Republic",
+  "government": "1927 state/federal contract (Washington Luis era)",
+  "what": "Right to divert the Tiete's surplus flow and reverse the Pinheiros river to feed the Henry Borden plant at Cubatao, plus the right to expropriate wetlands, with buy-back priority for former owners. Work began 1927; first phase 1935–37; underground plant 1956 (880 MW).",
+  "who_got": "Sao Paulo Tramway, Light and Power Company (Canadian capital).",
+  "terms": "Terms not stated in the notes.",
+  "mechanism": "A 1927 contract granting water-diversion and expropriation rights.",
+  "who_paid": "The Feb 1929 flooding caused 38 deaths (the date 'Feb' is not stated on the page). Through side agreements only 10% of expropriated properties were returned to the original owners. Pollution of the reversed river.",
+  "after": "The Billings reservoir became a metropolitan water source but is polluted. The reversal was restricted by a 1992 clause of the Sao Paulo state constitution (5 Oct 1992) to exceptional cases such as flood control, so it was not fully stopped. Water-rights questions persist.",
+  "counter_view": null,
+  "signs": [
+   "exclusive-privilege"
+  ],
+  "figures": [
+   {
+    "label": "Land marked for expropriation",
+    "value": 20779443,
+    "currency": "m2",
+    "value_year": 1929,
+    "estimator": "Wikipedia (SPTL&P)",
+    "kind": "land-area",
+    "source_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Tramway,_Light_and_Power_Company",
+    "status": "verified",
+    "note": "About 20.8 million m2."
+   },
+   {
+    "label": "Share of expropriated properties returned to original owners",
+    "value": "10%",
+    "currency": "percent",
+    "value_year": null,
+    "estimator": "Wikipedia (SPTL&P)",
+    "kind": "other",
+    "source_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Tramway,_Light_and_Power_Company",
+    "status": "verified",
+    "note": "Through side agreements."
+   },
+   {
+    "label": "Deaths in 1929 flooding",
+    "value": 38,
+    "currency": "count",
+    "value_year": 1929,
+    "estimator": "Wikipedia (SPTL&P)",
+    "kind": "other",
+    "source_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Tramway,_Light_and_Power_Company",
+    "status": "verified",
+    "note": "Company 'never formally indicted due to political pressure'."
+   }
+  ],
+  "summary": "Light got the right to reverse the Pinheiros river and expropriate land for the Borden plant. A 1929 flood killed 38 people and only 10% of seized land went back to its owners. The company was never formally indicted.",
+  "sources": [
+   {
+    "title": "Sao Paulo Tramway, Light and Power Company (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Tramway,_Light_and_Power_Company"
+   },
+   {
+    "title": "Billings Reservoir (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Billings_Reservoir"
+   },
+   {
+    "title": "DGABC on the Billings reservoir",
+    "url": "https://www.dgabc.com.br/Noticia/4212771/criada-para-gerar-energia-represa-billings-hoje-fornece-agua-para-a-regiao"
+   }
+  ]
+ },
+ {
+  "id": "e2-14",
+  "year": "1927–1945",
+  "start_year": 1927,
+  "title": "Fordlandia and Belterra",
+  "era": "1889–1964 Republic",
+  "government": "State of Para (Governor Dionisio Bentes; approval 1927, exact day unconfirmed); sale to the federal government in Dec 1945",
+  "what": "A concession to Henry Ford of about 10,100 km2 (about 1m ha; a municipal source cites 14,568 km2).",
+  "who_got": "Henry Ford. Export-tax exemption; Ford to pay 7% of profits to the government and 2% to municipalities. 'Granted free' was not confirmed.",
+  "terms": "Sold in 1945 for US$244,200 (Al Jazeera) after Ford spent nearly US$20 million. Wikipedia says 'a loss of over US$20 million' (citation needed). One source claims a US$125,000 commission to an intermediary (unconfirmed).",
+  "mechanism": "A state concession with tax exemption.",
+  "who_paid": "Workers recruited from the Northeast. Ford bore the financial loss after plantation failure (blight). Indigenous land impact not sourced.",
+  "after": "Sold to the federal government in 1945.",
+  "counter_view": "This was a foreign private investment where the private party lost, and the Brazilian state recovered the land cheaply, so it is a poor example of a public-to-private transfer (fact-check).",
+  "signs": [
+   "land-grant",
+   "subsidy-or-tax-break"
+  ],
+  "figures": [
+   {
+    "label": "Concession area",
+    "value": "10,100 to 14,568",
+    "currency": "km2",
+    "value_year": 1927,
+    "estimator": "Wikipedia; The Henry Ford; a municipal source",
+    "kind": "land-area",
+    "source_url": "https://en.wikipedia.org/wiki/Fordl%C3%A2ndia",
+    "status": "disputed",
+    "note": "Wikipedia: about 10,000 km2 (10,100 km2, 2.5m acres); The Henry Ford: 1m ha; municipal source 14,568 km2."
+   },
+   {
+    "label": "Sale price to government 1945",
+    "value": 244200,
+    "currency": "USD",
+    "value_year": 1945,
+    "estimator": "Al Jazeera, 29 May 2026",
+    "kind": "price-gap",
+    "source_url": "https://www.aljazeera.com/news/2026/5/29/a-landmark-brazils-prosecutors-hail-court-ruling-to-preserve-fordlandia",
+    "status": "corrected",
+    "note": "Old note said US$250,000, which other outlets round to. Al Jazeera gives US$244,200."
+   },
+   {
+    "label": "Ford's investment / loss",
+    "value": "nearly 20 million (Al Jazeera); over 20 million (Wikipedia)",
+    "currency": "USD",
+    "value_year": 1945,
+    "estimator": "Al Jazeera; Wikipedia (citation needed)",
+    "kind": "other",
+    "source_url": "https://www.aljazeera.com/news/2026/5/29/a-landmark-brazils-prosecutors-hail-court-ruling-to-preserve-fordlandia",
+    "status": "disputed",
+    "note": "The figure is soft."
+   },
+   {
+    "label": "Profit share to government / municipalities",
+    "value": "7% / 2%",
+    "currency": "percent",
+    "value_year": 1927,
+    "estimator": "Wikipedia (Fordlandia)",
+    "kind": "other",
+    "source_url": "https://en.wikipedia.org/wiki/Fordl%C3%A2ndia",
+    "status": "verified",
+    "note": "Also export-tax exemption."
+   },
+   {
+    "label": "Commission to an intermediary",
+    "value": 125000,
+    "currency": "USD",
+    "value_year": 1945,
+    "estimator": "Grandin via UAI",
+    "kind": "other",
+    "source_url": "https://www.uai.com.br/?p=157297",
+    "status": "unverified",
+    "note": "Not confirmed by the fact-check."
+   }
+  ],
+  "summary": "Ford received a very large Para concession with tax exemption in 1927. The rubber plantation failed and he sold it in 1945 for US$244,200. Ford lost the money, so this case is weak evidence of a public-to-private transfer.",
+  "sources": [
+   {
+    "title": "Fordlandia (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Fordl%C3%A2ndia"
+   },
+   {
+    "title": "Ford rubber plantations in Brazil (The Henry Ford)",
+    "url": "https://www.thehenryford.org/explore/blog/ford-rubber-plantations-in-brazil"
+   },
+   {
+    "title": "UAI on Fordlandia",
+    "url": "https://www.uai.com.br/?p=157297"
+   },
+   {
+    "title": "Al Jazeera, 29 May 2026",
+    "url": "https://www.aljazeera.com/news/2026/5/29/a-landmark-brazils-prosecutors-hail-court-ruling-to-preserve-fordlandia"
+   }
+  ]
+ },
+ {
+  "id": "e2-15",
+  "year": "1931–1944",
+  "start_year": 1931,
+  "title": "Coffee purchase and destruction",
+  "era": "1889–1964 Republic",
+  "government": "Vargas; Conselho Nacional do Cafe (1931); Departamento Nacional do Cafe by Decreto 22.452 of 10 Feb 1933; mandate extended to 30 Jun 1944",
+  "what": "The government bought surplus coffee from planters and destroyed it. Totals disagree: 78.2m bags (Daily Coffee News), about 72m (Santos municipal PDF, snippet) or 80m (CINDES PDF, snippet). The 1937 peak burned 70% of the annual stock.",
+  "who_got": "Planters and the coffee trade received purchase payments, financed by raised customs duties plus foreign loans. Coffee was over 50% of export value around 1929; a bag fell from 200,000 reis to about 20,000 in 1929.",
+  "terms": "No purchase price per bag or total outlay was found on an opened page.",
+  "mechanism": "Decrees creating the CNC and DNC; a funding tax on exported coffee (details unverified).",
+  "who_paid": "Taxpayers and consumers through duties and loans; non-coffee sectors.",
+  "after": "The programme ended in 1944.",
+  "counter_view": "Defenders see it as Keynesian-style demand support before Keynes (Furtado's income-maintenance argument, cited generally and not checked). No opened source quantified it.",
+  "signs": [
+   "bailout"
+  ],
+  "figures": [
+   {
+    "label": "Coffee destroyed",
+    "value": "72 to 80 million",
+    "currency": "bags",
+    "value_year": 1944,
+    "estimator": "Daily Coffee News; Santos municipal PDF; CINDES PDF",
+    "kind": "other",
+    "source_url": "https://dailycoffeenews.com/2021/09/22/90-years-ago-seeking-salvation-brazil-burned-billions-of-pounds-of-coffee",
+    "status": "disputed",
+    "note": "78.2m (Daily Coffee News); about 72m and 80m are snippet-only. Not covered by the fact-check."
+   }
+  ],
+  "summary": "Under Vargas the state bought surplus coffee from planters and burned it between 1931 and 1944. Estimates of the amount destroyed run from 72 to 80 million bags. Duties and loans paid for it; the price paid per bag was not found.",
+  "sources": [
+   {
+    "title": "Daily Coffee News, 90 years ago Brazil burned coffee",
+    "url": "https://dailycoffeenews.com/2021/09/22/90-years-ago-seeking-salvation-brazil-burned-billions-of-pounds-of-coffee"
+   },
+   {
+    "title": "Decreto 22.452 of 10 Feb 1933 (snippet only)",
+    "url": "https://www2.camara.leg.br/legin/fed/decret/1930-1939/decreto-22452-10-fevereiro-1933-514936-publicacaooriginal-1-pe.html"
+   },
+   {
+    "title": "Santos municipal education PDF (snippet only)",
+    "url": "https://www.santos.sp.gov.br/static/files_www/conteudo/SEDUC/EducaSatos/9deg_ano_estudantes_2a_edicao_1.pdf"
+   },
+   {
+    "title": "CINDES coffee paper (snippet only)",
+    "url": "https://iepecdg.com.br/wp-content/uploads/2025/10/20251002CafeCindes.docx-1.pdf"
+   }
+  ]
+ },
+ {
+  "id": "e2-16",
+  "year": "1941–1962",
+  "start_year": 1941,
+  "title": "State counter-moves: CSN, Vale, Petrobras, Eletrobras",
+  "era": "1889–1964 Republic",
+  "government": "Vargas (CSN 1941, Vale 1942, Petrobras 1953); Goulart (Eletrobras 1962)",
+  "what": "The state created its own companies. CSN on 9 Apr 1941 after a US-Brazil agreement, Volta Redonda producing in 1946. Vale in 1942 (see the Itabira case). Petrobras on 3 Oct 1953 with a legal oil monopoly, at about 2,700 bpd. Eletrobras on 11 Jun 1962 (first CEO Paulo Richer).",
+  "who_got": "The public sector.",
+  "terms": "Not applicable.",
+  "mechanism": "State companies by law and decree. Petrobras monopoly later relaxed by Constitutional Amendment 9 (Nov 1995), which allowed contracting private firms. Law 9.478 of 6 Aug 1997 regulated it and created the ANP. Many jurists say the monopoly was relaxed, not ended.",
+  "who_paid": "Not covered.",
+  "after": "CSN: 91% sold in the 1993–94 privatisation. Vale: privatised in 1997. Petrobras: monopoly relaxed 1995–97. Eletrobras: not covered. The old note's 'Law 3.890-A of 25 Apr 1961' for Eletrobras could not be confirmed.",
+  "counter_view": null,
+  "signs": [],
+  "figures": [
+   {
+    "label": "Petrobras production in 1953",
+    "value": 2700,
+    "currency": "barrels per day",
+    "value_year": 1953,
+    "estimator": "Wikipedia (Petrobras)",
+    "kind": "other",
+    "source_url": "https://en.wikipedia.org/wiki/Petrobras",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "CSN stake sold in privatisation",
+    "value": "91%",
+    "currency": "percent",
+    "value_year": 1994,
+    "estimator": "Wikipedia (CSN)",
+    "kind": "other",
+    "source_url": "https://en.wikipedia.org/wiki/Companhia_Sider%C3%BArgica_Nacional",
+    "status": "verified",
+    "note": "1993–94."
+   }
+  ],
+  "summary": "This is context, not a private takeover. In 1941–62 the state set up CSN, Vale, Petrobras and Eletrobras as a response to foreign-held concessions. Most were later privatised or opened up.",
+  "sources": [
+   {
+    "title": "Companhia Siderurgica Nacional (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Companhia_Sider%C3%BArgica_Nacional"
+   },
+   {
+    "title": "Petrobras (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Petrobras"
+   },
+   {
+    "title": "Eletrobras (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Eletrobras"
+   }
+  ]
+ },
+ {
+  "id": "e2-17",
+  "year": "1942–1946",
+  "start_year": 1942,
+  "title": "Banco de Credito da Borracha and the Washington Accords",
+  "era": "1889–1964 Republic",
+  "government": "Vargas; US side Rubber Reserve Company / Rubber Development Corporation",
+  "what": "Decreto-lei 4.451 of 9 Jul 1942 created the bank with capital of 50,000 contos: at least 55% Treasury, 40% Rubber Reserve Company, the rest Brazilians only. It held the exclusive right of final purchase and sale of all rubber (Art. 8). Capital rose to Cr$150m by Decreto-lei 5.651 of 5 Jul 1943: 87,500 shares Treasury, 60,000 RDC, 2,500 private Brazilians.",
+  "who_got": "The US bought rubber for the war. Contract ran 3 Mar 1942 to 31 Dec 1946, with financing via a Reconstruction Finance Corporation letter of credit. Rubber barons (aviadores) lost the retail monopoly to the bank.",
+  "terms": "Fixed price of 39 cents per pound for Upriver Acre Fine f.o.b. Belem, plus a 2.5 cent premium on 5,000–10,000 tons a year and a US$5,000,000 RRC fund. No independent estimate of whether 39 cents was below market was found.",
+  "mechanism": "Washington Accords of 3 Mar 1942 plus Decreto-lei 4.451/1942; SEMTA (recruitment).",
+  "who_paid": "The migrants. Projections of 100,000 tons a year were unrealistic. 'Half never returned' is an estimate of about 30,000 deaths (Portal Amazonia); the real count is not documented. Of those returning in the first half of 1946, 248 were judged unfit, mostly from malaria and avitaminosis. Full return transport guarantees not honoured (claim not verified).",
+  "after": "Law 13.831/2019 put the rubber soldiers in the Livro dos Herois. ADCT art. 54 (1988) grants a pension of 2 minimum wages; EC 78/2014 added R$25,000; about 6,500 pensioners remained in Nov 2025 (search result).",
+  "counter_view": "The bank is described as financially successful: the value fund equalled capital within 3 years, helped by US premiums (Martinello). The death figure is only an estimate.",
+  "signs": [
+   "exclusive-privilege"
+  ],
+  "figures": [
+   {
+    "label": "Initial capital of the bank",
+    "value": 50000,
+    "currency": "contos de reis",
+    "value_year": 1942,
+    "estimator": "Decreto-lei 4.451",
+    "kind": "other",
+    "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4451-9-julho-1942-414643-publicacaooriginal-1-pe.html",
+    "status": "unverified",
+    "note": "Not covered by the fact-check."
+   },
+   {
+    "label": "Fixed rubber price",
+    "value": "39",
+    "currency": "US cents per pound",
+    "value_year": 1942,
+    "estimator": "FRUS 1942 v5",
+    "kind": "other",
+    "source_url": "https://history.state.gov/historicaldocuments/frus1942v05/d654",
+    "status": "unverified",
+    "note": "Not covered by the fact-check. Plus 2.5 cent premium."
+   },
+   {
+    "label": "Recruited workers",
+    "value": "55,000 to 60,000",
+    "currency": "count",
+    "value_year": 1943,
+    "estimator": "Martinello; Portal Amazonia",
+    "kind": "other",
+    "source_url": "https://portalamazonia.com/amazonia/soldados-da-borracha-60-mil/",
+    "status": "disputed",
+    "note": "About 55,000 (Martinello) vs about 60,000 (Portal Amazonia)."
+   },
+   {
+    "label": "Estimated deaths of rubber soldiers",
+    "value": "about 30,000",
+    "currency": "count",
+    "value_year": 1946,
+    "estimator": "Portal Amazonia",
+    "kind": "other",
+    "source_url": "https://portalamazonia.com/amazonia/soldados-da-borracha-60-mil/",
+    "status": "unverified",
+    "note": "Estimate; real count undocumented."
+   }
+  ],
+  "summary": "In 1942 the state and the US created a bank with the sole right to buy and sell Amazon rubber at a US-fixed price. About 55,000 to 60,000 workers were recruited, and an estimated 30,000 died. The bank itself did well financially.",
+  "sources": [
+   {
+    "title": "Decreto-lei 4.451 of 9 Jul 1942",
+    "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4451-9-julho-1942-414643-publicacaooriginal-1-pe.html"
+   },
+   {
+    "title": "Martinello, A Batalha da Borracha (UFAC)",
+    "url": "https://www.ufac.br/editora/publicacoes/a-batalha-da-borracha-na-segunda-guerra-mundial/AbatalhadaborrachanaSegundaGuerraMundial.pdf"
+   },
+   {
+    "title": "FRUS 1942 v5 d654",
+    "url": "https://history.state.gov/historicaldocuments/frus1942v05/d654"
+   },
+   {
+    "title": "Portal Amazonia on the rubber soldiers",
+    "url": "https://portalamazonia.com/amazonia/soldados-da-borracha-60-mil/"
+   }
+  ]
+ },
+ {
+  "id": "e2-18",
+  "year": "1945/47–1997",
+  "start_year": 1945,
+  "title": "ICOMI manganese, Serra do Navio, Amapa",
+  "era": "1889–1964 Republic",
+  "government": "Dutra (1947 concession)",
+  "what": "Manganese mining concession in Amapa. Deposits declared a national reserve in 1945 and a 50-year mining contract in 1947 (the fact-check could not confirm these dates). Production 1957 to 1997 (SGB). Ore hauled 192 km by rail to Santana port.",
+  "who_got": "ICOMI (Augusto Antunes group) with Bethlehem Steel at 49% (CAEMI 51%).",
+  "terms": "Royalty rate and reserve estimates were not found.",
+  "mechanism": "Federal concession and 50-year mining contract.",
+  "who_paid": "Local communities and environment. Ore had 0.17–0.18% arsenic; tailings in a lagoon released arsenic; tailings were used as street fill in Santana (street fill not verified). An academic summary calls it an enclave economy with limited regional development.",
+  "after": "Production ended 1997 (SGB) or 1998 (HCS-Manguinhos). Tailings were removed in 1998.",
+  "counter_view": null,
+  "signs": [
+   "exclusive-privilege"
+  ],
+  "figures": [
+   {
+    "label": "Manganese shipped via Santana 1957–97",
+    "value": 34127862,
+    "currency": "tonnes",
+    "value_year": 1997,
+    "estimator": "SGB paper (Scarpelli)",
+    "kind": "other",
+    "source_url": "https://sgb.gov.br/documents/d/guest/scarpelli_arsenioemmineriomanganes-pdf",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Arsenic in the ore",
+    "value": "0.17 to 0.18",
+    "currency": "percent",
+    "value_year": null,
+    "estimator": "SGB paper (Scarpelli)",
+    "kind": "other",
+    "source_url": "https://sgb.gov.br/documents/d/guest/scarpelli_arsenioemmineriomanganes-pdf",
+    "status": "verified",
+    "note": "In 48% Mn ore."
+   },
+   {
+    "label": "Bethlehem Steel stake",
+    "value": "49%",
+    "currency": "percent",
+    "value_year": null,
+    "estimator": "USGS-cited yearbook (via search)",
+    "kind": "other",
+    "source_url": "https://www.e-publicacoes.uerj.br/maracanan/article/download/83950/56271/366185",
+    "status": "unverified",
+    "note": "Search only; the UERJ page was not fetched."
+   },
+   {
+    "label": "ICOMI gross revenue 1957–75",
+    "value": 2100000000,
+    "currency": "USD",
+    "value_year": 1975,
+    "estimator": "Academic article (via search)",
+    "kind": "other",
+    "source_url": "https://periodicos.ufpa.br/index.php/pnaea/article/download/11942/8259",
+    "status": "unverified",
+    "note": "Over US$2.1bn; search only."
+   }
+  ],
+  "summary": "ICOMI mined manganese in Amapa under a long federal concession, with Bethlehem Steel as a 49% partner. It shipped about 34 million tonnes. It left arsenic-bearing tailings and little regional development.",
+  "sources": [
+   {
+    "title": "Pnaea article (UFPA)",
+    "url": "https://periodicos.ufpa.br/index.php/pnaea/article/download/11942/8259"
+   },
+   {
+    "title": "SGB paper on arsenic and manganese mining",
+    "url": "https://sgb.gov.br/documents/d/guest/scarpelli_arsenioemmineriomanganes-pdf"
+   },
+   {
+    "title": "DOAJ record",
+    "url": "https://doaj.org/article/53c2d7e185c24575b5c5556e6e5014c1"
+   },
+   {
+    "title": "UERJ Maracana article (snippet only)",
+    "url": "https://www.e-publicacoes.uerj.br/maracanan/article/download/83950/56271/366185"
+   }
+  ]
+ },
+ {
+  "id": "e2-19",
+  "year": "1957–1965",
+  "start_year": 1957,
+  "title": "Hanna Mining and the Minas iron-ore fight",
+  "era": "1889–1964 Republic",
+  "government": "Juscelino Kubitschek (Decree 49.889, 12 Jan 1961 per the Senate text; its signature line says 1960, likely a typo); Janio Quadros annulled it 21 Aug 1961; Goulart tried to revoke again",
+  "what": "Decree 49.889 authorised Mineracao Hanna do Brasil Ltda. to mine iron ore at Fazenda do Tamanduá, Nova Lima: 156 hectares, land belonging to St John del Rey Mining. Critics say it was the first step to the Paraopeba reserves.",
+  "who_got": "M.A. Hanna Co. (Cleveland); George Humphrey (director; the pt article calls him chairman), ex-US Treasury Secretary. In 1957 Hanna bought British St John del Rey Mining shares for US$6 million.",
+  "terms": "Taxes were payable and the authorisation could be declared null if obligations were not met.",
+  "mechanism": "Presidential decree under the Mining Code.",
+  "who_paid": "Not covered.",
+  "after": "Quadros annulled the decree on 21 Aug 1961, returned the deposits to the national reserve and resigned on 25 Aug. After the 1964 coup, MBR was formed in 1965 by CAEMI (Antunes group) with Hanna; it became the second biggest Brazilian producer in 1971. Vale bought Caemi; Caemi merged into Vale in Dec 2006. Claims that Hanna fed the coup are in pt Wikipedia only and are contested.",
+  "counter_view": "The decree covers only one 156 ha property already owned by the British company and was a routine Mining Code authorisation that required payment of taxes (Senate decree). The 'unconstitutional' reading and the link to the 1964 coup (pt Wikipedia) are contested.",
+  "signs": [],
+  "figures": [
+   {
+    "label": "Hanna purchase of St John del Rey Mining shares",
+    "value": 6000000,
+    "currency": "USD",
+    "value_year": 1957,
+    "estimator": "pt.wikipedia (Hanna Mining Company)",
+    "kind": "other",
+    "source_url": "https://pt.wikipedia.org/wiki/Hanna_Mining_Company",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Area authorised under Decree 49.889",
+    "value": 156,
+    "currency": "ha",
+    "value_year": 1961,
+    "estimator": "Senate decree text",
+    "kind": "land-area",
+    "source_url": "https://legis.senado.leg.br/norma/472471/publicacao/15661805",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Hanna share of MBR",
+    "value": "34%",
+    "currency": "percent",
+    "value_year": 1965,
+    "estimator": "One report",
+    "kind": "other",
+    "source_url": "https://en.wikipedia.org/wiki/Caemi",
+    "status": "unverified",
+    "note": "The Caemi page gives no Hanna percentage."
+   }
+  ],
+  "summary": "A 1961 decree let Hanna mine 156 ha in Minas, on land its British subsidiary already held. Critics saw a first step to larger iron-ore reserves. Quadros annulled it, and Hanna later joined MBR after the 1964 coup.",
+  "sources": [
+   {
+    "title": "Hanna Mining Company (pt.wikipedia)",
+    "url": "https://pt.wikipedia.org/wiki/Hanna_Mining_Company"
+   },
+   {
+    "title": "Decree 49.889 (Senate)",
+    "url": "https://legis.senado.leg.br/norma/472471/publicacao/15661805"
+   },
+   {
+    "title": "Caemi (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Caemi"
+   },
+   {
+    "title": "Wisconsin library digital text on Hanna",
+    "url": "https://search.library.wisc.edu/digital/AC7YH2GVPR5IDL8M/text/AFJS6L7ISYQNCM8F"
+   }
+  ]
+ },
+ {
+  "id": "e2-20",
+  "year": "1959–1964",
+  "start_year": 1959,
+  "title": "Brizola's takeovers and the 1964 Eletrobras buy-out of Amforp",
+  "era": "1889–1964 Republic",
+  "government": "Brizola (RS governor, 1959; 1962 telephone decree); Goulart (negotiation interrupted); Castello Branco (Nov 1964 contract)",
+  "what": "Counter-move and buy-out. 13 May 1959: Rio Grande do Sul governor Brizola took over Bond and Share's CEERG. Feb 1962: decree 13.186 cancelled ITT's Companhia Telefonica Nacional concession; assets were expropriated. Nov 1964: AMFORP sold its ten Brazilian subsidiaries plus CAEEB to Eletrobras under Law 4.428 of 14 Oct 1964.",
+  "who_got": "Eletrobras (public) bought Amforp/Bond & Share assets and credits.",
+  "terms": "Per a thesis (Bastos, quoting Saes & Sasse 2012): US$135m for the assets, plus US$10m for delay and US$7.7m for interest and dividends, paid as a loan over 45 years at 6.5% a year. The April 1963 agreement already stood at US$135m, calculated on historical cost under the water code and considered fair for all Amforp assets. Brizola's 1959 'encampacao' of CEERG used a symbolic Cr$1 offer; the company claimed no less than Cr$2.1bn.",
+  "mechanism": "Law 4.428/1964; Treasury guarantee; Eximbank loans (search results). CEERG case never got a first-instance judgment; the thesis infers the indemnity was settled within the 1964 deal.",
+  "who_paid": "Treasury and Eletrobras borrowers. The thesis says the purchase was meant to 'clear the slate' (limpar a barra) with the US after the 1963 delays.",
+  "after": "The US government and AMFORP argued compensation was inadequate; the dispute continued until 1964. Brizola's position was that the company had an expired concession and was not investing. As federal deputy on 30 May 1963 Brizola called the purchase a 'crime de lesa-patria' and blamed San Tiago Dantas. Lacerda's position: not found.",
+  "counter_view": "Brizola argued the concession had expired and the company was not investing (Sul21 opinion piece, search only). The US/Amforp side said compensation was inadequate.",
+  "signs": [],
+  "figures": [
+   {
+    "label": "Price for Amforp assets",
+    "value": 135000000,
+    "currency": "USD",
+    "value_year": 1964,
+    "estimator": "Bastos thesis, quoting Saes & Sasse 2012",
+    "kind": "other",
+    "source_url": null,
+    "status": "unverified",
+    "note": "Thesis URL path not re-verified; fact-check could not confirm."
+   },
+   {
+    "label": "Amforp compensation (alternative figure)",
+    "value": 470000000,
+    "currency": "USD",
+    "value_year": null,
+    "estimator": "pt.wikipedia (via search)",
+    "kind": "other",
+    "source_url": "https://www.extraclasse.org.br/?p=12281",
+    "status": "disputed",
+    "note": "Range US$135m vs US$470m. Fact-check: the US$470m refers to post-1964 settlements, not 1959; the Extraclasse page returned 403."
+   },
+   {
+    "label": "CEERG valuation",
+    "value": "Cr$1.35bn reduced to Cr$70m",
+    "currency": "Cr$",
+    "value_year": 1959,
+    "estimator": "Extraclasse (one account)",
+    "kind": "other",
+    "source_url": "https://www.extraclasse.org.br/?p=12281",
+    "status": "unverified",
+    "note": "Uncorroborated."
+   },
+   {
+    "label": "Company's claim for CEERG",
+    "value": "not less than 2,100,000,000",
+    "currency": "Cr$",
+    "value_year": 1959,
+    "estimator": "Bastos thesis",
+    "kind": "other",
+    "source_url": null,
+    "status": "unverified",
+    "note": "Gross investment Cr$1,630,457,000, net Cr$1,362,623,000 in 1959; historical investment Cr$3,098,143,000 corrected to 1963."
+   }
+  ],
+  "summary": "Brizola seized Bond and Share's CEERG in 1959 and ITT's telephone company in 1962. In 1964 Eletrobras bought Amforp's ten Brazilian subsidiaries, at a price sources put between US$135m and US$470m. Critics call the buy-out too generous; the buyers called it fair.",
+  "sources": [
+   {
+    "title": "World Bank text on the Amforp sale",
+    "url": "https://documents1.worldbank.org/curated/en/360731468004223801/text/multi0page.txt"
+   },
+   {
+    "title": "Extraclasse on CEERG",
+    "url": "https://www.extraclasse.org.br/?p=12281"
+   },
+   {
+    "title": "MobileTime on CRT and ITT",
+    "url": "https://www.mobiletime.com.br/museu-movel/15/12/2023/operadoras-do-passado-crt/"
+   },
+   {
+    "title": "Law 4.428 of 14 Oct 1964 (Senate, search result only)",
+    "url": "https://legis.senado.leg.br/norma/546278/publicacao/15715156"
+   }
+  ]
+ }
+]

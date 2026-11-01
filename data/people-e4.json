@@ -1,0 +1,2941 @@
+{
+ "era": "1985-2002 (Sarney, Collor, Itamar Franco, Cardoso)",
+ "notes": "Role fields marked as inferred mean the person held the relevant post on the sale date per official lists; no opened page names them acting. Pages marked search-result were not fully opened. Wikipedia lists were used for post dates; where a page was truncated or absent, start/end are left null. Fact-checked 1 Nov 2026: statuses, basis and verified_sources added; unconfirmed accusations and counterparts removed.",
+ "terms": [
+  {
+   "term": "José Sarney, 1985-1990",
+   "decision_makers": [
+    "p-jose-sarney",
+    "p-mailson-da-nobrega",
+    "p-andre-franco-montoro-filho",
+    "p-marcio-fortes"
+   ]
+  },
+  {
+   "term": "Fernando Collor, 1990-1992",
+   "decision_makers": [
+    "p-fernando-collor",
+    "p-zelia-cardoso-de-mello",
+    "p-marcilio-marques-moreira",
+    "p-ibrahim-eris",
+    "p-eduardo-modiano",
+    "p-francisco-gros",
+    "p-antonio-barros-de-castro"
+   ]
+  },
+  {
+   "term": "Itamar Franco, 1992-1994",
+   "decision_makers": [
+    "p-itamar-franco",
+    "p-luiz-carlos-delben-leite",
+    "p-persio-arida",
+    "p-ciro-gomes",
+    "p-gustavo-loyola",
+    "p-pedro-malan",
+    "p-fernando-henrique-cardoso"
+   ]
+  },
+  {
+   "term": "Fernando Henrique Cardoso, 1995-1998",
+   "decision_makers": [
+    "p-fernando-henrique-cardoso",
+    "p-pedro-malan",
+    "p-jose-serra",
+    "p-sergio-motta",
+    "p-luiz-carlos-mendonca-de-barros",
+    "p-edmar-bacha",
+    "p-andre-lara-resende",
+    "p-gustavo-loyola",
+    "p-gustavo-franco",
+    "p-ricardo-sergio-de-oliveira",
+    "p-raimundo-mendes-de-brito",
+    "p-renato-guerreiro",
+    "p-jose-mario-miranda-abdo",
+    "p-david-zylbersztajn",
+    "p-antonio-britto",
+    "p-mario-covas"
+   ]
+  },
+  {
+   "term": "Fernando Henrique Cardoso, 1999-2002",
+   "decision_makers": [
+    "p-fernando-henrique-cardoso",
+    "p-pedro-malan",
+    "p-arminio-fraga",
+    "p-francisco-lopes",
+    "p-jose-pio-borges",
+    "p-francisco-gros",
+    "p-rodolpho-tourinho",
+    "p-jose-jorge",
+    "p-francisco-luiz-sibut-gomide",
+    "p-pedro-parente",
+    "p-david-zylbersztajn",
+    "p-renato-guerreiro",
+    "p-mario-covas",
+    "p-jaime-lerner"
+   ]
+  }
+ ],
+ "people": [
+  {
+   "id": "p-jose-sarney",
+   "name": "José Sarney",
+   "posts": [
+    {
+     "post": "President of Brazil",
+     "start": "1985-03-15",
+     "end": "1990-03-15",
+     "appointed_by": "indirect election/succession (Tancredo Neves, vice-president)",
+     "status": "unverified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-01",
+     "role": "head of state when the reprivatisation programme (begun under Figueiredo) ran",
+     "detail": "Programme continued during his term; BNDESPar sold Mafersa and others. Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/processos-encerrados/Historico",
+     "status": "unverified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "x-09",
+     "role": "head of state who decreed the 3-day bank holiday (14-16 Mar 1990) requested by Collor",
+     "detail": "Per Zélia Cardoso de Mello page.",
+     "source_url": "https://pt.wikipedia.org/wiki/Z%C3%A9lia_Cardoso_de_Mello",
+     "status": "unverified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "x-14",
+     "role": "head of state in 1989 when oil royalties were changed",
+     "detail": "Per case x-14 (signatory not verified).",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "unverified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Lista de ministros da Fazenda (shows Sarney as president 1985-90)",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Z%C3%A9lia_Cardoso_de_Mello"
+   ]
+  },
+  {
+   "id": "p-mailson-da-nobrega",
+   "name": "Maílson da Nóbrega",
+   "posts": [
+    {
+     "post": "Minister of Finance",
+     "start": "1987-05-13 (interim); 1988-01-06 (full term)",
+     "end": "1990-03-15",
+     "appointed_by": "José Sarney",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-01",
+     "role": "finance minister during Sarney-era reprivatisations",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Lista de ministros da Fazenda",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-andre-franco-montoro-filho",
+   "name": "André Franco Montoro Filho",
+   "posts": [
+    {
+     "post": "President of BNDES",
+     "start": "1985-08",
+     "end": "1987-01",
+     "appointed_by": "José Sarney (per list)",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-01",
+     "role": "BNDES president at start of BNDESPar reprivatisations",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Lista de presidentes do BNDES",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social"
+   ]
+  },
+  {
+   "id": "p-marcio-fortes",
+   "name": "Márcio Fortes",
+   "posts": [
+    {
+     "post": "President of BNDES",
+     "start": "1987-01",
+     "end": "1989-09",
+     "appointed_by": null,
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-01",
+     "role": "BNDES president during Sarney-era reprivatisations (BNDESPar 1987-89 experience paper is a case source)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Lista de presidentes do BNDES",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social"
+   ]
+  },
+  {
+   "id": "p-fernando-collor",
+   "name": "Fernando Collor de Mello",
+   "posts": [
+    {
+     "post": "President of Brazil",
+     "start": "1990-03-15",
+     "end": "1992-12-29",
+     "appointed_by": "direct election 1989",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": "Barred from public office for eight years by the Senate on 30 Dec 1992; senator for Alagoas 2007-2023.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-02",
+     "role": "head of state; the national privatisation programme (Lei 8.031/1990) began in his term",
+     "detail": "Law number from case file; signature on the law not verified on an opened page.",
+     "source_url": "https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/processos-encerrados/Historico",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-03",
+     "role": "head of state at start of PND",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/processos-encerrados/privatizacao-federais-pnd",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-04",
+     "role": "head of state when Usiminas was sold (24 Oct 1991)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/processos-encerrados/Historico",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-05",
+     "role": "head of state for Acesita (1992)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/processos-encerrados/privatizacao-federais-pnd",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-07",
+     "role": "head of state for 1992 petrochemical sales (Copesul 15 May 1992)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/processos-encerrados/privatizacao-federais-pnd",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "x-09",
+     "role": "president whose economic plan froze financial assets (MP 168, 15 Mar 1990)",
+     "detail": "Per Zélia page.",
+     "source_url": "https://pt.wikipedia.org/wiki/Z%C3%A9lia_Cardoso_de_Mello",
+     "status": "unverified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Impeached by the Chamber (29 Sep 1992, 441-38) in the scandal tied to the P.C. Farias scheme.",
+     "outcome": "Resigned 29 Dec 1992 hours before the Senate vote; on 30 Dec 1992 the Senate barred him from public office for eight years (76-2). Separate later case: in May 2023 the STF sentenced him to 8 years 10 months for passive corruption and money laundering (Lava Jato); arrest ordered 24 Apr 2025, serving the sentence under house arrest since 1 May 2025.",
+     "source_url": "https://pt.wikipedia.org/wiki/Fernando_Collor_de_Mello",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fernando Collor de Mello (pt.wikipedia)",
+     "url": "https://pt.wikipedia.org/wiki/Fernando_Collor_de_Mello"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Fernando_Collor_de_Mello"
+   ]
+  },
+  {
+   "id": "p-zelia-cardoso-de-mello",
+   "name": "Zélia Cardoso de Mello",
+   "posts": [
+    {
+     "post": "Minister of Economy, Finance and Planning",
+     "start": "1990-03-15",
+     "end": "1991-05-10 (resignation announced 8 May)",
+     "appointed_by": "Fernando Collor",
+     "status": "verified"
+    }
+   ],
+   "before": "Economist at CECAP (1976-77), Banco Auxiliar de São Paulo (1977-78), Brazilian embassy in London (1981-82), CESP fiscal council (1983-87), São Paulo housing company director (1984-86). No foreign firm tie on the page.",
+   "after": "Moved to New York in 1997 and works as a consultant; launched the magazine Victoria in 1995.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "x-09",
+     "role": "announced and ran the Plano Collor, which froze financial assets above 50,000 cruzados novos for 18 months at the Central Bank (MP 168; Lei 8.024)",
+     "detail": "Per Zélia page.",
+     "source_url": "https://pt.wikipedia.org/wiki/Z%C3%A9lia_Cardoso_de_Mello",
+     "status": "verified",
+     "basis": "documented-act"
+    },
+    {
+     "case_id": "e4-02",
+     "role": "finance minister when Lei 8.031/1990 created the PND",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-04",
+     "role": "finance minister until 10 May 1991 (before the Usiminas sale)",
+     "detail": "Not in office at the 24 Oct 1991 sale; linked only for programme start.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Accused of crimes against the public administration during the Collor government (STF inquérito 785).",
+     "outcome": "Acquitted by the Supreme Court (STF) in 1995, rapporteur Min. Ilmar Galvão.",
+     "source_url": "https://pt.wikipedia.org/wiki/Z%C3%A9lia_Cardoso_de_Mello",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Zélia Cardoso de Mello (pt.wikipedia)",
+     "url": "https://pt.wikipedia.org/wiki/Z%C3%A9lia_Cardoso_de_Mello"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Z%C3%A9lia_Cardoso_de_Mello",
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-ibrahim-eris",
+   "name": "Ibrahim Eris",
+   "posts": [
+    {
+     "post": "President of the Central Bank",
+     "start": "1990-03-15",
+     "end": "1991-05-17",
+     "appointed_by": "Fernando Collor",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "x-09",
+     "role": "Central Bank president during the Plano Collor; the BC held the frozen balances",
+     "detail": "Page for Zélia places him beside her at the 16 Mar 1990 announcement.",
+     "source_url": "https://pt.wikipedia.org/wiki/Z%C3%A9lia_Cardoso_de_Mello",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Lista de presidentes do BC",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil"
+    },
+    {
+     "title": "Zélia page",
+     "url": "https://pt.wikipedia.org/wiki/Z%C3%A9lia_Cardoso_de_Mello"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-marcilio-marques-moreira",
+   "name": "Marcílio Marques Moreira",
+   "posts": [
+    {
+     "post": "Ambassador of Brazil to the United States",
+     "start": "1986",
+     "end": "1991",
+     "appointed_by": "not stated on the page",
+     "status": "unverified"
+    },
+    {
+     "post": "Minister of Economy, Finance and Planning",
+     "start": "1991-05-10",
+     "end": "1992-10-02",
+     "appointed_by": "Fernando Collor",
+     "status": "verified"
+    }
+   ],
+   "before": "Secretary at the Brazilian embassy in Washington 1957-61; BNDE adviser for international operations until 1965 and council member 1974-80; Unibanco vice-president 1968-83, then board.",
+   "after": "Rio city undersecretary 1993-95; board seats at Embratel, Energisa, IBM and Coca-Cola among others (dates not given on the page).",
+   "foreign_ties": [
+    {
+     "counterpart": "Unibanco",
+     "kind": "former employer",
+     "detail": "Vice-president of Unibanco 1968-83, then board member.",
+     "source_url": "https://pt.wikipedia.org/wiki/Marc%C3%ADlio_Marques_Moreira",
+     "status": "verified"
+    },
+    {
+     "counterpart": "IBM; Coca-Cola",
+     "kind": "board seat",
+     "detail": "Board seats listed on the page (dates not given).",
+     "source_url": "https://pt.wikipedia.org/wiki/Marc%C3%ADlio_Marques_Moreira",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e4-04",
+     "role": "finance minister when Usiminas was sold (24 Oct 1991)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-05",
+     "role": "finance minister for Acesita (1992)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-07",
+     "role": "finance minister for Copesul (15 May 1992)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-02",
+     "role": "finance minister during the early PND auctions",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Marcílio Marques Moreira (pt.wikipedia)",
+     "url": "https://pt.wikipedia.org/wiki/Marc%C3%ADlio_Marques_Moreira"
+    },
+    {
+     "title": "Lista de ministros da Fazenda",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Marc%C3%ADlio_Marques_Moreira",
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-eduardo-modiano",
+   "name": "Eduardo Modiano",
+   "posts": [
+    {
+     "post": "President of BNDES",
+     "start": "1990-03",
+     "end": "1992-10",
+     "appointed_by": "Fernando Collor (list does not state)",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-02",
+     "role": "BNDES president when PND started; BNDES managed the programme",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-04",
+     "role": "BNDES president at the Usiminas sale (24 Oct 1991)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-05",
+     "role": "BNDES president for Acesita (1992)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-07",
+     "role": "BNDES president at Copesul (15 May 1992)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-06",
+     "role": "BNDES president when the 'moedas podres' / loans to buyers began",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Lista de presidentes do BNDES",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social"
+   ]
+  },
+  {
+   "id": "p-francisco-gros",
+   "name": "Francisco Gros",
+   "posts": [
+    {
+     "post": "President of the Central Bank",
+     "start": "1987-02-11",
+     "end": "1987-04-30",
+     "appointed_by": "José Sarney",
+     "status": "verified"
+    },
+    {
+     "post": "President of the Central Bank (2nd)",
+     "start": "1991-05-17",
+     "end": "1992-11-16",
+     "appointed_by": "Fernando Collor",
+     "status": "verified"
+    },
+    {
+     "post": "President of BNDES",
+     "start": "2000-02",
+     "end": "2002-01",
+     "appointed_by": "Fernando Henrique Cardoso (list does not state)",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-22",
+     "role": "BNDES president for Celpe (17 Feb 2000) and Cemar (15 Jun 2000) sales",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-29",
+     "role": "BNDES president at Banestado sale (Oct 2000)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-30",
+     "role": "BNDES president at Banespa sale (Nov 2000)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Lista de presidentes do BNDES",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social"
+    },
+    {
+     "title": "Lista de presidentes do BC",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil",
+    "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+    "https://pt.wikipedia.org/wiki/Francisco_Gros"
+   ]
+  },
+  {
+   "id": "p-antonio-barros-de-castro",
+   "name": "Antônio Barros de Castro",
+   "posts": [
+    {
+     "post": "President of BNDES",
+     "start": "1992-10",
+     "end": "1993-03",
+     "appointed_by": "Itamar Franco (acting president from 2 Oct 1992)",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-05",
+     "role": "BNDES president at start of the 1993 Siderbras sales",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Lista de presidentes do BNDES",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social"
+   ]
+  },
+  {
+   "id": "p-luiz-carlos-delben-leite",
+   "name": "Luiz Carlos Delben Leite",
+   "posts": [
+    {
+     "post": "President of BNDES",
+     "start": "1993-03",
+     "end": "1993-08",
+     "appointed_by": "Itamar Franco",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-05",
+     "role": "BNDES president in the period of the CSN/Cosipa auctions (1993)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Lista de presidentes do BNDES",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social"
+   ]
+  },
+  {
+   "id": "p-itamar-franco",
+   "name": "Itamar Franco",
+   "posts": [
+    {
+     "post": "President of Brazil",
+     "start": "1992-10-02 (acting); 1992-12-29 (effective)",
+     "end": "1995-01-01",
+     "appointed_by": "succeeded Collor (vice-president)",
+     "status": "verified"
+    },
+    {
+     "post": "Governor of Minas Gerais",
+     "start": "1999-01-01",
+     "end": "2003-01-01",
+     "appointed_by": "election",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-05",
+     "role": "head of state for CSN and Cosipa sales (1993)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/processos-encerrados/privatizacao-federais-pnd",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-08",
+     "role": "head of state when Lei 8.630/1993 (ports) was passed",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://legis.senado.leg.br/norma/550506",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-09",
+     "role": "head of state at the Embraer sale (7 Dec 1994)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/processos-encerrados/Historico",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-11",
+     "role": "head of state during highway-concession preparation",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/processos-encerrados/privatizacao-federais-pnd",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-21",
+     "role": "as Minas governor from Jan 1999 he disputed the 1997 Cemig stake sale to Southern",
+     "detail": "A teletime item (14 Jan 1999) says Itamar wanted to recover the 33%.",
+     "source_url": "https://teletime.com.br/14/01/1999/itamar-quer-reaver-os-33-das-acoes-da-energetica/",
+     "status": "unverified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Collor page (Itamar took over 2 Oct 1992)",
+     "url": "https://pt.wikipedia.org/wiki/Fernando_Collor_de_Mello"
+    },
+    {
+     "title": "Lista de ministros da Fazenda",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Itamar_Franco"
+   ]
+  },
+  {
+   "id": "p-fernando-henrique-cardoso",
+   "name": "Fernando Henrique Cardoso",
+   "posts": [
+    {
+     "post": "Minister of Finance",
+     "start": "1993-05-19",
+     "end": "1994-03-30",
+     "appointed_by": "Itamar Franco",
+     "status": "verified"
+    },
+    {
+     "post": "President of Brazil",
+     "start": "1995-01-01",
+     "end": "2003-01-01",
+     "appointed_by": "direct election 1994, re-elected 1998",
+     "status": "verified"
+    }
+   ],
+   "before": "Sociologist and senator; co-founder of PSDB.",
+   "after": null,
+   "foreign_ties": [
+    {
+     "counterpart": "IMF (stand-by arrangement announced 13 Nov 1998)",
+     "kind": "lender",
+     "detail": "IMF news brief of 13 Nov 1998: three-year stand-by of SDR 13.0 bn (about US$18 bn) within a package above US$41 bn from official creditors. The brief does not give the Board approval date (2 Dec 1998 per case file).",
+     "source_url": "https://www.imf.org/external/np/sec/nb/1998/nb9843.htm",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e4-02",
+     "role": "president under whom the PND was expanded (Lei 9.491/1997)",
+     "detail": "Law number from case file.",
+     "source_url": "https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/processos-encerrados/Historico",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-10",
+     "role": "head of state at Escelsa, first federal distributor sale",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://www1.folha.uol.com.br/fsp/1995/7/12/brasil/4.html",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-12",
+     "role": "president when EC 9/1995 and Lei 9.478/1997 ended the Petrobras monopoly",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://repositorio.ipea.gov.br/bitstream/11058/5410/1/Radar_n8_Conte%C3%BAdo.pdf",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-13",
+     "role": "president when MP 1.179/1995 (PROER) was issued",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-temporarias/parlamentar-de-inquerito/51-legislatura/cpiproer/relatoriofinal/cap2proer.pdf",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-14",
+     "role": "head of state at Light sale (21 May 1996)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://web.bndes.gov.br/bib/jspui/bitstream/1408/15260/1/A%20quest%c3%a3o%20regulat%c3%b3ria%20nas%20privatiza%c3%a7%c3%b5es%20da%20Light%20e%20da%20Escelsa_P.PDF",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-15",
+     "role": "head of state for railway sales 1996-98",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://tcu.gov.br/acordaoslegados/1996/Plenario/DC-1996-000559-FG-PL.pdf",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-17",
+     "role": "president when MP 1.514/1996 (PROES) was issued",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://www.bcb.gov.br/htms/public/BancosEstaduais/livro_bancos_estaduais.pdf",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-19",
+     "role": "head of state at the Vale sale (6 May 1997)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://www.congressoemfoco.com.br/noticia/65831/privatizacao-sub-judice",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-23",
+     "role": "head of state; BNDES ran the Eletropaulo sale (15 Apr 1998)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://www.congressoemfoco.com.br/noticia/4343/gestao-tucana-do-bndes-sob-suspeita",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-24",
+     "role": "head of state at the Telebras breakup (29 Jul 1998)",
+     "detail": "Poder360: Cardoso met Mendonça de Barros and Lara Resende on 22 Nov 1998 when they left.",
+     "source_url": "https://www.poder360.com.br/historia/depoimento-de-mendonca-de-barros-no-senado-o-fez-deixar-o-governo/",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-25",
+     "role": "head of state for Gerasul, Paranapanema, Elektro",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/processos-encerrados/Historico",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-26",
+     "role": "head of state during the 'grampo do BNDES' scandal",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://www.poder360.com.br/historia/depoimento-de-mendonca-de-barros-no-senado-o-fez-deixar-o-governo/",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-28",
+     "role": "head of state for the Petrobras FGTS sale (Aug 2000)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/processos-encerrados/privatizacao-federais-pnd",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-29",
+     "role": "head of state at Banestado sale (Oct 2000)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/processos-encerrados/Historico",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-30",
+     "role": "head of state at Banespa sale (Nov 2000)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/processos-encerrados/Historico",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-31",
+     "role": "head of state during the 2001 rationing",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://planalto.gov.br/ccivil_03/leis/2002/l10438.htm",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-32",
+     "role": "head of state when the seguro-apagão was set (2002)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://planalto.gov.br/ccivil_03/leis/2002/l10438.htm",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-18",
+     "role": "head of state during the CC5 flows (1996-97)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://www2.senado.leg.br/jspui/handle/id/609990",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-06",
+     "role": "head of state when BNDES financed buyers",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://www.congressoemfoco.com.br/noticia/4343/gestao-tucana-do-bndes-sob-suspeita",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "x-10",
+     "role": "head of state for PROER operations",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "x-11",
+     "role": "head of state for Lei Kandir",
+     "detail": "Signatory not confirmed in the case file.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "unverified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "x-12",
+     "role": "head of state for the Dec 1995 dividend exemption law",
+     "detail": "Date from URL slug per case file.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "unverified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "x-13",
+     "role": "head of state for PROES/Banespa",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "x-14",
+     "role": "head of state in 1997 (royalties and special participation)",
+     "detail": "Signatory not verified.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil",
+     "status": "unverified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "x-15",
+     "role": "head of state in 1999 (Repetro)",
+     "detail": "Case says the sources do not name the president.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil",
+     "status": "unverified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "x-16",
+     "role": "head of state at the Marka/FonteCindam rescue (Jan 1999)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Salvatore_Cacciola",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "x-17",
+     "role": "head of state for Refis 2000",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Lista de ministros da Fazenda",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+    },
+    {
+     "title": "IMF press release 1998",
+     "url": "https://www.imf.org/external/np/sec/nb/1998/nb9843.htm"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Fernando_Henrique_Cardoso",
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+    "https://www.imf.org/external/np/sec/nb/1998/nb9843.htm"
+   ]
+  },
+  {
+   "id": "p-pedro-malan",
+   "name": "Pedro Malan",
+   "posts": [
+    {
+     "post": "President of the Central Bank",
+     "start": "1993-09-09",
+     "end": "1994-12-31",
+     "appointed_by": "Itamar Franco",
+     "status": "verified"
+    },
+    {
+     "post": "Minister of Finance",
+     "start": "1995-01-01",
+     "end": "2003-01-01",
+     "appointed_by": "Fernando Henrique Cardoso",
+     "status": "verified"
+    }
+   ],
+   "before": "World Bank executive director from Sep 1986 (alternate from Oct 1988, left Jul 1990); IDB executive director from Jul 1990; chief negotiator of external debt Jun 1991-Aug 1993 (Washington).",
+   "after": "Unibanco vice-chairman from 28 Apr 2003; Globex (Ponto Frio) board chair from Sep 2003; EDP Energias do Brasil board from 2006; Itaú Unibanco International Advisory Board chair from 2009; OGX independent board 2008-13; also Souza Cruz, Alcoa Latin America, Bunge, Temasek panel.",
+   "foreign_ties": [
+    {
+     "counterpart": "World Bank",
+     "kind": "lender",
+     "detail": "Executive director Sep 1986-Oct 1988, then alternate until Jul 1990; first Brazilian in the post.",
+     "source_url": "https://pt.wikipedia.org/wiki/Pedro_Malan",
+     "status": "verified"
+    },
+    {
+     "counterpart": "Inter-American Development Bank",
+     "kind": "lender",
+     "detail": "Executive director from Jul 1990.",
+     "source_url": "https://pt.wikipedia.org/wiki/Pedro_Malan",
+     "status": "verified"
+    },
+    {
+     "counterpart": "Brazil's foreign creditors (external debt negotiation)",
+     "kind": "foreign government/lender",
+     "detail": "Chief debt negotiator Jun 1991-Aug 1993.",
+     "source_url": "https://pt.wikipedia.org/wiki/Pedro_Malan",
+     "status": "verified"
+    },
+    {
+     "counterpart": "IMF",
+     "kind": "lender",
+     "detail": "Letter of intent of 13 Nov 1998 to Michel Camdessus signed by Pedro Malan (Finance Minister) and Gustavo Franco (BC president).",
+     "source_url": "https://www.imf.org/external/np/loi/111398.HTM",
+     "status": "verified"
+    },
+    {
+     "counterpart": "Itaú Unibanco / Unibanco",
+     "kind": "board seat",
+     "detail": "Vice-chairman of Unibanco board from Apr 2003; chair of Itaú Unibanco International Advisory Board from Aug 2009.",
+     "source_url": "https://pt.wikipedia.org/wiki/Pedro_Malan",
+     "status": "verified"
+    },
+    {
+     "counterpart": "EDP (Portuguese utility)",
+     "kind": "board seat",
+     "detail": "Board of EDP Energias do Brasil from 2006; the electric sector was privatised in his term.",
+     "source_url": "https://pt.wikipedia.org/wiki/Pedro_Malan",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e4-02",
+     "role": "finance minister for the PND expansion",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-09",
+     "role": "BC president until 31 Dec 1994 (Embraer sold 7 Dec 1994)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-10",
+     "role": "finance minister at Escelsa",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-13",
+     "role": "finance minister for PROER",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-14",
+     "role": "finance minister at Light",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-17",
+     "role": "finance minister for PROES",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-19",
+     "role": "finance minister at Vale sale",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-23",
+     "role": "finance minister at Eletropaulo",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-24",
+     "role": "finance minister at Telebras breakup",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-28",
+     "role": "finance minister for Petrobras FGTS",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-29",
+     "role": "finance minister at Banestado",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-30",
+     "role": "finance minister at Banespa",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "x-11",
+     "role": "finance minister for Lei Kandir",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "x-12",
+     "role": "finance minister for dividend exemption",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "x-13",
+     "role": "finance minister for PROES/Banespa",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "x-16",
+     "role": "finance minister at the Marka rescue and IMF agreement",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "x-17",
+     "role": "finance minister for Refis 2000",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-18",
+     "role": "finance minister during CC5 flows",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Pedro Malan (pt.wikipedia)",
+     "url": "https://pt.wikipedia.org/wiki/Pedro_Malan"
+    },
+    {
+     "title": "Lista de ministros da Fazenda",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Pedro_Malan",
+    "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil",
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+    "https://www.imf.org/external/np/loi/111398.HTM"
+   ]
+  },
+  {
+   "id": "p-gustavo-franco",
+   "name": "Gustavo Franco",
+   "posts": [
+    {
+     "post": "Director of International Affairs, Central Bank",
+     "start": "1993-09",
+     "end": "1997-08",
+     "appointed_by": "Itamar Franco / Cardoso governments",
+     "status": "unverified"
+    },
+    {
+     "post": "President of the Central Bank",
+     "start": "1997-08-20",
+     "end": "1999-03-04",
+     "appointed_by": "Fernando Henrique Cardoso",
+     "status": "verified"
+    }
+   ],
+   "before": "Harvard PhD (1986); deputy secretary of economic policy at the Finance Ministry 1993 (Plano de Ação Imediata); then head of international affairs at the Central Bank.",
+   "after": "Co-founded Rio Bravo Investimentos in 2000 (control bought by Fosun International in 2016); joined Partido Novo 2017.",
+   "foreign_ties": [
+    {
+     "counterpart": "Fosun International (China)",
+     "kind": "investor",
+     "detail": "Fosun bought control of Rio Bravo, which Franco co-founded in 2000, in 2016.",
+     "source_url": "https://pt.wikipedia.org/wiki/Gustavo_Franco",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e4-18",
+     "role": "BC director who signed a special authorisation for the CC5 accounts (as described by the page)",
+     "detail": "Page states the CPI linked the accounts to an authorisation he signed. (The page fetched did not state that he signed it; unverified.)",
+     "source_url": "https://pt.wikipedia.org/wiki/Gustavo_Franco",
+     "status": "unverified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "x-10",
+     "role": "BC director during PROER",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Gustavo_Franco",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "x-16",
+     "role": "BC president until the 13 Jan 1999 devaluation; resigned 4 Mar 1999",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Gustavo_Franco",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "CPI do Banestado (CC5 accounts): the rapporteur proposed holding him responsible for capital flight.",
+     "outcome": "The CPI never voted its final report; Franco was never convicted.",
+     "source_url": "https://pt.wikipedia.org/wiki/Gustavo_Franco",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gustavo Franco (pt.wikipedia)",
+     "url": "https://pt.wikipedia.org/wiki/Gustavo_Franco"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Gustavo_Franco",
+    "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-gustavo-loyola",
+   "name": "Gustavo Loyola",
+   "posts": [
+    {
+     "post": "President of the Central Bank (1st)",
+     "start": "1992-11-13",
+     "end": "1993-03-29",
+     "appointed_by": "Itamar Franco",
+     "status": "verified"
+    },
+    {
+     "post": "President of the Central Bank (2nd)",
+     "start": "1995-06-13",
+     "end": "1997-08-20",
+     "appointed_by": "Fernando Henrique Cardoso",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "x-10",
+     "role": "BC president during PROER (Nov 1995 on)",
+     "detail": "Case x-10 names him as BC president.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-30",
+     "role": "BC president when the federal government took over Banespa (Nov 1996)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-17",
+     "role": "BC president during the PROES launch (1996)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-18",
+     "role": "BC president during the CC5 flows",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Lista de presidentes do BC",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-persio-arida",
+   "name": "Pérsio Arida",
+   "posts": [
+    {
+     "post": "President of BNDES",
+     "start": "1993-09",
+     "end": "1995-01",
+     "appointed_by": "Itamar Franco (per list)",
+     "status": "verified"
+    },
+    {
+     "post": "President of the Central Bank",
+     "start": "1995-01-11",
+     "end": "1995-06-13",
+     "appointed_by": "Fernando Henrique Cardoso",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-09",
+     "role": "BNDES president at the Embraer sale (7 Dec 1994)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Lista de presidentes do BNDES",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social"
+    },
+    {
+     "title": "Lista de presidentes do BC",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil",
+    "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social"
+   ]
+  },
+  {
+   "id": "p-edmar-bacha",
+   "name": "Edmar Bacha",
+   "posts": [
+    {
+     "post": "President of BNDES",
+     "start": "1995-01",
+     "end": "1995-11",
+     "appointed_by": "Fernando Henrique Cardoso (per list)",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-10",
+     "role": "BNDES president at Escelsa sale (11 Jul 1995)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Lista de presidentes do BNDES",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social"
+   ]
+  },
+  {
+   "id": "p-ciro-gomes",
+   "name": "Ciro Gomes",
+   "posts": [
+    {
+     "post": "Minister of Finance",
+     "start": "1994-09-06",
+     "end": "1995-01-01",
+     "appointed_by": "Itamar Franco",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-09",
+     "role": "finance minister at Embraer sale (7 Dec 1994)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Lista de ministros da Fazenda",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-jose-serra",
+   "name": "José Serra",
+   "posts": [
+    {
+     "post": "Minister of Planning, Budget and Management",
+     "start": "1995-01-01",
+     "end": "1996-04-30",
+     "appointed_by": "Fernando Henrique Cardoso",
+     "status": "verified"
+    },
+    {
+     "post": "Minister of Health",
+     "start": "1998-03-31",
+     "end": "2002-02-20",
+     "appointed_by": "Fernando Henrique Cardoso",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-10",
+     "role": "planning minister at Escelsa sale (11 Jul 1995); the CND in 1998 was chaired by the planning minister, not Serra",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://www2.camara.leg.br/legin/fed/decret/1998/decreto-2594-15-maio-1998-400871-normaatualizada-pe.pdf",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "José Serra (pt.wikipedia, truncated)",
+     "url": "https://pt.wikipedia.org/wiki/Jos%C3%A9_Serra"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Jos%C3%A9_Serra"
+   ]
+  },
+  {
+   "id": "p-sergio-motta",
+   "name": "Sérgio Motta",
+   "posts": [
+    {
+     "post": "Minister of Communications",
+     "start": "1995-01-01",
+     "end": "1998-04-19",
+     "appointed_by": "Fernando Henrique Cardoso",
+     "status": "verified"
+    }
+   ],
+   "before": "Head of Coalbra (state-linked wood-alcohol company) from 1980.",
+   "after": "Died in office on 19 Apr 1998.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-24",
+     "role": "communications minister who pushed Telebras privatisation; Lei Geral das Telecomunicações (Jul 1997) and Anatel (Nov 1997) were created in his term",
+     "detail": "Per his pt.wikipedia page.",
+     "source_url": "https://pt.wikipedia.org/wiki/S%C3%A9rgio_Motta",
+     "status": "verified",
+     "basis": "documented-act"
+    },
+    {
+     "case_id": "e4-16",
+     "role": "communications minister during the 1996-98 telecom wave",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/S%C3%A9rgio_Motta",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Accused of favouring Grupo Abril and Organizações Globo in cable TV expansion.",
+     "outcome": "Allegation only; the page reports no charge.",
+     "source_url": "https://pt.wikipedia.org/wiki/S%C3%A9rgio_Motta",
+     "status": "verified"
+    },
+    {
+     "what": "Coalbra (state-linked alcohol company) lost about US$250 million.",
+     "outcome": "Never held judicially responsible per the page.",
+     "source_url": "https://pt.wikipedia.org/wiki/S%C3%A9rgio_Motta",
+     "status": "verified"
+    },
+    {
+     "what": "Folha recordings linked him to alleged vote-buying for re-election amendment EC 16/97; deputy João Maia said he received R$200,000 and that the money came from the Amazonas governor and Motta.",
+     "outcome": "Allegation reported on the page; no charge reported. Motta died 19 Apr 1998.",
+     "source_url": "https://pt.wikipedia.org/wiki/S%C3%A9rgio_Motta",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Sérgio Motta (pt.wikipedia)",
+     "url": "https://pt.wikipedia.org/wiki/S%C3%A9rgio_Motta"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/S%C3%A9rgio_Motta"
+   ]
+  },
+  {
+   "id": "p-luiz-carlos-mendonca-de-barros",
+   "name": "Luiz Carlos Mendonça de Barros",
+   "posts": [
+    {
+     "post": "President of BNDES",
+     "start": "1995-11",
+     "end": "1998-04",
+     "appointed_by": "Fernando Henrique Cardoso",
+     "status": "verified"
+    },
+    {
+     "post": "Minister of Communications",
+     "start": "1998-04",
+     "end": "1998-11-22",
+     "appointed_by": "Fernando Henrique Cardoso",
+     "status": "verified"
+    }
+   ],
+   "before": "Co-founded Banco Matrix with André Lara Resende in 1993; left in Nov 1995 to head BNDES.",
+   "after": "Created MBG & Associados (2001) and publisher Primeira Leitura (magazine discontinued June 2006); supported Alckmin and Serra campaigns (2006-07).",
+   "foreign_ties": [
+    {
+     "counterpart": "Banco Matrix (private bank)",
+     "kind": "former employer / co-founder",
+     "detail": "Co-founded Banco Matrix 1993 with André Lara Resende; left Nov 1995 for BNDES. Page does not link Matrix to a Telebras bidder.",
+     "source_url": "https://pt.wikipedia.org/wiki/Luiz_Carlos_Mendon%C3%A7a_de_Barros",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e4-24",
+     "role": "BNDES president who led the Telebras sale until Apr 1998, then minister at the 29 Jul 1998 auction",
+     "detail": "Poder360: led the privatisation first at BNDES, then as minister.",
+     "source_url": "https://www.poder360.com.br/historia/depoimento-de-mendonca-de-barros-no-senado-o-fez-deixar-o-governo/",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-26",
+     "role": "participant in the recorded conversations (8 Nov 1998) and defendant in the improbity suit",
+     "detail": "Poder360, Conjur.",
+     "source_url": "https://www.poder360.com.br/historia/depoimento-de-mendonca-de-barros-no-senado-o-fez-deixar-o-governo/",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-14",
+     "role": "BNDES president at Light (21 May 1996)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-15",
+     "role": "BNDES president for railway sales",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-19",
+     "role": "BNDES president at Vale sale (6 May 1997)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-22",
+     "role": "BNDES president at Coelba/CPFL/Enersul/Coelce (1997-Apr 1998)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-23",
+     "role": "BNDES president until Apr 1998; the pt.wikipedia page says he was charged over loans tied to Eletropaulo",
+     "detail": "Outcome of that case not reported there.",
+     "source_url": "https://pt.wikipedia.org/wiki/Luiz_Carlos_Mendon%C3%A7a_de_Barros",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-06",
+     "role": "BNDES president during loans to electricity buyers",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-10",
+     "role": "BNDES president from Nov 1995, after the Escelsa sale",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Sued by the MPF for administrative improbity over the Telebras privatisation.",
+     "outcome": "Acquitted in 2009 (17th Federal Court, Federal District); TRF-1 3rd Turma dismissed the MPF appeal on Tele Norte Leste (Conjur, 28 Apr 2010). Acquitted again on 24 Feb 2011 by a Rio federal court, upheld by TRF-2 (pt.wikipedia).",
+     "source_url": "https://www.conjur.com.br/2010-abr-28/trf-decide-nao-houve-improbidade-privatizacao-tele//?print=1",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Poder360",
+     "url": "https://www.poder360.com.br/historia/depoimento-de-mendonca-de-barros-no-senado-o-fez-deixar-o-governo/"
+    },
+    {
+     "title": "Conjur",
+     "url": "https://www.conjur.com.br/2010-abr-28/trf-decide-nao-houve-improbidade-privatizacao-tele//?print=1"
+    },
+    {
+     "title": "Luiz Carlos Mendonça de Barros (pt.wikipedia)",
+     "url": "https://pt.wikipedia.org/wiki/Luiz_Carlos_Mendon%C3%A7a_de_Barros"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Luiz_Carlos_Mendon%C3%A7a_de_Barros",
+    "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+    "https://www.conjur.com.br/2010-abr-28/trf-decide-nao-houve-improbidade-privatizacao-tele//?print=1"
+   ]
+  },
+  {
+   "id": "p-andre-lara-resende",
+   "name": "André Lara Resende",
+   "posts": [
+    {
+     "post": "Special adviser to the President",
+     "start": "1995-09",
+     "end": "1995-12 (end not stated)",
+     "appointed_by": "Fernando Henrique Cardoso",
+     "status": "verified"
+    },
+    {
+     "post": "President of BNDES",
+     "start": "1998-04",
+     "end": "1998-11",
+     "appointed_by": "Fernando Henrique Cardoso",
+     "status": "verified"
+    }
+   ],
+   "before": "Garantia partner 1980-85; co-founded Banco Matrix; chief external-debt negotiator 1993 (Itamar Franco); Plano Real team; left Matrix in 1995 to advise Cardoso.",
+   "after": "Directorships at Lojas Americanas, Unibanco, The Capital Group; adviser to Marina Silva (2014); Lula transition economic group (2022).",
+   "foreign_ties": [
+    {
+     "counterpart": "Banco Matrix",
+     "kind": "former employer / co-founder",
+     "detail": "Co-founded with Mendonça de Barros; left in 1995 to advise Cardoso.",
+     "source_url": "https://pt.wikipedia.org/wiki/Andr%C3%A9_Lara_Resende",
+     "status": "verified"
+    },
+    {
+     "counterpart": "Unibanco; The Capital Group (US)",
+     "kind": "board seat",
+     "detail": "Director at Unibanco and The Capital Group (and Lojas Americanas) after office; dates not given.",
+     "source_url": "https://pt.wikipedia.org/wiki/Andr%C3%A9_Lara_Resende",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e4-24",
+     "role": "BNDES president at the 29 Jul 1998 auction",
+     "detail": "Per BNDES list and press.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-26",
+     "role": "participant in the recorded conversations; defendant in the improbity suit",
+     "detail": "Poder360 and Conjur.",
+     "source_url": "https://www.poder360.com.br/historia/depoimento-de-mendonca-de-barros-no-senado-o-fez-deixar-o-governo/",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-23",
+     "role": "BNDES president at Eletropaulo (15 Apr 1998)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-25",
+     "role": "BNDES president for Gerasul/Elektro 1998",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Sued for administrative improbity over the Telebras privatisation.",
+     "outcome": "Acquitted by a first-instance federal court in March 2009 (pt.wikipedia); TRF-1 3rd Turma dismissed the MPF appeal on Tele Norte Leste (Conjur, 28 Apr 2010). Resigned from BNDES in Nov 1998 during the wiretap scandal.",
+     "source_url": "https://www.conjur.com.br/2010-abr-28/trf-decide-nao-houve-improbidade-privatizacao-tele//?print=1",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "André Lara Resende (pt.wikipedia)",
+     "url": "https://pt.wikipedia.org/wiki/Andr%C3%A9_Lara_Resende"
+    },
+    {
+     "title": "Conjur",
+     "url": "https://www.conjur.com.br/2010-abr-28/trf-decide-nao-houve-improbidade-privatizacao-tele//?print=1"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Andr%C3%A9_Lara_Resende",
+    "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+    "https://www.conjur.com.br/2010-abr-28/trf-decide-nao-houve-improbidade-privatizacao-tele//?print=1"
+   ]
+  },
+  {
+   "id": "p-jose-pio-borges",
+   "name": "José Pio Borges de Castro Filho",
+   "posts": [
+    {
+     "post": "President of BNDES (listed Nov 1998-Jul 1999; Conjur calls him former interim president)",
+     "start": "1998-11",
+     "end": "1999-07",
+     "appointed_by": "Fernando Henrique Cardoso",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-26",
+     "role": "defendant in the improbity suit as former interim BNDES president",
+     "detail": "Conjur.",
+     "source_url": "https://www.conjur.com.br/2010-abr-28/trf-decide-nao-houve-improbidade-privatizacao-tele//?print=1",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-25",
+     "role": "BNDES president when Paranapanema may have been prepared (sale Jul 1999)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Sued by the MPF for improbity over the Tele Norte Leste (Telemar) privatisation.",
+     "outcome": "Action dismissed by the 17th Federal Court (DF); TRF-1 3rd Turma dismissed the MPF appeal (Conjur, 28 Apr 2010).",
+     "source_url": "https://www.conjur.com.br/2010-abr-28/trf-decide-nao-houve-improbidade-privatizacao-tele//?print=1",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Conjur",
+     "url": "https://www.conjur.com.br/2010-abr-28/trf-decide-nao-houve-improbidade-privatizacao-tele//?print=1"
+    },
+    {
+     "title": "CEBRI biography",
+     "url": "https://cebri.org/en/especialista/7/jose-pio-borges"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Nacional_de_Desenvolvimento_Econ%C3%B4mico_e_Social",
+    "https://www.conjur.com.br/2010-abr-28/trf-decide-nao-houve-improbidade-privatizacao-tele//?print=1"
+   ]
+  },
+  {
+   "id": "p-renato-guerreiro",
+   "name": "Renato Navarro Guerreiro",
+   "posts": [
+    {
+     "post": "First president of Anatel",
+     "start": "1997-10-22 (DOU appointment); installed 1997-11-05",
+     "end": "2002-04",
+     "appointed_by": "Fernando Henrique Cardoso",
+     "status": "unverified"
+    }
+   ],
+   "before": null,
+   "after": "Left Anatel in 2002; from Aug 2002 consultant through his firm Guerreiro Teleconsult after a quarantine ending 31 Jul (Teletime, 29 Jul 2002).",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-24",
+     "role": "regulator who took office after the Telebras breakup law; Anatel installed 5 Nov 1997",
+     "detail": "Anatel then issued rules for the auction (not verified).",
+     "source_url": "https://teletime.com.br/28/02/2011/morre-renato-guerreiro-ex-presidente-da-anatel/",
+     "status": "unverified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-26",
+     "role": "probably the 'former Anatel president' among defendants; page does not name him",
+     "detail": "Conjur says the former president of Anatel was a defendant; identity inferred from dates.",
+     "source_url": "https://www.conjur.com.br/2010-abr-28/trf-decide-nao-houve-improbidade-privatizacao-tele//?print=1",
+     "status": "unverified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Teletime obituary",
+     "url": "https://teletime.com.br/28/02/2011/morre-renato-guerreiro-ex-presidente-da-anatel/"
+    },
+    {
+     "title": "Senate list of agency directors (search result)",
+     "url": "https://www25.senado.leg.br/documents/12427/30035/Ag%C3%AAncia%20Nacional%20de%20Telecomunica%C3%A7%C3%B5es%20(Anatel)/b66f2481-f8b5-41eb-91ef-54cb08632129"
+    }
+   ],
+   "verified_sources": [
+    "https://teletime.com.br/29/07/2002/em-agosto-renato-guerreiro-volta-ao-mercado/",
+    "https://www.conjur.com.br/2010-abr-28/trf-decide-nao-houve-improbidade-privatizacao-tele//?print=1"
+   ]
+  },
+  {
+   "id": "p-jose-mario-miranda-abdo",
+   "name": "José Mário Miranda Abdo",
+   "posts": [
+    {
+     "post": "First director-general of ANEEL",
+     "start": "1997-12-12",
+     "end": "2004-12 (inferred from Senate/Acende Brasil snippets; not opened)",
+     "appointed_by": "Fernando Henrique Cardoso",
+     "status": "unverified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-14",
+     "role": "regulator for post-sale tariff and contract questions (ANEEL created 1997)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://web.bndes.gov.br/bib/jspui/bitstream/1408/15260/1/A%20quest%c3%a3o%20regulat%c3%b3ria%20nas%20privatiza%c3%a7%c3%b5es%20da%20Light%20e%20da%20Escelsa_P.PDF",
+     "status": "unverified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-25",
+     "role": "regulator at generation sales (ANEEL)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/processos-encerrados/Historico",
+     "status": "unverified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-31",
+     "role": "ANEEL director-general in 2001 rationing",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://web.bndes.gov.br/bib/jspui/bitstream/1408/13816/2/TD-97%20As%20perspectivas%20do%20setor%20el%c3%a9trico%20ap%c3%b3s%20o%20racionamento._P_BD.pdf",
+     "status": "unverified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Senate: Mensagem SF 212/2000 (search result)",
+     "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/45510"
+    }
+   ],
+   "verified_sources": []
+  },
+  {
+   "id": "p-david-zylbersztajn",
+   "name": "David Zylbersztajn",
+   "posts": [
+    {
+     "post": "First director-general of ANP",
+     "start": "1998-01 (appointed; day not stated)",
+     "end": "2001-09 (resigned; reappointed Jan 2000)",
+     "appointed_by": "not stated on the page (ANP director-general appointed by the President)",
+     "status": "verified"
+    }
+   ],
+   "before": "São Paulo state energy secretary under Governor Mário Covas (1995-98).",
+   "after": "Founded energy consultancy DZ Negócios com Energia (2002); chair of Varig board May 2005-Nov 2006; chair of Light board (approved 16 Dec 2019, disclosed 23 Dec 2019, term to 2021).",
+   "foreign_ties": [
+    {
+     "counterpart": "Fernando Henrique Cardoso (President who created ANP)",
+     "kind": "family",
+     "detail": "Wikipedia: married to Ana Beatriz Cardoso, daughter of the president; separation reported May 2001. Jornal do Brasil opinion column (31 Oct 2010) calls him FHC's former son-in-law. Marriage date not stated.",
+     "source_url": "https://pt.wikipedia.org/wiki/David_Zylbersztajn",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e4-12",
+     "role": "head of the regulator that ran the first licensing rounds (1999, 2000)",
+     "detail": "ANP began operating 14 Jan 1998.",
+     "source_url": "https://pt.wikipedia.org/wiki/Ag%C3%AAncia_Nacional_do_Petr%C3%B3leo,_G%C3%A1s_Natural_e_Biocombust%C3%ADveis",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "x-14",
+     "role": "regulator for royalties/special participation",
+     "detail": "Inferred from the post.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil",
+     "status": "unverified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "x-15",
+     "role": "regulator for Repetro-era contracts",
+     "detail": "Inferred from the post.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil",
+     "status": "unverified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Forbes Brasil 2019",
+     "url": "https://forbes.com.br/last/2019/12/ex-chefe-da-anp-david-zylbersztajn-vai-presidir-conselho-da-eletrica-light/"
+    },
+    {
+     "title": "Senate: Mensagem SF 211/2000",
+     "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/45511"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/David_Zylbersztajn",
+    "https://forbes.com.br/last/2019/12/ex-chefe-da-anp-david-zylbersztajn-vai-presidir-conselho-da-eletrica-light/",
+    "https://www.jb.com.br/sociedade-aberta/noticias/2010/10/31/amp/um-ninho-tucano-cheio-de-negocios-2.html"
+   ]
+  },
+  {
+   "id": "p-raimundo-mendes-de-brito",
+   "name": "Raimundo Mendes de Brito",
+   "posts": [
+    {
+     "post": "Minister of Mines and Energy",
+     "start": "1995-01-01",
+     "end": "1998-12-31",
+     "appointed_by": "Fernando Henrique Cardoso",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-10",
+     "role": "energy minister at Escelsa",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-14",
+     "role": "energy minister at Light",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-19",
+     "role": "energy minister at Vale sale",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-12",
+     "role": "energy minister for EC 9/1995 and Lei 9.478/1997",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-23",
+     "role": "energy minister at Eletropaulo",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-25",
+     "role": "energy minister for federal generation sales",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "x-14",
+     "role": "energy minister for 1997 special participation",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Lista de ministros de Minas e Energia",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-rodolpho-tourinho",
+   "name": "Rodolpho Tourinho Neto",
+   "posts": [
+    {
+     "post": "Minister of Mines and Energy",
+     "start": "1999-01-01",
+     "end": "2001-02-23",
+     "appointed_by": "Fernando Henrique Cardoso",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-12",
+     "role": "energy minister for ANP Rounds 1 and 2 (1999-2000)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "x-15",
+     "role": "energy minister in 1999 (Repetro)",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-25",
+     "role": "energy minister, Paranapanema 1999",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-31",
+     "role": "energy minister until 23 Feb 2001",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Lista de ministros de Minas e Energia",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-jose-jorge",
+   "name": "José Jorge",
+   "posts": [
+    {
+     "post": "Minister of Mines and Energy",
+     "start": "2001-03-13",
+     "end": "2002-03-08",
+     "appointed_by": "Fernando Henrique Cardoso",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-31",
+     "role": "energy minister during the 2001 rationing",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-32",
+     "role": "energy minister at the seguro-apagão start",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Lista de ministros de Minas e Energia",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-francisco-luiz-sibut-gomide",
+   "name": "Francisco Luiz Sibut Gomide",
+   "posts": [
+    {
+     "post": "Minister of Mines and Energy",
+     "start": "2002-04-03",
+     "end": "2003-01-01",
+     "appointed_by": "Fernando Henrique Cardoso",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-32",
+     "role": "energy minister when seguro-apagão (Lei 10.438/2002) was in force",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Lista de ministros de Minas e Energia",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-pedro-parente",
+   "name": "Pedro Parente",
+   "posts": [
+    {
+     "post": "Interim Minister of Mines and Energy",
+     "start": "2002-03-08",
+     "end": "2002-04-03",
+     "appointed_by": "Fernando Henrique Cardoso",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-31",
+     "role": "only the interim energy ministry is documented here; other roles in the crisis chamber not verified",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil",
+     "status": "unverified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Lista de ministros de Minas e Energia",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-ricardo-sergio-de-oliveira",
+   "name": "Ricardo Sérgio de Oliveira",
+   "posts": [
+    {
+     "post": "Director, Banco do Brasil (international area director in 1997, director in 1998 per Exame; exact dates not stated)",
+     "start": null,
+     "end": null,
+     "appointed_by": null,
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-24",
+     "role": "Banco do Brasil director in 1998; accused over the bank's R$874 million guarantee (fiança) to Solpart for the Telebras auction; defendants argued Opportunity, Previ and Sistel backing made it acceptable. Criminal action locked by STJ in Nov 2010.",
+     "detail": "Exame article opened; it also reports that the Silex improbity action (STF) was archived. Earlier text rested on a search summary.",
+     "source_url": "https://exame.com/mundo/bb-tem-tres-outros-escandalos-e-um-protagonista-em-comum-na-bagagem",
+     "status": "verified",
+     "basis": "documented-act"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Accused of 'má gestão de instituição financeira' (reckless management) over a R$874 million Banco do Brasil guarantee to Solpart for the Telebras auction (1998).",
+     "outcome": "The STJ Sixth Panel ordered the criminal action locked (trancamento) in November 2010 (Exame). Exame reports the PGR found no evidence that Pedro Parente, responsible for the guarantee, committed crimes against the financial system.",
+     "source_url": "https://exame.com/mundo/bb-tem-tres-outros-escandalos-e-um-protagonista-em-comum-na-bagagem",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Search result list (sedep.com.br page was a software ad, not a source)",
+     "url": "https://www.sedep.com.br/?p=41556"
+    }
+   ],
+   "verified_sources": [
+    "https://exame.com/mundo/bb-tem-tres-outros-escandalos-e-um-protagonista-em-comum-na-bagagem",
+    "https://www.conjur.com.br/2010-mai-17/acao-improbidade-ex-dirigentes-banco-brasil-mantida//?print=1"
+   ]
+  },
+  {
+   "id": "p-francisco-lopes",
+   "name": "Francisco Lopes",
+   "posts": [
+    {
+     "post": "President of the Central Bank (interim; the page notes he is not in the BC official gallery)",
+     "start": "1999-01-13",
+     "end": "1999-02-01",
+     "appointed_by": "Fernando Henrique Cardoso",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "x-16",
+     "role": "BC president who led the directorate that sold dollar futures to Marka (R$1.275) and FonteCindam (R$1.322)",
+     "detail": "Per Cacciola page.",
+     "source_url": "https://pt.wikipedia.org/wiki/Salvatore_Cacciola",
+     "status": "verified",
+     "basis": "documented-act"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Convicted of embezzlement (peculato) in April 2005 by the 6th Federal Criminal Court of Rio in the Marka/FonteCindam rescue case (Cacciola page).",
+     "outcome": "TRF-2 upheld the first-instance convictions in 2008 and reduced the other sentences (pt.wikipedia). The 6th Federal Criminal Court later declared his punishability extinguished by retroactive prescription (Correio Braziliense, 11 Oct 2016); no sentence had become final because appeals were pending.",
+     "source_url": "https://blogs.correiobraziliense.com.br/servidor/prr2-reus-de-caso-marka-sao-beneficiados-por-prescricao-retroativa/",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Salvatore Cacciola (pt.wikipedia)",
+     "url": "https://pt.wikipedia.org/wiki/Salvatore_Cacciola"
+    },
+    {
+     "title": "Lista de presidentes do BC",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil",
+    "https://pt.wikipedia.org/wiki/Salvatore_Cacciola",
+    "https://blogs.correiobraziliense.com.br/servidor/prr2-reus-de-caso-marka-sao-beneficiados-por-prescricao-retroativa/"
+   ]
+  },
+  {
+   "id": "p-arminio-fraga",
+   "name": "Armínio Fraga",
+   "posts": [
+    {
+     "post": "President of the Central Bank",
+     "start": "1999-03-04",
+     "end": "2003-01-01",
+     "appointed_by": "Fernando Henrique Cardoso",
+     "status": "verified"
+    }
+   ],
+   "before": "Garantia 1985-Jun 1988; Salomon Brothers vice-president Jul 1989-May 1991; BC international affairs director Jul 1991-Nov 1992; Soros Fund Management managing director (New York) Aug 1993-Mar 1999.",
+   "after": "Founded Gávea Investimentos (Aug 2003); sold it to JP Morgan in 2010, bought it back in 2015; chair of BM&FBOVESPA from Apr 2009; member of Group of Thirty, JP Morgan international council, China Investment Corporation board, Council on Foreign Relations.",
+   "foreign_ties": [
+    {
+     "counterpart": "Soros Fund Management (US)",
+     "kind": "former employer",
+     "detail": "Managing director from Aug 1993 to Mar 1999 (about six years); main investment adviser to the Quantum funds.",
+     "source_url": "https://pt.wikipedia.org/wiki/Arm%C3%ADnio_Fraga",
+     "status": "verified"
+    },
+    {
+     "counterpart": "Salomon Brothers (US)",
+     "kind": "former employer",
+     "detail": "Vice-president Jul 1989-May 1991.",
+     "source_url": "https://pt.wikipedia.org/wiki/Arm%C3%ADnio_Fraga",
+     "status": "verified"
+    },
+    {
+     "counterpart": "JP Morgan",
+     "kind": "client / buyer",
+     "detail": "JP Morgan bought Gávea in 2010 (seven years after he left office); he bought it back in 2015.",
+     "source_url": "https://pt.wikipedia.org/wiki/Arm%C3%ADnio_Fraga",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "x-16",
+     "role": "took over the BC on 4 Mar 1999, after the Marka/FonteCindam rescue",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-29",
+     "role": "BC president at Banestado sale",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-30",
+     "role": "BC president at Banespa sale",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil",
+     "status": "verified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Armínio Fraga (pt.wikipedia)",
+     "url": "https://pt.wikipedia.org/wiki/Arm%C3%ADnio_Fraga"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Arm%C3%ADnio_Fraga",
+    "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Banco_Central_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-salvatore-cacciola",
+   "name": "Salvatore Alberto Cacciola",
+   "posts": [
+    {
+     "post": "Owner, Banco Marka (private)",
+     "start": null,
+     "end": null,
+     "appointed_by": null,
+     "status": "verified"
+    }
+   ],
+   "before": "Banker.",
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "x-16",
+     "role": "private beneficiary of the BC rescue",
+     "detail": "Per Cacciola page.",
+     "source_url": "https://pt.wikipedia.org/wiki/Salvatore_Cacciola",
+     "status": "verified",
+     "basis": "documented-act"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Convicted in April 2005 (13 years: complicity in embezzlement 8 years, fraudulent management of a financial institution 5 years) over the Marka rescue.",
+     "outcome": "Upheld on appeal (TRF-2) in 2008 with the 13-year sentence kept; arrested in Monaco Sep 2007, extradited and arrived in Brazil 17 Jul 2008; conditional release 25 Aug 2011; on 16 Apr 2012 a Rio execution court applied a Dec 2011 presidential decree (indulto) and extinguished the sentence.",
+     "source_url": "https://pt.wikipedia.org/wiki/Salvatore_Cacciola",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Salvatore Cacciola (pt.wikipedia)",
+     "url": "https://pt.wikipedia.org/wiki/Salvatore_Cacciola"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Salvatore_Cacciola"
+   ]
+  },
+  {
+   "id": "p-antonio-britto",
+   "name": "Antônio Britto (RS governor)",
+   "posts": [
+    {
+     "post": "Governor of Rio Grande do Sul",
+     "start": "1995-01-01",
+     "end": "1999-01-01",
+     "appointed_by": "election",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-16",
+     "role": "state government that sold CRT (Dec 1996)",
+     "detail": "Case file names the state government; Britto named in e4-20.",
+     "source_url": "https://www.mobiletime.com.br/museu-movel/15/12/2023/operadoras-do-passado-crt/",
+     "status": "unverified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-20",
+     "role": "governor when CEEE distribution was split and sold to AES Sul and RGE (1997)",
+     "detail": "Case file.",
+     "source_url": "https://www.brasildefato.com.br/2019/09/18/privatizacoes-conta-da-venda-da-ceee-vai-cair-no-colo-dos-gauchos",
+     "status": "unverified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Brasil de Fato 2019",
+     "url": "https://www.brasildefato.com.br/2019/09/18/privatizacoes-conta-da-venda-da-ceee-vai-cair-no-colo-dos-gauchos"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Ant%C3%B4nio_Britto"
+   ]
+  },
+  {
+   "id": "p-mario-covas",
+   "name": "Mário Covas (SP governor)",
+   "posts": [
+    {
+     "post": "Governor of São Paulo",
+     "start": "1995-01-01",
+     "end": "2001-03-06 (on leave from Jan 2001; died 6 Mar 2001)",
+     "appointed_by": "election",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-23",
+     "role": "state owner of Eletropaulo",
+     "detail": "Role inferred from the post held on the sale date; no opened page names this person as acting in the deal.",
+     "source_url": "https://pt.wikipedia.org/wiki/Eletropaulo",
+     "status": "unverified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-27",
+     "role": "governor for SP highway concessions (1998)",
+     "detail": "Case file.",
+     "source_url": "https://publicacoes.agb.org.br/boletim-campineiro/article/download/2665/2017v7n2_FGallo_PBastiani/8496",
+     "status": "unverified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-30",
+     "role": "state under federal takeover of Banespa; Banespa sold 20 Nov 2000",
+     "detail": "Case file.",
+     "source_url": "https://istoedinheiro.com.br/sete-minutos-para-sete-bilhoes",
+     "status": "unverified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Case e4-27 source",
+     "url": "https://publicacoes.agb.org.br/boletim-campineiro/article/download/2665/2017v7n2_FGallo_PBastiani/8496"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/M%C3%A1rio_Covas"
+   ]
+  },
+  {
+   "id": "p-jaime-lerner",
+   "name": "Jaime Lerner (PR governor)",
+   "posts": [
+    {
+     "post": "Governor of Paraná",
+     "start": "1995-01-01",
+     "end": "2002-12-31",
+     "appointed_by": "election",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e4-29",
+     "role": "governor when Banestado was sold to Itaú (17 Oct 2000)",
+     "detail": "Case file.",
+     "source_url": "https://istoedinheiro.com.br/agora-sai",
+     "status": "unverified",
+     "basis": "in-office"
+    },
+    {
+     "case_id": "e4-18",
+     "role": "state of the Banestado branch used for CC5 accounts",
+     "detail": "Case file.",
+     "source_url": "https://www2.senado.leg.br/jspui/handle/id/609990",
+     "status": "unverified",
+     "basis": "in-office"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Isto É Dinheiro",
+     "url": "https://istoedinheiro.com.br/agora-sai"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Jaime_Lerner"
+   ]
+  }
+ ],
+ "foreign_counterparts": [
+  {
+   "case_id": "e4-10",
+   "counterpart": "Citibank (member of the Iven S.A. consortium)",
+   "country": "United States",
+   "kind": "bank",
+   "detail": "Iven S.A. (Opportunity, Pactual, Nacional, Icatu, Citibank, Bozano Simonsen) bought Escelsa control; GTD Participações (11 pension funds) the rest.",
+   "source_url": "https://web.bndes.gov.br/bib/jspui/bitstream/1408/5984/2/Informe%20BNDES%2c%20v.11%2c%20n.123%2c%20dez.%201998.PDF",
+   "status": "verified"
+  },
+  {
+   "case_id": "e4-14",
+   "counterpart": "EDF (France)",
+   "country": "France",
+   "kind": "company",
+   "detail": "EDF International, Houston Industries and AES Coral Reef each held about 11.4% of Light after the 1996 auction (BNDES paper).",
+   "source_url": "https://web.bndes.gov.br/bib/jspui/bitstream/1408/15260/1/A%20quest%c3%a3o%20regulat%c3%b3ria%20nas%20privatiza%c3%a7%c3%b5es%20da%20Light%20e%20da%20Escelsa_P.PDF",
+   "status": "verified"
+  },
+  {
+   "case_id": "e4-14",
+   "counterpart": "Houston Industries",
+   "country": "United States",
+   "kind": "company",
+   "detail": "EDF International, Houston Industries and AES Coral Reef each held about 11.4% of Light after the 1996 auction (BNDES paper).",
+   "source_url": "https://web.bndes.gov.br/bib/jspui/bitstream/1408/15260/1/A%20quest%c3%a3o%20regulat%c3%b3ria%20nas%20privatiza%c3%a7%c3%b5es%20da%20Light%20e%20da%20Escelsa_P.PDF",
+   "status": "verified"
+  },
+  {
+   "case_id": "e4-14",
+   "counterpart": "AES",
+   "country": "United States",
+   "kind": "company",
+   "detail": "EDF International, Houston Industries and AES Coral Reef each held about 11.4% of Light after the 1996 auction (BNDES paper).",
+   "source_url": "https://web.bndes.gov.br/bib/jspui/bitstream/1408/15260/1/A%20quest%c3%a3o%20regulat%c3%b3ria%20nas%20privatiza%c3%a7%c3%b5es%20da%20Light%20e%20da%20Escelsa_P.PDF",
+   "status": "verified"
+  },
+  {
+   "case_id": "e4-16",
+   "counterpart": "Telefónica (led), Grupo RBS, Portugal Telecom, Iberdrola, BBV",
+   "country": "Spain/Portugal",
+   "kind": "company",
+   "detail": "Tele Brasil Sul consortium bought 35% of CRT for R$681 million, Dec 1996.",
+   "source_url": "https://www.mobiletime.com.br/museu-movel/15/12/2023/operadoras-do-passado-crt/",
+   "status": "verified"
+  },
+  {
+   "case_id": "e4-19",
+   "counterpart": "Merrill Lynch",
+   "country": "United States",
+   "kind": "bank",
+   "detail": "Valuation put Vale at US$9.3 bn (R$10.4 bn); the page says Merrill Lynch was the valuer and was partner of a potential buyer. Control stake sold for R$3.338 bn.",
+   "source_url": "https://www.congressoemfoco.com.br/noticia/65831/privatizacao-sub-judice",
+   "status": "verified"
+  },
+  {
+   "case_id": "e4-20",
+   "counterpart": "AES",
+   "country": "United States",
+   "kind": "company",
+   "detail": "In 1997, under Governor Britto, CEEE was split and sold to AES Sul and RGE; page does not say which group bought which piece.",
+   "source_url": "https://www.brasildefato.com.br/2019/09/18/privatizacoes-conta-da-venda-da-ceee-vai-cair-no-colo-dos-gauchos",
+   "status": "verified"
+  },
+  {
+   "case_id": "e4-22",
+   "counterpart": "Iberdrola (via ADL Energy)",
+   "country": "Spain",
+   "kind": "company",
+   "detail": "ADL Energy (Iberdrola) was one of the winning bidders for Celpe in 2000 (BNDES history page).",
+   "source_url": "https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/processos-encerrados/Historico",
+   "status": "verified"
+  },
+  {
+   "case_id": "e4-23",
+   "counterpart": "AES, Houston Industries, EDF",
+   "country": "US/US/France",
+   "kind": "company",
+   "detail": "AES Corporation, Houston Industries Energy and EDF each 11.46% of the winning Eletropaulo consortium (15 Apr 1998); CSN 7.32%.",
+   "source_url": "https://pt.wikipedia.org/wiki/Eletropaulo",
+   "status": "verified"
+  },
+  {
+   "case_id": "e4-24",
+   "counterpart": "Telefónica Internacional, RBS, Portugal Telecom, Iberdrola, BBV",
+   "country": "Spain/Portugal",
+   "kind": "company",
+   "detail": "Won Telesp for R$5.783 bn (64.28% premium).",
+   "source_url": "https://teletime.com.br/29/07/1998/telebras-e-vendida-com-agio-de-6374/",
+   "status": "verified"
+  },
+  {
+   "case_id": "e4-24",
+   "counterpart": "Telecom Italia",
+   "country": "Italy",
+   "kind": "company",
+   "detail": "Tele Centro Sul with Algar, Splice, Opportunity, R$2.070 bn (6.15% premium).",
+   "source_url": "https://teletime.com.br/29/07/1998/telebras-e-vendida-com-agio-de-6374/",
+   "status": "verified"
+  },
+  {
+   "case_id": "e4-24",
+   "counterpart": "MCI",
+   "country": "United States",
+   "kind": "company",
+   "detail": "Won Embratel for R$2.650 bn (47.22% premium).",
+   "source_url": "https://teletime.com.br/29/07/1998/telebras-e-vendida-com-agio-de-6374/",
+   "status": "verified"
+  },
+  {
+   "case_id": "e4-24",
+   "counterpart": "Portugal Telecom",
+   "country": "Portugal",
+   "kind": "company",
+   "detail": "Won Telesp Celular for R$3.588 bn (226.18% premium).",
+   "source_url": "https://teletime.com.br/29/07/1998/telebras-e-vendida-com-agio-de-6374/",
+   "status": "verified"
+  },
+  {
+   "case_id": "e4-24",
+   "counterpart": "Brasilcom and Arthur D. Little",
+   "country": "Brazil/US",
+   "kind": "investor",
+   "detail": "Won the BNDES tender for the Telebras sale study (17 Feb 1998; advisory role).",
+   "source_url": "https://teletime.com.br/17/02/1998/brasilcom-e-d-little-vencem-licitacao-do-bndes/",
+   "status": "unverified"
+  },
+  {
+   "case_id": "e4-25",
+   "counterpart": "Duke Energy (Paranapanema)",
+   "country": "United States",
+   "kind": "company",
+   "detail": "Bought Paranapanema on BOVESPA on 28 Jul 1999 for R$1.239 bn (90.2% premium).",
+   "source_url": "https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/processos-encerrados/Historico",
+   "status": "verified"
+  },
+  {
+   "case_id": "e4-25",
+   "counterpart": "Enron (Elektro)",
+   "country": "United States",
+   "kind": "company",
+   "detail": "Enron International bought the shares offered in Feb 1999 for US$215.86 million (98.9% premium).",
+   "source_url": "https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/processos-encerrados/Historico",
+   "status": "verified"
+  },
+  {
+   "case_id": "e4-26",
+   "counterpart": "US Department of Justice (cooperation with Brazil probe into AES-Enron suspicions, Eletropaulo)",
+   "country": "United States",
+   "kind": "government",
+   "detail": "OGJ, 27 May 2003: a DOJ spokesman said the US would give full cooperation to Brazil in getting to the bottom of the issue; the page does not describe a separate DOJ investigation.",
+   "source_url": "https://www.ogj.com/general-interest/article/17257305/brazil-us-doj-to-investigate-aes-enron-collusion-suspicions",
+   "status": "verified"
+  },
+  {
+   "case_id": "e4-29",
+   "counterpart": "Itaú",
+   "country": "Brazil",
+   "kind": "bank",
+   "detail": "Itaú bought Banestado for R$1.625 bn (BC official, Isto É Dinheiro 3 Nov 2000). Domestic buyer.",
+   "source_url": "https://istoedinheiro.com.br/agora-sai",
+   "status": "verified"
+  },
+  {
+   "case_id": "e4-30",
+   "counterpart": "Santander Central Hispano",
+   "country": "Spain",
+   "kind": "bank",
+   "detail": "Won Banespa on 20 Nov 2000 with R$7.05 bn (281% over the R$1.8 bn minimum); Unibanco bid R$2.1 bn, Bradesco R$1.8 bn.",
+   "source_url": "https://istoedinheiro.com.br/sete-minutos-para-sete-bilhoes",
+   "status": "verified"
+  },
+  {
+   "case_id": "e4-17",
+   "counterpart": "Itaú, Bradesco and others (domestic) — HSBC bought Bamerindus in e4-13",
+   "country": "Brazil/UK",
+   "kind": "bank",
+   "detail": "State-bank buyers under PROES.",
+   "source_url": "https://www.bcb.gov.br/htms/public/BancosEstaduais/livro_bancos_estaduais.pdf",
+   "status": "unverified"
+  },
+  {
+   "case_id": "e4-13",
+   "counterpart": "HSBC",
+   "country": "United Kingdom",
+   "kind": "bank",
+   "detail": "Bamerindus was sold to HSBC (page does not date the sale or tie it to PROER).",
+   "source_url": "https://www.gazetadopovo.com.br/economia/bancos-divida-proer/",
+   "status": "verified"
+  },
+  {
+   "case_id": "e4-12",
+   "counterpart": "Foreign oil companies winning blocks in ANP rounds (e.g. Repsol, Statoil, BG, Shell, Eni, ONGC)",
+   "country": "multiple",
+   "kind": "company",
+   "detail": "IPEA paper names foreign winners of deep-water blocks; rounds and counts not confirmed.",
+   "source_url": "https://repositorio.ipea.gov.br/bitstream/11058/5410/1/Radar_n8_Conte%C3%BAdo.pdf",
+   "status": "unverified"
+  },
+  {
+   "case_id": "x-16",
+   "counterpart": "International Monetary Fund",
+   "country": "multilateral",
+   "kind": "lender",
+   "detail": "IMF news brief of 13 Nov 1998: stand-by of SDR 13.0 bn (about US$18 bn), package above US$41 bn from official creditors; Board approval date not on the page.",
+   "source_url": "https://www.imf.org/external/np/sec/nb/1998/nb9843.htm",
+   "status": "verified"
+  },
+  {
+   "case_id": "e4-09",
+   "counterpart": "Bozano Simonsen-led consortium incl. Wasserstein Perella (US)",
+   "country": "Brazil/US",
+   "kind": "investor",
+   "detail": "Aviation Week excerpt: consortium led by Bozano Simonsen, including Wasserstein Perella, acquired 45.44%; public auction of 55.4% of voting stock for US$182.4 million in Dec 1994.",
+   "source_url": "https://aviationweek.com/embraer-privatized",
+   "status": "verified"
+  }
+ ]
+}

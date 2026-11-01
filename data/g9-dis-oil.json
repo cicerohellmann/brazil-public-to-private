@@ -1,0 +1,2096 @@
+[
+ {
+  "id": "d-angra2-leak-2024",
+  "date": "2024-12-25",
+  "name": "Angra 2 nuclear plant: reported internal leak",
+  "place": "Angra dos Reis, Rio de Janeiro",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Eletronuclear (Eletrobras group)",
+  "ownership": "state-owned",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "None reported in the sources read.",
+  "affected": "Not stated. CNEN says there was no risk to the public or the environment.",
+  "damage": "Leak at the first seal of the reactor vessel; the second seal held (CNEN). An R7 report says the leak was found on 25 Dec and kept secret.",
+  "legal_outcome": "No fine or case found.",
+  "summary": "A leak was reported at Angra 2 in December 2024. The regulator CNEN confirms an internal leak at the first seal, with the second seal intact. The dispute is about how serious it was and whether it was disclosed.",
+  "figures": [
+   {
+    "label": "Date",
+    "value": "25 Dec 2024 (as reported by R7)",
+    "source_url": "https://www.jornalopcao.com.br/ultimas-noticias/usina-nuclear-angra-2-apresenta-vazamento-entenda-682700/",
+    "status": "verified",
+    "note": "CNEN confirms an event in December 2024."
+   },
+   {
+    "label": "Event status",
+    "value": "Event confirmed by CNEN; risk disputed",
+    "source_url": "https://cenarioenergia.com.br/2025/02/24/angra-2-segue-segura-cnen-rebate-alegacoes-e-reforca-monitoramento-rigoroso-da-usina-nuclear/",
+    "status": "corrected",
+    "note": "Original note called it 'unconfirmed'. CNEN describes an internal leak at the first seal, so this was corrected."
+   },
+   {
+    "label": "Claim: leak kept secret and repair delayed",
+    "value": "R7 report: kept secret; repair postponed about 12 months",
+    "source_url": "https://www.jornalopcao.com.br/ultimas-noticias/usina-nuclear-angra-2-apresenta-vazamento-entenda-682700/",
+    "status": "unverified",
+    "note": "Claim from R7 via Jornal Opção. Page could not be opened (403). Eletronuclear and CNEN say small internal leaks occur without safety impact."
+   },
+   {
+    "label": "Ownership",
+    "value": "Eletronuclear stays under Union control (Law 14.182/2021); Eletrobras held 68% of capital in May 2025",
+    "source_url": "https://cenarioenergia.com.br/2025/05/29/eletrobras-inicia-processo-de-venda-da-participacao-na-eletronuclear/",
+    "status": "unverified",
+    "note": "Search snippet only. Original note said ownership not verified."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Jornal Opção, Usina nuclear Angra 2 apresenta vazamento (cites R7)",
+    "url": "https://www.jornalopcao.com.br/ultimas-noticias/usina-nuclear-angra-2-apresenta-vazamento-entenda-682700/"
+   },
+   {
+    "title": "Cenário Energia, CNEN rebuts allegations",
+    "url": "https://cenarioenergia.com.br/2025/02/24/angra-2-segue-segura-cnen-rebate-alegacoes-e-reforca-monitoramento-rigoroso-da-usina-nuclear/"
+   },
+   {
+    "title": "Cenário Energia, Eletrobras starts sale of Eletronuclear stake",
+    "url": "https://cenarioenergia.com.br/2025/05/29/eletrobras-inicia-processo-de-venda-da-participacao-na-eletronuclear/"
+   }
+  ]
+ },
+ {
+  "id": "d-mataripe-gas-leak-2023",
+  "date": "2023-10-10",
+  "name": "Mataripe refinery (ex-RLAM): toxic gas leak",
+  "place": "São Francisco do Conde, Bahia",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Acelen (Mubadala fund, UAE)",
+  "ownership": "privatized",
+  "privatized_or_conceded_year": 2021,
+  "linked_transfer": "Petrobras refinery RLAM sold to Acelen (Mubadala) in December 2021 for US$ 1.65 billion",
+  "deaths": "None reported.",
+  "affected": "14 workers hospitalized; 30 people inhaled the gas.",
+  "damage": "No environmental damage documented.",
+  "legal_outcome": "No fines or cases found.",
+  "summary": "Sodium hypochlorite leaked while a truck was unloaded at the refinery Petrobras sold in 2021. Oil workers say mixing with another chemical made a highly toxic gas. Acelen says it was rapidly contained and the union was warned; the workers' federation says it was not told.",
+  "figures": [
+   {
+    "label": "Privatization price",
+    "value": "US$ 1.65 billion (Dec 2021)",
+    "source_url": "https://brasildefato.com.br/2023/10/18/refinaria-privatizada-na-bahia-tem-vazamento-de-gas-toxico-14-trabalhadores-vao-para-hospital/",
+    "status": "verified",
+    "note": "Think tank Ineep says the asset was worth at least double."
+   },
+   {
+    "label": "Hospitalized / exposed",
+    "value": "14 hospitalized; 30 inhaled",
+    "source_url": "https://brasildefato.com.br/2023/10/18/refinaria-privatizada-na-bahia-tem-vazamento-de-gas-toxico-14-trabalhadores-vao-para-hospital/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Cause",
+    "value": "Hypochlorite leak; cross-contamination claimed by FUP, denied/contained per Acelen",
+    "source_url": "https://brasildefato.com.br/2023/10/18/refinaria-privatizada-na-bahia-tem-vazamento-de-gas-toxico-14-trabalhadores-vao-para-hospital/",
+    "status": "disputed",
+    "note": "Acelen and FUP disagree on cause and on whether the union was warned."
+   },
+   {
+    "label": "Fines / cases",
+    "value": "None found",
+    "source_url": "https://brasildefato.com.br/2023/10/18/refinaria-privatizada-na-bahia-tem-vazamento-de-gas-toxico-14-trabalhadores-vao-para-hospital/",
+    "status": "unverified",
+    "note": "Other incidents (2025 stops, fish kill) came from one search summary only."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Brasil de Fato, privatized refinery in Bahia has toxic gas leak",
+    "url": "https://brasildefato.com.br/2023/10/18/refinaria-privatizada-na-bahia-tem-vazamento-de-gas-toxico-14-trabalhadores-vao-para-hospital/"
+   }
+  ]
+ },
+ {
+  "id": "d-national-blackout-2023",
+  "date": "2023-08-15",
+  "name": "National blackout of 15 August 2023",
+  "place": "25 states and the Federal District",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Chesf line (Eletrobras); private wind and solar plants; ONS grid operator",
+  "ownership": "private-concession",
+  "privatized_or_conceded_year": 2022,
+  "linked_transfer": "Eletrobras privatized in 2022 (R$ 33.6 billion capitalization; Union kept a golden share); ONS blamed voltage control at private wind and solar plants",
+  "deaths": "None found.",
+  "affected": "23,368 MW cut of 67,507 MW (about 34.5% of load); about 30 million people. North/Northeast fully restored at 14:49.",
+  "damage": "No environmental damage.",
+  "legal_outcome": "ANEEL fined ONS and 23 companies about R$ 132.4 million on 11 Dec 2024. Fines are still under appeal in 2026. TCU opened its own inquiry (not confirmed).",
+  "summary": "A failure on a 500 kV Chesf line in Ceará split the national grid at 08:31. ONS said the root cause was voltage-control equipment at private wind and solar plants. The wind and solar industry disputes the ONS report.",
+  "figures": [
+   {
+    "label": "Load lost",
+    "value": "23,368 MW of 67,507 MW (about 34.5%)",
+    "source_url": "https://eixos.com.br/falha-no-controle-de-tensao-de-usinas-eolicas-e-solares-causou-apagao-diz-ons/",
+    "status": "disputed",
+    "note": "CNN Brasil gives about 16,000 MW. ONS draft report is the more specific figure."
+   },
+   {
+    "label": "People affected",
+    "value": "About 30 million",
+    "source_url": "https://eixos.com.br/falha-no-controle-de-tensao-de-usinas-eolicas-e-solares-causou-apagao-diz-ons/",
+    "status": "unverified",
+    "note": "Source not given on page."
+   },
+   {
+    "label": "ANEEL fine",
+    "value": "About R$ 132.4 million (headline says R$ 132.5 million), 11 Dec 2024",
+    "source_url": "https://canalsolar.com.br/aneel-aplica-multa-de-r-1325-mi-ao-ons-e-23-empresas-por-apagao/",
+    "status": "verified",
+    "note": "Headline and body differ by R$ 0.1 million."
+   },
+   {
+    "label": "Infraction notices",
+    "value": "750 notices to wind/solar agents; fines above R$ 150 million by Jan 2025",
+    "source_url": "https://canalsolar.com.br/aneel-suspensao-multas-por-apagao-nacional/",
+    "status": "verified",
+    "note": "In April 2025 ANEEL unanimously refused to suspend the fines."
+   },
+   {
+    "label": "EDF fine review",
+    "value": "Cut from about R$ 7.6 million to R$ 7.4 million (Mar 2026)",
+    "source_url": "https://tagdlaw.com.br/aneel-revisa-multa-aplicada-a-edf-por-apagao-de-2023/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Review of six appeals",
+    "value": "Director asked for review in Aug 2026",
+    "source_url": "https://cenarioenergia.com.br/2026/08/11/aneel-vista-willamy-frota-julgamento-multas-apagao-2023/",
+    "status": "unverified",
+    "note": "Search snippet only."
+   },
+   {
+    "label": "TCU inquiry",
+    "value": "Acórdão 306/2024",
+    "source_url": "https://canalsolar.com.br/aneel-suspensao-multas-por-apagao-nacional/",
+    "status": "unverified",
+    "note": "Search snippet only."
+   },
+   {
+    "label": "Eletrobras privatization",
+    "value": "2022, R$ 33.6 billion capitalization, golden share",
+    "source_url": "https://www.felsberg.com.br/eletrobras-fixa-valor-da-acao-em-r-42-e-divulga-detalhes-da-operacao/",
+    "status": "verified",
+    "note": ""
+   }
+  ],
+  "sources": [
+   {
+    "title": "Eixos, ONS: voltage-control failure at wind and solar plants",
+    "url": "https://eixos.com.br/falha-no-controle-de-tensao-de-usinas-eolicas-e-solares-causou-apagao-diz-ons/"
+   },
+   {
+    "title": "CNN Brasil, five serious blackouts in 24 years",
+    "url": "https://www.cnnbrasil.com.br/nacional/do-raio-de-bauru-ao-caos-no-amapa-cinco-blecautes-graves-dos-ultimos-24-anos/"
+   },
+   {
+    "title": "Canal Solar, ANEEL fines ONS and 23 companies",
+    "url": "https://canalsolar.com.br/aneel-aplica-multa-de-r-1325-mi-ao-ons-e-23-empresas-por-apagao/"
+   },
+   {
+    "title": "Canal Solar, ANEEL refuses to suspend fines",
+    "url": "https://canalsolar.com.br/aneel-suspensao-multas-por-apagao-nacional/"
+   },
+   {
+    "title": "Tagd Law, ANEEL revises EDF fine",
+    "url": "https://tagdlaw.com.br/aneel-revisa-multa-aplicada-a-edf-por-apagao-de-2023/"
+   },
+   {
+    "title": "Cenário Energia, ANEEL appeals judgment",
+    "url": "https://cenarioenergia.com.br/2026/08/11/aneel-vista-willamy-frota-julgamento-multas-apagao-2023/"
+   },
+   {
+    "title": "Felsberg, Eletrobras share price and operation",
+    "url": "https://www.felsberg.com.br/eletrobras-fixa-valor-da-acao-em-r-42-e-divulga-detalhes-da-operacao/"
+   }
+  ]
+ },
+ {
+  "id": "d-angra1-leak-2022",
+  "date": "2022-09-16",
+  "name": "Angra 1 nuclear plant: radioactive water leak",
+  "place": "Angra dos Reis, Rio de Janeiro",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Eletronuclear (Eletrobras group)",
+  "ownership": "state-owned",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "None reported; no source opened reports harm to people.",
+  "affected": "Not stated.",
+  "damage": "Radioactive water leak, about 90 litres by Eletronuclear's own estimate; it reached the sea about 3 days after the internal leak.",
+  "legal_outcome": "Ibama fined Eletronuclear R$ 2.101 million on 28 Feb 2023. Federal Police searched the plant on 11 May 2023 and opened two inquiries. Eletronuclear said it would appeal.",
+  "summary": "The leak began on 16 Sept 2022. The company told Ibama on 7 Oct 2022 that the complaint was untrue and only admitted it officially on 30 Jan 2023, about 4 months later. Eletronuclear says it followed the law and the volume was small.",
+  "figures": [
+   {
+    "label": "Leak date",
+    "value": "16 Sept 2022",
+    "source_url": "https://www.poder360.com.br/meio-ambiente/eletronuclear-e-multada-por-nao-informar-vazamento-radioativo/",
+    "status": "corrected",
+    "note": "Original note said 'late Sept'."
+   },
+   {
+    "label": "Admission date",
+    "value": "30 Jan 2023 (official letter to Ibama); 11 Oct 2022 was at most a partial acknowledgement",
+    "source_url": "https://movimentoeconomico.com.br/economia/energia/2023/03/24/eletronuclear-levou-4-meses-para-admitir-acidente-em-angra-diz-ibama/",
+    "status": "disputed",
+    "note": "Original note said 11 Oct 2022. Revista Oeste says admitted 11 Oct after 21 days; Poder360 and Movimento Econômico say Jan 2023."
+   },
+   {
+    "label": "Volume",
+    "value": "About 90 litres (Eletronuclear's own estimate)",
+    "source_url": "https://revistaoeste.com/brasil/pf-faz-buscas-na-usina-nuclear-de-angra-1/",
+    "status": "corrected",
+    "note": "Original note attributed this to the Federal Police; no opened source says so."
+   },
+   {
+    "label": "Ibama fine",
+    "value": "R$ 2.101 million (R$ 2 million accident + R$ 101 thousand for late notice)",
+    "source_url": "https://www.poder360.com.br/meio-ambiente/eletronuclear-e-multada-por-nao-informar-vazamento-radioativo/",
+    "status": "verified",
+    "note": "Revista Oeste says CNEN issued the R$ 101 thousand part; Poder360 says Ibama."
+   },
+   {
+    "label": "Delay in admitting",
+    "value": "About 4 months",
+    "source_url": "https://movimentoeconomico.com.br/economia/energia/2023/03/24/eletronuclear-levou-4-meses-para-admitir-acidente-em-angra-diz-ibama/",
+    "status": "verified",
+    "note": "16 Sept 2022 to 30 Jan 2023."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Revista Oeste, Ibama fines Eletronuclear",
+    "url": "https://revistaoeste.com/brasil/ibama-multa-eletronuclear-depois-de-vazamento-de-agua-radioativa/"
+   },
+   {
+    "title": "Movimento Econômico, Ibama on the 4-month delay",
+    "url": "https://movimentoeconomico.com.br/economia/energia/2023/03/24/eletronuclear-levou-4-meses-para-admitir-acidente-em-angra-diz-ibama/"
+   },
+   {
+    "title": "Revista Oeste, PF searches Angra 1",
+    "url": "https://revistaoeste.com/brasil/pf-faz-buscas-na-usina-nuclear-de-angra-1/"
+   },
+   {
+    "title": "Poder360, Eletronuclear fined for not reporting leak",
+    "url": "https://www.poder360.com.br/meio-ambiente/eletronuclear-e-multada-por-nao-informar-vazamento-radioativo/"
+   }
+  ]
+ },
+ {
+  "id": "d-amapa-blackout-2020",
+  "date": "2020-11-03",
+  "name": "Amapá blackout",
+  "place": "Amapá state (14 of 16 municipalities)",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "LMTE (transmission line operator), controlled by Gemini Energy",
+  "ownership": "private-concession",
+  "privatized_or_conceded_year": 2008,
+  "linked_transfer": "LMTE transmission concession (decree of 8 Oct 2008, originally Isolux); Isolux asset sold to Gemini (Starboard/Perfin funds) at end of 2019, control from Jan 2020",
+  "deaths": "Not found. No source opened reports deaths (a gap).",
+  "affected": "About 700,000 people lost power; about 22 days without full power, including 4 days of total darkness.",
+  "damage": "Transformer fire at the Macapá substation.",
+  "legal_outcome": "ANEEL fined LMTE R$ 3.6 million (company appealed). Procon fined LMTE and Gemini R$ 450 thousand (not confirmed). MPF suit seeks up to R$ 70 billion (a claim, not a ruling).",
+  "summary": "A transformer fire at the Macapá substation on 3 Nov 2020 caused a state-wide outage. ANEEL found 21 irregularities and repeated maintenance failures. The line was a private concession held by LMTE, which Gemini took over in Jan 2020.",
+  "figures": [
+   {
+    "label": "Duration",
+    "value": "About 22 days (4 days total darkness)",
+    "source_url": "https://www.mpf.mp.br/o-mpf/unidades/pr-ap/noticias/vidas-na-escuridao-o-apagao-que-marcou-o-amapa",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "People affected",
+    "value": "About 700,000; 14 of 16 municipalities",
+    "source_url": "https://www.poder360.com.br/brasil/apagao-no-amapa-foi-causado-por-falhas-de-manutencao-diz-aneel/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "ANEEL fine",
+    "value": "R$ 3.6 million (11 Feb 2021)",
+    "source_url": "https://poder360.com.br/economia/aneel-multa-em-r-36-milhoes-empresa-de-transmissao-por-apagao-no-amapa/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Fine as share of revenue",
+    "value": "3.54% of prior-year revenue",
+    "source_url": "https://poder360.com.br/economia/aneel-multa-em-r-36-milhoes-empresa-de-transmissao-por-apagao-no-amapa/",
+    "status": "corrected",
+    "note": "Original note listed 3.54% and 3.45%. 3.45% is a subheading typo in the same article."
+   },
+   {
+    "label": "Procon fine",
+    "value": "R$ 450 thousand combined (LMTE and Gemini)",
+    "source_url": "https://revistaoeste.com/brasil/apagao-no-amapa-empresas-sao-multadas-em-r-450-mil/",
+    "status": "unverified",
+    "note": "Page not opened in fact-check."
+   },
+   {
+    "label": "MPF suit",
+    "value": "Up to R$ 70 billion; also asks R$ 70 million deposit",
+    "source_url": "https://cenarioenergia.com.br/2025/02/10/acao-do-mpf-exige-r-70-bilhoes-em-indenizacoes-por-apagao-no-amapa-em-2020/",
+    "status": "verified",
+    "note": "Defendants: Union, ANEEL, ONS, LMTE, CEA, EPE, Gemini, Energisa S.A., Equatorial Participações II."
+   },
+   {
+    "label": "Ownership",
+    "value": "Gemini holds 85% of LMTE (rest 14.96% Amazon Development Fund); Gemini partners Starboard 80%, Perfin 20%",
+    "source_url": "https://eixos.com.br/aneel-aplica-multa-de-r-36-milhoes-por-apagao-no-amapa/",
+    "status": "corrected",
+    "note": "Original said Starboard and Perfin hold 85% directly. Fact-check: they hold Gemini; Gemini holds 85% of LMTE. The 80/20 split is from search only. Energisa agreed to buy Gemini in Feb 2022."
+   },
+   {
+    "label": "Concession date",
+    "value": "Decree of 8 Oct 2008, 30 years, originally Isolux",
+    "source_url": "https://eixos.com.br/aneel-aplica-multa-de-r-36-milhoes-por-apagao-no-amapa/",
+    "status": "unverified",
+    "note": "Decree date from search only. Original note said not verified."
+   },
+   {
+    "label": "Deaths",
+    "value": "Not found",
+    "source_url": "https://www.mpf.mp.br/o-mpf/unidades/pr-ap/noticias/vidas-na-escuridao-o-apagao-que-marcou-o-amapa",
+    "status": "unverified",
+    "note": "Still a gap."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Poder360, ANEEL fines transmission company R$ 3.6 million",
+    "url": "https://poder360.com.br/economia/aneel-multa-em-r-36-milhoes-empresa-de-transmissao-por-apagao-no-amapa/"
+   },
+   {
+    "title": "Poder360, ANEEL: maintenance failures",
+    "url": "https://www.poder360.com.br/brasil/apagao-no-amapa-foi-causado-por-falhas-de-manutencao-diz-aneel/"
+   },
+   {
+    "title": "Poder360, company appeals fine, 22 days",
+    "url": "https://www.poder360.com.br/brasil/empresa-recorre-de-multa-por-apagao-que-deixou-amapa-sem-luz-por-22-dias/"
+   },
+   {
+    "title": "Revista Oeste, Procon fines",
+    "url": "https://revistaoeste.com/brasil/apagao-no-amapa-empresas-sao-multadas-em-r-450-mil/"
+   },
+   {
+    "title": "Cenário Energia, MPF R$ 70 billion claim",
+    "url": "https://cenarioenergia.com.br/2025/02/10/acao-do-mpf-exige-r-70-bilhoes-em-indenizacoes-por-apagao-no-amapa-em-2020/"
+   },
+   {
+    "title": "MPF, Vidas na escuridão",
+    "url": "https://www.mpf.mp.br/o-mpf/unidades/pr-ap/noticias/vidas-na-escuridao-o-apagao-que-marcou-o-amapa"
+   },
+   {
+    "title": "Eixos, ANEEL fine and Isolux sale",
+    "url": "https://eixos.com.br/aneel-aplica-multa-de-r-36-milhoes-por-apagao-no-amapa/"
+   },
+   {
+    "title": "Money Times, Energisa buys Gemini",
+    "url": "https://www.moneytimes.com.br/energisa-engi11-mais-do-que-dobra-receita-com-transmissao-de-energia-com-aquisicao-da-gemini/"
+   }
+  ]
+ },
+ {
+  "id": "d-ne-oil-spill-2019",
+  "date": "2019",
+  "name": "Northeast Brazil oil spill",
+  "place": "Coasts of Northeast states (at least 9, later reported as 11)",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Unknown; Bouboulina tanker (Delta Tankers) named a suspect",
+  "ownership": "unknown",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "Not confirmed; no fisher-death count found.",
+  "affected": "Beaches in at least 11 states per later reports (original count: 138 points in 9 states). Navy page cites 250+ beaches.",
+  "damage": "Venezuelan crude reached the coast from Aug to Nov 2019.",
+  "legal_outcome": "Federal Police concluded its inquiry in Dec 2021, held the Bouboulina responsible and indicted Delta Tankers, the captain and the chief engineer. As of 2024 nobody had been formally charged. Delta Tankers denies responsibility.",
+  "summary": "Oil matched to Venezuelan crude washed up on Northeast beaches in 2019. The ship responsible was never confirmed in court. Ibama's president named a ship-to-ship transfer as the most likely cause.",
+  "figures": [
+   {
+    "label": "Extent",
+    "value": "138 points in 9 states (early count); later 250+ beaches, 11 states",
+    "source_url": "https://www.tnh1.com.br/noticia/nid/tres-navios-sao-suspeitos-por-manchas-de-oleo-no-nordeste-em-2019-diz-marinha/",
+    "status": "corrected",
+    "note": "The 138 figure was an early snapshot. 11 states is from search only; Ibama's final tally of about 1,000 localities is not verified."
+   },
+   {
+    "label": "Suspect ships",
+    "value": "Bouboulina; in May 2021 Navy named three tankers: Bouboulina, VL Nichioh, Amore Mio",
+    "source_url": "https://www.tnh1.com.br/noticia/nid/tres-navios-sao-suspeitos-por-manchas-de-oleo-no-nordeste-em-2019-diz-marinha/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Police outcome",
+    "value": "PF inquiry closed Dec 2021, Delta Tankers, captain and chief engineer indicted; nobody formally charged by 2024",
+    "source_url": "https://www.bnews.com.br/noticias/meio-ambiente/250021-veja-passo-a-passo-da-investigacao-sobre-origem-do-oleo-que-atinge-nordeste.html",
+    "status": "unverified",
+    "note": "Search snippets only (Bem Paraná, Bnews 2024). Original note said no final charge found."
+   },
+   {
+    "label": "Origin of oil",
+    "value": "Venezuelan crude",
+    "source_url": "https://brasilagro.com.br/conteudo/manchas-no-nordeste-sao-mistura-de-oleos-venezuelanos-diz-petrobras.html",
+    "status": "unverified",
+    "note": "Petrobras and UFBA analysis; Brasilagro page not opened."
+   },
+   {
+    "label": "Deaths",
+    "value": "Not found",
+    "source_url": "https://aosfatos.org/noticias/oleo-no-litoral-do-nordeste-nao-veio-de-plataforma-que-afundou-na-venezuela/",
+    "status": "unverified",
+    "note": "Still a gap."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Brasilagro, Petrobras on Venezuelan oil mix",
+    "url": "https://brasilagro.com.br/conteudo/manchas-no-nordeste-sao-mistura-de-oleos-venezuelanos-diz-petrobras.html"
+   },
+   {
+    "title": "Eixos, Ibama on ship-to-ship transfer",
+    "url": "https://eixos.com.br/energia/presidente-do-ibama-afirma-que-operacao-ship-to-ship-e-origem-mais-provavel-para-oleo-no-nordeste/"
+   },
+   {
+    "title": "BNews, investigation timeline",
+    "url": "https://www.bnews.com.br/noticias/meio-ambiente/250021-veja-passo-a-passo-da-investigacao-sobre-origem-do-oleo-que-atinge-nordeste.html"
+   },
+   {
+    "title": "Aos Fatos, not from sunken Venezuelan platform",
+    "url": "https://aosfatos.org/noticias/oleo-no-litoral-do-nordeste-nao-veio-de-plataforma-que-afundou-na-venezuela/"
+   },
+   {
+    "title": "TNH1, three ships suspected (Navy)",
+    "url": "https://www.tnh1.com.br/noticia/nid/tres-navios-sao-suspeitos-por-manchas-de-oleo-no-nordeste-em-2019-diz-marinha/"
+   }
+  ]
+ },
+ {
+  "id": "d-belo-monte-blackout-2018",
+  "date": "2018-03-21",
+  "name": "North and Northeast blackout (Belo Monte transmission)",
+  "place": "13 states, mostly North and Northeast (Acre, Roraima, Rondônia spared)",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Belo Monte Transmissora de Energia (BMTE): State Grid (China) 51%, Eletronorte 24.5%, Furnas 24.5%",
+  "ownership": "private-concession",
+  "privatized_or_conceded_year": 2014,
+  "linked_transfer": "BMTE won the Belo Monte transmission auction in 2014",
+  "deaths": "None found.",
+  "affected": "About 18,000 MW (22.5% of national load); about 70 million people per CNN Brasil.",
+  "damage": "Failure of a bus-coupling circuit breaker at the Xingu substation.",
+  "legal_outcome": "ANEEL fined BMTE (R$ 6.1 million upheld on appeal) and ONS (R$ 4.912 million cut to R$ 4.696 million), about R$ 11 million in total.",
+  "summary": "A circuit breaker failed at the Xingu substation on 21 March 2018. ONS later blamed human failure: BMTE set a safety limit on the breaker and did not tell ONS. ONS was fined too, so blame is shared.",
+  "figures": [
+   {
+    "label": "Load lost",
+    "value": "About 18,000 MW, 22.5% of national load",
+    "source_url": "https://www.poder360.com.br/brasil/ons-falha-em-disjuntor-causou-apagao-no-norte-e-nordeste/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "People affected",
+    "value": "About 70 million (CNN Brasil)",
+    "source_url": "https://www.cnnbrasil.com.br/nacional/do-raio-de-bauru-ao-caos-no-amapa-cinco-blecautes-graves-dos-ultimos-24-anos/",
+    "status": "unverified",
+    "note": "Poder360 gives no people figure."
+   },
+   {
+    "label": "State Grid stake",
+    "value": "51% (one outlet says 50%)",
+    "source_url": "https://www.bndes.gov.br/wps/portal/site/home/imprensa/noticias/conteudo/bndes-aprova-2-bi-para-belo-monte",
+    "status": "disputed",
+    "note": "BNDES and others say 51%; NS Energy says 50%. 51% has more sources."
+   },
+   {
+    "label": "Cause",
+    "value": "Breaker failure; ONS later said human failure by BMTE",
+    "source_url": "https://www.tribunapr.com.br/noticias/economia/apagao-de-marco-foi-causado-por-falha-humana-confirma-ons/amp/",
+    "status": "unverified",
+    "note": "Search summary of ONS report; page not opened."
+   },
+   {
+    "label": "Fines",
+    "value": "BMTE R$ 6.1 million; ONS R$ 4.696 million; total about R$ 11 million",
+    "source_url": "https://www.folhavitoria.com.br/economia/aneel-mantem-multa-da-transmissora-belo-monte-por-apagao-em-marco-de-2018/",
+    "status": "unverified",
+    "note": "Page returned 403; search summary only."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Poder360, ONS: breaker failure caused blackout",
+    "url": "https://www.poder360.com.br/brasil/ons-falha-em-disjuntor-causou-apagao-no-norte-e-nordeste/"
+   },
+   {
+    "title": "CNN Brasil, five serious blackouts",
+    "url": "https://www.cnnbrasil.com.br/nacional/do-raio-de-bauru-ao-caos-no-amapa-cinco-blecautes-graves-dos-ultimos-24-anos/"
+   },
+   {
+    "title": "BNDES approves R$ 2 bn for Belo Monte",
+    "url": "https://www.bndes.gov.br/wps/portal/site/home/imprensa/noticias/conteudo/bndes-aprova-2-bi-para-belo-monte"
+   },
+   {
+    "title": "NS Energy, Belo Monte UHVDC project",
+    "url": "https://www.nsenergybusiness.com/projects/belo-monte-rio-de-janeiro-uhvdc-transmission-project"
+   },
+   {
+    "title": "Tribuna PR, ONS confirms human failure",
+    "url": "https://www.tribunapr.com.br/noticias/economia/apagao-de-marco-foi-causado-por-falha-humana-confirma-ons/amp/"
+   },
+   {
+    "title": "Folha Vitória, ANEEL keeps Belo Monte fine",
+    "url": "https://www.folhavitoria.com.br/economia/aneel-mantem-multa-da-transmissora-belo-monte-por-apagao-em-marco-de-2018/"
+   },
+   {
+    "title": "Money Times, ONS: blackout hit 22.5% of grid",
+    "url": "https://www.moneytimes.com.br/ons-apagao-atingiu-225-do-sistema-interligado-nacional/"
+   }
+  ]
+ },
+ {
+  "id": "d-vale-fertilizantes-cubatao-2017",
+  "date": "2017-01-05",
+  "name": "Vale Fertilizantes ammonium nitrate fire",
+  "place": "Cubatão, São Paulo (Mantiqueira, border with Santos)",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Vale Fertilizantes",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "None. One firefighter treated for intoxication.",
+  "affected": "218 residents evacuated for about eight hours (Cetesb release says more than 150).",
+  "damage": "About 10,000 tonnes burned for over five hours; Rio Mogi contaminated with ammonium-nitrate effluent; no fish kill in early analysis.",
+  "legal_outcome": "Cetesb fined R$ 8 million and suspended the unit's licence until rebuilt and relicensed. No criminal case found.",
+  "summary": "An explosion on a conveyor belt, then a tank explosion, set the ammonium nitrate warehouse on fire. A union rep said a report showed abnormal belt heating; Vale said it had no such alert. The cause was still under investigation in the sources.",
+  "figures": [
+   {
+    "label": "Residents evacuated",
+    "value": "218 (Agência Brasil); more than 150 (Cetesb)",
+    "source_url": "https://www.abcdoabc.com.br/incendio-em-cubatao-chega-ao-fim-e-218-pessoas-voltam-para-casa/",
+    "status": "disputed",
+    "note": "Two sources give different counts; 218 is the later figure."
+   },
+   {
+    "label": "Product burned",
+    "value": "About 10,000 tonnes",
+    "source_url": "https://semil.sp.gov.br/01/cetesb-multa-vale-fertilizantes-em-oito-milhoes-de-reais/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Cetesb fine",
+    "value": "R$ 8 million",
+    "source_url": "https://semil.sp.gov.br/01/cetesb-multa-vale-fertilizantes-em-oito-milhoes-de-reais/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Link to former state-linked Ultrafértil/Fosfértil",
+    "value": "How Vale inherited the plant",
+    "source_url": "https://semil.sp.gov.br/01/cetesb-multa-vale-fertilizantes-em-oito-milhoes-de-reais/",
+    "status": "unverified",
+    "note": "Not checked."
+   }
+  ],
+  "sources": [
+   {
+    "title": "ABC do ABC, Cubatão fire ends, 218 return home",
+    "url": "https://www.abcdoabc.com.br/incendio-em-cubatao-chega-ao-fim-e-218-pessoas-voltam-para-casa/"
+   },
+   {
+    "title": "Semil/Cetesb, fine of R$ 8 million",
+    "url": "https://semil.sp.gov.br/01/cetesb-multa-vale-fertilizantes-em-oito-milhoes-de-reais/"
+   }
+  ]
+ },
+ {
+  "id": "d-ultracargo-santos-2015",
+  "date": "2015-04-02",
+  "name": "Ultracargo tank farm fire",
+  "place": "Vila Alemoa, Santos, São Paulo",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Ultracargo (Ultrapar group); terminal company Tequimar",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "None found.",
+  "affected": "Not stated. Impacts on fishers of 15 communities.",
+  "damage": "Fuel tanks burned for about eight days (2 to 10 Apr 2015); effluent reached estuary and mangroves; thousands of fish killed (Cetesb). A study cites about 9 tonnes of dead fish.",
+  "legal_outcome": "Cetesb fined R$ 22.5 million (14 Apr 2015). Civil agreement (TAC with MPF and São Paulo MP) of R$ 67.3 million. Criminal complaint by MPF; federal court opened a case.",
+  "summary": "A fire destroyed fuel tanks at the Alemoa terminal for about eight days. Cetesb fined the company for effluents and risk to the population. A first civil deal followed, with money for fishers and local projects.",
+  "figures": [
+   {
+    "label": "Duration",
+    "value": "2 to 10 April 2015 (8 days; some reports say 9)",
+    "source_url": "https://legismap.com.br/conteudos/artigos-e-noticias/incendio-em-santos-chega-ao-quinto-dia",
+    "status": "verified",
+    "note": "Start date confirmed; 8 vs 9 days from search only."
+   },
+   {
+    "label": "Cetesb fine",
+    "value": "R$ 22.5 million (14 Apr 2015)",
+    "source_url": "https://semil.sp.gov.br/04/cetesb-multa-ultracargo-em-mais-de-22-milhoes-pelo-incendio-no-terminal-da-alemoa/",
+    "status": "corrected",
+    "note": "Original note omitted this fine."
+   },
+   {
+    "label": "Civil agreement",
+    "value": "R$ 67.3 million (one source says R$ 67.5 million)",
+    "source_url": "https://www.gazetasp.com.br/cotidiano/51672-incendio-da-ultracargo-tem-acordo-inicial-de-r-67-3-mil/",
+    "status": "corrected",
+    "note": "Original said 'initial civil agreement'. It is a TAC with MPF and MPSP. Split: R$ 28.7 million fisher stipend, R$ 15.2 million works and gear, R$ 23.4 million projects. Gazeta page 403; split from search only. '4 years later' not verified."
+   },
+   {
+    "label": "Insurance cap",
+    "value": "R$ 550 million (fire and explosion)",
+    "source_url": "https://legismap.com.br/conteudos/artigos-e-noticias/incendio-em-santos-chega-ao-quinto-dia",
+    "status": "verified",
+    "note": "Valor, via Legismap."
+   },
+   {
+    "label": "Dead fish",
+    "value": "About 9 tonnes",
+    "source_url": "https://revistas.uepg.br/index.php/direito/en/article/view/25690",
+    "status": "unverified",
+    "note": "From a fisher study; PDF unreadable. Cetesb says only 'thousands of fish'."
+   },
+   {
+    "label": "Cause: operational error",
+    "value": "MPF traced the start to an operational error",
+    "source_url": "https://legismap.com.br/conteudos/artigos-e-noticias/incendio-em-santos-chega-ao-quinto-dia",
+    "status": "unverified",
+    "note": "Not confirmed as official cause."
+   }
+  ],
+  "sources": [
+   {
+    "title": "UEPG, Desastre da Ultracargo e a reparação inter partes",
+    "url": "https://revistas.uepg.br/index.php/direito/en/article/view/25690"
+   },
+   {
+    "title": "Gazeta SP, initial R$ 67.3 million deal",
+    "url": "https://www.gazetasp.com.br/cotidiano/51672-incendio-da-ultracargo-tem-acordo-inicial-de-r-67-3-mil/"
+   },
+   {
+    "title": "Legismap, fire reaches fifth day",
+    "url": "https://legismap.com.br/conteudos/artigos-e-noticias/incendio-em-santos-chega-ao-quinto-dia"
+   },
+   {
+    "title": "Diário de Pernambuco, impacts",
+    "url": "https://www.diariodepernambuco.com.br/noticia/brasil/2015/04/impactos-do-incendio-de-tanques-em-santos-vao-durar-cinco-anos.html"
+   },
+   {
+    "title": "Semil/Cetesb, Ultracargo fined R$ 22 million",
+    "url": "https://semil.sp.gov.br/04/cetesb-multa-ultracargo-em-mais-de-22-milhoes-pelo-incendio-no-terminal-da-alemoa/"
+   }
+  ]
+ },
+ {
+  "id": "d-fpso-sao-mateus-2015",
+  "date": "2015-02-11",
+  "name": "FPSO Cidade de São Mateus explosion",
+  "place": "About 120 km off Espírito Santo (Camarupim field)",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "BW Offshore (vessel owner); Petrobras (charterer and field operator)",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "9 (later count); early counts were lower (6 dead, 3 missing by 18 Feb 2015).",
+  "affected": "74 people aboard.",
+  "damage": "Explosion in the pump house of a floating production vessel.",
+  "legal_outcome": "No fine or criminal case found. Petrobras published a report in July 2015.",
+  "summary": "An explosion on a chartered floating production vessel killed workers; the toll rose over several days. Petrobras's report blamed a gas leak, a pumping-procedure failure, incompatible equipment and untrained staff sent to the pump house. Petrobras is state-controlled; the vessel was owned by a private firm.",
+  "figures": [
+   {
+    "label": "Deaths",
+    "value": "9",
+    "source_url": "https://www.offshore-energy.biz/?p=184280",
+    "status": "unverified",
+    "note": "Search snippet only; page now loads unrelated content."
+   },
+   {
+    "label": "Early death count",
+    "value": "6 dead, 3 missing (18 Feb 2015)",
+    "source_url": "https://www.upi.com/Business_News/Energy-Resources/2015/02/18/Fatality-figure-raised-in-Brazilian-oil-incident/6451424258986/",
+    "status": "unverified",
+    "note": "UPI page redirected; search only."
+   },
+   {
+    "label": "Date",
+    "value": "11 Feb 2015, about 12:50",
+    "source_url": "https://www.offshore-energy.biz/?p=185597",
+    "status": "verified",
+    "note": "Distance of 120 km not verified."
+   },
+   {
+    "label": "Petrobras report",
+    "value": "Published July 2015; date not verified",
+    "source_url": "https://www.offshore-energy.biz/?p=185597",
+    "status": "unverified",
+    "note": "Contents from search only."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Offshore Energy, death toll hits nine",
+    "url": "https://www.offshore-energy.biz/?p=184280"
+   },
+   {
+    "title": "UPI, fatality figure raised",
+    "url": "https://www.upi.com/Business_News/Energy-Resources/2015/02/18/Fatality-figure-raised-in-Brazilian-oil-incident/6451424258986/"
+   },
+   {
+    "title": "Offshore Energy, Petrobras report",
+    "url": "https://www.offshore-energy.biz/?p=185597"
+   },
+   {
+    "title": "Folha Vitória, 3rd biggest platform accident",
+    "url": "https://www.folhavitoria.com.br/geral/explosao-em-vitoria-e-3o-maior-acidente-em-plataformas-da-petrobras/"
+   }
+  ]
+ },
+ {
+  "id": "d-anglo-fosfatos-cubatao-2015",
+  "date": "2015-01-23",
+  "name": "Anglo American Fosfatos sulfur dioxide leak and acid rain",
+  "place": "Cubatão, São Paulo",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Anglo American Fosfatos Brasil",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "None reported.",
+  "affected": "About 80 people treated for eye, nose and throat irritation, malaise and dizziness.",
+  "damage": "Cetesb confirmed acid rain on 28 Jan; leaf spots and perforations in local vegetation. Amount of SO2 released not stated.",
+  "legal_outcome": "Cetesb fine of R$ 212 thousand (another source: R$ 212,500). Appeals or payment not found.",
+  "summary": "A pipeline rupture released sulfur dioxide on 23 Jan 2015. Acid rain followed and about 80 people needed treatment.",
+  "figures": [
+   {
+    "label": "People treated",
+    "value": "About 80",
+    "source_url": "https://olhardireto.com.br/noticias/cetesb-confirma-que-chuva-acida-atingiu-cubatao-apos-vazamento",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Fine",
+    "value": "R$ 212 thousand (or R$ 212,500)",
+    "source_url": "https://olhardireto.com.br/noticias/cetesb-confirma-que-chuva-acida-atingiu-cubatao-apos-vazamento",
+    "status": "disputed",
+    "note": "Two sources differ by R$ 500."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Olhar Direto, Cetesb confirms acid rain in Cubatão",
+    "url": "https://olhardireto.com.br/noticias/cetesb-confirma-que-chuva-acida-atingiu-cubatao-apos-vazamento"
+   }
+  ]
+ },
+ {
+  "id": "d-transpetro-tebar-2013",
+  "date": "2013-04-05",
+  "name": "Transpetro Tebar terminal fuel-oil spill",
+  "place": "Almirante Barroso terminal pier, São Sebastião channel and Caraguatatuba, São Paulo",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Transpetro (Petrobras subsidiary)",
+  "ownership": "state-owned",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "None.",
+  "affected": "Not stated.",
+  "damage": "3,500 litres of fuel oil per the federal court (TRF3).",
+  "legal_outcome": "Cetesb fined R$ 10 million the day after. The Federal Court sentenced the company to a R$ 2 million fine plus environmental projects; three employees charged had their liability extinguished. Final outcome of the R$ 10 million fine not found.",
+  "summary": "Fuel oil spilled at the Tebar pier in April 2013. Cetesb fined the company at once, and a federal court later imposed a smaller fine and projects.",
+  "figures": [
+   {
+    "label": "Volume",
+    "value": "3,500 litres",
+    "source_url": "https://web.trf3.jus.br/noticias/Noticiar/ExibirNoticia/381886-transpetro-e-condenada-por-crime-ambiental-em-sao",
+    "status": "unverified",
+    "note": "TRF3 pages could not be opened; search summary only."
+   },
+   {
+    "label": "Court fine",
+    "value": "R$ 2 million",
+    "source_url": "https://www.folhavitoria.com.br/geral/justica-multa-transpetro-em-r-2-mi-por-vazamento-de-oleo-em-sao-sebastiao/",
+    "status": "unverified",
+    "note": "Snippet only."
+   },
+   {
+    "label": "Cetesb fine",
+    "value": "R$ 10 million",
+    "source_url": "https://web.trf3.jus.br/noticias/Noticiar/ExibirNoticia/381886-transpetro-e-condenada-por-crime-ambiental-em-sao",
+    "status": "unverified",
+    "note": "Final outcome not found."
+   }
+  ],
+  "sources": [
+   {
+    "title": "TRF3, Transpetro convicted of environmental crime",
+    "url": "https://web.trf3.jus.br/noticias/Noticiar/ExibirNoticia/381886-transpetro-e-condenada-por-crime-ambiental-em-sao"
+   },
+   {
+    "title": "Folha Vitória, court fines Transpetro R$ 2 million",
+    "url": "https://www.folhavitoria.com.br/geral/justica-multa-transpetro-em-r-2-mi-por-vazamento-de-oleo-em-sao-sebastiao/"
+   },
+   {
+    "title": "Poder360, São Sebastião leak (Jan 2024, side note)",
+    "url": "https://www.poder360.com.br/meio-ambiente/vazamento-de-oleo-em-sao-sebastiao-foi-contido-diz-cetesb/"
+   }
+  ]
+ },
+ {
+  "id": "d-braskem-maceio-chlorine-2011",
+  "date": "2011-05-21",
+  "name": "Braskem chlor-alkali plant chlorine leak and pipe rupture",
+  "place": "Pontal da Barra, Maceió, Alagoas",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Braskem",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "None reported.",
+  "affected": "21 May leak: 22 children (1-15) hospitalized, all discharged; about 130 felt unwell. 23 May: 5 scaffolding workers hurt, 12 residents with chlorine intoxication symptoms.",
+  "damage": "Environmental damage not quantified.",
+  "legal_outcome": "State environment institute IMA opened an administrative process; outcome not found.",
+  "summary": "A chlorine leak on 21 May 2011 and a pipe rupture on 23 May hurt workers and residents. The pipe broke while production was stopped for inspection. Root cause was still under investigation.",
+  "figures": [
+   {
+    "label": "Children hospitalized",
+    "value": "22 (leak ran 19:38 to 20:15)",
+    "source_url": "https://correiodoestado.com.br/cidades/vazamento-de-cloro-levou-22-criancas-ao-hospital/111721/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "People unwell, 21 May",
+    "value": "About 130",
+    "source_url": "https://correiodoestado.com.br/cidades/vazamento-de-cloro-levou-22-criancas-ao-hospital/111721/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Injured, 23 May",
+    "value": "5 workers hurt; 12 residents with symptoms",
+    "source_url": "https://dol.com.br/noticias/brasil/noticia-149261-vazamento-de-cloro-fere-cinco-pessoas-em-alagoas.html",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Shareholders then",
+    "value": "Odebrecht and Petrobras",
+    "source_url": "https://correiodoestado.com.br/cidades/vazamento-de-cloro-levou-22-criancas-ao-hospital/111721/",
+    "status": "unverified",
+    "note": "Not verified."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Correio do Estado, chlorine leak sent 22 children to hospital",
+    "url": "https://correiodoestado.com.br/cidades/vazamento-de-cloro-levou-22-criancas-ao-hospital/111721/"
+   },
+   {
+    "title": "DOL, chlorine leak injures five in Alagoas",
+    "url": "https://dol.com.br/noticias/brasil/noticia-149261-vazamento-de-cloro-fere-cinco-pessoas-em-alagoas.html"
+   }
+  ]
+ },
+ {
+  "id": "d-chevron-frade-2011",
+  "date": "2011",
+  "name": "Chevron Frade field oil leak",
+  "place": "Campo de Frade, Bacia de Campos, Rio de Janeiro",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Chevron (operator, 51.74%), with Petrobras 30% and Frade Japão 18.26%",
+  "ownership": "private-concession",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": "Field operated under an ANP concession; commerciality declared 6 Aug 1998 (concession round not identified)",
+  "deaths": "None reported.",
+  "affected": "Not stated.",
+  "damage": "Oil seeped from the seabed after drilling. Spill size is disputed.",
+  "legal_outcome": "Ibama fine R$ 50 million. MPF-Chevron TAC of R$ 311 million (Dec 2012), covering two leaks (Nov 2011 and Mar 2012). Prosecutors charged Chevron, Transocean and 17 employees in 2012; outcome not found.",
+  "summary": "Chevron says oil seeped through a natural fissure after drilling pressure and denies wrongdoing. Estimates of the spill range from about 1,200 to about 25,000 barrels. Fines and settlements were large but the ANP final fine is unknown.",
+  "figures": [
+   {
+    "label": "Spill size",
+    "value": "1,200 to 25,000 barrels (Chevron 2,400 then 1,200; ANP 3,700, later at most 3,000; Rio state about 25,000)",
+    "source_url": "https://www.jb.com.br/rio/noticias/2011/11/21/amp/ibama-multa-chevron-em-r-50-milhoes-por-vazamento-na-bacia-de-campos.html",
+    "status": "disputed",
+    "note": "JB confirms 25,000 / 3,000 / 2,400. Revisions 3,700 and 1,200 are from search only."
+   },
+   {
+    "label": "Ibama fine",
+    "value": "R$ 50 million",
+    "source_url": "https://www.jb.com.br/rio/noticias/2011/11/21/amp/ibama-multa-chevron-em-r-50-milhoes-por-vazamento-na-bacia-de-campos.html",
+    "status": "verified",
+    "note": "Whether it is the legal maximum is unclear: Exame says yes, JB does not, and the Rio state secretary called it outdated."
+   },
+   {
+    "label": "ANP fine",
+    "value": "About R$ 40 million (expected); other sources up to R$ 50 million per notice or R$ 100 million",
+    "source_url": "https://ihu.unisinos.br/noticias/503649-governo-aplica-multa-milionaria-e-ameaca-tirar-chevron-do-pre-sal-acusada-de-mentir",
+    "status": "disputed",
+    "note": "No final figure found."
+   },
+   {
+    "label": "TAC with MPF",
+    "value": "R$ 311 million (about R$ 90 million marine recovery, about R$ 220 million prevention)",
+    "source_url": "https://vermelho.org.br/2012/12/15/mpf-chevron-pagara-r-311-mi-por-vazamentos-em-campo-de-frade/",
+    "status": "corrected",
+    "note": "Original note presented it for one leak. It covers Nov 2011 and Mar 2012 leaks."
+   },
+   {
+    "label": "TRF-2 injunction, Sept 2012",
+    "value": "R$ 500 million daily penalty",
+    "source_url": "https://ihu.unisinos.br/noticias/503649-governo-aplica-multa-milionaria-e-ameaca-tirar-chevron-do-pre-sal-acusada-de-mentir",
+    "status": "unverified",
+    "note": "Not verified."
+   },
+   {
+    "label": "Total fines",
+    "value": "US$ 33.4 million",
+    "source_url": "https://exame.com/mundo/chevron-e-mpf-acertam-pagamento-de-r-311-mi-por-vazamento",
+    "status": "unverified",
+    "note": "Not found in any source."
+   },
+   {
+    "label": "1999 concession round",
+    "value": "Original note said field granted in 1999 round",
+    "source_url": "https://www.jb.com.br/rio/noticias/2011/11/21/amp/ibama-multa-chevron-em-r-50-milhoes-por-vazamento-na-bacia-de-campos.html",
+    "status": "corrected",
+    "note": "Contradicted: commerciality was declared 6 Aug 1998, so the concession predates 1999."
+   },
+   {
+    "label": "Stakes",
+    "value": "Chevron 51.74%, Petrobras 30%, Frade Japão 18.26%",
+    "source_url": "https://www.jb.com.br/rio/noticias/2011/11/21/multa-da-chevron-pode-chegar-a-r-150-milhoes-diz-ministra-do-meio-ambiente/",
+    "status": "verified",
+    "note": "ANP 2016 data, search only; Inpex 2006 gives 51.7/30/18.3."
+   }
+  ],
+  "sources": [
+   {
+    "title": "IHU/Unisinos, government fines Chevron",
+    "url": "https://ihu.unisinos.br/noticias/503649-governo-aplica-multa-milionaria-e-ameaca-tirar-chevron-do-pre-sal-acusada-de-mentir"
+   },
+   {
+    "title": "JB, minister: fine could reach R$ 150 million",
+    "url": "https://www.jb.com.br/rio/noticias/2011/11/21/multa-da-chevron-pode-chegar-a-r-150-milhoes-diz-ministra-do-meio-ambiente/"
+   },
+   {
+    "title": "JB, Ibama fines Chevron R$ 50 million",
+    "url": "https://www.jb.com.br/rio/noticias/2011/11/21/amp/ibama-multa-chevron-em-r-50-milhoes-por-vazamento-na-bacia-de-campos.html"
+   },
+   {
+    "title": "Olhar Direto, Chevron estimates",
+    "url": "https://olhardireto.com.br/noticias/chevron-estima-vazamento-de-404-a-650-barris-no-brasil"
+   },
+   {
+    "title": "Vermelho, MPF R$ 311 million",
+    "url": "https://vermelho.org.br/2012/12/15/mpf-chevron-pagara-r-311-mi-por-vazamentos-em-campo-de-frade/"
+   },
+   {
+    "title": "Exame, Chevron and MPF agree R$ 311 million",
+    "url": "https://exame.com/mundo/chevron-e-mpf-acertam-pagamento-de-r-311-mi-por-vazamento"
+   }
+  ]
+ },
+ {
+  "id": "d-itaipu-blackout-2009",
+  "date": "2009-11-10",
+  "name": "Itaipu-linked national blackout",
+  "place": "18 of 26 states plus Brasília; Paraguay lost about 90% of power",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Itaipu Binacional; Furnas (Eletrobras) transmission lines",
+  "ownership": "state-owned",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "None found.",
+  "affected": "About 60 million (ENR) or almost 90 million in Brazil and Paraguay (CNN Brasil); lasted about three hours from 22:13.",
+  "damage": "No environmental damage.",
+  "legal_outcome": "No fine found.",
+  "summary": "Three circuits of a 765 kV line tripped on the night of 10 Nov 2009. ONS blamed bad weather; INPE said the lightning was not close or strong enough to damage the lines. Included for comparison with the 2018 and 2023 blackouts.",
+  "figures": [
+   {
+    "label": "People affected",
+    "value": "About 60 million (ENR) vs almost 90 million (CNN Brasil, incl. Paraguay)",
+    "source_url": "https://enr.com/articles/3807-after-massive-nov-10-blackout-brazil-is-still-in-the-dark-over-its-true-cause",
+    "status": "disputed",
+    "note": "Probably different counting bases."
+   },
+   {
+    "label": "Cause",
+    "value": "ONS: weather; INPE: lightning too weak/far",
+    "source_url": "https://enr.com/articles/3807-after-massive-nov-10-blackout-brazil-is-still-in-the-dark-over-its-true-cause",
+    "status": "disputed",
+    "note": "ONS side from Senate search summary (unverified). Sabotage ruled out by ONS (snippet only)."
+   },
+   {
+    "label": "Fines",
+    "value": "None found",
+    "source_url": "https://enr.com/articles/3807-after-massive-nov-10-blackout-brazil-is-still-in-the-dark-over-its-true-cause",
+    "status": "unverified",
+    "note": ""
+   }
+  ],
+  "sources": [
+   {
+    "title": "ENR, After massive Nov 10 blackout Brazil is still in the dark",
+    "url": "https://enr.com/articles/3807-after-massive-nov-10-blackout-brazil-is-still-in-the-dark-over-its-true-cause"
+   },
+   {
+    "title": "CNN Brasil, five serious blackouts",
+    "url": "https://www.cnnbrasil.com.br/nacional/do-raio-de-bauru-ao-caos-no-amapa-cinco-blecautes-graves-dos-ultimos-24-anos/"
+   },
+   {
+    "title": "Senado",
+    "url": "https://www.senado.leg.br"
+   }
+  ]
+ },
+ {
+  "id": "d-paulinia-shell-basf-2007",
+  "date": "2007",
+  "name": "Shell and Basf pesticide plant contamination",
+  "place": "Paulínia, São Paulo",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Shell, later Basf (via Cyanamid)",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "Not stated.",
+  "affected": "1,068 workers recognised for health care in one TRT-15 article (1,058 in another).",
+  "damage": "Aldrin, endrin and dieldrin (also chromium, vanadium, zinc, mineral oil) in soil and groundwater; Shell admitted pesticide residues.",
+  "legal_outcome": "Civil action filed 2007 by MPT and ex-workers. TRT-15 upheld the health-care order in April 2011. In 2013 an agreement approved by the TST set R$ 200 million collective moral damages.",
+  "summary": "Workers at a pesticide plant were poisoned and groundwater was contaminated. The exact contamination dates are not confirmed; the date here is the year the case was filed. Labour courts ordered health care and a 2013 settlement reached R$ 200 million.",
+  "figures": [
+   {
+    "label": "Settlement",
+    "value": "R$ 200 million collective moral damages (approved 8 Apr 2013)",
+    "source_url": "https://trt15.jus.br/noticia/2013/tst-homologa-acordo-entre-empresas-e-vitimas-de-contaminacao-quimica-em-paulinia",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Hospital share",
+    "value": "R$ 50 million to a maternity hospital; R$ 150 million in five yearly installments of R$ 30 million split between CREST and Fundacentro",
+    "source_url": "https://trt15.jus.br/noticia/2013/basf-shell-e-trabalhadores-aceitam-acordo-de-conciliacao-em-processo-que-comecou-na",
+    "status": "verified",
+    "note": "One source only; the TST article does not name the hospital."
+   },
+   {
+    "label": "Workers recognised",
+    "value": "About 1,060 (1,068 in one article, 1,058 in another)",
+    "source_url": "https://trt15.jus.br/noticia/2013/basf-shell-e-trabalhadores-aceitam-acordo-de-conciliacao-em-processo-que-comecou-na",
+    "status": "disputed",
+    "note": "Original note gave 1,068."
+   },
+   {
+    "label": "Plant dates",
+    "value": "Opened late 1970s; sold to Cyanamid in 1992; Basf became owner via Cyanamid",
+    "source_url": "https://trt15.jus.br/noticia/2013/basf-shell-e-trabalhadores-aceitam-acordo-de-conciliacao-em-processo-que-comecou-na",
+    "status": "unverified",
+    "note": "Basf ownership path not verified in opened pages. Original note said dates not confirmed."
+   },
+   {
+    "label": "Individual damages",
+    "value": "70% of first-instance values: R$ 83.5 million moral plus R$ 87.3 million material",
+    "source_url": "https://trt15.jus.br/noticia/2013/tst-homologa-acordo-entre-empresas-e-vitimas-de-contaminacao-quimica-em-paulinia",
+    "status": "verified",
+    "note": "Omitted in original note."
+   },
+   {
+    "label": "Civil action and 2011 ruling",
+    "value": "Filed 2007; TRT-15 4th Panel upheld Apr 2011 unanimously",
+    "source_url": "https://trt15.jus.br/noticia/2011/4a-camara-do-trt-mantem-condenacao-da-shell-e-da-basf-no-caso-de-contaminacao-em",
+    "status": "verified",
+    "note": ""
+   }
+  ],
+  "sources": [
+   {
+    "title": "TRT-15, April 2011 ruling",
+    "url": "https://trt15.jus.br/noticia/2011/4a-camara-do-trt-mantem-condenacao-da-shell-e-da-basf-no-caso-de-contaminacao-em"
+   },
+   {
+    "title": "TRT-15, TST approves agreement",
+    "url": "https://trt15.jus.br/noticia/2013/tst-homologa-acordo-entre-empresas-e-vitimas-de-contaminacao-quimica-em-paulinia"
+   },
+   {
+    "title": "TRT-15, R$ 200 million agreement",
+    "url": "https://trt15.jus.br/noticia/2013/basf-shell-e-trabalhadores-aceitam-acordo-de-conciliacao-em-processo-que-comecou-na"
+   },
+   {
+    "title": "TRT-15, 2019 seminar",
+    "url": "https://trt15.jus.br/noticia/2019/seminario-discute-licoes-da-contaminacao-em-paulinia-nesta-sexta-0208-no-trt-15"
+   }
+  ]
+ },
+ {
+  "id": "d-vicuna-paranagua-2004",
+  "date": "2004-11-15",
+  "name": "Vicuña chemical tanker explosion",
+  "place": "Cattalini pier, Port of Paranaguá, Paraná",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Tanker Vicuña (Sociedad Naviera Ultragas, Chile); terminal operator Cattalini",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "2 to 4: 4 dead (Gazeta do Povo) vs 2 dead and 2 missing (Cedre).",
+  "affected": "Fishing in Paranaguá, Antonina and Guaraqueçaba fell about 60%.",
+  "damage": "14,000 tonnes of methanol aboard; about 400 tonnes of bunker oil spilled; vessel broke in two. Mangroves and beaches oiled; fishing banned in the bay.",
+  "legal_outcome": "April 2005: courts awarded fishers R$ 13,000 and R$ 5,000 each. Late 2005: lawyers settled with the shipowner for under R$ 1,000 per fisher. STJ (2009) held Cattalini liable for half of material damages plus R$ 5,000 moral damages to one fisherwoman; the shipowner had settled for R$ 713. IAP and Ibama fines reported; amounts not found.",
+  "summary": "The tanker exploded at a private pier in Paranaguá. Many fishers got far less than courts awarded. The death toll differs between sources.",
+  "figures": [
+   {
+    "label": "Deaths",
+    "value": "2 to 4",
+    "source_url": "https://cedre.fr/en/Resources/Spills/Spills/Vicuna",
+    "status": "disputed",
+    "note": "Gazeta do Povo: 4 dead. Cedre: 2 dead, 2 missing."
+   },
+   {
+    "label": "Fishing decline",
+    "value": "About 60%",
+    "source_url": "https://www.gazetadopovo.com.br/vida-e-cidadania/a-maldicao-do-navio-vicuna-no-parana-ehrk7gmrxf5yc7l5drj8c0h8u",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Cargo and spill",
+    "value": "14,000 t methanol aboard; about 400 t bunker oil spilled",
+    "source_url": "https://cedre.fr/en/Resources/Spills/Spills/Vicuna",
+    "status": "verified",
+    "note": "Gazeta says 'millions of litres'; Cedre figure is the specific one."
+   },
+   {
+    "label": "Fisher settlements",
+    "value": "Under R$ 1,000 each (late 2005); R$ 713 in the STJ case",
+    "source_url": "https://www.migalhas.com.br/quentes/84040/stj-pescadora-ganha-indenizacao-por-dano-resultante-de-explosao-de-navio-no-porto-de-paranagua",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "IAP / Ibama fines",
+    "value": "Amounts not found",
+    "source_url": "https://www.gazetadopovo.com.br/vida-e-cidadania/a-maldicao-do-navio-vicuna-no-parana-ehrk7gmrxf5yc7l5drj8c0h8u",
+    "status": "unverified",
+    "note": "Search summaries only."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Gazeta do Povo, A maldição do navio Vicuña",
+    "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/a-maldicao-do-navio-vicuna-no-parana-ehrk7gmrxf5yc7l5drj8c0h8u"
+   },
+   {
+    "title": "Cedre, Vicuña spill",
+    "url": "https://cedre.fr/en/Resources/Spills/Spills/Vicuna"
+   },
+   {
+    "title": "Migalhas, STJ: fisherwoman wins compensation",
+    "url": "https://www.migalhas.com.br/quentes/84040/stj-pescadora-ganha-indenizacao-por-dano-resultante-de-explosao-de-navio-no-porto-de-paranagua"
+   }
+  ]
+ },
+ {
+  "id": "d-power-rationing-2001",
+  "date": "2001-07-01",
+  "name": "2001 power rationing (apagão)",
+  "place": "Nationwide",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Mixed: distribution largely privatized, generation mostly state-owned (Eletrobras group); ANEEL regulated",
+  "ownership": "unknown",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "Not researched.",
+  "affected": "Nationwide rationing from 1 Jul 2001 to 19 Feb 2002; target cut about 20%, penalty 50% to 200% on the bill.",
+  "damage": "GDP growth fell from 4.4% (2000) to 1.4% (2001). Cost recovered through a tariff charge of 2.9% (residential) and 7.9% (commercial/industrial) for 72 months.",
+  "legal_outcome": "No legal case in the sources.",
+  "summary": "Brazil rationed electricity for about seven months. Cost estimates differ by method and by the money value used. The government blamed a dry year; the sources do not give a full account of that view.",
+  "figures": [
+   {
+    "label": "Dates",
+    "value": "1 Jul 2001 to 19 Feb 2002",
+    "source_url": "https://www.tribunadosertao.com.br/economia/2021/06/13/384075-governo-federal-prepara-mp-que-abre-caminho-para-racionamento-de-energia",
+    "status": "verified",
+    "note": "Search only."
+   },
+   {
+    "label": "Target and penalty",
+    "value": "About 20% cut; surcharge 50% to 200%",
+    "source_url": "https://acendebrasil.com.br/wp-content/uploads/2020/04/20110610_CanalEnergia.pdf",
+    "status": "verified",
+    "note": "20% confirmed in opened PDF; surcharge range from search only."
+   },
+   {
+    "label": "GDP growth",
+    "value": "4.4% (2000) to 1.4% (2001)",
+    "source_url": "https://www.suno.com.br/noticias/?p=156662",
+    "status": "verified",
+    "note": "Search only."
+   },
+   {
+    "label": "TCU loss estimate",
+    "value": "R$ 32.2 billion in 2001 money (R$ 45.2 billion in present-day values); R$ 19.681 billion passed to consumers",
+    "source_url": "https://acendebrasil.com.br/wp-content/uploads/2020/04/20110610_CanalEnergia.pdf",
+    "status": "corrected",
+    "note": "Original note gave R$ 45.2 billion as the loss. That is present-day value."
+   },
+   {
+    "label": "FGV estimate",
+    "value": "About 2% of GDP (R$ 60 billion)",
+    "source_url": "https://acendebrasil.com.br/wp-content/uploads/2020/04/20101215_RevistaGTD.pdf",
+    "status": "unverified",
+    "note": "Could not be found. Other estimates: about US$ 10 billion GDP loss (Ildo Sauer, USP, 2002); 0.5 to 1.0 point of GDP (Capital Economics, 2015), both search only."
+   },
+   {
+    "label": "Ownership",
+    "value": "Distribution largely privatized by 2001; generation much less so",
+    "source_url": "https://www.suno.com.br/noticias/?p=156662",
+    "status": "corrected",
+    "note": "Original note said generation and distribution were largely privatized. Generation claim not supported."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Tribuna do Sertão, rationing dates",
+    "url": "https://www.tribunadosertao.com.br/economia/2021/06/13/384075-governo-federal-prepara-mp-que-abre-caminho-para-racionamento-de-energia"
+   },
+   {
+    "title": "Suno, rationing context",
+    "url": "https://www.suno.com.br/noticias/?p=156662"
+   },
+   {
+    "title": "Instituto Acende Brasil, private-sector losses study",
+    "url": "https://acendebrasil.com.br/wp-content/uploads/2020/04/20101215_RevistaGTD.pdf"
+   },
+   {
+    "title": "Acende Brasil / CanalEnergia, 2011",
+    "url": "https://acendebrasil.com.br/wp-content/uploads/2020/04/20110610_CanalEnergia.pdf"
+   }
+  ]
+ },
+ {
+  "id": "d-p36-platform-2001",
+  "date": "2001-03-15",
+  "name": "P-36 platform explosion and sinking",
+  "place": "Roncador field, Campos Basin, Rio de Janeiro",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Petrobras",
+  "ownership": "state-owned",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "11 (firefighting brigade members).",
+  "affected": "Not stated.",
+  "damage": "Explosion on 15 Mar 2001; platform sank 20 Mar. Spill about 6,000 litres (STJ/TRF-2) or about 10,000 barrels (Eixos).",
+  "legal_outcome": "STJ (2nd Panel, Sept 2023) upheld an Ibama fine of R$ 5 million. Petrobras contested Ibama and MPF penalties; an MPF civil action seeks R$ 100 million.",
+  "summary": "A semi-submersible platform exploded and sank. The ANP report says operators pumped fluids into the wrong emergency tank over its pressure limit. Eleven brigade members died.",
+  "figures": [
+   {
+    "label": "Dates",
+    "value": "Explosion 15 Mar 2001; sank 20 Mar",
+    "source_url": "https://eixos.com.br/?p=6812",
+    "status": "verified",
+    "note": "Original note said March 2001 with sources conflicting."
+   },
+   {
+    "label": "Deaths",
+    "value": "11",
+    "source_url": "https://www.conjur.com.br/2023-set-13/stj-mantem-multa-petrobras-acidente-plataforma-36/",
+    "status": "verified",
+    "note": "Original called the STJ the 'Supreme Court'; it is the Superior Court of Justice."
+   },
+   {
+    "label": "Ibama fine",
+    "value": "R$ 5 million upheld by STJ",
+    "source_url": "https://www.conjur.com.br/2023-set-13/stj-mantem-multa-petrobras-acidente-plataforma-36/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Spill size",
+    "value": "About 6,000 litres (TRF-2 report) vs about 10,000 barrels (Eixos)",
+    "source_url": "https://eixos.com.br/?p=6812",
+    "status": "disputed",
+    "note": "Feema said pollution was clear but did not reach the coast."
+   },
+   {
+    "label": "Petrobras 2017 estimate",
+    "value": "R$ 1.469 billion contingency",
+    "source_url": "https://eixos.com.br/?p=6812",
+    "status": "verified",
+    "note": "Includes MPF suit seeking R$ 100 million."
+   },
+   {
+    "label": "Cause",
+    "value": "Fluids pumped into the wrong emergency tank over its pressure limit (ANP)",
+    "source_url": "https://eixos.com.br/?p=6812",
+    "status": "corrected",
+    "note": "Original note listed general conversion, design and maintenance failures."
+   },
+   {
+    "label": "Maritima responsible for conversion",
+    "value": "Press claim",
+    "source_url": "https://www.conjur.com.br/?p=325464",
+    "status": "unverified",
+    "note": "Not opened; Brasil Energia headline only."
+   }
+  ],
+  "sources": [
+   {
+    "title": "ConJur, Tragédia histórica",
+    "url": "https://www.conjur.com.br/?p=325464"
+   },
+   {
+    "title": "Eixos, P-36 penalties",
+    "url": "https://eixos.com.br/?p=6812"
+   },
+   {
+    "title": "ConJur, STJ upholds Petrobras fine",
+    "url": "https://www.conjur.com.br/2023-set-13/stj-mantem-multa-petrobras-acidente-plataforma-36/"
+   },
+   {
+    "title": "Offshore Magazine, engineering council blames Petrobras",
+    "url": "https://www.offshore-mag.com/business-briefs/equipment-engineering/article/16774138/engineering-council-blames-petrobras-for-loss-of-p-36-platform"
+   },
+   {
+    "title": "Folha Vitória (its dates conflict)",
+    "url": "https://www.folhavitoria.com.br/geral/explosao-em-vitoria-e-3o-maior-acidente-em-plataformas-da-petrobras/"
+   }
+  ]
+ },
+ {
+  "id": "d-repar-iguacu-2000",
+  "date": "2000-07-16",
+  "name": "REPAR oil spill into the Iguaçu River",
+  "place": "Araucária, Paraná (Barigui and Iguaçu rivers, nearly 100 km)",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Petrobras (REPAR refinery)",
+  "ownership": "state-owned",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "Not researched.",
+  "affected": "Not stated.",
+  "damage": "About 4 million litres (about 35,000 barrels) of crude. A 2013 study found petroleum in river sediments 13 years later.",
+  "legal_outcome": "Federal court ordered repair plus at least R$ 610 million (TRF-4, Oct 2019). Court-approved settlement in late 2021 of nearly R$ 1.4 billion; R$ 120 million for NGO projects; about R$ 900 million deposited but stalled over how to use it. Petrobras first convicted in 2013 and appealed.",
+  "summary": "A pipeline operation spilled about 4 million litres into Paraná rivers in July 2000. The money from the settlement is still tied up in a dispute between the state government and prosecutors.",
+  "figures": [
+   {
+    "label": "Spill size",
+    "value": "About 4 million litres",
+    "source_url": "https://www.cut.org.br/noticias/apos-20-anos-maior-vazamento-de-oleo-da-repar-ainda-corre-na-justica-df7e",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "R$ 610 million",
+    "value": "Minimum compensation ordered by court, not a fine",
+    "source_url": "https://www.cut.org.br/noticias/apos-20-anos-maior-vazamento-de-oleo-da-repar-ainda-corre-na-justica-df7e",
+    "status": "corrected",
+    "note": "Original note called it a fine."
+   },
+   {
+    "label": "R$ 1.4 billion",
+    "value": "Indemnity in court-approved agreement (late 2021)",
+    "source_url": "https://www.bandab.com.br/noticias-parana/destino-de-indenizacao-da-petrobras-segue-indefinido-24-anos-apos-vazamento-de-oleo-no-parana/amp/",
+    "status": "corrected",
+    "note": "Original note called it a total with cleanup."
+   },
+   {
+    "label": "NGO projects",
+    "value": "R$ 120 million, from R$ 930 million (66%) sent to the state Fema fund",
+    "source_url": "https://www.gazetadopovo.com.br/parana/ongs-terao-120-milhoes-da-indenizacao-da-petrobras-para-financiar-projetos/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Funds stalled",
+    "value": "About R$ 900 million",
+    "source_url": "https://www.bandab.com.br/noticias-parana/destino-de-indenizacao-da-petrobras-segue-indefinido-24-anos-apos-vazamento-de-oleo-no-parana/amp/",
+    "status": "verified",
+    "note": "Dispute includes 373 vehicles bought for over R$ 100 million in 2022."
+   },
+   {
+    "label": "Leak ran 2 hours before noticed",
+    "value": "Press claim",
+    "source_url": "https://www.tribunapr.com.br/noticias/parana/vazamento-de-oleo-no-rio-iguacu-completa-dois-anos/",
+    "status": "unverified",
+    "note": "No opened source states it."
+   },
+   {
+    "label": "2013 sediment study",
+    "value": "Petroleum found 13 years later",
+    "source_url": "https://riut.utfpr.edu.br/jspui/bitstream/1/9081/2/CT_COQUI_2012_2_02.pdf",
+    "status": "unverified",
+    "note": "PDF not opened."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Tribuna PR, spill anniversary",
+    "url": "https://www.tribunapr.com.br/noticias/parana/vazamento-de-oleo-no-rio-iguacu-completa-dois-anos/"
+   },
+   {
+    "title": "CUT, 20 years later",
+    "url": "https://www.cut.org.br/noticias/apos-20-anos-maior-vazamento-de-oleo-da-repar-ainda-corre-na-justica-df7e"
+   },
+   {
+    "title": "Band Paraná, funds undecided after 24 years",
+    "url": "https://www.bandab.com.br/noticias-parana/destino-de-indenizacao-da-petrobras-segue-indefinido-24-anos-apos-vazamento-de-oleo-no-parana/amp/"
+   },
+   {
+    "title": "Gazeta do Povo, R$ 120 million for NGOs",
+    "url": "https://www.gazetadopovo.com.br/parana/ongs-terao-120-milhoes-da-indenizacao-da-petrobras-para-financiar-projetos/"
+   },
+   {
+    "title": "UTFPR study",
+    "url": "https://riut.utfpr.edu.br/jspui/bitstream/1/9081/2/CT_COQUI_2012_2_02.pdf"
+   }
+  ]
+ },
+ {
+  "id": "d-reduc-guanabara-2000",
+  "date": "2000-01-18",
+  "name": "REDUC pipeline rupture, Guanabara Bay",
+  "place": "Guanabara Bay, Rio de Janeiro (REDUC to Ilha d'Água terminal)",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Petrobras",
+  "ownership": "state-owned",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "Not reported.",
+  "affected": "The fishers' federation claims about 20,000 fishers unpaid in 2016; Petrobras disputes it; a 2001 report says 9,400 were paid.",
+  "damage": "About 1.3 million litres of fuel oil (Petrobras first said 500,000); leak lasted 4 h 35 min.",
+  "legal_outcome": "Ibama issued three fines totalling R$ 51.05 million. TAC with MPF signed end of Nov 2000. A court ruled Petrobras must pay Colônia Z-12 fishers (not confirmed).",
+  "summary": "A pipeline broke and spilled about 1.3 million litres of fuel oil into the bay. Fishers say they were not compensated 16 years later. The cause is disputed.",
+  "figures": [
+   {
+    "label": "Spill size",
+    "value": "About 1.3 million litres",
+    "source_url": "https://www.jb.com.br/pais/noticias/2016/01/19/apos-16-anos-pescadores-ainda-nao-foram-compensados-por-vazamento-da-reduc.html",
+    "status": "verified",
+    "note": "Petrobras first said 500,000 litres."
+   },
+   {
+    "label": "Ibama fines",
+    "value": "R$ 51.05 million (three fines)",
+    "source_url": "https://www.ogj.com/home/article/17215323/petrobras-faces-big-tab-shakeup-after-spill",
+    "status": "corrected",
+    "note": "Original note said R$ 35 million + R$ 15 million, or R$ 50 million. Wikipedia says over US$ 28 million; a PUC-Rio paper mentions R$ 168 million by another method (search only)."
+   },
+   {
+    "label": "Cause",
+    "value": "ANP: fatigue fracture; COPPE/UFRJ: negligence; Petrobras: accident",
+    "source_url": "https://en.wikipedia.org/wiki/2000_Guanabara_Bay_oil_spill",
+    "status": "disputed",
+    "note": "Original ANP/COPPE claims not found in opened pages."
+   },
+   {
+    "label": "Slick area",
+    "value": "About 40 km2",
+    "source_url": "https://en.wikipedia.org/wiki/2000_Guanabara_Bay_oil_spill",
+    "status": "unverified",
+    "note": "Not found."
+   },
+   {
+    "label": "Fishers uncompensated",
+    "value": "About 20,000 (federation) vs 9,400 paid (2001 report)",
+    "source_url": "https://www.jb.com.br/pais/noticias/2016/01/19/apos-16-anos-pescadores-ainda-nao-foram-compensados-por-vazamento-da-reduc.html",
+    "status": "disputed",
+    "note": "Petrobras disputes the 20,000 figure."
+   },
+   {
+    "label": "Colônia Z-12 ruling",
+    "value": "Petrobras must pay the fishers",
+    "source_url": "https://www.migalhas.com.br/quentes/18453/petrobras-e-condenada-a-indenizar-pescadores-da-colonia-z-12",
+    "status": "unverified",
+    "note": "Page not opened."
+   },
+   {
+    "label": "'Only company to get the maximum fine'",
+    "value": "Press claim",
+    "source_url": "https://www.ogj.com/home/article/17215323/petrobras-faces-big-tab-shakeup-after-spill",
+    "status": "unverified",
+    "note": "Not supported."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Wikipedia, 2000 Guanabara Bay oil spill",
+    "url": "https://en.wikipedia.org/wiki/2000_Guanabara_Bay_oil_spill"
+   },
+   {
+    "title": "JB, fishers not compensated after 16 years",
+    "url": "https://www.jb.com.br/pais/noticias/2016/01/19/apos-16-anos-pescadores-ainda-nao-foram-compensados-por-vazamento-da-reduc.html"
+   },
+   {
+    "title": "Migalhas, Colônia Z-12 ruling",
+    "url": "https://www.migalhas.com.br/quentes/18453/petrobras-e-condenada-a-indenizar-pescadores-da-colonia-z-12"
+   },
+   {
+    "title": "OGJ, Petrobras faces big tab",
+    "url": "https://www.ogj.com/home/article/17215323/petrobras-faces-big-tab-shakeup-after-spill"
+   }
+  ]
+ },
+ {
+  "id": "d-tramandai-spill-2000",
+  "date": "2000-01-11",
+  "name": "Petrobras Tramandaí oil spill",
+  "place": "Sea and beaches off Tramandaí, Rio Grande do Sul",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Petrobras",
+  "ownership": "state-owned",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "None.",
+  "affected": "Beaches closed to public use.",
+  "damage": "18,000 litres of oil; Ibama found about ten metres of permanent preservation area polluted.",
+  "legal_outcome": "Federal prosecutors' civil action. Federal Environmental Court of Porto Alegre ordered more than R$ 6 million (R$ 3,045,229.64 for environmental damage plus the same for collective moral damages) and emergency plans within 90 days. Reported 13 Aug 2013, 13 years later.",
+  "summary": "Petrobras spilled 18,000 litres of oil off Tramandaí in January 2000. A court only ruled in 2013. A separate 2012 monobuoy spill exists but its size is not confirmed.",
+  "figures": [
+   {
+    "label": "Date",
+    "value": "11 Jan 2000",
+    "source_url": "https://www.migalhas.com.br/quentes/184265/petrobras-deve-pagar-mais-de-r-6-mi-por-vazamento-de-oleo-no-mar",
+    "status": "verified",
+    "note": "Court corrected the date from 11 March after Petrobras objected."
+   },
+   {
+    "label": "Spill",
+    "value": "18,000 litres",
+    "source_url": "https://www.migalhas.com.br/quentes/184265/petrobras-deve-pagar-mais-de-r-6-mi-por-vazamento-de-oleo-no-mar",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Court award",
+    "value": "More than R$ 6 million",
+    "source_url": "https://www.migalhas.com.br/quentes/184265/petrobras-deve-pagar-mais-de-r-6-mi-por-vazamento-de-oleo-no-mar",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "2012 monobuoy spill",
+    "value": "1.2 million litres (infoescola table)",
+    "source_url": "https://www.infoescola.com/ecologia/derramamentos-de-petroleo-no-brasil/",
+    "status": "unverified",
+    "note": "Could not be confirmed."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Migalhas, Petrobras must pay over R$ 6 million",
+    "url": "https://www.migalhas.com.br/quentes/184265/petrobras-deve-pagar-mais-de-r-6-mi-por-vazamento-de-oleo-no-mar"
+   },
+   {
+    "title": "Infoescola, oil spills in Brazil",
+    "url": "https://www.infoescola.com/ecologia/derramamentos-de-petroleo-no-brasil/"
+   }
+  ]
+ },
+ {
+  "id": "d-osasco-plaza-gas-1996",
+  "date": "1996-06-11",
+  "name": "Osasco Plaza Shopping gas explosion",
+  "place": "Food court, Osasco, São Paulo",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Private shopping company (B Sete Participações and Administradora do Osasco Plaza Shopping); gas supplied by Ultragaz",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "42",
+  "affected": "472 injured (Conjur); other reports give 300 to 372.",
+  "damage": "Gas leak in the buried distribution network; shops reported a gas smell long before.",
+  "legal_outcome": "June 1999: TJ-SP ordered owners and administrators to compensate victims, upheld by STJ. Feb 2005: TJ-SP criminal chamber acquitted the administrator, an engineer and three construction engineers. 2006: TJ-SP held the shopping administrator, not Ultragaz, responsible for inspection.",
+  "summary": "A gas leak exploded in the food court, killing 42 people. The criminal case ended in acquittals nine years later. The shopping blames construction and gas-company inspection failures and sued Ultragaz; the court has sided with Ultragaz so far.",
+  "figures": [
+   {
+    "label": "Deaths",
+    "value": "42",
+    "source_url": "https://www.conjur.com.br/2006-out-23/tj-sp_nega_indenizacao_vitima_explosao_shopping//?print=1",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Injured",
+    "value": "472 (Conjur); 300 to 372 (other reports)",
+    "source_url": "https://www.conjur.com.br/2006-out-23/tj-sp_nega_indenizacao_vitima_explosao_shopping//?print=1",
+    "status": "disputed",
+    "note": "Other figures from search summary only."
+   },
+   {
+    "label": "Criminal outcome",
+    "value": "Acquittals in Feb 2005",
+    "source_url": "https://www.conjur.com.br/2006-out-23/tj-sp_nega_indenizacao_vitima_explosao_shopping//?print=1",
+    "status": "disputed",
+    "note": "Some outlets say 'convicted then acquitted'; Conjur account is the one opened."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Conjur, TJ-SP denies compensation to explosion victim",
+    "url": "https://www.conjur.com.br/2006-out-23/tj-sp_nega_indenizacao_vitima_explosao_shopping//?print=1"
+   }
+  ]
+ },
+ {
+  "id": "d-landulpho-alves-spill-1992",
+  "date": "1992-04-27",
+  "name": "Landulpho Alves refinery spill (RLAM)",
+  "place": "Baía de Todos os Santos and nearby islands, Bahia",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Petrobras (RLAM)",
+  "ownership": "state-owned",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "None found.",
+  "affected": "Fishing and shellfish-gathering communities hurt.",
+  "damage": "Mangroves and wildlife harmed (Ibama report). Volume not stated.",
+  "legal_outcome": "Ibama fine of R$ 300 million, said to be the biggest against Petrobras in 30 years and still an unpaid active debt; Petrobras's defence is pending.",
+  "summary": "An oil spill from the Landulpho Alves refinery hurt mangroves and fishing communities in Bahia. The fine amount comes from a single source and should be treated with caution.",
+  "figures": [
+   {
+    "label": "Ibama fine",
+    "value": "R$ 300 million",
+    "source_url": "https://www.bahianoticias.com.br/noticia/280435-vazamento-de-oleo-na-landulpho-alves-em-1992-recebeu-maior-multa-do-ibama-contra-a-petrobras-nos-ultimos-30-anos",
+    "status": "unverified",
+    "note": "Single source, which also oddly calls it a 'natural disaster'. No second source found."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Bahia Notícias, 1992 spill got Ibama's biggest fine against Petrobras",
+    "url": "https://www.bahianoticias.com.br/noticia/280435-vazamento-de-oleo-na-landulpho-alves-em-1992-recebeu-maior-multa-do-ibama-contra-a-petrobras-nos-ultimos-30-anos"
+   }
+  ]
+ },
+ {
+  "id": "d-cidade-meninos-hch-1989",
+  "date": "1989",
+  "name": "Cidade dos Meninos HCH pesticide contamination",
+  "place": "Cidade dos Meninos, Duque de Caxias, Rio de Janeiro",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Malaria institute of the Ministry of Education and Health (later Ministry of Health); land belongs to the Union",
+  "ownership": "state-owned",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "Not stated.",
+  "affected": "Whole population considered potentially exposed; 1,199 in the Family Health registry, 281 interviewed, 1,660 inhabitants cited. 2005: 1,400 tested, 95% contaminated. 2018-19: 750 tested, 73.5% had organochlorine residues.",
+  "damage": "Pesticide (HCH) waste from a factory was dumped in a residential area.",
+  "legal_outcome": "TRF-2 ruled that damages were proven only with blood-contamination evidence. One resident won R$ 100 thousand on appeal; the Ministry of Health appealed. A bill to make the Union pay families was mentioned.",
+  "summary": "A state-run pesticide factory left HCH waste in a residential area. The date here is when it was rediscovered (end of the 1980s). The Rhodia or Pesticidas link asked about was not found in any source.",
+  "figures": [
+   {
+    "label": "Factory years",
+    "value": "About 1950 to 1960/61",
+    "source_url": "https://www.scielo.br/j/csp/a/jBfWBCsNNFBmc3LT7FtbJnk/?lang=en",
+    "status": "corrected",
+    "note": "Original note said 1950 to 1965. No source gives 1965."
+   },
+   {
+    "label": "Rediscovery",
+    "value": "1989 ('end of the 1980s' in sources)",
+    "source_url": "https://www.scielo.br/j/csp/a/jBfWBCsNNFBmc3LT7FtbJnk/?lang=en",
+    "status": "unverified",
+    "note": "Exact year 1989 not found in opened pages."
+   },
+   {
+    "label": "People affected and tests",
+    "value": "1,199 registry; 1,400 tested in 2005 (95% contaminated); 750 tested 2018-19 (73.5%)",
+    "source_url": "https://news.mongabay.com/2021/10/poisoned-city-the-story-of-brazils-forgotten-environmental-disaster/",
+    "status": "verified",
+    "note": "Original note said numbers not found."
+   },
+   {
+    "label": "Link to Rhodia or Pesticidas",
+    "value": "Not found",
+    "source_url": "https://www.scielo.br/j/csp/a/jBfWBCsNNFBmc3LT7FtbJnk/?lang=en",
+    "status": "unverified",
+    "note": "Still unconfirmed."
+   },
+   {
+    "label": "TRF-2 award",
+    "value": "R$ 100 thousand to one resident",
+    "source_url": "https://acervo.trf2.jus.br/uploads/r/tribunal-regional-federal-da-2a-regiao/2/f/b/2fb070c087e8c07f7fdff875dfd58e0eb6f8ade83e02811b16f1a42c78b27312/2006.51.01.012213-8.pdf",
+    "status": "unverified",
+    "note": "PDF not opened."
+   }
+  ],
+  "sources": [
+   {
+    "title": "UFPR, Exposição a riscos químicos ... HCH na Cidade dos Meninos",
+    "url": "https://revistas.ufpr.br/made/article/view/22117"
+   },
+   {
+    "title": "TRF-2 ruling 2006.51.01.012213-8",
+    "url": "https://acervo.trf2.jus.br/uploads/r/tribunal-regional-federal-da-2a-regiao/2/f/b/2fb070c087e8c07f7fdff875dfd58e0eb6f8ade83e02811b16f1a42c78b27312/2006.51.01.012213-8.pdf"
+   },
+   {
+    "title": "Cadernos de Saúde Pública (2008)",
+    "url": "https://www.scielo.br/j/csp/a/jBfWBCsNNFBmc3LT7FtbJnk/?lang=en"
+   },
+   {
+    "title": "Mongabay, Poisoned city (Cidade dos Meninos)",
+    "url": "https://news.mongabay.com/2021/10/poisoned-city-the-story-of-brazils-forgotten-environmental-disaster/"
+   }
+  ]
+ },
+ {
+  "id": "d-goiania-cesium-1987",
+  "date": "1987-09-13",
+  "name": "Goiânia caesium-137 accident",
+  "place": "Goiânia, Goiás",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Instituto Goiano de Radioterapia (private clinic owned by four doctors); abandoned premises",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "4",
+  "affected": "249 contaminated; about 112,000 examined. A registry of 1,143 monitored people exists today (not the 1987 count).",
+  "damage": "About 6,000 tonnes of waste stored at Abadia de Goiás. Source capsule 50.9 TBq.",
+  "legal_outcome": "Not researched.",
+  "summary": "A radiotherapy source was taken from an abandoned clinic and broken open in a scrapyard. Four people died. The clinic was private; the abandoned premises were the problem.",
+  "figures": [
+   {
+    "label": "Deaths",
+    "value": "4",
+    "source_url": "https://en.wikipedia.org/wiki/Goi%C3%A2nia_accident",
+    "status": "verified",
+    "note": "6-year-old girl, two scrapyard workers aged 18 and 20, and a 37-year-old woman."
+   },
+   {
+    "label": "Contaminated",
+    "value": "249",
+    "source_url": "https://en.wikipedia.org/wiki/Goi%C3%A2nia_accident",
+    "status": "verified",
+    "note": "About 112,000 examined (Uninter says 112,800)."
+   },
+   {
+    "label": "1,143 'victims'",
+    "value": "Current monitoring registry, not the 1987 count",
+    "source_url": "https://www.uninter.com/noticias/o-brilho-da-morte-que-obrigou-o-mundo-a-rever-seus-protocolos",
+    "status": "corrected",
+    "note": "Original said it mixed exposed and monitored people. CARA says 1,141 in an older report."
+   },
+   {
+    "label": "Waste",
+    "value": "About 6,000 tonnes",
+    "source_url": "https://www.uninter.com/noticias/o-brilho-da-morte-que-obrigou-o-mundo-a-rever-seus-protocolos",
+    "status": "verified",
+    "note": "Uninter does not cite the BBC, as the original note said."
+   },
+   {
+    "label": "Source activity",
+    "value": "50.9 TBq (74 TBq in 1971)",
+    "source_url": "https://en.wikipedia.org/wiki/Goi%C3%A2nia_accident",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Owner",
+    "value": "Private clinic (IGR)",
+    "source_url": "https://en.wikipedia.org/wiki/Goi%C3%A2nia_accident",
+    "status": "corrected",
+    "note": "Original note said public body / clinic."
+   },
+   {
+    "label": "IAEA report STI/PUB/815",
+    "value": "Cited in search results",
+    "source_url": "https://iaea.org/sites/default/files/publications/magazines/bulletin/bull30-4/30402781017.pdf",
+    "status": "unverified",
+    "note": "IAEA pages returned 402; not opened."
+   }
+  ],
+  "sources": [
+   {
+    "title": "ATOMICA (JAEA), Goiânia data",
+    "url": "https://atomica.jaea.go.jp/data/pdf/ATOMICA_09-03-02-04.pdf.zip"
+   },
+   {
+    "title": "IAEA Bulletin 30-4",
+    "url": "https://iaea.org/sites/default/files/publications/magazines/bulletin/bull30-4/30402781017.pdf"
+   },
+   {
+    "title": "Uninter, Goiânia overview",
+    "url": "https://www.uninter.com/noticias/o-brilho-da-morte-que-obrigou-o-mundo-a-rever-seus-protocolos"
+   },
+   {
+    "title": "Wikipedia, Goiânia accident",
+    "url": "https://en.wikipedia.org/wiki/Goi%C3%A2nia_accident"
+   }
+  ]
+ },
+ {
+  "id": "d-vila-soco-fire-1984",
+  "date": "1984-02-24",
+  "name": "Vila Socó pipeline fire",
+  "place": "Vila Socó, Cubatão, São Paulo",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Petrobras (pipeline)",
+  "ownership": "state-owned",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "Disputed: 93 official; 508 (MPSP); up to about 700 in other estimates.",
+  "affected": "About 6,000 residents lived in the stilt-house favela.",
+  "damage": "About 700,000 litres of gasoline leaked under stilt houses and ignited.",
+  "legal_outcome": "24 people charged; 7 engineers and employees sentenced to 1 year 7 months; all acquitted on appeal in Aug 1986. Only 8 settlements covered deaths. The case went to the Truth Commission in 2014, which sought to take it to the Inter-American system.",
+  "summary": "Gasoline from a Petrobras pipeline ignited under stilt houses. Nobody was held responsible in the end. The warning came from the Petrobras president, not an engineer.",
+  "figures": [
+   {
+    "label": "Date",
+    "value": "Night of 24-25 Feb 1984",
+    "source_url": "https://apublica.org/?p=22227",
+    "status": "corrected",
+    "note": "Alesp says 24 Feb; Agência Pública says early hours of 25 Feb."
+   },
+   {
+    "label": "Deaths",
+    "value": "93 official; 508 (MPSP); up to about 700",
+    "source_url": "https://www.al.sp.gov.br/noticia/?id=357532",
+    "status": "disputed",
+    "note": "The true count is not settled."
+   },
+   {
+    "label": "Gasoline leaked",
+    "value": "About 700,000 litres",
+    "source_url": "https://www.al.sp.gov.br/noticia/?id=357532",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Residents",
+    "value": "About 6,000",
+    "source_url": "https://www.gazetasp.com.br/cotidiano/tragedia-da-vila-soco-em-cubatao-completa-40-anos/",
+    "status": "verified",
+    "note": "A search summary mentioned about 3,000 made homeless, a different measure."
+   },
+   {
+    "label": "Warning",
+    "value": "Petrobras president Shigeaki Ueki wrote to Governor Montoro about two months before; a 1977 letter from a former president also went unanswered",
+    "source_url": "https://apublica.org/?p=22227",
+    "status": "corrected",
+    "note": "Original note said a Petrobras engineer."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Alesp, Comissão da Verdade on Vila Socó",
+    "url": "https://www.al.sp.gov.br/noticia/?id=357532"
+   },
+   {
+    "title": "Gazeta SP, 40 years",
+    "url": "https://www.gazetasp.com.br/cotidiano/tragedia-da-vila-soco-em-cubatao-completa-40-anos/"
+   },
+   {
+    "title": "Agência Pública",
+    "url": "https://apublica.org/?p=22227"
+   },
+   {
+    "title": "Agência Brasil, Inter-American Court",
+    "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2014-07/comissao-quer-levar-caso-do-incendio-da-vila-soco-corte-interamericana"
+   }
+  ]
+ },
+ {
+  "id": "d-rhodia-cubatao-samarita-1976",
+  "date": "1976",
+  "name": "Rhodia Cubatão and Samaritá hazardous waste",
+  "place": "Cubatão and Samaritá (São Vicente), São Paulo",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Rhodia (French chemical group)",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "Not stated.",
+  "affected": "Not stated.",
+  "damage": "Hexachlorobenzene, pentachlorophenol; 11 clandestine dumps; about 33,000 tonnes held at Samaritá (CSM 1992: about 44,000 tons stored or buried).",
+  "legal_outcome": "Unit shut in 1993 after federal and state prosecutors sued. In 2004 a planned transfer of waste to Bahia was blocked by a Bahia court. A 1995 settlement in civil case 0000269-06.1993.8.26.0157 is not confirmed.",
+  "summary": "Rhodia bought the Clorogil operation in 1976, which had inherited clandestine dumps. The case became public in 1984. Rhodia says it began analyses and groundwater treatment in the 1980s; a prosecutor says the case is unresolved.",
+  "figures": [
+   {
+    "label": "Purchase of Clorogil",
+    "value": "1976; 11 clandestine dumps",
+    "source_url": "https://portal.sescsp.org.br/online/artigo/compartilhar/2868_INADIMPLENCIA+AMBIENTAL",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Waste held",
+    "value": "About 33,000 tonnes at Samaritá",
+    "source_url": "https://portal.sescsp.org.br/online/artigo/compartilhar/2868_INADIMPLENCIA+AMBIENTAL",
+    "status": "verified",
+    "note": "Article's date is not on the page; original note said 2005."
+   },
+   {
+    "label": "1995 settlement and case number",
+    "value": "Case no. 0000269-06.1993.8.26.0157",
+    "source_url": "https://portal.sescsp.org.br/online/artigo/compartilhar/2868_INADIMPLENCIA+AMBIENTAL",
+    "status": "unverified",
+    "note": "Not in the SESC article; source cited for it is wrong or unopened."
+   },
+   {
+    "label": "Contaminants",
+    "value": "Hexachlorobenzene, sodium pentachlorophenate",
+    "source_url": "https://www.al.sp.gov.br/spl/2024/08/Propositura/1000559094_1000699443_Propositura.pdf",
+    "status": "unverified",
+    "note": "SESC mentions pentachlorophenol; hexachlorobenzene is from the 2024 Alesp bill (not opened)."
+   },
+   {
+    "label": "2004 transfer to Bahia",
+    "value": "Blocked by a Bahia court",
+    "source_url": "https://www.bahianoticias.com.br/noticia/126767-lixo-toxico-depositado-em-sao-vicente-nao-sera-destinado-a-bahia-afirma-empresa",
+    "status": "verified",
+    "note": "Bahia Notícias (2012) says a similar 2004 attempt was suspended; the Samaritá waste was said not to go to Bahia."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Christian Science Monitor, 1992",
+    "url": "https://csmonitor.com/1992/0310/10042.html"
+   },
+   {
+    "title": "SESC-SP, Inadimplência ambiental",
+    "url": "https://portal.sescsp.org.br/online/artigo/compartilhar/2868_INADIMPLENCIA+AMBIENTAL"
+   },
+   {
+    "title": "Bahia Notícias, waste transfer",
+    "url": "https://www.bahianoticias.com.br/noticia/126767-lixo-toxico-depositado-em-sao-vicente-nao-sera-destinado-a-bahia-afirma-empresa"
+   },
+   {
+    "title": "ALESP bill, 2024",
+    "url": "https://www.al.sp.gov.br/spl/2024/08/Propositura/1000559094_1000699443_Propositura.pdf"
+   },
+   {
+    "title": "USP master's thesis (Mesquita, 1994)",
+    "url": "https://teses.usp.br/teses/disponiveis/6/6134/tde-11112022-202548/?lang=en"
+   }
+  ]
+ },
+ {
+  "id": "d-reduc-lpg-explosions-1972",
+  "date": "1972-03-30",
+  "name": "REDUC LPG tank explosions",
+  "place": "Refinaria de Duque de Caxias, Rio de Janeiro",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Petrobras",
+  "ownership": "state-owned",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "42 dead, 40 injured per military figures; residents and former workers say more than 70. Another search summary: 38 dead by 11 April.",
+  "affected": "Area sealed by about 150 army soldiers; Duque de Caxias declared a 'National Security Area'.",
+  "damage": "Three LPG tanks exploded; fragments thrown for kilometres and a highway closed. An NGO/Fiocruz study (author's claim) links bladder cancer in Campos Elíseos to smoke and contaminated soil and water.",
+  "legal_outcome": "No investigation or prosecution found in the source.",
+  "summary": "Three LPG tanks exploded at night under the military dictatorship. A worker who climbed a sphere to open valves is credited with stopping a chain of explosions. The death toll is disputed.",
+  "figures": [
+   {
+    "label": "Deaths",
+    "value": "42 official (military); more than 70 per residents",
+    "source_url": "https://diariodorio.com/o-dia-em-que-a-reduc-explodiu/",
+    "status": "disputed",
+    "note": "38 dead by 11 April is from a search summary (unverified)."
+   },
+   {
+    "label": "Ownership",
+    "value": "Petrobras, state-owned",
+    "source_url": "https://diariodorio.com/o-dia-em-que-a-reduc-explodiu/",
+    "status": "unverified",
+    "note": "The page shows a Petrobras emblem but does not state ownership."
+   },
+   {
+    "label": "Cancer link",
+    "value": "Bladder cancer cases in Campos Elíseos",
+    "source_url": "https://diariodorio.com/o-dia-em-que-a-reduc-explodiu/",
+    "status": "unverified",
+    "note": "Author's claim; not verified."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Diário do Rio, O dia em que a REDUC explodiu",
+    "url": "https://diariodorio.com/o-dia-em-que-a-reduc-explodiu/"
+   }
+  ]
+ },
+ {
+  "id": "d-cubatao-valley-of-death-1970",
+  "date": "1970",
+  "name": "Cubatão 'Valley of Death' industrial pollution",
+  "place": "Cubatão, São Paulo",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Cosipa (steel), Refinaria Presidente Bernardes (Petrobras), Rhodia and others",
+  "ownership": "unknown",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "Weakly sourced: 37 stillbirths of about 1,800 births (Oct 1981 to Apr 1982) from a municipal opinion piece.",
+  "affected": "Not stated.",
+  "damage": "Steel, refinery and chemical plants; press called Cubatão the most polluted city in the world in the 1980s.",
+  "legal_outcome": "State pollution-control programme under Governor Montoro followed the 1984 Vila Socó disaster (about US$ 3 billion, about 98% of air pollution controlled, per one article). Cubatão was cited at the 1992 UN environment conference as a recovery example.",
+  "summary": "Heavy industry made Cubatão one of the most polluted cities in the world in the 1980s. Health counts are weakly sourced. A big clean-up programme followed in the mid-1980s.",
+  "figures": [
+   {
+    "label": "'Most polluted city in the world'",
+    "value": "Press claim; UN label not found in a primary source",
+    "source_url": "https://economicnewsbrasil.com.br/2024/06/24/como-esta-a-cidade-brasileira-que-foi-considerada-a-mais-poluida-do-mundo/",
+    "status": "verified",
+    "note": "As a press claim only."
+   },
+   {
+    "label": "Stillbirths",
+    "value": "37 of about 1,800 births, Oct 1981 to Apr 1982",
+    "source_url": "https://portal.sescsp.org.br/online/artigo/compartilhar/2868_INADIMPLENCIA+AMBIENTAL",
+    "status": "unverified",
+    "note": "Search summary only; not a technical study."
+   },
+   {
+    "label": "Montoro programme",
+    "value": "About US$ 3 billion; about 98% of air pollution controlled",
+    "source_url": "https://economicnewsbrasil.com.br/2024/06/24/como-esta-a-cidade-brasileira-que-foi-considerada-a-mais-poluida-do-mundo/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Cosipa ownership",
+    "value": "State-linked",
+    "source_url": "https://economicnewsbrasil.com.br/2024/06/24/como-esta-a-cidade-brasileira-que-foi-considerada-a-mais-poluida-do-mundo/",
+    "status": "unverified",
+    "note": "No source found for ownership of each company at the time."
+   },
+   {
+    "label": "Mongabay citation",
+    "value": "Original note cited Mongabay 'Poisoned city' for Cubatão",
+    "source_url": "https://news.mongabay.com/2021/10/poisoned-city-the-story-of-brazils-forgotten-environmental-disaster/",
+    "status": "corrected",
+    "note": "That article is about Cidade dos Meninos, not Cubatão."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Economic News Brasil, Cubatão today",
+    "url": "https://economicnewsbrasil.com.br/2024/06/24/como-esta-a-cidade-brasileira-que-foi-considerada-a-mais-poluida-do-mundo/"
+   },
+   {
+    "title": "Mongabay, Poisoned city (about Cidade dos Meninos, mis-cited for Cubatão)",
+    "url": "https://news.mongabay.com/2021/10/poisoned-city-the-story-of-brazils-forgotten-environmental-disaster/"
+   },
+   {
+    "title": "SESC-SP, environmental liabilities",
+    "url": "https://portal.sescsp.org.br/online/artigo/compartilhar/2868_INADIMPLENCIA+AMBIENTAL"
+   }
+  ]
+ }
+]

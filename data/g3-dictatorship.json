@@ -1,0 +1,2183 @@
+[
+ {
+  "id": "e3-01",
+  "year": "1950s–1990",
+  "start_year": 1950,
+  "title": "Public land in Mato Grosso, Pará and Maranhão sold to colonisers and companies",
+  "era": "1964–1985 Dictatorship",
+  "government": "State of Mato Grosso; federal INCRA and Sudam (Maranhão: state company COMARCO)",
+  "what": "Millions of hectares of public land in Mato Grosso passed through state land bodies to colonisers and companies. In Maranhão, COMARCO (Dec 1971) took in 2.1 million ha of public land at once. No hectare series for Pará.",
+  "who_got": "Private colonisers SINOP, INDECO and CONTRIGUAÇU, and nominee buyers ('laranjas'). Who financed the buyers: Sudam tax incentives or their own resale. 1970s per-hectare prices were not found.",
+  "terms": "1950-64: colonisers paid Cr$7-10 per ha and resold at Cr$100-300 per ha, with average holdings of 200,000 ha.",
+  "mechanism": "Titles above the 3,000 ha constitutional limit were arranged through powers of attorney to nominee buyers. Decreto-Lei 1.164/1971 put about 60% of Mato Grosso under federal control until 1978. State companies CODEMAT and INTERMAT, and INCRA, then collected and sold land.",
+  "who_paid": "The public domain, and the Indigenous and posseiro occupants. Settlers paid high resale prices.",
+  "after": "The state land department (DTC) was closed in 1966 after repeated fraud. Programmes named 'Terra Pública' or direct INCRA sales to companies were not found in any opened source.",
+  "counter_view": "The sales were also how the state settled the north. The authors' main complaint is the lack of control, fraud and speculation, not the settlement itself (Moreno 1999 via Lilian da Rosa 2017).",
+  "signs": [
+   "land-grant",
+   "below-value-price"
+  ],
+  "figures": [
+   {
+    "label": "Resale gain for 1950-64 colonisers",
+    "value": "bought at Cr$7-10 per ha, resold at Cr$100-300 per ha; average 200,000 ha each",
+    "currency": "BRL (cruzeiros)",
+    "value_year": "1950-1964",
+    "estimator": "Moreno 1999 via Lilian da Rosa 2017",
+    "kind": "price-gap",
+    "source_url": "https://governancadeterras.com.br/wp-content/uploads/2017/10/Lilian-da-Rosa-Aspectos-Historicos-da-ocupacao-em-MT.pdf",
+    "status": "verified",
+    "note": "Secondary summary of Moreno 1999. Holdings were above the 100,000 ha limit that needed Senate approval."
+   },
+   {
+    "label": "Share of Mato Grosso under federal control (DL 1.164/1971)",
+    "value": "about 60%, until 1978",
+    "currency": "",
+    "value_year": "1971-1978",
+    "estimator": "Moreno 1999 via Lilian da Rosa 2017",
+    "kind": "land-area",
+    "source_url": "https://governancadeterras.com.br/wp-content/uploads/2017/10/Lilian-da-Rosa-Aspectos-Historicos-da-ocupacao-em-MT.pdf",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "CODEMAT public land collected and sold, 1978-90",
+    "value": "more than 6 million ha collected; more than 5 million ha sold in the north",
+    "currency": "",
+    "value_year": "1978-1990",
+    "estimator": "Moreno 1999 via Lilian da Rosa 2017",
+    "kind": "land-area",
+    "source_url": "https://governancadeterras.com.br/wp-content/uploads/2017/10/Lilian-da-Rosa-Aspectos-Historicos-da-ocupacao-em-MT.pdf",
+    "status": "verified",
+    "note": "Aripuanã, Juruena, Alta Floresta, Juína and others."
+   },
+   {
+    "label": "INTERMAT and INCRA land collected",
+    "value": "INTERMAT about 6.4 million ha; INCRA more than 7 million ha collected and about 3.6 million ha titled along federal highways",
+    "currency": "",
+    "value_year": "1978-1990",
+    "estimator": "Moreno 1999 via Lilian da Rosa 2017",
+    "kind": "land-area",
+    "source_url": "https://governancadeterras.com.br/wp-content/uploads/2017/10/Lilian-da-Rosa-Aspectos-Historicos-da-ocupacao-em-MT.pdf",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "COMARCO (Maranhão) public land taken in, Dec 1971",
+    "value": "2.1 million ha",
+    "currency": "",
+    "value_year": "1971",
+    "estimator": "entropia.slg.br article",
+    "kind": "land-area",
+    "source_url": "https://entropia.slg.br/index.php/entropia/article/download/332/355",
+    "status": "verified",
+    "note": "Side note on the Sarney land law."
+   }
+  ],
+  "summary": "State land bodies in Mato Grosso collected and sold millions of hectares of public land to colonisers and companies. Titles above the legal limit were arranged through nominee buyers. Hectare data for Pará are missing.",
+  "sources": [
+   {
+    "title": "Lilian da Rosa 2017: historical aspects of occupation in Mato Grosso",
+    "url": "https://governancadeterras.com.br/wp-content/uploads/2017/10/Lilian-da-Rosa-Aspectos-Historicos-da-ocupacao-em-MT.pdf"
+   },
+   {
+    "title": "Entropia: Maranhão land and COMARCO",
+    "url": "https://entropia.slg.br/index.php/entropia/article/download/332/355"
+   },
+   {
+    "title": "NAEA paper with a Pará example (snippet only)",
+    "url": "https://periodicos.ufpa.br/index.php/pnaea/article/download/11412/7867"
+   }
+  ]
+ },
+ {
+  "id": "e3-02",
+  "year": "1955–1984",
+  "start_year": 1955,
+  "title": "Cubatão industrial pole (São Paulo)",
+  "era": "1964–1985 Dictatorship",
+  "government": "Military governments (industrial pole from the 1950s)",
+  "what": "A state-led industrial pole (Petrobras refinery 1955, Cosipa steel, petrochemical plants) where pollution costs fell on residents. Weak fit for 'public assets to private': it is a case of private firms pushing environmental cost onto others under a regime with no environmental law and no press freedom. Keep as a short note.",
+  "who_got": "Not applicable.",
+  "terms": "Not applicable.",
+  "mechanism": "No environmental regulation (per the note).",
+  "who_paid": "Residents. 37 stillbirths of 1,800 births (Oct 1981-Apr 1982) came from a mayor's opinion piece. At Vila Socó a gasoline leak of 700,000 litres from a Petrobras pipeline caused the fire of 24 Feb 1984.",
+  "after": "Vila Socó fire 24 Feb 1984; 'Vale da Morte' label in the early 1980s.",
+  "counter_view": "Petrobras's then-president Sigeaki Ueki says the company never admitted 500 dead and 'there is no proof' (Agência Brasil).",
+  "signs": [
+   "regulator-absent-or-late"
+  ],
+  "figures": [
+   {
+    "label": "Vila Socó fire deaths",
+    "value": "93 (official count); believed up to 508 (MP/commission); residents say 500 or more",
+    "currency": "",
+    "value_year": "1984",
+    "estimator": "Agência Brasil; Toda Matéria",
+    "kind": "other",
+    "source_url": "https://agenciabrasil.ebc.com.br/geral/noticia/2014-07/comissao-quer-levar-caso-do-incendio-da-vila-soco-corte-interamericana",
+    "status": "disputed",
+    "note": "The earlier note's 'one source says 11' is wrong: 11 is the P-36 platform toll (2001), so it was dropped."
+   },
+   {
+    "label": "Stillbirths in Cubatão",
+    "value": "37 stillbirths of 1,800 births, Oct 1981 - Apr 1982",
+    "currency": "",
+    "value_year": "1981-1982",
+    "estimator": "Mayor of Cubatão (PT), opinion piece",
+    "kind": "other",
+    "source_url": "https://pt.org.br/marcia-rosa-carta-ao-rio-doce/",
+    "status": "unverified",
+    "note": "Weak source. A study by R. Monteleone Neto found 10,218 live births and 160 stillbirths for Jun 1982 - Dec 1985, a different period."
+   }
+  ],
+  "summary": "Cubatão was a state-led industrial pole whose pollution fell on residents. The Vila Socó fire of 1984 killed 93 officially, and perhaps far more. It is a weak fit for the study and kept as a short note.",
+  "sources": [
+   {
+    "title": "Agência Brasil: Vila Socó",
+    "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2014-07/comissao-quer-levar-caso-do-incendio-da-vila-soco-corte-interamericana"
+   },
+   {
+    "title": "Toda Matéria: desastres ambientais no Brasil",
+    "url": "https://www.todamateria.com.br/desastres-ambientais-no-brasil/"
+   },
+   {
+    "title": "PT: Márcia Rosa, carta ao Rio Doce",
+    "url": "https://pt.org.br/marcia-rosa-carta-ao-rio-doce/"
+   },
+   {
+    "title": "Discurso de saudação a Roque Monteleone Neto",
+    "url": "https://www.academiamedicinasaopaulo.org.br/wp-content/uploads/DISCURSO-DE-SAUDACAO-AO-ACADEMICO-ROQUE-MONTELEONE-NETO.pdf"
+   }
+  ]
+ },
+ {
+  "id": "e3-03",
+  "year": "1961–1970s",
+  "start_year": 1961,
+  "title": "Codeara (Companhia de Desenvolvimento do Araguaia), Mato Grosso",
+  "era": "1964–1985 Dictatorship",
+  "government": "Sudam approvals 1961-70; INCRA actions under Figueiredo and Sarney",
+  "what": "One of the largest Sudam-approved farm projects in the Mato Grosso Araguaia, with the largest incentive of 13 listed projects.",
+  "who_got": "Owners not confirmed. A snippet says Banco de Crédito Nacional (BCN) created it in 1966 (unverified).",
+  "terms": "Price and terms not found.",
+  "mechanism": "Sudam tax incentives.",
+  "who_paid": "The Treasury (tax incentives) and posseiros. A Comissão Camponesa da Verdade report is cited in a snippet as listing threats against posseiros by Codeara (unverified).",
+  "after": "Sudam projects covered more than 2 million ha by 1970. Under Figueiredo INCRA expropriated 34,000 ha of the neighbour Agropasa; in 1989 under Sarney it took two more farms (15,654 ha).",
+  "counter_view": null,
+  "signs": [
+   "subsidy-or-tax-break"
+  ],
+  "figures": [
+   {
+    "label": "Codeara project area and Sudam incentive",
+    "value": "196,497 ha and Cr$16,066,900 in incentives",
+    "currency": "BRL (cruzeiros)",
+    "value_year": "1961-1970",
+    "estimator": "Campo-Território table (Sudam data)",
+    "kind": "subsidy",
+    "source_url": "https://seer.ufu.br/index.php/campoterritorio/article/download/37728/22289/179181",
+    "status": "verified",
+    "note": "Largest incentive among 13 listed projects."
+   },
+   {
+    "label": "Codeara area (alternative figure)",
+    "value": "130,000 ha owned; 196,497 ha in the Sudam table",
+    "currency": "",
+    "value_year": "1960s-1970s",
+    "estimator": "De Olho nos Ruralistas / Campo-Território",
+    "kind": "land-area",
+    "source_url": "https://deolhonosruralistas.com.br/2021/03/04/imperio-agropecuario-da-familia-sarkis-incluiu-trabalho-escravo-e-latifundio-no-mato-grosso/",
+    "status": "disputed",
+    "note": "Range 130,000-196,497 ha; the sources do not reconcile it."
+   }
+  ],
+  "summary": "Codeara got the largest Sudam tax incentive among 13 listed projects in the Mato Grosso Araguaia. Owners and price are not confirmed. Posseiros bore part of the cost.",
+  "sources": [
+   {
+    "title": "Campo-Território: Sudam projects table",
+    "url": "https://seer.ufu.br/index.php/campoterritorio/article/download/37728/22289/179181"
+   },
+   {
+    "title": "De Olho nos Ruralistas: Sarkis family empire",
+    "url": "https://deolhonosruralistas.com.br/2021/03/04/imperio-agropecuario-da-familia-sarkis-incluiu-trabalho-escravo-e-latifundio-no-mato-grosso/"
+   },
+   {
+    "title": "Comissão Camponesa da Verdade final report (snippet only)",
+    "url": "https://cptnacional.org.br/wp-content/uploads/2025/03/relatorio-final-comissao-camponesa-da-verdade.pdf"
+   }
+  ]
+ },
+ {
+  "id": "e3-04",
+  "year": "1962–1967",
+  "start_year": 1962,
+  "title": "Hanna / MBR iron ore and the 1967 Mining Code (Minas Gerais)",
+  "era": "1964–1985 Dictatorship",
+  "government": "Quadros and Goulart (cancellation); Castelo Branco and Costa e Silva (new rules and MBR)",
+  "what": "Iron, manganese and bauxite deposit rights in the Quadrilátero Ferrífero held by Hanna's Novalimense (Águas Claras, Capão do Xavier, Pico do Itabirito and others). A 1962 order by minister Gabriel Passos voided the registrations. Tonnage and hectares are not given in the sources.",
+  "who_got": "Caemi (Augusto Antunes) and M. A. Hanna, through MBR, formed in 1965. Who financed them: not found.",
+  "terms": "No price or compensation figure found. The terms of the 1967 settlement and who got which deposit are unverified.",
+  "mechanism": "On 23 Dec 1964 Castelo Branco signed a decree letting private and foreign capital into subsoil exploration (oil, coal, nuclear minerals and hydraulic reserves excluded). Decreto-Lei 227/1967 (Mining Code, 28 Feb 1967) followed; its full text on who may hold concessions was not confirmed. MBR was the merger solution. No source shows a formal annulment of the 1962 order, so 'restored by the dictatorship' is unconfirmed.",
+  "who_paid": "The national mineral patrimony. Not quantified.",
+  "after": "Hanna and the Antunes group sued in Aug 1962; the Supreme Court sent the question back to the government, and it was settled under Costa e Silva in 1967. Vale bought out Caemi in 2001-2006 and took 100% of MBR in 2007.",
+  "counter_view": "The companies argued the 1938 registrations were lawful and vested, and that the 1962 order was a ministerial despacho, not a decree. US ambassador Lincoln Gordon protested, and Novalimense president Lucas Lopes called the order illegal (niepmarx). ICOMI director Glycon de Paiva argued that more state action would make foreign buyers stop dealing with Brazil (Unesp).",
+  "signs": [
+   "law-rewritten-for-deal"
+  ],
+  "figures": [
+   {
+    "label": "Vale buyout of Caemi, 2001-2006 (total)",
+    "value": "about 3.2 billion",
+    "currency": "USD",
+    "value_year": "2001-2006",
+    "estimator": "Wikipedia (Caemi)",
+    "kind": "other",
+    "source_url": "https://en.wikipedia.org/wiki/Caemi",
+    "status": "verified",
+    "note": "16.82% in 2001 for US$278.7 mn; Mitsui stake 2003 for US$426.4 mn; remaining 39.8% in Mar 2006 by share swap, US$2.5 bn."
+   },
+   {
+    "label": "Vale takes 100% of MBR, 2007",
+    "value": "231 million for 6.25% of EBM, plus a 30-year lease of 13.75% (US$60.5 mn down plus US$48.1 mn a year)",
+    "currency": "USD",
+    "value_year": "2007",
+    "estimator": "Wikipedia (Caemi)",
+    "kind": "other",
+    "source_url": "https://en.wikipedia.org/wiki/Caemi",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Hanna share of MBR's operating entity (US Bureau of Mines, 1968)",
+    "value": "34%",
+    "currency": "",
+    "value_year": "1968",
+    "estimator": "US Bureau of Mines",
+    "kind": "other",
+    "source_url": "https://search.library.wisc.edu/digital/AC7YH2GVPR5IDL8M/text/AFJS6L7ISYQNCM8F",
+    "status": "unverified",
+    "note": "Page text did not render. A search snippet says one entity holds 50%, Hanna 34%, State of Minas Gerais the rest; the entity is not named and may be the Caemi holding, not MBR. Do not quote as '34% of MBR'."
+   }
+  ],
+  "summary": "In 1962 the Goulart-era government voided Hanna's iron-ore registrations in Minas Gerais. After 1964 the dictatorship changed the rules to let foreign capital in, and Hanna and Caemi formed MBR in 1965. The sources show the new legal framework and the merger, but not the price or how the 1962 order was undone.",
+  "sources": [
+   {
+    "title": "Unesp article on Minas iron and the 1964 coup",
+    "url": "https://periodicos.rc.biblioteca.unesp.br/index.php/estgeo/article/download/18706/13231/96226"
+   },
+   {
+    "title": "Caemi (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Caemi"
+   },
+   {
+    "title": "US Bureau of Mines 1968 (Wisconsin library)",
+    "url": "https://search.library.wisc.edu/digital/AC7YH2GVPR5IDL8M/text/AFJS6L7ISYQNCM8F"
+   },
+   {
+    "title": "Decreto-Lei 227/1967, original text (Câmara)",
+    "url": "https://www2.camara.leg.br/legin/fed/declei/1960-1969/decreto-lei-227-28-fevereiro-1967-376017-publicacaooriginal-1-pe.html"
+   },
+   {
+    "title": "niepmarx: Marxismo e Mineração 2017, timeline of the Hanna case",
+    "url": "https://www.niepmarx.blog.br/MM/MM2017/AnaisMM2017/MC68/mc682.pdf"
+   },
+   {
+    "title": "CPDOC: Otávio Gouveia de Bulhões",
+    "url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/bulhoes-otavio-gouveia-de"
+   },
+   {
+    "title": "Capão do Xavier activist dossier (partisan, not opened)",
+    "url": "http://www.capaoxaviervivo.org.br/destaquecpi.htm"
+   }
+  ]
+ },
+ {
+  "id": "e3-05",
+  "year": "1962–2015",
+  "start_year": 1962,
+  "title": "Fazenda Suiá-Missu and the Xavante of Marãiwatsédé, Mato Grosso",
+  "era": "1964–1985 Dictatorship",
+  "government": "Castelo Branco onward; Cardoso (1998 homologation)",
+  "what": "The Suiá-Missu estate, founded by Ariosto da Riva. The Xavante were removed in 1966. Estate area is disputed (see figures).",
+  "who_got": "The Ometto family bought the area in 1962. In the 1970s most went to Liquigás (Italian Ursini group), renamed Liquifarm Agropecuária Suiá-Missú. After Ursini failed in 1978, Agip do Brasil (state-owned ENI/Agip Petroli) absorbed Liquigás and Liquifarm in 1979-81. Price paid by Liquigás: not found. Part (250,000 ha) went to the Brazilian Garavelo group in 1989.",
+  "terms": "Price not found. Sudam incentives of Cr$7,878,000 went to the Ometto-owned company.",
+  "mechanism": "Sudam tax incentives are cited by academic sources (the Pública article does not mention them). The Campo-Território text describes fraud in the 1960 registration; no court finding is cited. The Xavante were flown out by FAB aircraft in 1966.",
+  "who_paid": "The Xavante: about 300 flown out in 1966; a flu and measles epidemic then killed about 80 (about 30% of the group). The Treasury paid the incentives.",
+  "after": "In 1992 Funai delimited a 200,000 ha Marãiwatsédé land (168,000 ha inside the farm). At Rio-92 Agip/ENI announced the return of about 165,000 ha; this did not happen because the Brazilian subsidiary's shareholders disagreed. Posseiros then invaded. Homologated 1998; Xavante possession only from 2015; about 80% later deforested.",
+  "counter_view": "The sources say the 1970s sale chain was private-to-private; the public transfer was the incentive and the title (Campo-Território).",
+  "signs": [
+   "subsidy-or-tax-break"
+  ],
+  "figures": [
+   {
+    "label": "Estate area",
+    "value": "500,000 to about 800,000 ha (695,843 ha in the Sudam table)",
+    "currency": "",
+    "value_year": "1960s-1980s",
+    "estimator": "Sudam, Ianni 1979, NAEA, Pública",
+    "kind": "land-area",
+    "source_url": "https://periodicos.ufpa.br/index.php/pnaea/article/download/11370/7839",
+    "status": "disputed",
+    "note": "Sudam 500,000; Ianni 1979 670,000; Sudam table 695,843; about 800,000 after Ariosto da Riva joined the Ometto group; Pública 800,000. Search results also gave 560,000 and 1.7 million (unverified)."
+   },
+   {
+    "label": "Sudam incentive to Suiá-Missú",
+    "value": "Cr$7,878,000",
+    "currency": "BRL (cruzeiros)",
+    "value_year": "1961-1970",
+    "estimator": "Campo-Território table (Sudam data)",
+    "kind": "subsidy",
+    "source_url": "https://seer.ufu.br/index.php/campoterritorio/article/download/37728/22289/179181",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Xavante removed and dead",
+    "value": "about 300 flown out in 1966; about 80 died (about 30%)",
+    "currency": "",
+    "value_year": "1966",
+    "estimator": "Pública",
+    "kind": "other",
+    "source_url": "https://apublica.org/?p=25868",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Land Agip announced it would return at Eco-92",
+    "value": "165,000 ha",
+    "currency": "",
+    "value_year": "1992",
+    "estimator": "Pública",
+    "kind": "land-area",
+    "source_url": "https://apublica.org/?p=25868",
+    "status": "verified",
+    "note": "One search result says 250,000 ha; unresolved."
+   },
+   {
+    "label": "Share of territory later deforested",
+    "value": "about 80%",
+    "currency": "",
+    "value_year": "after 2015",
+    "estimator": "Pública",
+    "kind": "other",
+    "source_url": "https://apublica.org/?p=25868",
+    "status": "verified",
+    "note": "Described as the most deforested Indigenous land in Brazil."
+   }
+  ],
+  "summary": "A huge estate in Mato Grosso, helped by Sudam incentives, was sold on to an Italian group and later to Agip. The Xavante were flown out in 1966 and about 80 died in an epidemic. The land was returned in law in 1998 but in practice only from 2015.",
+  "sources": [
+   {
+    "title": "Pública: Marãiwatsédé",
+    "url": "https://apublica.org/?p=25868"
+   },
+   {
+    "title": "NAEA working paper on Suiá-Missu",
+    "url": "https://periodicos.ufpa.br/index.php/pnaea/article/download/11370/7839"
+   },
+   {
+    "title": "Campo-Território: Sudam projects table",
+    "url": "https://seer.ufu.br/index.php/campoterritorio/article/download/37728/22289/179181"
+   },
+   {
+    "title": "RIEB (USP) article on CNV Vol. II Texto 5",
+    "url": "https://revistas.usp.br/rieb/en/article/view/201369"
+   }
+  ]
+ },
+ {
+  "id": "e3-06",
+  "year": "1966–1985",
+  "start_year": 1966,
+  "title": "SUDAM fiscal incentives (Operação Amazônia)",
+  "era": "1964–1985 Dictatorship",
+  "government": "Castelo Branco (SUDAM created 1966) through Figueiredo",
+  "what": "The state waived income tax for firms investing in the Amazon, with up to 100% exemption for varying periods on income or import tax. Firms could invest as shareholders in third-party projects (Art. 17) or via branches (Art. 18).",
+  "who_got": "Mostly agribusiness and cattle ventures, many from the South and Southeast (VW, Ometto group, banks).",
+  "terms": "By end-1985 SUDAM had approved incentives for 959 firms. Land book value equalled 92% of the projects' own resources, and many firms did not meet job targets.",
+  "mechanism": "Tax-credit funds under Decreto-Lei 756/1969 (revoked 2001; the Planalto page was not opened, so this is unconfirmed).",
+  "who_paid": "The Treasury (waived tax), the forest, peasants and posseiros (possession turned into private property in Conceição do Araguaia), and workers.",
+  "after": "Per the paper, approvals fell by the 1990s and ended in fraud scandals; SUDAM closed in 2001 (not verified).",
+  "counter_view": "No defence of the incentives (regional development, security goals) was found in the opened sources.",
+  "signs": [
+   "subsidy-or-tax-break"
+  ],
+  "figures": [
+   {
+    "label": "Incentives approved by end-1985",
+    "value": "US$ 3.928 milhões as printed (likely US$3.9 billion); 959 firms",
+    "currency": "USD",
+    "value_year": "1966-1985",
+    "estimator": "Costa 2012 via Rielo (ABPHE 2023)",
+    "kind": "subsidy",
+    "source_url": "https://www.abphe.org.br/uploads/abphe2023/anais/joaoraiel.pdf",
+    "status": "verified",
+    "note": "Confirmed only as printed in the Rielo paper. The unit is not explained; Costa 2012 itself was not opened."
+   },
+   {
+    "label": "Land book value as share of projects' own resources",
+    "value": "92%",
+    "currency": "",
+    "value_year": "1985",
+    "estimator": "Costa 2012 via Rielo",
+    "kind": "other",
+    "source_url": "https://www.abphe.org.br/uploads/abphe2023/anais/joaoraiel.pdf",
+    "status": "verified",
+    "note": "Jobs were also under 1% of the peasant-sector workforce in 1985."
+   },
+   {
+    "label": "Conceição do Araguaia: projects approved 1966-1988",
+    "value": "31 projects, 380,950 ha",
+    "currency": "",
+    "value_year": "1966-1988",
+    "estimator": "Crispim 2020 via Rielo",
+    "kind": "land-area",
+    "source_url": "https://www.abphe.org.br/uploads/abphe2023/anais/joaoraiel.pdf",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Large projects in the Conceição do Araguaia region",
+    "value": "18 in the 1960s (238,030.6 ha) and 10 in the 1970s (121,021.3 ha)",
+    "currency": "",
+    "value_year": "1960s-1970s",
+    "estimator": "Petit 2003 via Rielo",
+    "kind": "land-area",
+    "source_url": "https://www.abphe.org.br/uploads/abphe2023/anais/joaoraiel.pdf",
+    "status": "corrected",
+    "note": "Corrected scope: the original note said 'installed by the regime'. The paper says these are in the Conceição do Araguaia region, not all of the Amazon."
+   }
+  ],
+  "summary": "SUDAM waived tax for firms investing in the Amazon, mainly ranches and agribusiness. By 1985 it had approved incentives for 959 firms. No total hectare figure for the Amazon was found.",
+  "sources": [
+   {
+    "title": "Rielo, ABPHE 2023",
+    "url": "https://www.abphe.org.br/uploads/abphe2023/anais/joaoraiel.pdf"
+   },
+   {
+    "title": "Decreto-Lei 756/1969 (Planalto, not opened)",
+    "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/Del0756.htm"
+   }
+  ]
+ },
+ {
+  "id": "e3-07",
+  "year": "1967–",
+  "start_year": 1967,
+  "title": "Zona Franca de Manaus (DL 288/1967)",
+  "era": "1964–1985 Dictatorship",
+  "government": "Castelo Branco",
+  "what": "Tax exemptions (IPI, import and other taxes) for industry in the Manaus Industrial Pole. DL 288 of 28 Feb 1967 reformulated the 1957 free zone; Suframa was created by Decreto 61.244/1967.",
+  "who_got": "Assembly plants of mostly foreign and national electronics and motorcycle brands (not detailed in the sources).",
+  "terms": "Tax exemptions. No figures from 1967-85 were found.",
+  "mechanism": "Decreto-Lei 288/1967 and tax exemptions for the Manaus pole.",
+  "who_paid": "The Treasury, as revenue not collected.",
+  "after": "The regime has been extended and still exists.",
+  "counter_view": "The Treasury says the fiscal cost has been falling, and defenders call it a constitutional alternative regime, not a waiver (Treasury paper, not opened). The Senate study itself frames the figure as 'renúncia'.",
+  "signs": [
+   "subsidy-or-tax-break"
+  ],
+  "figures": [
+   {
+    "label": "Total tax cost, 2011 (ZFM benefits R$17.8 bn plus R$1.4 bn and R$3.2 bn other parts)",
+    "value": "22.4 billion",
+    "currency": "BRL",
+    "value_year": "2011",
+    "estimator": "Senado Federal, Textos para Discussão 126",
+    "kind": "subsidy",
+    "source_url": "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/textos-para-discussao/td-126-zona-franca-de-manaus-desafios-e-vulnerabilidades",
+    "status": "verified",
+    "note": "Modern figure, not from the dictatorship period."
+   },
+   {
+    "label": "Treasury view that fiscal cost is falling",
+    "value": "not quantified",
+    "currency": "",
+    "value_year": "",
+    "estimator": "Tesouro Nacional",
+    "kind": "other",
+    "source_url": "https://publicacoes.tesouro.gov.br/index.php/cadernos/article/download/149/163/663",
+    "status": "unverified",
+    "note": "Treasury paper not opened."
+   }
+  ],
+  "summary": "The 1967 decree gave tax exemptions to industry in Manaus. The only cost figure found is modern (R$22.4 bn in 2011). Nothing from 1967-85 was found.",
+  "sources": [
+   {
+    "title": "Senado: ZFM challenges and vulnerabilities",
+    "url": "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/textos-para-discussao/td-126-zona-franca-de-manaus-desafios-e-vulnerabilidades"
+   },
+   {
+    "title": "Tesouro Nacional paper (not opened)",
+    "url": "https://publicacoes.tesouro.gov.br/index.php/cadernos/article/download/149/163/663"
+   }
+  ]
+ },
+ {
+  "id": "e3-08",
+  "year": "1967–1982 (debt outcome 2000)",
+  "start_year": 1967,
+  "title": "Jari Project (Daniel K. Ludwig), Pará and Amapá",
+  "era": "1964–1985 Dictatorship",
+  "government": "Castelo Branco to Figueiredo",
+  "what": "An enormous private landholding in the Jari valley, plus state-backed finance, and in the end the debt. Size sources disagree (see figures).",
+  "who_got": "Ludwig bought the firm Empresa de Comércio e Navegação Jari Ltda in 1967. Brazilian law did not limit project area as long as Brazilians own it. In 1981-82 a consortium of 23 Brazilian groups took over; the government pushed businessmen to join as a 'patriotic duty'.",
+  "terms": "English Wikipedia: 1.6 million acres (6,475 km2) for US$3 mn (the price is unsourced there). Ludwig invested US$845 mn by 1982.",
+  "mechanism": "Ludwig bought privately. For the exit, per Em Tempo (opposition weekly, partisan): he refused a US$20 mn instalment on a US$200 mn foreign debt guaranteed by the BNDE; the government assumed US$180 mn in exchange for shares without voting rights; BNDE lent Antunes US$35 mn to buy Ludwig's MBR and St John del Rey shares and was released from the guarantee.",
+  "who_paid": "Per Em Tempo, the treasury and BNDE guarantee. English Wikipedia and CSMonitor say Ludwig got no money and lost US$845 mn, and that the debt passed to the new owners. Caboclo and extractivist communities are also named in the notes (not sourced).",
+  "after": "The group later passed through other owners. The 2000 sale to Sergio Amoroso's group was for R$1 with about US$400 mn of debt.",
+  "counter_view": "English Wikipedia and CSMonitor say Ludwig received nothing and lost US$845 mn. Em Tempo says he walked away 'without spending a penny' and kept a rice farm (about US$100 mn), a bauxite deposit (about US$600 mn) and securities (about US$480 mn). Resolving this needs BNDES records, not found.",
+  "signs": [
+   "bailout",
+   "public-money-private-control"
+  ],
+  "figures": [
+   {
+    "label": "Purchase size and price, 1967",
+    "value": "1.6 million acres (6,475 km2) for US$3 million",
+    "currency": "USD",
+    "value_year": "1967",
+    "estimator": "Wikipedia (Jari project)",
+    "kind": "land-area",
+    "source_url": "https://en.wikipedia.org/wiki/Jari_project",
+    "status": "verified",
+    "note": "Confirmed as Wikipedia states it; the price is unsourced there."
+   },
+   {
+    "label": "Holding size",
+    "value": "about 9 million acres originally; about 4 million acres in 1982 (pt.wikipedia: 16,000 km2)",
+    "currency": "",
+    "value_year": "1967-1982",
+    "estimator": "CSMonitor; pt.wikipedia",
+    "kind": "land-area",
+    "source_url": "https://www.csmonitor.com/1982/0125/012532.html",
+    "status": "disputed",
+    "note": "16,000 km2 is about 4 million acres, matching the 1982 figure, not the 1967 purchase. An opposition weekly says Ludwig sought legalisation of 2.4 million ha (Em Tempo claim). Do not mix the figures."
+   },
+   {
+    "label": "Ludwig's investment",
+    "value": "US$845 million by 1982, with at least US$500 million more needed; Ludwig declared US$863 million, updated to US$1.15 billion in 1981",
+    "currency": "USD",
+    "value_year": "1981-1982",
+    "estimator": "CSMonitor; pt.wikipedia",
+    "kind": "other",
+    "source_url": "https://www.csmonitor.com/1982/0125/012532.html",
+    "status": "verified",
+    "note": "Second figure from https://pt.wikipedia.org/wiki/Projeto_Jari"
+   },
+   {
+    "label": "Foreign debt assumed by the government in 1981",
+    "value": "US$180 million (of a US$200 million debt guaranteed by BNDE), for non-voting shares",
+    "currency": "USD",
+    "value_year": "1981",
+    "estimator": "Em Tempo, 1982",
+    "kind": "debt-absorbed",
+    "source_url": "https://siac.fpabramo.org.br/uploads/acervo/J_EM_TEMPO_1982_0143.pdf",
+    "status": "disputed",
+    "note": "Confirmed as what Em Tempo printed (partisan source). English Wikipedia says the debt passed to the new owners and does not mention BNDE."
+   },
+   {
+    "label": "23 Brazilian groups' subscription",
+    "value": "US$60 million",
+    "currency": "USD",
+    "value_year": "1981",
+    "estimator": "Em Tempo, 1982",
+    "kind": "other",
+    "source_url": "https://siac.fpabramo.org.br/uploads/acervo/J_EM_TEMPO_1982_0143.pdf",
+    "status": "verified",
+    "note": "As printed by Em Tempo. Antunes also bought Caulim exportadora for US$40 mn."
+   },
+   {
+    "label": "BNDE loan to Antunes",
+    "value": "US$35 million",
+    "currency": "USD",
+    "value_year": "1981",
+    "estimator": "Em Tempo, 1982",
+    "kind": "public-finance-to-buyer",
+    "source_url": "https://siac.fpabramo.org.br/uploads/acervo/J_EM_TEMPO_1982_0143.pdf",
+    "status": "verified",
+    "note": "As printed by Em Tempo. BNDE was released from the guarantee in exchange."
+   },
+   {
+    "label": "Cost of Jari town services taken over by the government",
+    "value": "US$5.5 million a year (cost to Ludwig)",
+    "currency": "USD",
+    "value_year": "1981-1982",
+    "estimator": "CSMonitor",
+    "kind": "other",
+    "source_url": "https://www.csmonitor.com/1982/0125/012532.html",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "2000 sale to Amoroso group: debt",
+    "value": "R$1 price; debt of about US$400 million",
+    "currency": "USD",
+    "value_year": "2000",
+    "estimator": "Istoé Dinheiro",
+    "kind": "debt-absorbed",
+    "source_url": "https://istoedinheiro.com.br/o-homem-de-jari",
+    "status": "corrected",
+    "note": "Corrected from US$415 mn to US$400 mn. The R$1 price is confirmed."
+   }
+  ],
+  "summary": "Ludwig bought a huge Amazon holding in 1967. When the project failed in 1981-82, the government pushed a Brazilian consortium to take over. Accounts differ on who ended up with the debt: Em Tempo says the state, English Wikipedia says the new owners.",
+  "sources": [
+   {
+    "title": "Jari project (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Jari_project"
+   },
+   {
+    "title": "Projeto Jari (pt.wikipedia)",
+    "url": "https://pt.wikipedia.org/wiki/Projeto_Jari"
+   },
+   {
+    "title": "CSMonitor, 25 Jan 1982",
+    "url": "https://www.csmonitor.com/1982/0125/012532.html"
+   },
+   {
+    "title": "Em Tempo, 1982 (PDF)",
+    "url": "https://siac.fpabramo.org.br/uploads/acervo/J_EM_TEMPO_1982_0143.pdf"
+   },
+   {
+    "title": "Jus.com.br: O maniqueísmo brasileiro",
+    "url": "https://jus.com.br/artigos/76098/o-maniqueismo-brasileiro"
+   },
+   {
+    "title": "Istoé Dinheiro: O homem de Jari",
+    "url": "https://istoedinheiro.com.br/o-homem-de-jari"
+   }
+  ]
+ },
+ {
+  "id": "e3-09",
+  "year": "1967–2006",
+  "start_year": 1967,
+  "title": "Aracruz Celulose and Tupinikim/Guarani land (Espírito Santo)",
+  "era": "1964–1985 Dictatorship",
+  "government": "Castelo Branco onward; Figueiredo (1981 accord)",
+  "what": "A pulp company built its eucalyptus plantations on land the Tupinikim and Guarani Mbya say was theirs. Aracruz Florestal was founded 25 Jan 1967.",
+  "who_got": "Aracruz. State support: BNDE financed 45% of a 1975 financing agreement (21 Aug 1975), and the company used income-tax-based reforestation incentives (Lei 5.106). WRM also cites BNDES loans and federal incentives without detail.",
+  "terms": "In 1980 the Indigenous peoples self-demarcated and recovered 6,500 ha. A 1981 accord between the military and the company cut this to 4,491 ha, in exchange for financial compensation. Incentive amounts not found.",
+  "mechanism": "Reforestation tax incentive (Lei 5.106), BNDE credit, and the 1981 accord.",
+  "who_paid": "The Tupinikim and Guarani.",
+  "after": "2005 retomada of 11,008 ha; a 2006 TAC transferred about 11,900 ha.",
+  "counter_view": null,
+  "signs": [
+   "subsidy-or-tax-break"
+  ],
+  "figures": [
+   {
+    "label": "Indigenous area recovered 1980, then cut by 1981 accord",
+    "value": "6,500 ha cut to 4,491 ha",
+    "currency": "",
+    "value_year": "1980-1981",
+    "estimator": "WRM",
+    "kind": "land-area",
+    "source_url": "https://www.wrm.org.uy/print/pdf/node/12778/pt",
+    "status": "verified",
+    "note": "WRM is an advocacy NGO. The company's view (lawful land purchases) was not found."
+   },
+   {
+    "label": "BNDE share of the 1975 financing agreement",
+    "value": "45%",
+    "currency": "",
+    "value_year": "1975",
+    "estimator": "UFES (Ágora) article",
+    "kind": "public-finance-to-buyer",
+    "source_url": "https://periodicos.ufes.br/agora/article/download/1891/1403/0",
+    "status": "verified",
+    "note": "Added by the fact-check. Amounts of the tax incentives were not found."
+   },
+   {
+    "label": "2005 retomada and 2006 TAC",
+    "value": "11,008 ha claimed; about 11,900 ha transferred",
+    "currency": "",
+    "value_year": "2005-2006",
+    "estimator": "Monitor Mercantil",
+    "kind": "land-area",
+    "source_url": "https://monitormercantil.com.br/?p=1501",
+    "status": "unverified",
+    "note": "Page returned 403 and was not opened."
+   }
+  ],
+  "summary": "Aracruz planted eucalyptus on land Tupinikim and Guarani peoples claim. A 1981 military-brokered accord cut their recovered area from 6,500 to 4,491 ha. The state backed the company with BNDE credit and tax incentives.",
+  "sources": [
+   {
+    "title": "UFES Ágora article on Aracruz",
+    "url": "https://periodicos.ufes.br/agora/article/download/1891/1403/0"
+   },
+   {
+    "title": "WRM on Aracruz and the Tupinikim/Guarani",
+    "url": "https://www.wrm.org.uy/print/pdf/node/12778/pt"
+   },
+   {
+    "title": "Monitor Mercantil (not opened)",
+    "url": "https://monitormercantil.com.br/?p=1501"
+   }
+  ]
+ },
+ {
+  "id": "e3-10",
+  "year": "1967–1978",
+  "start_year": 1967,
+  "title": "Trombetas bauxite (Mineração Rio do Norte, MRN)",
+  "era": "1964–1985 Dictatorship",
+  "government": "Castelo Branco to Geisel (Decreto 81.889, 1978)",
+  "what": "Bauxite mining rights and a railway concession in Oriximiná and Porto Trombetas. Decreto 81.889 (5 Jul 1978) gave the right to build and operate the Trombetas railway.",
+  "who_got": "Vale and Alcan formed MRN (dates differ: 1967 or 1979 in the same source); CBA took 10% in 1973. Later MRN bought the Cruz Alta deposits from Alcoa and Billiton Metais.",
+  "terms": "No subsidy quantified. The 1992 Cruz Alta purchase was US$17 mn.",
+  "mechanism": "Mining rights and the railway concession decree.",
+  "who_paid": "Not found. Impacts on quilombola communities and tax terms were not found.",
+  "after": "Present owners are Glencore 45%, South32 33% and Rio Tinto 22%. MRN bauxite fed Alumar and the Barcarena smelters.",
+  "counter_view": null,
+  "signs": [
+   "exclusive-privilege"
+  ],
+  "figures": [
+   {
+    "label": "Cruz Alta deposits bought by MRN, 1992",
+    "value": "US$17 million",
+    "currency": "USD",
+    "value_year": "1992",
+    "estimator": "pt.wikipedia (MRN)",
+    "kind": "other",
+    "source_url": "https://pt.wikipedia.org/wiki/Mineração_Rio_do_Norte",
+    "status": "corrected",
+    "note": "Corrected: MRN bought Cruz Alta from Alcoa and Billiton Metais. It does not show them entering MRN, as the original note said."
+   },
+   {
+    "label": "Present MRN ownership",
+    "value": "Glencore 45%, South32 33%, Rio Tinto 22%",
+    "currency": "",
+    "value_year": "",
+    "estimator": "pt.wikipedia (MRN)",
+    "kind": "other",
+    "source_url": "https://pt.wikipedia.org/wiki/Mineração_Rio_do_Norte",
+    "status": "verified",
+    "note": ""
+   }
+  ],
+  "summary": "Vale and Alcan formed MRN to mine Trombetas bauxite, and a 1978 decree gave it a railway concession. No subsidy was quantified. Community impacts were not found.",
+  "sources": [
+   {
+    "title": "Mineração Rio do Norte (pt.wikipedia)",
+    "url": "https://pt.wikipedia.org/wiki/Mineração_Rio_do_Norte"
+   }
+  ]
+ },
+ {
+  "id": "e3-11",
+  "year": "1967–1985",
+  "start_year": 1967,
+  "title": "Estatização of external debt (Res. 63 to the 1983-84 project deposits)",
+  "era": "1964–1985 Dictatorship",
+  "government": "Costa e Silva; Geisel; Figueiredo",
+  "what": "External debt concentrated in the public sector. Part of the debt first contracted by private firms was moved to the Central Bank, mainly through foreign-currency deposit schemes.",
+  "who_got": "Private borrowers (industrial groups and banks) whose dollar obligations moved to the Central Bank. Total US$ of private debt absorbed in 1979-85: not found in any opened source.",
+  "terms": "Not a price. Res. 63 loans grew from about 7% of external debt (1968) to about 20% (1974) and 18.4% of the stock in 1980.",
+  "mechanism": "Two different instruments. Resolução 63 (21 Aug 1967) let banks and BNDE borrow abroad and on-lend; it is not a transfer to the state. Circular 230 (1974) and Resolução 432 (23 Jun 1977) allowed registered foreign-currency deposits, moving exchange and interest risk to the Central Bank. In 1983-84 'project deposits' made the Central Bank borrower and guarantor of global debt, private and public.",
+  "who_paid": "The Central Bank balance sheet, then the Treasury, financed by monetary expansion and domestic debt (IPEA); in the CPI da Dívida reading, taxpayers via the Brady transfer.",
+  "after": "The 1990s Brady operation (about US$50 bn) transferred US$28 bn of Central Bank liabilities to the Treasury.",
+  "counter_view": "Meira and Cruz present the rise of public debt mainly as a result of state firms' borrowing for the II PND and of the creditors' cartel and IMF conditions after 1982, not only a rescue of private debtors. Carneiro (2002) calls state firms' borrowing the 'traditional' channel. The Auditoria Cidadã chapter is advocacy and says 'estatização' does not appear in its own text.",
+  "signs": [
+   "bailout"
+  ],
+  "figures": [
+   {
+    "label": "Gross external debt",
+    "value": "US$3.9 bn (1965) to US$21.2 bn (1975)",
+    "currency": "USD",
+    "value_year": "1965-1975",
+    "estimator": "Meira (ABPHE 2015)",
+    "kind": "other",
+    "source_url": "https://www.abphe.org.br/arquivos/2015_suiani_meira_a-estatizacao-da-divida-externa-brasileira.pdf",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Public loans as share of total loans",
+    "value": "35.3% (1974) to 60.2% (1978)",
+    "currency": "",
+    "value_year": "1974-1978",
+    "estimator": "Cruz 1995 via Meira",
+    "kind": "other",
+    "source_url": "https://www.abphe.org.br/arquivos/2015_suiani_meira_a-estatizacao-da-divida-externa-brasileira.pdf",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Total external debt",
+    "value": "US$5.4 bn (1970) to US$85.5 bn (1983)",
+    "currency": "USD",
+    "value_year": "1970-1983",
+    "estimator": "Auditoria Cidadã (CPI da Dívida)",
+    "kind": "other",
+    "source_url": "https://auditoriacidada.org.br/conteudo/cpi-da-divida-analise-tecnica-preliminar-no-5-divida-externa-capitulo-1/",
+    "status": "verified",
+    "note": "Advocacy body."
+   },
+   {
+    "label": "Private share of loans in currency, 1972",
+    "value": "75%",
+    "currency": "",
+    "value_year": "1972",
+    "estimator": "Auditoria Cidadã",
+    "kind": "other",
+    "source_url": "https://auditoriacidada.org.br/conteudo/cpi-da-divida-analise-tecnica-preliminar-no-5-divida-externa-capitulo-1/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Substitution of external with internal debt, 1983",
+    "value": "explains at least 52.1% of the federal government's additional borrowing",
+    "currency": "",
+    "value_year": "1983",
+    "estimator": "IPEA, Cavalcanti 1988",
+    "kind": "debt-absorbed",
+    "source_url": "https://repositorio.ipea.gov.br/server/api/core/bitstreams/1faac9f7-872f-4cd8-842f-baae55950e70/content",
+    "status": "verified",
+    "note": "Resolved from 'at least 52.1% of something' in the first note."
+   },
+   {
+    "label": "Central Bank as borrower: CGA-1983 and DFA-1983",
+    "value": "US$4.4 bn and US$4.3 bn",
+    "currency": "USD",
+    "value_year": "1983",
+    "estimator": "Auditoria Cidadã",
+    "kind": "debt-absorbed",
+    "source_url": "https://auditoriacidada.org.br/conteudo/cpi-da-divida-analise-tecnica-preliminar-no-5-divida-externa-capitulo-1/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "1985 and 1986 amortisations deposited at the Central Bank",
+    "value": "US$6.8 bn (1985) and US$8.9 bn (1986)",
+    "currency": "USD",
+    "value_year": "1985-1986",
+    "estimator": "IPEA, Cavalcanti 1988",
+    "kind": "debt-absorbed",
+    "source_url": "https://repositorio.ipea.gov.br/server/api/core/bitstreams/1faac9f7-872f-4cd8-842f-baae55950e70/content",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Further estatização 1985-87",
+    "value": "explains 12% of the debt increase",
+    "currency": "",
+    "value_year": "1985-1987",
+    "estimator": "Carneiro 2002 via Meira",
+    "kind": "debt-absorbed",
+    "source_url": "https://www.abphe.org.br/arquivos/2015_suiani_meira_a-estatizacao-da-divida-externa-brasileira.pdf",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Brady operation",
+    "value": "about US$50 bn, of which US$28 bn of Central Bank liabilities transferred to the Treasury",
+    "currency": "USD",
+    "value_year": "1990s",
+    "estimator": "Auditoria Cidadã",
+    "kind": "debt-absorbed",
+    "source_url": "https://auditoriacidada.org.br/conteudo/cpi-da-divida-analise-tecnica-preliminar-no-5-divida-externa-capitulo-1/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Public sector share of external debt at peak",
+    "value": "about 80%",
+    "currency": "",
+    "value_year": "",
+    "estimator": "PUC-Rio working paper td121",
+    "kind": "other",
+    "source_url": "https://auditoriacidada.org.br/conteudo/cpi-da-divida-analise-tecnica-preliminar-no-5-divida-externa-capitulo-1/",
+    "status": "unverified",
+    "note": "The PUC-Rio URL returned 404; the claim came from a search snippet. The URL shown is a related opened source."
+   },
+   {
+    "label": "Total private debt absorbed by the Central Bank, 1979-85",
+    "value": "not found",
+    "currency": "USD",
+    "value_year": "1979-1985",
+    "estimator": "",
+    "kind": "debt-absorbed",
+    "source_url": "https://repositorio.ipea.gov.br/server/api/core/bitstreams/1faac9f7-872f-4cd8-842f-baae55950e70/content",
+    "status": "unverified",
+    "note": "No opened source gives one absorbed-debt figure; the sources give channels and shares only."
+   }
+  ],
+  "summary": "From the mid-1970s the state took over more and more of Brazil's external debt. After 1982 the Central Bank became the borrower and guarantor through deposit schemes. No source gives the total of private debt absorbed.",
+  "sources": [
+   {
+    "title": "IPEA, Cavalcanti 1988",
+    "url": "https://repositorio.ipea.gov.br/server/api/core/bitstreams/1faac9f7-872f-4cd8-842f-baae55950e70/content"
+   },
+   {
+    "title": "UFMG Nova Economia article",
+    "url": "https://revistas.face.ufmg.br/index.php/novaeconomia/article/download/2287/1232/7452"
+   },
+   {
+    "title": "Meira, ABPHE 2015: A estatização da dívida externa brasileira",
+    "url": "https://www.abphe.org.br/arquivos/2015_suiani_meira_a-estatizacao-da-divida-externa-brasileira.pdf"
+   },
+   {
+    "title": "CPDOC: Resolução 63",
+    "url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/resolucao-63"
+   },
+   {
+    "title": "Banco Central: Resolução 432/1977",
+    "url": "https://www.bcb.gov.br/pre/normativos/res/1977/pdf/res_0432_v1_O.pdf"
+   },
+   {
+    "title": "Auditoria Cidadã: CPI da Dívida, external debt",
+    "url": "https://auditoriacidada.org.br/conteudo/cpi-da-divida-analise-tecnica-preliminar-no-5-divida-externa-capitulo-1/"
+   }
+  ]
+ },
+ {
+  "id": "e3-12",
+  "year": "1971–1987",
+  "start_year": 1971,
+  "title": "Federal-highway land strips (DL 1.164/1971) and Transamazônica colonisation",
+  "era": "1964–1985 Dictatorship",
+  "government": "Médici",
+  "what": "The decree declared the public lands in a 100 km strip on each side of listed federal highways in the Amazon indispensable to security and development, i.e. federal property. The Transamazônica was listed.",
+  "who_got": "The note's link to ranches and companies is an inference (cases on SUDAM, VW and Suiá-Missu). No source gives the volume of strip land sold.",
+  "terms": "Not applicable. Art. 3 had INCRA recognise legitimate possession; Indigenous rights were reserved.",
+  "mechanism": "Decreto-Lei 1.164 of 1 Apr 1971 (terras devolutas in the Legal Amazon). Revoked by DL 2.375 of 24 Nov 1987, which removed the 'indispensable' status except in the border strip. 'Returned to the states' is not verified.",
+  "who_paid": "Indigenous peoples: a 2013 report says the road affected 29 groups, 11 of them isolated. Settlers: the plan was for about 100,000 families but no more than 8,000 were settled in the three Pará poles (Marabá, Altamira, Itaituba).",
+  "after": "Integrated Colonisation Programs closed in late 1978 after land-title conflicts.",
+  "counter_view": null,
+  "signs": [],
+  "figures": [
+   {
+    "label": "Planned versus built Transamazônica",
+    "value": "plan 8,000 km; BR-230 was 4,223 km when work stopped",
+    "currency": "",
+    "value_year": "1970-1974",
+    "estimator": "Brasil de Fato",
+    "kind": "other",
+    "source_url": "https://www.brasildefato.com.br/2017/11/14/transamazonica-45-anos-or-presenca-indigena-e-a-tabua-de-salvacao-da-floresta",
+    "status": "corrected",
+    "note": "Corrected: the note's 'about 2,300 km' is not supported by the cited page."
+   },
+   {
+    "label": "Colonisation plan versus settlers",
+    "value": "plan for about 100,000 families on 100-ha lots; no more than 8,000 settled",
+    "currency": "",
+    "value_year": "1970-1978",
+    "estimator": "Brasil de Fato",
+    "kind": "other",
+    "source_url": "https://www.brasildefato.com.br/2017/11/14/transamazonica-45-anos-or-presenca-indigena-e-a-tabua-de-salvacao-da-floresta",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Indigenous groups affected by the road",
+    "value": "29 groups, of which 11 isolated",
+    "currency": "",
+    "value_year": "2013",
+    "estimator": "IHU/iG report",
+    "kind": "other",
+    "source_url": "https://www.ihu.unisinos.br/524054",
+    "status": "verified",
+    "note": "The 11 isolated are inside the 29. The same piece is titled 'Construction of roads in the military government killed about 8,000 Indians'; that number was not checked."
+   },
+   {
+    "label": "Highway strip width",
+    "value": "100 km on each side of listed federal highways",
+    "currency": "",
+    "value_year": "1971",
+    "estimator": "Planalto / Câmara (search summary)",
+    "kind": "land-area",
+    "source_url": "https://planalto.gov.br/ccivil_03/decreto-lei/Del1164.htm",
+    "status": "unverified",
+    "note": "Planalto and Câmara pages were blocked; confirmed through search summaries only."
+   }
+  ],
+  "summary": "A 1971 decree made a 100 km strip along Amazon highways federal land. Settlement fell far short of the plan (8,000 families against 100,000). The link to private ranches is the author's inference, not shown in the sources.",
+  "sources": [
+   {
+    "title": "Decreto-Lei 1.164/1971 (Planalto)",
+    "url": "https://planalto.gov.br/ccivil_03/decreto-lei/Del1164.htm"
+   },
+   {
+    "title": "Decreto-Lei 1.164/1971 (Câmara)",
+    "url": "https://www2.camara.leg.br/legin/fed/declei/1970-1979/decreto-lei-1164-1-abril-1971-375317-publicacaooriginal-1-pe.html"
+   },
+   {
+    "title": "Brasil de Fato: Transamazônica 45 anos",
+    "url": "https://www.brasildefato.com.br/2017/11/14/transamazonica-45-anos-or-presenca-indigena-e-a-tabua-de-salvacao-da-floresta"
+   },
+   {
+    "title": "IHU: roads and Indigenous deaths",
+    "url": "https://www.ihu.unisinos.br/524054"
+   },
+   {
+    "title": "DL 2.375/1987 (Câmara)",
+    "url": "https://www2.camara.leg.br/legin/fed/declei/1980-1987/decreto-lei-2375-24-novembro-1987-365598-publicacaooriginal-1-pe.html"
+   }
+  ]
+ },
+ {
+  "id": "e3-13",
+  "year": "1973–2023",
+  "start_year": 1973,
+  "title": "Itaipu: contracts and beneficiaries",
+  "era": "1964–1985 Dictatorship",
+  "government": "Médici (treaty 1973), Geisel, Figueiredo",
+  "what": "The binational dam. Fit with 'public to private' is weak: the sources document cost and debt, not contractor margins.",
+  "who_got": "Civil works went to the Brazilian consortium Unicon (five firms) and the Paraguayan Conempa (six), 1975 contract. Unicon members per Itaipu's transparency page (Cetenco, CBPO, Camargo Corrêa, Andrade Gutierrez, Mendes Júnior) are unverified. Financed by Eletrobras (main creditor), BNDES, Banco do Brasil, and originally about 70 financiers with Treasury guarantees.",
+  "terms": "Contract prices not found.",
+  "mechanism": "Tariff 'pelo passivo': the tariff covers operating costs and debt service, so debt costs go directly to consumers.",
+  "who_paid": "Brazilian and Paraguayan consumers through the tariff. Utilities' arrears were about US$4 bn in the early 1990s, with a Paraguayan dispute over about US$4 bn of the debt.",
+  "after": "Debt paid off in Feb 2023. The 2009 deal raised Paraguay's compensation by 200% (Brazil's payments from about US$120 mn to US$360 mn a year by 2011).",
+  "counter_view": "Itaipu is a working, amortised asset (record 98,630 GWh in 2013, CPDOC). The controversy is the debt's dollar charge and the contractors' margins, which could not be documented.",
+  "signs": [],
+  "figures": [
+   {
+    "label": "Itaipu cost",
+    "value": "budget US$10.3 bn; about US$16.2 bn estimated in 1991; about US$12.5 bn nominal per Itaipu",
+    "currency": "USD",
+    "value_year": "1973-1991",
+    "estimator": "CPDOC; Gazeta do Povo",
+    "kind": "other",
+    "source_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/itaipu-binacional",
+    "status": "disputed",
+    "note": "Range US$10.3-16.2 bn; Gazeta do Povo gives about US$12.5 bn (https://www.gazetadopovo.com.br/republica/usina-itaipu-divida/)."
+   },
+   {
+    "label": "Debt in the 1997 renegotiation",
+    "value": "US$19.8 bn, of which Eletrobras US$16 bn, at 7.5% a year",
+    "currency": "USD",
+    "value_year": "1997",
+    "estimator": "CPDOC; Gazeta do Povo",
+    "kind": "debt-absorbed",
+    "source_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/itaipu-binacional",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Price of linked versus unlinked energy, 2018",
+    "value": "US$43.80/MWh versus US$6.06/MWh",
+    "currency": "USD",
+    "value_year": "2018",
+    "estimator": "Gazeta do Povo",
+    "kind": "other",
+    "source_url": "https://www.gazetadopovo.com.br/republica/usina-itaipu-divida/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Total paid over the debt's life",
+    "value": "US$63.5 bn",
+    "currency": "USD",
+    "value_year": "1973-2023",
+    "estimator": "Gazeta do Povo (snippet)",
+    "kind": "other",
+    "source_url": "https://www.gazetadopovo.com.br/republica/usina-itaipu-divida/",
+    "status": "unverified",
+    "note": "Seen in a search snippet only."
+   },
+   {
+    "label": "Unicon court award for labour-deposit refunds",
+    "value": "R$28 million",
+    "currency": "BRL",
+    "value_year": "2020s",
+    "estimator": "Lex.com.br (snippet)",
+    "kind": "other",
+    "source_url": "https://www.lex.com.br/mantida-condenacao-a-itaipu-binacional-para-ressarcir-o-consorcio-de-construtoras-unicon-em-r-28-milhoes-referentes-a-indenizacoes-trabalhistas/",
+    "status": "unverified",
+    "note": "A separate matter, not contract margins. Snippet only."
+   }
+  ],
+  "summary": "Itaipu was financed mostly by public creditors, and its debt cost goes to consumers through the tariff. The sources do not give contract prices or contractor margins, so the private-gain side is undocumented.",
+  "sources": [
+   {
+    "title": "CPDOC: Itaipu Binacional",
+    "url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/itaipu-binacional"
+   },
+   {
+    "title": "Gazeta do Povo: Itaipu debt",
+    "url": "https://www.gazetadopovo.com.br/republica/usina-itaipu-divida/"
+   },
+   {
+    "title": "Lex.com.br: Unicon award",
+    "url": "https://www.lex.com.br/mantida-condenacao-a-itaipu-binacional-para-ressarcir-o-consorcio-de-construtoras-unicon-em-r-28-milhoes-referentes-a-indenizacoes-trabalhistas/"
+   }
+  ]
+ },
+ {
+  "id": "e3-14",
+  "year": "1974–2004",
+  "start_year": 1974,
+  "title": "Tucuruí dam and subsidised power for Albras, Alunorte and Alumar",
+  "era": "1964–1985 Dictatorship",
+  "government": "Geisel and Figueiredo (setup); Lula (2004 renewal)",
+  "what": "Subsidised electricity from a state dam for Japanese-owned (Albras and Alunorte with CVRD) and Alcoa/Billiton-owned (Alumar) aluminium smelters. More than half of Tucuruí's energy goes to electro-intensive mineral industry; 64.3% of Pará's 2003 generation fed them.",
+  "who_got": "Albras and Alunorte (NAAC: 32 private firms 60% plus the Japanese government 40%; CVRD 51% in the original project; agreements 20 Jun 1978) and Alumar. Contractor Camargo Corrêa. Vale sold its Albras stake to Hydro (2011).",
+  "terms": "Original price: a 1976 protocol set a price tied to aluminium with a minimum of 8 mills/kWh; the tariff approved in Aug 1979 was 10.5 mills/kWh (blog source, no primary document). By 2004 Albras paid about R$34 (US$11-12) per MWh and Alumar almost double. After 2004 Albras won an auction at the R$53/MWh ceiling; Alumar about R$60/MWh.",
+  "mechanism": "A 1976 protocol and a 1979 tariff, with the state taking over the cost of the hydro plant (Pinto: 'o governo federal decidiu assumir completamente o custo da usina', meaning Tucuruí, not the smelter). The state energy monopoly was bent to let the Japanese hold up to a third of Eletronorte shares; they never joined the works.",
+  "who_paid": "Treasury and Eletronorte, electricity consumers (the difference falls on non-favoured consumers, mainly households), and riverside populations: 1,100 islands formed with 6,500 people on them, and compensation is still litigated.",
+  "after": "Contract renewed 1 May 2004 for 20 years (US$3.4 bn, US$170 mn a year), with profit-sharing when aluminium exceeds US$1,450/t. Eletronorte wanted US$20-22/MWh and Albras offered about US$15.",
+  "counter_view": "The design tied price to the aluminium price with a floor and later a profit-share clause, and the contracts anchored demand for a dam Eletronorte could not otherwise sell. Eletrobras filings describe the 2004 price as a floor at Tucuruí's break-even tariff plus an aluminium premium (SEC filing, page not opened, unverified). The government and Eletronorte argument that cheap power was the condition for export earnings was not found in an opened source.",
+  "signs": [
+   "below-value-price",
+   "public-money-private-control",
+   "law-rewritten-for-deal"
+  ],
+  "figures": [
+   {
+    "label": "Tucuruí construction cost",
+    "value": "US$4.5 bn (official federal admission) to US$7.5 bn (World Commission on Dams); Pinto says more than US$10 bn",
+    "currency": "USD",
+    "value_year": "",
+    "estimator": "Pinto 2012; WCD",
+    "kind": "other",
+    "source_url": "https://www.redalyc.org/pdf/3940/394034998010.pdf",
+    "status": "disputed",
+    "note": "Added by the fact-check."
+   },
+   {
+    "label": "Albras estimate and dam share, Sept 1974",
+    "value": "Albras US$2.5 bn, of which about US$700 mn for the dam",
+    "currency": "USD",
+    "value_year": "1974",
+    "estimator": "Pinto 2012",
+    "kind": "other",
+    "source_url": "https://www.redalyc.org/pdf/3940/394034998010.pdf",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Albras share of dam cost and plant budget, June 1975",
+    "value": "dam share doubled to US$1.4 bn; plant budget US$3.5 bn",
+    "currency": "USD",
+    "value_year": "1975",
+    "estimator": "Pinto 2012",
+    "kind": "other",
+    "source_url": "https://www.redalyc.org/pdf/3940/394034998010.pdf",
+    "status": "corrected",
+    "note": "Corrected wording: the federal government took over the whole cost of the hydro plant (Tucuruí), not of the smelter."
+   },
+   {
+    "label": "Tariff subsidy to the smelters up to 2004",
+    "value": "about US$2 bn (Pinto 2012); over US$3 bn for 1984-2004 (Pinto 2026)",
+    "currency": "USD",
+    "value_year": "1984-2004",
+    "estimator": "Pinto (journalist-scholar)",
+    "kind": "subsidy",
+    "source_url": "https://www.redalyc.org/pdf/3940/394034998010.pdf",
+    "status": "disputed",
+    "note": "Corrected attribution: the US$2 bn is Pinto's own estimate for Alumar plus Albras, not Eliezer Batista's (Batista only said that without corruption at Tucuruí no subsidy would have been needed). Pinto 2026 (https://lucioflaviopinto.wordpress.com/2026/05/29/a-verdadeira-historia-dol-aluminio/) says over US$3 bn, 'equal to the plant investment of US$1.8 bn'."
+   },
+   {
+    "label": "Subsidy of US$5 bn and Eletronorte losses of about US$200 mn a year",
+    "value": "US$5 bn",
+    "currency": "USD",
+    "value_year": "",
+    "estimator": "unknown snippet",
+    "kind": "subsidy",
+    "source_url": "https://www.infomet.com.br/site/noticias-ler.php?bsc=ativar&cod=20505",
+    "status": "unverified",
+    "note": "Seen in a snippet not traced to an opened page."
+   },
+   {
+    "label": "Original tariff, 1979",
+    "value": "10.5 mills/kWh (US$10.5/MWh); minimum 8 mills in the 1976 protocol",
+    "currency": "USD",
+    "value_year": "1979",
+    "estimator": "tecidosdenarrativas blog (journalist)",
+    "kind": "other",
+    "source_url": "https://tecidosdenarrativas.wordpress.com/2012/03/13/a-historia-da-albras-grande-desconhecida/",
+    "status": "unverified",
+    "note": "Blog source with no primary document. Contract dates differ: 1980 (blog) vs 1984 (Pinto 2026)."
+   },
+   {
+    "label": "Tariff before the 2004 renewal",
+    "value": "Albras about R$34 (US$11-12) per MWh; BNamericas US$12 (Albras) and US$22 (Alumar)",
+    "currency": "USD",
+    "value_year": "2004",
+    "estimator": "valeqvale; eumed; BNamericas",
+    "kind": "other",
+    "source_url": "https://valeqvale.wordpress.com/2012/09/27/o-maior-contrato-de-energia-do-brasil/",
+    "status": "disputed",
+    "note": "Pinto gives US$12 in one place and US$11 in another. BNamericas (https://bnamericas.com/en/news/large-consumers-could-be-treated-as-distributors) was not opened."
+   },
+   {
+    "label": "Albras renewed contract, 2004",
+    "value": "US$3.4 bn over 20 years (about US$11/MWh; R$53/MWh ceiling)",
+    "currency": "USD",
+    "value_year": "2004",
+    "estimator": "eumed.net; valeqvale",
+    "kind": "other",
+    "source_url": "https://www.eumed.net/cursecon/ecolat/br/17/energia-electrica-para.html",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Eletronorte debt tied to subsidised tariffs, 2004",
+    "value": "R$5.6 bn total debt, of which R$3.7 bn from subsidised tariffs; loss about R$400 mn a year",
+    "currency": "BRL",
+    "value_year": "2004",
+    "estimator": "Pinto (May 2004) via valeqvale",
+    "kind": "debt-absorbed",
+    "source_url": "https://valeqvale.wordpress.com/2012/09/27/o-maior-contrato-de-energia-do-brasil/",
+    "status": "unverified",
+    "note": "Journalistic; not independently checked."
+   },
+   {
+    "label": "Aluminium plant final cost",
+    "value": "US$1.37 bn, 6.2% over the 1980 budget",
+    "currency": "USD",
+    "value_year": "1980s",
+    "estimator": "tecidosdenarrativas blog",
+    "kind": "other",
+    "source_url": "https://tecidosdenarrativas.wordpress.com/2012/03/13/a-historia-da-albras-grande-desconhecida/",
+    "status": "unverified",
+    "note": "Blog source; the 'subsidy equals the plant' claim depends on which cost figure is used."
+   },
+   {
+    "label": "People displaced on islands formed by the reservoir",
+    "value": "1,100 islands, 6,500 people",
+    "currency": "",
+    "value_year": "",
+    "estimator": "Pinto 2012",
+    "kind": "other",
+    "source_url": "https://www.redalyc.org/pdf/3940/394034998010.pdf",
+    "status": "verified",
+    "note": ""
+   }
+  ],
+  "summary": "The state built Tucuruí and took over its cost so that aluminium smelters could buy cheap power. The size of the subsidy is only a journalist's estimate (US$2 bn to over US$3 bn). Eletronorte, other electricity consumers and riverside people bore the cost.",
+  "sources": [
+   {
+    "title": "Lúcio Flávio Pinto, Boletim Goeldi 2012",
+    "url": "https://www.redalyc.org/pdf/3940/394034998010.pdf"
+   },
+   {
+    "title": "Lúcio Flávio Pinto 2026: A verdadeira história do alumínio",
+    "url": "https://lucioflaviopinto.wordpress.com/2026/05/29/a-verdadeira-historia-dol-aluminio/"
+   },
+   {
+    "title": "eumed.net: energia elétrica para Pará",
+    "url": "https://www.eumed.net/cursecon/ecolat/br/17/energia-electrica-para.html"
+   },
+   {
+    "title": "BNamericas: large consumers (not opened)",
+    "url": "https://bnamericas.com/en/news/large-consumers-could-be-treated-as-distributors"
+   },
+   {
+    "title": "Albras (pt.wikipedia)",
+    "url": "https://pt.wikipedia.org/wiki/Albras"
+   },
+   {
+    "title": "A história da Albras (blog)",
+    "url": "https://tecidosdenarrativas.wordpress.com/2012/03/13/a-historia-da-albras-grande-desconhecida/"
+   },
+   {
+    "title": "valeqvale: o maior contrato de energia do Brasil",
+    "url": "https://valeqvale.wordpress.com/2012/09/27/o-maior-contrato-de-energia-do-brasil/"
+   },
+   {
+    "title": "Infomet",
+    "url": "https://www.infomet.com.br/site/noticias-ler.php?bsc=ativar&cod=20505"
+   },
+   {
+    "title": "Eletrobras 6-K filing (snippet only)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001439124/000129281409000877/eletrobrasfs2008_6k.htm"
+   }
+  ]
+ },
+ {
+  "id": "e3-15",
+  "year": "1974–1986",
+  "start_year": 1974,
+  "title": "Fazenda Vale do Rio Cristalino (Volkswagen), Santana do Araguaia, Pará",
+  "era": "1964–1985 Dictatorship",
+  "government": "Médici, Geisel and Figueiredo",
+  "what": "A ranch of about 139,000 ha run by VW's subsidiary Companhia Vale do Rio Cristalino, acquired in 1974, with SUDAM tax incentives and low-interest loans.",
+  "who_got": "Volkswagen, through its subsidiary. Repórter Brasil and prosecutors say it was acquired 'in a consortium with the military government'; Pública does not say 'consortium' and says it was financed by SUDAM and Banco da Amazônia (Basa). Sold in 1986 to the Matsubara group, which inherited the debts.",
+  "terms": "No original SUDAM amount found.",
+  "mechanism": "SUDAM incentives and low-interest loans.",
+  "who_paid": "Workers (forced-labour allegations 1974-86), the Treasury and the forest. About 300 officially employed; clearing was done by informal workers recruited by 'gatos', some under 18. The investigation rests on at least 42 victims and 11 witnesses.",
+  "after": "The labour prosecutor (MPT) filed a civil action in Dec 2024 seeking R$165 mn. The Redenção labour court ordered R$165 mn in collective moral damages, upheld by TRT-8. Four former workers won R$2 mn each in individual suits (12 Jun 2026). The judge rejected the time-bar argument and held VW responsible as the main shareholder. The two outcomes are separate, not conflicting.",
+  "counter_view": "Volkswagen denies responsibility for the Pará ranch, does not comment on ongoing proceedings, and has appealed (Repórter Brasil).",
+  "signs": [
+   "subsidy-or-tax-break",
+   "paid-in-paper-or-cheap-credit"
+  ],
+  "figures": [
+   {
+    "label": "Ranch size",
+    "value": "about 139,000 ha",
+    "currency": "",
+    "value_year": "1974-1986",
+    "estimator": "Pública",
+    "kind": "land-area",
+    "source_url": "https://apublica.org/2025/01/volkswagen-manteve-por-12-anos-fazenda-com-trabalho-escravo-no-pa-financiada-pela-ditadura/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Public funds received (prosecutors)",
+    "value": "US$88.5 million in today's values",
+    "currency": "USD",
+    "value_year": "",
+    "estimator": "prosecutors, via Repórter Brasil",
+    "kind": "subsidy",
+    "source_url": "https://reporterbrasil.org.br/?p=98314",
+    "status": "unverified",
+    "note": "Not found in either cited page. Repórter Brasil gives only the collective claim of US$29.2 mn. Needs the MPT complaint."
+   },
+   {
+    "label": "Collective moral damages claimed and ordered",
+    "value": "R$165 million (about US$29.2 million)",
+    "currency": "BRL",
+    "value_year": "2024-2026",
+    "estimator": "MPT; Redenção labour court; TRT-8",
+    "kind": "other",
+    "source_url": "https://www.migalhas.com.br/quentes/450902/volkswagen-pagara-r-165-mi-por-escravidao-em-fazenda-durante-ditadura",
+    "status": "verified",
+    "note": "Corrected from the earlier note that said the outcomes conflict."
+   },
+   {
+    "label": "Individual awards to four former workers",
+    "value": "R$2 million each",
+    "currency": "BRL",
+    "value_year": "2026",
+    "estimator": "Correio da Manhã",
+    "kind": "other",
+    "source_url": "https://www.correiodamanha.com.br/colunistas/fernando-molica/2026/06/293366-trabalho-escravo-volks-condenada-por-fazenda-no-pa.html",
+    "status": "verified",
+    "note": "Judge José Iraelcio de Souza de Melo Júnior."
+   },
+   {
+    "label": "Number of victims",
+    "value": "at least 42 victims and 11 witnesses in the investigation",
+    "currency": "",
+    "value_year": "1974-1986",
+    "estimator": "Pública",
+    "kind": "other",
+    "source_url": "https://apublica.org/2025/01/volkswagen-manteve-por-12-anos-fazenda-com-trabalho-escravo-no-pa-financiada-pela-ditadura/",
+    "status": "corrected",
+    "note": "Corrected: the note's 'CPT estimates at least 1,000 victims' and 'up to 1,000 workers at once' are not in the cited pages. Testimonies were collected by Fr. Ricardo Rezende Figueira (CPT)."
+   }
+  ],
+  "summary": "Volkswagen ran a 139,000 ha ranch in Pará from 1974 to 1986, backed by SUDAM incentives and cheap loans. Prosecutors say workers were held in forced labour. Courts have ordered R$165 mn in collective damages, and VW denies responsibility and has appealed.",
+  "sources": [
+   {
+    "title": "Pública: Volkswagen kept a ranch with forced labour",
+    "url": "https://apublica.org/2025/01/volkswagen-manteve-por-12-anos-fazenda-com-trabalho-escravo-no-pa-financiada-pela-ditadura/"
+   },
+   {
+    "title": "Repórter Brasil",
+    "url": "https://reporterbrasil.org.br/?p=98314"
+   },
+   {
+    "title": "Migalhas: Volkswagen pagará R$165 mi",
+    "url": "https://www.migalhas.com.br/quentes/450902/volkswagen-pagara-r-165-mi-por-escravidao-em-fazenda-durante-ditadura"
+   },
+   {
+    "title": "Correio da Manhã",
+    "url": "https://www.correiodamanha.com.br/colunistas/fernando-molica/2026/06/293366-trabalho-escravo-volks-condenada-por-fazenda-no-pa.html"
+   }
+  ]
+ },
+ {
+  "id": "e3-16",
+  "year": "1974–1993",
+  "start_year": 1974,
+  "title": "1975 Brazil-Germany nuclear deal and Nuclebrás",
+  "era": "1964–1985 Dictatorship",
+  "government": "Geisel (project run by Paulo Nogueira Batista at Nuclebrás)",
+  "what": "Two 1,300 MW reactors by 1985 with an option for six more by 1990; enrichment (jet nozzle), fuel fabrication and pilot reprocessing; up to 20% of Brazilian uranium ore to Germany. Nuclebrás was created Dec 1974; agreement signed in Bonn 27 Jun 1975. Fit with 'public to private' is weak.",
+  "who_got": "Kraftwerk Union/Siemens (reactors), German banks (loans) and Nuclep (heavy equipment, created 1975 with Germans). Contract-level terms and prices are unverified.",
+  "terms": "Value is a range of US$4-10 bn (see figures).",
+  "mechanism": "An intergovernmental agreement and state company Nuclebrás.",
+  "who_paid": "The Treasury and Eletrobras/Nuclebrás (state financing). Costs 'ballooned with little demonstrable result' (Wilson Center). Nuclebrás' total debt: not found.",
+  "after": "Scaled back from 1978. Angra 2 (planned 1985) operated only in 2000/2001. Angra 3, under construction since 1986, has consumed more than R$20 bn (DW/Forte, 2025). Of eight planned plants, one runs and one is unfinished. The jet-nozzle company was liquidated in 1993. A parliamentary inquiry (CPI) about 1978 is cited but was not opened (unverified).",
+  "counter_view": "The aim was energy security after the 1973 oil shock and the US cancelling enriched uranium for Angra 1. It became a parallel autonomous Navy enrichment programme from 1979 (Atlas FGV). Jet-nozzle enrichment was unproven (Wilson Center).",
+  "signs": [],
+  "figures": [
+   {
+    "label": "Value of the deal",
+    "value": "about US$10 bn at 1975 prices (Atlas FGV); up to DM10 bn, about US$4 bn (Gray 2012 via pt.wikipedia)",
+    "currency": "USD",
+    "value_year": "1975",
+    "estimator": "Atlas FGV; Gray 2012",
+    "kind": "other",
+    "source_url": "https://atlas.fgv.br/verbete/5722",
+    "status": "disputed",
+    "note": "The larger figure is a German export projection (DW via https://www.forte.jor.br/2025/04/14/o-fracasso-do-acordo-nuclear-entre-o-brasil-e-a-alemanha/). Gray 2012: https://pt.wikipedia.org/wiki/Programa_nuclear_brasileiro"
+   },
+   {
+    "label": "Angra 3 spending since 1986",
+    "value": "more than R$20 bn",
+    "currency": "BRL",
+    "value_year": "2025",
+    "estimator": "DW / Forte",
+    "kind": "other",
+    "source_url": "https://www.forte.jor.br/2025/04/14/o-fracasso-do-acordo-nuclear-entre-o-brasil-e-a-alemanha/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Brazil payment and German loan",
+    "value": "DM2.25 bn paid by Brazil; German loan of DM4.3 bn",
+    "currency": "DEM",
+    "value_year": "1975",
+    "estimator": "search snippet",
+    "kind": "other",
+    "source_url": "https://wilsoncenter.org/publication/brazils-1975-nuclear-agreement-west-germany",
+    "status": "unverified",
+    "note": "Seen in a snippet only."
+   }
+  ],
+  "summary": "Brazil signed a 1975 nuclear deal with West Germany worth US$4-10 bn on the sources' estimates. Costs ballooned and the programme was scaled back from 1978. Contract prices and Nuclebrás debt were not found.",
+  "sources": [
+   {
+    "title": "Atlas FGV: nuclear agreement",
+    "url": "https://atlas.fgv.br/verbete/5722"
+   },
+   {
+    "title": "Programa nuclear brasileiro (pt.wikipedia)",
+    "url": "https://pt.wikipedia.org/wiki/Programa_nuclear_brasileiro"
+   },
+   {
+    "title": "Wilson Center: Brazil's 1975 nuclear agreement",
+    "url": "https://wilsoncenter.org/publication/brazils-1975-nuclear-agreement-west-germany"
+   },
+   {
+    "title": "Forte: O fracasso do acordo nuclear",
+    "url": "https://www.forte.jor.br/2025/04/14/o-fracasso-do-acordo-nuclear-entre-o-brasil-e-a-alemanha/"
+   }
+  ]
+ },
+ {
+  "id": "e3-17",
+  "year": "1975–1989",
+  "start_year": 1975,
+  "title": "Proálcool: subsidies to sugar mills and distilleries",
+  "era": "1964–1985 Dictatorship",
+  "government": "Geisel and Figueiredo",
+  "what": "Subsidised credit to mills and distillery builders, price parity with sugar for ethanol, an obligation on Petrobras to buy all alcohol, and levies on gasoline, diesel and lubricants to cover costs.",
+  "who_got": "Mill and distillery owners (Ferro: 'usineiros inadimplentes' sustained by the public purse). Named beneficiaries and loan-level data: not found.",
+  "terms": "Credit with negative real interest, 3 years' grace and 12 years to repay (from a search snippet of a paper, unverified).",
+  "mechanism": "Subsidised credit, price parity, mandatory Petrobras purchase and fuel levies.",
+  "who_paid": "Petrobras (Conta Álcool), Banco do Brasil and the financial system, and gasoline consumers through the levies (per Ferro and biodieselbr).",
+  "after": "1989-90 supply crisis; a 'MEG' blend of 60% ethanol, 34% methanol and 6% gasoline; imports of ethanol and methanol above 1 bn litres in 1989-95. The sector is clear but the money total is not; a proper fiscal study is needed.",
+  "counter_view": "Foreign-exchange savings of about US$11.5 bn in 1975-2000 and output peaking at 12.3 bn litres in 1986-87 (biodieselbr, trade site). An FGV article reportedly says official savings claims of US$9 bn were cut to under US$3 bn by a later study (scan not readable, unverified).",
+  "signs": [
+   "paid-in-paper-or-cheap-credit",
+   "guaranteed-return"
+  ],
+  "figures": [
+   {
+    "label": "Programme cost per Deputy Fernando Ferro",
+    "value": "R$11 bn consumed and R$9 bn left as debt (R$4 bn to the financial system, R$5 bn to Petrobras)",
+    "currency": "BRL",
+    "value_year": "1996",
+    "estimator": "Fernando Ferro (PT)",
+    "kind": "subsidy",
+    "source_url": "https://adusp.org.br/wp-content/uploads/1996/08/r07a09.pdf",
+    "status": "disputed",
+    "note": "Opinion piece by an interested politician, no method. Other figures: about US$7 bn up to 1989 (website snippet) and more than US$5 bn applied 1980-2002 (snippet)."
+   },
+   {
+    "label": "Government spending up to 1989",
+    "value": "about US$7 bn",
+    "currency": "USD",
+    "value_year": "1989",
+    "estimator": "portalsaofrancisco website (snippet)",
+    "kind": "subsidy",
+    "source_url": "https://www.portalsaofrancisco.com.br/geografia/proalcool",
+    "status": "unverified",
+    "note": "Snippet only."
+   },
+   {
+    "label": "Credit applied to agriculture and industry 1980-2002",
+    "value": "more than US$5 bn",
+    "currency": "USD",
+    "value_year": "1980-2002",
+    "estimator": "ageconsearch paper (snippet)",
+    "kind": "public-finance-to-buyer",
+    "source_url": "https://ageconsearch.umn.edu/record/108140/files/189.pdf",
+    "status": "unverified",
+    "note": "Page returned 403; snippet only."
+   },
+   {
+    "label": "Foreign-exchange savings 1975-2000",
+    "value": "about US$11.5 bn",
+    "currency": "USD",
+    "value_year": "1975-2000",
+    "estimator": "biodieselbr (trade site)",
+    "kind": "other",
+    "source_url": "https://www.biodieselbr.com/proalcool/pro-alcool.htm",
+    "status": "disputed",
+    "note": "An FGV article reportedly cut an official US$9 bn savings claim to under US$3 bn (https://periodicos.fgv.br/rbe/article/download/2637/6674/16894); scan not readable, unverified."
+   }
+  ],
+  "summary": "Proálcool gave mills and distilleries cheap credit and a guaranteed buyer, paid for by Petrobras, banks and fuel consumers. The cost total is disputed and no fiscal study was found. Foreign-exchange savings are also disputed.",
+  "sources": [
+   {
+    "title": "Fernando Ferro in ADUSP, 1996",
+    "url": "https://adusp.org.br/wp-content/uploads/1996/08/r07a09.pdf"
+   },
+   {
+    "title": "biodieselbr: Proálcool",
+    "url": "https://www.biodieselbr.com/proalcool/pro-alcool.htm"
+   },
+   {
+    "title": "Ageconsearch paper (403)",
+    "url": "https://ageconsearch.umn.edu/record/108140/files/189.pdf"
+   },
+   {
+    "title": "portalsaofrancisco: Proálcool (snippet)",
+    "url": "https://www.portalsaofrancisco.com.br/geografia/proalcool"
+   },
+   {
+    "title": "FGV RBE article (scan, not readable)",
+    "url": "https://periodicos.fgv.br/rbe/article/download/2637/6674/16894"
+   },
+   {
+    "title": "Unicamp repository item (candidate fiscal study, not opened)",
+    "url": "https://www.repositorio.unicamp.br/acervo/detalhe/438155"
+   }
+  ]
+ },
+ {
+  "id": "e3-18",
+  "year": "1980–1990",
+  "start_year": 1980,
+  "title": "Programa Grande Carajás: tax regime and pig-iron smelters",
+  "era": "1964–1985 Dictatorship",
+  "government": "Figueiredo",
+  "what": "A special incentive regime for projects in a program area of about 900,000 km2 (roughly a tenth of Brazil). Ten-year income-tax exemption for firms setting up, expanding or modernising qualifying projects by 31 Dec 1985.",
+  "who_got": "Firms processing the ore; dozens of charcoal pig-iron smelters later clustered along the Carajás railway (Açailândia, MA). The ore itself was held by CVRD (state): US Steel left the AMZA joint venture in 1977 with a US$50 mn indemnity. IPI and import-duty exemptions were not confirmed.",
+  "terms": "Tax exemption; no revenue-loss figure.",
+  "mechanism": "Decreto-Lei 1.813 (24 Nov 1980); DL 1.825 (22 Dec 1980); extension to 31 Dec 1990 by DL 2.152/1984; Decreto 85.387/1980 created the approving interministerial council; Decreto 86.417/1981 (not opened) extended it to Albras-Alunorte.",
+  "who_paid": "Concentration of income and large estates; a mineral enclave for export; forest loss to charcoal.",
+  "after": "Time-limited exemptions were later extended (to 1990).",
+  "counter_view": null,
+  "signs": [
+   "subsidy-or-tax-break"
+  ],
+  "figures": [
+   {
+    "label": "Program area",
+    "value": "about 900,000 km2 (about a tenth of Brazil)",
+    "currency": "",
+    "value_year": "1980",
+    "estimator": "pt.wikipedia (Programa Grande Carajás)",
+    "kind": "land-area",
+    "source_url": "https://pt.wikipedia.org/wiki/Programa_Grande_Carajás",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Foreign financing",
+    "value": "about US$600 mn from the European Community and US$300 mn from the World Bank",
+    "currency": "USD",
+    "value_year": "1980s",
+    "estimator": "CIMI document (1986)",
+    "kind": "other",
+    "source_url": "https://acervo.socioambiental.org/sites/default/files/documents/T2D00030.pdf",
+    "status": "verified",
+    "note": "Total about US$900 mn."
+   },
+   {
+    "label": "US Steel indemnity on leaving AMZA, 1977",
+    "value": "US$50 mn",
+    "currency": "USD",
+    "value_year": "1977",
+    "estimator": "pt.wikipedia",
+    "kind": "other",
+    "source_url": "https://pt.wikipedia.org/wiki/Programa_Grande_Carajás",
+    "status": "verified",
+    "note": "Context: CVRD became sole owner of the ore."
+   },
+   {
+    "label": "Extension of the exemption to 1990 (DL 2.152/1984)",
+    "value": "extended to 31 Dec 1990",
+    "currency": "",
+    "value_year": "1984",
+    "estimator": "Senado (search summary)",
+    "kind": "other",
+    "source_url": "https://legis.senado.leg.br/norma/526260/publicacao/34620562",
+    "status": "unverified",
+    "note": "Confirmed through a search summary only."
+   }
+  ],
+  "summary": "Carajás gave a ten-year income-tax holiday to firms processing the ore, while the state kept the ore itself. Pig-iron smelters and charcoal use followed. No revenue-loss total was found.",
+  "sources": [
+   {
+    "title": "Programa Grande Carajás (pt.wikipedia)",
+    "url": "https://pt.wikipedia.org/wiki/Programa_Grande_Carajás"
+   },
+   {
+    "title": "Legisweb: DL 1.825/1980",
+    "url": "https://www.legisweb.com.br/legislacao/?id=63770"
+   },
+   {
+    "title": "Senado: Decreto 85.387/1980",
+    "url": "https://legis.senado.leg.br/norma/508027/publicacao/15645057"
+   },
+   {
+    "title": "Câmara: Decreto 86.417/1981",
+    "url": "https://www2.camara.leg.br/legin/fed/decret/1980-1987/decreto-86417-1-outubro-1981-436169-publicacaooriginal-1-pe.html"
+   },
+   {
+    "title": "CIMI document 1986",
+    "url": "https://acervo.socioambiental.org/sites/default/files/documents/T2D00030.pdf"
+   },
+   {
+    "title": "Pública: ferro-gusa",
+    "url": "https://apublica.org/2012/11/ferro-gusa-valor-desagregado/"
+   },
+   {
+    "title": "Senado: DL 2.152/1984 (search summary)",
+    "url": "https://legis.senado.leg.br/norma/526260/publicacao/34620562"
+   }
+  ]
+ },
+ {
+  "id": "e3-19",
+  "year": "1980–1985",
+  "start_year": 1980,
+  "title": "Polonoroeste / BR-364 (Rondônia and Mato Grosso)",
+  "era": "1964–1985 Dictatorship",
+  "government": "Figueiredo",
+  "what": "A programme to pave about 1,500 km of BR-364 and resettle migrants, financed with the World Bank. Mostly a state project; the private-interest angle (land speculation, ranchers following the road) is not documented in the sources. Weak fit.",
+  "who_got": "Not applicable (public programme).",
+  "terms": "Not applicable.",
+  "mechanism": "A World Bank-financed public programme.",
+  "who_paid": "Indigenous peoples and the forest. About 150,000 migrants came to Rondônia in 1984 against INCRA lots for 5,000 families (unverified). Of 55 Indigenous areas only 4 were fully protected; Rondônia had the fastest deforestation in the Amazon.",
+  "after": "The Bank suspended payments in Feb 1985, its first halt over environment and Indigenous rights. After the halt the government demarcated about 1.8 million ha.",
+  "counter_view": null,
+  "signs": [],
+  "figures": [
+   {
+    "label": "Programme size",
+    "value": "US$1.6 bn (variants US$1.55 bn and US$1.1 bn)",
+    "currency": "USD",
+    "value_year": "1980-1985",
+    "estimator": "Cultural Survival",
+    "kind": "other",
+    "source_url": "https://www.culturalsurvival.org/node/4698",
+    "status": "verified",
+    "note": "Budget variants were not found in the page (unverified)."
+   },
+   {
+    "label": "Indigenous component funds",
+    "value": "US$26 mn, of which US$19 mn unspent; 55 Indigenous areas, 4 fully protected",
+    "currency": "USD",
+    "value_year": "1980-1985",
+    "estimator": "Cultural Survival",
+    "kind": "other",
+    "source_url": "https://www.culturalsurvival.org/node/4698",
+    "status": "verified",
+    "note": "Funds alleged misused; no full accounting."
+   },
+   {
+    "label": "Migrants versus INCRA lots, 1984",
+    "value": "about 150,000 people versus lots for 5,000 families",
+    "currency": "",
+    "value_year": "1984",
+    "estimator": "Cultural Survival (as cited)",
+    "kind": "other",
+    "source_url": "https://www.culturalsurvival.org/node/4698",
+    "status": "unverified",
+    "note": "Not found in the cited page; the page says only that settlement land was far too limited."
+   }
+  ],
+  "summary": "Polonoroeste paved BR-364 with World Bank money and brought a flood of migrants to Rondônia. Indigenous protection and settlement lagged far behind. The Bank halted payments in 1985. The link to private gain is not documented.",
+  "sources": [
+   {
+    "title": "Cultural Survival on Polonoroeste",
+    "url": "https://www.culturalsurvival.org/node/4698"
+   }
+  ]
+ },
+ {
+  "id": "e3-20",
+  "year": "about 1980–1983",
+  "start_year": 1980,
+  "title": "Capemi (military pension fund): Agropecuária Capemi and Tucuruí timber",
+  "era": "1964–1985 Dictatorship",
+  "government": "Figueiredo",
+  "what": "Capemi (Caixa de Pecúlios dos Militares) set up Agropecuária Capemi to clear and sell timber in the future Tucuruí reservoir, Pará. About a quarter of the contract was executed (the same page also says 10%); the forestry agency IBDF cancelled it in March 1983.",
+  "who_got": "Agropecuária Capemi and firms linked to one person (alleged).",
+  "terms": "Financed with a US$100 mn loan from Banco Nacional de Paris, US$25 mn guaranteed by BNCC, about US$27 mn of external resources in total.",
+  "mechanism": "A pension-fund company contracted for timber clearing; state-backed guarantee.",
+  "who_paid": "The pension fund members and the state-backed guarantor. An intervention and a 1980s CPI followed (per the same page).",
+  "after": "Contract cancelled in March 1983. Weak sourcing; do not conflate with the Delfin case.",
+  "counter_view": null,
+  "signs": [
+   "conflict-of-interest-or-kickbacks"
+  ],
+  "figures": [
+   {
+    "label": "External loan",
+    "value": "US$100 mn from Banco Nacional de Paris; US$25 mn guaranteed by BNCC; about US$27 mn external resources in total",
+    "currency": "USD",
+    "value_year": "1980-1983",
+    "estimator": "grandesfraudes blog",
+    "kind": "public-finance-to-buyer",
+    "source_url": "https://grandesfraudes.wordpress.com/2016/05/11/capemi-delfimnetto/",
+    "status": "unverified",
+    "note": "Blog source (weak)."
+   },
+   {
+    "label": "Alleged diversion",
+    "value": "at least US$10 mn, possibly US$20 mn",
+    "currency": "USD",
+    "value_year": "1980-1983",
+    "estimator": "blog author's estimate",
+    "kind": "other",
+    "source_url": "https://grandesfraudes.wordpress.com/2016/05/11/capemi-delfimnetto/",
+    "status": "unverified",
+    "note": "The blog links Delfim Netto only in tags, not in the text. No bailout amount found."
+   }
+  ],
+  "summary": "A military pension fund's company held a timber-clearing contract in the future Tucuruí reservoir, backed by foreign loans and a state-linked guarantee. The only source is a blog, which alleges at least US$10 mn was diverted. Treat as unverified.",
+  "sources": [
+   {
+    "title": "Grandes Fraudes blog: Capemi",
+    "url": "https://grandesfraudes.wordpress.com/2016/05/11/capemi-delfimnetto/"
+   }
+  ]
+ },
+ {
+  "id": "e3-21",
+  "year": "1980–1992",
+  "start_year": 1980,
+  "title": "Serra Pelada (Pará)",
+  "era": "1964–1985 Dictatorship",
+  "government": "Figueiredo; reopened under Collor 1991",
+  "what": "A gold deposit on land with a CVRD claim. Docegeo (CVRD) became the monopoly gold buyer in March 1980. Weak fit: the state and CVRD managed an informal mass mine, and the miners' cooperative, not a firm, was the main private actor.",
+  "who_got": "Miners' cooperative. Major Curió was the federal controller 1980-82; Docegeo left 1984 and DNPM in 1985. Private capital came later: Colossus Minerals, bankrupt in 2013 (corruption allegations).",
+  "terms": "Not applicable.",
+  "mechanism": "A state monopoly on gold purchase (Docegeo, a Vale subsidiary).",
+  "who_paid": "About 80,000 people worked the pit. 1987 massacre on a Marabá bridge (9 confirmed dead, 79 missing).",
+  "after": "Colossus Minerals closed in 2014.",
+  "counter_view": null,
+  "signs": [
+   "exclusive-privilege"
+  ],
+  "figures": [
+   {
+    "label": "Gold output",
+    "value": "official 44.5 t; black-market estimate 360 t",
+    "currency": "",
+    "value_year": "1980-1992",
+    "estimator": "Wikipedia (Serra Pelada)",
+    "kind": "other",
+    "source_url": "https://en.wikipedia.org/wiki/Serra_Pelada",
+    "status": "disputed",
+    "note": "Other sources give 37-50 t or about 42-45 t (search summary, unverified). Peak 1983 official 17 t is also unverified."
+   },
+   {
+    "label": "People in the pit",
+    "value": "about 80,000 (peak 1984)",
+    "currency": "",
+    "value_year": "1984",
+    "estimator": "Wikipedia (Serra Pelada)",
+    "kind": "other",
+    "source_url": "https://en.wikipedia.org/wiki/Serra_Pelada",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "1987 massacre",
+    "value": "9 confirmed dead, 79 missing",
+    "currency": "",
+    "value_year": "1987",
+    "estimator": "Wikipedia (Serra Pelada)",
+    "kind": "other",
+    "source_url": "https://en.wikipedia.org/wiki/Serra_Pelada",
+    "status": "verified",
+    "note": "The official toll was first 2."
+   }
+  ],
+  "summary": "The state and CVRD ran a monopoly gold-buying system at a huge informal mine. Gold output estimates range from 44.5 t officially to 360 t on the black market. This is a weak fit for 'public assets to private'.",
+  "sources": [
+   {
+    "title": "Serra Pelada (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Serra_Pelada"
+   }
+  ]
+ },
+ {
+  "id": "e3-22",
+  "year": "1981–1989",
+  "start_year": 1981,
+  "title": "Pitinga tin mine (Paranapanema / Mineração Taboca) and the Waimiri-Atroari",
+  "era": "1964–1985 Dictatorship",
+  "government": "Figueiredo",
+  "what": "The 1981 decrees took land out of the Waimiri-Atroari reserve for tin mining and demoted it to a Temporary Restricted Area. Balbina flooded about 2,928.5 km2 of former Waimiri-Atroari land.",
+  "who_got": "Mineração Taboca (Paranapanema group), later sold to Minsur (Peru). Paranapanema, with Funai and DNPM, obtained the cut (partly confirmed).",
+  "terms": "Not found.",
+  "mechanism": "Decree 85.898 (13 Apr 1981) declared about 10,344.90 km2 (including part of the reserve) of public utility; Decree 86.630 (23 Nov 1981) removed 526,800 ha for tin mining.",
+  "who_paid": "The Waimiri-Atroari. Population fell from about 3,000 (1972) to about 1,000 (1974) and 374 (1988). Another source says about 332 in 1982-83.",
+  "after": "Reserve formally established in 1989 at about 2.59 million ha; R$1.7 mn compensation for paving in 1996.",
+  "counter_view": null,
+  "signs": [
+   "law-rewritten-for-deal"
+  ],
+  "figures": [
+   {
+    "label": "Reserve land removed for tin mining",
+    "value": "526,800 ha",
+    "currency": "",
+    "value_year": "1981",
+    "estimator": "Wikipedia (Waimiri Atroari)",
+    "kind": "land-area",
+    "source_url": "https://en.wikipedia.org/wiki/Waimiri_Atroari_Indigenous_Territory",
+    "status": "corrected",
+    "note": "Corrected: only Decree 86.630 removed 526,800 ha. Decree 85.898 declared about 10,344.90 km2 of land (including part of the reserve) of public utility."
+   },
+   {
+    "label": "Land flooded by Balbina",
+    "value": "about 2,928.5 km2",
+    "currency": "",
+    "value_year": "1980s",
+    "estimator": "Wikipedia (Waimiri Atroari)",
+    "kind": "land-area",
+    "source_url": "https://en.wikipedia.org/wiki/Waimiri_Atroari_Indigenous_Territory",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Waimiri-Atroari population",
+    "value": "about 3,000 (1972), about 1,000 (1974), 374 (1988); about 332 in 1982-83",
+    "currency": "",
+    "value_year": "1972-1988",
+    "estimator": "Funai estimates; CNV via search",
+    "kind": "other",
+    "source_url": "https://en.wikipedia.org/wiki/Waimiri_Atroari_Indigenous_Territory",
+    "status": "verified",
+    "note": "The 332 figure is partly confirmed (search only)."
+   },
+   {
+    "label": "Deaths of Waimiri-Atroari",
+    "value": "2,650 (CNV, per RIEB); 1,300-1,500 (period source)",
+    "currency": "",
+    "value_year": "1970s-1980s",
+    "estimator": "RIEB article citing CNV; period interview",
+    "kind": "other",
+    "source_url": "https://revistas.usp.br/rieb/article/download/201369/185456/573479",
+    "status": "disputed",
+    "note": "The 2,650 is confirmed in a secondary article; CNV Vol. II Texto 5 itself was not read. The 1,300-1,500 range is a search snippet only, not found in the RIEB text."
+   },
+   {
+    "label": "Reserve established 1989",
+    "value": "2,585,910 ha",
+    "currency": "",
+    "value_year": "1989",
+    "estimator": "Wikipedia (Waimiri Atroari)",
+    "kind": "land-area",
+    "source_url": "https://en.wikipedia.org/wiki/Waimiri_Atroari_Indigenous_Territory",
+    "status": "verified",
+    "note": "R$1.7 mn compensation for paving in 1996."
+   }
+  ],
+  "summary": "Two 1981 decrees cut the Waimiri-Atroari reserve to open the Pitinga tin mine. The Waimiri-Atroari population collapsed from about 3,000 to 374 by 1988. Death counts differ by source and the CNV chapter was not read directly.",
+  "sources": [
+   {
+    "title": "Waimiri Atroari Indigenous Territory (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Waimiri_Atroari_Indigenous_Territory"
+   },
+   {
+    "title": "RIEB (USP) article citing CNV",
+    "url": "https://revistas.usp.br/rieb/article/download/201369/185456/573479"
+   },
+   {
+    "title": "MPF filing AIND_5_Waimiri (not opened)",
+    "url": "https://justicadetransicao.mpf.mp.br/../../documentos-1/AIND_5_Waimiri.pdf"
+   }
+  ]
+ },
+ {
+  "id": "e3-23",
+  "year": "1981–2014",
+  "start_year": 1981,
+  "title": "Coroa-Brastel (1983)",
+  "era": "1964–1985 Dictatorship",
+  "government": "Figueiredo; ministers Delfim Netto (Planning) and Ernane Galvêas (Finance); Central Bank president Carlos Langoni",
+  "what": "Liquidity support and a Caixa Econômica Federal loan (1981) to Assis Paim Cunha's Coroa/Brastel group. The loan amount was not found. The Central Bank made 'several large liquidity injections'; Paim asked for a Cr$30 bn credit line, which forced an inspection.",
+  "who_got": "Paim's financial and brokerage group (Coroa, Brastel, and the Laureano brokerage, linked by DCM to a Golbery family connection; not a finding).",
+  "terms": "Not found.",
+  "mechanism": "Central Bank assistance lines and a Caixa loan; regulators suspended inspections. On 30 May 1983 Delfim told Langoni that Paim had liquidity problems; the Bank intervened in June 1983 and liquidated the group.",
+  "who_paid": "Letter holders lost most, since Coroa letters had no public guarantee. Later the Treasury: in March 2014 the STF's 1st panel (3-0) held the Central Bank's rescission action time-barred, leaving a judgement for brokerage PEBB of about R$400 mn to be paid by the Treasury.",
+  "after": "Paim confessed to the fake issues and got 8 years 3 months, appealing free. Delfim and Galvêas were accused of diverting funds via the Caixa loan and acquitted by the STF (pt.wikipedia says charges were filed in 1985).",
+  "counter_view": "The DCM author says it cannot be proved that Delfim directly favoured Paim, and found no wrongdoing by Langoni.",
+  "signs": [
+   "bailout",
+   "regulator-absent-or-late"
+  ],
+  "figures": [
+   {
+    "label": "Hole left by the group",
+    "value": "about US$400 mn; about 35,000 investors",
+    "currency": "USD",
+    "value_year": "1983",
+    "estimator": "DCM (opinion site); pt.wikipedia",
+    "kind": "other",
+    "source_url": "https://www.diariodocentrodomundo.com.br/delfim-netto-e-o-caso-coroa-brastel-um-dos-maiores-escandalos-financeiros-da-ditadura-que-bolsonaro-ama/",
+    "status": "disputed",
+    "note": "Author's estimate. Another estimate: R$250 mn (updated) and 34,000 people (snippet, unverified)."
+   },
+   {
+    "label": "Treasury judgement to brokerage PEBB, 2014",
+    "value": "about R$400 mn",
+    "currency": "BRL",
+    "value_year": "2014",
+    "estimator": "Jornal GGN",
+    "kind": "bailout",
+    "source_url": "https://jornalggn.com.br/justica/tesouro-devera-pagar-indenizacao-em-caso-coroa-brastel/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Credit line requested by Paim",
+    "value": "Cr$30 bn",
+    "currency": "BRL (cruzeiros)",
+    "value_year": "1983",
+    "estimator": "DCM",
+    "kind": "other",
+    "source_url": "https://www.diariodocentrodomundo.com.br/delfim-netto-e-o-caso-coroa-brastel-um-dos-maiores-escandalos-financeiros-da-ditadura-que-bolsonaro-ama/",
+    "status": "verified",
+    "note": ""
+   }
+  ],
+  "summary": "The Central Bank and the Caixa propped up the Coroa-Brastel group before its 1983 collapse. Letter holders lost most, and the Treasury later owed a judgement of about R$400 mn. Ministers were acquitted. The Caixa loan amount was not found.",
+  "sources": [
+   {
+    "title": "Diário do Centro do Mundo: Delfim Netto e o caso Coroa-Brastel",
+    "url": "https://www.diariodocentrodomundo.com.br/delfim-netto-e-o-caso-coroa-brastel-um-dos-maiores-escandalos-financeiros-da-ditadura-que-bolsonaro-ama/"
+   },
+   {
+    "title": "Escândalo Coroa Brastel (pt.wikipedia)",
+    "url": "https://pt.wikipedia.org/wiki/Esc%C3%A2ndalo_Coroa_Brastel"
+   },
+   {
+    "title": "Jornal GGN: Tesouro deverá pagar indenização",
+    "url": "https://jornalggn.com.br/justica/tesouro-devera-pagar-indenizacao-em-caso-coroa-brastel/"
+   }
+  ]
+ },
+ {
+  "id": "e3-24",
+  "year": "1982–2006",
+  "start_year": 1982,
+  "title": "Delfin (BNH) debt swap, 1982-83",
+  "era": "1964–1985 Dictatorship",
+  "government": "Figueiredo; Minister Mario Andreazza (Interior, in charge of BNH)",
+  "what": "Delfin (Ronald Levinsohn) owed the Banco Nacional da Habitação about Cr$70 bn (about US$250 mn), or Cr$77 bn at intervention. It offered two plots (Barra da Tijuca in Rio and Cotia in São Paulo) at Cr$60.8 bn.",
+  "who_got": "The Delfin group, which had about 3.5 million savings depositors. Approved with the backing of Andreazza, with Delfim Netto and Galvêas also involved (a claim of the DCM source).",
+  "terms": "BNH technicians valued the plots at about Cr$6.3 bn, roughly one-sixth of the price accepted; a BNH director resigned. Another account has the land at Cr$9.6 bn (unverified).",
+  "mechanism": "BNH settled a debt in kind. The swap came out in Folha de S.Paulo on 30 Dec 1982; depositors ran on 3 Jan 1983; the Central Bank intervened and moved accounts to Caixa. O Globo said 'irregular operations diverted Cr$6 bn' of depositors' funds.",
+  "who_paid": "BNH (a body fed by FGTS) bore the difference between debt and land value. The sources do not say how losses were finally allocated.",
+  "after": "In 1991 Levinsohn agreed to pay the rest in 13 years and, per DCM, no instalment was paid. In March 2006 the STJ accepted payment with the two plots on a 'potential value' basis (some sources say STF, unverified).",
+  "counter_view": "The defence's potential-value valuation, which the STJ accepted, treats the land as worth more once built on.",
+  "signs": [
+   "bailout"
+  ],
+  "figures": [
+   {
+    "label": "Land accepted versus BNH valuation",
+    "value": "accepted at Cr$60.8 bn; BNH valued at about Cr$6.3 bn (alternative Cr$9.6 bn)",
+    "currency": "BRL (cruzeiros)",
+    "value_year": "1982",
+    "estimator": "DCM; BNH technicians",
+    "kind": "price-gap",
+    "source_url": "https://www.diariodocentrodomundo.com.br/morre-ronald-levinsohn-protagonista-de-um-dos-maiores-casos-de-corrupcao-da-ditadura-amigo-de-jornalistas-e-de-juizes/",
+    "status": "disputed",
+    "note": "The Cr$9.6 bn valuation comes from a snippet (unverified). Valuation range Cr$6.3-9.6 bn against Cr$60.8 bn accepted."
+   },
+   {
+    "label": "Delfin debt to BNH",
+    "value": "about Cr$70 bn (about US$250 mn); Cr$77 bn at intervention",
+    "currency": "BRL (cruzeiros)",
+    "value_year": "1982-1983",
+    "estimator": "DCM",
+    "kind": "debt-absorbed",
+    "source_url": "https://www.diariodocentrodomundo.com.br/morre-ronald-levinsohn-protagonista-de-um-dos-maiores-casos-de-corrupcao-da-ditadura-amigo-de-jornalistas-e-de-juizes/",
+    "status": "verified",
+    "note": "Opinion site."
+   },
+   {
+    "label": "Savings depositors of the Delfin group",
+    "value": "about 3.5 million",
+    "currency": "",
+    "value_year": "1983",
+    "estimator": "DCM",
+    "kind": "other",
+    "source_url": "https://www.diariodocentrodomundo.com.br/morre-ronald-levinsohn-protagonista-de-um-dos-maiores-casos-de-corrupcao-da-ditadura-amigo-de-jornalistas-e-de-juizes/",
+    "status": "verified",
+    "note": ""
+   }
+  ],
+  "summary": "The BNH accepted two plots of land at Cr$60.8 bn to settle a Delfin debt of about Cr$70 bn. Its own technicians valued the land at about one-sixth of that. Courts later accepted the swap on a 'potential value' basis.",
+  "sources": [
+   {
+    "title": "Diário do Centro do Mundo: Morre Ronald Levinsohn",
+    "url": "https://www.diariodocentrodomundo.com.br/morre-ronald-levinsohn-protagonista-de-um-dos-maiores-casos-de-corrupcao-da-ditadura-amigo-de-jornalistas-e-de-juizes/"
+   }
+  ]
+ },
+ {
+  "id": "e3-25",
+  "year": "1985",
+  "start_year": 1985,
+  "title": "Sulbrasileiro, Comind, Auxiliar and Maisonnave bank failures (1985)",
+  "era": "1964–1985 Dictatorship",
+  "government": "Figueiredo to Sarney",
+  "what": "The Central Bank intervened in Sulbrasileiro on 7 Feb 1985. In May 1985 the federal government created Banco Meridional do Brasil and expropriated Sulbrasileiro's shares by decree-law. On 19 Nov 1985 Maisonnave, Comind and Auxiliar were liquidated the same day by decree-law.",
+  "who_got": "Banco Meridional received about 15,000 items: 5,000 beach plots on ten beaches and 80,000-90,000 ha of rural property. The Maisonnave group got US$20 mn from the Central Bank in a rediscount line.",
+  "terms": "Not applicable.",
+  "mechanism": "Decree-law expropriation of shares (the decree-law number 7315/1985 printed in English Wikipedia looks odd, unverified). Liquidation by decree-law is presented as the only time Sarney used one to revoke bank charters.",
+  "who_paid": "For Sulbrasileiro, taxpayers through a federally created successor (one headline says shareholders would not be compensated; unclear). For the three Nov 1985 banks, creditors and clients; the sources give no Treasury cost.",
+  "after": "A Maisonnave debt of R$406 mn was still on the books in a CMN record of 27 Nov 1997. No verified total public cost for 1983-85 bank rescues was found.",
+  "counter_view": "The Meridional solution was pushed by Rio Grande do Sul politicians, a political rescue of a regional bank rather than of owners. Comind, Auxiliar and Maisonnave were liquidated rather than rescued, so this is less a transfer than a failed rescue.",
+  "signs": [
+   "bailout"
+  ],
+  "figures": [
+   {
+    "label": "Assets passed to Banco Meridional",
+    "value": "about 15,000 items: 5,000 beach plots on ten beaches and 80,000-90,000 ha of rural property",
+    "currency": "",
+    "value_year": "1985",
+    "estimator": "Wikipedia (Banco Sulbrasileiro)",
+    "kind": "land-area",
+    "source_url": "https://en.wikipedia.org/wiki/Banco_Sulbrasileiro",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Debt of Maisonnave, Comind and Auxiliar raised abroad",
+    "value": "US$455 mn; Maisonnave got US$20 mn rediscount",
+    "currency": "USD",
+    "value_year": "1985",
+    "estimator": "pt.wikipedia (Banco Maisonnave)",
+    "kind": "debt-absorbed",
+    "source_url": "https://pt.wikipedia.org/wiki/Banco_Maisonnave",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Estimated combined deficit of the three banks",
+    "value": "6.84 trillion cruzeiros",
+    "currency": "BRL (cruzeiros)",
+    "value_year": "1985",
+    "estimator": "Jornal do Brasil 20 Nov 1985, via pt.wikipedia",
+    "kind": "other",
+    "source_url": "https://pt.wikipedia.org/wiki/Banco_Maisonnave",
+    "status": "verified",
+    "note": "A JB comment said this could have built about 390,000 low-income homes."
+   },
+   {
+    "label": "Maisonnave debt on the books, 1997",
+    "value": "R$406 mn",
+    "currency": "BRL",
+    "value_year": "1997",
+    "estimator": "CMN record via pt.wikipedia",
+    "kind": "other",
+    "source_url": "https://pt.wikipedia.org/wiki/Banco_Maisonnave",
+    "status": "verified",
+    "note": ""
+   }
+  ],
+  "summary": "In 1985 the state took over Sulbrasileiro through a new bank, Meridional, which received thousands of land and beach plots. Three other banks were liquidated. No total public cost was found.",
+  "sources": [
+   {
+    "title": "Banco Sulbrasileiro (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Banco_Sulbrasileiro"
+   },
+   {
+    "title": "Banco Maisonnave (pt.wikipedia)",
+    "url": "https://pt.wikipedia.org/wiki/Banco_Maisonnave"
+   },
+   {
+    "title": "UFRGS thesis on 1980s bank rescues (not opened)",
+    "url": "https://lume.ufrgs.br/bitstream/handle/10183/33270/000114367.pdf"
+   }
+  ]
+ },
+ {
+  "id": "e3-26",
+  "year": "1985–1990",
+  "start_year": 1985,
+  "title": "Calha Norte (1985)",
+  "era": "1964–1985 Dictatorship",
+  "government": "Sarney (the first civilian government; the plan was prepared by the dictatorship's National Security Council)",
+  "what": "A military and settlement programme on a 160 km strip along the northern borders, 6,500 km long, 1.2 million km2 (about a quarter of the Legal Amazon), 1.6 million people. Thin case: no source shows a concession of land or mining rights to a named company.",
+  "who_got": "No named beneficiary. The authors of the source say the strip holds large gold, diamond and manganese deposits and that a government survey says 40% of the region is exploited by foreign companies; this is their interpretation.",
+  "terms": "Planned budget 10,787,165 OTNs through 1990; the total spent was unknown at the time.",
+  "mechanism": "Drafted in secret in military offices, coordinated by Gen. Rubens Bayama Denys, head of the Casa Militar.",
+  "who_paid": "Cimi said the plan would affect 50,000 Indigenous people of 33 nations.",
+  "after": "A Brasil de Fato piece says the budget jumped from R$1.2 mn to R$24 mn the following year (snippet, unverified).",
+  "counter_view": "The programme's stated aims were border protection, settlement, bilateral policy and Indigenous policy (pt.wikipedia, snippet, unverified).",
+  "signs": [],
+  "figures": [
+   {
+    "label": "Planned budget through 1990",
+    "value": "10,787,165 OTNs",
+    "currency": "OTN",
+    "value_year": "1985-1990",
+    "estimator": "Teoria e Debate 1989",
+    "kind": "other",
+    "source_url": "https://fpabramo.org.br/1989/04/01/calha-norte-alem-das-fronteiras/",
+    "status": "verified",
+    "note": "Authors are critical of the project."
+   },
+   {
+    "label": "Area covered",
+    "value": "1.2 million km2, 6,500 km long, 160 km strip; 1.6 million people",
+    "currency": "",
+    "value_year": "1985",
+    "estimator": "Teoria e Debate 1989",
+    "kind": "land-area",
+    "source_url": "https://fpabramo.org.br/1989/04/01/calha-norte-alem-das-fronteiras/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Region exploited by foreign companies",
+    "value": "40%",
+    "currency": "",
+    "value_year": "1985",
+    "estimator": "government survey as cited by the authors",
+    "kind": "other",
+    "source_url": "https://fpabramo.org.br/1989/04/01/calha-norte-alem-das-fronteiras/",
+    "status": "unverified",
+    "note": "The authors' claim and interpretation."
+   },
+   {
+    "label": "Budget jump",
+    "value": "from R$1.2 mn to R$24 mn the following year",
+    "currency": "BRL",
+    "value_year": "1986",
+    "estimator": "Brasil de Fato (snippet)",
+    "kind": "other",
+    "source_url": "https://www.brasildefato.com.br/2023/12/26/ultimo-projeto-da-ditadura-mantem-sob-gestao-da-defesa-r-3-bi-para-obras-em-10-estados/",
+    "status": "unverified",
+    "note": "Snippet only."
+   }
+  ],
+  "summary": "Calha Norte was a secret military plan for the northern border strip, handed to the first civilian government. The sources do not show any land or mining right given to a named company. It is a thin case.",
+  "sources": [
+   {
+    "title": "Teoria e Debate 1989: Calha Norte além das fronteiras",
+    "url": "https://fpabramo.org.br/1989/04/01/calha-norte-alem-das-fronteiras/"
+   },
+   {
+    "title": "Brasil de Fato 2023 (snippet)",
+    "url": "https://www.brasildefato.com.br/2023/12/26/ultimo-projeto-da-ditadura-mantem-sob-gestao-da-defesa-r-3-bi-para-obras-em-10-estados/"
+   }
+  ]
+ }
+]

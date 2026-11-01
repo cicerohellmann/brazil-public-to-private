@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Nereu Ramos: president chapter</title><style>
+:root{--bg:#fbfaf7;--fg:#1d2127;--card:#fff;--line:#d9d6cd;--muted:#5d6572;--acc:#0b5d8f;
+--c1:#1f5f99;--c2:#c0620e;--c3:#2f7d4f;--c4:#7a4aa8;--tk:#37474f;--dk:#a7a29a;--shade:rgba(160,60,40,.07);--grid:#e6e3db;--xh:#d0021b;
+--rg-mon:#857596;--rg-olig:#a8813a;--rg-vd:#b0503a;--rg-mil:#8a2c2c;--rg-dem:#2c6a98;--rg-new:#4b7fa3;--rgt:#fff;
+--sv:#1e6b34;--svb:#d9f0df;--su:#7a5a00;--sub:#fff0c2;--sc:#0b5d8f;--scb:#dcecf7;--sd:#9a2a1a;--sdb:#fadcd5}
+@media (prefers-color-scheme:dark){:root{--bg:#14171b;--fg:#e6e8eb;--card:#1c2026;--line:#363c45;--muted:#a1a9b5;--acc:#7cc0ee;
+--c1:#6cb0e6;--c2:#f0a35e;--c3:#7fcf9b;--c4:#c4a0e8;--tk:#cfd8dc;--dk:#6b6760;--shade:rgba(240,120,100,.09);--grid:#2a3038;--xh:#ff6b6b;
+--rg-mon:#a593b8;--rg-olig:#c9a35a;--rg-vd:#d77a62;--rg-mil:#c25b5b;--rg-dem:#5d9fd0;--rg-new:#8ab9da;--rgt:#10141a;
+--sv:#8fd9a2;--svb:#1d3a25;--su:#f3d57a;--sub:#4a3b0c;--sc:#7cc0ee;--scb:#16304a;--sd:#f4ab9b;--sdb:#4a2018}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overflow-wrap:anywhere}
+main{max-width:1240px;margin:0 auto;padding:16px}
+h1{font-size:1.7rem;line-height:1.2;margin:.4em 0 .2em}
+h2{font-size:1.35rem;margin:0 0 .5em;border-bottom:2px solid var(--line);padding-bottom:.25em}
+h3{font-size:1.12rem;margin:1.2em 0 .4em}
+h4{font-size:1rem;margin:1.1em 0 .3em}
+h5{font-size:.85rem;margin:.8em 0 .2em;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+section,nav{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin:18px 0}
+section section{margin:14px 0;background:var(--bg)}
+section:target,tr:target{outline:3px solid #ffb454;outline-offset:8px;border-radius:8px}
+details:target,h3:target,.cap:target,.ph:target{outline:3px solid #ffb454;outline-offset:4px;border-radius:6px}
+a{color:var(--acc)}
+.lead{font-size:1.08rem}.muted{color:var(--muted)}.small{font-size:.85rem}.sub{color:var(--muted);margin:0}
+ul,ol{padding-left:1.3em}
+.toc{columns:2;column-gap:28px}.toc>li{break-inside:avoid}
+.callout{border-left:5px solid #ffb454;background:var(--bg);padding:10px 14px;border-radius:6px;margin:12px 0}
+.callout.warn{border-left-color:var(--rg-mil)}
+.pill{display:inline-block;font-size:.68rem;line-height:1;padding:2px 6px;border-radius:99px;vertical-align:middle;font-weight:600;white-space:nowrap}
+.pill.s-verified{background:var(--svb);color:var(--sv)}.pill.s-unverified{background:var(--sub);color:var(--su)}
+.pill.s-corrected{background:var(--scb);color:var(--sc)}.pill.s-disputed{background:var(--sdb);color:var(--sd)}
+table.ledger td{vertical-align:top}table.ledger td.nw{white-space:nowrap}ul.fl{margin:0;padding-left:1em}.tot{margin:.2em 0 .4em}
+.flag{display:inline-block;font-size:.68rem;padding:1px 6px;border-radius:99px;border:1px dashed var(--muted);color:var(--muted);white-space:nowrap}
+.rpill{display:inline-block;font-size:.72rem;padding:2px 8px;border-radius:99px;color:var(--rgt);font-weight:600;white-space:nowrap}
+.rpill.rg-mon{background:var(--rg-mon)}.rpill.rg-olig{background:var(--rg-olig)}.rpill.rg-vd{background:var(--rg-vd)}
+.rpill.rg-mil{background:var(--rg-mil)}.rpill.rg-dem{background:var(--rg-dem)}.rpill.rg-new{background:var(--rg-new)}
+.basis{display:inline-block;font-size:.7rem;padding:1px 6px;border-radius:4px;white-space:nowrap;font-weight:600}
+.basis.acted{background:var(--c2);color:var(--card)}.basis.inoff{border:1px solid var(--muted);color:var(--muted)}
+/* timeline */
+.tl-bar{position:sticky;top:0;z-index:5;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 10px;margin:8px 0;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center;font-size:.9rem}
+.tl-bar input{flex:1 1 220px;min-width:160px}
+.tl-bar #tl-y{font-size:1.2rem;font-variant-numeric:tabular-nums}
+.tl-box{overflow-x:auto;overflow-y:hidden;border:1px solid var(--line);border-radius:8px;background:var(--card);-webkit-overflow-scrolling:touch;padding-bottom:6px}
+.tl-inner{width:max-content}
+.tl-box svg{display:block}
+.ph{position:sticky;left:0;width:min(100%,calc(100vw - 60px));max-width:1180px;padding:10px 10px 2px;border-top:2px solid var(--line);margin-top:4px}
+.ph .pt{font-weight:700;font-size:1.02rem}
+.cap{position:sticky;left:0;width:min(100%,calc(100vw - 60px));max-width:1180px;padding:6px 10px 0;font-size:.85rem}
+.cap .ct{font-weight:600}.cap .cu{color:var(--muted)}
+.cap .cnote{margin:.1em 0 0;color:var(--muted);font-size:.8rem}
+ul.lg{list-style:none;margin:2px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:2px 16px}
+ul.lg li{white-space:normal}
+.rvw{white-space:nowrap}.rv{font-variant-numeric:tabular-nums}.rv.nd{font-weight:400;color:var(--muted)}
+svg .grid{stroke:var(--grid);stroke-width:1}svg .grid.g50{stroke:var(--line)}
+svg .shade{fill:var(--shade)}
+svg .yt{stroke:var(--grid);stroke-dasharray:2 3}
+svg .yl{fill:var(--muted);font-size:10px;text-anchor:end}
+svg .xl{fill:var(--muted);font-size:10px;text-anchor:middle}
+svg .xh{stroke:var(--xh);stroke-width:1.5;pointer-events:none}
+svg .ln{fill:none;stroke-width:2;stroke-linejoin:round}
+svg .c1{stroke:var(--c1);fill:var(--c1)}svg .c2{stroke:var(--c2);fill:var(--c2)}svg .c3{stroke:var(--c3);fill:var(--c3)}svg .c4{stroke:var(--c4);fill:var(--c4)}
+svg g .ln{fill:none}
+svg .dash .ln,svg.sw.dash line{stroke-dasharray:5 3}
+svg .pt{stroke-width:1.5}svg .pt.hol,svg.sw circle.hol{fill:var(--card)}
+svg .bar{stroke:none}
+svg.sw{vertical-align:middle}svg.sw line{stroke-width:2.5}svg.sw circle{stroke-width:1.5}
+svg .term{stroke:var(--card);stroke-width:.5}
+svg .term.rg-mon{fill:var(--rg-mon)}svg .term.rg-olig{fill:var(--rg-olig)}svg .term.rg-vd{fill:var(--rg-vd)}
+svg .term.rg-mil{fill:var(--rg-mil)}svg .term.rg-dem{fill:var(--rg-dem)}svg .term.rg-new{fill:var(--rg-new)}
+svg a:hover .term,svg a:focus .term{opacity:.75}
+svg .tl{fill:var(--rgt);font-size:10px;pointer-events:none}
+svg .tk{fill:var(--tk)}svg .dk{fill:var(--dk)}
+svg a:hover .tk,svg a:hover .dk{fill:var(--xh)}
+svg .indep{stroke:var(--xh);stroke-dasharray:3 2}
+.colony-box{overflow-x:auto;border:1px solid var(--line);border-radius:8px;padding:6px;margin:8px 0;background:var(--card)}
+/* tables and people */
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:8px;margin:8px 0;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+table.wide{min-width:820px}
+th,td{padding:6px 9px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+thead th{background:var(--bg);font-size:.78rem;text-transform:uppercase;letter-spacing:.03em}
+table.score th{width:200px;font-size:.85rem;background:transparent}
+table.ind td:first-child{min-width:180px}
+td.nw{white-space:nowrap}
+details.person{border:1px solid var(--line);border-radius:8px;margin:6px 0;background:var(--card)}
+details.person summary{cursor:pointer;padding:6px 10px}
+details.person .pbody{padding:0 12px 10px}
+ul.pl{margin:.2em 0;padding-left:1.1em}ul.pl li{margin:.3em 0}
+ul.cl li{margin:.4em 0}
+.ttoc{margin:.3em 0;line-height:1.9}.ttoc a{margin-right:6px;white-space:nowrap}
+ol.ans li{margin:.4em 0}
+details.notes summary{cursor:pointer;color:var(--acc);font-weight:600}
+details.notes li{margin:.5em 0}
+details.term-d>summary{cursor:pointer;list-style-position:inside}
+details.term-d>summary h3{display:inline;margin:0}
+@media (max-width:600px){.tl-bar{flex-wrap:nowrap;gap:6px;padding:3px 8px;margin:4px 0;font-size:.75rem;white-space:nowrap;overflow:hidden;min-height:0;height:40px;box-sizing:border-box}
+.tl-bar #tl-y{font-size:.95rem}.tl-bar #tl-t{overflow:hidden;text-overflow:ellipsis;flex:0 1 auto;min-width:0}.tl-bar #tl-c{display:none}.tl-bar input{flex:1 1 80px;min-width:60px}}
+@media (max-width:640px){main{padding:8px}section,nav{padding:12px}.toc{columns:1}table.score th{width:auto}}
+
+main{max-width:1000px}
+section{padding:22px 20px;margin:34px 0}
+h1{font-size:2.1rem}h2{font-size:1.7rem;margin-bottom:.7em}h3{font-size:1.35rem;margin:1.8em 0 .6em}h4{font-size:1.1rem;margin:1.6em 0 .4em}
+.termnav{position:sticky;top:0;z-index:6;display:flex;gap:8px;overflow-x:auto;background:var(--bg);padding:8px 2px;border-bottom:1px solid var(--line);margin:0}
+.termnav a{flex:0 0 auto;padding:8px 14px;border:2px solid var(--acc);border-radius:99px;text-decoration:none;font-weight:600;background:var(--card)}
+.termnav a:target,.termnav a:hover{background:var(--acc);color:var(--card)}
+.subnav{display:flex;flex-wrap:wrap;gap:6px 14px;margin:.4em 0 1.2em}.subnav a{font-weight:600}
+.big{font-size:1.15rem;line-height:1.7}ul.facts li{margin:.7em 0}
+.rolebar{display:flex;height:18px;border-radius:9px;overflow:hidden;border:1px solid var(--line);margin:.5em 0}
+.seg{display:block;height:100%}.r0{background:var(--c1)}.r1{background:var(--c3)}.r2{background:var(--c2)}.r3{background:var(--rg-mil)}.r4{background:var(--c4)}.r5{background:var(--dk)}
+.legend .lg{margin-right:12px;white-space:nowrap}.sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px}
+.bar{height:12px;background:var(--grid);border-radius:6px;overflow:hidden;margin:2px 0 8px}.bar span{display:block;height:100%;background:var(--c1)}
+.spark{display:block}.sp-t{fill:var(--shade);stroke:none}.sp-l{fill:none;stroke:var(--c1);stroke-width:1.5}
+html[data-x]{}.sp-t{fill:rgba(255,180,84,.35)}
+table.num td,table.num th{white-space:nowrap}table.num th[scope=row]{white-space:normal;min-width:130px}
+.kv{margin:.25em 0}.term-block{border-left:6px solid var(--acc)}
+.cmp td,.cmp th{text-align:left}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}.cards a{display:block;padding:12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);text-decoration:none}
+code{font-size:.85em}
+@media (max-width:640px){h1{font-size:1.6rem}h2{font-size:1.4rem}section{padding:14px 12px;margin:24px 0}table.num td,table.num th{white-space:normal}}
+</style></head>
+<body><main id="top"><p class="sub"><a href="index.html">← All chapters</a> · <a href="../timeline.html">Timeline</a> · <a href="../index.html">Transfer cases</a> · <a href="../disasters.html">Disasters</a></p><h1 id="title">Nereu Ramos: everything in one place</h1><nav class="termnav" id="termnav" aria-label="Jump between terms"><a href="#summary">Summary</a><a href="#term-1955">1955–1956</a><a href="#foreign">Foreign</a><a href="#gaps">Gaps</a></nav><section id="summary"><h2 id="summary-h">Nereu Ramos in one screen</h2>
+<p class="lead big"><strong>Nereu Ramos</strong> held office in 1 term: 1955–1956.</p>
+<h3 id="summary-how">How they came and left</h3><p>1955–1956: Vice president of the Senate, installed after Congress removed Luz. Left: end of term.</p>
+<h3 id="summary-facts">The biggest facts</h3><ul class="facts big"><li>0 deals signed in these terms in the ledger. Roles (started, continued, reversed) are not classified yet.</li><li>0 later disasters are linked to these deals, with 0 deaths recorded. A link is not proof of cause.</li><li>0 decision-makers are mapped to these terms in the people files.</li></ul>
+
+<p class="small muted">Plain facts from the sections below. No verdict.</p></section><nav id="contents" aria-label="Contents"><h2 id="contents-h">Contents</h2><ol class="toc"><li><a href="#summary">Summary</a></li><li><a href="#overview">All terms side by side</a></li><li><a href="#term-1955">1955–1956</a></li><li><a href="#foreign">Foreign counterparts</a></li><li><a href="#gaps">Gaps</a></li></ol></nav><section id="overview"><h2 id="overview-h">All terms side by side</h2>
+<p class="big">Counts only, not a score. Each term has its own block below.</p><div class="tw"><table class="cmp"><thead><tr><th></th><th><a href="#term-1955">1955–1956</a></th></thead><tbody><tr><th scope="row">Deals</th><td>0</td></tr><tr><th scope="row">Disasters linked</th><td>0</td></tr><tr><th scope="row">Deaths recorded</th><td>0</td></tr><tr><th scope="row">Decision-makers</th><td>0</td></tr><tr><th scope="row">Power data</th><td>being researched</td></tr></tbody></table></div>
+<h3 id="deals">Deals made under Nereu Ramos</h3><p>Jump to the deals of a term.</p><p class="subnav"><a href="#term-1955-deals">1955–1956</a></p><p class="small muted">Roles are not classified yet for this president.</p>
+<h3 id="followed-by">What followed</h3><p>0 disasters linked to these deals. A link is not proof of cause; read the chain.</p><p class="subnav"><a href="#term-1955-followed">1955–1956</a></p>
+<h3 id="power">Who could help or block Nereu Ramos</h3><p><strong>Being researched.</strong></p><p class="subnav"><a href="#term-1955-power">1955–1956</a></p>
+<h3 id="people">The people who decided</h3><p>Decision-makers per term.</p><p class="subnav"><a href="#term-1955-people">1955–1956</a></p>
+<h3 id="numbers">What they inherited and handed over</h3><p>Start and end values of the main series. This is the situation they worked in, not a score.</p><p class="subnav"><a href="#term-1955-numbers">1955–1956</a></p>
+</section><section id="term-1955" class="term-block"><h2 id="term-1955-h">Nereu Ramos, 1955–1956 <span class="flag">interim</span></h2>
+<p class="big"><strong>President.</strong> Vice president of the Senate, installed after Congress removed Luz. <strong>Left:</strong> end of term.</p><p class="small muted">Interim (81 days) under state of siege; handed over to elected Kubitschek.</p>
+<p class="subnav"><a href="#term-1955-deals">Deals</a><a href="#term-1955-followed">What followed</a><a href="#term-1955-power">Power</a><a href="#term-1955-people">People</a><a href="#term-1955-numbers">Numbers</a><a href="#top">Top</a></p>
+<h3 id="term-1955-deals">Deals, 1955–1956</h3><div class="callout"><strong>Roles are not classified yet</strong> for this president (started, continued, reversed, and so on). This is the plain ledger of deals signed in the term.</div><p class="muted">No signed deal in the data for this term.</p>
+<h3 id="term-1955-followed">What followed, 1955–1956</h3><p class="muted">No disaster is linked to these deals in the data.</p>
+<h3 id="term-1955-power">Who could help or block, 1955–1956</h3><div class="callout"><strong>Being researched.</strong> The power data for this person is not in the repository yet. Rebuilding the chapters picks it up once <code>data/power-nereu-ramos.json</code> exists.</div>
+<h3 id="term-1955-people">The people who decided, 1955–1956 (0)</h3><p class="muted">No decision-makers mapped for this term in the people files.</p>
+<h3 id="term-1955-numbers">Inherited and handed over, 1955–1956</h3><div class="tw"><table class="num"><thead><tr><th>Series</th><th>Inherited</th><th>Handed over</th><th>Change</th><th>Curve (term shaded)</th><th>Source</th></tr></thead><tbody><tr><th scope="row">Real minimum wage</th><td colspan="5" class="muted">no data for 1955 and 1955 in the series</td></tr><tr><th scope="row">Income Gini</th><td colspan="5" class="muted">no data for 1955 and 1955 in the series</td></tr><tr><th scope="row">Net public debt</th><td colspan="5" class="muted">no data for 1955 and 1955 in the series</td></tr><tr><th scope="row">Public investment</th><td colspan="5" class="muted">no data for 1955 and 1955 in the series</td></tr><tr><th scope="row">Top 1% income share</th><td colspan="5" class="muted">no data for 1955 and 1955 in the series</td></tr><tr><th scope="row">Federal state companies</th><td colspan="5" class="muted">no data for 1955 and 1955 in the series</td></tr></tbody></table></div><p class="small muted">Start = 1955 (last full year before taking office, or the start year if it began after March). End = 1955.</p><p class="callout">This is the situation they worked in, not a score.</p>
+<p class="small muted">Term sources: <a href="https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil" rel="noopener">Wikipedia: List of presidents of Brazil</a> · <a href="https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Brasil" rel="noopener">Wikipedia (pt): Lista de presidentes do Brasil</a></p></section><section id="foreign"><h2 id="foreign-h">Foreign counterparts tied to these terms</h2><p class="muted">No foreign counterpart is recorded for these cases or for the person.</p></section><section id="gaps"><h2 id="gaps-h">What is missing or unverified</h2><ul class="big"><li>1955–1956: none of the main series has data at both ends of the term.</li><li>1955–1956: no decision-makers mapped in the people files.</li><li>Deal roles (started, continued, reversed, imposed) are not classified yet.</li><li>Power data (seats, house presidents, STF, central bank, approval) is still being researched.</li><li>No foreign counterpart is recorded.</li><li>Disaster links come from text matching plus hand overrides; they show order in time, not cause.</li></ul></section></main></body></html>

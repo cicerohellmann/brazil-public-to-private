@@ -1,0 +1,1244 @@
+{
+ "terms": [
+  {
+   "id": "t-pedro-i-1822",
+   "ruler": "Pedro I",
+   "title": "Emperor",
+   "start": "1822-10-12",
+   "end": "1831-04-07",
+   "regime": "monarchy",
+   "how_came_to_power": "Hereditary: acclaimed Emperor on 12 Oct 1822, after proclaiming independence on 7 Sep 1822; no popular vote.",
+   "how_left": "resignation",
+   "party_or_base": "Braganza dynasty; Portuguese-born court circle and Brazilian landowning/merchant elite.",
+   "congress_share": null,
+   "notes": "Emperor held the moderating power under the 1824 Constitution he imposed after dissolving the Constituent Assembly; abdicated 7 Apr 1831 in favour of his 5-year-old son.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: List of monarchs of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Brazil"
+    },
+    {
+     "title": "Wikipedia: Empire of Brazil",
+     "url": "https://en.wikipedia.org/wiki/Empire_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-regencia-trina-provisoria-1831",
+   "ruler": "Provisional Triune Regency (Lima e Silva, Vergueiro, Carneiro de Campos)",
+   "title": "Regent",
+   "start": "1831-04-07",
+   "end": "1831-06-17",
+   "regime": "monarchy",
+   "how_came_to_power": "Elected by the senators and deputies present in the capital after Pedro I abdicated.",
+   "how_left": "end of term",
+   "party_or_base": "Moderate liberal and conservative politicians of the General Assembly.",
+   "congress_share": null,
+   "notes": "Interim (under 1 year). Source gives two dates (3 May and 17 Jun 1831) for the permanent regency's election; 17 Jun used.",
+   "interim": true,
+   "sources": [
+    {
+     "title": "Wikipedia: Regency period (Empire of Brazil)",
+     "url": "https://en.wikipedia.org/wiki/Regency_period_(Empire_of_Brazil)"
+    }
+   ]
+  },
+  {
+   "id": "t-regencia-trina-permanente-1831",
+   "ruler": "Permanent Triune Regency (Costa Carvalho, Bráulio Muniz, Lima e Silva)",
+   "title": "Regent",
+   "start": "1831-06-17",
+   "end": "1835-10-12",
+   "regime": "monarchy",
+   "how_came_to_power": "Elected by the General Assembly under art. 123 of the 1824 Constitution.",
+   "how_left": "end of term",
+   "party_or_base": "General Assembly majority; provincial landowning elites.",
+   "congress_share": null,
+   "notes": "The Regency was subordinate to the General Assembly; the Additional Act of 1834 created a single elected regent. End date = start of next regency.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: Regency period (Empire of Brazil)",
+     "url": "https://en.wikipedia.org/wiki/Regency_period_(Empire_of_Brazil)"
+    }
+   ]
+  },
+  {
+   "id": "t-feijo-1835",
+   "ruler": "Diogo Antônio Feijó",
+   "title": "Regent",
+   "start": "1835-10-12",
+   "end": "1837-09-19",
+   "regime": "monarchy",
+   "how_came_to_power": "Elected sole regent in 1835 with about 6,000 votes (source does not say who voted).",
+   "how_left": "resignation",
+   "party_or_base": "Liberal/moderate faction of the General Assembly.",
+   "congress_share": null,
+   "notes": "Could not form the ministry he wanted and resigned amid provincial revolts.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: Regency period (Empire of Brazil)",
+     "url": "https://en.wikipedia.org/wiki/Regency_period_(Empire_of_Brazil)"
+    }
+   ]
+  },
+  {
+   "id": "t-araujo-lima-1837",
+   "ruler": "Pedro de Araújo Lima",
+   "title": "Regent",
+   "start": "1837-09-19",
+   "end": "1840-07-23",
+   "regime": "monarchy",
+   "how_came_to_power": "Interim regent after Feijó resigned; elected sole regent in April 1838, easily beating Holanda Cavalcanti (source gives no exact start date for the elected term).",
+   "how_left": "end of term",
+   "party_or_base": "Conservative 'Regresso' faction of landowning elite.",
+   "congress_share": null,
+   "notes": "Regency ended when the Assembly declared Pedro II of age at 14 on 23 Jul 1840 (the 'Maioridade').",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: Regency period (Empire of Brazil)",
+     "url": "https://en.wikipedia.org/wiki/Regency_period_(Empire_of_Brazil)"
+    }
+   ]
+  },
+  {
+   "id": "t-pedro-ii-1840",
+   "ruler": "Pedro II",
+   "title": "Emperor",
+   "start": "1840-07-23",
+   "end": "1889-11-15",
+   "regime": "monarchy",
+   "how_came_to_power": "Hereditary; declared of age at 14 on 23 Jul 1840 (nominal emperor since 7 Apr 1831).",
+   "how_left": "coup",
+   "party_or_base": "Court, Conservative and Liberal parties alternating in office, coffee planters and slave-owning landowners.",
+   "congress_share": null,
+   "notes": "Emperor held the moderating power and chose the cabinet; deposed by a military coup on 15 Nov 1889, ending the monarchy.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: List of monarchs of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Brazil"
+    },
+    {
+     "title": "Wikipedia: Empire of Brazil",
+     "url": "https://en.wikipedia.org/wiki/Empire_of_Brazil"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-deodoro-1889",
+   "ruler": "Deodoro da Fonseca",
+   "title": "President",
+   "start": "1889-11-15",
+   "end": "1891-11-23",
+   "regime": "oligarchic republic",
+   "how_came_to_power": "Military coup of 15 Nov 1889 (head of Provisional Government); elected President by the Constituent Congress in Feb 1891.",
+   "how_left": "resignation",
+   "party_or_base": "Army officers, republican politicians; Paulista coffee planters.",
+   "congress_share": null,
+   "notes": "Resigned under pressure of the naval revolt (Revolta da Armada) after dissolving Congress.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    },
+    {
+     "title": "Wikipedia (pt): Lista de presidentes do Brasil",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Brasil"
+    }
+   ]
+  },
+  {
+   "id": "t-floriano-1891",
+   "ruler": "Floriano Peixoto",
+   "title": "President",
+   "start": "1891-11-23",
+   "end": "1894-11-15",
+   "regime": "oligarchic republic",
+   "how_came_to_power": "Succeeded as vice president after Deodoro resigned.",
+   "how_left": "end of term",
+   "party_or_base": "Army; Jacobin republicans; urban middle sectors.",
+   "congress_share": null,
+   "notes": "Called 'Marshal of Iron'; ruled by repression of rebellions; handed over to the first civilian, directly elected president.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    },
+    {
+     "title": "Wikipedia (pt): Lista de presidentes do Brasil",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Brasil"
+    }
+   ]
+  },
+  {
+   "id": "t-prudente-de-morais-1894",
+   "ruler": "Prudente de Morais",
+   "title": "President",
+   "start": "1894-11-15",
+   "end": "1898-11-15",
+   "regime": "oligarchic republic",
+   "how_came_to_power": "Direct election, 1 Mar 1894: 80.15% of votes cast (276,583; Agência Senado cites about 291,000 of 351,000). Electorate about 800,000 (5.6% of the population).",
+   "how_left": "end of term",
+   "party_or_base": "Partido Republicano Paulista (PRP): São Paulo coffee oligarchy.",
+   "congress_share": null,
+   "notes": "First civilian president; elections were not secret and had heavy fraud and low participation.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: 1894 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/1894_Brazilian_general_election"
+    },
+    {
+     "title": "Agencia Senado: first presidential election, 120 years ago (1894)",
+     "url": "https://www12.senado.leg.br/noticias/especiais/arquivo-s/na-primeira-eleicao-presidencial-ha-120-anos-brasil-teve-eleitor-de-menos-e-candidato-demais"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-campos-sales-1898",
+   "ruler": "Campos Sales",
+   "title": "President",
+   "start": "1898-11-15",
+   "end": "1902-11-15",
+   "regime": "oligarchic republic",
+   "how_came_to_power": "Direct election 1898: 90.90% of votes.",
+   "how_left": "end of term",
+   "party_or_base": "PRP: São Paulo coffee oligarchy.",
+   "congress_share": null,
+   "notes": "Created the 'politics of the governors' pact, trading federal backing for state oligarchs' support in Congress.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: 1898 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/1898_Brazilian_presidential_election"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-rodrigues-alves-1902",
+   "ruler": "Rodrigues Alves",
+   "title": "President",
+   "start": "1902-11-15",
+   "end": "1906-11-15",
+   "regime": "oligarchic republic",
+   "how_came_to_power": "Direct election 1902: 91.71% of votes.",
+   "how_left": "end of term",
+   "party_or_base": "PRP: São Paulo coffee oligarchy.",
+   "congress_share": null,
+   "notes": "Coffee-state 'café com leite' arrangement with Minas Gerais began to operate.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: 1902 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/1902_Brazilian_presidential_election"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-afonso-pena-1906",
+   "ruler": "Afonso Pena",
+   "title": "President",
+   "start": "1906-11-15",
+   "end": "1909-06-14",
+   "regime": "oligarchic republic",
+   "how_came_to_power": "Direct election 1906: 97.92% of votes.",
+   "how_left": "death",
+   "party_or_base": "Partido Republicano Mineiro (PRM): Minas Gerais oligarchy, with São Paulo.",
+   "congress_share": null,
+   "notes": "Died in office; Taubaté Agreement (1906) used public credit to buy coffee surpluses.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: 1906 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/1906_Brazilian_presidential_election"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-nilo-pecanha-1909",
+   "ruler": "Nilo Peçanha",
+   "title": "President",
+   "start": "1909-06-14",
+   "end": "1910-11-15",
+   "regime": "oligarchic republic",
+   "how_came_to_power": "Succeeded as vice president when Afonso Pena died.",
+   "how_left": "end of term",
+   "party_or_base": "Fluminense Republican Party (Rio de Janeiro state).",
+   "congress_share": null,
+   "notes": "Completed the term; the 1910 succession brought the 'civilista' campaign against the army candidate.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-hermes-da-fonseca-1910",
+   "ruler": "Hermes da Fonseca",
+   "title": "President",
+   "start": "1910-11-15",
+   "end": "1914-11-15",
+   "regime": "oligarchic republic",
+   "how_came_to_power": "Direct election 1910: 57.07% of votes (Rui Barbosa 31.49%).",
+   "how_left": "end of term",
+   "party_or_base": "Partido Republicano Conservador; Army officers backed by Minas Gerais/Rio Grande do Sul oligarchs.",
+   "congress_share": null,
+   "notes": "'Salvações' policy of intervening in states to replace local oligarchies.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: 1910 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/1910_Brazilian_presidential_election"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-venceslau-bras-1914",
+   "ruler": "Venceslau Brás",
+   "title": "President",
+   "start": "1914-11-15",
+   "end": "1918-11-15",
+   "regime": "oligarchic republic",
+   "how_came_to_power": "Direct election 1914: 91.60% of votes.",
+   "how_left": "end of term",
+   "party_or_base": "PRM: Minas Gerais oligarchy.",
+   "congress_share": null,
+   "notes": "Brazil joined WWI against Germany in 1917.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: 1914 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/1914_Brazilian_presidential_election"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-delfim-moreira-1918",
+   "ruler": "Delfim Moreira",
+   "title": "President",
+   "start": "1918-11-15",
+   "end": "1919-07-28",
+   "regime": "oligarchic republic",
+   "how_came_to_power": "Vice president who took over because the elected president Rodrigues Alves (99.06% in 1918) fell ill with Spanish flu before inauguration and died in Jan 1919.",
+   "how_left": "end of term",
+   "party_or_base": "PRM: Minas Gerais oligarchy.",
+   "congress_share": null,
+   "notes": "Interim (under 1 year); a special election was called for Apr 1919.",
+   "interim": true,
+   "sources": [
+    {
+     "title": "Wikipedia: 1918 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/1918_Brazilian_general_election"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-epitacio-pessoa-1919",
+   "ruler": "Epitácio Pessoa",
+   "title": "President",
+   "start": "1919-07-28",
+   "end": "1922-11-15",
+   "regime": "oligarchic republic",
+   "how_came_to_power": "Special direct election 1919: 71.00% of votes (Rui Barbosa 28.86%).",
+   "how_left": "end of term",
+   "party_or_base": "PR Paraíba, backed by São Paulo and Minas oligarchies.",
+   "congress_share": null,
+   "notes": "Only president from the Northeast of the Old Republic.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: 1919 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/1919_Brazilian_presidential_election"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-artur-bernardes-1922",
+   "ruler": "Artur Bernardes",
+   "title": "President",
+   "start": "1922-11-15",
+   "end": "1926-11-15",
+   "regime": "oligarchic republic",
+   "how_came_to_power": "Direct election 1922: 56.03% of votes (Nilo Peçanha 38.13%).",
+   "how_left": "end of term",
+   "party_or_base": "PRM: Minas Gerais oligarchy.",
+   "congress_share": null,
+   "notes": "Governed almost entirely under state of siege against tenentista revolts (1922, 1924).",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: 1922 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/1922_Brazilian_presidential_election"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-washington-luis-1926",
+   "ruler": "Washington Luís",
+   "title": "President",
+   "start": "1926-11-15",
+   "end": "1930-10-24",
+   "regime": "oligarchic republic",
+   "how_came_to_power": "Direct election 1926: 98.00% of votes.",
+   "how_left": "coup",
+   "party_or_base": "PRP: São Paulo coffee oligarchy.",
+   "congress_share": null,
+   "notes": "Broke the São Paulo–Minas alternation by backing Júlio Prestes (SP) in 1930; deposed by the Revolution of 1930.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: 1926 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/1926_Brazilian_presidential_election"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-junta-1930-1930",
+   "ruler": "Military junta of 1930 (Tasso Fragoso, Mena Barreto, Isaías de Noronha)",
+   "title": "Military junta",
+   "start": "1930-10-24",
+   "end": "1930-11-03",
+   "regime": "Vargas dictatorship",
+   "how_came_to_power": "Seized power by military coup, deposing Washington Luís.",
+   "how_left": "end of term",
+   "party_or_base": "Army and Navy high command.",
+   "congress_share": null,
+   "notes": "Interim (10 days); handed power to Getúlio Vargas after Rio Grande do Sul's forces advanced.",
+   "interim": true,
+   "sources": [
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    },
+    {
+     "title": "Wikipedia (pt): Lista de presidentes do Brasil",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Brasil"
+    }
+   ]
+  },
+  {
+   "id": "t-vargas-1930",
+   "ruler": "Getúlio Vargas",
+   "title": "President",
+   "start": "1930-11-03",
+   "end": "1934-07-20",
+   "regime": "Vargas dictatorship",
+   "how_came_to_power": "Head of the Provisional Government after the Revolution of 1930 (armed seizure of power; Júlio Prestes won the 1930 vote with 57.68%).",
+   "how_left": "end of term",
+   "party_or_base": "Liberal Alliance: Rio Grande do Sul and Minas oligarchs dissident from the coffee elite, tenentes and the Army.",
+   "congress_share": null,
+   "notes": "Ruled by decree without a Congress; 'provisional' until the Constituent Assembly. The Constituent Assembly elected him on 17 Jul 1934; the new constitution took effect 16 Jul 1934. Boundary date 20 Jul 1934 is approximate.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    },
+    {
+     "title": "Wikipedia: 1930 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/1930_Brazilian_general_election"
+    }
+   ]
+  },
+  {
+   "id": "t-vargas-1934",
+   "ruler": "Getúlio Vargas",
+   "title": "President",
+   "start": "1934-07-20",
+   "end": "1937-11-10",
+   "regime": "Vargas dictatorship",
+   "how_came_to_power": "Indirectly elected by the Constituent Assembly (1934).",
+   "how_left": "coup",
+   "party_or_base": "PSD-style state interventors, Army (Góis Monteiro), industrial and rural elites; Aliança Nacional Libertadora and Integralistas as opposing movements.",
+   "congress_share": null,
+   "notes": "Constitutional period under the 1934 Constitution; classed here with the Vargas era. Ended by Vargas's own self-coup (Estado Novo).",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-vargas-1937",
+   "ruler": "Getúlio Vargas",
+   "title": "President",
+   "start": "1937-11-10",
+   "end": "1945-10-29",
+   "regime": "Vargas dictatorship",
+   "how_came_to_power": "Self-coup of 10 Nov 1937 (Estado Novo); no elections held.",
+   "how_left": "coup",
+   "party_or_base": "Army high command, state interventors, DIP propaganda apparatus, industrial elite; labour unions tied to the state.",
+   "congress_share": null,
+   "notes": "Congress closed; 1937 Constitution gave the president full power; deposed by the Army on 29 Oct 1945.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    },
+    {
+     "title": "Wikipedia (pt): Lista de presidentes do Brasil",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Brasil"
+    }
+   ]
+  },
+  {
+   "id": "t-jose-linhares-1945",
+   "ruler": "José Linhares",
+   "title": "President",
+   "start": "1945-10-30",
+   "end": "1946-01-31",
+   "regime": "democracy",
+   "how_came_to_power": "President of the Supreme Court, called by the Armed Forces to take over after Vargas was deposed (pt Wikipedia gives 30 Oct; English list gives 29 Oct).",
+   "how_left": "end of term",
+   "party_or_base": "Armed Forces; judiciary.",
+   "congress_share": null,
+   "notes": "Interim (93 days); ran the transition to the Dec 1945 election.",
+   "interim": true,
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Lista de presidentes do Brasil",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Brasil"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-dutra-1946",
+   "ruler": "Eurico Gaspar Dutra",
+   "title": "President",
+   "start": "1946-01-31",
+   "end": "1951-01-31",
+   "regime": "democracy",
+   "how_came_to_power": "Direct election 1945: 55.39% of votes; electorate 7.46 million registered.",
+   "how_left": "end of term",
+   "party_or_base": "PSD with PTB support; Vargas's endorsement; Army.",
+   "congress_share": null,
+   "notes": "War minister under Vargas; outlawed the Communist Party in 1947.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: 1945 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/1945_Brazilian_general_election"
+    },
+    {
+     "title": "IBGE, Estatisticas Historicas do Brasil (2nd ed.), Secao 13 Resultados Eleitorais",
+     "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv17983_v3.pdf"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-vargas-1951",
+   "ruler": "Getúlio Vargas",
+   "title": "President",
+   "start": "1951-01-31",
+   "end": "1954-08-24",
+   "regime": "democracy",
+   "how_came_to_power": "Direct election 1950: 48.73% of votes (plurality).",
+   "how_left": "death",
+   "party_or_base": "PTB (labour), PSP, rural bases; opposed by UDN and parts of the military.",
+   "congress_share": null,
+   "notes": "Died by suicide on 24 Aug 1954 amid the crisis after the Rua Toneleros assassination attempt.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: 1950 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/1950_Brazilian_general_election"
+    },
+    {
+     "title": "IBGE, Estatisticas Historicas do Brasil (2nd ed.), Secao 13 Resultados Eleitorais",
+     "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv17983_v3.pdf"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-cafe-filho-1954",
+   "ruler": "Café Filho",
+   "title": "President",
+   "start": "1954-08-24",
+   "end": "1955-11-08",
+   "regime": "democracy",
+   "how_came_to_power": "Succeeded as vice president after Vargas's death.",
+   "how_left": "resignation",
+   "party_or_base": "PSP, aligned with UDN and conservative military.",
+   "congress_share": null,
+   "notes": "Left office on a health leave (8 Nov 1955) amid a military crisis; later blocked from returning.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    },
+    {
+     "title": "Wikipedia (pt): Lista de presidentes do Brasil",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Brasil"
+    }
+   ]
+  },
+  {
+   "id": "t-carlos-luz-1955",
+   "ruler": "Carlos Luz",
+   "title": "President",
+   "start": "1955-11-08",
+   "end": "1955-11-11",
+   "regime": "democracy",
+   "how_came_to_power": "As president of the Chamber of Deputies, assumed the presidency when Café Filho took leave.",
+   "how_left": "impeachment",
+   "party_or_base": "PSD, anti-Kubitschek conservative military.",
+   "congress_share": null,
+   "notes": "Interim (3 days); removed after War Minister Lott's preventive coup to guarantee Kubitschek's inauguration.",
+   "interim": true,
+   "sources": [
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    },
+    {
+     "title": "Wikipedia (pt): Lista de presidentes do Brasil",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Brasil"
+    }
+   ]
+  },
+  {
+   "id": "t-nereu-ramos-1955",
+   "ruler": "Nereu Ramos",
+   "title": "President",
+   "start": "1955-11-11",
+   "end": "1956-01-31",
+   "regime": "democracy",
+   "how_came_to_power": "Vice president of the Senate, installed after Congress removed Luz.",
+   "how_left": "end of term",
+   "party_or_base": "PSD; Army (Gen. Lott).",
+   "congress_share": null,
+   "notes": "Interim (81 days) under state of siege; handed over to elected Kubitschek.",
+   "interim": true,
+   "sources": [
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    },
+    {
+     "title": "Wikipedia (pt): Lista de presidentes do Brasil",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Brasil"
+    }
+   ]
+  },
+  {
+   "id": "t-juscelino-kubitschek-1956",
+   "ruler": "Juscelino Kubitschek",
+   "title": "President",
+   "start": "1956-01-31",
+   "end": "1961-01-31",
+   "regime": "democracy",
+   "how_came_to_power": "Direct election 1955: 35.68% of votes (plurality).",
+   "how_left": "end of term",
+   "party_or_base": "PSD-PTB coalition; national-developmentalism, industrial and foreign capital.",
+   "congress_share": null,
+   "notes": "'Fifty years in five' plan; built Brasília; foreign investment in car and heavy industry.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: 1955 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/1955_Brazilian_presidential_election"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-janio-quadros-1961",
+   "ruler": "Jânio Quadros",
+   "title": "President",
+   "start": "1961-01-31",
+   "end": "1961-08-25",
+   "regime": "democracy",
+   "how_came_to_power": "Direct election 1960: 48.26% of votes (plurality).",
+   "how_left": "resignation",
+   "party_or_base": "PTN with UDN support; personalist populism.",
+   "congress_share": null,
+   "notes": "Resigned after 7 months, which triggered the succession crisis.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: 1960 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/1960_Brazilian_presidential_election"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-ranieri-mazzilli-1961",
+   "ruler": "Ranieri Mazzilli",
+   "title": "President",
+   "start": "1961-08-25",
+   "end": "1961-09-07",
+   "regime": "democracy",
+   "how_came_to_power": "President of the Chamber of Deputies, interim after Quadros resigned while vice president Goulart was in China.",
+   "how_left": "end of term",
+   "party_or_base": "PSD; the three military ministers held the real power.",
+   "congress_share": null,
+   "notes": "Interim (13 days); military ministers tried to veto Goulart's succession. pt Wikipedia gives 8 Sep as end; English list 7 Sep used.",
+   "interim": true,
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Lista de presidentes do Brasil",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Brasil"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-joao-goulart-1961",
+   "ruler": "João Goulart",
+   "title": "President",
+   "start": "1961-09-07",
+   "end": "1964-04-02",
+   "regime": "democracy",
+   "how_came_to_power": "Succeeded as vice president; accepted a parliamentary system until it was reversed by plebiscite in Jan 1963.",
+   "how_left": "coup",
+   "party_or_base": "PTB, unions, nationalist left; opposed by UDN, business groups and most of the military.",
+   "congress_share": null,
+   "notes": "Deposed by the 1964 military coup after proposing base reforms (land, etc.).",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    },
+    {
+     "title": "Wikipedia (pt): Lista de presidentes do Brasil",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Brasil"
+    }
+   ]
+  },
+  {
+   "id": "t-ranieri-mazzilli-1964",
+   "ruler": "Ranieri Mazzilli",
+   "title": "President",
+   "start": "1964-04-02",
+   "end": "1964-04-15",
+   "regime": "military dictatorship",
+   "how_came_to_power": "As president of the Chamber, assumed the presidency after Goulart was deposed.",
+   "how_left": "end of term",
+   "party_or_base": "Military command (the 'Supreme Revolutionary Command') held the real power.",
+   "congress_share": null,
+   "notes": "Interim (13 days); formal figurehead.",
+   "interim": true,
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Lista de presidentes do Brasil",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Brasil"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-castelo-branco-1964",
+   "ruler": "Humberto de Alencar Castelo Branco",
+   "title": "President",
+   "start": "1964-04-15",
+   "end": "1967-03-15",
+   "regime": "military dictatorship",
+   "how_came_to_power": "Elected by the purged Congress under Institutional Act No. 1 after the coup.",
+   "how_left": "end of term",
+   "party_or_base": "Army (Sorbonne/ESG group), UDN and business technocrats.",
+   "congress_share": null,
+   "notes": "Institutional Acts abolished direct presidential elections and parties; created ARENA (government) and MDB (opposition).",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    },
+    {
+     "title": "Wikipedia (pt): Lista de presidentes do Brasil",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Brasil"
+    }
+   ]
+  },
+  {
+   "id": "t-costa-e-silva-1967",
+   "ruler": "Artur da Costa e Silva",
+   "title": "President",
+   "start": "1967-03-15",
+   "end": "1969-08-31",
+   "regime": "military dictatorship",
+   "how_came_to_power": "Indirect election by Congress (single candidate).",
+   "how_left": "resignation",
+   "party_or_base": "ARENA; Army 'hard line'.",
+   "congress_share": null,
+   "notes": "Issued AI-5 (Dec 1968), closing Congress and suspending rights; removed after a stroke.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    },
+    {
+     "title": "Wikipedia (pt): Lista de presidentes do Brasil",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Brasil"
+    }
+   ]
+  },
+  {
+   "id": "t-junta-1969-1969",
+   "ruler": "Military junta of 1969 (Lira Tavares, Souza Melo, Rademaker)",
+   "title": "Military junta",
+   "start": "1969-08-31",
+   "end": "1969-10-30",
+   "regime": "military dictatorship",
+   "how_came_to_power": "Army, Navy and Air Force ministers took power, blocking vice president Pedro Aleixo's succession.",
+   "how_left": "end of term",
+   "party_or_base": "Armed Forces ministers.",
+   "congress_share": null,
+   "notes": "Interim (60 days); no constitutional basis.",
+   "interim": true,
+   "sources": [
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    },
+    {
+     "title": "Wikipedia (pt): Lista de presidentes do Brasil",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Brasil"
+    }
+   ]
+  },
+  {
+   "id": "t-medici-1969",
+   "ruler": "Emílio Garrastazu Médici",
+   "title": "President",
+   "start": "1969-10-30",
+   "end": "1974-03-15",
+   "regime": "military dictatorship",
+   "how_came_to_power": "Chosen by the military command and ratified by Congress.",
+   "how_left": "end of term",
+   "party_or_base": "ARENA; Army hard line; business and technocrats of the 'economic miracle'.",
+   "congress_share": null,
+   "notes": "Peak of repression and censorship; strong GDP growth.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    },
+    {
+     "title": "Wikipedia (pt): Lista de presidentes do Brasil",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Brasil"
+    }
+   ]
+  },
+  {
+   "id": "t-geisel-1974",
+   "ruler": "Ernesto Geisel",
+   "title": "President",
+   "start": "1974-03-15",
+   "end": "1979-03-15",
+   "regime": "military dictatorship",
+   "how_came_to_power": "Indirect election by an electoral college.",
+   "how_left": "end of term",
+   "party_or_base": "ARENA; Army 'Sorbonne' group.",
+   "congress_share": null,
+   "notes": "Began 'slow, gradual' political opening; II National Development Plan with state-company investment.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    },
+    {
+     "title": "Wikipedia (pt): Lista de presidentes do Brasil",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Brasil"
+    }
+   ]
+  },
+  {
+   "id": "t-figueiredo-1979",
+   "ruler": "João Figueiredo",
+   "title": "President",
+   "start": "1979-03-15",
+   "end": "1985-03-15",
+   "regime": "military dictatorship",
+   "how_came_to_power": "Indirect election by an electoral college.",
+   "how_left": "end of term",
+   "party_or_base": "ARENA/PDS; Army.",
+   "congress_share": null,
+   "notes": "Amnesty law (1979); party reform (1979); debt crisis; direct elections for governors in 1982.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    },
+    {
+     "title": "Wikipedia (pt): Lista de presidentes do Brasil",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Brasil"
+    }
+   ]
+  },
+  {
+   "id": "t-sarney-1985",
+   "ruler": "José Sarney",
+   "title": "President",
+   "start": "1985-03-15",
+   "end": "1990-03-15",
+   "regime": "new republic",
+   "how_came_to_power": "Vice president on the Tancredo Neves ticket (elected by the electoral college in Jan 1985); acting from 15 Mar 1985 and president after Neves died 21 Apr 1985.",
+   "how_left": "end of term",
+   "party_or_base": "PMDB-PFL 'Democratic Alliance'.",
+   "congress_share": null,
+   "notes": "First civilian government after the dictatorship; 1988 Constitution; hyperinflation and the Cruzado plans.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    },
+    {
+     "title": "Wikipedia (pt): Lista de presidentes do Brasil",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Brasil"
+    }
+   ]
+  },
+  {
+   "id": "t-collor-1990",
+   "ruler": "Fernando Collor",
+   "title": "President",
+   "start": "1990-03-15",
+   "end": "1992-12-29",
+   "regime": "democracy",
+   "how_came_to_power": "Direct election 1989: 53.03% of votes in the 2nd round (electorate 82.07 million).",
+   "how_left": "impeachment",
+   "party_or_base": "PRN (small party built around him); business support.",
+   "congress_share": null,
+   "notes": "Resigned on 29 Dec 1992 as the Senate trial for corruption began; Senate still convicted him. Acting president Itamar from 29 Sep 1992.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: 1989 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/1989_Brazilian_presidential_election"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-itamar-franco-1992",
+   "ruler": "Itamar Franco",
+   "title": "President",
+   "start": "1992-12-29",
+   "end": "1995-01-01",
+   "regime": "democracy",
+   "how_came_to_power": "Vice president; acting from 29 Sep 1992 and president after Collor resigned.",
+   "how_left": "end of term",
+   "party_or_base": "PMDB-PSDB-PFL coalition.",
+   "congress_share": null,
+   "notes": "Real Plan (1994) launched under finance minister Fernando Henrique Cardoso.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    },
+    {
+     "title": "Wikipedia (pt): Lista de presidentes do Brasil",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Brasil"
+    }
+   ]
+  },
+  {
+   "id": "t-fhc-1995",
+   "ruler": "Fernando Henrique Cardoso",
+   "title": "President",
+   "start": "1995-01-01",
+   "end": "1999-01-01",
+   "regime": "democracy",
+   "how_came_to_power": "Direct election 1994: 54.28% in the 1st round.",
+   "how_left": "end of term",
+   "party_or_base": "PSDB-PFL-PTB coalition; financial sector and big business.",
+   "congress_share": null,
+   "notes": "Privatisation programme and Real Plan stabilisation.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: 1994 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/1994_Brazilian_general_election"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-fhc-1999",
+   "ruler": "Fernando Henrique Cardoso",
+   "title": "President",
+   "start": "1999-01-01",
+   "end": "2003-01-01",
+   "regime": "democracy",
+   "how_came_to_power": "Direct election 1998: 53.06% in the 1st round (after the 1997 constitutional amendment allowing re-election).",
+   "how_left": "end of term",
+   "party_or_base": "PSDB-PFL-PMDB-PTB coalition.",
+   "congress_share": null,
+   "notes": "Floating exchange rate (Jan 1999); privatisations continued.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: 1998 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/1998_Brazilian_general_election"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-lula-2003",
+   "ruler": "Luiz Inácio Lula da Silva",
+   "title": "President",
+   "start": "2003-01-01",
+   "end": "2007-01-01",
+   "regime": "democracy",
+   "how_came_to_power": "Direct election 2002: 61.27% in the 2nd round.",
+   "how_left": "end of term",
+   "party_or_base": "PT-led coalition (PL, PCdoB, PCB, PMN) later widened to PMDB/PP.",
+   "congress_share": null,
+   "notes": "First leftist elected president; kept fiscal orthodoxy at first.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: 2002 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/2002_Brazilian_general_election"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-lula-2007",
+   "ruler": "Luiz Inácio Lula da Silva",
+   "title": "President",
+   "start": "2007-01-01",
+   "end": "2011-01-01",
+   "regime": "democracy",
+   "how_came_to_power": "Direct election 2006: 60.83% in the 2nd round.",
+   "how_left": "end of term",
+   "party_or_base": "PT-led broad coalition including PMDB.",
+   "congress_share": null,
+   "notes": "Mensalão scandal (2005) preceded this term; commodity boom and social programmes.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: 2006 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/2006_Brazilian_general_election"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-dilma-2011",
+   "ruler": "Dilma Rousseff",
+   "title": "President",
+   "start": "2011-01-01",
+   "end": "2015-01-01",
+   "regime": "democracy",
+   "how_came_to_power": "Direct election 2010: 56.05% in the 2nd round.",
+   "how_left": "end of term",
+   "party_or_base": "PT-PMDB coalition.",
+   "congress_share": null,
+   "notes": "Lula's chosen successor.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: 2010 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/2010_Brazilian_general_election"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-dilma-2015",
+   "ruler": "Dilma Rousseff",
+   "title": "President",
+   "start": "2015-01-01",
+   "end": "2016-08-31",
+   "regime": "democracy",
+   "how_came_to_power": "Direct election 2014: 51.64% in the 2nd round.",
+   "how_left": "impeachment",
+   "party_or_base": "PT-PMDB coalition, which broke apart in 2015-16.",
+   "congress_share": null,
+   "notes": "Suspended 12 May 2016; Senate removed her 31 Aug 2016 for budget-law violations (fiscal manoeuvres).",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: 2014 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/2014_Brazilian_general_election"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-temer-2016",
+   "ruler": "Michel Temer",
+   "title": "President",
+   "start": "2016-08-31",
+   "end": "2019-01-01",
+   "regime": "democracy",
+   "how_came_to_power": "Vice president; acting president from 12 May 2016 and president after Dilma's removal.",
+   "how_left": "end of term",
+   "party_or_base": "MDB-PSDB-centrão coalition; business and financial sector.",
+   "congress_share": null,
+   "notes": "Spending-cap amendment (2016) and labour reform (2017).",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    },
+    {
+     "title": "Wikipedia (pt): Lista de presidentes do Brasil",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Brasil"
+    }
+   ]
+  },
+  {
+   "id": "t-bolsonaro-2019",
+   "ruler": "Jair Bolsonaro",
+   "title": "President",
+   "start": "2019-01-01",
+   "end": "2023-01-01",
+   "regime": "democracy",
+   "how_came_to_power": "Direct election 2018: 55.13% in the 2nd round.",
+   "how_left": "end of term",
+   "party_or_base": "PSL, then no party, then PL; agribusiness, military, evangelicals, 'centrão' parties from 2020.",
+   "congress_share": null,
+   "notes": "Lost the 2022 re-election.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: 2018 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/2018_Brazilian_general_election"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  },
+  {
+   "id": "t-lula-2023",
+   "ruler": "Luiz Inácio Lula da Silva",
+   "title": "President",
+   "start": "2023-01-01",
+   "end": null,
+   "regime": "democracy",
+   "how_came_to_power": "Direct election 2022: 50.90% in the 2nd round (narrowest margin since redemocratisation).",
+   "how_left": "end of term",
+   "party_or_base": "PT-led front incl. PSB, MDB, PSD, União Brasil (partly).",
+   "congress_share": null,
+   "notes": "Term runs to 1 Jan 2027; the Oct 2026 election result is outside this file.",
+   "interim": false,
+   "sources": [
+    {
+     "title": "Wikipedia: 2022 Brazilian election (results as reported from TSE/official counts)",
+     "url": "https://en.wikipedia.org/wiki/2022_Brazilian_general_election"
+    },
+    {
+     "title": "Wikipedia: List of presidents of Brazil",
+     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Brazil"
+    }
+   ]
+  }
+ ]
+}

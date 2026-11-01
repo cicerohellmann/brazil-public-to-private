@@ -1,0 +1,2778 @@
+[
+  {
+    "id": "d-rio-grande-do-sul-floods-2024",
+    "date": "2024",
+    "name": "Rio Grande do Sul floods and Porto Alegre flood-defence failure",
+    "place": "Rio Grande do Sul state; central Porto Alegre",
+    "type": "hydro-infrastructure",
+    "operator": "DMAE (Porto Alegre municipal water and drainage utility)",
+    "ownership": "state-owned",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "185 confirmed by the state Defesa Civil (Aug 2025), plus 23 missing. Earlier counts were 177 (June 2024) and 182 to 184. No official source gives exactly 183.",
+    "affected": "About 2.4 million residents in 478 of 497 state municipalities. In Porto Alegre, the city's own figures say 30% of the territory, 160,000 people and 93,000 homes were affected. Other counts are lower (see figures).",
+    "damage": "Gates without maintenance leaked and pumping stations stopped, so central Porto Alegre could not drain. DMAE said 11 of 23 pumps were running and 19 stopped at the peak because of flooding or electrical faults. The Guaiba peaked at 5.37 m on 5 May 2024, against 4.76 m in 1941.",
+    "legal_outcome": "No charges reported. State prosecutors (MPRS) are handling procedures. On 18 Sep 2024 the city and DMAE presented recovery plans for pump houses, gates and dikes. A city council inquiry (CPI) produced split reports. The mayor denies a maintenance failure.",
+    "summary": "Floods hit most of Rio Grande do Sul in May 2024. In Porto Alegre, the flood-defence system run by the municipal utility DMAE failed. Critics blame missing maintenance. The mayor says the 1968 design was never built for a flood this size. The company was never privatized.",
+    "figures": [
+      {
+        "label": "Deaths",
+        "value": "185 deaths, 23 missing (Defesa Civil update, 19 Aug 2025)",
+        "source_url": "https://sbtnews.sbt.com.br/noticia/brasil/rio-grande-do-sul-mortes-nas-enchentes-de-2024-chegam-a-185",
+        "status": "verified",
+        "note": "Latest figure found. The 177 (mid-June 2024) and 184 counts were seen only in search snippets."
+      },
+      {
+        "label": "Death count step 182 in July 2024",
+        "value": "182",
+        "source_url": "https://www.revistaoeste.com/brasil/rio-grande-do-sul-confirma-184-vitima-das-enchentes-de-2024/",
+        "status": "unverified",
+        "note": "The July step was not verified. No source found for exactly 183."
+      },
+      {
+        "label": "City-reported impact in Porto Alegre",
+        "value": "30% of territory, 160,000 people, 93,000 homes, 31,000 rescued",
+        "source_url": "https://sul21.com.br/?p=263760",
+        "status": "corrected",
+        "note": "Attribution corrected: these are the city's own figures from its 'Porto Alegre Forte' presentation (May 2025), not independent counts. Sul21 page failed to open (HTTP 520). '31,000' mixes rescued and assisted people."
+      },
+      {
+        "label": "Other counts of Porto Alegre impact",
+        "value": "About 157,700 people and 39,400 buildings (Jornal do Comercio, May 2024); 20,781 homes directly hit (city presentation to DNIT)",
+        "source_url": null,
+        "status": "disputed",
+        "note": "Counts differ by source and date."
+      },
+      {
+        "label": "State-wide impact",
+        "value": "About 2.4 million residents; 478 of 497 municipalities; Guaiba peak 5.37 m on 5 May 2024 vs 4.76 m in 1941",
+        "source_url": "https://sbtnews.sbt.com.br/noticia/brasil/rio-grande-do-sul-mortes-nas-enchentes-de-2024-chegam-a-185",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Gates leaked, pumps stopped",
+        "value": "Leaks mostly from gates without maintenance; urgent work (straightening gates, replacing seals) not done; 11 of 23 pumps running, 19 stopped at the peak",
+        "source_url": "https://www.cartacapital.com.br/?p=428724",
+        "status": "verified",
+        "note": "Claim by 42 engineers, architects and geologists and ex-DEP director Vicente Rauber. DMAE gave the pump numbers. Mayor Sebastiao Melo denies lack of maintenance and says the DNOS 1968 design was never adapted."
+      },
+      {
+        "label": "Ex-director on opening a gate",
+        "value": "Augusto Damiani (ex-director of DEP and DMAE): 'Eu nao teria aberto a comporta do muro'",
+        "source_url": "https://ihu.unisinos.br/639719-eu-nao-teria-aberto-as-comportas-diz-ex-diretor-do-dep-e-do-dmae",
+        "status": "verified",
+        "note": "This is about opening one wall gate during the flood, not about maintenance."
+      },
+      {
+        "label": "Repair request of R$ 60,000 disputed by DMAE",
+        "value": "R$ 60,000",
+        "source_url": "https://sul21.com.br/?p=263760",
+        "status": "unverified",
+        "note": "No source found with this amount. Documented: DMAE technicians asked for repairs after the Nov 2023 flood and the city did not act; the mayor ordered a preliminary internal inquiry."
+      },
+      {
+        "label": "R$ 11 million for gate works (2025)",
+        "value": "R$ 11 million",
+        "source_url": "https://prefeitura.poa.br/sites/default/files/usu_doc/noticias/2025/05/02/Porto%20Alegre%20Forte.pdf",
+        "status": "unverified",
+        "note": "The PDF was too large to open."
+      },
+      {
+        "label": "Legal follow-up",
+        "value": "MPRS procedures open; recovery plans presented 18 Sep 2024",
+        "source_url": "https://www.mprs.mp.br/noticias/60767/",
+        "status": "corrected",
+        "note": "Replaces 'legal outcome not found'. No conclusion or charges reported on that page."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Carta Capital",
+        "url": "https://www.cartacapital.com.br/?p=428724"
+      },
+      {
+        "title": "Sul21",
+        "url": "https://sul21.com.br/?p=263760"
+      },
+      {
+        "title": "IHU Unisinos, ex-director interview",
+        "url": "https://ihu.unisinos.br/639719-eu-nao-teria-aberto-as-comportas-diz-ex-diretor-do-dep-e-do-dmae"
+      },
+      {
+        "title": "Isto E Dinheiro",
+        "url": "https://istoedinheiro.com.br/mortes-por-enchentes-do-rio-grande-do-sul-chegam-a-177"
+      },
+      {
+        "title": "SBT News",
+        "url": "https://sbtnews.sbt.com.br/noticia/brasil/rio-grande-do-sul-mortes-nas-enchentes-de-2024-chegam-a-185"
+      },
+      {
+        "title": "Revista Oeste",
+        "url": "https://www.revistaoeste.com/brasil/rio-grande-do-sul-confirma-184-vitima-das-enchentes-de-2024/"
+      },
+      {
+        "title": "Prefeitura de Porto Alegre, Porto Alegre Forte",
+        "url": "https://prefeitura.poa.br/sites/default/files/usu_doc/noticias/2025/05/02/Porto%20Alegre%20Forte.pdf"
+      },
+      {
+        "title": "MPRS",
+        "url": "https://www.mprs.mp.br/noticias/60767/"
+      },
+      {
+        "title": "IHU Unisinos, consultants report",
+        "url": "https://ihu.unisinos.br/642690"
+      }
+    ]
+  },
+  {
+    "id": "d-amazon-drought-2023",
+    "date": "2023",
+    "name": "Amazon drought 2023-24 and the deforestation link",
+    "place": "Amazonas state (Rio Negro at Manaus, Lake Tefe); also Peru, Bolivia, Colombia, Venezuela, Ecuador",
+    "type": "land-agro",
+    "operator": "None (climate and land-use event)",
+    "ownership": "unknown",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "No human death count found. More than 140 river dolphins died in Lake Tefe (Mamiraua Institute, via Poder360).",
+    "affected": "No consolidated number found. The governor put 55 of 62 Amazonas municipalities in emergency in September 2023; 58 were in calamity or emergency by the article date.",
+    "damage": "Rio Negro at Manaus hit 13.49 m on 17 Oct 2023, the lowest since records began in 1902. Surface water in the state fell to 3.56 million ha, down 1.39 million ha from Sept 2022 (MapBiomas).",
+    "legal_outcome": "None. No court case.",
+    "summary": "A severe drought hit the Amazon from June to November 2023 and continued into 2024. The two opened studies point to climate change and El Nino, not deforestation. Local land clearing may make it worse, but no opened source measures that.",
+    "figures": [
+      {
+        "label": "Rio Negro level at Manaus",
+        "value": "13.49 m on 17 Oct 2023, lowest since 1902",
+        "source_url": "https://www.poder360.com.br/meio-ambiente/nivel-do-rio-negro-atinge-1349-metros-o-menor-da-historia/",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      },
+      {
+        "label": "River dolphins dead in Lake Tefe",
+        "value": "More than 140",
+        "source_url": "https://www.poder360.com.br/meio-ambiente/nivel-do-rio-negro-atinge-1349-metros-o-menor-da-historia/",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      },
+      {
+        "label": "Municipalities in emergency",
+        "value": "55 of 62 (September); 58 by article date",
+        "source_url": "https://www.poder360.com.br/meio-ambiente/nivel-do-rio-negro-atinge-1349-metros-o-menor-da-historia/",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      },
+      {
+        "label": "Surface water in Amazonas",
+        "value": "3.56 million ha, down 1.39 million ha from Sept 2022 (MapBiomas)",
+        "source_url": "https://www.poder360.com.br/meio-ambiente/nivel-do-rio-negro-atinge-1349-metros-o-menor-da-historia/",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      },
+      {
+        "label": "Cause",
+        "value": "World Weather Attribution: climate change made the drought up to 30 times more likely; El Nino less important. MapBiomas: El Nino plus North Atlantic warming.",
+        "source_url": "https://ihu.unisinos.br/categorias/636264-crise-climatica-e-nao-el-nino-esta-por-tras-da-seca-mais-intensa-na-amazonia-diz-estudo-de-atribuicao",
+        "status": "disputed",
+        "note": "The claim that the drought is tied to deforestation is NOT supported by these two sources. Local land clearing as an extra factor is not quantified in any opened source."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Poder360, Rio Negro level",
+        "url": "https://www.poder360.com.br/meio-ambiente/nivel-do-rio-negro-atinge-1349-metros-o-menor-da-historia/"
+      },
+      {
+        "title": "IHU Unisinos, attribution study",
+        "url": "https://ihu.unisinos.br/categorias/636264-crise-climatica-e-nao-el-nino-esta-por-tras-da-seca-mais-intensa-na-amazonia-diz-estudo-de-atribuicao"
+      }
+    ]
+  },
+  {
+    "id": "d-guapoy-massacre-2022",
+    "date": "2022-06-24",
+    "name": "Guarani-Kaiowa: Guapoy massacre and the wider killing pattern",
+    "place": "Tekoha Guapoy Mirim Tujury, Amambai, Mato Grosso do Sul",
+    "type": "land-agro",
+    "operator": "Mato Grosso do Sul military police, acting on a private landholder's claim",
+    "ownership": "private-landholders",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "1 killed: Vitor Fernandes, 42, shot by military police on 24 June 2022. Some outlets give 23 June as the start.",
+    "affected": "At least 9 wounded; about 100 riot police and a helicopter used; at least 2,000 at the funeral (per Guarani Kaiowa leaders). Statewide, 43 indigenous people were murdered in MS in 2023, second in Brazil after Roraima (47) and ahead of Amazonas (36) (CIMI via Agencia Publica).",
+    "damage": "Loss of traditional land to ranches is the core issue. CIMI counts 1,381 land processes or demands, 850 with administrative omissions. Demarcation of Panambi-Lagoa Rica (Douradina, MS), requested since 2011, is stalled.",
+    "legal_outcome": "Police acted without a reintegration-of-possession order. A state court freed three wounded people held at a police station after public defenders argued federal jurisdiction. The land is not recognised as indigenous. No conviction found.",
+    "summary": "Military police killed one Guarani Kaiowa man and wounded at least nine during an operation at Guapoy on 24 June 2022. The farm is reportedly owned by Waldir Candido Torelli. The state government called it a response to a crime against property and life. Indigenous leaders deny anyone was heavily armed.",
+    "figures": [
+      {
+        "label": "Death",
+        "value": "1 killed (Vitor Fernandes, 42)",
+        "source_url": "https://ihu.unisinos.br/?id=619944",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      },
+      {
+        "label": "Wounded and police force",
+        "value": "At least 9 wounded; about 100 riot police and a helicopter",
+        "source_url": "https://ihu.unisinos.br/?id=619944",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      },
+      {
+        "label": "Indigenous people murdered in 2023",
+        "value": "MS 43; Roraima 47; Amazonas 36",
+        "source_url": "https://apublica.org/2024/07/roraima-lidera-assassinatos-de-indigenas-com-47-mortes-diz-relatorio-do-cimi/",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      },
+      {
+        "label": "Date of the operation",
+        "value": "24 June 2022 (one outlet says 23 June)",
+        "source_url": "https://ihu.unisinos.br/?id=619944",
+        "status": "disputed",
+        "note": "Death toll and dates vary across outlets."
+      },
+      {
+        "label": "Police wounded",
+        "value": "Three officers wounded (state security secretary)",
+        "source_url": null,
+        "status": "unverified",
+        "note": "State government claim; Cenarium report found via search, not opened."
+      }
+    ],
+    "sources": [
+      {
+        "title": "IHU Unisinos",
+        "url": "https://ihu.unisinos.br/?id=619944"
+      },
+      {
+        "title": "Agencia Publica",
+        "url": "https://apublica.org/2024/07/roraima-lidera-assassinatos-de-indigenas-com-47-mortes-diz-relatorio-do-cimi/"
+      }
+    ]
+  },
+  {
+    "id": "d-petropolis-landslides-2022",
+    "date": "2022-02-15",
+    "name": "Petropolis landslides and floods",
+    "place": "Petropolis, Rio de Janeiro state",
+    "type": "hydro-infrastructure",
+    "operator": "None (municipal and state land-use and housing policy)",
+    "ownership": "unknown",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "231 to 233 depending on source. Defesa Civil Nacional gave at least 231 with 5 missing (1 Mar 2022); the Polícia Civil gave 232.",
+    "affected": "876 displaced or homeless and 5 missing (balance of 28 Feb 2022). More than 40 victims were minors.",
+    "damage": "Rain and slides began on 15 Feb 2022 (259 mm in 6 hours that night, search snippet). It was the deadliest event in the city's history; the previous worst was 1988 with 171 deaths.",
+    "legal_outcome": "Not found.",
+    "summary": "Heavy rain on 15 Feb 2022 set off landslides across Petropolis. At least 231 people died. Hillside housing was the main driver, but a 2017 plan to move about 7,000 families was never carried out, so public inaction is also named as a cause.",
+    "figures": [
+      {
+        "label": "Deaths",
+        "value": "231 to 233",
+        "source_url": "https://www.correiobraziliense.com.br/brasil/2022/03/4989369-mortos-em-petropolis-chegam-a-231-na-tragedia-mais-fatal-da-historia-da-cidade.html",
+        "status": "disputed",
+        "note": "Correio (1 Mar 2022): at least 231 per Defesa Civil Nacional, 5 missing. CUT (2 Mar): 232 per Polícia Civil (snippet)."
+      },
+      {
+        "label": "Displaced and missing",
+        "value": "876 displaced or homeless; 5 missing",
+        "source_url": "https://www.correiobraziliense.com.br/brasil/2022/03/4989369-mortos-em-petropolis-chegam-a-231-na-tragedia-mais-fatal-da-historia-da-cidade.html",
+        "status": "corrected",
+        "note": "The earlier note called these Niteroi figures. They are Petropolis figures (balance of 28 Feb 2022, 20h)."
+      },
+      {
+        "label": "Previous worst event",
+        "value": "1988, 171 deaths",
+        "source_url": "https://www.correiobraziliense.com.br/brasil/2022/03/4989369-mortos-em-petropolis-chegam-a-231-na-tragedia-mais-fatal-da-historia-da-cidade.html",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Territory at high risk (2017 municipal plan)",
+        "value": "About 20% (some sources) or 18% (city district document, Poder360)",
+        "source_url": "https://bdta.abcd.usp.br/bitstreams/78c82c31-f2c8-4ba6-baa0-2a9aeb5add45",
+        "status": "disputed",
+        "note": "Seen in search snippets; 27,704 homes in high or very high risk areas is also snippet-only."
+      },
+      {
+        "label": "Share of occurrences that were landslides",
+        "value": "86% (USP thesis)",
+        "source_url": "https://bdta.abcd.usp.br/bitstreams/78c82c31-f2c8-4ba6-baa0-2a9aeb5add45",
+        "status": "unverified",
+        "note": "The repository file was too large to open; no other source found."
+      },
+      {
+        "label": "2017 plan recommended removing about 7,000 families, never done",
+        "value": "About 7,000 families",
+        "source_url": null,
+        "status": "unverified",
+        "note": "Carta Capital, search snippet only."
+      },
+      {
+        "label": "Rain on the night of 15 Feb",
+        "value": "259 mm in 6 hours",
+        "source_url": null,
+        "status": "unverified",
+        "note": "Search snippet only."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Correio Braziliense",
+        "url": "https://www.correiobraziliense.com.br/brasil/2022/03/4989369-mortos-em-petropolis-chegam-a-231-na-tragedia-mais-fatal-da-historia-da-cidade.html"
+      },
+      {
+        "title": "CPRM technical report (host failed TLS, not opened)",
+        "url": "https://rigeo.cprm.gov.br/bitstream/doc/22668/1/Relatorio%20Tecnico%20Petropolis.pdf"
+      },
+      {
+        "title": "USP thesis on Petropolis risk",
+        "url": "https://bdta.abcd.usp.br/bitstreams/78c82c31-f2c8-4ba6-baa0-2a9aeb5add45"
+      }
+    ]
+  },
+  {
+    "id": "d-pantanal-fires-2020",
+    "date": "2020",
+    "name": "Pantanal fires",
+    "place": "Pantanal, Mato Grosso and Mato Grosso do Sul",
+    "type": "land-agro",
+    "operator": "Not established; ignition points mostly inside private properties",
+    "ownership": "private-landholders",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "Not found.",
+    "affected": "Burned area reached 21 municipalities, 2,058 properties, 16 conservation units and 6 indigenous lands (MP report, 1 Jan to 30 Nov 2020).",
+    "damage": "About 4.5 million ha burned, just over 30% of the Brazilian Pantanal. Satellite methods range from 14,307 to 44,998 km2.",
+    "legal_outcome": "Not found.",
+    "summary": "Fires burned about 30% of the Pantanal in 2020. Prosecutors found 152 of about 286 ignition points inside registered private properties, which suggests intent but does not prove it. Researchers also point to extreme drought.",
+    "figures": [
+      {
+        "label": "Burned area (MP-MS/MT)",
+        "value": "About 4.5 million ha, 1 Jan to 30 Nov 2020",
+        "source_url": "https://ecoa.org.br/wp-content/uploads/2021/06/Relatório-Geral-MP-MS_MT_Queima-Pantanal-2020.pdf",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Share of Pantanal burned",
+        "value": "44,998 km2 = about 4.5 million ha = just over 30% of the Brazilian Pantanal (about 150,000 km2)",
+        "source_url": "https://agencia.fapesp.br/em-2020-grandes-incendios-queimaram-30-da-area-do-pantanal/44693",
+        "status": "corrected",
+        "note": "Replaces the earlier '3.9 million ha per one analysis', which is not in either cited article."
+      },
+      {
+        "label": "Burned area by satellite method",
+        "value": "GABAM 14,307 km2; MapBiomas Fogo 23,372; MODIS MCD64A1 35,837; Fire_cci 36,017; new Sentinel-2 method 44,998 (about 96% accuracy)",
+        "source_url": "https://agencia.fapesp.br/em-2020-grandes-incendios-queimaram-30-da-area-do-pantanal/44693",
+        "status": "disputed",
+        "note": "Range depends on method."
+      },
+      {
+        "label": "Ignition points by land type",
+        "value": "About 286 points: 152 in registered private properties (CAR), 80 in indigenous land (mostly Kadiwéu), 53 unidentified, 1 in a conservation unit",
+        "source_url": "https://ecoa.org.br/wp-content/uploads/2021/06/Relatório-Geral-MP-MS_MT_Queima-Pantanal-2020.pdf",
+        "status": "corrected",
+        "note": "Replaces 'mostly private landholders'. Private land is about 53% of points. 57.77% of private-land ignitions were more than 200 m from power lines, roads and rivers, which the MPs call 'grande probabilidade' of intent. The report says satellite images cannot show whether fires were deliberate."
+      },
+      {
+        "label": "Drought",
+        "value": "Rainfall 26% below the 1982-2020 average; flooded area 34% below average",
+        "source_url": "https://agencia.fapesp.br/em-2020-grandes-incendios-queimaram-30-da-area-do-pantanal/44693",
+        "status": "verified",
+        "note": "FAPESP names extreme drought as a cause. The MP report also lists riverside residents, power-line sparks and cigarettes as other causes."
+      }
+    ],
+    "sources": [
+      {
+        "title": "FAPESP",
+        "url": "https://agencia.fapesp.br/em-2020-grandes-incendios-queimaram-30-da-area-do-pantanal/44693"
+      },
+      {
+        "title": "Poder360",
+        "url": "https://www.poder360.com.br/meio-ambiente/em-2020-grandes-incendios-queimaram-30-da-area-do-pantanal/"
+      },
+      {
+        "title": "MP-MS/MT report via ECOA",
+        "url": "https://ecoa.org.br/wp-content/uploads/2021/06/Relatório-Geral-MP-MS_MT_Queima-Pantanal-2020.pdf"
+      }
+    ]
+  },
+  {
+    "id": "d-dia-do-fogo-2019",
+    "date": "2019-08-10",
+    "name": "Dia do Fogo (Day of Fire)",
+    "place": "Novo Progresso and southwest Para, Amazon",
+    "type": "land-agro",
+    "operator": "Private landholders and local business people (coordination not proven)",
+    "ownership": "private-landholders",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "None listed in the sources.",
+    "affected": "Of 478 rural properties with burning, 29 got rural credit (127 operations, over R$ 200 million).",
+    "damage": "INPE hotspots jumped from 101 on 9 Aug to 715 on 10 Aug; 1,457 on 10 and 11 Aug combined (+1,923% against a year earlier).",
+    "legal_outcome": "Two MPF inquiries (opened 2019 and 2020) were archived in February and June 2024 for insufficient evidence. No one was charged.",
+    "summary": "On 10 and 11 August 2019 fires spiked around Novo Progresso, Para. Prosecutors had warned Ibama three days earlier. The inquiries ended in 2024 with no charges. Whether it was coordinated was never proven.",
+    "figures": [
+      {
+        "label": "Hotspots",
+        "value": "101 on 9 Aug; 715 on 10 Aug; 1,457 on 10-11 Aug combined",
+        "source_url": "https://www.greenpeace.org/brasil/florestas/dia-do-fogo-completa-um-ano-com-legado-de-impunidade/",
+        "status": "verified",
+        "note": "INPE data as reported by Greenpeace. Greenpeace's '707%' day-on-day is a multiplier; the real rise is about 608%."
+      },
+      {
+        "label": "Organized by WhatsApp",
+        "value": "Reported by Agencia Publica and Greenpeace",
+        "source_url": "https://www.greenpeace.org/brasil/florestas/dia-do-fogo-completa-um-ano-com-legado-de-impunidade/",
+        "status": "unverified",
+        "note": "Not stated in the Greenpeace or Publica pages opened. WhatsApp audios appear in other coverage (search results only)."
+      },
+      {
+        "label": "MPF-PA warning to Ibama",
+        "value": "Notice of 7 Aug 2019 warned of a planned burn on 10 Aug in Novo Progresso",
+        "source_url": "https://www.poder360.com.br/brasil/forca-nacional-ignorou-alerta-sobre-dia-do-fogo-mostram-documentos/",
+        "status": "verified",
+        "note": "Ibama analyst recommended inspection on 8 Aug. On 12 Aug Ibama said the Forca Nacional did not respond to support requests."
+      },
+      {
+        "label": "Federal Police inquiry opened",
+        "value": "26 Aug 2019",
+        "source_url": "https://www.poder360.com.br/brasil/forca-nacional-ignorou-alerta-sobre-dia-do-fogo-mostram-documentos/",
+        "status": "unverified",
+        "note": "Search snippet only. The Publica 2024 article does not give the opening date."
+      },
+      {
+        "label": "Inquiries archived",
+        "value": "Two MPF inquiries archived in Feb and Jun 2024, evidence insufficient",
+        "source_url": "https://apublica.org/nota/investigacoes-sobre-dia-do-fogo-na-amazonia-nao-identificaram-culpados/",
+        "status": "corrected",
+        "note": "Earlier note said 'Federal Police inquiries archived'. These are MPF inquiries. IHU says 'encerrados no 1o semestre de 2024 sem qualquer indiciamento' without naming who."
+      },
+      {
+        "label": "Civil Police of Para found no sign of coordination",
+        "value": "No sign of coordinated action in a preliminary inquiry",
+        "source_url": "https://www.poder360.com.br/brasil/forca-nacional-ignorou-alerta-sobre-dia-do-fogo-mostram-documentos/",
+        "status": "unverified",
+        "note": "Search snippet only. Another account (Outras Palavras, snippet) says the civil inquiry named no one and blamed dry weather and annual burning."
+      },
+      {
+        "label": "Fines and credit",
+        "value": "662 fines of about R$ 1.28 billion, only R$ 41 thousand paid; only 5% of properties with burning fined in 2019; 29 of 478 properties got rural credit (127 operations, over R$ 200 million)",
+        "source_url": "https://apublica.org/nota/investigacoes-sobre-dia-do-fogo-na-amazonia-nao-identificaram-culpados/",
+        "status": "verified",
+        "note": "From the Publica and Greenpeace pages."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Greenpeace Brasil",
+        "url": "https://www.greenpeace.org/brasil/florestas/dia-do-fogo-completa-um-ano-com-legado-de-impunidade/"
+      },
+      {
+        "title": "IHU Unisinos",
+        "url": "https://ihu.unisinos.br/643021-investigacoes-sobre-dia-do-fogo-sao-arquivadas-ninguem-e-responsabilizado"
+      },
+      {
+        "title": "Agencia Publica",
+        "url": "https://apublica.org/nota/investigacoes-sobre-dia-do-fogo-na-amazonia-nao-identificaram-culpados/"
+      },
+      {
+        "title": "Poder360",
+        "url": "https://www.poder360.com.br/brasil/forca-nacional-ignorou-alerta-sobre-dia-do-fogo-mostram-documentos/"
+      }
+    ]
+  },
+  {
+    "id": "d-espigao-alto-do-iguacu-paraquat-2018",
+    "date": "2018-11-07",
+    "name": "Paraquat drift at a rural school, Espigao Alto do Iguacu",
+    "place": "Boa Vista do Sao Roque community, Espigao Alto do Iguacu, Parana",
+    "type": "land-agro",
+    "operator": "Private farmer (Lino Passaia's property; a neighbour reportedly drove the sprayer)",
+    "ownership": "private-landholders",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "None reported in the article.",
+    "affected": "96 poisoned, 52 of them children, at a school shared by a municipal and a state school.",
+    "damage": "Drift reached the school, health post and homes. Spraying was at about 1 m height with booms set high. The state rule requires 500 m from schools and homes.",
+    "legal_outcome": "Adapar said it would fine the farmer. Neighbours filed a police report. The state Public Ministry said it was investigating a criminal case. No final ruling in the article.",
+    "summary": "On 7 November 2018 paraquat drifted onto a rural school in Parana and poisoned 96 people, 52 of them children. The farmer said he was not there. A fine and a criminal inquiry were announced. No ruling is reported.",
+    "figures": [
+      {
+        "label": "People poisoned",
+        "value": "96, of whom 52 children",
+        "source_url": "https://apublica.org/2018/12/contaminacao-recorde-por-agrotoxicos-no-parana-atinge-mais-de-50-criancas/",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      },
+      {
+        "label": "Pesticide poisoning cases in Parana",
+        "value": "Sinan: 113 cases in 1975-2017; state health secretariat: 4,761 victims in 2007-2017",
+        "source_url": "https://apublica.org/2018/12/contaminacao-recorde-por-agrotoxicos-no-parana-atinge-mais-de-50-criancas/",
+        "status": "disputed",
+        "note": "The two figures differ in scope; both given as in the article."
+      },
+      {
+        "label": "Legal outcome",
+        "value": "Fine announced; criminal case under investigation",
+        "source_url": "https://apublica.org/2018/12/contaminacao-recorde-por-agrotoxicos-no-parana-atinge-mais-de-50-criancas/",
+        "status": "unverified",
+        "note": "No final ruling in the article."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Agencia Publica",
+        "url": "https://apublica.org/2018/12/contaminacao-recorde-por-agrotoxicos-no-parana-atinge-mais-de-50-criancas/"
+      }
+    ]
+  },
+  {
+    "id": "d-munduruku-teles-pires-2017",
+    "date": "2017-10-13",
+    "name": "Munduruku standoff against the Teles Pires and Sao Manoel dams",
+    "place": "Teles Pires river, border of Mato Grosso and Para",
+    "type": "hydro-infrastructure",
+    "operator": "Teles Pires: Eletrosul, Furnas, Odebrecht, Neoenergia. Sao Manoel: EDP Brasil, Furnas, China Three Gorges.",
+    "ownership": "private-concession",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": "Private consortia hold the concessions; some members are state-owned (Eletrosul, Furnas, both Eletrobras-controlled). Concession year not stated in the sources.",
+    "deaths": "None found.",
+    "affected": "The Munduruku number more than 13,000 in 112 villages. MPF says four indigenous peoples are affected by the Teles Pires dams.",
+    "damage": "The Karobixexe (Sete Quedas) rapids were dynamited. 12 sacred urns were moved to a company-run museum in Alta Floresta. Sao Manoel destroyed Dekoka'a (Morro dos Macacos).",
+    "legal_outcome": "MPF says both companies face at least 24 judicial actions over licensing irregularities. MPF opened an inquiry into the National Force. Final outcomes not found.",
+    "summary": "Dams on the Teles Pires destroyed rapids sacred to the Munduruku. About 80 Munduruku tried to occupy Sao Manoel on 13 October 2017 and about 30 armed National Force police blocked them. The companies say they hold licences and followed the law.",
+    "figures": [
+      {
+        "label": "Blasting of the rapids",
+        "value": "2013",
+        "source_url": "https://news.mongabay.com/2017/10/munduruku-stand-off-against-amazon-dam-builders-potentially-explosive/",
+        "status": "unverified",
+        "note": "Single source."
+      },
+      {
+        "label": "Occupation attempt",
+        "value": "About 80 Munduruku on 13 Oct 2017; about 30 armed National Force police; standoff 13-16 Oct 2017",
+        "source_url": "https://news.mongabay.com/2017/10/munduruku-stand-off-against-amazon-dam-builders-potentially-explosive/",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      },
+      {
+        "label": "Judicial actions",
+        "value": "At least 24 over licensing irregularities (MPF)",
+        "source_url": "https://news.mongabay.com/2017/10/munduruku-stand-off-against-amazon-dam-builders-potentially-explosive/",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      },
+      {
+        "label": "Munduruku population",
+        "value": "More than 13,000 in 112 villages",
+        "source_url": "https://news.mongabay.com/2017/10/munduruku-stand-off-against-amazon-dam-builders-potentially-explosive/",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Mongabay",
+        "url": "https://news.mongabay.com/2017/10/munduruku-stand-off-against-amazon-dam-builders-potentially-explosive/"
+      }
+    ]
+  },
+  {
+    "id": "d-pau-darco-massacre-2017",
+    "date": "2017-05-24",
+    "name": "Pau d'Arco massacre (Fazenda Santa Lucia)",
+    "place": "Fazenda Santa Lucia, Pau d'Arco, Para",
+    "type": "land-agro",
+    "operator": "Para state police (civil and military)",
+    "ownership": "state-owned",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "10 landless rural workers (9 men, 1 woman).",
+    "affected": "Survivors feared reprisals. Survivor-witness Fernando dos Santos Araujo was killed in January 2021.",
+    "damage": "Not applicable. JB reports investigators found no confrontation, no injured officer and ballistic evidence of execution, against the first police version of a shootout.",
+    "legal_outcome": "No conviction. On 26 May 2026 the TJPA criminal section rejected the appeals of 16 of 17 accused, keeping the order for jury trial. No jury date yet. The inquiry into masterminds was archived with no one named.",
+    "summary": "On 24 May 2017 Para police killed 10 landless workers on a farm they had occupied. The land is private; the shooters were state police. Nearly a decade later, no officer has been convicted.",
+    "figures": [
+      {
+        "label": "Deaths",
+        "value": "10 landless rural workers (9 men, 1 woman)",
+        "source_url": "https://www.brasildefato.com.br/2017/12/19/com-policiais-soltos-sobreviventes-do-massacre-de-pau-darco-temem-represalias/",
+        "status": "verified",
+        "note": "Names listed by CPT."
+      },
+      {
+        "label": "Temporary arrest warrants",
+        "value": "11 military and 2 civil police (earlier note)",
+        "source_url": "https://www.jb.com.br/pais/noticias/2017/12/22/amp/stj-determina-a-prisao-de-oito-policiais-envolvidos-na-chacina-de-pau-d-arco.html",
+        "status": "unverified",
+        "note": "The 11+2 split is in no opened page. JB: in August TJ-PA refused to extend temporary arrest of 13 officers; late September prosecutors charged 13 military and 4 civil (17); preventive arrest restored for 15; 2 spared as cooperators."
+      },
+      {
+        "label": "Order of release and arrest in Dec 2017",
+        "value": "TJ-PA released 15 officers (military and civil) on 18-19 Dec 2017; on 22 Dec 2017 the STJ president restored preventive arrest of 8 of the 13 freed in August",
+        "source_url": "https://www.jb.com.br/pais/noticias/2017/12/22/amp/stj-determina-a-prisao-de-oito-policiais-envolvidos-na-chacina-de-pau-d-arco.html",
+        "status": "corrected",
+        "note": "Corrects the earlier note, which had the order reversed and said only military police were released."
+      },
+      {
+        "label": "Convictions",
+        "value": "None. 17 officers identified by the Federal Police, 16 indicted by the jury court (Alma Preta, May 2022)",
+        "source_url": "https://almapreta.com.br/?p=4135",
+        "status": "corrected",
+        "note": "The earlier '155 police involved, two convicted' belongs to the Eldorado dos Carajas case (Tribuna PR), not Pau d'Arco."
+      },
+      {
+        "label": "Latest court status",
+        "value": "26 May 2026: TJPA rejected defence appeals of 16 of 17 accused; case 0002139-38.2017.8.14.0038 had been stalled in second instance since July 2021",
+        "source_url": "https://cptnacional.org.br/wp-content/uploads/2026/05/Nota-publica_processo-Pau-Darco.pdf",
+        "status": "corrected",
+        "note": "Source is a civil-society note (CPT and others), partisan but quotes the court date. A hearing on 9 Jun 2026 deals with the one officer not sent to jury."
+      },
+      {
+        "label": "Masterminds",
+        "value": "Inquiry archived with no one named",
+        "source_url": "https://almapreta.com.br/?p=4135",
+        "status": "corrected",
+        "note": "Replaces 'still under investigation'."
+      },
+      {
+        "label": "Land status",
+        "value": "Private land occupied by landless workers",
+        "source_url": "https://www.jb.com.br/pais/noticias/2017/12/22/amp/stj-determina-a-prisao-de-oito-policiais-envolvidos-na-chacina-de-pau-d-arco.html",
+        "status": "unverified",
+        "note": "Not stated in pages opened; JB says it was a land repossession operation."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bahia Noticias",
+        "url": "https://www.bahianoticias.com.br/noticia/207694-acccao-da-polcicia-deixa-10-pessoas-mortas-em-fazenda-no-parca.html"
+      },
+      {
+        "title": "Brasil de Fato",
+        "url": "https://www.brasildefato.com.br/2017/12/19/com-policiais-soltos-sobreviventes-do-massacre-de-pau-darco-temem-represalias/"
+      },
+      {
+        "title": "JB",
+        "url": "https://www.jb.com.br/pais/noticias/2017/12/22/amp/stj-determina-a-prisao-de-oito-policiais-envolvidos-na-chacina-de-pau-d-arco.html"
+      },
+      {
+        "title": "Alma Preta",
+        "url": "https://almapreta.com.br/?p=4135"
+      },
+      {
+        "title": "CPT public note",
+        "url": "https://cptnacional.org.br/wp-content/uploads/2026/05/Nota-publica_processo-Pau-Darco.pdf"
+      }
+    ]
+  },
+  {
+    "id": "d-colniza-massacre-2017",
+    "date": "2017-04-19",
+    "name": "Colniza massacre (Taquarucu do Norte)",
+    "place": "Agrovila Taquarucu do Norte (linha 15), Colniza, Mato Grosso",
+    "type": "land-agro",
+    "operator": "Loggers (named mandante Valdelir Joao de Souza)",
+    "ownership": "unknown",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "9 rural workers, including pastor Sebastiao Ferreira de Souza.",
+    "affected": "Fewer than 20 of about 200 families remained by 2019 (prosecutor). One witness was murdered in July 2018 in Ariquemes (RO).",
+    "damage": "Illegal logging was the motive per prosecutors.",
+    "legal_outcome": "Valdelir Joao de Souza was named sole mandante and was a fugitive as of April 2019. Four alleged shooters were in custody then. A search snippet says Ronaldo Dalmoneck was sentenced to 200 years for nine homicides (not opened). Mandante outcome not found.",
+    "summary": "Nine rural workers were killed on 19 April 2017 in a disputed, unregistered area occupied by posseiros. Prosecutors say loggers wanted the timber and the land. Most families left. The mandante had not been caught as of 2019.",
+    "figures": [
+      {
+        "label": "Deaths",
+        "value": "9 rural workers",
+        "source_url": "https://www.jb.com.br/pais/2019/04/996070-promotoria-investiga-novos-mandantes--dois-anos-apos-chacina-de-colniza.html",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      },
+      {
+        "label": "Families remaining",
+        "value": "Fewer than 20 of about 200 by 2019",
+        "source_url": "https://www.jb.com.br/pais/2019/04/996070-promotoria-investiga-novos-mandantes--dois-anos-apos-chacina-de-colniza.html",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      },
+      {
+        "label": "Sentence of Ronaldo Dalmoneck",
+        "value": "200 years for nine homicides",
+        "source_url": null,
+        "status": "unverified",
+        "note": "Search snippet from a TJMT or human-rights site, not opened."
+      },
+      {
+        "label": "Mandante outcome",
+        "value": "Not found",
+        "source_url": null,
+        "status": "unverified",
+        "note": "Prosecutor said some shooters could be acquitted for lack of evidence."
+      }
+    ],
+    "sources": [
+      {
+        "title": "JB",
+        "url": "https://www.jb.com.br/pais/2019/04/996070-promotoria-investiga-novos-mandantes--dois-anos-apos-chacina-de-colniza.html"
+      }
+    ]
+  },
+  {
+    "id": "d-madeira-river-flood-2014",
+    "date": "2014",
+    "name": "Madeira river flood (Jirau and Santo Antonio dams)",
+    "place": "Porto Velho and Jaci-Parana, Rondonia; upstream to Acre and Bolivia",
+    "type": "hydro-infrastructure",
+    "operator": "Santo Antonio Energia (Madeira Energia consortium) and ESBR (Jirau)",
+    "ownership": "private-concession",
+    "privatized_or_conceded_year": 2007,
+    "linked_transfer": "Santo Antonio concession auctioned 10 Dec 2007; Jirau auctioned 19 May 2008. Both consortia include state partners (Furnas, Chesf, Eletrosul).",
+    "deaths": "No death toll found for Porto Velho. Bolivia, upstream, had more than 50 deaths and about 125,000 cattle lost in the same event (Terra Plural article).",
+    "affected": "4,937 families made homeless in Porto Velho municipality.",
+    "damage": "Porto Velho reached 19.74 m on 30 March 2014, more than 2 m above the 1997 record. Peak flow was 60,066 m3/s on 31 March 2014 (Fearnside). Backwater and flood changes; the full environmental accounting is not in the sources.",
+    "legal_outcome": "On 10 March 2014 the 5th Environmental and Agrarian Federal Court (Judge Herculano Martins Nacif) granted an MPF injunction ordering the EIA-RIMA redone, with 90 days to show progress or operating licences could be suspended. It was a preliminary injunction, not a final ruling; the consortia appealed.",
+    "summary": "The Madeira flooded Porto Velho in February-March 2014 to a record level. Residents and researchers linked it to the Jirau and Santo Antonio dams. The operators blamed each other. The weather service Sipam blamed rain in the Mamore basin and the Abuna river. Researcher Artur Moret says downstream flooding cannot be clearly tied to the dams.",
+    "figures": [
+      {
+        "label": "Peak river level at Porto Velho",
+        "value": "19.74 m on 30 Mar 2014",
+        "source_url": "https://revistas.uepg.br/index.php/tp/article/download/9714/5612/34454",
+        "status": "verified",
+        "note": "More than 2 m above the 1997 record."
+      },
+      {
+        "label": "Families made homeless",
+        "value": "4,937 in Porto Velho",
+        "source_url": "https://revistas.uepg.br/index.php/tp/article/download/9714/5612/34454",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Peak flow",
+        "value": "60,066 m3/s on 31 Mar 2014",
+        "source_url": "https://antigo-philip.inpa.gov.br/publ_livres/2015/Rio_Madeira_Espada_de_Damocles-2-Risco_para_Porto_Velho.pdf",
+        "status": "verified",
+        "note": "Fearnside adds that a 40% bigger flow would exceed Santo Antonio's spillway capacity; this is his risk view."
+      },
+      {
+        "label": "Turbines shut at Santo Antonio",
+        "value": "11 (IHU, 22 Mar); other outlets say all 17; another IHU article says 14 were running",
+        "source_url": "https://ihu.unisinos.br/noticias/528747-moradores-relacionam-hidreletricas-a-cheia-historica-do-rio-madeira",
+        "status": "disputed",
+        "note": "Number is inconsistent across sources."
+      },
+      {
+        "label": "Operators blame each other",
+        "value": "ESBR president Victor Paranhos blamed Santo Antonio; Santo Antonio says the ONS ordered the reservoir lowered to protect Jirau's temporary works",
+        "source_url": "https://ihu.unisinos.br/noticias/528788-usinas-trocam-acusacoes-por-cheia-no-rio-madeira",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Sipam cause",
+        "value": "Rain in the Mamore basin and the flow of the Abuna",
+        "source_url": "https://www.noticiasagricolas.com.br/noticia/136065",
+        "status": "verified",
+        "note": "The IHU 528788 page does not say this; the Noticias Agricolas page does."
+      },
+      {
+        "label": "Moret warning",
+        "value": "Backwater could cause 'resultados catastroficos em Rondonia e na Bolivia'; up to 2 m at Santo Antonio and 6 m at Jirau",
+        "source_url": "https://ihu.unisinos.br/noticias/529173-hidreletricas-do-madeira-usinas-podem-resultar-em-catastrofe-alerta-pesquisador",
+        "status": "verified",
+        "note": "He says downstream flooding cannot be clearly attributed to the dams."
+      },
+      {
+        "label": "Court order",
+        "value": "Injunction of 10 Mar 2014 to redo environmental studies",
+        "source_url": "https://ihu.unisinos.br/noticias/529086-justica-manda-hidreletricas-do-madeira-refazerem-estudos-de-impacto-ambiental-em-rondonia",
+        "status": "verified",
+        "note": "The Conjur link in the research note is dead (404). The injunction says the studies were 'subdimensionados' (MPF claim, denied by both firms)."
+      },
+      {
+        "label": "Auction dates",
+        "value": "Santo Antonio 10 Dec 2007; Jirau 19 May 2008",
+        "source_url": "https://www.renewableenergyworld.com/energy-business/energy-finance/update-state-utility-furnas-leads-winning-bid-for-3150-mw-santo-antonio/",
+        "status": "corrected",
+        "note": "Replaces 'auction in 2008'."
+      },
+      {
+        "label": "Ownership",
+        "value": "Santo Antonio: Furnas 39%, FIP Amazonia Energia 20%, Odebrecht 17.6% + 1%, Andrade Gutierrez 12.4%, Cemig 10%. Jirau at auction: Suez 50.1%, Eletrosul 20%, Chesf 20%, Camargo Correa 9.9%",
+        "source_url": "https://www.waterpowermagazine.com/news/suez-consortium-wins-jirau-auction-722/",
+        "status": "corrected",
+        "note": "Corrects the plain label 'private concession': Santo Antonio was also led by a state utility. Later Jirau split (2012-13): GDF Suez 40%, Mitsui 20%, Chesf 20%, Eletrosul 20% (snippets, not opened)."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Terra Plural (UEPG)",
+        "url": "https://revistas.uepg.br/index.php/tp/article/download/9714/5612/34454"
+      },
+      {
+        "title": "Fearnside 2015 (INPA)",
+        "url": "https://antigo-philip.inpa.gov.br/publ_livres/2015/Rio_Madeira_Espada_de_Damocles-2-Risco_para_Porto_Velho.pdf"
+      },
+      {
+        "title": "IHU, residents link dams to flood",
+        "url": "https://ihu.unisinos.br/noticias/528747-moradores-relacionam-hidreletricas-a-cheia-historica-do-rio-madeira"
+      },
+      {
+        "title": "IHU, dams trade accusations",
+        "url": "https://ihu.unisinos.br/noticias/528788-usinas-trocam-acusacoes-por-cheia-no-rio-madeira"
+      },
+      {
+        "title": "Noticias Agricolas",
+        "url": "https://www.noticiasagricolas.com.br/noticia/136065"
+      },
+      {
+        "title": "IHU, Moret warning",
+        "url": "https://ihu.unisinos.br/noticias/529173-hidreletricas-do-madeira-usinas-podem-resultar-em-catastrofe-alerta-pesquisador"
+      },
+      {
+        "title": "Conjur (dead link)",
+        "url": "https://www.conjur.com.br/?p=487463"
+      },
+      {
+        "title": "IHU, court orders studies redone",
+        "url": "https://ihu.unisinos.br/noticias/529086-justica-manda-hidreletricas-do-madeira-refazerem-estudos-de-impacto-ambiental-em-rondonia"
+      },
+      {
+        "title": "Renewable Energy World, Santo Antonio auction",
+        "url": "https://www.renewableenergyworld.com/energy-business/energy-finance/update-state-utility-furnas-leads-winning-bid-for-3150-mw-santo-antonio/"
+      },
+      {
+        "title": "Water Power Magazine, Jirau auction",
+        "url": "https://www.waterpowermagazine.com/news/suez-consortium-wins-jirau-auction-722/"
+      }
+    ]
+  },
+  {
+    "id": "d-rio-verde-school-spraying-2013",
+    "date": "2013-05-03",
+    "name": "Rio Verde school pesticide spraying",
+    "place": "Sao Jose do Pontal rural school, Rio Verde, Goias",
+    "type": "land-agro",
+    "operator": "Aerotex (aviation contractor) spraying Engeo Pleno (Syngenta)",
+    "ownership": "private-company",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "None found.",
+    "affected": "Between 38 and about 92 students and teachers poisoned, depending on source and date (see figures).",
+    "damage": "Pesticide sprayed from a plane over a rural school. Ibama had banned aerial use of Engeo Pleno on corn since July 2012.",
+    "legal_outcome": "The pilot, the company owner and the technical manager were all released after paying bail (May 2013). MPF-GO filed a civil action in 2016 seeking at least R$ 10 million; in March 2018 a federal judge partly granted it and set R$ 150,000. Both companies appealed.",
+    "summary": "A plane spraying pesticide hit a rural school in Rio Verde, Goias, on 3 May 2013. The count of victims varies between 38 and about 92. The companies were fined R$ 150,000 in 2018, which is under appeal. This was not Primavera do Leste: its school case was in 2017.",
+    "figures": [
+      {
+        "label": "Date",
+        "value": "3 May 2013",
+        "source_url": "https://www.brasildefato.com.br/2018/06/20/pulverizacao-de-agrotoxicos-sobre-escola-segue-impune-ha-5-anos",
+        "status": "verified",
+        "note": "JB (5 May 2013) says 'Friday 4 May', which is wrong; 3 May 2013 was a Friday."
+      },
+      {
+        "label": "Victims",
+        "value": "36 children + 2 teachers (JB, May 2013); 29 children + 8 adults (Agencia Senado, Sep 2013); about 92 (Brasil de Fato, 2018); about 90 hospitalised (HRW)",
+        "source_url": "https://www12.senado.leg.br/noticias/materias/2013/09/19/vitimas-de-intoxicacao-por-agrotoxico-denunciam-falta-de-assistencia",
+        "status": "disputed",
+        "note": "Different dates and counting rules."
+      },
+      {
+        "label": "Companies",
+        "value": "Aerotex flew; Syngenta made Engeo Pleno",
+        "source_url": "https://www.brasildefato.com.br/2018/06/20/pulverizacao-de-agrotoxicos-sobre-escola-segue-impune-ha-5-anos",
+        "status": "verified",
+        "note": "Syngenta said it did not take part in the spraying. Aerotex denied any pesticide fell on the school."
+      },
+      {
+        "label": "Arrests",
+        "value": "Pilot David Colto (34), owner Ruy Alberto Textor (48) and technical manager Leandro Farina (37), all released after bail",
+        "source_url": "https://www.jb.com.br/pais/noticias/2013/05/05/amp/go-piloto-que-pulverizou-agrotoxico-em-escola-e-solto-apos-pagar-fianca.html",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Court award",
+        "value": "R$ 150,000 set in March 2018 (first instance); MPF-GO action filed 2016 sought at least R$ 10 million",
+        "source_url": "https://www.hrw.org/pt/node/320417",
+        "status": "corrected",
+        "note": "Replaces 'a 2018 report said the case was still unpunished'. HRW confirms the March 2018 ruling; both companies appealed."
+      },
+      {
+        "label": "Municipality said release over the school was a mistake",
+        "value": "Mistake",
+        "source_url": null,
+        "status": "unverified",
+        "note": "Not in any opened page."
+      },
+      {
+        "label": "MPF new investigation into irregular spraying in Rio Verde",
+        "value": "Opened",
+        "source_url": "https://www.jornalopcao.com.br/ultimas-noticias/mpf-cobra-da-prefeitura-de-rio-verde-assistencia-a-atingidos-por-aplicacao-irregular-de-agrotoxicos-203711/",
+        "status": "unverified",
+        "note": "Page returned 403."
+      }
+    ],
+    "sources": [
+      {
+        "title": "JB",
+        "url": "https://www.jb.com.br/pais/noticias/2013/05/05/amp/go-piloto-que-pulverizou-agrotoxico-em-escola-e-solto-apos-pagar-fianca.html"
+      },
+      {
+        "title": "Brasil de Fato",
+        "url": "https://www.brasildefato.com.br/2018/06/20/pulverizacao-de-agrotoxicos-sobre-escola-segue-impune-ha-5-anos"
+      },
+      {
+        "title": "Agencia Senado",
+        "url": "https://www12.senado.leg.br/noticias/materias/2013/09/19/vitimas-de-intoxicacao-por-agrotoxico-denunciam-falta-de-assistencia"
+      },
+      {
+        "title": "Human Rights Watch",
+        "url": "https://www.hrw.org/pt/node/320417"
+      },
+      {
+        "title": "Jornal Opcao",
+        "url": "https://www.jornalopcao.com.br/ultimas-noticias/mpf-cobra-da-prefeitura-de-rio-verde-assistencia-a-atingidos-por-aplicacao-irregular-de-agrotoxicos-203711/"
+      }
+    ]
+  },
+  {
+    "id": "d-jirau-riot-2011",
+    "date": "2011-03-15",
+    "name": "Jirau construction riot and strikes",
+    "place": "Jirau dam site, Porto Velho, Rondonia",
+    "type": "hydro-infrastructure",
+    "operator": "ESBR consortium (Suez, Eletrosul, Chesf, Camargo Correa); Camargo Correa was main contractor",
+    "ownership": "private-concession",
+    "privatized_or_conceded_year": 2008,
+    "linked_transfer": "Jirau concession won at auction on 19 May 2008 by a consortium with state partners Chesf and Eletrosul (40% together).",
+    "deaths": "None found.",
+    "affected": "About 10,000 Jirau workers were left homeless after lodgings burned (JB). A second strike in March 2012 involved about 16,000 to 20,000 workers.",
+    "damage": "Vehicles and lodgings were burned; Santo Antonio works also stopped. Estado de Minas and Exame snippets: 70 lodgings and 43 buses burned.",
+    "legal_outcome": "Search snippet says labour justice ordered Camargo Correa to guarantee payments; the company said it followed MPT recommendations except full severance for those who quit. Long-term labour outcome not found. The 2012 strike was declared illegal by the TRT.",
+    "summary": "A fight on a bus on 15 March 2011 set off a riot at the Jirau dam site. Workers and the contractor tell different stories. Workers cite poor conditions. The industry group CBIC calls it vandalism by a minority. The Forca Nacional was sent in.",
+    "figures": [
+      {
+        "label": "Start of riot",
+        "value": "15 Mar 2011, after a fight involving a bus driver and a worker",
+        "source_url": "https://www.jb.com.br/pais/noticias/2011/03/18/amp/obras-da-hidreletrica-santo-antonio-tambem-param-depois-da-depredacao-na-usina-jirau.html",
+        "status": "verified",
+        "note": "Works resumed after a deal on 11 Apr 2011 (Estado de Minas snippet)."
+      },
+      {
+        "label": "Workers left homeless",
+        "value": "About 10,000",
+        "source_url": "https://www.jb.com.br/pais/noticias/2011/03/18/amp/obras-da-hidreletrica-santo-antonio-tambem-param-depois-da-depredacao-na-usina-jirau.html",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Lodgings and buses burned; workers involved",
+        "value": "70 lodgings, 43 buses; at least 300 workers",
+        "source_url": "https://cbic.org.br/a-usina-e-o-brasil-real/",
+        "status": "unverified",
+        "note": "Search snippets only (Exame, CBIC); CBIC page refused connection (403)."
+      },
+      {
+        "label": "2012 strike size",
+        "value": "About 16,000 (Estadao) to about 20,000 (CUT)",
+        "source_url": "https://www.ipsnews.net/portuguese/2012/04/america-latina/rebelio-operria-atrasa-grandes-obras-no-brasil/",
+        "status": "disputed",
+        "note": "IPS gives a site of 7,000 workers. Start dates 8-12 Mar 2012; lasted about 25 days. Snippets only."
+      },
+      {
+        "label": "Planned dismissals",
+        "value": "6,000 of 25,000 early-phase workers (directors, Estadao 12 Apr 2011)",
+        "source_url": "https://cbic.org.br/a-usina-e-o-brasil-real/",
+        "status": "verified",
+        "note": "Dismissals were by the contractor Camargo Correa, not the consortium. Actual dismissals reported: about 2,000 so far, or 4,000 (Agencia Brasil; Folha 20 Apr 2011). Seen on IHU reproducing Estadao."
+      },
+      {
+        "label": "Ownership shares at auction",
+        "value": "Suez 50.1%, Eletrosul 20%, Chesf 20%, Camargo Correa 9.9%",
+        "source_url": "https://www.waterpowermagazine.com/news/suez-consortium-wins-jirau-auction-722/",
+        "status": "corrected",
+        "note": "Corrects 'GDF Suez, Camargo Correa, with Chesf and Eletrosul'. Camargo Correa was a minority shareholder and the main contractor."
+      },
+      {
+        "label": "Court order to guarantee payments",
+        "value": "Ordered",
+        "source_url": "https://www.confea.org.br/node/111311",
+        "status": "unverified",
+        "note": "Confea page refused connection; search snippet only."
+      }
+    ],
+    "sources": [
+      {
+        "title": "JB",
+        "url": "https://www.jb.com.br/pais/noticias/2011/03/18/amp/obras-da-hidreletrica-santo-antonio-tambem-param-depois-da-depredacao-na-usina-jirau.html"
+      },
+      {
+        "title": "CBIC",
+        "url": "https://cbic.org.br/a-usina-e-o-brasil-real/"
+      },
+      {
+        "title": "IPS News",
+        "url": "https://www.ipsnews.net/portuguese/2012/04/america-latina/rebelio-operria-atrasa-grandes-obras-no-brasil/"
+      },
+      {
+        "title": "Confea",
+        "url": "https://www.confea.org.br/node/111311"
+      },
+      {
+        "title": "Water Power Magazine, Jirau auction",
+        "url": "https://www.waterpowermagazine.com/news/suez-consortium-wins-jirau-auction-722/"
+      },
+      {
+        "title": "IHU Unisinos, Jirau strike",
+        "url": "https://ihu.unisinos.br/noticias/507739-greveemjirauatingeausinadesantoantonio"
+      }
+    ]
+  },
+  {
+    "id": "d-regiao-serrana-landslides-2011",
+    "date": "2011-01-11",
+    "name": "Regiao Serrana landslides and floods",
+    "place": "Teresopolis, Nova Friburgo, Petropolis and other towns, Rio de Janeiro state",
+    "type": "hydro-infrastructure",
+    "operator": "None (municipal and state land-use and prevention policy)",
+    "ownership": "unknown",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "Disputed: 287 (state count, 13 Jan) rising to 717 (Polícia Civil, 19 Jan), 905 (academic paper, balance of 23 Mar 2011) and 918 (a 2022 report, snippet only). Nova Friburgo alone: 420 to 428.",
+    "affected": "34,600 homeless or displaced and about 345 to 350 missing (balance of 23 Mar 2011).",
+    "damage": "The rains began on 11 Jan 2011. Houses in river-side protected areas (within 30 m of rivers) caused many deaths according to an MMA study that a Nova Friburgo mayor disputed.",
+    "legal_outcome": "Not found.",
+    "summary": "Extreme rain on 11 and 12 January 2011 caused landslides in the mountain region of Rio de Janeiro. Counts of the dead range from 717 to about 900. Hillside housing and weak prevention are named as causes. Towns later used only about half of the federal recovery funds.",
+    "figures": [
+      {
+        "label": "Deaths on 13 Jan 2011 (state)",
+        "value": "287: Teresopolis 146, Nova Friburgo 107, Petropolis 34, including 3 firefighters",
+        "source_url": "https://exame.com/brasil/governo-do-rio-ja-confirma-287-mortes-na-regiao-serrana/",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Deaths on 19 Jan 2011 (Polícia Civil)",
+        "value": "717: Nova Friburgo 338, Teresopolis 292, Petropolis 63, Sumidouro 19, Sao Jose do Vale do Rio Preto 4, Bom Jardim 1; 182 unaccounted",
+        "source_url": "https://www.jb.com.br/tragedia-na-serra/noticias/2011/01/19/amp/ja-sao-717-os-mortos-na-regiao-serrana-do-rio.html",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Final death toll",
+        "value": "905 dead, 345 missing (balance of 23 Mar 2011, ENAP paper)",
+        "source_url": "https://repositorio.enap.gov.br/bitstream/1/328/2/A%20tragédia%20da%20região%20serrana%20do%20Rio%20de%20Janeiro%20em%202011%20procurando%20respostas.pdf",
+        "status": "disputed",
+        "note": "Range 717 to 918 across sources. The 918 figure is from a 2022 article seen only in a search snippet."
+      },
+      {
+        "label": "Nova Friburgo deaths",
+        "value": "420 to 428",
+        "source_url": null,
+        "status": "disputed",
+        "note": "A 2022 Petropolis paper says 428 (snippet). No opened source gives the final municipal figure."
+      },
+      {
+        "label": "Petropolis deaths in 2011",
+        "value": "71",
+        "source_url": null,
+        "status": "unverified",
+        "note": "Search snippet only."
+      },
+      {
+        "label": "Displaced",
+        "value": "34,600 homeless or displaced",
+        "source_url": "https://repositorio.enap.gov.br/bitstream/1/328/2/A%20tragédia%20da%20região%20serrana%20do%20Rio%20de%20Janeiro%20em%202011%20procurando%20respostas.pdf",
+        "status": "corrected",
+        "note": "Replaces 'affected: not found'."
+      },
+      {
+        "label": "Recovery funds used",
+        "value": "About 50% of R$ 2.27 billion in federal recovery funds used by the towns (Folha PE; the same article also gives R$ 2.7 billion elsewhere)",
+        "source_url": "https://www.folhape.com.br/noticia/amp/216026/apos-chuvas-de-2011-prefeituras-da-regiao-serrana-usaram-so-50-dos/",
+        "status": "corrected",
+        "note": "These are recovery funds, not only prevention funds. Figure given by a Ministry of Regional Development coordinator at a seminar."
+      },
+      {
+        "label": "Hillsides still at risk",
+        "value": "More than 700 (Confea)",
+        "source_url": "https://www.confea.org.br/node/111265",
+        "status": "unverified",
+        "note": "Confea page refused connection."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Exame",
+        "url": "https://exame.com/brasil/governo-do-rio-ja-confirma-287-mortes-na-regiao-serrana/"
+      },
+      {
+        "title": "JB",
+        "url": "https://www.jb.com.br/tragedia-na-serra/noticias/2011/01/19/amp/ja-sao-717-os-mortos-na-regiao-serrana-do-rio.html"
+      },
+      {
+        "title": "Folha PE",
+        "url": "https://www.folhape.com.br/noticia/amp/216026/apos-chuvas-de-2011-prefeituras-da-regiao-serrana-usaram-so-50-dos/"
+      },
+      {
+        "title": "Confea",
+        "url": "https://www.confea.org.br/node/111265"
+      },
+      {
+        "title": "ENAP paper on the 2011 tragedy",
+        "url": "https://repositorio.enap.gov.br/bitstream/1/328/2/A%20tragédia%20da%20região%20serrana%20do%20Rio%20de%20Janeiro%20em%202011%20procurando%20respostas.pdf"
+      }
+    ]
+  },
+  {
+    "id": "d-belo-monte-2010",
+    "date": "2010",
+    "name": "Belo Monte dam (Volta Grande do Xingu and Altamira)",
+    "place": "Altamira and Volta Grande do Xingu, Para",
+    "type": "hydro-infrastructure",
+    "operator": "Norte Energia S.A.",
+    "ownership": "private-concession",
+    "privatized_or_conceded_year": 2010,
+    "linked_transfer": "Concession auctioned in April 2010; contract signed in August 2010; construction from 2011. TCU investigated possible collusion at the auction.",
+    "deaths": "None found.",
+    "affected": "Over 600 families (635 as a minimum, per a June 2026 MPF filing) face a humanitarian emergency in the Volta Grande (water, sanitation, communication). The environmental study projected 20 to 30% of Altamira's 100,000 people displaced.",
+    "damage": "Irregular flow in the Volta Grande disrupts aquatic fauna and riverine peoples (MPF).",
+    "legal_outcome": "Ongoing litigation. A June 2026 MPF filing also names Ibama for failing to supervise and asks for action within 180 days.",
+    "summary": "Belo Monte on the Xingu was conceded in 2010 to Norte Energia. The state Eletrobras group holds the largest share; state pension funds also hold stakes. Prosecutors say life in the Volta Grande has been broken. Norte Energia says service gaps come from public authorities' omission.",
+    "figures": [
+      {
+        "label": "Auction and contract",
+        "value": "Auction April 2010; contract signed 27 Aug 2010 (KHL)",
+        "source_url": "https://www.khl.com/news/Belo-Monte-concession-contract-signed/1057938.article",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Norte Energia shares at the auction",
+        "value": "Chesf 49.98%, Queiroz Galvao 10.02%, J Malucelli 9.98%, Cetenco 5%, Mendes Junior 3.75%, Serveng 3.75% (sums to 82.48%)",
+        "source_url": "https://www.khl.com/news/Belo-Monte-concession-contract-signed/1057938.article",
+        "status": "corrected",
+        "note": "Corrects the earlier list: Contern and Gaia are not on that page. Later split (2019 snippet): Eletrobras group 49.98%, Neoenergia 10, Petros 10, Funcef 10, Amazonia Energia 9.77, Alianca Norte Energia 9, Sinobras 1. Neoenergia and Cemig announced sales; no 2023+ ownership found."
+      },
+      {
+        "label": "TCU collusion probe",
+        "value": "Furnas and Eletrosul were in the losing consortium while Chesf was in the winning side; TCU struggles to prove it (Bahia Noticias, 8 Jun 2016)",
+        "source_url": "https://www.bahianoticias.com.br/noticia/191579-tcu-investiga-possibilidade-de-conluio-em-licitacao-de-belo-monte",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Altamira displacement projection",
+        "value": "20 to 30% of 100,000 people; independent estimate could be double",
+        "source_url": "https://www.wrm.org.uy/print/pdf/node/10696/pt",
+        "status": "unverified",
+        "note": "WRM page was a connection-check page; no sources visible."
+      },
+      {
+        "label": "MPF 2019 inspection",
+        "value": "'Desestruturacao da vida economica e social' in Volta Grande, 74 findings",
+        "source_url": "https://www.wrm.org.uy/print/pdf/node/10696/pt",
+        "status": "unverified",
+        "note": "Same WRM page; MPF report not opened."
+      },
+      {
+        "label": "Families in humanitarian emergency",
+        "value": "635 families on the Volta Grande (a minimum); Ibama a defendant",
+        "source_url": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-reforca-pedidos-para-garantir-agua-saneamento-e-comunicacao-a-familias-atingidas-por-belo-monte-no-para",
+        "status": "corrected",
+        "note": "Replaces 'over 600'. The MPF page dates the filing to 17 June 2026."
+      },
+      {
+        "label": "Human-rights council warning",
+        "value": "CNDH member Darci Frigo, 13 Oct 2016: 'Ha grandes chances de ocorrer um desastre em Belo Monte'",
+        "source_url": "https://ihu.unisinos.br/561192-desastre-em-belo-monte-e-iminente-diz-conselho-de-direitos-humanos",
+        "status": "corrected",
+        "note": "The council is CNDH, not the older CDDPH. Norte Energia said it regretted that the Council ignored its information and cannot answer for problems caused by 'omissao do Poder Publico'."
+      }
+    ],
+    "sources": [
+      {
+        "title": "KHL",
+        "url": "https://www.khl.com/news/Belo-Monte-concession-contract-signed/1057938.article"
+      },
+      {
+        "title": "Bahia Noticias",
+        "url": "https://www.bahianoticias.com.br/noticia/191579-tcu-investiga-possibilidade-de-conluio-em-licitacao-de-belo-monte"
+      },
+      {
+        "title": "WRM",
+        "url": "https://www.wrm.org.uy/print/pdf/node/10696/pt"
+      },
+      {
+        "title": "MPF-PA",
+        "url": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-reforca-pedidos-para-garantir-agua-saneamento-e-comunicacao-a-familias-atingidas-por-belo-monte-no-para"
+      },
+      {
+        "title": "IHU Unisinos",
+        "url": "https://ihu.unisinos.br/561192-desastre-em-belo-monte-e-iminente-diz-conselho-de-direitos-humanos"
+      }
+    ]
+  },
+  {
+    "id": "d-endosulfan-breast-milk-2010",
+    "date": "2010",
+    "name": "Endosulfan in breast milk, Lucas do Rio Verde",
+    "place": "Lucas do Rio Verde, Mato Grosso",
+    "type": "land-agro",
+    "operator": "Private agribusiness (cotton and soy pesticide users); regulator Anvisa",
+    "ownership": "private-company",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "Not applicable.",
+    "affected": "Mothers who gave birth in 2007-2010 in Lucas do Rio Verde (study by Wanderlei Pignati, UFMT).",
+    "damage": "Endosulfan found in 44% of 62 breast-milk samples. This is the closest documented Brazilian case of persistent organochlorine contamination in a rural population; no Brazilian chlordecone equivalent was found.",
+    "legal_outcome": "Federal prosecutors sued Anvisa in June 2010 to ban endosulfan. Anvisa's RDC 28/2010 set a three-year phase-out ending 31 Jul 2013 (sale) and 31 Jul 2014 (monograph cancelled).",
+    "summary": "A UFMT study found endosulfan in 44% of 62 breast-milk samples in Lucas do Rio Verde. Anvisa phased the pesticide out over three years from July 2010. Prosecutors said that was too slow.",
+    "figures": [
+      {
+        "label": "Samples with endosulfan",
+        "value": "44% of 62 breast-milk samples",
+        "source_url": "https://ihu.unisinos.br/528640-brasil-consome-14-agrotoxicos-proibidos-no-mundo",
+        "status": "verified",
+        "note": "IHU gives birth years 2007-2010."
+      },
+      {
+        "label": "Sample collection period",
+        "value": "Feb to June 2010",
+        "source_url": "https://ihu.unisinos.br/528640-brasil-consome-14-agrotoxicos-proibidos-no-mundo",
+        "status": "unverified",
+        "note": "IHU gives only birth years, no collection months."
+      },
+      {
+        "label": "All 62 samples had some pesticide (Palma 2011, ten pesticides)",
+        "value": "62 of 62",
+        "source_url": null,
+        "status": "unverified",
+        "note": "Not checked."
+      },
+      {
+        "label": "Regulatory timeline",
+        "value": "RDC 28/2010 (9 Aug 2010): 3-year phase-out from 31 Jul 2010. Import ends 31 Jul 2011; manufacture and formulation end 31 Jul 2012; sale ends 31 Jul 2013; monograph cancelled 31 Jul 2014",
+        "source_url": "https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2010/rdc0028_09_08_2010.html",
+        "status": "corrected",
+        "note": "Replaces 'manufacture banned from 12 Sept 2010; sales allowed until 2012'. No 12 Sept 2010 ban date found, and no separate 2013 act is needed."
+      },
+      {
+        "label": "MPF lawsuit against Anvisa",
+        "value": "June 2010",
+        "source_url": "https://www.ecoamericas.com/issues/article/2010/6/B340135A-8663-4B35-8332-1D7D1202552D",
+        "status": "verified",
+        "note": "Teaser only (paywall). Rio de Janeiro state had already banned it."
+      }
+    ],
+    "sources": [
+      {
+        "title": "IHU Unisinos",
+        "url": "https://ihu.unisinos.br/528640-brasil-consome-14-agrotoxicos-proibidos-no-mundo"
+      },
+      {
+        "title": "EcoAmericas",
+        "url": "https://www.ecoamericas.com/issues/article/2010/6/B340135A-8663-4B35-8332-1D7D1202552D"
+      },
+      {
+        "title": "Anvisa RDC 28/2010",
+        "url": "https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2010/rdc0028_09_08_2010.html"
+      }
+    ]
+  },
+  {
+    "id": "d-algodoes-dam-failure-2009",
+    "date": "2009-05-27",
+    "name": "Algodoes I dam failure",
+    "place": "Cocal and Buriti dos Lopes, Piaui",
+    "type": "hydro-infrastructure",
+    "operator": "Piaui state government (COMDEPI, later EMGERPI)",
+    "ownership": "state-owned",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "Disputed: 6 (early reports, 29 May), 8 (Gazeta do Povo), 9 (Senate record; Emancipacao 2017), 10 (2018 UFC thesis).",
+    "affected": "More than 90 injured (Emancipacao 2017). More than 3,000 homeless per the Senate record (not verified).",
+    "damage": "Dam ruptured on 27 May 2009 in Cocal; the water also hit Buriti dos Lopes and, less strongly, Bom Principio do Piaui. Cracks and leaks were known; a reconstruction project drafted after June 2008 leaks was never carried out. Residents were evacuated 15 days before the failure and returned after a report said there was no risk.",
+    "legal_outcome": "A court condemned the State of Piaui and EMGERPI; the judge said they 'assumiram todos os riscos'. A state-paid pension of R$ 50-60 per household was ordered. The state built four resettlement settlements in Cocal (houses of 39 m2). A TJ-PI homologation took place in April 2017.",
+    "summary": "The state-owned Algodoes I dam failed on 27 May 2009 in Piaui. Between 6 and 10 people died. The dam had known cracks and leaks that were repaired only with palliative cement. A court held the state liable.",
+    "figures": [
+      {
+        "label": "Date",
+        "value": "27 May 2009",
+        "source_url": "https://ri.ufs.br/bitstream/riufs/12821/2/ReassentamentoAtingidosBarragemAlgodoesI.pdf",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Owner",
+        "value": "State dam: built from 1995 under COMDEPI (Piaui state company); DNOCS (federal) passed funds; finished about 2001",
+        "source_url": "https://revistas.uepg.br/index.php/emancipacao/article/download/9510/6300/39279",
+        "status": "corrected",
+        "note": "Replaces 'owner not confirmed, appears to be a state dam (verify)'."
+      },
+      {
+        "label": "Deaths",
+        "value": "6 to 10",
+        "source_url": "https://legis.senado.leg.br/sdleg-getter/documento/download/2d9c6fed-5fad-4819-8dc3-d1160d2e114e",
+        "status": "disputed",
+        "note": "Emancipacao 2017 says 9. The Senate PDF and UFC thesis could not be read."
+      },
+      {
+        "label": "Homeless",
+        "value": "More than 3,000 (Senate record)",
+        "source_url": "https://legis.senado.leg.br/sdleg-getter/documento/download/2d9c6fed-5fad-4819-8dc3-d1160d2e114e",
+        "status": "unverified",
+        "note": "Senate PDF is a scan with no extractable text. The UFS paper says only 'several families displaced'."
+      },
+      {
+        "label": "UFPI commission: no maintenance for five years",
+        "value": "Five years without maintenance",
+        "source_url": "https://www.confea.org.br/node/109246",
+        "status": "unverified",
+        "note": "Confea page refused connection."
+      },
+      {
+        "label": "Legal outcome",
+        "value": "Court sentence condemning the State of Piaui and EMGERPI",
+        "source_url": "https://revistas.uepg.br/index.php/emancipacao/article/download/9510/6300/39279",
+        "status": "corrected",
+        "note": "Replaces 'no judgment found'."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Senado record",
+        "url": "https://legis.senado.leg.br/sdleg-getter/documento/download/2d9c6fed-5fad-4819-8dc3-d1160d2e114e"
+      },
+      {
+        "title": "UFC thesis",
+        "url": "https://repositorio.ufc.br/ri/bitstream/riufc/30637/3/2018_tese_mvpoliveira.pdf"
+      },
+      {
+        "title": "Confea",
+        "url": "https://www.confea.org.br/node/109246"
+      },
+      {
+        "title": "UFS paper on resettlement",
+        "url": "https://ri.ufs.br/bitstream/riufs/12821/2/ReassentamentoAtingidosBarragemAlgodoesI.pdf"
+      },
+      {
+        "title": "Emancipacao (UEPG)",
+        "url": "https://revistas.uepg.br/index.php/emancipacao/article/download/9510/6300/39279"
+      }
+    ]
+  },
+  {
+    "id": "d-raposa-serra-do-sol-2008",
+    "date": "2008-03-26",
+    "name": "Raposa Serra do Sol: violence and eviction of rice farmers",
+    "place": "Terra Indigena Raposa Serra do Sol, Roraima (Makuxi, Wapixana, Ingarico, Taurepang)",
+    "type": "land-agro",
+    "operator": "Rice farmers occupying federal indigenous land",
+    "ownership": "private-landholders",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "None found in the opened pages.",
+    "affected": "Indigenous communities of the territory; rice growers had to leave.",
+    "damage": "A farmer threw a homemade bomb into a leader's home in Barro, injuring him; three bridges were burned (Survival International, 7 April 2008).",
+    "legal_outcome": "On 19 March 2009 the STF voted 10 to 1 to keep continuous demarcation (Marco Aurelio Mello dissented), with 19 conditions. Non-indigenous occupants, especially rice growers, must leave.",
+    "summary": "Operation Upatakon 3 began on 26 March 2008 to remove rice farmers from Raposa Serra do Sol. The STF suspended it on 9 April 2008 and upheld the continuous demarcation in March 2009. Roraima's governor and senators warned of civil war. Survival International is an advocacy source.",
+    "figures": [
+      {
+        "label": "STF vote",
+        "value": "10 to 1 to keep continuous demarcation; 19 conditions",
+        "source_url": "https://www.congressoemfoco.com.br/noticia/74311/supremo-mantem-demarcacao-da-raposa-serra-do-sol",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      },
+      {
+        "label": "Area",
+        "value": "1.7 million ha",
+        "source_url": "https://www.congressoemfoco.com.br/noticia/74311/supremo-mantem-demarcacao-da-raposa-serra-do-sol",
+        "status": "unverified",
+        "note": "Search summary only; the Congresso em Foco page gives no size."
+      },
+      {
+        "label": "STF suspension of the operation",
+        "value": "9 April 2008",
+        "source_url": "https://www.survivalinternational.org/news/3200",
+        "status": "unverified",
+        "note": "Search summary only."
+      },
+      {
+        "label": "Violence",
+        "value": "Bomb thrown into a leader's home in Barro; three bridges burned",
+        "source_url": "https://www.survivalinternational.org/news/3200",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Survival International",
+        "url": "https://www.survivalinternational.org/news/3200"
+      },
+      {
+        "title": "Congresso em Foco",
+        "url": "https://www.congressoemfoco.com.br/noticia/74311/supremo-mantem-demarcacao-da-raposa-serra-do-sol"
+      }
+    ]
+  },
+  {
+    "id": "d-estreito-dam-2007",
+    "date": "2007",
+    "name": "UHE Estreito hydroelectric dam",
+    "place": "Tocantins river, between Estreito (MA) and Aguiarnopolis (TO); 12 municipalities",
+    "type": "hydro-infrastructure",
+    "operator": "Ceste (Consorcio Estreito Energia)",
+    "ownership": "private-concession",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": "Private concession consortium. Shares in 2008: Suez Energy 40.07%, Vale 30%, Alcoa 25.49%, Camargo Correa Energia 4.44%. Concession year not stated in the sources.",
+    "deaths": "None found.",
+    "affected": "Conflicting 2008 figures: Ceste estimated about 2,000 families displaced; MAB's census said about 5,000 families (10 municipalities in Tocantins, 2 in Maranhao).",
+    "damage": "1,087 MW dam. BNDES approved R$ 2.6 billion; R$ 3.1 billion in the federal PAC through 2010. About 7,000 workers at peak.",
+    "legal_outcome": "Works were halted by court for 17 days and resumed on 23 June 2008. In July 2016 the labour court at Estreito ordered Ceste to pay R$ 2 million in collective moral damages over worker safety. Outcome of the appeal not found.",
+    "summary": "Estreito dam on the Tocantins river was built by a private concession consortium from about 2007. Displacement estimates differ by a factor of 2.5. A labour court fined the consortium R$ 2 million in 2016.",
+    "figures": [
+      {
+        "label": "Families displaced",
+        "value": "About 2,000 (Ceste) vs about 5,000 (MAB census)",
+        "source_url": "https://conexaoto.com.br/2008/08/04/atingidos-pelas-obras-de-usina-hidreletrica-enfrentam-incertezas",
+        "status": "disputed",
+        "note": "Both 2008 estimates."
+      },
+      {
+        "label": "Consortium shares (2008)",
+        "value": "Suez Energy 40.07%, Vale 30%, Alcoa 25.49%, Camargo Correa Energia 4.44%",
+        "source_url": "https://conexaoto.com.br/2008/08/04/atingidos-pelas-obras-de-usina-hidreletrica-enfrentam-incertezas",
+        "status": "unverified",
+        "note": "Later reports name Engie and InterCement instead of Suez and BHP (search summary, not opened)."
+      },
+      {
+        "label": "Capacity and financing",
+        "value": "1,087 MW; BNDES R$ 2.6 billion; PAC R$ 3.1 billion through 2010",
+        "source_url": "https://conexaoto.com.br/2008/08/04/atingidos-pelas-obras-de-usina-hidreletrica-enfrentam-incertezas",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      },
+      {
+        "label": "Labour court award, July 2016",
+        "value": "R$ 2 million in collective moral damages",
+        "source_url": "https://oimparcial.com.br/cidades/2016/07/consorcio-estreito-energia-tera-que-pagar-r-2-mi-de-indenizacao/",
+        "status": "unverified",
+        "note": "Appealable; appeal outcome not found."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Conexao TO",
+        "url": "https://conexaoto.com.br/2008/08/04/atingidos-pelas-obras-de-usina-hidreletrica-enfrentam-incertezas"
+      },
+      {
+        "title": "O Imparcial",
+        "url": "https://oimparcial.com.br/cidades/2016/07/consorcio-estreito-energia-tera-que-pagar-r-2-mi-de-indenizacao/"
+      }
+    ]
+  },
+  {
+    "id": "d-chapada-do-apodi-spraying-2006",
+    "date": "2006",
+    "name": "Chapada do Apodi aerial spraying and water contamination",
+    "place": "Chapada do Apodi, Limoeiro do Norte and Quixere (Ceara) and nearby Rio Grande do Norte",
+    "type": "land-agro",
+    "operator": "Private agribusiness (export fruit and melon monoculture; aircraft and tractors spraying)",
+    "ownership": "private-company",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "Community leader Ze Maria do Tome (Jose Maria Filho) was executed in April 2010 (17 or 19 shots depending on source). IHU says he was killed for denouncing pesticide contamination of irrigation canals and that a fruit-company manager is accused of ordering it. No conviction verified.",
+    "affected": "Drift reached homes. In the community of Tome, water was contaminated in 6 of 7 homes visited; 11 of 17 people tested had organochlorines in blood or urine; 8 fetuses with malformations; at least 3 girls with precocious puberty (Reporter Brasil, 19 Jun 2018).",
+    "damage": "Pesticides in drinking water and canals. Fiocruz's Carneiro says other factors may be linked to the health outcomes.",
+    "legal_outcome": "Ceara's state ban (Law 16.820/2019, named for Ze Maria do Tome) was sanctioned on 8 Jan 2019. On 26 May 2023 the STF unanimously upheld it (ADI 6137, rapporteur Carmen Lucia), on constitutional grounds only. Sindag filed embargos de declaracao.",
+    "summary": "Researchers at UFC have studied pesticide exposure on the Chapada do Apodi since 2006. A community leader who denounced it was killed in 2010. Ceara banned aerial spraying in 2019 and the STF upheld the ban in 2023. Industry groups say aerial spraying is safe and regulated federally.",
+    "figures": [
+      {
+        "label": "Workers exposed and acute poisoning (Tramas study)",
+        "value": "97% exposed; about 60% reported intoxication",
+        "source_url": "https://scielosp.org/pdf/sdeb/2024.v48nspe1/e8715/pt",
+        "status": "unverified",
+        "note": "The cited UFC PDF is a UOL/Reporter Brasil news print that does NOT contain 97% or 60%. These figures come from a search snippet of a 2024 health-policy article (403)."
+      },
+      {
+        "label": "Drinking-water samples with pesticides",
+        "value": "All 46 samples (snippet); Rigotto in IHU (Oct 2016) mentions 23 samples all contaminated, and 10 aquifer samples with 6 contaminated",
+        "source_url": "https://ihu.unisinos.br/560860-quatro-milhoes-de-litros-de-calda-toxica-foram-utilizados-em-uma-decada-de-cultivo-de-fruticultura-no-ceara-entrevista-especial-com-raquel-rigotto",
+        "status": "unverified",
+        "note": "The 46 comes from a search snippet of the Ceara court site (refused connection). 46 vs 23 may differ by date or dataset."
+      },
+      {
+        "label": "Findings in Tome community",
+        "value": "6 of 7 homes with contaminated water; 11 of 17 people with organochlorines; 8 fetuses with malformations; at least 3 girls with precocious puberty",
+        "source_url": "https://prppg.ufc.br/wp-content/uploads/2018/06/uolagrotoxicos.pdf",
+        "status": "verified",
+        "note": "Replaces the 97%/60%/46 claims for this source."
+      },
+      {
+        "label": "Killing of Ze Maria",
+        "value": "April 2010, executed; 17 or 19 shots",
+        "source_url": "https://ihu.unisinos.br/noticias/523551-monocultivo-e-veneno-ameacam-chapada-do-apodi-rn",
+        "status": "corrected",
+        "note": "Replaces 'killed in retaliation for opposing aerial spraying'. Reporter Brasil says the municipal ban was approved a month before the killing; other sources say the municipal law was revoked a month after."
+      },
+      {
+        "label": "Limoeiro do Norte repeal of municipal ban",
+        "value": "A week after passage (earlier note)",
+        "source_url": "https://www.brasildefato.com.br/2019/01/10/governador-do-ceara-sanciona-lei-que-proibe-pulverizacao-aerea-nas-lavouras/",
+        "status": "disputed",
+        "note": "Sources differ: a month after the killing (Sul21 snippets) or a week after the Tramas results (health article). Brasil de Fato 2019 does not mention a repeal."
+      },
+      {
+        "label": "State ban sanctioned",
+        "value": "8 Jan 2019, Law 16.820/2019 (headline says 9 Jan)",
+        "source_url": "https://www.brasildefato.com.br/2019/01/10/governador-do-ceara-sanciona-lei-que-proibe-pulverizacao-aerea-nas-lavouras/",
+        "status": "verified",
+        "note": "Assembly voted in Dec 2018."
+      },
+      {
+        "label": "STF ruling on ADI 6137",
+        "value": "Upheld unanimously on 26 May 2023; challenger was the CNA",
+        "source_url": "https://www.correiobraziliense.com.br/politica/2023/05/5097535-stf-valida-lei-do-ceara-que-proibe-pulverizacao-aerea-de-agrotoxicos.html",
+        "status": "corrected",
+        "note": "Replaces 'outcome not found'. The case number ADI 6137 comes from search results, not the Correio page."
+      }
+    ],
+    "sources": [
+      {
+        "title": "UFC / Reporter Brasil print (UOL)",
+        "url": "https://prppg.ufc.br/wp-content/uploads/2018/06/uolagrotoxicos.pdf"
+      },
+      {
+        "title": "Brasil de Fato, governor sanctions ban",
+        "url": "https://www.brasildefato.com.br/2019/01/10/governador-do-ceara-sanciona-lei-que-proibe-pulverizacao-aerea-nas-lavouras/"
+      },
+      {
+        "title": "Brasil de Fato, Assembly vote",
+        "url": "https://www.brasildefato.com.br/2018/12/19/assembleia-legislativa-proibe-pulverizacao-aerea-de-agrotoxicos-no-ceara-entenda/"
+      },
+      {
+        "title": "IHU, monoculture and poison",
+        "url": "https://ihu.unisinos.br/noticias/523551-monocultivo-e-veneno-ameacam-chapada-do-apodi-rn"
+      },
+      {
+        "title": "IHU, Rigotto interview",
+        "url": "https://ihu.unisinos.br/560860-quatro-milhoes-de-litros-de-calda-toxica-foram-utilizados-em-uma-decada-de-cultivo-de-fruticultura-no-ceara-entrevista-especial-com-raquel-rigotto"
+      },
+      {
+        "title": "Saude em Debate 2024 (403)",
+        "url": "https://scielosp.org/pdf/sdeb/2024.v48nspe1/e8715/pt"
+      },
+      {
+        "title": "Correio Braziliense, STF ruling",
+        "url": "https://www.correiobraziliense.com.br/politica/2023/05/5097535-stf-valida-lei-do-ceara-que-proibe-pulverizacao-aerea-de-agrotoxicos.html"
+      }
+    ]
+  },
+  {
+    "id": "d-lucas-do-rio-verde-drift-2006",
+    "date": "2006",
+    "name": "Lucas do Rio Verde aerial spraying drift",
+    "place": "Urban area of Lucas do Rio Verde, Mato Grosso",
+    "type": "land-agro",
+    "operator": "Private landholders and aerial spraying contractors",
+    "ownership": "private-landholders",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "Not found. Sources report acute poisoning of children and the elderly, no deaths.",
+    "affected": "Residents of the town. Acute poisoning of children and elderly reported.",
+    "damage": "Aerial pesticide drifted onto the town in March 2006.",
+    "legal_outcome": "Not found. The case was reported to the local prosecutor's office (Confea 2006 piece).",
+    "summary": "In March 2006 aerial spraying of pesticide drifted over the town of Lucas do Rio Verde. A 2007 paper calls it an 'extended rural accident'. Aerial spraying was legal and licensed at the time.",
+    "figures": [
+      {
+        "label": "Study",
+        "value": "Pignati, Machado, Cabral 2007, Ciencia & Saude Coletiva 12(1):105-114",
+        "source_url": "https://biblat.unam.mx/en/revista/ciencia-saude-coletiva/articulo/acidente-rural-ampliado-o-caso-das-chuvas-de-agrotoxicos-sobre-a-cidade-de-lucas-do-rio-verde-mt",
+        "status": "unverified",
+        "note": "Biblat page blocked by bot check; seen in search only."
+      },
+      {
+        "label": "Product",
+        "value": "Paraquat (and diquat), used to desiccate soy",
+        "source_url": "https://outraspalavras.net/outrasmidias/entrevista-wanderlei-pignati-os-impactos-agronegocio-na-saude-coletiva/",
+        "status": "unverified",
+        "note": "Secondary sources and a later Pignati interview; not checked against the paper's methods. Treat as reported."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Biblat, Ciencia & Saude Coletiva 2007",
+        "url": "https://biblat.unam.mx/en/revista/ciencia-saude-coletiva/articulo/acidente-rural-ampliado-o-caso-das-chuvas-de-agrotoxicos-sobre-a-cidade-de-lucas-do-rio-verde-mt"
+      },
+      {
+        "title": "Redalyc copy",
+        "url": "https://www.redalyc.org/pdf/630/63012110.pdf"
+      },
+      {
+        "title": "Outras Palavras, Pignati interview",
+        "url": "https://outraspalavras.net/outrasmidias/entrevista-wanderlei-pignati-os-impactos-agronegocio-na-saude-coletiva/"
+      },
+      {
+        "title": "Confea 2006",
+        "url": "https://www.confea.org.br/node/103956"
+      }
+    ]
+  },
+  {
+    "id": "d-aracruz-tupinikim-guarani-2006",
+    "date": "2006-12-12",
+    "name": "Aracruz Celulose and Tupinikim/Guarani land",
+    "place": "Aracruz, Espirito Santo",
+    "type": "land-agro",
+    "operator": "Aracruz Celulose (eucalyptus pulp company)",
+    "ownership": "private-company",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "None found.",
+    "affected": "About 300 Tupinikim and Guarani occupied the Portocel port on 12-13 December 2006.",
+    "damage": "About 1,000 company and contractor employees entered and tried to remove the occupiers; some were beaten (CIMI).",
+    "legal_outcome": "A Funai report recommended demarcation; the Justice Ministry received it on 12 September 2006 and had not decided. A later settlement date is not confirmed.",
+    "summary": "On 12-13 December 2006 about 300 Tupinikim and Guarani occupied the Portocel port in Aracruz. Company and contractor workers tried to remove them and some were beaten. The land claim covered area now used for eucalyptus. The company's side was not found in the opened pages.",
+    "figures": [
+      {
+        "label": "Occupiers and company staff",
+        "value": "About 300 occupiers; about 1,000 employees",
+        "source_url": "https://cimi.org.br/2006/12/25600/",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      },
+      {
+        "label": "Land area",
+        "value": "18,070 ha identified vs 7,061 ha demarcated (FASE letter, search summary); 11.9 thousand ha transferred in a later agreement (Monitor Mercantil snippet, page returned 403)",
+        "source_url": null,
+        "status": "disputed",
+        "note": "Area figures conflict; later agreement date unverified."
+      }
+    ],
+    "sources": [
+      {
+        "title": "CIMI",
+        "url": "https://cimi.org.br/2006/12/25600/"
+      }
+    ]
+  },
+  {
+    "id": "d-dorothy-stang-murder-2005",
+    "date": "2005-02-12",
+    "name": "Anapu: murder of Dorothy Stang",
+    "place": "Near Anapu, Para",
+    "type": "land-agro",
+    "operator": "Private ranchers (Vitalmiro Bastos de Moura 'Bida', Regivaldo Galvao) vs settlers on federal land",
+    "ownership": "private-landholders",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "1: Dorothy Stang, 73.",
+    "affected": "Settlers and rural workers in the Anapu area.",
+    "damage": "Prosecutors say the killing followed Stang's complaints about illegal fires, which led to a fine for Bida.",
+    "legal_outcome": "Gunman Rayfran das Neves Sales: 27 years (2005), 27 (2007), 28 (2008). Bida: 30 years in 2007, acquitted at second trial, reinstated, 30 years in 2010, overturned by STF in 2013, 30 years in Sept 2013. Regivaldo Galvao: 30 years in 2010; STF granted habeas corpus in Aug 2012 (Wikipedia).",
+    "summary": "Dorothy Stang, a 73-year-old missionary, was shot near Anapu on 12 February 2005. The gunman and the ranchers who ordered the killing were tried several times. Bida denied ordering the crime and his lawyer blamed Stang.",
+    "figures": [
+      {
+        "label": "Regivaldo Galvao's STF sentence",
+        "value": "30 years (Wikipedia) vs 25 years (another source)",
+        "source_url": "https://www.congressoemfoco.com.br/noticia/85777/fazendeiro-e-condenado-por-morte-de-dorothy-stang",
+        "status": "disputed",
+        "note": "Conflict between sources."
+      },
+      {
+        "label": "Sentences",
+        "value": "Rayfran 27/27/28 years; Bida 30 years (several trials); Regivaldo 30 years (2010)",
+        "source_url": "https://en.wikipedia.org/wiki/Dorothy_Stang",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      },
+      {
+        "label": "PDS context",
+        "value": "Settlement project",
+        "source_url": null,
+        "status": "unverified",
+        "note": "Not confirmed in opened pages."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia, Dorothy Stang",
+        "url": "https://en.wikipedia.org/wiki/Dorothy_Stang"
+      },
+      {
+        "title": "Congresso em Foco",
+        "url": "https://www.congressoemfoco.com.br/noticia/85777/fazendeiro-e-condenado-por-morte-de-dorothy-stang"
+      }
+    ]
+  },
+  {
+    "id": "d-felisburgo-massacre-2004",
+    "date": "2004",
+    "name": "Felisburgo massacre",
+    "place": "Felisburgo, Jequitinhonha valley, Minas Gerais (MST camp)",
+    "type": "land-agro",
+    "operator": "Landholder Adriano Chafik Luedy and gunmen",
+    "ownership": "private-landholders",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "5 killed, 12 wounded.",
+    "affected": "27 houses and the camp school were burned.",
+    "damage": "Camp destroyed. The land was later demarcated for settlers after Luedy lost a repossession suit.",
+    "legal_outcome": "Calixto Luedy Filho 195 years 9 months; Adriano Chafik 115 years (Oct 2013); Washington Agostinho da Silva 97 years; Francisco de Assis Rodrigues de Oliveira and Milton Francisco de Souza 102 years 6 months each (Jan 2014). Nine of 15 defendants were still to be tried then. Chafik was jailed after a later arrest warrant (Tribuna PR, headline only).",
+    "summary": "In November 2004 gunmen attacked an MST camp in Felisburgo, killing 5 people. Several men, including the landholder, were later sentenced to long terms. The defence said Calixto was in Sergipe and that some workers had motives to incriminate him.",
+    "figures": [
+      {
+        "label": "Deaths and injuries",
+        "value": "5 killed, 12 wounded, 27 houses and the school burned",
+        "source_url": "https://www.tjmg.jus.br/portal-tjmg/noticias/condenado-a-195-anos-outro-envolvido-na-chacina-de-felisburgo.htm",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check. Day of the month not stated in the opened page."
+      },
+      {
+        "label": "Sentences",
+        "value": "195 y 9 m; 115 y; 97 y; 102 y 6 m (x2)",
+        "source_url": "https://www.tjmg.jus.br/portal-tjmg/noticias/condenado-a-195-anos-outro-envolvido-na-chacina-de-felisburgo.htm",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      }
+    ],
+    "sources": [
+      {
+        "title": "TJMG",
+        "url": "https://www.tjmg.jus.br/portal-tjmg/noticias/condenado-a-195-anos-outro-envolvido-na-chacina-de-felisburgo.htm"
+      }
+    ]
+  },
+  {
+    "id": "d-camara-dam-failure-2004",
+    "date": "2004-06-17",
+    "name": "Camara dam failure",
+    "place": "Alagoa Nova, Paraiba; flooded parts of Alagoa Grande, Areia and Mulungu",
+    "type": "hydro-infrastructure",
+    "operator": "Paraiba state government",
+    "ownership": "state-owned",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "5 (Jornal da Paraiba / TRF5 account, ANA presentation); the state release said 4.",
+    "affected": "More than 3,000 left homeless (state release says 800+ families). Over 550 families sued for compensation.",
+    "damage": "About 17 million m3 of water released, travelling about 25 km. TRF5 found lack of maintenance and monitoring, not design or construction error.",
+    "legal_outcome": "TRF5 (federal appeals court) held the State responsible and ordered reconstruction. The STJ (minister Benedito Goncalves) denied an MPF appeal in 2017; made public on 29 Mar 2023. TRF5 said construction firms could be jointly liable only with proof of defective execution and found none. A new dam was delivered on 26 Sept 2016.",
+    "summary": "The state-owned Camara dam in Paraiba failed on 17 June 2004. Five people died and over 3,000 lost their homes. Courts held the state liable for lack of maintenance and monitoring. A new dam was opened in 2016.",
+    "figures": [
+      {
+        "label": "Deaths",
+        "value": "5 (court account) vs 4 (state release)",
+        "source_url": "http://jornaldaparaiba.com.br/politica/conversa-politica/barragem-de-camara-20-anos-decisao-stj",
+        "status": "disputed",
+        "note": "ANA presentation PDF was unreadable (image only)."
+      },
+      {
+        "label": "Homeless",
+        "value": "More than 3,000",
+        "source_url": "http://jornaldaparaiba.com.br/politica/conversa-politica/barragem-de-camara-20-anos-decisao-stj",
+        "status": "verified",
+        "note": "State release: 800+ families."
+      },
+      {
+        "label": "Cause",
+        "value": "Lack of maintenance and monitoring; serious defect arose during the filling phase with deficient monitoring",
+        "source_url": "http://jornaldaparaiba.com.br/politica/conversa-politica/barragem-de-camara-20-anos-decisao-stj",
+        "status": "corrected",
+        "note": "Corrects 'STJ confirmed': the findings are TRF5's; the STJ only denied an MPF appeal. The outlet corrected its text on 31 Mar 2023."
+      },
+      {
+        "label": "Heavy rain and unnoticed geology as extra causes",
+        "value": "Reservoir levels after heavy early-2004 rain; geology problem unnoticed",
+        "source_url": "https://www.confea.org.br/midias/uploads-imce/contecc%202024/CIV/LI%C3%87%C3%95ES_DO_ROMPIMENTO_DA_BARRAGEM_DE_CAMAR%C3%81_EM_ALAGOA_NOVA-PB%2C_20_ANOS_DEPOIS.pdf",
+        "status": "unverified",
+        "note": "Not in the Jornal da Paraiba piece; Confea PDF could not be opened."
+      },
+      {
+        "label": "New dam",
+        "value": "R$ 48.6 million, about 225,000 people served, delivered 26 Sept 2016 (another report says 175,000)",
+        "source_url": "https://auniao.pb.gov.br/noticias/caderno_politicas/ricardo-entrega-barragem-nova-camara-e-beneficia-225-mil-habitantes",
+        "status": "unverified",
+        "note": "Page refused connection; seen in search result only."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jornal da Paraiba",
+        "url": "http://jornaldaparaiba.com.br/politica/conversa-politica/barragem-de-camara-20-anos-decisao-stj"
+      },
+      {
+        "title": "ANA presentation",
+        "url": "https://progestao.ana.gov.br/destaque-superior/eventos/oficinas-de-intercambio-1/seguranca-de-barragens/copy2_of_oficina-de-seguranca-de-barragens-brasilia-2016/oficina-seg-barragens_regiao-nordeste_apres-josimar.pdf"
+      },
+      {
+        "title": "Confea, 20 years later",
+        "url": "https://www.confea.org.br/midias/uploads-imce/contecc%202024/CIV/LI%C3%87%C3%95ES_DO_ROMPIMENTO_DA_BARRAGEM_DE_CAMAR%C3%81_EM_ALAGOA_NOVA-PB%2C_20_ANOS_DEPOIS.pdf"
+      },
+      {
+        "title": "A Uniao PB",
+        "url": "https://auniao.pb.gov.br/noticias/caderno_politicas/ricardo-entrega-barragem-nova-camara-e-beneficia-225-mil-habitantes"
+      }
+    ]
+  },
+  {
+    "id": "d-unai-massacre-2004",
+    "date": "2004-01-28",
+    "name": "Unai massacre of labour auditors",
+    "place": "Rural road, Unai, Minas Gerais",
+    "type": "land-agro",
+    "operator": "Bean farmers accused of forced labour (Antério and Norberto Manica)",
+    "ownership": "private-landholders",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "4: labour auditors Nelson Jose da Silva, Erastotenes de Almeida Goncalves, Joao Batista Soares Lages and driver Ailton Pereira de Oliveira.",
+    "affected": "Families of the four victims; labour inspection service.",
+    "damage": "Not applicable.",
+    "legal_outcome": "Anterio Manica (ex-mayor) 99 then 64 years; Norberto Manica 100 then 65; Hugo Pimenta 96 (halved by plea deal); Rogerio Rios 94; William Miranda 56; Erinaldo Silva 76. Anterio in prison since Nov 2023; Norberto a fugitive in 2024; Pimenta's warrant unserved. Anterio's defence says he is innocent and is appealing to TRF-6 and STJ.",
+    "summary": "Four labour inspectors were killed on 28 January 2004 on a rural road near Unai while investigating forced labour on bean farms. Several men, including a former mayor, were sentenced. Some were still at large or appealing 20 years later.",
+    "figures": [
+      {
+        "label": "Date",
+        "value": "28 January 2004",
+        "source_url": "https://www.itatiaia.com.br/politica/chacina-de-unai-completa-20-anos-com-tres-presos-e-dois-procurados-pela-policia/",
+        "status": "unverified",
+        "note": "Day from a search summary."
+      },
+      {
+        "label": "Deaths",
+        "value": "4",
+        "source_url": "https://www.itatiaia.com.br/politica/chacina-de-unai-completa-20-anos-com-tres-presos-e-dois-procurados-pela-policia/",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      },
+      {
+        "label": "Sentences",
+        "value": "Anterio 99 then 64 y; Norberto 100 then 65; Pimenta 96 (halved); Rios 94; Miranda 56; Silva 76",
+        "source_url": "https://www.itatiaia.com.br/politica/chacina-de-unai-completa-20-anos-com-tres-presos-e-dois-procurados-pela-policia/",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Itatiaia",
+        "url": "https://www.itatiaia.com.br/politica/chacina-de-unai-completa-20-anos-com-tres-presos-e-dois-procurados-pela-policia/"
+      }
+    ]
+  },
+  {
+    "id": "d-barra-grande-dam-eia-2003",
+    "date": "2003",
+    "name": "Barra Grande dam: environmental study that hid araucaria forest",
+    "place": "Rio Pelotas/Uruguai, border of Rio Grande do Sul and Santa Catarina",
+    "type": "hydro-infrastructure",
+    "operator": "Baesa (Barra Grande Energetica S.A.) consortium",
+    "ownership": "private-concession",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": "Private consortium. Shares per Wikipedia: Alcoa 42.2%, CPFL 25%, CBA 15%, Camargo Correa Cimentos 9%, DME 8.8%; other profiles differ. Concession year not stated in the sources.",
+    "deaths": "None found.",
+    "affected": "Not stated.",
+    "damage": "The EIA by Engevix left out about 4,000 ha of native araucaria forest (O Eco). Wikipedia says about 40 km2 of araucaria cleared; another outlet says about 6,000 ha flooded (Sul21 snippet, not opened).",
+    "legal_outcome": "2004 agreement among the federal government, Ministerio Publico and Baesa (mitigation and compensation). Engevix fined R$ 10 million and removed from Ibama's technical register; it appealed. A TRF4 ruling in April 2021 was reported favourable to the plaintiffs, content not confirmed.",
+    "summary": "The environmental impact study for Barra Grande, done in 1998, left out thousands of hectares of araucaria forest. The fraud came out in 2003. The consultant Engevix was fined; the operating licence was issued in 2005. The ministry said the agreement dealt with administrative, not criminal, liability.",
+    "figures": [
+      {
+        "label": "Timeline",
+        "value": "EIA 1998; preliminary licence 1999; works 2001; fraud exposed 2003; agreement 2004; operating licence 2005",
+        "source_url": "https://oeco.org.br/tag/extras/",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      },
+      {
+        "label": "Forest left out of the EIA",
+        "value": "About 4,000 ha of araucaria (O Eco)",
+        "source_url": "https://oeco.org.br/tag/extras/",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      },
+      {
+        "label": "Forest cleared or flooded",
+        "value": "About 40 km2 cleared (Wikipedia) vs about 6,000 ha flooded (Sul21 snippet)",
+        "source_url": "https://en.wikipedia.org/wiki/Barra_Grande_Hydroelectric_Power_Plant",
+        "status": "disputed",
+        "note": "Sul21 page not opened."
+      },
+      {
+        "label": "Engevix fine",
+        "value": "R$ 10 million and removal from Ibama's technical register",
+        "source_url": "https://oeco.org.br/tag/extras/",
+        "status": "unverified",
+        "note": "Appealed. TRF4 ruling in April 2021 content not confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "title": "O Eco",
+        "url": "https://oeco.org.br/tag/extras/"
+      },
+      {
+        "title": "Wikipedia, Barra Grande",
+        "url": "https://en.wikipedia.org/wiki/Barra_Grande_Hydroelectric_Power_Plant"
+      }
+    ]
+  },
+  {
+    "id": "d-castanhao-jaguaribara-2002",
+    "date": "2002-12-23",
+    "name": "Castanhao dam and the submerged town of Jaguaribara",
+    "place": "Jaguaribe river, Ceara; New Jaguaribara built about 55 km from the old town",
+    "type": "hydro-infrastructure",
+    "operator": "DNOCS (federal) with the Ceara state water resources secretariat",
+    "ownership": "state-owned",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "Not found.",
+    "affected": "Houses for 815 families registered as residents of the old town (planning document seen in search; not in the cited Publica article).",
+    "damage": "Reservoir of 6.7 billion m3 on 36,000 ha. New town supplied by water trucks; not all 18 planned settlements completed; one settlement of 50+ families (Assentamento Amazonas) had no pipeline.",
+    "legal_outcome": "Claims for lost land were still unpaid in 2016 (Wikipedia). A federal court reportedly convicted ex-DNOCS managers over an overpriced resettlement land purchase (Diario do Nordeste, search only).",
+    "summary": "Castanhao dam, built by public bodies between 1995 and 2002, submerged the old town of Jaguaribara. The new town was built in 2001. Resettlement of smaller settlements has had water problems. Dates and ownership are now confirmed.",
+    "figures": [
+      {
+        "label": "Dates",
+        "value": "Works began 1995; concluded 23 Dec 2002; officially opened 29 Jan 2004",
+        "source_url": "https://en.wikipedia.org/wiki/Castanh%C3%A3o_Dam",
+        "status": "corrected",
+        "note": "Replaces 'dates not found'."
+      },
+      {
+        "label": "New Jaguaribara inauguration",
+        "value": "25 Sept 2001 (families moved from July 2001)",
+        "source_url": "https://apublica.org/2013/07/tem-agua-pra-ver-mas-nao-pra-beber-seca-no-nordeste/",
+        "status": "unverified",
+        "note": "Seen in search results (O Povo, Diario do Nordeste) only."
+      },
+      {
+        "label": "Owner",
+        "value": "DNOCS (federal) with Ceara state; DNOCS handled expropriation, the state handled resettlement",
+        "source_url": "https://en.wikipedia.org/wiki/Castanh%C3%A3o_Dam",
+        "status": "corrected",
+        "note": "Replaces 'federal or state, unconfirmed'."
+      },
+      {
+        "label": "Families registered as old-town residents",
+        "value": "815",
+        "source_url": "https://apublica.org/2013/07/tem-agua-pra-ver-mas-nao-pra-beber-seca-no-nordeste/",
+        "status": "unverified",
+        "note": "Not in the cited Publica article; from a planning document found in search."
+      },
+      {
+        "label": "Distance of new town",
+        "value": "50 to 55 km (sources differ)",
+        "source_url": "https://apublica.org/2013/07/tem-agua-pra-ver-mas-nao-pra-beber-seca-no-nordeste/",
+        "status": "disputed",
+        "note": "One thesis says 55 km; Publica says an hour by boat. 'Upstream' not verified."
+      },
+      {
+        "label": "Water problems after resettlement",
+        "value": "Water trucks; not all 18 settlements finished; Assentamento Amazonas (50+ families) with a 15,000 L/day permit and no pipeline; 60 families in Piaui de Dentro with an unused pipeline",
+        "source_url": "https://apublica.org/2013/07/tem-agua-pra-ver-mas-nao-pra-beber-seca-no-nordeste/",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Reservoir size",
+        "value": "6.7 billion m3, 36,000 ha",
+        "source_url": "https://en.wikipedia.org/wiki/Castanh%C3%A3o_Dam",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "sources": [
+      {
+        "title": "Agencia Publica",
+        "url": "https://apublica.org/2013/07/tem-agua-pra-ver-mas-nao-pra-beber-seca-no-nordeste/"
+      },
+      {
+        "title": "Wikipedia, Castanhao Dam",
+        "url": "https://en.wikipedia.org/wiki/Castanh%C3%A3o_Dam"
+      }
+    ]
+  },
+  {
+    "id": "d-eldorado-dos-carajas-1996",
+    "date": "1996-04-17",
+    "name": "Eldorado dos Carajas massacre",
+    "place": "PA-150 highway, Eldorado dos Carajas, Para",
+    "type": "land-agro",
+    "operator": "Para military police (4th Battalion of Maraba)",
+    "ownership": "state-owned",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "19 killed on the spot; two more died days later of wounds, giving 21 in some counts.",
+    "affected": "69 seriously injured per Unisinos; over 60 seriously injured per lab.org.uk. Landless workers marching to demand expropriation of the Macaxeira estate (Curionopolis).",
+    "damage": "Forensic findings reported by IHU: at least 10 executed at close range, bodies removed from the scene. The defence argued the police acted in self-defence against armed protesters.",
+    "legal_outcome": "2002 jury: 144 defendants, 142 acquitted, 2 convicted. Colonel Mario Colares Pantoja got 228 years and Major Jose Maria Pereira de Oliveira 158 years 4 months. The TJ-PA arrest order was dated 7 May 2012; both surrendered that month. STJ upheld the convictions in 2009.",
+    "summary": "On 17 April 1996 Para military police killed 19 landless workers blocking a highway. Only two commanders were convicted, 16 years later. The police are state; the land claim was against a private estate.",
+    "figures": [
+      {
+        "label": "Deaths",
+        "value": "19 on the spot; 21 including later deaths",
+        "source_url": "https://www.tribunapr.com.br/noticias/dez-anos-depois-do-conflito-no-para-ha-duas-condenacoes-e-144-absolvicoes/amp/",
+        "status": "disputed",
+        "note": "Range 19 to 21."
+      },
+      {
+        "label": "Injured",
+        "value": "69 seriously injured (Unisinos); over 60 seriously injured, three later died (lab.org.uk)",
+        "source_url": "https://ihu.unisinos.br/42469",
+        "status": "corrected",
+        "note": "Replaces 'about 60 injured'."
+      },
+      {
+        "label": "Pantoja sentence",
+        "value": "228 years",
+        "source_url": "https://www.conjur.com.br/2009-ago-25/stj-mantem-condenacao-policiais-massacre-eldorado-carajas//?print=1",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Major Oliveira sentence",
+        "value": "158 years 4 months (STJ 2009)",
+        "source_url": "https://www.conjur.com.br/2009-ago-25/stj-mantem-condenacao-policiais-massacre-eldorado-carajas//?print=1",
+        "status": "corrected",
+        "note": "Replaces '154 or 158'. 154 appears only in a 2006 FPA text."
+      },
+      {
+        "label": "Jury acquittals",
+        "value": "2002 trial: 144 defendants, 142 acquitted, 2 convicted",
+        "source_url": "https://www.tribunapr.com.br/noticias/dez-anos-depois-do-conflito-no-para-ha-duas-condenacoes-e-144-absolvicoes/amp/",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Arrest order and surrender",
+        "value": "TJ-PA arrest order 7 May 2012; Pantoja surrendered in May 2012 at Santa Isabel do Para; Oliveira surrendered 8 May 2012",
+        "source_url": "https://lab.org.uk/?p=7393",
+        "status": "corrected",
+        "note": "Replaces 'arrest order in 2004'; both officers were free under appeal until 2012."
+      },
+      {
+        "label": "Land status",
+        "value": "Marchers demanded expropriation of the Macaxeira estate; the road occupied was state highway PA-150",
+        "source_url": "https://ihu.unisinos.br/42469",
+        "status": "corrected",
+        "note": "Replaces 'land was private (Macaxeira farm claim)'. Ownership of Macaxeira was not established."
+      },
+      {
+        "label": "Carajas railway or mining link",
+        "value": "Background claim",
+        "source_url": null,
+        "status": "unverified",
+        "note": "Nothing found linking the massacre to the Vale railway or mine."
+      },
+      {
+        "label": "Pantoja later died aged 77",
+        "value": "Died aged 77",
+        "source_url": null,
+        "status": "unverified",
+        "note": "ISTOE, search only; date not verified."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Tribuna PR",
+        "url": "https://www.tribunapr.com.br/noticias/dez-anos-depois-do-conflito-no-para-ha-duas-condenacoes-e-144-absolvicoes/amp/"
+      },
+      {
+        "title": "Conjur 2010",
+        "url": "https://www.conjur.com.br/2010-jun-15/coronel-condenado-eldorado-carajas-aguarda-decisao-stf//?print=1"
+      },
+      {
+        "title": "Conjur, STJ 2009",
+        "url": "https://www.conjur.com.br/2009-ago-25/stj-mantem-condenacao-policiais-massacre-eldorado-carajas//?print=1"
+      },
+      {
+        "title": "IHU Unisinos",
+        "url": "https://ihu.unisinos.br/42469"
+      },
+      {
+        "title": "lab.org.uk",
+        "url": "https://lab.org.uk/?p=7393"
+      },
+      {
+        "title": "Amnesty International",
+        "url": "https://www.amnesty.org/en/latest/news/2016/04/the-eldorado-dos-carajas-massacre-20-years-of-impunity-and-violence-in-brazil-2/"
+      }
+    ]
+  },
+  {
+    "id": "d-corumbiara-massacre-1995",
+    "date": "1995-08-09",
+    "name": "Corumbiara massacre",
+    "place": "Fazenda Santa Elina, Corumbiara, Rondonia",
+    "type": "land-agro",
+    "operator": "Rondonia police operation, with the farm owner's armed men",
+    "ownership": "private-landholders",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "Official: 12 (9 landless workers, 2 police, 1 unidentified young man). Wikipedia is inconsistent: infobox 12, body text 16 with seven missing. Some estimates reach 100.",
+    "affected": "More than 55 seriously injured. Hundreds of families: 534 (academic study) or about 500 (Diterra newsletter); '600' was not found.",
+    "damage": "The farm covers about 18,000 to 20,000 ha (sources differ). The attack began about 3 a.m.",
+    "legal_outcome": "The case went to the Inter-American Commission on Human Rights (Report 32/04, Case 11.556, 11 Mar 2004). Five were sentenced at a Porto Velho jury trial, including Capt. Vitorio Regis Mena Mendes (19.5 years), two police (18 and 16 years) and two farm men (8.5 years and 6 years 2 months). A 2013 congressional committee approved an amnesty proposal. Le Monde Diplomatique calls the process a sham.",
+    "summary": "Police evicting landless families from Fazenda Santa Elina on 9 August 1995 left at least 12 dead, with estimates much higher. Five people were later sentenced. The police side says the operation executed a court order and that two officers died.",
+    "figures": [
+      {
+        "label": "Deaths",
+        "value": "12 official; 16 in the Wikipedia body text; up to 100 in some estimates",
+        "source_url": "https://en.wikipedia.org/wiki/Corumbiara_massacre",
+        "status": "disputed",
+        "note": "The 9/2/1 breakdown comes from a Brazilian news report, not opened."
+      },
+      {
+        "label": "Injured",
+        "value": "More than 55 seriously injured",
+        "source_url": "https://en.wikipedia.org/wiki/Corumbiara_massacre",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Land size",
+        "value": "About 18,000 to 20,000 ha",
+        "source_url": "https://diplomatique.org.br/review/corumbiara-caso-enterrado/",
+        "status": "unverified",
+        "note": "Search results only; the Diplomatique page returned 403."
+      },
+      {
+        "label": "Families",
+        "value": "534 or about 500 (600 not found)",
+        "source_url": null,
+        "status": "disputed",
+        "note": "Search only."
+      },
+      {
+        "label": "IACHR case",
+        "value": "Report 32/04, Case 11.556, 11 Mar 2004",
+        "source_url": "https://hrlibrary.umn.edu/cases/32-04.html",
+        "status": "unverified",
+        "note": "Search only. Better source than Wikipedia, which does not mention the IACHR."
+      },
+      {
+        "label": "Trial outcome",
+        "value": "Five sentenced",
+        "source_url": "https://en.wikipedia.org/wiki/Corumbiara_massacre",
+        "status": "verified",
+        "note": "'Sham' is Le Monde Diplomatique's framing, not opened."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia, Corumbiara massacre",
+        "url": "https://en.wikipedia.org/wiki/Corumbiara_massacre"
+      },
+      {
+        "title": "Le Monde Diplomatique Brasil",
+        "url": "https://diplomatique.org.br/review/corumbiara-caso-enterrado/"
+      },
+      {
+        "title": "IACHR Report 32/04",
+        "url": "https://hrlibrary.umn.edu/cases/32-04.html"
+      }
+    ]
+  },
+  {
+    "id": "d-haximu-massacre-1993",
+    "date": "1993",
+    "name": "Haximu massacre (Yanomami)",
+    "place": "Haximu, Yanomami territory, Roraima, on the Brazil-Venezuela border",
+    "type": "land-agro",
+    "operator": "Illegal gold miners (garimpeiros) in indigenous land",
+    "ownership": "unknown",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "12 Yanomami killed in the Haximu raid itself (IHU, STF); 16 in a combined count that includes earlier clashes (CIDH, Publica).",
+    "affected": "Yanomami communities of Haximu.",
+    "damage": "Not applicable.",
+    "legal_outcome": "First genocide conviction in Brazil (December 1996, Boa Vista). The STF upheld it in 2006 (RE 351487) and held that federal courts had jurisdiction. 4 or 5 miners convicted (see figures). One convicted miner, Eliezio Monteiro Neri, was reportedly arrested by the Federal Police after 29 years.",
+    "summary": "Garimpeiros killed Yanomami at Haximu in 1993. The main raid was on 23 July 1993 per Publica; the case surfaced in August. It produced Brazil's first genocide conviction. The number convicted differs by source.",
+    "figures": [
+      {
+        "label": "Date",
+        "value": "Attacks in June and July 1993; main raid 23 July 1993 (Publica); case surfaced in August",
+        "source_url": "https://apublica.org/2021/10/ataque-aos-indios-nao-veio-agora-diz-procurador-da-1a-condenacao-por-genocidio-no-pais/",
+        "status": "corrected",
+        "note": "Replaces 'August 1993'. Search only."
+      },
+      {
+        "label": "Deaths",
+        "value": "12 (IHU, STF) vs 16 (CIDH, Publica)",
+        "source_url": "https://ihu.unisinos.br/626073",
+        "status": "disputed",
+        "note": "12 is the raid; 16 counts four killed earlier in an ambush. IHU and STF mention earlier clashes (4 Indians, 2 miners)."
+      },
+      {
+        "label": "STF ruling",
+        "value": "RE 351487, plenary, reported 3 Aug 2006",
+        "source_url": "https://noticias.stf.jus.br/postsnoticias/direto-do-plenario-justica-federal-e-competente-para-julgar-genocidio-dos-yanomamis/",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Number convicted",
+        "value": "4 of 22 (IHU, STF); 5 of 24 (Correio Braziliense); 5 convicted and 2 acquitted at first instance in 1996 (CIDH summary of Brazil's account)",
+        "source_url": "https://apublica.org/?p=88832",
+        "status": "disputed",
+        "note": "Differs by stage. Publica names five convicts. Correio page and CIDH document not opened (SSL error)."
+      },
+      {
+        "label": "Neri arrest after 29 years",
+        "value": "Arrested",
+        "source_url": "https://abcdoabc.com.br/apos-29-anos-pf-prende-condenado-por-genocidio-de-indigenas-ianomami/",
+        "status": "unverified",
+        "note": "Neri is one of the five names in Publica; the 29-year arrest was not opened. Search results report a Roraima arrest by the Federal Police."
+      }
+    ],
+    "sources": [
+      {
+        "title": "STF",
+        "url": "https://noticias.stf.jus.br/postsnoticias/direto-do-plenario-justica-federal-e-competente-para-julgar-genocidio-dos-yanomamis/"
+      },
+      {
+        "title": "CIDH",
+        "url": "https://www.cidh.oas.org/annualrep/2011port/BRAR11745PO.DOC"
+      },
+      {
+        "title": "Agencia Publica",
+        "url": "https://apublica.org/?p=88832"
+      },
+      {
+        "title": "Agencia Publica, 2021",
+        "url": "https://apublica.org/2021/10/ataque-aos-indios-nao-veio-agora-diz-procurador-da-1a-condenacao-por-genocidio-no-pais/"
+      },
+      {
+        "title": "IHU Unisinos",
+        "url": "https://ihu.unisinos.br/626073"
+      },
+      {
+        "title": "ABC do ABC",
+        "url": "https://abcdoabc.com.br/apos-29-anos-pf-prende-condenado-por-genocidio-de-indigenas-ianomami/"
+      }
+    ]
+  },
+  {
+    "id": "d-chico-mendes-murder-1988",
+    "date": "1988-12-22",
+    "name": "Murder of Chico Mendes",
+    "place": "Xapuri, Acre",
+    "type": "land-agro",
+    "operator": "Darci Alves Pereira (shooter) and Darly Alves da Silva (mandante), ranchers",
+    "ownership": "private-landholders",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "1: Chico Mendes.",
+    "affected": "Rubber tapper community of Acre.",
+    "damage": "Not applicable.",
+    "legal_outcome": "Both men were convicted on 15 December 1990 and sentenced to 19 years each. Darly's trial was annulled in 1992 by the Acre court and reinstated by the STJ in 1993; both escaped in 1993 and were recaptured in 1996; sentences were reduced to house arrest or semi-open in 1999 (search results). Darci became PL leader in Medicilandia, Para, on 26 Jan 2024; the party removed him on 28 Feb 2024.",
+    "summary": "Chico Mendes was shot on 22 December 1988. The rancher Darly Alves da Silva and his son Darci were convicted in 1990. This case does not fit a pattern of total impunity. Darci's party post in 2024 drew national criticism.",
+    "figures": [
+      {
+        "label": "Date",
+        "value": "22 Dec 1988",
+        "source_url": "https://www.correiobraziliense.com.br/brasil/2022/06/5018021-tiros-que-ecoam-no-mundo-inteiro.html",
+        "status": "verified",
+        "note": "The Correio page opened gives only '1988'; 22 Dec is the usual date."
+      },
+      {
+        "label": "Convictions",
+        "value": "15 Dec 1990, 19 years each",
+        "source_url": "https://proof.csmonitor.com/1990/1217/ochico.html",
+        "status": "verified",
+        "note": "CSM of 17 Dec 1990: jury sentenced both on Saturday (15 Dec)."
+      },
+      {
+        "label": "Shooter's surname",
+        "value": "Pereira (most Brazilian sources), da Silva (CSM 1990), Darcy Alves da Silva (Correio)",
+        "source_url": "https://proof.csmonitor.com/1990/1217/ochico.html",
+        "status": "disputed",
+        "note": "Name varies between sources."
+      },
+      {
+        "label": "'Land grabber' label",
+        "value": "Grileiro",
+        "source_url": "https://www.correiobraziliense.com.br/brasil/2022/06/5018021-tiros-que-ecoam-no-mundo-inteiro.html",
+        "status": "unverified",
+        "note": "Correio calls Darly a rancher; the 'grileiro' label was not verified."
+      },
+      {
+        "label": "Later events",
+        "value": "Trial annulled 1992, reinstated 1993; escape 1993, recapture 1996; sentences reduced 1999",
+        "source_url": "https://www.correiobraziliense.com.br/brasil/2022/06/5018021-tiros-que-ecoam-no-mundo-inteiro.html",
+        "status": "unverified",
+        "note": "Annulment is in the Correio page; the rest comes from search results."
+      },
+      {
+        "label": "Darci in PL, 2024",
+        "value": "Took PL presidency in Medicilandia on 26 Jan 2024; removed 28 Feb 2024; disaffiliation announced by Valdemar Costa Neto",
+        "source_url": "https://www.opovo.com.br/noticias/politica/2024/02/28/pl-destitui-assassino-de-chico-mendes-de-diretorio-do-partido-no-pa.html",
+        "status": "unverified",
+        "note": "Jornal Opcao returned 403; O Povo seen in search only."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Correio Braziliense",
+        "url": "https://www.correiobraziliense.com.br/brasil/2022/06/5018021-tiros-que-ecoam-no-mundo-inteiro.html"
+      },
+      {
+        "title": "Christian Science Monitor, 1990",
+        "url": "https://proof.csmonitor.com/1990/1217/ochico.html"
+      },
+      {
+        "title": "Jornal Opcao",
+        "url": "https://www.jornalopcao.com.br/politica/apos-repercussao-negativa-pl-retira-assassino-de-chico-mendes-do-comando-da-sigla-584780/"
+      },
+      {
+        "title": "O Povo",
+        "url": "https://www.opovo.com.br/noticias/politica/2024/02/28/pl-destitui-assassino-de-chico-mendes-de-diretorio-do-partido-no-pa.html"
+      }
+    ]
+  },
+  {
+    "id": "d-balbina-dam-1987",
+    "date": "1987-10-01",
+    "name": "Balbina dam and the Waimiri-Atroari",
+    "place": "Uatuma river, Amazonas; Waimiri-Atroari land",
+    "type": "hydro-infrastructure",
+    "operator": "Eletronorte system (Manaus Energia manages the dam)",
+    "ownership": "privatized",
+    "privatized_or_conceded_year": 2021,
+    "linked_transfer": "Operator's parent Eletrobras was privatized by law sanctioned on 13 July 2021, long after the dam. No causal link shown. The 2022 closing of the sale was not verified here; the law's 10-year ban on restructuring subsidiaries was vetoed.",
+    "deaths": "No death toll for 1987-89 found. The Waimiri-Atroari population fell from about 3,000 in the 1970s to 332 in the 1980s (about 89%, Brasil de Fato citing CNV); FUNAI estimates give about 80% between 1972 and 1986. CNV counts 2,650 deaths; the Amazonas Truth Committee about 2,000. One source argues the BR-174 highway and military action, not Balbina, caused this. Contested.",
+    "affected": "Hundreds of families were never compensated or resettled; 192 families had their power cut (IHU). One English source says about a third of surviving Waimiri-Atroari were moved (not verified).",
+    "damage": "Reservoir about 2,360 km2 (NASA, Wikipedia, INPA 1989). INPA research shows high tree mortality after impoundment. 250 MW installed, 112 MW average. Cost about US$ 1 billion.",
+    "legal_outcome": "MPF (Amazonas) filed an action seeking R$ 50 million over the Waimiri-Atroari genocide (IHU, Aug 2017). Outcome not found.",
+    "summary": "Balbina flooded about 2,360 km2 of Amazon forest and part of Waimiri-Atroari land. It produced little power for its size. Hundreds of families got no compensation. The Waimiri-Atroari population collapsed over the same period; how much is due to the dam is disputed.",
+    "figures": [
+      {
+        "label": "Dam closure",
+        "value": "1 Oct 1987",
+        "source_url": "https://inct-servamb.inpa.gov.br/publ_livres/Preprints/1989/BALBINA-ENG2.htm",
+        "status": "unverified",
+        "note": "INPA 1989 paper, search only."
+      },
+      {
+        "label": "First turbine",
+        "value": "February 1989; five 50 MW generators; 250 MW",
+        "source_url": "https://en.wikipedia.org/wiki/Balbina_Dam",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Operator link to Eletronorte",
+        "value": "Eletronorte system",
+        "source_url": "https://en.wikipedia.org/wiki/Balbina_Dam",
+        "status": "unverified",
+        "note": "Wikipedia says Manaus Energia manages the dam within the Eletronorte system; no opened source names Eletronorte as builder or owner."
+      },
+      {
+        "label": "Area flooded",
+        "value": "2,360 km2 reservoir (NASA, Wikipedia, INPA); about 3,000 km2 (one source); 2,928.5 km2 taken from Waimiri-Atroari territory (Wikipedia, a different measure); 4,438 km2 satellite estimate; 2,500 km2 (IHU)",
+        "source_url": "https://philip.inpa.gov.br/publ_livres/2025/Quaresma_et_al-2025-Hidreletricas-Nota%20Técnica_Hidrelétricas.pdf",
+        "status": "disputed",
+        "note": "Quaresma 2025 PDF could not be opened (certificate error)."
+      },
+      {
+        "label": "Waimiri-Atroari land flooded",
+        "value": "30,000 ha (earlier note)",
+        "source_url": "https://philip.inpa.gov.br/publ_livres/2025/Quaresma_et_al-2025-Hidreletricas-Nota%20Técnica_Hidrelétricas.pdf",
+        "status": "corrected",
+        "note": "30,000 ha is in no source found. Wikipedia gives 2,928.5 km2 (about 292,850 ha), roughly ten times larger."
+      },
+      {
+        "label": "Translocation of Waimiri-Atroari",
+        "value": "About one third of surviving members",
+        "source_url": "https://indios.org.br/en/Notícias?id=116001",
+        "status": "unverified",
+        "note": "Indios Online page redirected and was not readable."
+      },
+      {
+        "label": "Compensation",
+        "value": "Hundreds of families never compensated or resettled; 192 families had power cut; cost US$ 1 billion",
+        "source_url": "https://ihu.unisinos.br/588427-atingidos-por-balbina-am-ainda-lutam-por-direitos",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Tree mortality and methane",
+        "value": "High tree mortality; methane documented in INPA literature",
+        "source_url": "https://portalamazonia.com/ciencia-e-tecnologia/pesquisa-do-inpa-mostra-alta-mortalidade-de-arvores-depois-da-barragem-de-balbina/",
+        "status": "unverified",
+        "note": "Not checked in detail."
+      },
+      {
+        "label": "MPF action",
+        "value": "R$ 50 million over genocide of the Waimiri-Atroari",
+        "source_url": "https://www.brasildefato.com.br/2017/08/28/ministerio-publico-pede-justica-aos-indios-waimiri-atroari-por-exterminio-na-ditadura/",
+        "status": "unverified",
+        "note": "QA: cited Brasil de Fato page asks for compensation and an apology but states no amount; R$ 50 million not confirmed there."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Quaresma et al. 2025 (INPA)",
+        "url": "https://philip.inpa.gov.br/publ_livres/2025/Quaresma_et_al-2025-Hidreletricas-Nota%20Técnica_Hidrelétricas.pdf"
+      },
+      {
+        "title": "Indios Online",
+        "url": "https://indios.org.br/en/Notícias?id=116001"
+      },
+      {
+        "title": "IHU Unisinos",
+        "url": "https://ihu.unisinos.br/588427-atingidos-por-balbina-am-ainda-lutam-por-direitos"
+      },
+      {
+        "title": "Portal Amazonia",
+        "url": "https://portalamazonia.com/ciencia-e-tecnologia/pesquisa-do-inpa-mostra-alta-mortalidade-de-arvores-depois-da-barragem-de-balbina/"
+      },
+      {
+        "title": "INPA, O Genocidio dos Waimiri",
+        "url": "https://inct-servamb.inpa.gov.br/publ_livres/2018/O_Genoc%C3%ADdio_dos_Waimiri-possivel_reconhecimento.pdf"
+      },
+      {
+        "title": "Correio Braziliense, Eletrobras law 2021",
+        "url": "https://www.correiobraziliense.com.br/economia/2021/07/amp/4937267-bolsonaro-sanciona-com-vetos-lei-de-privatizacao-da-eletrobras.html"
+      },
+      {
+        "title": "Wikipedia, Balbina Dam",
+        "url": "https://en.wikipedia.org/wiki/Balbina_Dam"
+      },
+      {
+        "title": "INPA 1989 Balbina paper",
+        "url": "https://inct-servamb.inpa.gov.br/publ_livres/Preprints/1989/BALBINA-ENG2.htm"
+      },
+      {
+        "title": "Brasil de Fato, 2017",
+        "url": "https://www.brasildefato.com.br/2017/08/28/ministerio-publico-pede-justica-aos-indios-waimiri-atroari-por-exterminio-na-ditadura/"
+      }
+    ]
+  },
+  {
+    "id": "d-tucurui-dam-1984",
+    "date": "1984",
+    "name": "Tucurui dam and displacement",
+    "place": "Tocantins river, Para (Jacunda, Tucurui, Parakana lands)",
+    "type": "hydro-infrastructure",
+    "operator": "Eletronorte",
+    "ownership": "privatized",
+    "privatized_or_conceded_year": 2021,
+    "linked_transfer": "Operator's parent Eletrobras was privatized by law sanctioned on 13 July 2021, long after the dam. No causal link shown. The 2022 closing of the sale was not verified here; the law's 10-year ban on restructuring subsidiaries was vetoed.",
+    "deaths": "Not found.",
+    "affected": "Displacement estimates conflict (see figures). The Parakana were displaced five times between 1971 and 1977 (CNV, per Publica). Tucurui town grew from 9,000 to 90,000 people; 37 fish species lost (IHU 2011).",
+    "damage": "The dam closed the river in 1984 and flooded 2,430 km2 (Fearnside).",
+    "legal_outcome": "Not found. Eletronorte says compensation was completed: about 5,700 lawsuits paid, and R$ 5,088 to each of 2,343 families under Proset from Sept 2016 to Jan 2017. MAB says many families received nothing.",
+    "summary": "Tucurui flooded 2,430 km2 on the Tocantins from 1984. Estimates of displaced people range from about 20,000 to 55,000. Eletronorte says payments are finished; the movement of dam-affected people (MAB) says families were never paid.",
+    "figures": [
+      {
+        "label": "Dates",
+        "value": "River closed 1984; Decree 78.659 of 1 Nov 1976 declared land of six municipalities of public use; IHU 2011 says construction began 1975",
+        "source_url": "https://revistas.usp.br/reb/article/view/189845",
+        "status": "unverified",
+        "note": "The 1992 end and the 'stages' were not verified."
+      },
+      {
+        "label": "People displaced",
+        "value": "25,000-55,000 (earlier note); 23,871 (Fearnside, revised official figure); more than 20,000 and more than 23,000 (Publica); 40,000 (WWF); 14,000 indigenous (WCD via NASA)",
+        "source_url": "https://apublica.org/?p=30120",
+        "status": "disputed",
+        "note": "The USP page does not contain the 25,000-55,000 range. Other figures partly from search only."
+      },
+      {
+        "label": "Compulsorily displaced (2004 article)",
+        "value": "About 1,000",
+        "source_url": null,
+        "status": "unverified",
+        "note": "A protest-event figure, not a total; no link."
+      },
+      {
+        "label": "MAB 2009: 977 organised members unpaid; funds diverted",
+        "value": "977 unpaid",
+        "source_url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cdhm/arquivos/Nota-MAB-presos-politicos-15-05-2009.pdf/view",
+        "status": "unverified",
+        "note": "Not confirmed. MAB regional coordinator in 2011 says her family got nothing after 30 years (IHU)."
+      },
+      {
+        "label": "Payments by Eletronorte",
+        "value": "5,700 lawsuits for flooded houses and fields, all paid per an engineer; R$ 5,088 to 2,343 families Sept 2016-Jan 2017 (Proset)",
+        "source_url": "https://apublica.org/?p=30120",
+        "status": "corrected",
+        "note": "Corrects 'about 5,700 cases': these are lawsuits, not families. The 'paid' side is one engineer's statement."
+      },
+      {
+        "label": "Parakana displaced five times, 1971-1977",
+        "value": "Five times",
+        "source_url": "https://apublica.org/?p=30120",
+        "status": "verified",
+        "note": "CNV: removed for the Transamazonica and displaced to make way for the lake."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Agencia Publica",
+        "url": "https://apublica.org/?p=30120"
+      },
+      {
+        "title": "Revista da Associacao Brasileira (USP)",
+        "url": "https://revistas.usp.br/reb/article/view/189845"
+      },
+      {
+        "title": "MAB note, Camara",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cdhm/arquivos/Nota-MAB-presos-politicos-15-05-2009.pdf/view"
+      },
+      {
+        "title": "IHU Unisinos, 2011",
+        "url": "https://ihu.unisinos.br/espiritualidade/173-noticias/noticias-2011/42770"
+      },
+      {
+        "title": "Correio Braziliense, Eletrobras law 2021",
+        "url": "https://www.correiobraziliense.com.br/economia/2021/07/amp/4937267-bolsonaro-sanciona-com-vetos-lei-de-privatizacao-da-eletrobras.html"
+      }
+    ]
+  },
+  {
+    "id": "d-itaipu-sete-quedas-1982",
+    "date": "1982-10-13",
+    "name": "Itaipu and the flooding of Sete Quedas",
+    "place": "Parana river, Guaira and western Parana",
+    "type": "hydro-infrastructure",
+    "operator": "Itaipu Binacional (Brazil and Paraguay)",
+    "ownership": "state-owned",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "Not found.",
+    "affected": "About 40,000 people removed (360 Meridianos; indigenous and non-indigenous), or about 42,000 (Publica), or about 10,000 families in other sources. Avá-Guarani lands were flooded.",
+    "damage": "Sete Quedas was under water within 14 days of the gates closing on 13 Oct 1982. The reservoir is 135,000 ha in total (77,000 ha Brazil, 58,000 ha Paraguay).",
+    "legal_outcome": "The PGR in 2019 sought damages from the Union, Parana, Funai, Incra and Itaipu for harm to the Avá-Guarani (status not found). In Jan 2025 Itaipu's board approved a judicial agreement to buy 3,000 ha for R$ 240 million for 31 Avá-Guarani communities.",
+    "summary": "Itaipu's reservoir drowned the Sete Quedas falls in 1982 and displaced tens of thousands of people. Avá-Guarani communities still fight for land. Itaipu says it paid compensation and bought land; Guarani leaders say that land is not their traditional territory.",
+    "figures": [
+      {
+        "label": "Gates closed",
+        "value": "13 Oct 1982; falls under water within 14 days",
+        "source_url": "https://www.360meridianos.com/especial/sete-quedas-itaipu",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Reservoir size",
+        "value": "135,000 ha total: 77,000 ha Brazil, 58,000 ha Paraguay (1,350 km2 total, 770 km2 Brazil)",
+        "source_url": "https://apublica.org/2015/03/os-ecos-de-itaipu/",
+        "status": "corrected",
+        "note": "Replaces 'about 135,000 ha flooded in Parana'. 360 Meridianos wrongly says 'in Parana'."
+      },
+      {
+        "label": "People removed",
+        "value": "About 40,000 (360 Meridianos); about 42,000 (Publica); about 10,000 families (others)",
+        "source_url": "https://www.360meridianos.com/especial/sete-quedas-itaipu",
+        "status": "disputed",
+        "note": ""
+      },
+      {
+        "label": "PGR action in 2019",
+        "value": "Damages sought from Union, Parana, Funai, Incra and Itaipu",
+        "source_url": "https://www.360meridianos.com/especial/sete-quedas-itaipu",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Land purchase offer",
+        "value": "Jan 2025: 3,000 ha for R$ 240 million for 31 communities (Tekoha Guasu Guavira and Guasu Ocoy-Jakutinga) in five municipalities; by April 2026 only about 700 ha acquired",
+        "source_url": "https://apublica.org/2015/03/os-ecos-de-itaipu/",
+        "status": "corrected",
+        "note": "Replaces 'offered to buy 3,000 ha of the 24,000 ha Guasu Guavira'. Not in the cited page. The 2025/2026 figures come from gov.br and Brasil de Fato search results; '24,000 ha' not verified. Communities call it insufficient."
+      },
+      {
+        "label": "Santa Helena eviction suit",
+        "value": "March 2019 action against Pyahu village (about 12 families); suspended by the STF in 2020 and 2021",
+        "source_url": "https://ihu.unisinos.br/categorias/587469-itaipu-tenta-expulsar-comunidade-ava-guarani-de-santa-helena-com-nova-acao-de-despejo",
+        "status": "corrected",
+        "note": "Replaces 'Itaipu sought eviction in 2025'. No 2025 eviction found. The Diplomatique page returned 403."
+      },
+      {
+        "label": "Oco'y land",
+        "value": "Guarani sought about 1,500 ha, accepted 251 ha; Itaipu says 48 ha plantable for 165 families",
+        "source_url": "https://apublica.org/2015/03/os-ecos-de-itaipu/",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Not privatized",
+        "value": "State binational company",
+        "source_url": null,
+        "status": "unverified",
+        "note": "Not checked; widely stated."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Agencia Publica, Os ecos de Itaipu",
+        "url": "https://apublica.org/os-ecos-de-itaipu/"
+      },
+      {
+        "title": "Agencia Publica, 2015",
+        "url": "https://apublica.org/2015/03/os-ecos-de-itaipu/"
+      },
+      {
+        "title": "360 Meridianos",
+        "url": "https://www.360meridianos.com/especial/sete-quedas-itaipu"
+      },
+      {
+        "title": "Le Monde Diplomatique Brasil",
+        "url": "https://diplomatique.org.br/itaipu-ameaca-despejar-comunidade-guarani-em-santa-helena-oeste-do-parana/"
+      },
+      {
+        "title": "MPF clipping 2015",
+        "url": "https://www.mpf.mp.br/atuacao/ccr6/documentos-e-publicacoes/clipping/docs/2015/17_03_2015.pdf"
+      },
+      {
+        "title": "IHU Unisinos, Santa Helena eviction",
+        "url": "https://ihu.unisinos.br/categorias/587469-itaipu-tenta-expulsar-comunidade-ava-guarani-de-santa-helena-com-nova-acao-de-despejo"
+      }
+    ]
+  },
+  {
+    "id": "d-sobradinho-dam-1979",
+    "date": "1979",
+    "name": "Sobradinho dam",
+    "place": "Sao Francisco river, Bahia (Sento Se, Juazeiro and others)",
+    "type": "hydro-infrastructure",
+    "operator": "Chesf",
+    "ownership": "privatized",
+    "privatized_or_conceded_year": 2021,
+    "linked_transfer": "Operator's parent Eletrobras was privatized by law sanctioned on 13 July 2021, long after the dam. No causal link shown. The 2022 closing of the sale was not verified here; the law's 10-year ban on restructuring subsidiaries was vetoed.",
+    "deaths": "Not found.",
+    "affected": "Disputed: 59,265 displaced (Chesf), about 70,000 (Ipea, 1973-1980), about 72,000 (social organisations); about 26,000 properties expropriated (IPS). Old Sento Se had about 7,000 residents.",
+    "damage": "Reservoir of 4,214 km2; 1,050 MW. Chesf says it built new towns (Sento Se, Casa Nova, Remanso, Pilao Arcado).",
+    "legal_outcome": "A TJ-BA ruling for 164 Sento Se families became final on 15 Feb 2023. Bahia Noticias (29 Mar 2023) reports R$ 6.5 billion, with per-claimant amounts of about R$ 500 thousand to R$ 3 billion; that is an enforcement figure inflated by decades of interest and currency conversion. Payment status not found. Chesf's reaction not found.",
+    "summary": "Sobradinho, built 1973-1979 by state company Chesf, displaced between 59,000 and 72,000 people. Many were resettled with little compensation. A court ruling for 164 families became final in 2023, with a headline value of R$ 6.5 billion.",
+    "figures": [
+      {
+        "label": "Dates",
+        "value": "Construction began 1973; operation 1979 (Nov 1979 per earlier note)",
+        "source_url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cffc/apresentacoes-em-eventos/2018/marta-rodrigues-dos-santos",
+        "status": "unverified",
+        "note": "Ipea/Disoc slide gives the years; the month is not given."
+      },
+      {
+        "label": "Owner and size",
+        "value": "Chesf; reservoir 4,214 km2; 1,050 MW",
+        "source_url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cffc/apresentacoes-em-eventos/2018/marta-rodrigues-dos-santos",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "People displaced",
+        "value": "59,265 (Chesf); about 70,000 (Ipea); about 72,000 (organisations)",
+        "source_url": "https://www.ipsnews.net/portuguese/2017/01/ultimas-noticias/hidreletricas-desterram-ribeirinhos/",
+        "status": "disputed",
+        "note": "The earlier 'Chesf 2001' attribution of the 70,000 figure was not seen."
+      },
+      {
+        "label": "Sento Se resettlement",
+        "value": "New town with plumbing, electricity and sewage; Chesf paid few and very low indemnities, many without land titles",
+        "source_url": "https://www.ipsnews.net/portuguese/2017/01/ultimas-noticias/hidreletricas-desterram-ribeirinhos/",
+        "status": "verified",
+        "note": "Earlier note said 'almost no compensation'; IPS is more mixed."
+      },
+      {
+        "label": "Senate 2015 hearing: about 230 families",
+        "value": "About 230",
+        "source_url": "https://legis.senado.leg.br/escriba-servicosweb/reuniao/pdf/3776",
+        "status": "unverified",
+        "note": "Senate PDF unreadable (image only); 1976 expropriation lawsuits and the 2015 hearing are confirmed by search, '230' is not."
+      },
+      {
+        "label": "TJ-BA compensation",
+        "value": "R$ 6.5 billion for 164 Sento Se families; final on 15 Feb 2023",
+        "source_url": "https://www.bahianoticias.com.br/municipios/noticia/33465-atingidos-pela-construcao-da-barragem-de-sobradinho-podem-receber-indenizacao-de-rdollar-65-bilhoes",
+        "status": "verified",
+        "note": "Replaces 'not independently verified'."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Camara, Marta Rodrigues dos Santos",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cffc/apresentacoes-em-eventos/2018/marta-rodrigues-dos-santos"
+      },
+      {
+        "title": "IPS",
+        "url": "https://www.ipsnews.net/portuguese/2017/01/ultimas-noticias/hidreletricas-desterram-ribeirinhos/"
+      },
+      {
+        "title": "Senado",
+        "url": "https://legis.senado.leg.br/escriba-servicosweb/reuniao/pdf/3776"
+      },
+      {
+        "title": "Revista Unifacs",
+        "url": "https://revistas.unifacs.br/index.php/rde/article/view/1242"
+      },
+      {
+        "title": "Bahia Noticias",
+        "url": "https://www.bahianoticias.com.br/municipios/noticia/33465-atingidos-pela-construcao-da-barragem-de-sobradinho-podem-receber-indenizacao-de-rdollar-65-bilhoes"
+      },
+      {
+        "title": "Correio Braziliense, Eletrobras law 2021",
+        "url": "https://www.correiobraziliense.com.br/economia/2021/07/amp/4937267-bolsonaro-sanciona-com-vetos-lei-de-privatizacao-da-eletrobras.html"
+      }
+    ]
+  },
+  {
+    "id": "d-oros-dam-1960",
+    "date": "1960-03-26",
+    "name": "Oros dam failure",
+    "place": "Jaguaribe river, Ceara",
+    "type": "hydro-infrastructure",
+    "operator": "Federal public works (DNOCS)",
+    "ownership": "state-owned",
+    "privatized_or_conceded_year": null,
+    "linked_transfer": null,
+    "deaths": "No official record; newspapers reported bodies. A Hebrew Wikipedia figure of about 100 is unverified.",
+    "affected": "About 170,000 people, 60% of the Baixo Jaguaribe population (O Povo). Evacuations in Jaguaribe, Limoeiro and Aracati.",
+    "damage": "The dam, under construction, failed at 00:17 on 26 March 1960; it was reinaugurated in January 1961.",
+    "legal_outcome": "Not found.",
+    "summary": "The Oros dam in Ceara failed in the night of 26 March 1960 while still under construction. DNOCS engineers had warned of risk. Sources disagree on whether the dam broke or overflowed. Evacuation saved most of the 170,000 people at risk.",
+    "figures": [
+      {
+        "label": "People affected",
+        "value": "About 170,000, 60% of Baixo Jaguaribe population",
+        "source_url": "https://mais.opovo.com.br/jornal/cidades/2025/03/26/rompimento-da-barragem-do-acude-oros-completa-65-anos.html",
+        "status": "unverified",
+        "note": "Source page opened by the research author; not covered by the independent fact-check."
+      },
+      {
+        "label": "Mechanism of failure",
+        "value": "O Povo: right abutment gave way. Estado de Minas: dam overflowed without breaking, built to 29 m of a 54 m design",
+        "source_url": "https://www.em.com.br/especiais/2026/08/7472573-na-reportagem-em-oros-o-olhar-ja-era-cinematografico.html",
+        "status": "disputed",
+        "note": "Estado de Minas also says 200 million cruzeiros released in January 1960 were held up awaiting Sudene approval."
+      },
+      {
+        "label": "Deaths",
+        "value": "About 100 (Hebrew Wikipedia)",
+        "source_url": null,
+        "status": "unverified",
+        "note": "No official record."
+      }
+    ],
+    "sources": [
+      {
+        "title": "O Povo",
+        "url": "https://mais.opovo.com.br/jornal/cidades/2025/03/26/rompimento-da-barragem-do-acude-oros-completa-65-anos.html"
+      },
+      {
+        "title": "Estado de Minas",
+        "url": "https://www.em.com.br/especiais/2026/08/7472573-na-reportagem-em-oros-o-olhar-ja-era-cinematografico.html"
+      }
+    ]
+  }
+]

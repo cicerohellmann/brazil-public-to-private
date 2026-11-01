@@ -1,0 +1,1833 @@
+[
+ {
+  "id": "d-pau-branco-dique-lisa-2022",
+  "date": "2022-01-08",
+  "name": "Pau Branco mine: Dique Lisa overflow onto BR-040",
+  "place": "Nova Lima, Minas Gerais, BR-040 at km 562",
+  "type": "mining",
+  "operator": "Vallourec Mineração (French group)",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "None reported; one person injured (O Liberal)",
+  "affected": "BR-040 closed, 2 km traffic jams each way; firefighters said no evacuation was required.",
+  "damage": "Rain carried solid material from the Cachoeirinha pile into Dique Lisa, which overflowed with mud onto the highway. Volume not stated.",
+  "legal_outcome": "Minas Gerais fined Vallourec R$ 288 million (maximum, doubled for repeat offence after a 2020 fine). In Dec 2022 a settlement of R$ 73 million plus a state fine of R$ 80 million, R$ 153 million in total. Monthly stability reports and an independent audit required. A court suspended activity at the mine (search summary).",
+  "summary": "On 8 Jan 2022 a dike at the Pau Branco mine overflowed with mud onto the BR-040 highway. Nobody died. Vallourec says it is a rainwater structure, not a tailings dam, while the MAB movement calls it a rupture.",
+  "figures": [
+   {
+    "label": "Initial state fine",
+    "value": "R$ 288 million",
+    "source_url": "https://www.suno.com.br/noticias/?p=220740",
+    "status": "unverified",
+    "note": "Opened pages do not say whether this was cut to R$ 80 million or is a different instrument."
+   },
+   {
+    "label": "Settlement, Dec 2022",
+    "value": "R$ 73 million (R$ 48 million to environmental entities and projects, R$ 25 million to state agencies) plus state fine R$ 80 million = R$ 153 million",
+    "source_url": "https://diariodocomercio.com.br/economia/vallourec-fecha-acordo-para-compensar-danos-ambientais/",
+    "status": "verified",
+    "note": "Signed 12 Dec 2022."
+   },
+   {
+    "label": "Rupture or overflow",
+    "value": "Firefighters first reported a rupture, then retracted",
+    "source_url": "https://www.poder360.com.br/brasil/dique-transborda-em-barragem-da-mina-pau-branco-em-mg/",
+    "status": "disputed",
+    "note": "Vallourec: dike is rainwater containment. MAB still calls it a rupture."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Poder360: dike overflows",
+    "url": "https://www.poder360.com.br/brasil/dique-transborda-em-barragem-da-mina-pau-branco-em-mg/"
+   },
+   {
+    "title": "Suno",
+    "url": "https://www.suno.com.br/noticias/?p=220740"
+   },
+   {
+    "title": "Diário do Comércio: Vallourec settlement",
+    "url": "https://diariodocomercio.com.br/economia/vallourec-fecha-acordo-para-compensar-danos-ambientais/"
+   },
+   {
+    "title": "O Liberal",
+    "url": "https://www.oliberal.com/brasil/barragem-transborda-em-minas-gerais-e-uma-pessoa-fica-ferida-1.480417"
+   }
+  ]
+ },
+ {
+  "id": "d-corrego-do-sitio-ii-2021",
+  "date": "2021",
+  "name": "Córrego do Sítio II dam, Santa Bárbara",
+  "place": "Santa Bárbara, Minas Gerais",
+  "type": "mining",
+  "operator": "AngloGold Ashanti (private, foreign)",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "None. No rupture occurred.",
+  "affected": "About 650 workers dismissed when operations were suspended (company cited negative results and rising costs, not the dam). Self-rescue zone of about 3,000 people (search summary only). Accidental siren soundings: five per MAM, four in a June 2023 article.",
+  "damage": "A May 2021 leak reached Rio Conceição; AngloGold said it came from the plant, residents said from the dam. Dam rated level 1 after a crack 12 cm wide and 60 m long; Civil Defence reported a crack over 300 m in 2023.",
+  "legal_outcome": "No fines found. ANM inspected on 23 and 25 May 2023. Operations suspended 21 Aug 2023. The dam is reported to be undergoing decharacterization.",
+  "summary": "Cracks and a leak at the Córrego do Sítio II dam kept Santa Bárbara on alert from 2021. The dam did not fail. AngloGold calls it safe and stable; residents faced false sirens and about 650 workers lost their jobs.",
+  "figures": [
+   {
+    "label": "People in self-rescue zone",
+    "value": "About 3,000",
+    "source_url": "https://www.brasildefato.com.br/2023/06/12/barragem-de-mineradora-com-trinca-de-300-metros-apavora-moradores-em-santa-barbara-mg",
+    "status": "unverified",
+    "note": "Search summary only."
+   },
+   {
+    "label": "May 2021 leak source",
+    "value": "Plant (AngloGold) or dam (residents)",
+    "source_url": "https://www.brasildefato.com.br/2023/06/12/barragem-de-mineradora-com-trinca-de-300-metros-apavora-moradores-em-santa-barbara-mg",
+    "status": "disputed",
+    "note": "Search summary only."
+   },
+   {
+    "label": "Crack size",
+    "value": "12 cm wide, 60 m long (level 1); Civil Defence later reported over 300 m",
+    "source_url": "https://www.brasildefato.com.br/2023/06/12/barragem-de-mineradora-com-trinca-de-300-metros-apavora-moradores-em-santa-barbara-mg",
+    "status": "disputed",
+    "note": "Two different measurements in sources."
+   },
+   {
+    "label": "Workers dismissed",
+    "value": "About 650",
+    "source_url": "https://www.brasildefato.com.br/2023/08/28/anglogold-ashanti-demite-650-trabalhadores-ao-suspender-operacoes-em-mina-de-santa-barbara-mg/",
+    "status": "verified",
+    "note": ""
+   }
+  ],
+  "sources": [
+   {
+    "title": "Brasil de Fato: 300 m crack",
+    "url": "https://www.brasildefato.com.br/2023/06/12/barragem-de-mineradora-com-trinca-de-300-metros-apavora-moradores-em-santa-barbara-mg"
+   },
+   {
+    "title": "Brasil de Fato: 650 dismissed",
+    "url": "https://www.brasildefato.com.br/2023/08/28/anglogold-ashanti-demite-650-trabalhadores-ao-suspender-operacoes-em-mina-de-santa-barbara-mg/"
+   }
+  ]
+ },
+ {
+  "id": "d-asbestos-minacu-2021",
+  "date": "2021-08-20",
+  "name": "Asbestos mine SAMA (Eternit group), Minaçu",
+  "place": "Minaçu, Goiás",
+  "type": "mining",
+  "operator": "SAMA, subsidiary of Eternit",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "Workers' illness and deaths documented in academic work (Amaral, 2017); not quantified.",
+  "affected": "Workers, families and nearby residents (MPF claim).",
+  "damage": "Asbestos (chrysotile) extraction and health harm; not quantified.",
+  "legal_outcome": "Federal court ordered suspension of extraction and sales on an MPF civil action; Eternit halted the mine on 20 Aug 2021. STF banned asbestos nationwide on 29 Nov 2017. Reports of the STF upholding the ban in Feb 2023 conflict with a 24 Jan 2023 STF authorisation to resume extraction for export. Current status not verified.",
+  "summary": "Eternit's SAMA mine in Minaçu was the country's asbestos source. A Goiás law from July 2019 allowed extraction for export, and the MPF challenged it. A federal court order stopped the mine in August 2021.",
+  "figures": [
+   {
+    "label": "Mine halted",
+    "value": "20 Aug 2021, after a federal court order (Judge Bruno Teixeira de Castro, Uruaçu)",
+    "source_url": "https://www.bloomberglinea.com.br/2021/08/20/eternit-paralisa-mina-de-amianto-em-goias-apos-ordem-judicial/",
+    "status": "verified",
+    "note": "Eternit had resumed under the Goiás law for export."
+   },
+   {
+    "label": "STF national ban",
+    "value": "29 Nov 2017",
+    "source_url": "https://www.jornalopcao.com.br/ultimas-noticias/stf-mantem-proibicao-do-uso-de-amianto-no-pais-468861/",
+    "status": "unverified",
+    "note": "Search only."
+   },
+   {
+    "label": "Which court ordered the stop",
+    "value": "Federal court (Bloomberg) versus STJ (Opção headline and URL)",
+    "source_url": "https://www.jornalopcao.com.br/justica/stj-determina-que-mineradora-pare-a-extracao-de-amianto-em-minacu-444061/",
+    "status": "disputed",
+    "note": "Opção page blocked."
+   },
+   {
+    "label": "STF ruling Feb 2023",
+    "value": "Ban upheld 24 Feb 2023, but a 24 Jan 2023 STF authorisation to resume export extraction also reported",
+    "source_url": "https://www.jornalopcao.com.br/ultimas-noticias/stf-mantem-proibicao-do-uso-de-amianto-no-pais-468861/",
+    "status": "disputed",
+    "note": "Check ADIs 3937, 3406, 3470."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Jornal Opção: court orders stop",
+    "url": "https://www.jornalopcao.com.br/justica/stj-determina-que-mineradora-pare-a-extracao-de-amianto-em-minacu-444061/"
+   },
+   {
+    "title": "Bloomberg Línea: Eternit halts mine",
+    "url": "https://www.bloomberglinea.com.br/2021/08/20/eternit-paralisa-mina-de-amianto-em-goias-apos-ordem-judicial/"
+   },
+   {
+    "title": "Jornal Opção: STF keeps ban",
+    "url": "https://www.jornalopcao.com.br/ultimas-noticias/stf-mantem-proibicao-do-uso-de-amianto-no-pais-468861/"
+   }
+  ]
+ },
+ {
+  "id": "d-itabira-pontal-2020",
+  "date": "2020",
+  "name": "Itabira: Sistema Pontal dams and mining complex (Vale)",
+  "place": "Itabira, Minas Gerais; neighbourhoods Bela Vista, Nova Vista, Jardim das Oliveiras, Praia",
+  "type": "mining",
+  "operator": "Vale",
+  "ownership": "privatized",
+  "privatized_or_conceded_year": 1997,
+  "linked_transfer": "Vale privatization auction, 6 May 1997",
+  "deaths": "None (no failure).",
+  "affected": "At least four neighbourhoods below the structures (MPMG). A deputy spoke of up to 300 families; Vale and the city gave no number (Money Times, 2021). A claim of over 5,000 houses in high-risk areas is search-summary only.",
+  "damage": "The decommissioning plan needs a large containment wall in an urban area; the ruling recognises damage from higher rupture risk and from the works. No sourced figure on dust from the Cauê and Conceição mines.",
+  "legal_outcome": "MPMG case filed Apr 2022. The 1st Civil Court of Itabira (reported 25 Sept 2024) ordered Vale to repair individual moral and property damage, collective damage and damage to the municipal health system, fund an independent technical body, and offer removed residents resettlement, a like property or cash. No amounts given. June 2020: labour court (TRT-MG) halted the Cauê, Conceição and Periquito mines after 188 covid-19 cases, R$ 500,000 daily fine; a later TRT item suggests the halt was suspended.",
+  "summary": "Vale's Pontal dams in Itabira sit above urban neighbourhoods and may force families to move. A court in 2024 ordered Vale to repair damage and offer resettlement. Vale says removals will follow safety studies.",
+  "figures": [
+   {
+    "label": "Families that may be removed",
+    "value": "Up to 300 families (deputy's statement)",
+    "source_url": "https://www.moneytimes.com.br/vale-considera-remocao-de-familias-em-itabira-minas-gerais",
+    "status": "unverified",
+    "note": "Vale and the city gave no number."
+   },
+   {
+    "label": "Houses in high-risk areas",
+    "value": "Over 5,000",
+    "source_url": "",
+    "status": "unverified",
+    "note": "Search summary only (resident committee claim)."
+   },
+   {
+    "label": "Covid-19 cases at mines",
+    "value": "188; labour court halt on 6 June 2020 with R$ 500,000 daily fine",
+    "source_url": "https://www.poder360.com.br/justica/justica-interdita-area-de-mineracao-da-vale-em-minas-gerais/",
+    "status": "verified",
+    "note": "Later TRT item suggests suspension of the halt [unverified]."
+   },
+   {
+    "label": "Itabira as original Vale site",
+    "value": "Itabira is the original Vale mining site",
+    "source_url": "",
+    "status": "unverified",
+    "note": "Not stated in opened pages."
+   }
+  ],
+  "sources": [
+   {
+    "title": "MPMG: court orders Vale to repair damage",
+    "url": "https://www.mpmg.mp.br/portal/menu/comunicacao/noticias/em-acao-do-mpmg-justica-condena-a-vale-a-reparar-danos-morais-e-patrimoniais-causados-as-pessoas-atingidas-por-barragens-de-mineracao-do-sistema-pontal-em-itabira.shtml"
+   },
+   {
+    "title": "Money Times: Vale considers removals",
+    "url": "https://www.moneytimes.com.br/vale-considera-remocao-de-familias-em-itabira-minas-gerais"
+   },
+   {
+    "title": "Poder360: court shuts mining area",
+    "url": "https://www.poder360.com.br/justica/justica-interdita-area-de-mineracao-da-vale-em-minas-gerais/"
+   },
+   {
+    "title": "Wikipedia: Vale privatization",
+    "url": "https://en.wikipedia.org/wiki/Privatizations_under_the_Fernando_Henrique_Cardoso_presidency"
+   }
+  ]
+ },
+ {
+  "id": "d-gongo-soco-pit-slope-2019",
+  "date": "2019-05-17",
+  "name": "Gongo Soco pit slope, Barão de Cocais",
+  "place": "Gongo Soco mine, Barão de Cocais, Minas Gerais",
+  "type": "mining",
+  "operator": "Vale",
+  "ownership": "privatized",
+  "privatized_or_conceded_year": 1997,
+  "linked_transfer": "Vale privatization auction, 6 May 1997",
+  "deaths": "None.",
+  "affected": "443 residents of the self-rescue zone had left home since 8 Feb 2019 (Defesa Civil MG, via Poder360).",
+  "damage": "North slope moved about 10 cm a year since 2012, then 5 cm a day from late April 2019 and 7 cm a day from 19 May. The Sul Superior dam sits 1.5 km away; ANM feared vibration could affect it.",
+  "legal_outcome": "No fines found. ANM closure 17 May 2019; predicted failure window 19-25 May 2019. The failure did not occur on schedule; in March 2020 Vale said the slope was still sliding into the pit.",
+  "summary": "In 2019 the slope of the Gongo Soco pit began to slide, and ANM feared it might hit the nearby Sul Superior dam. The collapse did not happen on schedule. Vale argued the sliding would be inward, reducing impact.",
+  "figures": [
+   {
+    "label": "Residents out of homes",
+    "value": "443",
+    "source_url": "https://www.poder360.com.br/brasil/talude-de-mina-em-barao-dos-cocais-mg-pode-se-romper-ate-dia-25-diz-anm/",
+    "status": "verified",
+    "note": "Other reports: 454, 457, over 400, about 500."
+   },
+   {
+    "label": "Blocks fell 31 May 2019",
+    "value": "31 May 2019",
+    "source_url": "",
+    "status": "unverified",
+    "note": "Search summary only."
+   },
+   {
+    "label": "Vale statement",
+    "value": "9 Mar 2020: slope still sliding",
+    "source_url": "https://forbes.com.br/negocios/2020/03/vale-diz-que-talude-de-mina-gongo-soco-segue-deslizando/",
+    "status": "verified",
+    "note": ""
+   }
+  ],
+  "sources": [
+   {
+    "title": "Poder360: slope could fail by 25 May",
+    "url": "https://www.poder360.com.br/brasil/talude-de-mina-em-barao-dos-cocais-mg-pode-se-romper-ate-dia-25-diz-anm/"
+   },
+   {
+    "title": "Forbes: slope still sliding",
+    "url": "https://forbes.com.br/negocios/2020/03/vale-diz-que-talude-de-mina-gongo-soco-segue-deslizando/"
+   },
+   {
+    "title": "Wikipedia: Vale privatization",
+    "url": "https://en.wikipedia.org/wiki/Privatizations_under_the_Fernando_Henrique_Cardoso_presidency"
+   }
+  ]
+ },
+ {
+  "id": "d-ouro-preto-nova-lima-evacuations-2019",
+  "date": "2019-02-20",
+  "name": "Vale dam evacuations: Nova Lima, Ouro Preto and Barão de Cocais",
+  "place": "Vargem Grande dam (Nova Lima); Forquilha I, II, III and Grupo, and Doutor dam at Antônio Pereira (Ouro Preto); Norte/Laranjeiras (Barão de Cocais)",
+  "type": "mining",
+  "operator": "Vale",
+  "ownership": "privatized",
+  "privatized_or_conceded_year": 1997,
+  "linked_transfer": "Vale privatization auction, 6 May 1997",
+  "deaths": "None.",
+  "affected": "Feb 2019: about 75 residents (Nova Lima 19 households, about 60 people; Ouro Preto 5 households, about 15). 2021: 30 houses in the expanded zone at Antônio Pereira; Norte/Laranjeiras and Doutor at level 2; Sul Superior at level 3.",
+  "damage": "No failure. Five upstream-raised, inactive dams were treated as risks.",
+  "legal_outcome": "No fines found.",
+  "summary": "After Brumadinho, Vale moved residents out from below several upstream dams in Nova Lima and Ouro Preto in Feb 2019, and more families in 2020-2021. Vale said conditions had not changed and the moves were preventive.",
+  "figures": [
+   {
+    "label": "Residents removed Feb 2019",
+    "value": "About 75",
+    "source_url": "https://jovempan.com.br/brasil/vale-retirara-75-pessoas-que-vivem-proximas-a-cinco-barragens-em-nova-lima-e-ouro-preto-mg/",
+    "status": "verified",
+    "note": "Date 20 Feb 2019."
+   },
+   {
+    "label": "Congonhas evacuations",
+    "value": "Not mentioned in the opened sources",
+    "source_url": "",
+    "status": "unverified",
+    "note": "Original brief item left open."
+   },
+   {
+    "label": "Sul Superior removals",
+    "value": "Over 400 people",
+    "source_url": "https://www.poder360.com.br/brasil/vale-removera-mais-familias-por-causa-de-riscos-em-barragens/",
+    "status": "verified",
+    "note": ""
+   }
+  ],
+  "sources": [
+   {
+    "title": "Jovem Pan: Vale to remove 75 people",
+    "url": "https://jovempan.com.br/brasil/vale-retirara-75-pessoas-que-vivem-proximas-a-cinco-barragens-em-nova-lima-e-ouro-preto-mg/"
+   },
+   {
+    "title": "Poder360: Vale to remove more families",
+    "url": "https://www.poder360.com.br/brasil/vale-removera-mais-familias-por-causa-de-riscos-em-barragens/"
+   },
+   {
+    "title": "Wikipedia: Vale privatization",
+    "url": "https://en.wikipedia.org/wiki/Privatizations_under_the_Fernando_Henrique_Cardoso_presidency"
+   }
+  ]
+ },
+ {
+  "id": "d-barao-de-cocais-sul-superior-2019",
+  "date": "2019-02-08",
+  "name": "Barão de Cocais: Sul Superior dam preventive evacuation",
+  "place": "Barão de Cocais, Minas Gerais (Socorro, Tabuleiro, Piteiras communities)",
+  "type": "mining",
+  "operator": "Vale (Gongo Soco mine)",
+  "ownership": "privatized",
+  "privatized_or_conceded_year": 1997,
+  "linked_transfer": "Vale privatization auction, 6 May 1997",
+  "deaths": "None recorded.",
+  "affected": "About 454 people removed from the self-rescue zone (Agência Minas); other reports 457, more than 400, or about 500.",
+  "damage": "None quantified.",
+  "legal_outcome": "Vale signed a R$ 527 million repair agreement on 18 Aug 2023 with MPMG, DPMG and MPF at TJMG. Dam deactivated 2008; decharacterization planned for 2029 (per Vale).",
+  "summary": "After Brumadinho, residents below the Sul Superior dam were evacuated from 8 Feb 2019. The dam reached emergency level 3 on 22 Mar 2019. In 2023 Vale agreed to R$ 527 million in repairs.",
+  "figures": [
+   {
+    "label": "Level 3 alert date",
+    "value": "22 Mar 2019 (first Vale dam to reach level 3)",
+    "source_url": "https://www.itatiaia.com.br/politica/vale-fecha-acordo-de-r-527-milhoes-para-reparar-danos-em-barao-de-cocais/",
+    "status": "corrected",
+    "note": "Original note said 23 Mar 2019. Search result only."
+   },
+   {
+    "label": "People removed",
+    "value": "About 454",
+    "source_url": "https://www.agenciaminas.mg.gov.br/news/pdf/105368.pdf",
+    "status": "unverified",
+    "note": "Agência Minas PDF would not open. Agência Brasil Jun 2019 gave 457."
+   },
+   {
+    "label": "Repair agreement",
+    "value": "R$ 527 million, signed 18 Aug 2023",
+    "source_url": "https://www.itatiaia.com.br/politica/vale-fecha-acordo-de-r-527-milhoes-para-reparar-danos-em-barao-de-cocais/",
+    "status": "corrected",
+    "note": "Original note said Vale paid R$ 527 million. It is the agreement value, a commitment to repair, not shown as already paid."
+   },
+   {
+    "label": "Decharacterization",
+    "value": "2029",
+    "source_url": "https://www.cartacapital.com.br/?p=366306",
+    "status": "unverified",
+    "note": "Per Vale, secondary source."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Agência Minas PDF",
+    "url": "https://www.agenciaminas.mg.gov.br/news/pdf/105368.pdf"
+   },
+   {
+    "title": "Carta Capital",
+    "url": "https://www.cartacapital.com.br/?p=366306"
+   },
+   {
+    "title": "Exame: evacuation of 500 people",
+    "url": "https://exame.com/negocios/vale-alerta-em-barragem-forca-evacuacao-de-500-pessoas-em-barao-de-cocais"
+   },
+   {
+    "title": "Itatiaia: R$ 527 million agreement",
+    "url": "https://www.itatiaia.com.br/politica/vale-fecha-acordo-de-r-527-milhoes-para-reparar-danos-em-barao-de-cocais/"
+   },
+   {
+    "title": "Wikipedia: Vale privatization",
+    "url": "https://en.wikipedia.org/wiki/Privatizations_under_the_Fernando_Henrique_Cardoso_presidency"
+   }
+  ]
+ },
+ {
+  "id": "d-brumadinho-corrego-do-feijao-2019",
+  "date": "2019-01-25",
+  "name": "Brumadinho: Córrego do Feijão dam collapse",
+  "place": "Córrego do Feijão mine, Brumadinho, Minas Gerais; mud reached the Paraopeba river",
+  "type": "mining",
+  "operator": "Vale (dam certified by TÜV SÜD)",
+  "ownership": "privatized",
+  "privatized_or_conceded_year": 1997,
+  "linked_transfer": "Vale privatization auction, 6 May 1997",
+  "deaths": "270 (most common count); 272 counting two unborn babies. Other counts: 265 dead plus 5 missing (CUT); 258 dead plus 11 missing (Outras Palavras). 6 still missing in Jan 2022.",
+  "affected": "About 1,400 victims from Brumadinho and Mário Campos are suing TÜV SÜD AG in Munich for about R$ 3.2 billion (hearings set for 26-28 May 2026; outcome not found).",
+  "damage": "About 12 million m3 of tailings (state government figure; 11.7 million m3 licensed volume). Mud ran about 5 km to the Paraopeba; metals found about 302 km downstream.",
+  "legal_outcome": "Civil: Vale and Minas Gerais signed R$ 37.68 billion in Feb 2021. IBAMA fined Vale R$ 250 million. Criminal: 16 people (11 Vale, 5 TÜV SÜD) and two companies charged; case moved to federal court. In April 2026 the STJ reinstated the case against ex-CEO Fabio Schvartsman. No conviction yet. CVM cleared Schvartsman in Dec 2024 and fined ex-director Poppinga R$ 27 million (regulatory, not criminal).",
+  "summary": "The Córrego do Feijão dam collapsed on 25 Jan 2019 and killed about 270 people. Vale and TÜV SÜD blame each other. Vale signed a R$ 37.68 billion deal in 2021, but seven years on there is no criminal conviction.",
+  "figures": [
+   {
+    "label": "Deaths",
+    "value": "270 (272 counting two unborn babies); other sources 265 to 272",
+    "source_url": "https://en.wikipedia.org/wiki/Brumadinho_dam_disaster",
+    "status": "disputed",
+    "note": "259 confirmed plus 11 missing in Jan 2019. Congresso em Foco headline says 242 but its body says 272; headline looks like an error, so 242 is not used."
+   },
+   {
+    "label": "Tailings released",
+    "value": "About 12 million m3",
+    "source_url": "https://en.wikipedia.org/wiki/Brumadinho_dam_disaster",
+    "status": "corrected",
+    "note": "Original note said 13 million m3. State government figure is about 12 million; 11.7 million m3 is the licensed volume."
+   },
+   {
+    "label": "Mud area",
+    "value": "3.6 km2 over 10 km",
+    "source_url": "https://en.wikipedia.org/wiki/Brumadinho_dam_disaster",
+    "status": "unverified",
+    "note": "No area in Wikipedia: mud ran about 5 km to the Paraopeba."
+   },
+   {
+    "label": "IBAMA fines",
+    "value": "R$ 250 million (five notices of R$ 50 million, the legal maximum), announced 26 Jan 2019",
+    "source_url": "https://forbes.com.br/negocios/2019/01/ibama-multa-vale-em-r-250-milhoes-por-brumadinho/",
+    "status": "verified",
+    "note": "Daily fine for failing to rescue fauna also reported (Folha Vitória)."
+   },
+   {
+    "label": "Assets blocked by courts",
+    "value": "R$ 11 billion",
+    "source_url": "https://congressoemfoco.com.br/noticia/106077/tragedia-de-brumadinho-seis-anos-242-mortos-nenhum-condenado",
+    "status": "corrected",
+    "note": "Original note listed R$ 11 and R$ 16 billion. No source found for R$ 16 billion. TÜV SÜD freeze was R$ 60 million, later cut to R$ 7 million (TJMG)."
+   },
+   {
+    "label": "Vale-Minas Gerais settlement",
+    "value": "R$ 37.68 billion, Feb 2021 (state had asked about R$ 54.6 billion)",
+    "source_url": "",
+    "status": "unverified",
+    "note": "Search snippets only (infomoney, poder360). Vale says it paid or provisioned it (68% executed per a 2024 report, search snippet)."
+   },
+   {
+    "label": "Criminal charges",
+    "value": "MPMG charged 16 people (11 Vale, 5 TÜV SÜD) and two companies, 270 counts of qualified homicide; received by court 14 Feb 2020",
+    "source_url": "https://www.mpmg.mp.br/portal/menu/comunicacao/noticias/denuncia-oferecida-pelo-mpmg-contra-16-pessoas-pelos-crimes-praticados-em-brumadinho-e-recebida-pela-justica.shtml",
+    "status": "verified",
+    "note": "Some reports count 15 or 17 individuals (search summary)."
+   },
+   {
+    "label": "STJ annulment, STF Dec 2022, federal court Jan 2023",
+    "value": "STJ annulled state court acceptance; STF ruled Dec 2022 federal courts have jurisdiction; federal court accepted charges Jan 2023",
+    "source_url": "https://congressoemfoco.com.br/noticia/106077/tragedia-de-brumadinho-seis-anos-242-mortos-nenhum-condenado",
+    "status": "unverified",
+    "note": "Congresso em Foco confirms the move to federal court at Vale's request, but exact dates were not opened."
+   },
+   {
+    "label": "2026 criminal status",
+    "value": "April 2026: STJ Sixth Panel reversed a habeas corpus that had suspended the case against Schvartsman; 160+ witnesses expected; hearings to 17 May 2027",
+    "source_url": "https://www.miningreporters.com/noticia/news/2026/04/brazil-court-reinstates-charges-former-vale-ceo-brumadinho",
+    "status": "verified",
+    "note": "Search summary adds STJ rejected two more requests on 16 June 2026 and the case was split in three in 2023 [UNVERIFIED: search summary only]. A lower court found in 2024 that evidence against Schvartsman was insufficient."
+   },
+   {
+    "label": "Munich civil case",
+    "value": "About 1,400 victims, about R$ 3.2 billion, hearings 26-28 May 2026",
+    "source_url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-01/brumadinho-corte-alema-marca-audiencias-em-acao-contra-TUV-SUD-AG",
+    "status": "verified",
+    "note": "Outcome not found. TÜV SÜD denies liability and says a Nov 2018 inspection found the structure sound."
+   },
+   {
+    "label": "ANM inspectors",
+    "value": "35 inspectors for 790 tailings dams (VEJA, 30 Jan 2019, from ANM)",
+    "source_url": "https://www.tnh1.com.br/noticia/nid/pais-tem-so-35-fiscais-para-monitorar-790-barragens-de-mineracao/",
+    "status": "verified",
+    "note": "They also inspect mines. Other counts: 34, 30 or 12 depending on definition. About 320 of the 790 are outside the national dam-safety policy."
+   },
+   {
+    "label": "Federal police: Barragem I risk 20 times acceptable",
+    "value": "20 times above the acceptable limit",
+    "source_url": "https://www.folhavitoria.com.br/geral/risco-de-rompimento-em-brumadinho-era-20-vezes-maior-que-aceitavel-dizem-peritos/",
+    "status": "unverified",
+    "note": "Page blocked (403) in fact-check; needs the PF report."
+   },
+   {
+    "label": "Vale privatized in 1997",
+    "value": "Auction 6 May 1997; about 41.73% of voting shares; price about 3.3 billion (currency inconsistent in source; Brazilian press says R$ 3.3 billion)",
+    "source_url": "https://en.wikipedia.org/wiki/Privatizations_under_the_Fernando_Henrique_Cardoso_presidency",
+    "status": "verified",
+    "note": "Original note had no source; now confirmed. Critics say the sale price was too low; that is an allegation, not a legal finding."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Poder360: Vale, TÜV SÜD and 16 people become defendants",
+    "url": "https://www.poder360.com.br/justica/vale-tuv-sud-e-16-pessoas-viram-res-por-brumadinho/"
+   },
+   {
+    "title": "MPMG: charges received",
+    "url": "https://www.mpmg.mp.br/portal/menu/comunicacao/noticias/denuncia-oferecida-pelo-mpmg-contra-16-pessoas-pelos-crimes-praticados-em-brumadinho-e-recebida-pela-justica.shtml"
+   },
+   {
+    "title": "Congresso em Foco: six years on",
+    "url": "https://congressoemfoco.com.br/noticia/106077/tragedia-de-brumadinho-seis-anos-242-mortos-nenhum-condenado"
+   },
+   {
+    "title": "IHU: Dec 2020 (death count 272)",
+    "url": "https://ihu.unisinos.br/605719-vale-morte-de-trabalhador-bispo-denuncia-reino-de-morte-das-multinacionais-da-mineracao-que-so-pensa-no-lucro-e-descarta-a-vida"
+   },
+   {
+    "title": "Folha Vitória: risk 20 times higher",
+    "url": "https://www.folhavitoria.com.br/geral/risco-de-rompimento-em-brumadinho-era-20-vezes-maior-que-aceitavel-dizem-peritos/"
+   },
+   {
+    "title": "Folha Vitória: IBAMA fines",
+    "url": "https://www.folhavitoria.com.br/geral/brumadinho-coordenadora-do-ibama-cobra-da-vale-pagamento-de-multas-ambientais/"
+   },
+   {
+    "title": "Forbes: IBAMA fines Vale R$ 250 million",
+    "url": "https://forbes.com.br/negocios/2019/01/ibama-multa-vale-em-r-250-milhoes-por-brumadinho/"
+   },
+   {
+    "title": "Wikipedia: Brumadinho dam disaster",
+    "url": "https://en.wikipedia.org/wiki/Brumadinho_dam_disaster"
+   },
+   {
+    "title": "TNH1: 35 inspectors for 790 dams",
+    "url": "https://www.tnh1.com.br/noticia/nid/pais-tem-so-35-fiscais-para-monitorar-790-barragens-de-mineracao/"
+   },
+   {
+    "title": "Mining Reporters: court reinstates charges",
+    "url": "https://www.miningreporters.com/noticia/news/2026/04/brazil-court-reinstates-charges-former-vale-ceo-brumadinho"
+   },
+   {
+    "title": "Agência Brasil: Munich hearings",
+    "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-01/brumadinho-corte-alema-marca-audiencias-em-acao-contra-TUV-SUD-AG"
+   },
+   {
+    "title": "Wikipedia: Vale privatization",
+    "url": "https://en.wikipedia.org/wiki/Privatizations_under_the_Fernando_Henrique_Cardoso_presidency"
+   }
+  ]
+ },
+ {
+  "id": "d-braskem-maceio-2018",
+  "date": "2018",
+  "name": "Braskem rock-salt mining subsidence, Maceió",
+  "place": "Maceió, Alagoas; neighbourhoods Bebedouro, Mutange, Pinheiro, Bom Parto and Farol",
+  "type": "mining",
+  "operator": "Braskem (petrochemical; Novonor/Odebrecht and Petrobras shareholders)",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "None recorded in sources reviewed.",
+  "affected": "More than 60,000 people barred from the neighbourhoods (JB). Other estimates: 40,000 (CPRM) and 14,000-17,000 properties (search).",
+  "damage": "Ground collapse and cracks from subsidence reported from 2018; mining began in the 1970s and stopped in May 2019 (CPRM report link not opened). Flooding of the Mundaú lagoon area is from background knowledge, not sourced.",
+  "legal_outcome": "July 2023: R$ 1.7 billion deal with Maceió city hall (announced 21 Jul 2023; about R$ 700 million already provisioned). Nov 2025: R$ 1.2 billion deal with Alagoas (announced 10 Nov 2025; R$ 139 million already paid; the rest in ten annual instalments mostly after 2030; needs court approval). Victims' groups call both too low. Dutch case: sources conflict.",
+  "summary": "Braskem's salt mining under Maceió caused the ground to sink from 2018. More than 60,000 people were pushed out of five neighbourhoods. Braskem has paid or agreed billions to the city and state, but victims' groups say the deals are too low.",
+  "figures": [
+   {
+    "label": "City settlement",
+    "value": "R$ 1.7 billion, 21 Jul 2023",
+    "source_url": "https://forbes.com.br/forbes-money/2023/07/braskem-faz-acordo-de-r-17-bilhao-com-maceio/",
+    "status": "verified",
+    "note": "Needed court approval; does not cancel resident claims."
+   },
+   {
+    "label": "State settlement",
+    "value": "R$ 1.2 billion over ten years, announced 10 Nov 2025",
+    "source_url": "https://www.jb.com.br/brasil/2025/11/1057573-braskem-fecha-acordo-de-rs-12-bilhao-por-desmoronamentos-em-maceio.html",
+    "status": "verified",
+    "note": "R$ 139 million already paid; ends the state's suit."
+   },
+   {
+    "label": "People forced out",
+    "value": "More than 60,000",
+    "source_url": "https://www.jb.com.br/brasil/2025/11/1057573-braskem-fecha-acordo-de-rs-12-bilhao-por-desmoronamentos-em-maceio.html",
+    "status": "disputed",
+    "note": "Other estimates 40,000 (CPRM)."
+   },
+   {
+    "label": "Neighbourhoods",
+    "value": "Five: Bebedouro, Mutange, Pinheiro, Bom Parto, Farol",
+    "source_url": "https://forbes.com.br/forbes-money/2023/07/braskem-faz-acordo-de-r-17-bilhao-com-maceio/",
+    "status": "corrected",
+    "note": "Original note listed Pinheiro, Bebedouro, Mutange 'and others'."
+   },
+   {
+    "label": "Mine stopped May 2019 after CPRM report",
+    "value": "May 2019",
+    "source_url": "",
+    "status": "unverified",
+    "note": "Not opened."
+   },
+   {
+    "label": "Rotterdam court ruling",
+    "value": "2022: court took jurisdiction over Dutch subsidiaries. Jul 2024: Migalhas says Braskem convicted; BP Money says subsidiaries not liable. Appeal 2025, outcome unknown",
+    "source_url": "",
+    "status": "disputed",
+    "note": "Search only. Original note said the court ruled against Braskem."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Safra: Braskem compensates Maceió",
+    "url": "https://oespecialista.safra.com.br/braskem-indeniza-maceio/"
+   },
+   {
+    "title": "Forbes: R$ 1.7 billion deal",
+    "url": "https://forbes.com.br/forbes-money/2023/07/braskem-faz-acordo-de-r-17-bilhao-com-maceio/"
+   },
+   {
+    "title": "JB: R$ 1.2 billion deal",
+    "url": "https://www.jb.com.br/brasil/2025/11/1057573-braskem-fecha-acordo-de-rs-12-bilhao-por-desmoronamentos-em-maceio.html"
+   },
+   {
+    "title": "Movimento Econômico: victims criticise deal",
+    "url": "https://movimentoeconomico.com.br/estados/alagoas/2025/11/12/vitimas-de-afundamento-de-solo-criticam-acordo-entre-braskem-e-alagoas/"
+   }
+  ]
+ },
+ {
+  "id": "d-minas-rio-pipeline-2018",
+  "date": "2018-03-12",
+  "name": "Minas-Rio ore pipeline spills (Anglo American)",
+  "place": "Near Santo Antônio do Grama, Minas Gerais; pipeline about 525 km from Conceição do Mato Dentro to São João da Barra, RJ",
+  "type": "mining",
+  "operator": "Anglo American (private, foreign)",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "None.",
+  "affected": "Santo Antônio do Grama, about 4,200 people, lost its water supply after the first spill; water trucks and an alternative source were arranged.",
+  "damage": "474 t of ore pulp (first spill, 12 Mar 2018) and 647 t (second, 29 Mar 2018), per IHU. Another account gives 300 t and 174 t (search summary). Anglo says the material is inert and non-hazardous under ABNT standards and estimated R$ 60 million for repair.",
+  "legal_outcome": "IBAMA fined R$ 72.6 million on 10 Apr 2018 (R$ 40.1 million and R$ 32.5 million). Minas Gerais fined R$ 125.5 million for the first spill; second state fine pending then. Operations halted about 90 days. MPMG filed two civil suits (search summary). Final payment outcome not found.",
+  "summary": "Two spills from Anglo American's Minas-Rio ore pipeline in March 2018 cut water to a town of about 4,200 people. IBAMA and the state issued large fines. Anglo says the material is inert.",
+  "figures": [
+   {
+    "label": "Spill quantities",
+    "value": "474 t and 647 t (IHU); 300 t and 174 t (search summary)",
+    "source_url": "https://ihu.unisinos.br/577843-ibama-multa-a-mineradora-britania-anglo-american-em-r-72-6-milhoes-por-rompimentos-de-mineroduto",
+    "status": "disputed",
+    "note": ""
+   },
+   {
+    "label": "IBAMA fines",
+    "value": "R$ 72.6 million (R$ 40.1 million + R$ 32.5 million)",
+    "source_url": "https://ihu.unisinos.br/577843-ibama-multa-a-mineradora-britania-anglo-american-em-r-72-6-milhoes-por-rompimentos-de-mineroduto",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "State fine, first spill",
+    "value": "R$ 125.5 million",
+    "source_url": "https://ihu.unisinos.br/577843-ibama-multa-a-mineradora-britania-anglo-american-em-r-72-6-milhoes-por-rompimentos-de-mineroduto",
+    "status": "unverified",
+    "note": "Final payment outcome not found."
+   },
+   {
+    "label": "MPMG civil suits",
+    "value": "Two",
+    "source_url": "",
+    "status": "unverified",
+    "note": "Search summary only."
+   }
+  ],
+  "sources": [
+   {
+    "title": "IHU: IBAMA fines Anglo American R$ 72.6 million",
+    "url": "https://ihu.unisinos.br/577843-ibama-multa-a-mineradora-britania-anglo-american-em-r-72-6-milhoes-por-rompimentos-de-mineroduto"
+   }
+  ]
+ },
+ {
+  "id": "d-hydro-alunorte-barcarena-2018",
+  "date": "2018-02-16",
+  "name": "Hydro Alunorte red-mud / bauxite waste overflow, Barcarena",
+  "place": "Barcarena, Pará; Murucupi and other rivers and igarapés",
+  "type": "mining",
+  "operator": "Hydro Alunorte (Norsk Hydro)",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": "Alunorte was controlled by Vale until Hydro completed buying Vale's aluminium business on 28 Feb 2011 (private-to-private sale)",
+  "deaths": "None recorded in sources reviewed. Local reports of deaths and threats are unverified.",
+  "affected": "About 400 families (IHU); communities on the rivers, including quilombolas. Not otherwise quantified.",
+  "damage": "Instituto Evandro Chagas found water polluted, with heavy metals including lead. The company admitted releasing rainwater from a pipeline without a licence. Hydro says it was rainwater, not red mud, and that the DRS-2 deposit did not leak.",
+  "legal_outcome": "Pará court (28 Feb / 2 Mar 2018) barred use of DRS-2 and ordered a 50% output cut, with R$ 1 million/day fine (a Semas note gives about R$ 500,000/day). IBAMA fined R$ 20 million (two notices of R$ 10 million) and embargoed. Pará government asked R$ 250 million in a civil action; the MP opened a criminal inquiry. No criminal case found.",
+  "summary": "After heavy rain in Feb 2018, waste from Hydro's Alunorte refinery reached rivers in Barcarena. A court cut output by half and IBAMA fined the company R$ 20 million. Hydro disputes that red mud leaked.",
+  "figures": [
+   {
+    "label": "Overflow date",
+    "value": "16-17 Feb 2018",
+    "source_url": "https://ihu.unisinos.br/576544",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Alunorte controlled by Vale until 2011",
+    "value": "Hydro completed Vale deal 28 Feb 2011: bought 57% Alunorte, 60% Paragominas, 51% Albras, 61% CAP; Hydro already held 34% of Alunorte (about 91% total); about US$ 1.08 billion cash plus net debt about US$ 0.66 billion",
+    "source_url": "https://www.hydro.com/en-AT/media/news/2011/hydro-and-vale-transaction-completed-today/",
+    "status": "verified",
+    "note": "Seen in a search result, page not opened."
+   },
+   {
+    "label": "IBAMA fine 2018",
+    "value": "R$ 20 million (2 x R$ 10 million; no valid licence, unlicensed drainage pipe)",
+    "source_url": "https://ihu.unisinos.br/576544",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Court daily fine",
+    "value": "R$ 1 million/day (Semas note: about R$ 500,000/day)",
+    "source_url": "https://ihu.unisinos.br/576544",
+    "status": "disputed",
+    "note": ""
+   },
+   {
+    "label": "Civil action",
+    "value": "About R$ 250 million, sought by the Pará government",
+    "source_url": "",
+    "status": "corrected",
+    "note": "Original note said MP-PA filed it. Search source says the state government asked on 3 Mar; MP opened a criminal inquiry (PIC)."
+   },
+   {
+    "label": "2009 IBAMA fine",
+    "value": "R$ 17.1 million for 2009 spills into Murucupi river; a resident says compensation not paid",
+    "source_url": "https://ihu.unisinos.br/576544",
+    "status": "verified",
+    "note": "Fact-check resolved: this fine is Hydro Alunorte's, not Imerys's."
+   },
+   {
+    "label": "Company vote '4-3'",
+    "value": "Unclear",
+    "source_url": "",
+    "status": "unverified",
+    "note": "Not found."
+   }
+  ],
+  "sources": [
+   {
+    "title": "IHU (2 Mar 2018)",
+    "url": "https://ihu.unisinos.br/576544"
+   },
+   {
+    "title": "Brasil de Fato: institute disputes Hydro report",
+    "url": "https://www.brasildefato.com.br/2018/04/11/instituto-afirma-que-laudo-da-hydro-nao-reflete-a-realidade-sobre-o-vazamento-no-para/"
+   },
+   {
+    "title": "CUT: Norwegian group admits contamination",
+    "url": "https://www.cut.org.br/noticias/grupo-noruegues-reconhece-que-contaminou-rio-no-para-1ce4/"
+   },
+   {
+    "title": "Chamber of Deputies: Barcarena final report",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-temporarias/externas/55a-legislatura/bacias-de-rejeitos-de-mineracao-em-barcarena-pa/documentos/outros-documentos/relatorio-final-comissao-externa-de-barcarena-com-links"
+   },
+   {
+    "title": "CUT: IBAMA fines miner",
+    "url": "https://www.cut.org.br/noticias/ibama-multa-mineradora-por-contaminacao-de-agua-no-para-1129/amp"
+   },
+   {
+    "title": "Hydro: Vale transaction completed",
+    "url": "https://www.hydro.com/en-AT/media/news/2011/hydro-and-vale-transaction-completed-today/"
+   }
+  ]
+ },
+ {
+  "id": "d-tapajos-yanomami-garimpo-mercury-2016",
+  "date": "2016",
+  "name": "Garimpo mercury: Yanomami and Munduruku lands, Tapajós",
+  "place": "Yanomami Indigenous Land (Roraima/Amazonas); Munduruku, Sai Cinza, Sawré Muybu and Sawré Bap'in Indigenous Lands, Tapajós, Pará",
+  "type": "mining",
+  "operator": "Illegal gold miners (garimpeiros), plus licensed garimpo permits (PLGs) held by cooperatives",
+  "ownership": "unknown",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "Not quantified.",
+  "affected": "Munduruku land has about 9,000 people in 61 villages (IHU). In Sawré Muybu, 49% of children and 57.9% of the general population had mercury above the WHO limit (MPF). A study of 109 Munduruku found 99% above the WHO blood-mercury threshold (Jennings study, cited by Greenpeace).",
+  "damage": "Mercury in rivers and fish. At least 632 km of rivers affected since 2016 (26.6 km up to 2016), compared by Greenpeace with 663 km hit by the Rio Doce disaster.",
+  "legal_outcome": "Nov 2024 desintrusion operation: ICMBio fines of R$ 20.27 million, loss of R$ 6.39 million to illegal operations; 44 boats, 7 dredges and 209.1 g of mercury seized. MPF recommended annulment of 15 PLGs on 16 Sept 2025; over 160 dredge alerts in June-Aug 2025. No evidence found that fines were collected.",
+  "summary": "Illegal gold mining has put mercury into Indigenous rivers and bodies in the Amazon. Studies found high mercury levels in Munduruku and Yanomami people. State operations in 2024 seized equipment and issued fines, but no evidence shows the fines were collected.",
+  "figures": [
+   {
+    "label": "Munduruku study",
+    "value": "200 residents of three villages, all with mercury (Fiocruz/WWF)",
+    "source_url": "https://neomondo.org.br/2020/11/24/mundurukus-tem-saude-afetada-por-mercurio",
+    "status": "unverified",
+    "note": "Search shows Fiocruz/WWF study presented 30 Oct 2020 in Santarém with mercury in all assessed; '200' and 2019 collection not confirmed. Original note gave sampling 29 Oct-9 Nov 2019."
+   },
+   {
+    "label": "2016 Yanomami and Ye'kwana study",
+    "value": "19 villages, about 92% high levels",
+    "source_url": "https://ihu.unisinos.br/611348",
+    "status": "unverified",
+    "note": "Reported by a low-quality blog; original is a Fiocruz paper. Percentages differ by study and village."
+   },
+   {
+    "label": "Mercury above WHO limit in Sawré Muybu",
+    "value": "49% of children; 57.9% of general population",
+    "source_url": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-recomenda-anulacao-de-titulos-minerarios-no-pa-por-violacoes-socioambientais-e-a-decisoes-de-corte-internacional",
+    "status": "verified",
+    "note": "Not independently re-checked in the fact-check; taken from opened MPF page."
+   },
+   {
+    "label": "Rivers affected",
+    "value": "At least 632 km since 2016",
+    "source_url": "https://www.greenpeace.org/brasil/blog/a-morte-dos-rios/",
+    "status": "verified",
+    "note": "Greenpeace satellite data 2016-2021."
+   },
+   {
+    "label": "Nov 2024 operation",
+    "value": "ICMBio fines R$ 20.27 million; 44 boats, 7 dredges, 209.1 g mercury",
+    "source_url": "https://ihu.unisinos.br/646517-operacao-de-desintrusao-impoe-prejuizo-milionario-a-garimpeiros-ilegais-na-terra-munduruku",
+    "status": "verified",
+    "note": "No evidence fines were collected [unverified]. No counter-view from miners' cooperatives found."
+   }
+  ],
+  "sources": [
+   {
+    "title": "IHU (Jul 2021)",
+    "url": "https://ihu.unisinos.br/611348"
+   },
+   {
+    "title": "DOL: Indigenous people contaminated by mercury",
+    "url": "https://dol.com.br/noticias/para/684952/indigenas-estao-contaminados-por-mercurio-diz-fiocruz"
+   },
+   {
+    "title": "Neomondo: Munduruku health",
+    "url": "https://neomondo.org.br/2020/11/24/mundurukus-tem-saude-afetada-por-mercurio"
+   },
+   {
+    "title": "Brasil de Fato: contaminated rivers, lands and food",
+    "url": "https://www.brasildefato.com.br/2021/03/30/rios-terras-e-alimentos-contaminados-como-vivem-os-afetados-pelo-garimpo-ilegal"
+   },
+   {
+    "title": "IHU: desintrusion operation",
+    "url": "https://ihu.unisinos.br/646517-operacao-de-desintrusao-impoe-prejuizo-milionario-a-garimpeiros-ilegais-na-terra-munduruku"
+   },
+   {
+    "title": "MPF: recommends annulment of mining titles",
+    "url": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-recomenda-anulacao-de-titulos-minerarios-no-pa-por-violacoes-socioambientais-e-a-decisoes-de-corte-internacional"
+   },
+   {
+    "title": "Greenpeace: death of the rivers",
+    "url": "https://www.greenpeace.org/brasil/blog/a-morte-dos-rios/"
+   }
+  ]
+ },
+ {
+  "id": "d-caetite-lagoa-real-inb-2015",
+  "date": "2015",
+  "name": "Caetité and Lagoa Real: INB uranium mine water contamination",
+  "place": "Caetité and Lagoa Real, Bahia; quilombola communities",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "INB (Indústrias Nucleares do Brasil)",
+  "ownership": "state-owned",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "None established.",
+  "affected": "Residents on private wells; quilombolas reported worsening water supply (CNDH mission, Nov 2025). Bahia Health Secretariat acknowledged more new cancer cases in Caetité than elsewhere in the state; the TCU article does not tie this to uranium.",
+  "damage": "Uranium in a rural Lagoa Real well at about four times the limit for human consumption (reported). INB says levels are natural and within limits and denies the link.",
+  "legal_outcome": "Ministry of Environment and IBAMA ordered an end to well use. TCU (rapporteur Bruno Dantas) opened monitoring of INB for lack of transparency on 28 Oct 2015. A search summary says Bahia asked the STF to lift duties from a lower-court order. No final TCU or STF outcome found.",
+  "summary": "In 2015 uranium was found in wells in Lagoa Real near INB's state-owned mine. INB says the levels are natural and the wells are in another basin. The TCU opened monitoring of INB for lack of transparency, and no final outcome was found.",
+  "figures": [
+   {
+    "label": "INB admission",
+    "value": "One well confirmed contaminated (Varginha, Lagoa Real); residents suspect three more",
+    "source_url": "https://ihu.unisinos.br/545733-inb-admite-que-uranio-contamina-agua-na-bahia",
+    "status": "corrected",
+    "note": "Original note said INB admitted contamination in at least three wells above WHO limit. IHU (17 Aug 2015) confirms one well; INB says levels are within Brazilian limits."
+   },
+   {
+    "label": "Uranium above WHO limit (15 ug/L) in three wells",
+    "value": "At least three wells",
+    "source_url": "https://www.bahianoticias.com.br/municipios/noticia/7932-mineradores-de-caetite-pedem-reparacao-pela-contaminacao-por-uranio",
+    "status": "unverified",
+    "note": "No concentrations given. Bahia Notícias (Dec 2016): 'four times above the permitted limit', no value."
+   },
+   {
+    "label": "5 million litre solvent spill",
+    "value": "5 million litres",
+    "source_url": "",
+    "status": "unverified",
+    "note": "Not in either opened page."
+   },
+   {
+    "label": "Wells 20 km away in another basin (INB)",
+    "value": "20 km",
+    "source_url": "",
+    "status": "unverified",
+    "note": "Not in the opened page."
+   },
+   {
+    "label": "Bahia took it to the STF",
+    "value": "Yes",
+    "source_url": "",
+    "status": "unverified",
+    "note": "Not checked."
+   },
+   {
+    "label": "INB state-owned",
+    "value": "Federal state company, not privatized",
+    "source_url": "https://www.bahianoticias.com.br/municipios/noticia/7932-mineradores-de-caetite-pedem-reparacao-pela-contaminacao-por-uranio",
+    "status": "verified",
+    "note": ""
+   }
+  ],
+  "sources": [
+   {
+    "title": "IHU: INB admits uranium contaminates water",
+    "url": "https://ihu.unisinos.br/545733-inb-admite-que-uranio-contamina-agua-na-bahia"
+   },
+   {
+    "title": "Bahia Notícias: miners ask for reparation",
+    "url": "https://www.bahianoticias.com.br/municipios/noticia/7932-mineradores-de-caetite-pedem-reparacao-pela-contaminacao-por-uranio"
+   },
+   {
+    "title": "Gazeta do Povo: IBAMA analyses INB explanations",
+    "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/ibama-analisa-explicacoes-da-inb-sobre-contaminacao-de-uranio-na-bahia-37675yh6rjp0myeyyj3ykux4r"
+   },
+   {
+    "title": "Tribuna PR: TCU to investigate INB",
+    "url": "https://www.tribunapr.com.br/noticias/brasil/tcu-vai-investigar-inb-e-denuncia-de-contaminacao-por-uranio-na-bahia/"
+   }
+  ]
+ },
+ {
+  "id": "d-mariana-fundao-2015",
+  "date": "2015-11-05",
+  "name": "Mariana / Rio Doce: Fundão tailings dam collapse",
+  "place": "Bento Rodrigues, Mariana, Minas Gerais; mud reached Barra Longa, the Rio Doce and Espírito Santo (Linhares)",
+  "type": "mining",
+  "operator": "Samarco (joint venture of Vale and BHP Billiton)",
+  "ownership": "privatized",
+  "privatized_or_conceded_year": 1997,
+  "linked_transfer": "Vale, a Samarco co-owner, was sold in the Vale privatization auction, 6 May 1997",
+  "deaths": "19 (plus one forced miscarriage in one source infobox)",
+  "affected": "Communities along the Rio Doce. A 2019 study found metals in house dust in Mariana and Barra Longa above legal limits. A survey of 289 families in Barra Longa (576 people) found 35% said health worsened (self-reported).",
+  "damage": "Mud down the Rio Doce to the sea. Tailings volume is unsettled: about 62 million m3 released (PT Wikipedia), 40 million (Intercept via search), or 30 to 44.5 million in the original notes. Cadmium in soil and sediment up to 17 times the reference value in Mariana and Barra Longa.",
+  "legal_outcome": "Civil: 2024 repactuação worth R$ 170 billion, signed 25 Oct 2024 and homologated by the STF on 6 Nov 2024. Criminal: first-instance acquittal (Nov 2024, Ponte Nova, per search summary). In Sept 2026 the TRF-6 2nd Panel unanimously overturned it in part and convicted Samarco and three former managers. Acquittals kept for Vale, BHP Billiton Brasil, VOGBR and three individuals. Appeals possible; MPF is assessing.",
+  "summary": "The Fundão dam, run by Samarco, collapsed on 5 Nov 2015 and killed 19 people. Mud reached the Rio Doce and the sea. A R$ 170 billion settlement was approved in 2024. In 2026 a court convicted Samarco and three former managers, while Vale and BHP stayed acquitted.",
+  "figures": [
+   {
+    "label": "Deaths",
+    "value": "19",
+    "source_url": "https://pt.wikipedia.org/wiki/Rompimento_da_barragem_de_Fundão",
+    "status": "verified",
+    "note": "MPF also gives 19."
+   },
+   {
+    "label": "Tailings volume",
+    "value": "About 62 million m3 released (PT Wikipedia); 40 million (Intercept, search snippet); notes also gave 30 and 44.5 million",
+    "source_url": "https://pt.wikipedia.org/wiki/Rompimento_da_barragem_de_Fundão",
+    "status": "disputed",
+    "note": "Likely released at once versus total with later leakage. Cite one source and say which."
+   },
+   {
+    "label": "River length affected",
+    "value": "663 km",
+    "source_url": "https://news.mongabay.com/2016/07/samarco-chief-faces-criminal-investigation-over-collapsed-brazil-dam",
+    "status": "unverified",
+    "note": "Only a search snippet (Intercept). Another article gave 530 miles."
+   },
+   {
+    "label": "IBAMA fine",
+    "value": "R$ 250 million (5 fines of R$ 50 million, the cap)",
+    "source_url": "https://pt.wikipedia.org/wiki/Rompimento_da_barragem_de_Fundão",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "IBAMA infractions total",
+    "value": "R$ 350.7 million (25 notices); none paid as of Nov 2022",
+    "source_url": "https://agenciabrasil.ebc.com.br/geral/noticia/2022-11/samarco-retomou-operacoes-sem-quitar-multas-com-ibama",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Total federal fines",
+    "value": "R$ 489 million",
+    "source_url": "https://diariodocomercio.com.br/economia/uniao-recebe-pagamentos-multas-aplicadas-samarco/",
+    "status": "unverified",
+    "note": "Page not opened in the fact-check."
+   },
+   {
+    "label": "2024 repactuação total",
+    "value": "R$ 170 billion; signed 25 Oct 2024; STF homologation 6 Nov 2024; embargos rejected 9 Apr 2025 (via search)",
+    "source_url": "https://ofator.com.br/informacao/stf-homologa-repactuacao-de-mariana/",
+    "status": "verified",
+    "note": "Companies say it includes R$ 38 billion already spent by Renova; Acionista headline says R$ 132 billion new money."
+   },
+   {
+    "label": "Settlement breakdown",
+    "value": "R$ 100 billion to public bodies; R$ 32 billion by Samarco (area recovery, resettlement, compensation); R$ 8 billion to Indigenous, quilombola and traditional communities",
+    "source_url": "https://ofator.com.br/informacao/stf-homologa-repactuacao-de-mariana/",
+    "status": "corrected",
+    "note": "Original notes said R$ 38 billion spent, R$ 100 billion over 20 years, R$ 32 billion extra works. The R$ 38 billion and 20 years were not found on the opened page. BHP PDF returned 403."
+   },
+   {
+    "label": "TRF-6 conviction",
+    "value": "Samarco: criminal fine over R$ 6 million, R$ 1 million to the national environment fund, 10-year ban on public contracts. Daviely Rodrigues Silva and Germano Silva Lopes 8 years 9 months (closed regime); Wagner Milagres Alves 7 years 3 months 14 days (semi-open)",
+    "source_url": "https://www.mpf.mp.br/o-mpf/unidades/prr6/noticias/trf6-condena-samarco-e-tres-ex-gerentes-por-rompimento-de-barragem-em-mariana-mg",
+    "status": "corrected",
+    "note": "Original notes gave only the 7y 3m 14d sentence. Ruling date: 4 Sept 2026 (MPF page; one summary said 3 Sept; Correio da Manhã reported 5 Sept)."
+   },
+   {
+    "label": "Metals in dust and soil",
+    "value": "Cadmium, nickel, zinc and copper in house dust above legal limits; cadmium in soil and sediment up to 17 times the reference value; areas rated urgent public-health danger",
+    "source_url": "https://apublica.org/?p=60247",
+    "status": "verified",
+    "note": "ARSH study (Ambios Engenharia) sent to Renova 22 Mar 2019; residents were not told. Water and food showed no relevant metal levels. Renova cited Nota Técnica 11/2017. Symptom surveys do not prove a metal link."
+   },
+   {
+    "label": "Barra Longa health survey",
+    "value": "289 families, 576 people: 35% said health worsened, 40% respiratory problems, 15.8% skin problems",
+    "source_url": "https://www.greenpeace.org/brasil/blog/da-lama-ao-po-o-impacto-da-tragedia-do-rio-doce-para-a-saude/",
+    "status": "unverified",
+    "note": "Self-reported; study date not given."
+   },
+   {
+    "label": "Vale privatization",
+    "value": "Auction 6 May 1997",
+    "source_url": "https://en.wikipedia.org/wiki/Privatizations_under_the_Fernando_Henrique_Cardoso_presidency",
+    "status": "verified",
+    "note": "Original note had no source."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Acionista: settlement",
+    "url": "https://acionista.com.br/tragedia-de-mariana-governo-e-mineradoras-assinam-acordo-de-r-132-bi/"
+   },
+   {
+    "title": "O Fator: STF homologation (page 18023)",
+    "url": "https://ofator.com.br/?p=18023"
+   },
+   {
+    "title": "O Fator: STF homologates repactuação",
+    "url": "https://ofator.com.br/informacao/stf-homologa-repactuacao-de-mariana/"
+   },
+   {
+    "title": "BHP: Brazil agreement (PT)",
+    "url": "https://www.bhp.com/-/media/project/bhp1ip/bhp-com-en/documents/news/2024/241025_brazilagreement_pt.pdf"
+   },
+   {
+    "title": "Correio da Manhã: Samarco convicted",
+    "url": "https://www.correiodamanha.com.br/economia/justica/2026/09/amp/316987-justica-condena-samarco-e-ex-gerentes-por-tragedia-em-mariana-minas-gerais.html"
+   },
+   {
+    "title": "Diário do Comércio: federal fines",
+    "url": "https://diariodocomercio.com.br/economia/uniao-recebe-pagamentos-multas-aplicadas-samarco/"
+   },
+   {
+    "title": "Istoé Dinheiro: acquittal",
+    "url": "https://istoedinheiro.com.br/justica-absolve-samarco-bhp-e-vale-pela-tragedia-de-mariana"
+   },
+   {
+    "title": "Mongabay: Samarco chief investigation",
+    "url": "https://news.mongabay.com/2016/07/samarco-chief-faces-criminal-investigation-over-collapsed-brazil-dam"
+   },
+   {
+    "title": "Wikipedia PT: Fundão dam",
+    "url": "https://pt.wikipedia.org/wiki/Rompimento_da_barragem_de_Fundão"
+   },
+   {
+    "title": "Agência Brasil: Samarco fines unpaid (Nov 2022)",
+    "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2022-11/samarco-retomou-operacoes-sem-quitar-multas-com-ibama"
+   },
+   {
+    "title": "MPF: TRF-6 convicts Samarco",
+    "url": "https://www.mpf.mp.br/o-mpf/unidades/prr6/noticias/trf6-condena-samarco-e-tres-ex-gerentes-por-rompimento-de-barragem-em-mariana-mg"
+   },
+   {
+    "title": "Agência Pública: health study",
+    "url": "https://apublica.org/?p=60247"
+   },
+   {
+    "title": "Greenpeace: Rio Doce health",
+    "url": "https://www.greenpeace.org/brasil/blog/da-lama-ao-po-o-impacto-da-tragedia-do-rio-doce-para-a-saude/"
+   },
+   {
+    "title": "Wikipedia: Vale privatization",
+    "url": "https://en.wikipedia.org/wiki/Privatizations_under_the_Fernando_Henrique_Cardoso_presidency"
+   }
+  ]
+ },
+ {
+  "id": "d-herculano-itabirito-2014",
+  "date": "2014-09-10",
+  "name": "Herculano Mineração dam failure, Itabirito",
+  "place": "Mina Retiro do Sapecado (Mina do Sapecado), rural Itabirito, Minas Gerais",
+  "type": "mining",
+  "operator": "Herculano Mineração",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "3 (MPMG, Brasil de Fato, Diário do Comércio). TRT-3 says four people were buried, three dead and one missing. Early reports: 2 dead and 1 missing.",
+  "affected": "Workers doing drainage work.",
+  "damage": "About 300,000 m3 of tailings. The company blamed a rare geological event ('inversão de relevo').",
+  "legal_outcome": "Criminal: a state court sent directors, auditors and engineers to a jury trial (Aug 2022, 1st Criminal Court of Itabirito; sentences could exceed 60 years); verdict not found. Labour: R$ 600,000 moral damages to one victim's family (settled and paid); another case R$ 300,000 moral and R$ 1 million material (24 Aug 2016, appealed to TST); a third R$ 300,000 in 12 instalments (Feb 2019).",
+  "summary": "A tailings dam at the Herculano mine collapsed on 10 Sept 2014 and killed three workers. The company blamed a rare geological event. Directors were sent to a jury trial in 2022, and no verdict was found.",
+  "figures": [
+   {
+    "label": "Deaths",
+    "value": "3",
+    "source_url": "https://www.brasildefato.com.br/2022/09/17/diretores-da-herculano-vao-a-julgamento-por-rompimento-de-barragem-que-matou-tres-em-2014/",
+    "status": "disputed",
+    "note": "TRT-3 says a fourth person was buried and missing."
+   },
+   {
+    "label": "Tailings volume",
+    "value": "About 300,000 m3",
+    "source_url": "https://www.brasildefato.com.br/2022/09/17/diretores-da-herculano-vao-a-julgamento-por-rompimento-de-barragem-que-matou-tres-em-2014/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Possible sentence",
+    "value": "May exceed 60 years",
+    "source_url": "https://www.brasildefato.com.br/2022/09/17/diretores-da-herculano-vao-a-julgamento-por-rompimento-de-barragem-que-matou-tres-em-2014/",
+    "status": "verified",
+    "note": "No trial date set."
+   },
+   {
+    "label": "Worker warning before collapse",
+    "value": "A worker warned of problems days before",
+    "source_url": "",
+    "status": "unverified",
+    "note": "Advocacy-leaning source only."
+   },
+   {
+    "label": "Labour court damages",
+    "value": "R$ 600,000; R$ 300,000 + R$ 1 million; R$ 300,000",
+    "source_url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-juridicas/nj-especial-decisao-da-vt-de-ouro-preto-ja-tinha-alertado-sobre-riscos-de-novos-rompimentos-de-barragens-em-minas-gerais",
+    "status": "verified",
+    "note": "Labour sentence 27 Jan 2016 in case 0002520-23.2014.5.03.0069."
+   }
+  ],
+  "sources": [
+   {
+    "title": "MPMG: directors to face jury",
+    "url": "https://www.mpmg.mp.br/portal/menu/comunicacao/noticias/justica-decide-que-diretores-da-mineradora-herculano-devem-ser-julgados-pelo-tribunal-do-juri-por-mortes-ocorridas-em-rompimento-de-barragem.shtml"
+   },
+   {
+    "title": "Brasil de Fato: directors go to trial",
+    "url": "https://www.brasildefato.com.br/2022/09/17/diretores-da-herculano-vao-a-julgamento-por-rompimento-de-barragem-que-matou-tres-em-2014/"
+   },
+   {
+    "title": "Estado de Minas: company blames geological phenomenon",
+    "url": "https://www.em.com.br/app/noticia/gerais/2014/09/25/interna_gerais,573002/mineradora-culpa-fenomeno-geologico-raro-por-rompimento-de-barragem-em-itabirito.shtml"
+   },
+   {
+    "title": "TRT-3: Ouro Preto labour court decision",
+    "url": "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-juridicas/nj-especial-decisao-da-vt-de-ouro-preto-ja-tinha-alertado-sobre-riscos-de-novos-rompimentos-de-barragens-em-minas-gerais"
+   }
+  ]
+ },
+ {
+  "id": "d-imerys-kaolin-barcarena-2007",
+  "date": "2007",
+  "name": "Imerys kaolin spills, Barcarena",
+  "place": "Barcarena, Pará; Curuperé, Dendê, Murucupi and Maricá rivers; Pará river",
+  "type": "mining",
+  "operator": "Imerys (French group)",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "None recorded in sources reviewed.",
+  "affected": "Vila do Conde water supply affected (IHU 2019).",
+  "damage": "Feb 2007 spill of more than 200,000 m3 of kaolin reached 19 km of rivers and made water unfit for human consumption (Chamber report). Month disputed (Feb vs Jun 2007). Further spills in 2008, 2012 and 2014.",
+  "legal_outcome": "2014: Pará court banned storage in one basin after five spills alleged; the company said only one small spill (IHU May 2014). No fine clearly tied to Imerys: the R$ 17.1 million IBAMA fine belongs to Hydro Alunorte.",
+  "summary": "Imerys's kaolin operation in Barcarena had repeated spills between 2004 and 2014. The 2007 spill, of more than 200,000 m3, polluted 19 km of rivers. A 2014 court banned storage in one basin.",
+  "figures": [
+   {
+    "label": "Spill volume 2007",
+    "value": "More than 200,000 m3; 19 km of rivers",
+    "source_url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-temporarias/externas/55a-legislatura/bacias-de-rejeitos-de-mineracao-em-barcarena-pa/documentos/outros-documentos/relatorio-final-comissao-externa-de-barcarena-com-links",
+    "status": "unverified",
+    "note": "Seen in search; Chamber PDF could not be read."
+   },
+   {
+    "label": "Imerys bought the plant from Vale in 2011",
+    "value": "2011 purchase from Vale",
+    "source_url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-temporarias/externas/55a-legislatura/bacias-de-rejeitos-de-mineracao-em-barcarena-pa/documentos/outros-documentos/relatorio-final-comissao-externa-de-barcarena-com-links",
+    "status": "unverified",
+    "note": "Contradicted or unsupported: no 2011 sale of the kaolin plant found; the 2011 Vale deal was its aluminium unit to Hydro. Not used as a linked transfer."
+   },
+   {
+    "label": "R$ 17.1 million IBAMA fine",
+    "value": "Belongs to Hydro Alunorte, not Imerys",
+    "source_url": "https://ihu.unisinos.br/576544",
+    "status": "corrected",
+    "note": "Original note said it was unclear whose fine it was."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Chamber of Deputies: Barcarena final report",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-temporarias/externas/55a-legislatura/bacias-de-rejeitos-de-mineracao-em-barcarena-pa/documentos/outros-documentos/relatorio-final-comissao-externa-de-barcarena-com-links"
+   },
+   {
+    "title": "IHU: French company suspected of pollution",
+    "url": "https://www.ihu.unisinos.br/531845-empresa-francesa-e-suspeita-de-poluicao-na-amazonia"
+   },
+   {
+    "title": "FASE: another Imerys crime in Barcarena",
+    "url": "https://www.fase.org.br/wp-content/uploads/2021/12/MAIS-UM-CRIME-DA-EMPRESA-IMERYS-EM-BARCARENA.pdf"
+   },
+   {
+    "title": "IHU: Hydro 2018 (fine ownership)",
+    "url": "https://ihu.unisinos.br/576544"
+   }
+  ]
+ },
+ {
+  "id": "d-mirai-bauxite-dam-2007",
+  "date": "2007",
+  "name": "Miraí bauxite tailings dam",
+  "place": "Miraí, Minas Gerais",
+  "type": "mining",
+  "operator": "Mineração Rio Pomba Cataguases",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "Not recorded in sources reviewed.",
+  "affected": "Not quantified.",
+  "damage": "Mud covered the neighbouring town (unconfirmed).",
+  "legal_outcome": "FEAM fine of R$ 75 million, Jan 2007 (one source; not checked against FEAM records).",
+  "summary": "A bauxite tailings dam failed in Miraí in 2007. Only thin academic sources were found, and the fine and damage figures could not be checked.",
+  "figures": [
+   {
+    "label": "FEAM fine",
+    "value": "R$ 75 million, Jan 2007",
+    "source_url": "https://www.bdtd.uerj.br:8443/bitstream/1/10856/2/Antonio%20Jose%20Rocha%20Luzardo%20Pt2.pdf",
+    "status": "unverified",
+    "note": "Not verified in the fact-check; thesis not read in full. Accident date unconfirmed."
+   }
+  ],
+  "sources": [
+   {
+    "title": "UERJ thesis (Luzardo)",
+    "url": "https://www.bdtd.uerj.br:8443/bitstream/1/10856/2/Antonio%20Jose%20Rocha%20Luzardo%20Pt2.pdf"
+   },
+   {
+    "title": "UFJF: Rio Doce chapter",
+    "url": "https://www2.ufjf.br/fisiologiavegetal/wp-content/uploads/sites/558/2018/07/Cap%C3%ADtulo-8-Rio-Doce.pdf"
+   }
+  ]
+ },
+ {
+  "id": "d-cataguases-black-liquor-2003",
+  "date": "2003-03-29",
+  "name": "Cataguases paper mill black liquor spill",
+  "place": "Cataguases, Minas Gerais (Fazenda Bom Destino); Córrego do Cágado, Rio Pomba, Rio Paraíba do Sul",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "Indústria Cataguases de Papel (Matarazzo group)",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "Not recorded in sources reviewed.",
+  "affected": "One source says about 600,000 people lost water in MG and RJ; not confirmed.",
+  "damage": "Volume of black liquor disputed: about 500 million litres (MPF complaint) versus 1.2 to 1.4 billion litres in other sources; another source says more than 20 million litres of caustic soda.",
+  "legal_outcome": "MPF Campos (RJ) denounced Indústrias Matarazzo de Papéis and 5 directors for omission; the 2nd Federal Court of Campos accepted it. Outcome not found.",
+  "summary": "On 29 Mar 2003 a reservoir at a paper mill in Cataguases released black liquor into the Rio Pomba and the Paraíba do Sul. The size of the spill is disputed. The MPF charged the owners with omission.",
+  "figures": [
+   {
+    "label": "Black liquor volume",
+    "value": "About 500 million litres (MPF complaint); 1.2-1.4 billion litres in other sources",
+    "source_url": "https://www.migalhas.com.br/quentes/34908/mpf-rj-denuncia-grupo-matarazzo-por-crimes-ambientais",
+    "status": "corrected",
+    "note": "Original note used 1.2 to 1.4 billion as its main figure. The MPF complaint says about 500 million."
+   },
+   {
+    "label": "People without water",
+    "value": "About 600,000",
+    "source_url": "",
+    "status": "unverified",
+    "note": "Not found."
+   },
+   {
+    "label": "Charges",
+    "value": "MPF denounced Matarazzo paper company and 5 directors; accepted by 2nd Federal Court of Campos",
+    "source_url": "https://www.migalhas.com.br/quentes/34908/mpf-rj-denuncia-grupo-matarazzo-por-crimes-ambientais",
+    "status": "verified",
+    "note": ""
+   }
+  ],
+  "sources": [
+   {
+    "title": "Migalhas: MPF-RJ charges Matarazzo group",
+    "url": "https://www.migalhas.com.br/quentes/34908/mpf-rj-denuncia-grupo-matarazzo-por-crimes-ambientais"
+   },
+   {
+    "title": "UENF: Rio Pomba and Paraíba do Sul accident report (title only)",
+    "url": "https://uenf.br/cbb/lca/files/2018/09/ok-Relatório-do-Acidente-no-Rio-Pomba-e-Paraiba-do-Sul-2003.pdf"
+   }
+  ]
+ },
+ {
+  "id": "d-rio-verde-macacos-2001",
+  "date": "2001-06-22",
+  "name": "Rio Verde / Macacos tailings dam, Nova Lima",
+  "place": "São Sebastião das Águas Claras (Macacos), Nova Lima, Minas Gerais",
+  "type": "mining",
+  "operator": "Mineração Rio Verde",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "At least 2 workers killed and 3 missing (original note said 5).",
+  "affected": "Not quantified.",
+  "damage": "Silting of Córrego Taquaras for about 8 km and 30 ha (original note said 6.4 km and 43 ha).",
+  "legal_outcome": "DNPM suspended the licence on 25 Jun 2001 (lifted 16 Jul for dry treatment only); COPAM suspended the environmental licence for 10 days from 26 Jun. IBAMA fine of R$ 1.5 million not confirmed.",
+  "summary": "The Rio Verde tailings dam failed on 22 Jun 2001, killing at least 2 workers with 3 missing. Mud silted a stream for about 8 km. Regulators suspended licences within days.",
+  "figures": [
+   {
+    "label": "Date",
+    "value": "22 Jun 2001 (other sources say 18 Jun)",
+    "source_url": "https://www.wise-uranium.org/mdafsa.html",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Deaths",
+    "value": "At least 2 killed, 3 missing",
+    "source_url": "https://www.wise-uranium.org/mdafsa.html",
+    "status": "corrected",
+    "note": "Original note said 5 deaths (Fiocruz/CEPEDES)."
+   },
+   {
+    "label": "Silting",
+    "value": "About 8 km, 30 ha",
+    "source_url": "https://www.wise-uranium.org/mdafsa.html",
+    "status": "corrected",
+    "note": "Original note said 6.4 km and 43 ha."
+   },
+   {
+    "label": "Licence suspensions",
+    "value": "DNPM 25 Jun; COPAM 26 Jun for 10 days",
+    "source_url": "https://www.wise-uranium.org/mdafsa.html",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "IBAMA fine",
+    "value": "R$ 1.5 million",
+    "source_url": "",
+    "status": "unverified",
+    "note": "Not in the opened page."
+   }
+  ],
+  "sources": [
+   {
+    "title": "WISE Uranium: major mine tailings failures",
+    "url": "https://www.wise-uranium.org/mdafsa.html"
+   },
+   {
+    "title": "Fiocruz CEPEDES: Vale disaster 2019",
+    "url": "https://old.icict.fiocruz.br/sites/old.icict.fiocruz.br/files/CEPEDES_Desastre%20da%20Vale%202019.pdf"
+   },
+   {
+    "title": "UFMG: human rights report, Macacos and Brumadinho",
+    "url": "https://polos.direito.ufmg.br/wp-content/uploads/2023/10/Relatorio-sobre-a-situacao-dos-direitos-humanos-e-danos-ao-meio-ambiente-No-distrito-de-Sao-Sebastiao-das-Aguas-Claras-Macacos-Nova-Lima_MG-e-de-Brumadinho_MG.pdf"
+   }
+  ]
+ },
+ {
+  "id": "d-kinross-paracatu-1987",
+  "date": "1987",
+  "name": "Kinross gold mine, Paracatu: tailings dams and arsenic",
+  "place": "Paracatu, Minas Gerais; Rio Paracatu",
+  "type": "mining",
+  "operator": "Kinross Gold (Canadian)",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "None recorded.",
+  "affected": "Quilombolas have filed civil actions (Correio Braziliense, Sept 2025); the R$ 1 billion claim amount could not be confirmed. A Ministry of Science study found low arsenic in 95% of 1,000 people tested, but an MP report says tests were redone after equipment failure.",
+  "damage": "Arsenic and heavy metals found in soil, water and urine (MPF and CETEM experts). Kinross says arsenic is natural and below WHO limits and denies using arsenic. Dams: Santo Antônio (built 1987, about 483 million m3) and Eustáquio (operating since 2010, about 750 million m3), about 1.2 billion m3 combined.",
+  "legal_outcome": "MPMG civil action (2023) to stop tailings deposit at Santo Antônio and Eustáquio; first-instance rejection not found in the fact-check. Separate MPMG request to freeze R$ 5 million over siren misuse (unverified). MPF is negotiating a deal with Kinross for Machadinho, Amaros and São Domingos.",
+  "summary": "Kinross runs one of Brazil's largest gold mines at Paracatu, with two very large tailings dams. Prosecutors and quilombola communities raise arsenic and dam-safety concerns. Kinross says arsenic is natural and below limits.",
+  "figures": [
+   {
+    "label": "Quilombola claim",
+    "value": "R$ 1 billion in two civil actions",
+    "source_url": "https://edicao.correiobraziliense.com.br/correiobraziliense/2025/09/28/140198/pdf/A06-BRA-2809-DIG.pdf",
+    "status": "unverified",
+    "note": "Correio Braziliense describes a civil action; no amount found in readable text."
+   },
+   {
+    "label": "Arsenic in urine",
+    "value": "Elevated arsenic reported by MPF",
+    "source_url": "https://edicao.correiobraziliense.com.br/correiobraziliense/2025/09/28/140198/pdf/A06-BRA-2809-DIG.pdf",
+    "status": "unverified",
+    "note": "Partly confirmed; search only."
+   },
+   {
+    "label": "Dam size",
+    "value": "Eustáquio about 750 million m3; Santo Antônio about 483 million m3",
+    "source_url": "",
+    "status": "unverified",
+    "note": "Search only."
+   },
+   {
+    "label": "MPMG suit rejected at first instance",
+    "value": "Rejected; MPMG to appeal",
+    "source_url": "https://diariodocomercio.com.br/legislacao/mpmg-entra-com-acao-contra-a-kinross/",
+    "status": "unverified",
+    "note": "Not found in the fact-check."
+   },
+   {
+    "label": "Freeze of R$ 5 million over siren misuse",
+    "value": "R$ 5 million",
+    "source_url": "",
+    "status": "unverified",
+    "note": "Unverified."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Correio Braziliense, 28 Sept 2025 (PDF)",
+    "url": "https://edicao.correiobraziliense.com.br/correiobraziliense/2025/09/28/140198/pdf/A06-BRA-2809-DIG.pdf"
+   },
+   {
+    "title": "Diário do Comércio: MPMG sues Kinross",
+    "url": "https://diariodocomercio.com.br/legislacao/mpmg-entra-com-acao-contra-a-kinross/"
+   },
+   {
+    "title": "Estado de Minas: two largest tailings dams",
+    "url": "https://www.em.com.br/app/noticia/gerais/2023/02/28/interna_gerais,1463084/duas-maiores-barragens-de-rejeito-do-brasil-em-mg-entram-na-mira-do-mp.shtml"
+   }
+  ]
+ },
+ {
+  "id": "d-mara-bridge-massacre-1987",
+  "date": "1987-12-29",
+  "name": "Marabá road-rail bridge protest killings (linked to Serra Pelada)",
+  "place": "Marabá, Pará",
+  "type": "mining",
+  "operator": "Pará Military Police (state)",
+  "ownership": "state-owned",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "Unknown. Government first said 2, later 9; 50 to 79 missing; more than 70 workers still missing 30 years later (Brasil de Fato). The 'official 3 / miners 60+' figures were wrongly attached to Serra Pelada in the original notes and belong here.",
+  "affected": "More than 300 garimpeiros protesting on the bridge.",
+  "damage": "Not applicable.",
+  "legal_outcome": "Never investigated, according to Brasil de Fato. An MPF investigation was seen only in a search result. The 2019 book 'Encurralados na Ponte' (Paulo Roberto Ferreira) documents the allegations; not read.",
+  "summary": "On 29 Dec 1987 the Pará Military Police cleared a bridge in Marabá during a Serra Pelada miners' protest. The number of dead is unknown, and many workers were never found. No investigation was reported.",
+  "figures": [
+   {
+    "label": "Date",
+    "value": "29 Dec 1987",
+    "source_url": "https://www.brasildefato.com.br/2020/01/26/qual-a-historia-por-tras-do-massacre-da-ponte-de-maraba",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Deaths",
+    "value": "Government first said 2, later 9; 50-79 missing; official 3 vs 60+ claimed",
+    "source_url": "https://www.brasildefato.com.br/2020/01/26/qual-a-historia-por-tras-do-massacre-da-ponte-de-maraba",
+    "status": "disputed",
+    "note": "Corrected placement: these figures belong to the bridge protest, not the Serra Pelada mine."
+   },
+   {
+    "label": "MPF investigation",
+    "value": "MPF investigating police action with dead and missing",
+    "source_url": "https://apublica.org/nota/maraba-mpf-investiga-acao-policial-com-mortos-e-desaparecidos-no-pa/",
+    "status": "unverified",
+    "note": "Search result only; not read."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Brasil de Fato: story behind the Marabá bridge massacre",
+    "url": "https://www.brasildefato.com.br/2020/01/26/qual-a-historia-por-tras-do-massacre-da-ponte-de-maraba"
+   },
+   {
+    "title": "Agência Pública: MPF investigates",
+    "url": "https://apublica.org/nota/maraba-mpf-investiga-acao-policial-com-mortos-e-desaparecidos-no-pa/"
+   }
+  ]
+ },
+ {
+  "id": "d-carajas-railway-1985",
+  "date": "1985",
+  "name": "Estrada de Ferro Carajás and the Carajás corridor",
+  "place": "972 km line through Pará and Maranhão, including Açailândia and Marabá",
+  "type": "hydro-infrastructure",
+  "operator": "Vale",
+  "ownership": "privatized",
+  "privatized_or_conceded_year": 1997,
+  "linked_transfer": "Built under state-owned Vale; private after the Vale privatization auction, 6 May 1997",
+  "deaths": "39 deaths from trains hitting people since 2010; record 7 in 2015, 2017 already equal (Agência Pública, Nov 2017).",
+  "affected": "The line crosses over 100 communities in 27 municipalities, including Indigenous lands and quilombola territories. 14 houses damaged in Auzilândia, 48 under evaluation; about 200 families in risk areas in Marabá (Civil Defence).",
+  "damage": "Over 20 years of pollution in Piquiá from pig-iron smelters supplied by Vale (FIDH, search summary, not opened).",
+  "legal_outcome": "Vale was behind more than 170 people being targeted in at least 57 civil and criminal actions from 2013 to Oct 2017. Vale says it acts when its possession is threatened.",
+  "summary": "The Carajás railway carries ore from the mines to the coast and cuts through over 100 communities. Dozens of people have died in train accidents since 2010. Vale also sued many residents, who say they are blocked from crossings.",
+  "figures": [
+   {
+    "label": "Train deaths since 2010",
+    "value": "39",
+    "source_url": "https://apublica.org/2017/11/processados-pela-vale/",
+    "status": "verified",
+    "note": "Report of 29 Nov 2017."
+   },
+   {
+    "label": "People targeted in actions",
+    "value": "More than 170 in at least 57 civil and criminal actions, 2013 to Oct 2017",
+    "source_url": "https://apublica.org/2017/11/processados-pela-vale/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Piquiá pollution",
+    "value": "Over 20 years",
+    "source_url": "",
+    "status": "unverified",
+    "note": "FIDH claim from a search summary, not opened."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Agência Pública: processed by Vale",
+    "url": "https://apublica.org/2017/11/processados-pela-vale/"
+   },
+   {
+    "title": "Wikipedia: Vale privatization",
+    "url": "https://en.wikipedia.org/wiki/Privatizations_under_the_Fernando_Henrique_Cardoso_presidency"
+   }
+  ]
+ },
+ {
+  "id": "d-caldas-uranium-inb-1980",
+  "date": "1980",
+  "name": "Caldas uranium mine and tailings, Poços de Caldas",
+  "place": "Caldas / Poços de Caldas, Minas Gerais; Córrego Consulta",
+  "type": "oil-chemical-nuclear-energy",
+  "operator": "INB (Indústrias Nucleares do Brasil)",
+  "ownership": "state-owned",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "None.",
+  "affected": "ANM estimates up to 500 people in a rupture.",
+  "damage": "BAR dam holds about 2.5 million m3 of uranium tailings (0.70% grade). ANM rates rupture impact as 'muito significativo agravado'; seepage seen on the downstream face in a 2023 ANM inspection. CNEN admitted seepage and an acid drainage plume reaching Córrego Consulta; INB denied soil or water contamination in 2017.",
+  "legal_outcome": "Dam at emergency level 1; independent auditors did not certify stability in early Oct 2023. MPF has followed it since 2019 and recommends an emergency plan. It cannot be embargoed because the material has nowhere to go (CNEN). Responsibility moved from CNEN to ANM under Law 14.514 (Dec 2022). No decommissioning plan in the article.",
+  "summary": "INB's Caldas uranium mine, active 1980-1995, left a dam with about 2.5 million m3 of tailings. The dam is at emergency level 1 and has no stability certificate. INB says level 1 means no imminent rupture risk.",
+  "figures": [
+   {
+    "label": "Tailings volume and alert level",
+    "value": "About 2.5 million m3; emergency level 1; no stability certificate",
+    "source_url": "https://www.em.com.br/app/noticia/gerais/2023/10/18/interna_gerais,1578133/amp.html",
+    "status": "verified",
+    "note": "Report of 18 Oct 2023."
+   },
+   {
+    "label": "MPF TAC in 2019",
+    "value": "TAC (settlement agreement) signed 2019",
+    "source_url": "https://www.em.com.br/app/noticia/gerais/2023/10/18/interna_gerais,1578133/amp.html",
+    "status": "corrected",
+    "note": "Original note said an MPF TAC in 2019; the page mentions no TAC, only that MPF recommends an emergency plan and has followed the case since 2019."
+   },
+   {
+    "label": "INB ownership since 1982",
+    "value": "1982",
+    "source_url": "",
+    "status": "unverified",
+    "note": "No source in original note; the additions file gives extraction 1980-1995."
+   },
+   {
+    "label": "Up to 500 people at risk",
+    "value": "Up to 500",
+    "source_url": "https://www.em.com.br/app/noticia/gerais/2023/10/18/interna_gerais,1578133/amp.html",
+    "status": "verified",
+    "note": "ANM estimate."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Estado de Minas, 18 Oct 2023",
+    "url": "https://www.em.com.br/app/noticia/gerais/2023/10/18/interna_gerais,1578133/amp.html"
+   },
+   {
+    "title": "IHU: facing the waste of the Brazilian nuclear programme",
+    "url": "https://www.ihu.unisinos.br/categorias/572867-de-cara-com-o-lixo-do-programa-nuclear-brasileiro"
+   }
+  ]
+ },
+ {
+  "id": "d-serra-pelada-1980",
+  "date": "1980",
+  "name": "Serra Pelada gold garimpo",
+  "place": "Serra Pelada, Curionópolis, Pará",
+  "type": "mining",
+  "operator": "Garimpeiros (miners); land held by Companhia Vale do Rio Doce according to the original note",
+  "ownership": "unknown",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "No reliable count for the mine. The 'official 3 / miners 60+' figures belong to the 1987 Marabá bridge protest (see that entry). A 1983 collapse killing 17-19 was not found.",
+  "affected": "Tens of thousands of miners (not quantified in sources).",
+  "damage": "About 14 tonnes of gold in 1983 (official records). Pit flooded after the 1992 closure.",
+  "legal_outcome": "Closed by the federal government in 1992, under Collor.",
+  "summary": "Serra Pelada was a huge open-pit gold garimpo that began in 1980 and was closed by the federal government in 1992. The deaths figures once attached to it actually belong to the 1987 Marabá bridge protest.",
+  "figures": [
+   {
+    "label": "Official deaths 3; miners claim 60+",
+    "value": "3 official; 60+ claimed",
+    "source_url": "https://portalamazonia.com/amazonia/serra-pelada-maior-garimpo-ouro/",
+    "status": "corrected",
+    "note": "Corrected: these belong to the Dec 1987 Marabá bridge protest, not the mine."
+   },
+   {
+    "label": "1983 collapse killed 17 to 19",
+    "value": "17-19",
+    "source_url": "https://portalamazonia.com/amazonia/serra-pelada-maior-garimpo-ouro/",
+    "status": "unverified",
+    "note": "Not in the page."
+   },
+   {
+    "label": "Gold output 1983",
+    "value": "About 14 tonnes in one year",
+    "source_url": "https://portalamazonia.com/amazonia/serra-pelada-maior-garimpo-ouro/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Land belonged to CVRD, privatized 1997",
+    "value": "CVRD, later privatized in 1997",
+    "source_url": "",
+    "status": "unverified",
+    "note": "Not stated in the opened page; search snippet suggests rights returned to CVRD. Hence ownership is set to unknown and no linked transfer is given."
+   },
+   {
+    "label": "Closure",
+    "value": "1992",
+    "source_url": "https://portalamazonia.com/amazonia/serra-pelada-maior-garimpo-ouro/",
+    "status": "verified",
+    "note": ""
+   }
+  ],
+  "sources": [
+   {
+    "title": "Portal Amazônia: Serra Pelada",
+    "url": "https://portalamazonia.com/amazonia/serra-pelada-maior-garimpo-ouro/"
+   },
+   {
+    "title": "UFPA journal article",
+    "url": "https://www.periodicos.ufpa.br/index.php/pnaea/article/download/11954/8270"
+   }
+  ]
+ },
+ {
+  "id": "d-lago-batata-mrn-1979",
+  "date": "1979",
+  "name": "Lago Batata: MRN bauxite tailings",
+  "place": "Lago Batata, Rio Trombetas, Oriximiná, Pará",
+  "type": "mining",
+  "operator": "Mineração Rio do Norte (MRN)",
+  "ownership": "unknown",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "None recorded.",
+  "affected": "Residents report itching and allergies; Quilombo Boa Vista is about 500 m from the mine and 70% of residents rely on MRN jobs; over 90 families displaced from the reserved area (all Outras Palavras).",
+  "damage": "About 24 million t of solids on the lake bed within about 10 years (Outras Palavras). About 120 ha of igapó restored (Correio Braziliense, MRN-sourced). MRN admits a full return to the original state is impossible.",
+  "legal_outcome": "No legal outcome found in the opened pages.",
+  "summary": "From 1979, MRN discharged bauxite tailings into Lago Batata. Restoration began, and MRN and UFRJ scientists call it a model. Critics note that full recovery is impossible.",
+  "figures": [
+   {
+    "label": "Solids on lake bed",
+    "value": "About 24 million t within about 10 years",
+    "source_url": "https://outraspalavras.net/outrasmidias/no-coracao-da-amazonia-um-caso-tragico-da-mineracao/",
+    "status": "verified",
+    "note": "Single source, advocacy-leaning outlet."
+   },
+   {
+    "label": "Restored area",
+    "value": "About 120 ha of igapó",
+    "source_url": "https://www.correiobraziliense.com.br/ciencia-e-saude/2024/12/7011499-regeneracao-de-lago-no-para-e-exemplo.html",
+    "status": "unverified",
+    "note": "Company-sourced. MRN and UFRJ cite 99 publications."
+   },
+   {
+    "label": "MRN ownership",
+    "value": "2023 statements name Rio Tinto, Vale and Norsk Hydro as shareholders; ownership in 1979 not established",
+    "source_url": "",
+    "status": "unverified",
+    "note": "Search summary, not opened."
+   }
+  ],
+  "sources": [
+   {
+    "title": "Outras Palavras: tragic mining case",
+    "url": "https://outraspalavras.net/outrasmidias/no-coracao-da-amazonia-um-caso-tragico-da-mineracao/"
+   },
+   {
+    "title": "Correio Braziliense: lake regeneration",
+    "url": "https://www.correiobraziliense.com.br/ciencia-e-saude/2024/12/7011499-regeneracao-de-lago-no-para-e-exemplo.html"
+   }
+  ]
+ },
+ {
+  "id": "d-inga-sepetiba-1962",
+  "date": "1962",
+  "name": "Ingá Mercantil zinc smelter, Sepetiba Bay",
+  "place": "Ilha da Madeira, Sepetiba Bay, Rio de Janeiro",
+  "type": "mining",
+  "operator": "Companhia Mercantil e Industrial Ingá",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "None recorded.",
+  "affected": "Not quantified; fishing communities implied but not sourced.",
+  "damage": "Waste left after the 1998 bankruptcy: original note says 390,000 m3 of Class 1 waste in a pile about 45 m high (not confirmed; O Eco says a pile of 3 million tonnes). Cadmium 14.5 times and zinc 165 times above CONAMA 357 limits (PUC-Rio study). Shellfish up to 60 times above health limits (UFRJ). PUC-Rio says about 10 million tonnes of cadmium and zinc waste dumped over 20 years.",
+  "legal_outcome": "Environmental liability estimated at R$ 20 million at bankruptcy in 1998 (confirmed in search). Legacy sold 2011. Fines not found.",
+  "summary": "A zinc smelter ran on Ilha da Madeira from 1962 and went bankrupt in 1998, leaving its waste behind. Studies found cadmium and zinc far above legal limits in Sepetiba Bay.",
+  "figures": [
+   {
+    "label": "Waste left",
+    "value": "390,000 m3, pile about 45 m high",
+    "source_url": "https://www.maxwell.vrac.puc-rio.br/60868/60868_4.PDF",
+    "status": "unverified",
+    "note": "Not found in the fact-check; O Eco says a pile of 3 million tonnes."
+   },
+   {
+    "label": "Total waste dumped",
+    "value": "About 10 million tonnes over 20 years",
+    "source_url": "https://www.maxwell.vrac.puc-rio.br/60868/60868_4.PDF",
+    "status": "disputed",
+    "note": "PUC-Rio says 10 million tonnes dumped; O Eco says a pile of 3 million tonnes."
+   },
+   {
+    "label": "Cadmium and zinc above limits",
+    "value": "Cadmium 14.5 times, zinc 165 times CONAMA 357",
+    "source_url": "https://www.maxwell.vrac.puc-rio.br/60868/60868_4.PDF",
+    "status": "unverified",
+    "note": "Not independently checked."
+   },
+   {
+    "label": "Environmental liability 1998",
+    "value": "R$ 20 million",
+    "source_url": "https://monitormercantil.com.br/sofrida-baia-de-sepetiba/",
+    "status": "verified",
+    "note": "Confirmed in search."
+   }
+  ],
+  "sources": [
+   {
+    "title": "PUC-Rio study",
+    "url": "https://www.maxwell.vrac.puc-rio.br/60868/60868_4.PDF"
+   },
+   {
+    "title": "Monitor Mercantil: Sepetiba Bay",
+    "url": "https://monitormercantil.com.br/sofrida-baia-de-sepetiba/"
+   }
+  ]
+ },
+ {
+  "id": "d-icomi-serra-do-navio-1957",
+  "date": "1957",
+  "name": "ICOMI manganese mine, Serra do Navio",
+  "place": "Serra do Navio and Santana, Amapá",
+  "type": "mining",
+  "operator": "ICOMI (Brazilian-US consortium)",
+  "ownership": "private-company",
+  "privatized_or_conceded_year": null,
+  "linked_transfer": null,
+  "deaths": "Not quantified.",
+  "affected": "Not quantified.",
+  "damage": "Arsenic in manganese tailings used as street fill in Santana (academic article). Arsenic also found in river water after an anonymous complaint (unverified).",
+  "legal_outcome": "Not found in sources reviewed.",
+  "summary": "ICOMI mined manganese in Amapá from 1957 until 1997 or 1998 (sources differ). Tailings used as street fill in Santana contained arsenic. No legal outcome was found.",
+  "figures": [
+   {
+    "label": "Operating years",
+    "value": "1957 to 1997/98",
+    "source_url": "https://periodicos.ufpa.br/index.php/ncn/article/download/85/134",
+    "status": "disputed",
+    "note": "Sources differ on the end year."
+   },
+   {
+    "label": "Arsenic in river water",
+    "value": "Found after an anonymous complaint",
+    "source_url": "https://sgb.gov.br/documents/d/guest/scarpelli_arsenioemmineriomanganes-pdf",
+    "status": "unverified",
+    "note": "Not verified in the fact-check."
+   },
+   {
+    "label": "ICOMI private",
+    "value": "Brazilian-US consortium",
+    "source_url": "",
+    "status": "unverified",
+    "note": "Original note marked [no source]."
+   }
+  ],
+  "sources": [
+   {
+    "title": "UFPA journal article",
+    "url": "https://periodicos.ufpa.br/index.php/ncn/article/download/85/134"
+   },
+   {
+    "title": "SGB: arsenic in manganese mining",
+    "url": "https://sgb.gov.br/documents/d/guest/scarpelli_arsenioemmineriomanganes-pdf"
+   }
+  ]
+ }
+]

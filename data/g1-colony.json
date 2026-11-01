@@ -1,0 +1,1891 @@
+[
+  {
+    "id": "e1-01",
+    "year": "1502 to c.1515",
+    "start_year": 1502,
+    "title": "Brazilwood lease to Fernão de Loronha",
+    "era": "1500–1889 Colony and Empire",
+    "government": "Kingdom of Portugal, King Manuel I",
+    "what": "Exclusive trade in brazilwood from the 'Lands of Vera Cruz' for three years, leased to a Lisbon merchant group. The charter is lost; its contents are known from a 1522 royal letter.",
+    "who_got": "Fernão de Loronha's merchant consortium of Lisbon. The note's claims that they were New Christian merchants, and that Indigenous people cut the wood by barter, could not be confirmed. Who financed them is not stated.",
+    "terms": "Reconstructed from a letter of 3 Oct 1502 (Rondinelli): Crown share zero in year 1, one-sixth in year 2, one-quarter in year 3. He had to send six ships a year at his own cost, explore 300 leagues of new coast a year and build a fort. A different report (Ca' Masser, 1506/07) says a ten-year charter at 4,000 ducats a year; Vogt thinks that letter is wrong. Wikipedia says the 4,000 ducats may come from a 1505 renegotiation.",
+    "mechanism": "Royal charter / lease (arrendamento) of a Crown monopoly.",
+    "who_paid": "Indigenous peoples and the forest are named as likely cost-bearers, but this is not documented in the sources opened.",
+    "after": "Renewed in 1506 and held to 1512, then passed to the consortium of Jorge Lopes Bixorda. In 1515 the Crown let the lease lapse and took the trade directly. On 14 Jan 1504 the king also gave Loronha the island of São João (Fernando de Noronha) as a hereditary captaincy, making him the first donatary captain. Vogt (1967) argues there may have been no renewal.",
+    "counter_view": "This was a risk-bearing exploration contract. The lessee paid up front, armed ships and had to discover coast and build a fort at his own cost, with the Crown share rising over time. The Crown got revenue and coast mapping at no outlay, and re-tendered then retook the trade by 1515. Source: Wikipedia, Fernão de Loronha.",
+    "signs": [
+      "exclusive-privilege"
+    ],
+    "figures": [
+      {
+        "label": "Crown share of yield, years 1 / 2 / 3",
+        "value": "0 / one-sixth / one-quarter",
+        "currency": "n/a",
+        "value_year": "1502",
+        "estimator": "Rondinelli letter of 3 Oct 1502, via Wikipedia",
+        "kind": "guaranteed-return",
+        "source_url": "https://en.wikipedia.org/wiki/Fern%C3%A3o_de_Loronha",
+        "status": "verified",
+        "note": "Terms are reconstructed because the charter is lost."
+      },
+      {
+        "label": "Ca' Masser report: ten-year charter at 4,000 ducats a year",
+        "value": "4,000 ducats a year",
+        "currency": "ducats",
+        "value_year": "1506/07",
+        "estimator": "Ca' Masser; Vogt thinks it is wrong",
+        "kind": "other",
+        "source_url": "https://en.wikipedia.org/wiki/Fern%C3%A3o_de_Loronha",
+        "status": "disputed",
+        "note": "Conflicts with the Rondinelli three-year terms. Wikipedia suggests 4,000 ducats may come from a 1505 renegotiation."
+      },
+      {
+        "label": "Brazilwood harvested by 1506",
+        "value": "20,000 quintals",
+        "currency": "quintals",
+        "value_year": "1506",
+        "estimator": "Wikipedia (single secondary source)",
+        "kind": "other",
+        "source_url": "https://en.wikipedia.org/wiki/Fern%C3%A3o_de_Loronha",
+        "status": "corrected",
+        "note": "The first notes said there was no citation. Wikipedia does state it. Still one secondary source."
+      },
+      {
+        "label": "Profit over the lump sum and ship costs",
+        "value": "about 400-500%",
+        "currency": "percent",
+        "value_year": "c.1506",
+        "estimator": "Wikipedia (single secondary source)",
+        "kind": "other",
+        "source_url": "https://en.wikipedia.org/wiki/Fern%C3%A3o_de_Loronha",
+        "status": "corrected",
+        "note": "The first notes called this unsourced. Wikipedia states it. Still one secondary source."
+      }
+    ],
+    "summary": "In 1502 the Portuguese Crown leased the brazilwood trade of its new lands to a Lisbon merchant group led by Fernão de Loronha. The lessee carried the cost of ships, exploration and a fort, and the Crown took a growing share of the yield. The Crown took the trade back by 1515.",
+    "sources": [
+      {
+        "title": "Wikipedia: Fernão de Loronha",
+        "url": "https://en.wikipedia.org/wiki/Fern%C3%A3o_de_Loronha"
+      },
+      {
+        "title": "Cambridge, The Americas: Fernão de Loronha and the rental of Brazil in 1502",
+        "url": "https://www.cambridge.org/core/journals/americas/article/fernao-de-loronha-and-the-rental-of-brazil-in-1502-a-new-chronology/BE81FFE8819E2B76FAD4E375DEC48DD0"
+      },
+      {
+        "title": "USP e-disciplinas resource",
+        "url": "https://edisciplinas.usp.br/mod/resource/view.php?id=3192503"
+      },
+      {
+        "title": "UNIFESP, Almanack article",
+        "url": "https://periodicos.unifesp.br/index.php/alm/article/download/16546/13306/84698"
+      }
+    ]
+  },
+  {
+    "id": "e1-02",
+    "year": "1532 to 1822",
+    "start_year": 1532,
+    "title": "Sesmarias (land grants)",
+    "era": "1500–1889 Colony and Empire",
+    "government": "Kingdom of Portugal (colonial Brazil); donatários from 1534; ended under Prince Regent Pedro in 1822",
+    "what": "Free grants of Crown land, conditional on cultivation. The first registered grant was on 10 Oct 1532, from Martim Afonso de Sousa to Pedro de Góis. Donatários also granted them from 1534. The system was suspended in 1822.",
+    "who_got": "Settlers and elites. Grants also rewarded military service against Indigenous groups. Examples: 40 leagues in 1674 to men who fought Indigenous groups on the São Francisco; Casa da Torre asked for grants of 40 and 60 leagues in Piauí. These examples could not be confirmed.",
+    "terms": "Free land, but the holder had to cultivate it within the set time or lose it, and pay the dízimo to the Order of Christ. A royal letter of 9 Jan 1697 set 3 by 1 league per grant, but the Crown did not hold to it in practice.",
+    "mechanism": "Based on the Portuguese Lei das Sesmarias of 1375 (Fernando I). Suspended in 1822 by Resolution no. 76, attributed to José Bonifácio (the notes give 17 July 1822; the day was not seen on the page opened).",
+    "who_paid": "Indigenous peoples (conflict and dispossession are referenced, but expulsion figures were not found). Vague boundaries fed conflict with other occupants.",
+    "after": "After 1822 occupation (posse) was the main way to get land until Lei 601 of 1850.",
+    "counter_view": "Wikipedia notes the cultivation condition was meant to stop idle land, and the system included a forfeiture rule. Source: pt.wikipedia Sesmaria.",
+    "signs": [
+      "land-grant"
+    ],
+    "figures": [
+      {
+        "label": "First registered grant",
+        "value": "10 Oct 1532",
+        "currency": "n/a",
+        "value_year": "1532",
+        "estimator": "pt.wikipedia",
+        "kind": "land-area",
+        "source_url": "https://pt.wikipedia.org/wiki/Sesmaria",
+        "status": "verified",
+        "note": "Martim Afonso de Sousa to Pedro de Góis."
+      },
+      {
+        "label": "Standard sesmaria size (royal letter of 9 Jan 1697)",
+        "value": "3 by 1 league",
+        "currency": "leagues",
+        "value_year": "1697",
+        "estimator": "Periodicos UFAM (via search summary)",
+        "kind": "land-area",
+        "source_url": "https://periodicos.ufam.edu.br/index.php/Canoa_do_Tempo/article/download/8002/6517",
+        "status": "unverified",
+        "note": "The PDF was not opened by the fact-check. The Crown did not hold to this size."
+      },
+      {
+        "label": "Grant to men who fought Indigenous groups on the São Francisco",
+        "value": "40 leagues",
+        "currency": "leagues",
+        "value_year": "1674",
+        "estimator": "Periodicos UFAM (via search summary)",
+        "kind": "land-area",
+        "source_url": "https://periodicos.ufam.edu.br/index.php/Canoa_do_Tempo/article/download/8002/6517",
+        "status": "unverified",
+        "note": "Not confirmed by the fact-check."
+      },
+      {
+        "label": "Casa da Torre grant requests in Piauí",
+        "value": "40 and 60 leagues",
+        "currency": "leagues",
+        "value_year": "",
+        "estimator": "Periodicos UFAM (via search summary)",
+        "kind": "land-area",
+        "source_url": "https://periodicos.ufam.edu.br/index.php/Canoa_do_Tempo/article/download/8002/6517",
+        "status": "unverified",
+        "note": "Not confirmed by the fact-check."
+      }
+    ],
+    "summary": "For almost 300 years the Crown gave away land in Brazil on the condition that it be farmed. Large grants went to elites and to men who fought Indigenous groups. When grants stopped in 1822, occupation took over until the 1850 land law.",
+    "sources": [
+      {
+        "title": "pt.wikipedia: Sesmaria",
+        "url": "https://pt.wikipedia.org/wiki/Sesmaria"
+      },
+      {
+        "title": "Revista Themis (TJCE) on sesmarias",
+        "url": "https://revistathemis.tjce.jus.br/THEMIS/article/download/917/77"
+      },
+      {
+        "title": "Canoa do Tempo (UFAM)",
+        "url": "https://periodicos.ufam.edu.br/index.php/Canoa_do_Tempo/article/download/8002/6517"
+      }
+    ]
+  },
+  {
+    "id": "e1-03",
+    "year": "1534 to 1770",
+    "start_year": 1534,
+    "title": "Hereditary captaincies (capitanias hereditárias)",
+    "era": "1500–1889 Colony and Empire",
+    "government": "Kingdom of Portugal, King João III; Crown reabsorbed them under José I",
+    "what": "The coast of Brazil was split into strips with jurisdiction and given to private donatários. Created 1534-1536. Sizes varied: for example 60 leagues of coast from the São Francisco southward in one grant, and 80 leagues split between two captaincies for Pero Lopes de Sousa.",
+    "who_got": "About 12 donatários, mostly nobles and Crown servants. The notes name Duarte Coelho in Pernambuco; the fact-check could not confirm that on the page it opened. Financing is not described.",
+    "terms": "Two documents: the Carta de Doação and the Foral. Donatários got jurisdiction, rents and foros on mills and engenhos, part of the dízimos, power to appoint ouvidores and tabeliães, found vilas and distribute sesmarias. The Crown kept brazilwood, dízimos and the quinto. These power details were not re-checked. Monopolies on mills, ovens and salt are mentioned only for Madeira's captaincies.",
+    "mechanism": "Royal letters of donation plus a foral; hereditary and indivisible.",
+    "who_paid": "Indigenous peoples on the land and settlers under donatário jurisdiction. This is not documented in the pages fetched.",
+    "after": "Most failed. Bahia was taken back in 1548-49 when the Governo-Geral was created, which did not end the system. In the 1750s 16 private captaincies remained under José I: 9 in Brazil, 1 Cabo Verde, 1 Príncipe, 3 Madeira, 2 Azores. All were under the Crown by 1770, bought or reincorporated 1753-1770.",
+    "counter_view": "Grants were a cheap way to settle a coast the Crown could not afford to occupy, and most captaincies failed, so the Crown retook them. Source: pt.wikipedia, Capitanias hereditárias.",
+    "signs": [
+      "land-grant"
+    ],
+    "figures": [
+      {
+        "label": "Captaincies / lots / beneficiaries",
+        "value": "14 captaincies, 15 lots (quinhões), 12 beneficiaries",
+        "currency": "count",
+        "value_year": "1534-1536",
+        "estimator": "pt.wikipedia",
+        "kind": "land-area",
+        "source_url": "https://pt.wikipedia.org/wiki/Capitanias_heredit%C3%A1rias",
+        "status": "verified",
+        "note": "These are three different units, not a disagreement between sources."
+      },
+      {
+        "label": "Private captaincies remaining in the 1750s",
+        "value": "16 (9 Brazil, 1 Cabo Verde, 1 Príncipe, 3 Madeira, 2 Azores)",
+        "currency": "count",
+        "value_year": "1750s",
+        "estimator": "pt.wikipedia",
+        "kind": "other",
+        "source_url": "https://pt.wikipedia.org/wiki/Capitanias_heredit%C3%A1rias",
+        "status": "corrected",
+        "note": "The first notes implied all remaining captaincies were in Brazil. Not all were."
+      },
+      {
+        "label": "Coast in one grant from the São Francisco southward",
+        "value": "60 leagues",
+        "currency": "leagues",
+        "value_year": "1530s",
+        "estimator": "Revista Clio (UFPE)",
+        "kind": "land-area",
+        "source_url": "https://periodicos.ufpe.br/revistas/revistaclio/article/download/24171/19613/48164",
+        "status": "unverified",
+        "note": "Not re-opened by the fact-check."
+      },
+      {
+        "label": "Two captaincies for Pero Lopes de Sousa",
+        "value": "80 leagues in total",
+        "currency": "leagues",
+        "value_year": "1530s",
+        "estimator": "Redalyc",
+        "kind": "land-area",
+        "source_url": "https://www.redalyc.org/pdf/273/27353124008.pdf",
+        "status": "unverified",
+        "note": "Not re-opened by the fact-check."
+      }
+    ],
+    "summary": "In 1534-1536 the Portuguese Crown handed strips of the Brazilian coast, with legal powers, to private donatários. Most grants failed, and the Crown took the remaining ones back between 1753 and 1770.",
+    "sources": [
+      {
+        "title": "pt.wikipedia: Capitanias hereditárias",
+        "url": "https://pt.wikipedia.org/wiki/Capitanias_heredit%C3%A1rias"
+      },
+      {
+        "title": "Migalhas: Cartas de doação e foral",
+        "url": "https://www.migalhas.com.br/depeso/419286/ano-de-1534-cartas-de-doacao-e-foral"
+      },
+      {
+        "title": "Blog do ENEM",
+        "url": "https://blogdoenem.com.br/?p=44536"
+      },
+      {
+        "title": "Brasil Paralelo",
+        "url": "https://www.brasilparalelo.com.br/artigos/o-que-foram-as-capitanias-hereditarias"
+      },
+      {
+        "title": "Revista Clio (UFPE)",
+        "url": "https://periodicos.ufpe.br/revistas/revistaclio/article/download/24171/19613/48164"
+      },
+      {
+        "title": "Redalyc 27353124008",
+        "url": "https://www.redalyc.org/pdf/273/27353124008.pdf"
+      },
+      {
+        "title": "ANPUH symposium paper",
+        "url": "https://www.anpuh.org.br/uploads/anais-simposios/pdf/2019-01/1548772191_639ce402f46fba1f5160fa39ca38d48f.pdf"
+      },
+      {
+        "title": "Quero Bolsa",
+        "url": "https://querobolsa.com.br/enem/historia-brasil/capitanias-hereditarias"
+      }
+    ]
+  },
+  {
+    "id": "e1-04",
+    "year": "1608 to Empire (end date not found)",
+    "start_year": 1608,
+    "title": "Tithe (dízimo) tax farming and contratos régios",
+    "era": "1500–1889 Colony and Empire",
+    "government": "Kingdom of Portugal; the Crown held the dízimos as Grand Master of the Order of Christ under a papal grant (Julius III)",
+    "what": "The right to collect one tenth of output was auctioned in three-year terms for a fixed sum paid to the Treasury. In Minas Gerais the Junta da Real Fazenda ran the auction from 1772. Contractors kept private books outside state archives, so series are scarce.",
+    "who_got": "Capitalists who bid before the Provedoria. Their names and financing were not found.",
+    "terms": "The bid was the Crown's guaranteed revenue. Contractor profit was collections minus the bid. No margin estimate was found. Where bids were poor the Junta collected directly (Minas 1737-8, 1765-8, 1771-2).",
+    "mechanism": "Auction (arrematação) under the Fazenda Real rules, three-year terms. Contract clause details are unverified.",
+    "who_paid": "Planters and farmers paying the tenth to contractors' collectors. Sugar was about 90% of the Bahia tithe.",
+    "after": "The same contract model was used for entradas, passagens, diamonds and whaling. Treatment in the Empire and the end date of the dízimo were not researched.",
+    "counter_view": "Contracts gave the Crown predictable cash in a vast territory, and it could administer directly when bids were poor. Source: Carrara.",
+    "signs": [],
+    "figures": [
+      {
+        "label": "Bahia tithe contract",
+        "value": "15:200$000",
+        "currency": "réis (1 conto = 1,000,000 réis)",
+        "value_year": "1608",
+        "estimator": "Carrara (audhe.org.uy paper)",
+        "kind": "other",
+        "source_url": "https://www.audhe.org.uy/images/stories/upload/sesso_22_paper_carrara.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked. Nominal values need deflating."
+      },
+      {
+        "label": "Bahia tithe contract",
+        "value": "67:100$000",
+        "currency": "réis",
+        "value_year": "1621",
+        "estimator": "Carrara",
+        "kind": "other",
+        "source_url": "https://www.audhe.org.uy/images/stories/upload/sesso_22_paper_carrara.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Pernambuco tithe contract",
+        "value": "25:700$000",
+        "currency": "réis",
+        "value_year": "1608",
+        "estimator": "Carrara",
+        "kind": "other",
+        "source_url": "https://www.audhe.org.uy/images/stories/upload/sesso_22_paper_carrara.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Bahia tithe contract",
+        "value": "110,000 cruzados = 44:000$000",
+        "currency": "cruzados / réis",
+        "value_year": "1677-78",
+        "estimator": "Carrara; 1 cruzado = 400 réis inferred",
+        "kind": "other",
+        "source_url": "https://www.audhe.org.uy/images/stories/upload/sesso_22_paper_carrara.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Sugar share of the Bahia tithe",
+        "value": "about 90%",
+        "currency": "percent",
+        "value_year": "",
+        "estimator": "Carrara",
+        "kind": "other",
+        "source_url": "https://www.audhe.org.uy/images/stories/upload/sesso_22_paper_carrara.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      }
+    ],
+    "summary": "For the colonial centuries the Crown sold the right to collect the tithe for a fixed sum, and contractors kept what they collected above their bid. The bids give a rough picture of tithe income, but profits and contractor names were not found.",
+    "sources": [
+      {
+        "title": "Carrara, tithe contracts paper (AUDHE)",
+        "url": "https://www.audhe.org.uy/images/stories/upload/sesso_22_paper_carrara.pdf"
+      }
+    ]
+  },
+  {
+    "id": "e1-05",
+    "year": "1614 to 1801",
+    "start_year": 1614,
+    "title": "Whaling monopoly (contrato das baleias)",
+    "era": "1500–1889 Colony and Empire",
+    "government": "Kingdom of Portugal; later Crown administration",
+    "what": "Whales were declared royal property (peixe-real) and fishing rights were leased by contract. The first lease of whaling in the Bahia Recôncavo went to Antônio da Costa in 1614 (citing Myriam Ellis). Another source dates monopolies 1747-1764 and 1765-1801; the two periodisations are not resolved.",
+    "who_got": "Whaling contractors. Names beyond Antônio da Costa and financing were not found.",
+    "terms": "Lease prices were not found.",
+    "mechanism": "Asiento/contract leasing of fishing rights. The end date given is the alvará of 24 April 1801, but that date was not confirmed on any opened page.",
+    "who_paid": "Enslaved labour: 525 enslaved people worked in the Santa Catarina armações in 1801, after the Crown had taken over management.",
+    "after": "The monopoly ended in 1801, together with the salt monopoly.",
+    "counter_view": null,
+    "signs": [
+      "exclusive-privilege"
+    ],
+    "figures": [
+      {
+        "label": "Enslaved people in the Santa Catarina armações",
+        "value": "525",
+        "currency": "people",
+        "value_year": "1801",
+        "estimator": "UFSC SCEH article",
+        "kind": "other",
+        "source_url": "https://ojs.sites.ufsc.br/index.php/sceh/article/download/50/50",
+        "status": "verified",
+        "note": "Weak confirmation: the PDF text is compressed and only its notes were readable."
+      }
+    ],
+    "summary": "The Crown owned whales by law and leased the right to hunt them to contractors from 1614. The work depended on enslaved labour. Lease prices were not found.",
+    "sources": [
+      {
+        "title": "UFSC SCEH article",
+        "url": "https://ojs.sites.ufsc.br/index.php/sceh/article/download/50/50"
+      },
+      {
+        "title": "CLIO (UFPel)",
+        "url": "https://periodicos.ufpel.edu.br/index.php/CLIO/article/view/19128/13181"
+      },
+      {
+        "title": "Dialnet article 7010440",
+        "url": "https://dialnet.unirioja.es/descarga/articulo/7010440.pdf"
+      }
+    ]
+  },
+  {
+    "id": "e1-06",
+    "year": "1631 to 1801",
+    "start_year": 1631,
+    "title": "Salt monopoly (estanco do sal)",
+    "era": "1500–1889 Colony and Empire",
+    "government": "Kingdom of Portugal",
+    "what": "A Crown monopoly on exporting salt from Portugal to Brazil, auctioned to a contratador.",
+    "who_got": "A contratador (contractor). In the 18th century contractors needed a guarantor (fiador). Names and financing were not found.",
+    "terms": "According to Azeredo Coutinho, the contractor paid the Fazenda Real 48 contos de réis a year. The date of that figure is not stated.",
+    "mechanism": "Crown monopoly leased by contract. Ended by alvará, dated 24 April 1801 in the notes (the date was not seen on an opened page).",
+    "who_paid": "Consumers. Municipal councils (câmaras) complained of contractors' neglect and excessive prices throughout the 17th century.",
+    "after": "The monopoly ended in 1801 together with the whale monopoly. The main study is Myriam Ellis, O monopólio do sal no Estado do Brasil (1631-1801), 1955.",
+    "counter_view": "The contract gave the Crown a fixed income of 48 contos a year without collection cost. Coutinho opposed the monopoly himself but did not want the Treasury to lose that revenue. Source: UFF article metadata and a search result.",
+    "signs": [
+      "exclusive-privilege"
+    ],
+    "figures": [
+      {
+        "label": "Annual payment by the salt contractor to the Fazenda Real",
+        "value": "48 contos de réis a year",
+        "currency": "réis",
+        "value_year": "not stated",
+        "estimator": "Azeredo Coutinho, via UFF article",
+        "kind": "other",
+        "source_url": "https://www2.historia.uff.br/tempo/wp-content/uploads/2024/11/artg8-2.pdf",
+        "status": "verified",
+        "note": "Weak confirmation: the PDF was compressed and only metadata and a search snippet were readable."
+      }
+    ],
+    "summary": "For 170 years the Crown sold the sole right to ship salt to Brazil. The contractor paid a reported 48 contos a year, and councils complained about prices and neglect.",
+    "sources": [
+      {
+        "title": "Revista de História USP A005N004",
+        "url": "https://revhistoria2.webhostusp.sti.usp.br/wp-content/uploads/revistas/004/A005N004.pdf"
+      },
+      {
+        "title": "UFF, Tempo article",
+        "url": "https://www2.historia.uff.br/tempo/wp-content/uploads/2024/11/artg8-2.pdf"
+      }
+    ]
+  },
+  {
+    "id": "e1-07",
+    "year": "1674 onward (Junta created 1674)",
+    "start_year": 1674,
+    "title": "Tobacco monopoly (estanco / contrato do tabaco)",
+    "era": "1500–1889 Colony and Empire",
+    "government": "Kingdom of Portugal, Prince Regent Pedro (decree of 14 July 1674); Pombal reforms 1751",
+    "what": "The exclusive right to buy Brazilian tobacco and sell it in the kingdom and islands, leased in three-year contracts. Earlier origins (1630s) and abolition in 1833 are unverified.",
+    "who_got": "The Contratadores Gerais, Lisbon merchants. Their lenders were not found.",
+    "terms": "The price came from bidding. Per three-year term, from Pombal's Dedução Compendiosa as reported by Novais: 1750-52 Feliciano Velho Oldemberg, 2,020,000 cruzados; 1753-55 José Machado Pinto, 2,100,000; 1756-58 Duarte Lopes Rosa, 2,220,000; next contract four merchants at 2,210,000. The Crown took a fixed sum and the contractor kept the margin. No estimate of contractor profit was found.",
+    "mechanism": "Royal monopoly (estanco) plus auction (arrematação). Junta da Administração do Tabaco in Lisbon (Regimento of 1702, 53 articles); superintendencies in Bahia and Pernambuco (1702), replaced by Mesas de Inspeção in 1751.",
+    "who_paid": "Brazilian growers selling into a single-buyer system with duties and inspection, Portuguese consumers, and Brazilian planters who carried the 1674 duties. Producer losses were not quantified.",
+    "after": "The Mesa de Inspeção and Pombal's rules came in 1751. The monopoly stayed a pillar of royal revenue. Rosa was awarded his contract without Pombal's approval, was ruined and had his goods sequestered.",
+    "counter_view": "The contract gave the Crown cash up front and put the risk of bad years on merchants. Rosa's failure shows contractors could lose, and the Crown seized his goods. Source: Novais thesis (USP). A claim that Bahian tobacco as slave-trade currency favoured Bahian merchants over Lisbon is unverified.",
+    "signs": [
+      "exclusive-privilege"
+    ],
+    "figures": [
+      {
+        "label": "Contract price 1750-52 (Oldemberg)",
+        "value": "2,020,000 cruzados",
+        "currency": "cruzados",
+        "value_year": "1750-52",
+        "estimator": "Pombal's Dedução Compendiosa, via Novais",
+        "kind": "other",
+        "source_url": "https://teses.usp.br/teses/disponiveis/8/8137/tde-15082016-112609/publico/2016_IdelmaAparecidaFerreiraNovais_VCorr.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked. Second-hand."
+      },
+      {
+        "label": "Contract price 1753-55 (Machado Pinto)",
+        "value": "2,100,000 cruzados",
+        "currency": "cruzados",
+        "value_year": "1753-55",
+        "estimator": "Via Novais",
+        "kind": "other",
+        "source_url": "https://teses.usp.br/teses/disponiveis/8/8137/tde-15082016-112609/publico/2016_IdelmaAparecidaFerreiraNovais_VCorr.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Contract price 1756-58 (Lopes Rosa)",
+        "value": "2,220,000 cruzados",
+        "currency": "cruzados",
+        "value_year": "1756-58",
+        "estimator": "Via Novais",
+        "kind": "other",
+        "source_url": "https://teses.usp.br/teses/disponiveis/8/8137/tde-15082016-112609/publico/2016_IdelmaAparecidaFerreiraNovais_VCorr.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Next contract, four merchants",
+        "value": "2,210,000 cruzados",
+        "currency": "cruzados",
+        "value_year": "c.1759",
+        "estimator": "Via Novais",
+        "kind": "other",
+        "source_url": "https://teses.usp.br/teses/disponiveis/8/8137/tde-15082016-112609/publico/2016_IdelmaAparecidaFerreiraNovais_VCorr.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Duties meant to raise the sum 'offered' by the Cortes in 1674",
+        "value": "600,000 cruzados",
+        "currency": "cruzados",
+        "value_year": "1674",
+        "estimator": "Lopes thesis (USP)",
+        "kind": "other",
+        "source_url": "https://teses.usp.br/teses/disponiveis/8/8137/tde-01122009-093954/publico/GUSTAVO_ACIOLI_LOPES.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Tobacco share of Crown revenue, more than the gold quinto",
+        "value": "17%",
+        "currency": "percent",
+        "value_year": "1762-1776",
+        "estimator": "Fernando Tomaz, quoted by Novais",
+        "kind": "other",
+        "source_url": "https://teses.usp.br/teses/disponiveis/8/8137/tde-15082016-112609/publico/2016_IdelmaAparecidaFerreiraNovais_VCorr.pdf",
+        "status": "unverified",
+        "note": "Second-hand estimate."
+      },
+      {
+        "label": "Lisbon tobacco cost with duties and freight vs English-sold tobacco",
+        "value": "1$724 vs 1$024 réis per arroba",
+        "currency": "réis",
+        "value_year": "c.1750s",
+        "estimator": "Pombal, via Novais",
+        "kind": "price-gap",
+        "source_url": "https://teses.usp.br/teses/disponiveis/8/8137/tde-15082016-112609/publico/2016_IdelmaAparecidaFerreiraNovais_VCorr.pdf",
+        "status": "unverified",
+        "note": "This is Pombal's argument for his reforms, not a neutral estimate."
+      }
+    ],
+    "summary": "The Crown leased the sole right to buy Brazilian tobacco and sell it in Portugal to Lisbon merchants in three-year contracts. Prices rose from 2.02 to 2.22 million cruzados in the 1750s. Contractor profit and grower losses were not measured.",
+    "sources": [
+      {
+        "title": "Novais thesis, USP",
+        "url": "https://teses.usp.br/teses/disponiveis/8/8137/tde-15082016-112609/publico/2016_IdelmaAparecidaFerreiraNovais_VCorr.pdf"
+      },
+      {
+        "title": "Lopes thesis, USP",
+        "url": "https://teses.usp.br/teses/disponiveis/8/8137/tde-01122009-093954/publico/GUSTAVO_ACIOLI_LOPES.pdf"
+      }
+    ]
+  },
+  {
+    "id": "e1-08",
+    "year": "c.1700 to c.1790",
+    "start_year": 1700,
+    "title": "Gold in Minas Gerais: quinto, foundry houses, capitação, derrama",
+    "era": "1500–1889 Colony and Empire",
+    "government": "Kingdom of Portugal",
+    "what": "The Crown kept the royalty (the quinto, 20% of gold) but pushed collection and risk onto miners and local elites. Foundry houses from 1719; a per-slave poll tax (capitação); and a collective charge (derrama) if the quinto fell short.",
+    "who_got": "Not a transfer of assets. Mining grants (datas minerais) and tax-farm contracts (contratos de entradas) are not covered by the sources.",
+    "terms": "Quinto 20%. Capitação from the second half of 1735 to the first half of 1751 (Carrara; Magalhães says 1735 to 1750; the notes' exact days 1 July 1735 and 1 Aug 1751 are not confirmed). Foundry houses were re-established by an order of 3 Dec 1750 with a 100-arroba quota. Derrama: if the quinto fell below 100 arrobas (about 1,500 kg) a year, the shortfall was charged to the population.",
+    "mechanism": "Royal tax (quinto), foundry houses, capitação, derrama.",
+    "who_paid": "Enslaved miners (taxed per head, and the labour itself) and mining towns under the derrama threat. The derrama of 1763 was applied first. The one announced for Feb 1789 was cancelled before collection and tied to the Inconfidência.",
+    "after": "Foundry houses returned in 1750-51 with a quota to fight smuggling.",
+    "counter_view": "Here the Crown kept the royalty. The loss was smuggling and evasion: the gap between 557 t shipped and about 73% of estimated output is commonly read as contraband. Foundry houses and the quota were meant to fight it.",
+    "signs": [],
+    "figures": [
+      {
+        "label": "Quinto rate",
+        "value": "20% of gold",
+        "currency": "percent",
+        "value_year": "c.1700-1790",
+        "estimator": "Redalyc 279149151002",
+        "kind": "other",
+        "source_url": "https://www.redalyc.org/pdf/2791/279149151002.pdf",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Gold that reached Lisbon, 1720-1807",
+        "value": "557 tonnes, about 73% of estimated output",
+        "currency": "tonnes",
+        "value_year": "1720-1807",
+        "estimator": "Lima and Sousa working paper (Redalyc)",
+        "kind": "other",
+        "source_url": "https://www.redalyc.org/pdf/2791/279149151002.pdf",
+        "status": "verified",
+        "note": "The gap is not explained in the sources."
+      },
+      {
+        "label": "Peak output c.1730-1755",
+        "value": "18-20 tonnes a year",
+        "currency": "tonnes",
+        "value_year": "c.1730-1755",
+        "estimator": "Redalyc 279149151002",
+        "kind": "other",
+        "source_url": "https://www.redalyc.org/pdf/2791/279149151002.pdf",
+        "status": "unverified",
+        "note": "The peak figure is hidden in the summary read by the fact-check."
+      },
+      {
+        "label": "Derrama trigger",
+        "value": "quinto below 100 arrobas (about 1,500 kg) a year",
+        "currency": "arrobas",
+        "value_year": "c.1750",
+        "estimator": "Redalyc 384446660010 and search results",
+        "kind": "other",
+        "source_url": "https://www.redalyc.org/pdf/3844/384446660010.pdf",
+        "status": "verified",
+        "note": "Shortfall shared among the four comarcas / charged to the homens-bons."
+      },
+      {
+        "label": "Capitação per enslaved miner",
+        "value": "5$000 réis a year",
+        "currency": "réis",
+        "value_year": "1735-1751",
+        "estimator": "Periodicos UFRN (via search summary)",
+        "kind": "other",
+        "source_url": "https://periodicos.ufrn.br/mneme/article/download/16067/10845/51033",
+        "status": "unverified",
+        "note": "Not found by the fact-check. One study site says 17 grams of gold per slave, also unverified."
+      }
+    ],
+    "summary": "In the Minas gold rush the Crown kept 20% of the gold but made miners and towns carry the collection risk through a poll tax and a collective charge. Smuggling was the main loss. This case is mostly a tax system, not a sale.",
+    "sources": [
+      {
+        "title": "Mneme, UFRN article",
+        "url": "https://periodicos.ufrn.br/mneme/article/download/16067/10845/51033"
+      },
+      {
+        "title": "Redalyc 384446660010",
+        "url": "https://www.redalyc.org/pdf/3844/384446660010.pdf"
+      },
+      {
+        "title": "Redalyc 279149151002",
+        "url": "https://www.redalyc.org/pdf/2791/279149151002.pdf"
+      },
+      {
+        "title": "Redalyc journal 2791 (Lima and Sousa)",
+        "url": "https://www.redalyc.org/journal/2791/279149151002/movil/"
+      }
+    ]
+  },
+  {
+    "id": "e1-09",
+    "year": "1740 to 1832",
+    "start_year": 1740,
+    "title": "Diamond contracts and Royal Extraction, Distrito Diamantino",
+    "era": "1500–1889 Colony and Empire",
+    "government": "Kingdom of Portugal: João V and José I; Marquês de Pombal",
+    "what": "The right to mine and sell diamonds in a closed district, leased to contractors who paid the Crown. Six contracts from 1740 to 1771 (some sources start in 1734), each about four years, by public auction. A Crown reserve of 241,405 carats valued over 2,200 contos is mentioned; that is a Crown holding, not contractor output, and was not confirmed.",
+    "who_got": "The Fernandes de Oliveira and Caldeira Brant families. The father, with F. Ferreira da Silva, held the first two contracts and the son the last three, so the family took five of six. Felisberto Caldeira Brant held the third (dates vary: 1748-1752, 1749-1753, 1749-1755) and ended in a diamond-theft prosecution. João Fernandes de Oliveira held the sixth, 1762-1771 in one source (Wikipedia pt says he administered the contract 1753-1771). Financing is not stated.",
+    "terms": "Sources disagree on payment: proportional to sales revenue vs a yearly fifth. Exact annual sums were not found.",
+    "mechanism": "Contract by auction. In 1771 the Crown moved to a royal monopoly (Real Extração), by decree dated 12 Aug 1771 in CartaCapital only. The Regimento Diamantino 1771 imposed licences for residence, trade and movement; unauthorised possession of diamonds was a grave crime (prison, confiscation, exile).",
+    "who_paid": "Enslaved miners (legal mining only by slave gangs of the Intendência from 1772), and residents under travel and trade bans.",
+    "after": "The privatised contract was reversed by the state in 1771, after smuggling. The Real Extração lasted to 1832 (Intendência abolished 1832; Wikipedia pt also says 1831 for the Real Extração). A UFMG source says officially 1832, in practice 1841. A counter-example of renationalisation.",
+    "counter_view": "The contract system was Crown revenue with auctions, and the Crown itself ended it in 1771 because of contraband. Júnia Furtado reads the Regimento Diamantino as a revalidation of earlier laws, not a new regime (UFJF paper, from a search result).",
+    "signs": [
+      "exclusive-privilege"
+    ],
+    "figures": [
+      {
+        "label": "Fernandes de Oliveira family share of diamond contracts",
+        "value": "five of six",
+        "currency": "count",
+        "value_year": "1740-1771",
+        "estimator": "Search results (Portuguese articles)",
+        "kind": "other",
+        "source_url": "https://www.anpuh.org.br/uploads/anais-simposios/pdf/2019-01/1547483138_1a45c86bae273fc7550dc2cde801515c.pdf",
+        "status": "unverified",
+        "note": "Confirmed only from search snippets."
+      },
+      {
+        "label": "Contract period",
+        "value": "1740-1771 (some sources 1734-1771); six contracts",
+        "currency": "years",
+        "value_year": "1740-1771",
+        "estimator": "pt.wikipedia",
+        "kind": "other",
+        "source_url": "https://pt.wikipedia.org/wiki/Distrito_Diamantino",
+        "status": "verified",
+        "note": "The page gives 1740-1771 in the text and 1734-1771 in a heading."
+      },
+      {
+        "label": "Payment terms to the Crown",
+        "value": "proportional to sales revenue vs a yearly fifth",
+        "currency": "n/a",
+        "value_year": "",
+        "estimator": "Conflicting sources in the notes",
+        "kind": "other",
+        "source_url": "https://pt.wikipedia.org/wiki/Distrito_Diamantino",
+        "status": "disputed",
+        "note": "No source resolved which is correct. Exact annual sums not found."
+      },
+      {
+        "label": "Crown diamond reserve",
+        "value": "241,405 carats, valued over 2,200 contos",
+        "currency": "carats / réis",
+        "value_year": "",
+        "estimator": "Notes (source not identified)",
+        "kind": "other",
+        "source_url": "https://pt.wikipedia.org/wiki/Distrito_Diamantino",
+        "status": "unverified",
+        "note": "Not found on the page the fact-check opened. A Crown holding, not contractor output."
+      }
+    ],
+    "summary": "From 1740 the Crown auctioned the right to mine diamonds in a closed district, mostly to two families. In 1771, after smuggling, it took the mines back under a royal monopoly. Enslaved miners did the work.",
+    "sources": [
+      {
+        "title": "pt.wikipedia: Distrito Diamantino",
+        "url": "https://pt.wikipedia.org/wiki/Distrito_Diamantino"
+      },
+      {
+        "title": "CartaCapital",
+        "url": "https://www.cartacapital.com.br/?p=78301"
+      },
+      {
+        "title": "UFSC, Mundos do Trabalho",
+        "url": "https://periodicos.ufsc.br/index.php/mundosdotrabalho/article/download/95857/54764/374196"
+      },
+      {
+        "title": "Cambridge: Chica da Silva, Diamond contractors",
+        "url": "https://resolve.cambridge.org/core/books/abs/chica-da-silva/diamond-contractors/A95742944C27FF40F481F1E02B370FCF"
+      },
+      {
+        "title": "ANPUH symposium paper",
+        "url": "https://www.anpuh.org.br/uploads/anais-simposios/pdf/2019-01/1547483138_1a45c86bae273fc7550dc2cde801515c.pdf"
+      }
+    ]
+  },
+  {
+    "id": "e1-10",
+    "year": "1755 to 1778",
+    "start_year": 1755,
+    "title": "Companhia Geral do Grão-Pará e Maranhão",
+    "era": "1500–1889 Colony and Empire",
+    "government": "Kingdom of Portugal: José I and Pombal; closed under Maria I",
+    "what": "A monopoly on foreign trade of Grão-Pará and Maranhão and on the slave supply to those captaincies, planned for 20 years.",
+    "who_got": "A joint-stock company of Portuguese merchants with Crown backing.",
+    "terms": "Capital about 1.2 million cruzados. No price paid for the monopoly was found.",
+    "mechanism": "Royal charter of a joint-stock monopoly company.",
+    "who_paid": "Enslaved Africans (28,083 transported). Colonists complained of prices. A link to the end of Indigenous enslavement (1755 laws) is noted but not documented.",
+    "after": "Monopolies were revoked and the company shut in 1778 by Maria I after Pombal's fall (the 'viradeira'). An Infopedia entry gives 1775, an outlier. Liquidation took decades.",
+    "counter_view": "The company aimed to counter Dutch and English trade and fix labour and credit supply to a poor region. The cost was price complaints and Indigenous and Black enslavement. Not sourced beyond Wikipedia in this pass.",
+    "signs": [
+      "exclusive-privilege"
+    ],
+    "figures": [
+      {
+        "label": "Company capital",
+        "value": "about 1.2 million cruzados",
+        "currency": "cruzados",
+        "value_year": "1755",
+        "estimator": "Wikipedia",
+        "kind": "other",
+        "source_url": "https://en.wikipedia.org/wiki/Gr%C3%A3o_Par%C3%A1_and_Maranh%C3%A3o_Company",
+        "status": "verified",
+        "note": "The notes' claim that this was a third of its sister company's capital was not on the page opened."
+      },
+      {
+        "label": "Enslaved Africans transported",
+        "value": "28,083",
+        "currency": "people",
+        "value_year": "1755-1778",
+        "estimator": "Wikipedia",
+        "kind": "other",
+        "source_url": "https://en.wikipedia.org/wiki/Gr%C3%A3o_Par%C3%A1_and_Maranh%C3%A3o_Company",
+        "status": "verified",
+        "note": "Wikipedia only; not checked against Dias (USP Revista de História)."
+      }
+    ],
+    "summary": "Pombal gave a merchant company a 20-year monopoly on the trade and slave supply of Grão-Pará and Maranhão. It moved 28,083 enslaved Africans before Maria I closed it in 1778.",
+    "sources": [
+      {
+        "title": "Wikipedia: Grão-Pará and Maranhão Company",
+        "url": "https://en.wikipedia.org/wiki/Gr%C3%A3o_Par%C3%A1_and_Maranh%C3%A3o_Company"
+      },
+      {
+        "title": "Infopedia: Companhia Geral do Grão-Pará e Maranhão",
+        "url": "https://www.infopedia.pt/artigos/$companhia-geral-do-grao-para-e-do-maranhao"
+      },
+      {
+        "title": "Coimbra: A Junta Liquidatária dos Fundos",
+        "url": "https://dl.uc.pt/bitstream/10316.2/46820/1/a_junta_liquidataria_dos_fundos.pdf"
+      }
+    ]
+  },
+  {
+    "id": "e1-11",
+    "year": "1759 to 1780",
+    "start_year": 1759,
+    "title": "Companhia Geral de Pernambuco e Paraíba",
+    "era": "1500–1889 Colony and Empire",
+    "government": "Kingdom of Portugal: José I and Pombal",
+    "what": "A trade monopoly in the northern captaincies of Pernambuco and Paraíba. It also financed slave purchases in Angola (Menz, Afro-Ásia).",
+    "who_got": "A merchant company with shareholders and direct Crown financial and managerial involvement.",
+    "terms": "Capital was not found.",
+    "mechanism": "Royal charter of a joint-stock monopoly company, founded 13 Aug 1759 per Wikipedia (30 July per another source).",
+    "who_paid": "Enslaved Africans (49,344 carried from Angola to Brazil 1761-1786). Colonial consumers are implied but not documented.",
+    "after": "Privilege suspended at the start of the 1780s. The notes give liquidation 1780-1813, which the fact-check could not confirm.",
+    "counter_view": null,
+    "signs": [
+      "exclusive-privilege"
+    ],
+    "figures": [
+      {
+        "label": "Enslaved people taken from Angola to Brazil",
+        "value": "49,344, including 508 children",
+        "currency": "people",
+        "value_year": "1761-1786",
+        "estimator": "Wikipedia",
+        "kind": "other",
+        "source_url": "https://en.wikipedia.org/wiki/Companhia_Geral_de_Pernambuco_e_Para%C3%ADba",
+        "status": "verified",
+        "note": "The period runs past the 1780 suspension of the privilege."
+      }
+    ],
+    "summary": "Under Pombal a merchant company got a trade monopoly in Pernambuco and Paraíba from 1759, with the Crown directly involved. The company carried 49,344 enslaved people from Angola in 1761-1786. Capital and liquidation details are missing.",
+    "sources": [
+      {
+        "title": "Wikipedia: Companhia Geral de Pernambuco e Paraíba",
+        "url": "https://en.wikipedia.org/wiki/Companhia_Geral_de_Pernambuco_e_Para%C3%ADba"
+      },
+      {
+        "title": "BDTD record",
+        "url": "https://bdtd.ibict.br/vufind/Record/USP_a39bcf0ef82437d7c86fb3d9cfe8a670"
+      },
+      {
+        "title": "Menz, Afro-Ásia",
+        "url": "https://biblat.unam.mx/es/revista/afro-asia/articulo/os-negocios-globais-de-uma-companhia-colonial-a-companhia-geral-de-pernambuco-e-paraiba-e-os-negocios-da-china-1759-1783"
+      }
+    ]
+  },
+  {
+    "id": "e1-12",
+    "year": "1759 to 1763 and after",
+    "start_year": 1759,
+    "title": "Jesuit estates: sequestration and resale",
+    "era": "1500–1889 Colony and Empire",
+    "government": "Kingdom of Portugal: José I and minister Pombal",
+    "what": "After the expulsion of 1759 the Jesuit estates were seized. Bahia inventory of 26 July 1759: 184 houses, 58 rented plots, 5 engenhos and 698 enslaved people. Rio: Engenho Velho, Engenho Novo, urban houses and Santa Cruz.",
+    "who_got": "Public-auction buyers, paying by instalment in two or three fleets. The Misericórdia bought the Cais dos Padres in Bahia. Francisco Carneiro Leão and Antonio Ferreira Malheyros also bought. Gonçalo Marques de Oliveira took a Macaé farm. Financing was not found.",
+    "terms": "Carvalho says Rio bids were above appraisals (her view). Chancellor Barreto put the 698 enslaved at 40-48 million réis. Bahia college property was appraised at 190,886,000 réis with rent of 11,451,200.",
+    "mechanism": "Sequestration by royal order (Rio sale edict Dec 1760; alvará of 25 Feb 1761 put the goods in the Real Fazenda), then edital and public auction. Unsold estates stayed under Treasury administration.",
+    "who_paid": "Enslaved and Indigenous people sold as property, Jesuit-run economies, and tenants. Barreto warned that leasing the mills would ruin them.",
+    "after": "Unsold estates were administered at a loss or split up. Santa Cruz stayed with the Crown. A 1799 Santa Cruz sale figure seen in a snippet is unverified.",
+    "counter_view": "Carvalho argues the Crown gained on sales. The RBH article stresses instalments and ruinous administration. It is also arguable that the first step went from a private order to the Crown, and only the second to private buyers.",
+    "signs": [],
+    "figures": [
+      {
+        "label": "Rio: 65 houses sold",
+        "value": "66:265$000",
+        "currency": "réis",
+        "value_year": "1763",
+        "estimator": "Carvalho (Redalyc)",
+        "kind": "other",
+        "source_url": "https://www.redalyc.org/pdf/5798/579866785002.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Rio: Engenho Velho sold",
+        "value": "35:680$000",
+        "currency": "réis",
+        "value_year": "1763",
+        "estimator": "Carvalho (Redalyc)",
+        "kind": "other",
+        "source_url": "https://www.redalyc.org/pdf/5798/579866785002.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Rio: Engenho Novo sold",
+        "value": "11:727$000",
+        "currency": "réis",
+        "value_year": "1763",
+        "estimator": "Carvalho (Redalyc)",
+        "kind": "other",
+        "source_url": "https://www.redalyc.org/pdf/5798/579866785002.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Rio: 265 enslaved people sold",
+        "value": "14:471$000",
+        "currency": "réis",
+        "value_year": "1763",
+        "estimator": "Carvalho (Redalyc)",
+        "kind": "other",
+        "source_url": "https://www.redalyc.org/pdf/5798/579866785002.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Rio: Crown received from the 1763 sales",
+        "value": "71:856$395",
+        "currency": "réis",
+        "value_year": "1763",
+        "estimator": "Carvalho (Redalyc)",
+        "kind": "other",
+        "source_url": "https://www.redalyc.org/pdf/5798/579866785002.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Gonçalo Marques de Oliveira, Macaé farm",
+        "value": "31:302$023",
+        "currency": "réis",
+        "value_year": "",
+        "estimator": "Carvalho (Redalyc)",
+        "kind": "other",
+        "source_url": "https://www.redalyc.org/pdf/5798/579866785002.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Bahia proceeds of the sales (range across sources)",
+        "value": "207,713,515 to 547,896,005 réis (forecast 303,792,155 in 1762; report 207,713,515 in 1763; documented minimum 310,722,389; Calmon 547,896,005)",
+        "currency": "réis",
+        "value_year": "1762-1763",
+        "estimator": "RBH article, quoting several authors",
+        "kind": "other",
+        "source_url": "https://www.scielo.br/j/rbh/a/4n5vKbsR93JnCsmYRVXcRmC/?lang=pt",
+        "status": "disputed",
+        "note": "Range of 310 to 548 contos as in the notes' summary; totals disagree."
+      },
+      {
+        "label": "Bahia college property appraisal",
+        "value": "190,886,000 (rent 11,451,200)",
+        "currency": "réis",
+        "value_year": "c.1760",
+        "estimator": "RBH article",
+        "kind": "other",
+        "source_url": "https://www.scielo.br/j/rbh/a/4n5vKbsR93JnCsmYRVXcRmC/?lang=pt",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Misericórdia purchase of Cais dos Padres vs appraisal",
+        "value": "44,800,000 vs 43,675,000",
+        "currency": "réis",
+        "value_year": "c.1760s",
+        "estimator": "RBH article",
+        "kind": "price-gap",
+        "source_url": "https://www.scielo.br/j/rbh/a/4n5vKbsR93JnCsmYRVXcRmC/?lang=pt",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked. Paid about 2.6% above appraisal."
+      },
+      {
+        "label": "Value of 698 enslaved people (Chancellor Barreto)",
+        "value": "40-48 million",
+        "currency": "réis",
+        "value_year": "c.1760",
+        "estimator": "RBH article",
+        "kind": "other",
+        "source_url": "https://www.scielo.br/j/rbh/a/4n5vKbsR93JnCsmYRVXcRmC/?lang=pt",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Confiscations share of the Erário Régio (Azevedo)",
+        "value": "1,041 of 1,741 contos, about 60%",
+        "currency": "contos de réis",
+        "value_year": "c.1760s",
+        "estimator": "Azevedo, quoted in RBH article",
+        "kind": "other",
+        "source_url": "https://www.scielo.br/j/rbh/a/4n5vKbsR93JnCsmYRVXcRmC/?lang=pt",
+        "status": "unverified",
+        "note": "Second-hand figure."
+      }
+    ],
+    "summary": "After expelling the Jesuits, the Crown seized their estates and sold many at public auction, often on instalments. Sale totals in Bahia range from about 310 to 548 contos depending on the author. The enslaved people on the estates were sold with them.",
+    "sources": [
+      {
+        "title": "Carvalho, Jesuit estates in Rio (Redalyc)",
+        "url": "https://www.redalyc.org/pdf/5798/579866785002.pdf"
+      },
+      {
+        "title": "Revista Brasileira de História: Jesuit estates in Bahia",
+        "url": "https://www.scielo.br/j/rbh/a/4n5vKbsR93JnCsmYRVXcRmC/?lang=pt"
+      }
+    ]
+  },
+  {
+    "id": "e1-13",
+    "year": "1808 to 1829",
+    "start_year": 1808,
+    "title": "First Banco do Brasil",
+    "era": "1500–1889 Colony and Empire",
+    "government": "United Kingdom of Portugal, Brazil and the Algarves: Prince Regent João; liquidation under Pedro I",
+    "what": "A privileged bank with exclusive trading in state-monopoly goods (diamonds, brazilwood, ivory, urzela). The notes also listed handling Royal Treasury remittances. Tobacco and a 2% commission were not supported by the sources.",
+    "who_got": "Shareholders, mostly in Rio. 1821 holdings: Rio 61.7%, Bahia 15.8%, Minas 8.7%, São Paulo 5.6%, others 8.2%. Directors discounted bills for themselves, absconded and faked bankruptcies (Cardoso).",
+    "terms": "Capital 1,200,000$000 in 1,200 shares of 1,000$000; full capital reached only ten years after founding. Dividends 10-19% a year, 18.75% in 1828. The Crown borrowed from the bank: aid to the Real Fazenda of 5-6 million cruzados a year.",
+    "mechanism": "Alvará of 12 Oct 1808. Decree of 23 March 1821 turned the bank's liabilities into national debt backed by diamonds and jewels. Liquidation ordered by law of September 1829 (the notes say 23 Sept; the day was not seen).",
+    "who_paid": "Note holders and, later, the Treasury. Shareholder payout in liquidation was not found. By 1821 paper issued was over three times capital.",
+    "after": "Liquidated in 1829. There was no bank until 1838.",
+    "counter_view": "The main cause of the collapse was the Crown's own borrowing: the Royal Exchequer owed the bank 4.8 million (about twice capital), so the court drained the bank, not only shareholders profiting. Source: Cardoso, SciELO. Sampaio blamed internal abuses more than Treasury loans; Cardoso says shareholders had no reason to complain.",
+    "signs": [
+      "exclusive-privilege",
+      "conflict-of-interest-or-kickbacks",
+      "bailout"
+    ],
+    "figures": [
+      {
+        "label": "Initial capital",
+        "value": "1,200,000$000 in 1,200 shares of 1,000$000",
+        "currency": "réis",
+        "value_year": "1808",
+        "estimator": "Cardoso, RBH",
+        "kind": "other",
+        "source_url": "https://www.scielo.br/j/rbh/a/JJgTM6Q3Fkv7dGB8dtTr7Vj/?lang=en",
+        "status": "verified",
+        "note": "Full amount reached only ten years after founding. Operations began Dec 1809."
+      },
+      {
+        "label": "Treasury debt to the bank (Royal Exchequer)",
+        "value": "4,800,000$000, about twice capital",
+        "currency": "réis",
+        "value_year": "1821",
+        "estimator": "Cardoso, RBH",
+        "kind": "debt-absorbed",
+        "source_url": "https://www.scielo.br/j/rbh/a/JJgTM6Q3Fkv7dGB8dtTr7Vj/?lang=en",
+        "status": "verified",
+        "note": "Snippets giving over 20,000 contos and 6,000 contos conflict with this and are unverified."
+      },
+      {
+        "label": "Paper issue relative to capital",
+        "value": "over 3 times capital",
+        "currency": "ratio",
+        "value_year": "1821",
+        "estimator": "Cardoso, RBH",
+        "kind": "other",
+        "source_url": "https://www.scielo.br/j/rbh/a/JJgTM6Q3Fkv7dGB8dtTr7Vj/?lang=en",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "2% commission on net proceeds of state-monopoly goods",
+        "value": "2%",
+        "currency": "percent",
+        "value_year": "1808",
+        "estimator": "Revista de Serviço Público (search summary)",
+        "kind": "other",
+        "source_url": "https://revista.enap.gov.br/index.php/RSP/article/download/7520/4637/23919",
+        "status": "unverified",
+        "note": "Not supported: the RBH article names no rate. The alvará PDF returned an error."
+      },
+      {
+        "label": "Capital in 1821 and 1825-29",
+        "value": "2,235 contos (1821); 3,600 contos (1825-29)",
+        "currency": "contos de réis",
+        "value_year": "1821-1829",
+        "estimator": "Cardoso, RBH (PDF)",
+        "kind": "other",
+        "source_url": "https://www.scielo.br/j/rbh/a/JJgTM6Q3Fkv7dGB8dtTr7Vj/?format=pdf&lang=pt&ilang=en",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Dividends",
+        "value": "10-19% a year; 18.75% in 1828",
+        "currency": "percent",
+        "value_year": "1808-1829",
+        "estimator": "Cardoso, RBH (PDF)",
+        "kind": "other",
+        "source_url": "https://www.scielo.br/j/rbh/a/JJgTM6Q3Fkv7dGB8dtTr7Vj/?format=pdf&lang=pt&ilang=en",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Aid to the Real Fazenda",
+        "value": "5-6 million cruzados a year",
+        "currency": "cruzados",
+        "value_year": "",
+        "estimator": "Cardoso, RBH (PDF)",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://www.scielo.br/j/rbh/a/JJgTM6Q3Fkv7dGB8dtTr7Vj/?format=pdf&lang=pt&ilang=en",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Notes in circulation",
+        "value": "8,070,920$ (1821); 21,574,920$ (1827); 19,174,920$ (1829)",
+        "currency": "réis",
+        "value_year": "1821-1829",
+        "estimator": "Cardoso, RBH (PDF)",
+        "kind": "other",
+        "source_url": "https://www.scielo.br/j/rbh/a/JJgTM6Q3Fkv7dGB8dtTr7Vj/?format=pdf&lang=pt&ilang=en",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      }
+    ],
+    "summary": "The first Banco do Brasil had trading privileges in state-monopoly goods and paid shareholders double-digit dividends. It lent heavily to the Crown and was liquidated in 1829. In 1821 the state took over its liabilities as national debt.",
+    "sources": [
+      {
+        "title": "Cardoso, Revista Brasileira de História",
+        "url": "https://www.scielo.br/j/rbh/a/JJgTM6Q3Fkv7dGB8dtTr7Vj/?lang=en"
+      },
+      {
+        "title": "Cardoso, RBH (PDF, Portuguese)",
+        "url": "https://www.scielo.br/j/rbh/a/JJgTM6Q3Fkv7dGB8dtTr7Vj/?format=pdf&lang=pt&ilang=en"
+      },
+      {
+        "title": "Revista de Serviço Público (ENAP)",
+        "url": "https://revista.enap.gov.br/index.php/RSP/article/download/7520/4637/23919"
+      }
+    ]
+  },
+  {
+    "id": "e1-14",
+    "year": "1808 to 1844",
+    "start_year": 1810,
+    "title": "Opening of the ports and the 1810 Treaty of Commerce with Britain",
+    "era": "1500–1889 Colony and Empire",
+    "government": "United Kingdom of Portugal, Brazil and the Algarves: Prince Regent João",
+    "what": "A tariff privilege and a special court for British merchants. Ports opened in 1808; the treaty was signed in Rio on 19 Feb 1810 and lasted to 1844 (original expiry 1825, then renewed). British goods paid 15% on entry vs 25% for other nations (Wikipedia). A juiz conservador da Nação Inglesa (decree of 4 May 1808, consolidated in the 1810 treaty) tried cases of British subjects.",
+    "who_got": "British merchants and manufacturers.",
+    "terms": "Article 15 set 15% for British goods. In practice monetary instability and valuation disputes often raised the real rate above 15% in the 1820s. Portugal also agreed to limit and consider ending the slave trade.",
+    "mechanism": "Treaty of commerce (Strangford Treaty); decree of 4 May 1808 for the juiz conservador.",
+    "who_paid": "Local handicraft and the Treasury through low tariff revenue. Wikipedia claims Brazilian tobacco and sugar were barred from British markets; a specialist source is still needed. The revenue loss was not quantified.",
+    "after": "The treaty lasted to 1844. The juiz conservador office ended only in 1844 (see the 1827 treaty case).",
+    "counter_view": "The treaty was a wartime concession for British naval protection of the exiled court (Strangford), and the preference was matched by high British duties on Brazilian sugar and tobacco. A treasury-loss argument needs revenue figures, which the sources lack. Source: fact-check of Wikipedia.",
+    "signs": [
+      "subsidy-or-tax-break",
+      "exclusive-privilege"
+    ],
+    "figures": [
+      {
+        "label": "Tariff on British goods vs other nations",
+        "value": "15% vs 25%",
+        "currency": "percent",
+        "value_year": "1810",
+        "estimator": "Wikipedia",
+        "kind": "other",
+        "source_url": "https://en.wikipedia.org/wiki/Strangford_Treaty",
+        "status": "verified",
+        "note": "Wikipedia only for the 25%. The idea that Portuguese goods paid 16% was not found in any source opened."
+      },
+      {
+        "label": "Real rate on British goods in the 1820s",
+        "value": "often above 15%",
+        "currency": "percent",
+        "value_year": "1820s",
+        "estimator": "Pereira, Estudos Econômicos (abstract)",
+        "kind": "other",
+        "source_url": "https://revistas.usp.br/ee/en/article/view/172019",
+        "status": "verified",
+        "note": "Instability and valuation disputes raised the de facto rate. Confirmed from a search snippet of the abstract."
+      },
+      {
+        "label": "Brazilian tobacco and sugar barred from British markets",
+        "value": "claimed",
+        "currency": "n/a",
+        "value_year": "1810",
+        "estimator": "Wikipedia",
+        "kind": "other",
+        "source_url": "https://en.wikipedia.org/wiki/Strangford_Treaty",
+        "status": "verified",
+        "note": "Wikipedia only; check against a specialist source."
+      },
+      {
+        "label": "Juiz conservador, decree of 4 May 1808",
+        "value": "to 1844",
+        "currency": "n/a",
+        "value_year": "1808",
+        "estimator": "Klinghoffer, RSP (ENAP)",
+        "kind": "other",
+        "source_url": "https://revista.enap.gov.br/index.php/RSP/article/download/5650/3078/18364",
+        "status": "unverified",
+        "note": "Not re-opened by the fact-check."
+      }
+    ],
+    "summary": "The 1810 treaty set a 15% tariff for British goods, lower than for other nations, and gave British subjects their own judge in Brazil. It ran until 1844. The sources give no figure for the lost revenue.",
+    "sources": [
+      {
+        "title": "Wikipedia: Strangford Treaty",
+        "url": "https://en.wikipedia.org/wiki/Strangford_Treaty"
+      },
+      {
+        "title": "Infopedia: Tratado de comércio luso-britânico de 1810",
+        "url": "https://www.infopedia.pt/artigos/$tratado-de-comercio-luso-britanico-de-1810"
+      },
+      {
+        "title": "Pereira, Estudos Econômicos (USP)",
+        "url": "https://revistas.usp.br/ee/en/article/view/172019"
+      },
+      {
+        "title": "Klinghoffer, RSP (ENAP)",
+        "url": "https://revista.enap.gov.br/index.php/RSP/article/download/5650/3078/18364"
+      },
+      {
+        "title": "BHS Portugal: Treaties of 1810 and the abolition of the slave traffic",
+        "url": "https://www.bhsportugal.org/library/articles/the-treaties-of-1810-and-the-gradual-abolition-of-slave-traffic-in-brazil"
+      }
+    ]
+  },
+  {
+    "id": "e1-15",
+    "year": "1827 to 1844",
+    "start_year": 1827,
+    "title": "Anglo-Brazilian treaty of 1827 (renewal of the 1810 regime)",
+    "era": "1500–1889 Colony and Empire",
+    "government": "Empire of Brazil, Pedro I",
+    "what": "The 15% ad valorem tariff on British goods continued to 1843, with Article XIX moving valuation to market prices. The British judge conservador stayed until Brazil provided a 'satisfactory substitute'. Brazil said the 1832 procedure code was one, Britain disagreed, and the post ended on 10 Nov 1844.",
+    "who_got": "British merchants and manufacturers, and their own court.",
+    "terms": "Canning wrote in 1826 that the treaty was 'more onerous to Brazil'. A 1826 French treaty matched French rates to British, and Brazil's 1828 tariff set 15% for all nations, ending the British-only preference.",
+    "mechanism": "Treaty of friendship, navigation and commerce, valid 15 years from ratification; Article VI equality clause.",
+    "who_paid": "The Treasury, whose main income was customs, and local textile makers (Stein's view, as reported by Pereira).",
+    "after": "The Alves Branco tariff of 1844 raised rates once the treaty lapsed.",
+    "counter_view": "Furtado did not blame the treaties for failed industrialisation but saw the cap as limiting autonomy. Pereira finds effective rates in the 1820s were often above 15% because of valuation disputes and currency instability. Revenue lost against a higher tariff was not computed by anyone in the sources.",
+    "signs": [
+      "subsidy-or-tax-break",
+      "exclusive-privilege"
+    ],
+    "figures": [
+      {
+        "label": "Import duties as a share of imperial revenue",
+        "value": "30% (1832), 44% (1834), 49% (1839), 51% (1842), 57% (1846), 67% (1852)",
+        "currency": "percent",
+        "value_year": "1832-1852",
+        "estimator": "Pereira, Estudos Econômicos",
+        "kind": "other",
+        "source_url": "https://journals.usp.br/ee/article/download/172019/173252/498031",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Average import tariff rate",
+        "value": "about 13-15% in 1834-1844; 22-29% in 1846-1860",
+        "currency": "percent",
+        "value_year": "1834-1860",
+        "estimator": "Pereira, Estudos Econômicos",
+        "kind": "other",
+        "source_url": "https://journals.usp.br/ee/article/download/172019/173252/498031",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Preferential tariff on British goods",
+        "value": "15% ad valorem to 1843",
+        "currency": "percent",
+        "value_year": "1827-1843",
+        "estimator": "Pereira, Estudos Econômicos",
+        "kind": "other",
+        "source_url": "https://journals.usp.br/ee/article/download/172019/173252/498031",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "End of the juiz conservador",
+        "value": "10 Nov 1844",
+        "currency": "n/a",
+        "value_year": "1844",
+        "estimator": "Klinghoffer, RSP (ENAP)",
+        "kind": "other",
+        "source_url": "https://revista.enap.gov.br/index.php/RSP/article/download/5650/3078/18364",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      }
+    ],
+    "summary": "The 1827 treaty renewed the 1810 deal: a 15% tariff for British goods and a British judge in Brazil. The 15% rate for all nations from 1828 removed the British-only edge, and the treaty lapsed in 1844. Customs were over half of imperial revenue by the mid-1840s.",
+    "sources": [
+      {
+        "title": "Pereira, Estudos Econômicos (USP)",
+        "url": "https://journals.usp.br/ee/article/download/172019/173252/498031"
+      },
+      {
+        "title": "Klinghoffer, RSP (ENAP)",
+        "url": "https://revista.enap.gov.br/index.php/RSP/article/download/5650/3078/18364"
+      }
+    ]
+  },
+  {
+    "id": "e1-16",
+    "year": "1830 to 1960/1985",
+    "start_year": 1830,
+    "title": "St John d'el Rey Mining Company (Morro Velho)",
+    "era": "1500–1889 Colony and Empire",
+    "government": "Empire of Brazil: Pedro I and the Regency",
+    "what": "A private purchase of an existing gold mine, Morro Velho, bought in 1834 by a London joint-stock company formed in April 1830. The mine had about 50 years of earlier working. This is a private purchase, not a state grant; it is the template of foreign mining in the era.",
+    "who_got": "British joint-stock investors (first chairman John Diston Powles) and Cornish managers, about 350 Cornish miners in the 1860s. Financing came through the London joint-stock company.",
+    "terms": "Price not given in the source read. First dividends in 1842.",
+    "mechanism": "Private sale and joint-stock company; no state grant.",
+    "who_paid": "Enslaved labour. In 1845 the company rented 385 enslaved people from the Cata Branca company for 14 years with a promise of emancipation at the end; the promise was ignored after 1859. About 200 people were still enslaved in 1879. Eakin calls it the largest industrial slave complex in Brazil (unconfirmed).",
+    "after": "Formally closed in 1985. Diário do Comércio says it was sold in 1960 to the Moreira Sales group because of Brazilian limits on foreign control. Wikipedia does not mention that sale and says 1957 investors bought control. The buyer is spelled 'Moreira Salles' in other literature.",
+    "counter_view": null,
+    "signs": [],
+    "figures": [
+      {
+        "label": "Enslaved people rented from Cata Branca, 1845, for 14 years",
+        "value": "385",
+        "currency": "people",
+        "value_year": "1845",
+        "estimator": "Wikipedia",
+        "kind": "other",
+        "source_url": "https://en.wikipedia.org/wiki/Saint_John_d%27El_Rey_Mining_Company",
+        "status": "verified",
+        "note": "With a promise of emancipation at the end, ignored after 1859."
+      },
+      {
+        "label": "Enslaved people still held in 1879",
+        "value": "about 200",
+        "currency": "people",
+        "value_year": "1879",
+        "estimator": "Wikipedia",
+        "kind": "other",
+        "source_url": "https://en.wikipedia.org/wiki/Saint_John_d%27El_Rey_Mining_Company",
+        "status": "corrected",
+        "note": "The first notes quoted a report as 'fully two hundred blacks in Slavery'. Wikipedia says 'about 200 people still enslaved'; the exact quote was not shown."
+      },
+      {
+        "label": "Cornish miners in the 1860s",
+        "value": "about 350",
+        "currency": "people",
+        "value_year": "1860s",
+        "estimator": "Wikipedia",
+        "kind": "other",
+        "source_url": "https://en.wikipedia.org/wiki/Saint_John_d%27El_Rey_Mining_Company",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "When foreign control ended",
+        "value": "1960 sale (Diário do Comércio) vs 1957 control change (Wikipedia)",
+        "currency": "n/a",
+        "value_year": "1957-1960",
+        "estimator": "Conflicting sources",
+        "kind": "other",
+        "source_url": "https://diariodocomercio.com.br/especial/dos-ingleses-ate-a-anglogold-ashanti/",
+        "status": "disputed",
+        "note": "Rests on one press article for 1960. Eakin's title covers 1830-1960; the Duke summary says 1830-1970."
+      }
+    ],
+    "summary": "A London company bought the Morro Velho gold mine in 1834 and worked it with Cornish managers and a large enslaved workforce into the 1870s. It is a private purchase, not a state grant. How it ended is reported differently by two sources.",
+    "sources": [
+      {
+        "title": "Wikipedia: Saint John d'El Rey Mining Company",
+        "url": "https://en.wikipedia.org/wiki/Saint_John_d%27El_Rey_Mining_Company"
+      },
+      {
+        "title": "Diário do Comércio: Dos ingleses até a AngloGold Ashanti",
+        "url": "https://diariodocomercio.com.br/especial/dos-ingleses-ate-a-anglogold-ashanti/"
+      },
+      {
+        "title": "Eakin, British Enterprise in Brazil (Duke UP)",
+        "url": "https://www.dukeupress.edu/a-british-enterprise-in-brazil"
+      }
+    ]
+  },
+  {
+    "id": "e1-17",
+    "year": "1850 (Lei 601); regulated 1854",
+    "start_year": 1850,
+    "title": "Lei de Terras (Lei 601)",
+    "era": "1500–1889 Colony and Empire",
+    "government": "Empire of Brazil, Pedro II",
+    "what": "The terras devolutas (public lands without valid title). After 17 July 1822 there was no legal grant, so occupation by posse was the only route for 28 years. Lei 601 banned acquiring public land other than by purchase (art. 1; exception: border zone of ten leagues) and defined the devolutas.",
+    "who_got": "Existing landholders (squatters and sesmaria holders were legitimised) and buyers with capital.",
+    "terms": "Sale at public auction or otherwise (art. 14). Art. 2: squatters who clear or burn land must leave, lose improvements and face prison and a fine; new posse banned. Consolidated posses and sesmarias with effective cultivation were validated. Art. 12: the Government reserves devolutas it judges necessary for Indigenous settlement, towns, roads and shipbuilding. The price schedule was not found.",
+    "mechanism": "Lei 601 of 18 Sept 1850, regulated by Decreto 1.318 of 30 Jan 1854.",
+    "who_paid": "Enslaved and later freed people, the free poor, and Indigenous peoples, whose access to land was closed by the purchase requirement. Some authors argue the law was meant to organise property, not widen access.",
+    "after": "Land inequality predates 1850, so the law confirmed existing holders more than it started concentration. No pre-1850 baseline was found, so the law's own effect cannot be isolated. Frankema: land inequality in Latin America 'did not fundamentally change' across the 19th and 20th centuries.",
+    "counter_view": "The law's stated aim was to organise public land, finance immigrant settlement and stop illegal posse. The reading that it was built to keep labour tied to estates is an interpretation (Martins, Costa), not sourced here. Silva (1996) and Motta on the law's limited reach are unverified (search summaries only).",
+    "signs": [
+      "rights-legalised-after-fact"
+    ],
+    "figures": [
+      {
+        "label": "Years with no legal land grant",
+        "value": "28",
+        "currency": "years",
+        "value_year": "1822-1850",
+        "estimator": "Fact-check",
+        "kind": "other",
+        "source_url": "https://legis.senado.leg.br/norma/542128/publicacao/15770545",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Border-zone exception to purchase-only rule",
+        "value": "ten leagues",
+        "currency": "leagues",
+        "value_year": "1850",
+        "estimator": "Senado legis (search snippet)",
+        "kind": "land-area",
+        "source_url": "https://legis.senado.leg.br/norma/542128/publicacao/15770545",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Land Gini",
+        "value": "0.780 (1920), 0.787 (1960), 0.802 (1985)",
+        "currency": "index",
+        "value_year": "1920-1985",
+        "estimator": "Frankema, GGDC research memo",
+        "kind": "other",
+        "source_url": "https://www.ewoutfrankema.com/wp-content/uploads/2016/05/GGDC_ResMemo_No.81.2006.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked. Also Theil 0.592, 0.608, 0.632; Taylor and Hudson 0.845 (1960)."
+      },
+      {
+        "label": "Land Gini, IBGE census series",
+        "value": "0.857 (1985), 0.856 (1995-96), 0.854 (2006), 0.867 (2017)",
+        "currency": "index",
+        "value_year": "1985-2017",
+        "estimator": "IBGE Atlas Rural",
+        "kind": "other",
+        "source_url": "https://www.ibge.gov.br/apps/atlasrural/pdfs/02_00_Texto.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked. Different method from Frankema; do not join the series."
+      }
+    ],
+    "summary": "The 1850 law ended free occupation of public land and made purchase the only way to get it, while confirming existing holdings. Large holders gained, and the poor and Indigenous peoples lost access. The sources do not show how much it changed land concentration.",
+    "sources": [
+      {
+        "title": "Lei 601 text (Senado)",
+        "url": "https://legis.senado.leg.br/norma/542128/publicacao/15770545"
+      },
+      {
+        "title": "Lei 601, Câmara dos Deputados",
+        "url": "https://www2.camara.leg.br/legin/fed/leimp/1824-1899/lei-601-18-setembro-1850-559842-publicacaooriginal-82254-pl.html"
+      },
+      {
+        "title": "Lei 601, Planalto (blocked)",
+        "url": "https://planalto.gov.br/ccivil_03/leis/l0601-1850.htm"
+      },
+      {
+        "title": "Revista de História UEG",
+        "url": "https://www.revista.ueg.br/index.php/revistahistoria/article/download/13896/9822/53088"
+      },
+      {
+        "title": "LegJur: art. 14",
+        "url": "https://www.legjur.com/legislacao/art/lei_00006011850-14"
+      },
+      {
+        "title": "Revista de História (USP)",
+        "url": "https://revistas.usp.br/revhistoria/article/download/133157/129254/254809"
+      },
+      {
+        "title": "Frankema, GGDC research memo",
+        "url": "https://www.ewoutfrankema.com/wp-content/uploads/2016/05/GGDC_ResMemo_No.81.2006.pdf"
+      },
+      {
+        "title": "IBGE Atlas Rural",
+        "url": "https://www.ibge.gov.br/apps/atlasrural/pdfs/02_00_Texto.pdf"
+      }
+    ]
+  },
+  {
+    "id": "e1-18",
+    "year": "1851 to 1865",
+    "start_year": 1851,
+    "title": "Urban utilities: Rio gas (1851) and City Improvements (1862)",
+    "era": "1500–1889 Colony and Empire",
+    "government": "Empire of Brazil, Pedro II",
+    "what": "Rio's gas lighting by contract with Mauá in 1851, sold in 1865 to the English Rio de Janeiro Gas Company Limited by decree that year. The Rio de Janeiro City Improvements Company Limited, for sewage, was incorporated in England after an Imperial concession; a decree of 1870 regulates its house-cleaning and rainwater sewers.",
+    "who_got": "Mauá, then British companies.",
+    "terms": "Concession terms, tariff, exclusivity, duration and guarantees are all missing. The sources are not usable beyond the dates.",
+    "mechanism": "Imperial concession and contract; decree of 27 April 1865 authorising the gas sale.",
+    "who_paid": "Not documented.",
+    "after": "Gas passed to British ownership in 1865 after a financial crisis. Dates for the sewage company could not be confirmed.",
+    "counter_view": null,
+    "signs": [],
+    "figures": [],
+    "summary": "Rio's gas and sewage services went to private companies, and the gas business moved from Mauá to a British firm in 1865. The contract terms are missing, so the case can only be dated.",
+    "sources": [
+      {
+        "title": "Decreto 3.456 of 1865 (Câmara)",
+        "url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-3456-27-abril-1865-554638-publicacaooriginal-73376-pe.html"
+      },
+      {
+        "title": "Capital Aberto",
+        "url": "https://capitalaberto.com.br/?p=57679"
+      },
+      {
+        "title": "Senado legis norma 390780",
+        "url": "https://legis.senado.leg.br/norma/390780"
+      }
+    ]
+  },
+  {
+    "id": "e1-19",
+    "year": "1852 to 1871 and after",
+    "start_year": 1852,
+    "title": "Amazon steam navigation privilege to Mauá",
+    "era": "1500–1889 Colony and Empire",
+    "government": "Empire of Brazil, Pedro II",
+    "what": "An exclusive privilege for 30 years for steam navigation on the Amazon, with a subsidy and free land. Also a second line to Nauta (Peru), free land for 60 colonies of foreigners or Indigenous people on the riverbanks, and free state land for a dock in Belém. Operations began in 1853 (Companhia de Navegação e Comércio do Amazonas, 1852-1871).",
+    "who_got": "Irineu Evangelista de Sousa (Mauá).",
+    "terms": "Subsidy of 160 contos de réis a year for the first 15 years on the Belém-Rio Negro line. The fact-check says this is per round trip under Condition 3; the exact basis is unclear. Obligations: fixed trip schedules, fines for missed trips, minimum speed of 8 miles an hour upriver, free mail and four state passengers per trip.",
+    "mechanism": "Decreto 1.037 of 30 Aug 1852. Decree 9.971 of 20 June 1888 later reshaped the British company's capital.",
+    "who_paid": "The Treasury (subsidy), and riverine and Indigenous lands (colony grants). Context: the state wanted to counter foreign pressure for free navigation of the Amazon.",
+    "after": "The company lasted to 1871. Decree 9.971 of 20 June 1888 cut the British Amazon Steam Navigation Co.'s nominal capital from £1,000,000 to £625,000, reset 50,000 shares from £20 to £12.10, treated 40,419 shares of £15 as fully paid, and kept the clauses of Decree 5020 of 18 July 1872. The line became the British company and later Enasa, whose 1990s privatisation failed because employee labour claims matched the appraised value. The 1871 transfer decree and the 1872/73 sale to a British company are unverified. The subsidy actually paid and the sale price were not found.",
+    "counter_view": "The state was trying to secure navigation of the Amazon against foreign claims, and no private operator would run the line without subsidy. Source: UFAM thesis cited in the notes (not opened; its link returned 404).",
+    "signs": [
+      "exclusive-privilege",
+      "subsidy-or-tax-break",
+      "guaranteed-return",
+      "land-grant"
+    ],
+    "figures": [
+      {
+        "label": "Exclusive privilege",
+        "value": "30 years, counted from first trips",
+        "currency": "years",
+        "value_year": "1852",
+        "estimator": "Decreto 1.037, Conditions 3 and 20",
+        "kind": "other",
+        "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-1037-30-agosto-1852-559381-publicacaooriginal-81578-pe.html",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Subsidy, Belém-Rio Negro line",
+        "value": "160 contos de réis a year for 15 years",
+        "currency": "réis",
+        "value_year": "1852",
+        "estimator": "Decreto 1.037, Condition 3",
+        "kind": "subsidy",
+        "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-1037-30-agosto-1852-559381-publicacaooriginal-81578-pe.html",
+        "status": "verified",
+        "note": "The fact-check describes it as per round trip. Unclear whether per year or per trip."
+      },
+      {
+        "label": "Nauta (Peru) line subsidy",
+        "value": "at least 40 contos a year, paid by Peru, guaranteed by the Empire",
+        "currency": "réis",
+        "value_year": "1852",
+        "estimator": "Decreto 1.037, Condition 4",
+        "kind": "guaranteed-return",
+        "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-1037-30-agosto-1852-559381-publicacaooriginal-81578-pe.html",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Free land for colonies",
+        "value": "60 colonies, each of at least 3,000 inhabitants",
+        "currency": "count",
+        "value_year": "1852",
+        "estimator": "Decreto 1.037",
+        "kind": "land-area",
+        "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-1037-30-agosto-1852-559381-publicacaooriginal-81578-pe.html",
+        "status": "corrected",
+        "note": "Wording corrected: 3,000 is the minimum size per settlement stated in the decree; colonies are of foreigners or Indigenous people."
+      },
+      {
+        "label": "Minimum capital",
+        "value": "1,200 contos",
+        "currency": "réis",
+        "value_year": "1852",
+        "estimator": "Decreto 1.037, Condition 1",
+        "kind": "other",
+        "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-1037-30-agosto-1852-559381-publicacaooriginal-81578-pe.html",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "1888 capital cut of the British company",
+        "value": "£1,000,000 to £625,000",
+        "currency": "pounds sterling",
+        "value_year": "1888",
+        "estimator": "Decree 9.971",
+        "kind": "other",
+        "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-9971-20-junho-1888-542635-publicacaooriginal-51855-pe.html",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Shares reset",
+        "value": "50,000 shares from £20 to £12.10; 40,419 shares of £15 treated as fully paid",
+        "currency": "pounds sterling",
+        "value_year": "1888",
+        "estimator": "Decree 9.971",
+        "kind": "other",
+        "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-9971-20-junho-1888-542635-publicacaooriginal-51855-pe.html",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      }
+    ],
+    "summary": "In 1852 Mauá received a 30-year exclusive steam-navigation privilege on the Amazon with a yearly subsidy, free land for colonies and a free dock site. The company ran until 1871 and passed to British ownership. The subsidy actually paid and the sale price were not found.",
+    "sources": [
+      {
+        "title": "Decreto 1.037 of 1852",
+        "url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-1037-30-agosto-1852-559381-publicacaooriginal-81578-pe.html"
+      },
+      {
+        "title": "UFAM thesis record",
+        "url": "https://tedehomologacao.ufam.edu.br/items/1ca687d6-5cfc-4dff-9148-4ed303f563a0"
+      },
+      {
+        "title": "Decreto 9.971 of 1888",
+        "url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-9971-20-junho-1888-542635-publicacaooriginal-51855-pe.html"
+      },
+      {
+        "title": "Capital Aberto: Para desenvolver o Brasil",
+        "url": "https://capitalaberto.com.br/empresas/2014/08/para-desenvolver-o-brasil"
+      },
+      {
+        "title": "UFAM thesis (404)",
+        "url": "https://tede.ufam.edu.br/handle/tede/6729"
+      }
+    ]
+  },
+  {
+    "id": "e1-20",
+    "year": "1852 to 1889",
+    "start_year": 1852,
+    "title": "Railways: interest guarantees (Decreto 641 of 1852) and the São Paulo Railway (1860)",
+    "era": "1500–1889 Colony and Empire",
+    "government": "Empire of Brazil, Pedro II",
+    "what": "The state guaranteed a minimum return (5% typical, up to 7%) on capital spent by railway companies. Four types of concession from 1852 to 1880. About 16 companies on £16.7m of capital covered about 2,900 km of the 9,600 km existing in 1889. São Paulo Railway (Santos-Jundiaí), Decreto 2.601 of 6 June 1860: 5% guaranteed on the first twenty leagues, later extended to the whole line.",
+    "who_got": "Mostly British-financed companies, via London. A British engineer-promoter pushed the guarantee idea (Duncan, Cambridge chapter, not read in full).",
+    "terms": "São Paulo Railway: 5% a year, paid half-yearly, ceiling of £2,000,000 (at 27 pence per milréis); the Province of São Paulo added 2%; privilege for 90 years; profits above 8% shared with the Government, dividend capped at 12%; the Government could redeem after 30 years; duty-free import of materials (not re-checked). Decree 2450 of 1873: 7%, ceiling 100,000 contos, one company per province. Terms over time (Lanna): 1852 90-year guarantee and zone privilege of 66 km; 1874 zone 60 km; 1878 guarantee 30 years, zone 40 km; 1880 zone 20 km. The 1889 caps (6%, 30 contos per km, decree 10250) are unverified.",
+    "mechanism": "Decreto 641 of 26 June 1852 (popularly 'Lei 641' or 'Lei Cochrane'; the first notes called it 'Law 641'), amended by Decreto 2.450 of 24 Sept 1873 and later changes. Decreto 2.124 of 13 Mar 1858 applied 5% to Santos-Jundiaí capital; a later 1859 decree extended it over the whole concession.",
+    "who_paid": "The Treasury and taxpayers (a contingent liability), exchange losses as sterling was bought in mil-réis, and freight payers.",
+    "after": "The Republic bought the guaranteed lines in 1900 by gold bonds (CIDP). Guarantee payments were 1.7% of public spending in the 1860s and 7.4% in 1890-99. An audited cumulative total in contos to 1889 was not found.",
+    "counter_view": "Guarantees were the instrument that attracted British capital to build lines at all. The state also capped the São Paulo dividend at 12%, shared profit above 8% and could redeem after 30 years. Summerhill (Order Against Progress, 2003; EHR 1998) argues railways gave large social savings; his cost estimates and that figure were not opened. Source: fact-check.",
+    "signs": [
+      "guaranteed-return",
+      "subsidy-or-tax-break",
+      "exclusive-privilege",
+      "public-money-private-control"
+    ],
+    "figures": [
+      {
+        "label": "Guarantee payments by 1888",
+        "value": "about £11.3 million",
+        "currency": "pounds sterling",
+        "value_year": "to 1888",
+        "estimator": "Abreu and Lago (2014), quoted by Instituto Cláudio Campos",
+        "kind": "guaranteed-return",
+        "source_url": "https://institutoclaudiocompos.com.br/a-revolta-dos-escravos-e-o-fim-do-imperio/",
+        "status": "unverified",
+        "note": "Secondary quote; original not opened."
+      },
+      {
+        "label": "Companies and capital covered",
+        "value": "16 companies on £16.7m, about 2,900 km of 9,600 km",
+        "currency": "pounds sterling",
+        "value_year": "1889",
+        "estimator": "Abreu and Lago (2014), quoted by Instituto Cláudio Campos",
+        "kind": "other",
+        "source_url": "https://institutoclaudiocompos.com.br/a-revolta-dos-escravos-e-o-fim-do-imperio/",
+        "status": "unverified",
+        "note": "Secondary quote; original not opened."
+      },
+      {
+        "label": "Guarantee payments as share of public spending",
+        "value": "1.7% (1860s); 7.4% (1890-99)",
+        "currency": "percent",
+        "value_year": "1860s-1890s",
+        "estimator": "Oliveira, Semmering 2004 paper",
+        "kind": "guaranteed-return",
+        "source_url": "https://www.docutren.com/HistoriaFerroviaria/Semmering2004/pdf/17.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Guarantees paid in London",
+        "value": "10,487 contos",
+        "currency": "réis",
+        "value_year": "1867/68-1873/74",
+        "estimator": "Oliveira",
+        "kind": "guaranteed-return",
+        "source_url": "https://www.docutren.com/HistoriaFerroviaria/Semmering2004/pdf/17.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Brazilian lines' share of the London amount",
+        "value": "35% (1874/75-1880/81); 2.9% (last year of the Empire)",
+        "currency": "percent",
+        "value_year": "1874-1889",
+        "estimator": "Oliveira",
+        "kind": "other",
+        "source_url": "https://www.docutren.com/HistoriaFerroviaria/Semmering2004/pdf/17.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Guarantees as share of foreign-currency debt service",
+        "value": "about 40% (1880s); 64% (1890s)",
+        "currency": "percent",
+        "value_year": "1880s-1890s",
+        "estimator": "Oliveira",
+        "kind": "other",
+        "source_url": "https://www.docutren.com/HistoriaFerroviaria/Semmering2004/pdf/17.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Companies authorised before 1873",
+        "value": "18, of which 13 with guarantee",
+        "currency": "count",
+        "value_year": "1873",
+        "estimator": "Oliveira",
+        "kind": "other",
+        "source_url": "https://www.docutren.com/HistoriaFerroviaria/Semmering2004/pdf/17.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "Decree 2450 ceiling",
+        "value": "100,000 contos at 7%",
+        "currency": "réis",
+        "value_year": "1873",
+        "estimator": "Oliveira",
+        "kind": "guaranteed-return",
+        "source_url": "https://www.docutren.com/HistoriaFerroviaria/Semmering2004/pdf/17.pdf",
+        "status": "unverified",
+        "note": "Read once on an opened page in the gaps notes; not independently re-checked."
+      },
+      {
+        "label": "São Paulo Railway guarantee ceiling",
+        "value": "£2,000,000 at 5% on the first twenty leagues, 27 pence per milréis",
+        "currency": "pounds sterling",
+        "value_year": "1860",
+        "estimator": "Decreto 2.601",
+        "kind": "guaranteed-return",
+        "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-2601-6-junho-1860-556490-publicacaooriginal-76537-pe.html",
+        "status": "verified",
+        "note": "Province of São Paulo added 2%; privilege 90 years; profits above 8% shared; dividend cap 12%; redemption after 30 years."
+      },
+      {
+        "label": "Bahia railway guarantee",
+        "value": "7% on capital spent (Decreto 6.637, 1877)",
+        "currency": "percent",
+        "value_year": "1877",
+        "estimator": "Câmara legin",
+        "kind": "guaranteed-return",
+        "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-6637-31-julho-1877-549156-publicacaooriginal-64510-pe.html",
+        "status": "unverified",
+        "note": "Page not opened by the fact-check."
+      },
+      {
+        "label": "Pernambuco railway guarantee",
+        "value": "5% on additional capital (Decreto 1767, 1870)",
+        "currency": "percent",
+        "value_year": "1870",
+        "estimator": "Câmara legin",
+        "kind": "guaranteed-return",
+        "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-1767-9-julho-1870-552491-publicacaooriginal-69797-pl.html",
+        "status": "unverified",
+        "note": "Page not opened by the fact-check."
+      }
+    ],
+    "summary": "From 1852 the Empire guaranteed railway investors a fixed return, usually 5%, whatever the traffic, and mostly British capital built the lines. Payments grew over time and were a large part of foreign debt service. The 5% guarantee on the São Paulo Railway came with caps on dividends and a profit-sharing rule.",
+    "sources": [
+      {
+        "title": "Decreto 641 of 1852 (Planalto)",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto/historicos/dpl/dpl641-1852.htm"
+      },
+      {
+        "title": "Decreto 641 of 1852 (Câmara)",
+        "url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-641-26-junho-1852-558790-publicacaooriginal-80365-pl.html"
+      },
+      {
+        "title": "Lanna, HEHE",
+        "url": "https://www.hehe.org.br/index.php/rabphe/article/download/179/139"
+      },
+      {
+        "title": "Duncan, Cambridge chapter (De Gruyter)",
+        "url": "https://www.degruyterbrill.com/document/doi/10.7312/dunc92472/html"
+      },
+      {
+        "title": "Decreto 2.601 of 1860 (São Paulo Railway)",
+        "url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-2601-6-junho-1860-556490-publicacaooriginal-76537-pe.html"
+      },
+      {
+        "title": "Decreto 6.637 of 1877",
+        "url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-6637-31-julho-1877-549156-publicacaooriginal-64510-pe.html"
+      },
+      {
+        "title": "Decreto 1.767 of 1870",
+        "url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-1767-9-julho-1870-552491-publicacaooriginal-69797-pl.html"
+      },
+      {
+        "title": "Wikipedia: Estrada de Ferro Recife ao São Francisco",
+        "url": "https://en.wikipedia.org/wiki/Estrada_Ferro_Recife_ao_S%C3%A3o_Francisco"
+      },
+      {
+        "title": "Summerhill, Project MUSE",
+        "url": "https://muse.jhu.edu/article/174958"
+      },
+      {
+        "title": "Instituto Cláudio Campos",
+        "url": "https://institutoclaudiocompos.com.br/a-revolta-dos-escravos-e-o-fim-do-imperio/"
+      },
+      {
+        "title": "Oliveira, Semmering 2004 paper",
+        "url": "https://www.docutren.com/HistoriaFerroviaria/Semmering2004/pdf/17.pdf"
+      },
+      {
+        "title": "CIDP, Revista Jurídica Lusófono-Brasileira",
+        "url": "https://www.cidp.pt/revistas/rjlb/2021/6/2021_06_1169_1233.pdf"
+      }
+    ]
+  },
+  {
+    "id": "e1-21",
+    "year": "1873 to 1874",
+    "start_year": 1873,
+    "title": "Submarine telegraph concessions",
+    "era": "1500–1889 Colony and Empire",
+    "government": "Empire of Brazil, Pedro II",
+    "what": "Concessions granted by the Emperor to Sir Charles Tilston Bright, sold to Telcon. The cable was laid in 1873 from Pará to Maranhão, Ceará, Pernambuco, Bahia and Rio by Hooper's Telegraph Works. A Lisbon-Pernambuco cable was laid by the Brazilian Submarine Telegraph Company. Later merged into the Western Telegraph group.",
+    "who_got": "Bright, then Telcon, Hooper's and the Brazilian Submarine Telegraph Company (British).",
+    "terms": "Subsidy, monopoly and term were not found.",
+    "mechanism": "Imperial concession.",
+    "who_paid": "Not documented.",
+    "after": "Merged into the Western Telegraph group.",
+    "counter_view": null,
+    "signs": [],
+    "figures": [],
+    "summary": "The Emperor gave cable concessions to a British promoter in 1873, and British firms laid the Brazilian coast cable. The subsidy, monopoly and term are unknown. The fact-check could not confirm any detail.",
+    "sources": [
+      {
+        "title": "Atlantic-Cable: Cable & Wireless, Eastern Telegraph",
+        "url": "https://www.atlantic-cable.com/CableCos/CandW/EATC/"
+      },
+      {
+        "title": "Atlantic-Cable: 1873 Rio-Pará cable",
+        "url": "https://atlantic-cable.com/Cables/1873Rio-Para/index.htm"
+      }
+    ]
+  },
+  {
+    "id": "e1-22",
+    "year": "1888 (decree of 12 July)",
+    "start_year": 1888,
+    "title": "Port of Santos concession",
+    "era": "1500–1889 Colony and Empire",
+    "government": "Empire of Brazil: Princess Regent, countersigned by Antonio da Silva Prado",
+    "what": "Build and operate the quay at Santos, with usufruct of expropriated land and of reclaimed fill. Some sources date the formal contract and the Companhia Docas de Santos to 1890.",
+    "who_got": "Gaffrée, Guinle & Cia., later Companhia Docas de Santos. Named: José Pinto de Oliveira, C. Gaffrée, Eduardo P. Guinle, João Gomes Ribeiro de Avellar, Valdetaro, Benedicto Antonio da Silva, Ribeiro, Barros & Braga.",
+    "terms": "39 years from the decree (clause II). Fees fixed in the decree: 1 réis per kg handled, 3 réis per kg for bulky goods, 700 réis per day per metre of quay for steamers, 500 for sailing vessels, 2 réis per kg per month stored. Performance deposit 20:000$000; works to start in 6 months and finish in 3 years; fine of 2:000$ per month of delay. Reversion to the State without compensation at term. No explicit exclusivity, but preference for similar works. No interest guarantee in the text.",
+    "mechanism": "Concession under Law 1.746 of 13 Oct 1869 after public tender; Decreto 9.979 of 12 July 1888.",
+    "who_paid": "Port users (fees) and coastal land.",
+    "after": "The term was later extended to 90 years, the maximum under Law 1.746 of 1869 (the extension was not confirmed on an opened page). The long-run controversy over the Docas de Santos monopoly and its extensions is a later phase not documented here.",
+    "counter_view": "The decree set maximum tariffs, a performance deposit, fines for delay and free reversion to the State, so it was a conventional build-operate-transfer. Source: fact-check.",
+    "signs": [],
+    "figures": [
+      {
+        "label": "Concession term",
+        "value": "39 years from the decree",
+        "currency": "years",
+        "value_year": "1888",
+        "estimator": "Decreto 9.979, clause II",
+        "kind": "other",
+        "source_url": "https://legis.senado.leg.br/norma/417971/publicacao/15778887",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Concession term after extension",
+        "value": "90 years",
+        "currency": "years",
+        "value_year": "",
+        "estimator": "MLaw Review",
+        "kind": "other",
+        "source_url": "https://mlawreview.emnuvens.com.br/mlaw/article/download/54/139",
+        "status": "unverified",
+        "note": "PDF not opened by the fact-check."
+      },
+      {
+        "label": "Tariff ceilings",
+        "value": "1 réis/kg; 3 réis/kg bulky; 700 réis/day/m (steamers); 500 réis/day/m (sail); 2 réis/kg/month storage",
+        "currency": "réis",
+        "value_year": "1888",
+        "estimator": "Decreto 9.979, clause V",
+        "kind": "other",
+        "source_url": "https://legis.senado.leg.br/norma/417971/publicacao/15778887",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Performance deposit and delay fine",
+        "value": "20:000$000 deposit; 2:000$ fine per month of delay",
+        "currency": "réis",
+        "value_year": "1888",
+        "estimator": "Decreto 9.979",
+        "kind": "other",
+        "source_url": "https://legis.senado.leg.br/norma/417971/publicacao/15778887",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "summary": "In 1888 the Empire gave a private group a 39-year concession to build and run the Santos quay, with fixed maximum fees and free reversion to the State at the end. No interest guarantee appears in the decree. The company later received long extensions.",
+    "sources": [
+      {
+        "title": "Decreto 9.979 of 1888 (Senado)",
+        "url": "https://legis.senado.leg.br/norma/417971/publicacao/15778887"
+      },
+      {
+        "title": "Unicamp CMU document",
+        "url": "https://atom.cmu.unicamp.br/uploads/r/centro-de-memoria-unicamp/1/0/a/10ab05c2ff8ca094dc9281b0a5364c04f4c86a3594c1389cf0e310dcaca844cc/70469b1e-5263-4bc5-a95d-8bde3bd72130-CMP_2.1.8.172.pdf"
+      },
+      {
+        "title": "MLaw Review",
+        "url": "https://mlawreview.emnuvens.com.br/mlaw/article/download/54/139"
+      }
+    ]
+  }
+]

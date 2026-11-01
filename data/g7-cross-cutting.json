@@ -1,0 +1,1903 @@
+[
+ {
+  "id": "x-01",
+  "year": "1967-2073",
+  "start_year": 1967,
+  "title": "Zona Franca de Manaus: cost estimates",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "Military regime (1967); the extension to 2073 is a later constitutional amendment whose year and government were not verified",
+  "what": "Tax exemptions for firms in the Manaus Industrial Pole. The Receita's own estimate swings: R$24.2 bn (2021), R$45.59 bn (2022), R$55.26 bn (2023), R$32.7 bn (2024). The effective-base table gives R$25.2 bn for 2021.",
+  "who_got": "Firms in the pole, whose 2024 turnover was R$204.9 bn: informatics 23.06%, electronics 18.08%, two-wheelers 17.8%. Financed by other taxpayers and, for ICMS, by other states. Federal expenditure flows mostly outside the North.",
+  "terms": "The dispute is the counterfactual. The Receita counts all PIS, Cofins, IPI and import tax waived. FGV argues the real cost of the industrial pole is only about R$7.5 bn (2021). Industry-only range: R$5.94-9.89 bn potential in 2024 by FGV against the Receita's R$8.74 bn projection. The headline R$22.95 bn (2024, 4.1% of federal expenditure) includes commerce, services and agriculture.",
+  "mechanism": "Exemption of IPI, import tax, PIS/Cofins and others for firms with approved projects under Suframa (DL 288/1967); constitutional entrenchment (ADCT art. 40) and extension of benefits to 2073 (ADCT art. 92-A). The 1967 decree itself was not opened.",
+  "who_paid": "The federal budget. FGV says Amazonas returns more federal tax than it receives in benefits (1.74%), and that firms add about R$6.0 bn a year in required counterparts, lifting the Union's return to 2.24%, plus about R$6.0 bn a year of ICMS to the state. FGV's method for the 1.74% was not checked.",
+  "after": "Constitutional protection to 2073 means no sunset before then. The 2023 tax reform kept the advantage (not confirmed).",
+  "counter_view": "The FGV report is itself the favourable side: it argues the real cost is lower than the headline. Critics (Senate TD 126 and cost-per-job arguments) say the cost per job is high; the cost per job was not opened.",
+  "signs": [
+   "exclusive-privilege",
+   "subsidy-or-tax-break",
+   "law-rewritten-for-deal"
+  ],
+  "figures": [
+   {
+    "label": "Receita estimate of ZFM cost, 2021-2024",
+    "value": "R$24.2 bn (2021), 45.59 bn (2022), 55.26 bn (2023), 32.7 bn (2024)",
+    "currency": "BRL",
+    "value_year": "2021-2024",
+    "estimator": "Receita Federal, via FGV EESP",
+    "kind": "subsidy",
+    "source_url": "https://eesp.fgv.br/sites/default/files/files-eesp/relatorio_gastos_tributarios_e_zona_franca_de_manaus_v_18_de_junho2025.pdf",
+    "status": "disputed",
+    "note": "FGV calls the swings 'successive accounting manipulations' (authors' interpretation). Range R$24.2-55.26 bn."
+   },
+   {
+    "label": "ZFM and free-trade areas, DGT effective base",
+    "value": "R$25.2 bn (5.98% of total)",
+    "currency": "BRL",
+    "value_year": "2021",
+    "estimator": "Receita Federal DGT",
+    "kind": "subsidy",
+    "source_url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-bases-efetivas/dgt-bases-efetivas-2021-serie-2019-a-2024-base-conceitual-e-gerencial.pdf",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Manaus Industrial Pole cost only",
+    "value": "R$7.5 bn (2021, RFB); R$5.94-9.89 bn potential (2024, FGV) vs R$8.74 bn RFB projection",
+    "currency": "BRL",
+    "value_year": "2021-2024",
+    "estimator": "RFB and FGV",
+    "kind": "subsidy",
+    "source_url": "https://eesp.fgv.br/sites/default/files/files-eesp/relatorio_gastos_tributarios_e_zona_franca_de_manaus_v_18_de_junho2025.pdf",
+    "status": "disputed",
+    "note": "Counterfactual dispute."
+   },
+   {
+    "label": "Headline cost incl. commerce, services, agriculture",
+    "value": "R$22.95 bn (4.1% of federal expenditure)",
+    "currency": "BRL",
+    "value_year": "2024",
+    "estimator": "FGV EESP",
+    "kind": "subsidy",
+    "source_url": "https://eesp.fgv.br/sites/default/files/files-eesp/relatorio_gastos_tributarios_e_zona_franca_de_manaus_v_18_de_junho2025.pdf",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Pole turnover",
+    "value": "R$204.9 bn",
+    "currency": "BRL",
+    "value_year": "2024",
+    "estimator": "Suframa data in FGV report",
+    "kind": "other",
+    "source_url": "https://eesp.fgv.br/sites/default/files/files-eesp/relatorio_gastos_tributarios_e_zona_franca_de_manaus_v_18_de_junho2025.pdf",
+    "status": "verified",
+    "note": ""
+   }
+  ],
+  "summary": "Manaus has had tax breaks since 1967, now protected in the Constitution to 2073. The cost depends on who counts: the Receita's figure swung from R$24.2 bn to R$55.26 bn, while FGV says the real cost of the industrial pole is about R$7.5 bn. Critics and defenders disagree on the counterfactual.",
+  "sources": [
+   {
+    "title": "FGV EESP report on tax expenditures and ZFM, June 2025",
+    "url": "https://eesp.fgv.br/sites/default/files/files-eesp/relatorio_gastos_tributarios_e_zona_franca_de_manaus_v_18_de_junho2025.pdf"
+   },
+   {
+    "title": "Receita Federal DGT, bases efetivas 2021",
+    "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-bases-efetivas/dgt-bases-efetivas-2021-serie-2019-a-2024-base-conceitual-e-gerencial.pdf"
+   }
+  ]
+ },
+ {
+  "id": "x-02",
+  "year": "1967-2011",
+  "start_year": 1967,
+  "title": "FCVS (housing-fund salary-variation compensation)",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "Military regime (origin), then FHC, Lula and Dilma",
+  "what": "Salary-indexed mortgage instalments versus inflation-indexed debt left residual balances that the Union assumed. The current total FCVS debt was not confirmed.",
+  "who_got": "Mortgage lenders (including banks later in Proer) and borrowers. Financed by the FGTS and the Treasury.",
+  "terms": "Credits were converted into securities at terms set by Lei 10.150; the 2011 rider gave discounts to failed banks.",
+  "mechanism": "Fund created 1967; Lei 10.150/2000 (novation); a rider ('jabuti') in MP 517/2011 let failed banks cut FCVS-related debts.",
+  "who_paid": "The Union and the FGTS.",
+  "after": "Gazeta do Povo (2011) reported the rider; Diario do Comercio (2023) covers AGU and FCVS.",
+  "counter_view": "The FCVS was a promise the state made to borrowers, so paying lenders was a contractual obligation rather than a gift (argument inferred by the researcher, not sourced).",
+  "signs": [
+   "bailout",
+   "law-rewritten-for-deal",
+   "public-money-private-control"
+  ],
+  "figures": [
+   {
+    "label": "Total FCVS debt",
+    "value": "not confirmed",
+    "currency": "BRL",
+    "value_year": null,
+    "estimator": "None",
+    "kind": "debt-absorbed",
+    "source_url": null,
+    "status": "unverified",
+    "note": "No figure from an opened page."
+   }
+  ],
+  "summary": "The FCVS housing fund left the Union holding the gap between salary-indexed mortgage payments and inflation-indexed debt. A 2011 rider in an unrelated bill let failed banks cut their FCVS-related debts. The total amount was not confirmed.",
+  "sources": [
+   {
+    "title": "Gazeta do Povo, 2011: law cuts debt of failed banks",
+    "url": "https://www.gazetadopovo.com.br/economia/lei-garante-reducao-de-divida-a-bancos-falidos-51z13fp30r12v5cig2ui1aez2/"
+   },
+   {
+    "title": "Diario do Comercio, 2023: AGU and FCVS",
+    "url": "https://diariodocomercio.com.br/?p=339215"
+   }
+  ]
+ },
+ {
+  "id": "x-03",
+  "year": "1970-2001",
+  "start_year": 1970,
+  "title": "Scale of grilagem: Livro Branco, INCRA 1999/2001 and parliamentary inquiries",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "Medici-era Chamber inquiry (1970); FHC government (1999-2001)",
+  "what": "Suspected land-grabbing of public land. The 1970 inquiry: Para had the most complaints (17 cases) and 8 million ha sold illegally. Livro Branco (INCRA 1999): about 100 million ha nationwide under suspicion. INCRA 2001 update: 93 million ha, of which Amazonas 55 million ha and Para 31 million ha.",
+  "who_got": "Large claimants holding forged or inflated titles. INCRA's re-registration of holdings above 10,000 ha cancelled records covering 20 million ha of irregular holdings (Barreto et al. 2008).",
+  "terms": "Not applicable: appropriation with no price. The public estate was taken for free.",
+  "mechanism": "Forged titles, inflated areas, registry collusion, later regularization of the occupations.",
+  "who_paid": "The Union and the states (loss of land); posseiros, Indigenous and traditional peoples (violence).",
+  "after": "INCRA re-registration, Provimento 13/2006, CNJ cancellations 2009-2010. The 2001 inquiry report is available but was not read in full. A search summary says it cites 'more than 50 million ha' improperly appropriated; not confirmed.",
+  "counter_view": "'Area under suspicion' is an estimate, not an adjudicated finding. The 100 million and 93 million figures are not additive with the Para registry totals (different bases and years).",
+  "signs": [
+   "land-grant",
+   "rights-legalised-after-fact",
+   "regulator-absent-or-late"
+  ],
+  "figures": [
+   {
+    "label": "Illegally sold area in Para, 1970 inquiry",
+    "value": "8 million ha",
+    "currency": "other",
+    "value_year": "1970",
+    "estimator": "Chamber of Deputies 1970, cited by Imazon",
+    "kind": "land-area",
+    "source_url": "https://imazon.t3.storage.dev/combate-a-grilagem-de-terras-em-cartorios-no-para-uma-decada-de-avancos-e-desafios-a28bb932.pdf",
+    "status": "unverified",
+    "note": "Second-hand; primary document not opened."
+   },
+   {
+    "label": "Area under suspicion nationwide",
+    "value": "93-100 million ha",
+    "currency": "other",
+    "value_year": "1999-2001",
+    "estimator": "INCRA 1999 (100) and 2001 (93), cited by Imazon",
+    "kind": "land-area",
+    "source_url": "https://imazon.t3.storage.dev/combate-a-grilagem-de-terras-em-cartorios-no-para-uma-decada-de-avancos-e-desafios-a28bb932.pdf",
+    "status": "disputed",
+    "note": "Range 93-100 million ha; second-hand, primary not opened. Amazonas 55 million ha and Para 31 million ha in the 2001 update."
+   },
+   {
+    "label": "Cadastros cancelled in INCRA re-registration",
+    "value": "20 million ha",
+    "currency": "other",
+    "value_year": null,
+    "estimator": "Barreto et al. 2008, cited by Imazon",
+    "kind": "land-area",
+    "source_url": "https://imazon.t3.storage.dev/combate-a-grilagem-de-terras-em-cartorios-no-para-uma-decada-de-avancos-e-desafios-a28bb932.pdf",
+    "status": "unverified",
+    "note": "Second-hand."
+   },
+   {
+    "label": "Area improperly appropriated per inquiry (search summary)",
+    "value": "more than 50 million ha",
+    "currency": "other",
+    "value_year": "2001",
+    "estimator": "Search summary of the 2001 inquiry",
+    "kind": "land-area",
+    "source_url": "https://apublica.org/wp-content/uploads/2020/01/33421741-relatorio-final-cpi-terras-amazonas-grilagem.pdf",
+    "status": "unverified",
+    "note": "Not confirmed on the page."
+   }
+  ],
+  "summary": "Official estimates put 93 to 100 million ha of Brazilian land under suspicion of grilagem around 1999-2001, mostly in the Amazon. These are suspicion figures, not court findings. The land was taken without payment.",
+  "sources": [
+   {
+    "title": "Imazon: combating grilagem in Para registries",
+    "url": "https://imazon.t3.storage.dev/combate-a-grilagem-de-terras-em-cartorios-no-para-uma-decada-de-avancos-e-desafios-a28bb932.pdf"
+   },
+   {
+    "title": "Final report of the 2001 Chamber inquiry on Amazon public land (not read in full)",
+    "url": "https://apublica.org/wp-content/uploads/2020/01/33421741-relatorio-final-cpi-terras-amazonas-grilagem.pdf"
+   }
+  ]
+ },
+ {
+  "id": "x-04",
+  "year": "1970s-1980s",
+  "start_year": 1970,
+  "title": "North Mato Grosso: private colonizers, Otsar/Cotriguacu and the Sharp episode",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "Medici-Geisel (incentives, SUDAM); Figueiredo",
+  "what": "INCRA authorised about 36 private colonization firms in northern Mato Grosso. Largest holdings: Rendanyl (later Otsar) 1,000,000 ha; Indeco (Ariosto da Riva) 400,000 ha; Colniza (Lunardelli) 400,000 ha; Juruena (Joao Carlos Meirelles) 200,000 ha. The Otsar land passed to Cotriguacu 'in a fraudulent operation' aimed at a later transfer to the multinational Sharp, the episode that brought down minister Amaury Stabile.",
+  "who_got": "Colonizers from Parana and Sao Paulo capital and a Parana cooperative (IBGE names the Sao Miguel do Iguacu cooperative; another document names a different one). Fiscal incentives (SUDAM) helped finance them.",
+  "terms": "Not stated.",
+  "mechanism": "State land sales to colonizers, grilagem over Indigenous land, then resale or transfer between firms. The one million ha was redistributed as 400,000 ha Cotriguacu, 400,000 ha Juruena and 200,000 ha Indeco.",
+  "who_paid": "Indigenous peoples, posseiros, and the public estate. Only Indeco implemented its colonization on time; the others did little and the land did not return to the public estate.",
+  "after": "Colonizers sold lots to settlers from the South. A named 'Fazenda Cotriguacu' grilagem case was NOT found; only the colonizer is documented.",
+  "counter_view": "Colonizers describe themselves as 'Bandeirantes of the 20th century', building towns on empty land (Travessia quotes this self-image).",
+  "signs": [
+   "land-grant",
+   "subsidy-or-tax-break",
+   "conflict-of-interest-or-kickbacks"
+  ],
+  "figures": [
+   {
+    "label": "Rendanyl/Otsar holding",
+    "value": "1,000,000 ha",
+    "currency": "other",
+    "value_year": "1980s",
+    "estimator": "Travessia, Jan-Apr 1989",
+    "kind": "land-area",
+    "source_url": "https://travessia.emnuvens.com.br/travessia/article/download/37/33",
+    "status": "verified",
+    "note": "Redistributed as 400,000 ha Cotriguacu, 400,000 ha Juruena, 200,000 ha Indeco. IBGE corroboration of Cotriguacu's 400,000 ha is search-summary only."
+   },
+   {
+    "label": "Transfer to four colonization companies, 1973",
+    "value": "two million ha",
+    "currency": "other",
+    "value_year": "1973",
+    "estimator": "USP article citing Moreno (1999)",
+    "kind": "land-area",
+    "source_url": "https://periodicos.usp.br/eav/article/download/132434/128568/253023",
+    "status": "unverified",
+    "note": "Not confirmed on an opened page."
+   }
+  ],
+  "summary": "In the 1970s and 1980s INCRA authorised about 36 private colonizers in northern Mato Grosso, with holdings of up to one million ha. Little was colonised on time and the land did not return to the public estate. A fraudulent land transfer aimed at the firm Sharp brought down a minister.",
+  "sources": [
+   {
+    "title": "Travessia, Jan-Apr 1989",
+    "url": "https://travessia.emnuvens.com.br/travessia/article/download/37/33"
+   },
+   {
+    "title": "IBGE: Cotriguacu profile",
+    "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/matogrosso/cotriguacu.pdf"
+   },
+   {
+    "title": "USP article citing Moreno (1999)",
+    "url": "https://periodicos.usp.br/eav/article/download/132434/128568/253023"
+   }
+  ]
+ },
+ {
+  "id": "x-05",
+  "year": "1970s-2019",
+  "start_year": 1970,
+  "title": "Western Bahia and Matopiba: grilagem inside the courts (Operacao Faroeste)",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "Brasilia and Bahia state governments (agricultural frontier expansion; Matopiba plan launched 2015)",
+  "what": "Matopiba (Maranhao, Tocantins, Piaui, Bahia) is the current agricultural frontier. Operacao Faroeste (2019) arrested judges and others accused of selling decisions in land disputes in western Bahia. The 73-million-ha Matopiba area and a 360,000 ha prosecutor figure could not be confirmed.",
+  "who_got": "Large grain farmers. One search result calls a former tyre-repairer 'the biggest landowner of western Bahia' (not opened).",
+  "terms": "Not stated.",
+  "mechanism": "Forged chains of title on public land, judicial decisions allegedly sold, and rural environmental registrations (CAR). A 2025 article describes legal reserves of an agribusiness condominium (Cachoeira do Estrondo) affecting traditional geraizeiro communities.",
+  "who_paid": "Traditional communities (geraizeiros) and the state's public land.",
+  "after": "Judicial arrests and CNJ/STJ proceedings (search results only). No source found on Estrondo, Tocantins or Gilbues as separate cases.",
+  "counter_view": "Defendants in Faroeste deny the charges; their defence was not opened.",
+  "signs": [
+   "land-grant",
+   "rights-legalised-after-fact",
+   "conflict-of-interest-or-kickbacks"
+  ],
+  "figures": [
+   {
+    "label": "Matopiba delimitation",
+    "value": "73 million ha",
+    "currency": "other",
+    "value_year": null,
+    "estimator": "Embrapa (from memory of an earlier brief)",
+    "kind": "land-area",
+    "source_url": null,
+    "status": "unverified",
+    "note": "Embrapa delimitation not opened."
+   },
+   {
+    "label": "Area in Faroeste case",
+    "value": "360,000 ha",
+    "currency": "other",
+    "value_year": "2019",
+    "estimator": "Prosecutor-General (PGR) figure",
+    "kind": "land-area",
+    "source_url": null,
+    "status": "unverified",
+    "note": "Not confirmed."
+   }
+  ],
+  "summary": "In western Bahia and the Matopiba frontier, land claims were allegedly secured through forged titles and bought court decisions. Operacao Faroeste (2019) led to arrests of judges. The area figures could not be confirmed.",
+  "sources": [
+   {
+    "title": "Silva 2025, Confluencias",
+    "url": "https://www.periodicos.uff.br/confluencias/article/download/67983/40227/250932"
+   }
+  ]
+ },
+ {
+  "id": "x-06",
+  "year": "1974-1980s",
+  "start_year": 1974,
+  "title": "State takeover (estatizacao) of the private external debt",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "Geisel and Figueiredo (military regime); Delfim Netto at planning/finance",
+  "what": "Private and state-firm foreign debts under Lei 4.131 and Resolucao 63 loans were taken onto the public side. No single headline figure for the private-then-public share could be quoted safely; the two papers give series.",
+  "who_got": "Private Brazilian borrowers and state firms were relieved of dollar risk. The foreign creditor banks were made whole through the 1982 rescheduling backed by the IMF.",
+  "terms": "The central bank sold exchange cover below the cost of the later devaluations (Cruz 1995).",
+  "mechanism": "Central bank and CMN circulars and resolutions, not laws passed by Congress: Circular 230/1974 and Resolucao 432/1977 (the BC guaranteed the exchange rate on foreign loans), DRME deposits, and project deposits so that private debtors paid cruzeiros to the BC while the BC owed the creditors dollars.",
+  "who_paid": "The Treasury and the central bank (money printing, internal debt), so inflation and the lost decade fell on wage earners.",
+  "after": "The debt was later converted into the Brady bonds of 1994 (not opened).",
+  "counter_view": "The state took the debt to avoid a wave of private bankruptcies and a payments default during the 1982 crisis (argued in the IPEA text).",
+  "signs": [
+   "bailout",
+   "guaranteed-return",
+   "public-money-private-control"
+  ],
+  "figures": [
+   {
+    "label": "Share of external debt moved from private to public",
+    "value": "no single figure quoted",
+    "currency": "other",
+    "value_year": null,
+    "estimator": "IPEA 1988; Cruz 1995",
+    "kind": "debt-absorbed",
+    "source_url": "https://repositorio.ipea.gov.br/server/api/core/bitstreams/1faac9f7-872f-4cd8-842f-baae55950e70/content",
+    "status": "unverified",
+    "note": "The papers give series, not one number the researcher could quote safely."
+   }
+  ],
+  "summary": "In the 1970s and early 1980s the central bank guaranteed the exchange rate on private foreign loans, so the public side ended up owing the dollars. Foreign banks were repaid and Brazilians paid through inflation. No single headline amount is quoted in the sources.",
+  "sources": [
+   {
+    "title": "IPEA 1988 on the public/private shift of the external debt",
+    "url": "https://repositorio.ipea.gov.br/server/api/core/bitstreams/1faac9f7-872f-4cd8-842f-baae55950e70/content"
+   },
+   {
+    "title": "Cruz 1995, Nova Economia",
+    "url": "https://revistas.face.ufmg.br/index.php/novaeconomia/article/download/2287/1232/7452"
+   },
+   {
+    "title": "IMF WP/12/163 (Laeven and Valencia)",
+    "url": "https://www.imf.org/-/media/websites/imf/imported-full-text-pdf/external/pubs/ft/wp/2012/_wp12163.pdf"
+   }
+  ]
+ },
+ {
+  "id": "x-07",
+  "year": "1975-2007",
+  "start_year": 1975,
+  "title": "Carlos Medeiros, the 'phantom landowner' of Para",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "Military regime (1975); Sarney through Itamar (1984-1993); Judiciary of Para",
+  "what": "Land registered in the name of a person who never appeared. Papers dated to about 1800 first appear in an official document in 1975. Sources disagree on area: about 9 million ha in 32 municipalities, about 12 million ha at one point, and 1.8 million ha of his titles blocked.",
+  "who_got": "Sold on to loggers and cattle ranchers; only one buyer is named (Marinho Gomes de Figueiredo). The real backers were never identified; his lawyers (Viegas) were the only known figures.",
+  "terms": "No price information in the opened pages.",
+  "mechanism": "An 'adjudicacao' letter built from inventories of two Portuguese men. In 1993 'lost' inventory records were restored without consulting Iterpa, the Union or prosecutors.",
+  "who_paid": "Para and the Union (public land); forest and communities on the land.",
+  "after": "The federal prosecutors found the fraud after a logging plan was approved on Union land near Santarem and sought blocks in all registries. The Corregedoria chose provisional blocks instead of cancellation. The 2001 inquiry called it the largest grilagem case seen. A claim that the Judiciary has not cancelled all registrations is search-summary only. The task-text link between Medeiros and C.R. Almeida or Altamira is NOT supported by the O Eco page.",
+  "counter_view": null,
+  "signs": [
+   "land-grant",
+   "rights-legalised-after-fact",
+   "regulator-absent-or-late",
+   "conflict-of-interest-or-kickbacks"
+  ],
+  "figures": [
+   {
+    "label": "Area claimed",
+    "value": "about 9 million ha in 32 municipalities (8% of Para)",
+    "currency": "other",
+    "value_year": "2005",
+    "estimator": "O Globo 20 Feb 2005, via Arpensp",
+    "kind": "land-area",
+    "source_url": "https://arpensp.org.br/noticia/2015",
+    "status": "disputed",
+    "note": "Range 1.8 million ha (blocked, AMDA) to 9 million ha (O Globo) to 12 million ha (O Eco)."
+   },
+   {
+    "label": "Area claimed at one point",
+    "value": "about 12 million ha",
+    "currency": "other",
+    "value_year": null,
+    "estimator": "O Eco",
+    "kind": "land-area",
+    "source_url": "https://oeco.org.br/reportagens/2060-oeco_24013/",
+    "status": "disputed",
+    "note": "See range on the 9 million ha figure."
+   },
+   {
+    "label": "Titles blocked",
+    "value": "1.8 million ha",
+    "currency": "other",
+    "value_year": null,
+    "estimator": "AMDA",
+    "kind": "land-area",
+    "source_url": "https://amda.org.br/opiniao/1807-mundo-fundiario-no-xingu-entre-o-caos-rios-rodovias-hidreletricas-mineracao-e-incertezas/",
+    "status": "disputed",
+    "note": "See range on the 9 million ha figure."
+   }
+  ],
+  "summary": "Millions of hectares in Para were registered to a 'phantom' owner, Carlos Medeiros, who never appeared. Estimates range from 1.8 million ha blocked to 9-12 million ha claimed. The people behind it were never identified.",
+  "sources": [
+   {
+    "title": "O Eco report",
+    "url": "https://oeco.org.br/reportagens/2060-oeco_24013/"
+   },
+   {
+    "title": "Arpensp: O Globo 20 Feb 2005",
+    "url": "https://arpensp.org.br/noticia/2015"
+   },
+   {
+    "title": "AMDA: land world in the Xingu",
+    "url": "https://amda.org.br/opiniao/1807-mundo-fundiario-no-xingu-entre-o-caos-rios-rodovias-hidreletricas-mineracao-e-incertezas/"
+   }
+  ]
+ },
+ {
+  "id": "x-08",
+  "year": "1984-2011",
+  "start_year": 1984,
+  "title": "Gleba/Fazenda Curua (Altamira), Grupo C.R. Almeida",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "Figueiredo era (1984); Itamar (1993); Lula/Dilma period (2011 sentence)",
+  "what": "About 4.5 million ha in Gleba Curua, Altamira, held through Incenxil, a C.R. Almeida group company. A federal court cancelled registration 6.411 in October 2011 (reported 4 Nov 2011).",
+  "who_got": "The C.R. Almeida construction group via Incenxil; financing sources not shown in the opened pages.",
+  "terms": "No value stated in the opened article.",
+  "mechanism": "Forged registry entries at the Altamira registry in 1984 (the report names the 'Cartorio Moreira'), false statements in 1993, then transfer in 1995.",
+  "who_paid": "The Union and Para (public land); Indigenous communities (the judge also ordered return of parts of reserves occupied by non-Indians).",
+  "after": "Registration cancelled; appeal possible to TRF-1. The final appellate outcome was not found.",
+  "counter_view": "The group appealed; no defence text was opened.",
+  "signs": [
+   "land-grant",
+   "rights-legalised-after-fact",
+   "conflict-of-interest-or-kickbacks"
+  ],
+  "figures": [
+   {
+    "label": "Area of Gleba Curua",
+    "value": "about 4.5 million ha (up to almost 5 million ha)",
+    "currency": "other",
+    "value_year": "2011",
+    "estimator": "DOL report; other press says almost 5 million ha",
+    "kind": "land-area",
+    "source_url": "https://dol.com.br/noticias/para/noticia-240808-cr-almeida-perde-45-mi-de-hectares.html",
+    "status": "disputed",
+    "note": "Range 4.5 to about 5 million ha. The 'almost 5 million' source is a search summary (IHU) and was not opened; the sentence PDF was an unreadable scan."
+   }
+  ],
+  "summary": "A federal court in 2011 cancelled the registration of about 4.5 million ha in Altamira held by a C.R. Almeida group company. The claim rested on forged registry entries from 1984. The final appeal outcome is unknown.",
+  "sources": [
+   {
+    "title": "DOL: C.R. Almeida loses 4.5 million hectares",
+    "url": "https://dol.com.br/noticias/para/noticia-240808-cr-almeida-perde-45-mi-de-hectares.html"
+   },
+   {
+    "title": "IHU/Unisinos: largest latifundio loses registration (not opened)",
+    "url": "https://ihu.unisinos.br/noticias/502654-maior-latifundio-do-pais-tem-registro-cancelado-pela-justica"
+   }
+  ]
+ },
+ {
+  "id": "x-09",
+  "year": "1990",
+  "start_year": 1990,
+  "title": "Plano Collor freeze",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "Fernando Collor; Zelia Cardoso de Mello",
+  "what": "On 16 Mar 1990 balances above NCz$50k were frozen for 18 months, moving private financial assets into the central bank. The aggregate amount frozen was not confirmed.",
+  "who_got": "The central bank held the frozen balances (recipient detail not covered in the notes).",
+  "terms": "Not covered.",
+  "mechanism": "A federal economic plan freezing bank balances.",
+  "who_paid": "Savers whose balances were frozen. They later sued banks over the plan indexes; an STF settlement followed. Courts including the STJ held banks not liable for the BC's rate in certain cases (unconfirmed).",
+  "after": "Savers' lawsuits and an STF settlement (later).",
+  "counter_view": "The freeze is seen as a precursor to Plano Real, but the point is contested.",
+  "signs": [
+   "law-rewritten-for-deal"
+  ],
+  "figures": [
+   {
+    "label": "Aggregate amount frozen",
+    "value": "not confirmed",
+    "currency": "BRL",
+    "value_year": "1990",
+    "estimator": "None",
+    "kind": "other",
+    "source_url": "https://www.infomoney.com.br/economia/plano-collor-maior-trauma-financeiro-vivido-pelo-brasil-completa-35-anos/",
+    "status": "unverified",
+    "note": "No figure from an opened page."
+   }
+  ],
+  "summary": "In March 1990 the Collor plan froze large bank balances for 18 months. The total frozen was not confirmed. Savers later sued over the indexes used.",
+  "sources": [
+   {
+    "title": "ConJur: the day Collor confiscated savings",
+    "url": "https://www.conjur.com.br/2009-jun-25/imagens-historia-dia-collor-confiscou-poupanca//?print=1"
+   },
+   {
+    "title": "InfoMoney: Plano Collor 35 years",
+    "url": "https://www.infomoney.com.br/economia/plano-collor-maior-trauma-financeiro-vivido-pelo-brasil-completa-35-anos/"
+   }
+  ]
+ },
+ {
+  "id": "x-10",
+  "year": "1995-1997",
+  "start_year": 1995,
+  "title": "PROER: the Nacional, Economico and Bamerindus operations",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "Fernando Henrique Cardoso; BC presidents Gustavo Loyola, with Gustavo Franco as BC director (who signed which operation not confirmed)",
+  "what": "Federal credit to buyer banks taking over failed banks (MP 1.179 and 1.182 of Nov 1995, CMN Res. 2.208). The Chamber inquiry report says R$20.4 bn lent and R$7.1 bn net loss to the Union around 2002.",
+  "who_got": "The BC lent to the buyer bank; Itau-type buyers took Economico's good assets, Unibanco took Nacional's, HSBC took Bamerindus in March 1997 (date from snippet). Healthy assets went to the buyer; bad assets and housing-fund (FCVS) credits stayed in the liquidated estate. The Union financed it through BC credit and bond sterilisation.",
+  "terms": "The loans were at below-market terms and long maturities (inquiry chapter VI). At Nacional the hole was hidden by fictitious loans for years.",
+  "mechanism": "MPs 1.179/1.182 and CMN Res. 2.208. Lei 9.447/97 later made controllers jointly liable and allowed their assets to be frozen.",
+  "who_paid": "The Treasury, through BC provisions that flow into its balance. Controllers largely kept personal wealth, hence decades-long collection fights.",
+  "after": "The Proer inquiry concluded intervention was necessary but criticised controls; the BC attorney-general argued losses of R$40 bn or R$69.5 bn were avoided (exact attribution to be re-checked). FGC and the sale of the estates continued into the 2020s.",
+  "counter_view": "A systemic run in 1995 would have cost more; supporters point to avoided losses of R$40 bn or R$69.5 bn (BC attorney-general, cited in the inquiry chapter; attribution to be re-checked).",
+  "signs": [
+   "bailout",
+   "cleanup-before-sale",
+   "paid-in-paper-or-cheap-credit",
+   "public-money-private-control"
+  ],
+  "figures": [
+   {
+    "label": "Proer lending and net loss",
+    "value": "R$20.4 bn lent; R$7.1 bn net loss to the Union around 2002",
+    "currency": "BRL",
+    "value_year": "2002",
+    "estimator": "Chamber inquiry (CPI Proer) final report",
+    "kind": "bailout",
+    "source_url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-temporarias/parlamentar-de-inquerito/51-legislatura/cpiproer/relatoriofinal/cap6consideracoesfinais.pdf",
+    "status": "disputed",
+    "note": "Range R$7.1 bn (CPI, net) to R$71 bn (Fruet, corrected gross transfers). Scope and correction differ; do not average."
+   },
+   {
+    "label": "Proer debt still owed by banks involved",
+    "value": "about R$30 bn",
+    "currency": "BRL",
+    "value_year": "2020",
+    "estimator": "Estadao / Gazeta do Povo",
+    "kind": "debt-absorbed",
+    "source_url": "https://www.gazetadopovo.com.br/economia/bancos-divida-proer/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Corrected transfers",
+    "value": "R$71 bn",
+    "currency": "BRL",
+    "value_year": "2020",
+    "estimator": "Fruet estimate, quoted in Gazeta do Povo",
+    "kind": "bailout",
+    "source_url": "https://www.gazetadopovo.com.br/economia/bancos-divida-proer/",
+    "status": "disputed",
+    "note": "See range on the CPI figure."
+   },
+   {
+    "label": "Fiscal cost of the whole 1994-98 banking crisis",
+    "value": "13.2% of GDP",
+    "currency": "other",
+    "value_year": "1998",
+    "estimator": "IMF WP/12/163 (Laeven and Valencia)",
+    "kind": "bailout",
+    "source_url": "https://www.imf.org/-/media/websites/imf/imported-full-text-pdf/external/pubs/ft/wp/2012/_wp12163.pdf",
+    "status": "verified",
+    "note": "Covers the entire crisis, not Proer alone."
+   }
+  ],
+  "summary": "In 1995-97 the central bank lent to banks buying failed lenders, so buyers got healthy assets and the state kept the bad ones. The Chamber inquiry put the net loss at R$7.1 bn; another estimate says R$71 bn. Supporters say it prevented a bigger run.",
+  "sources": [
+   {
+    "title": "CPI Proer final report, chapter VI",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-temporarias/parlamentar-de-inquerito/51-legislatura/cpiproer/relatoriofinal/cap6consideracoesfinais.pdf"
+   },
+   {
+    "title": "Gazeta do Povo: banks' Proer debt",
+    "url": "https://www.gazetadopovo.com.br/economia/bancos-divida-proer/"
+   },
+   {
+    "title": "IMF WP/12/163",
+    "url": "https://www.imf.org/-/media/websites/imf/imported-full-text-pdf/external/pubs/ft/wp/2012/_wp12163.pdf"
+   },
+   {
+    "title": "Money Times: Banco Nacional",
+    "url": "https://www.moneytimes.com.br/a-historia-do-banco-que-estampou-o-bone-azul-de-ayrton-senna-e-acabou-no-centro-de-uma-das-maiores-fraudes-do-sistema-financeiro-isbl/"
+   },
+   {
+    "title": "ConJur: 2013 arrests of former Banco Nacional directors",
+    "url": "https://www.conjur.com.br/2013-set-03/policia-federal-prende-quatro-ex-dirigentes-banco-nacional//?print=1"
+   },
+   {
+    "title": "BCB book on state banks",
+    "url": "https://www.bcb.gov.br/htms/public/BancosEstaduais/livro_bancos_estaduais.pdf"
+   },
+   {
+    "title": "BCB saneamento paper",
+    "url": "https://www.bcb.gov.br/ftp/saneamento.pdf"
+   }
+  ]
+ },
+ {
+  "id": "x-11",
+  "year": "1996-2037",
+  "start_year": 1996,
+  "title": "Lei Kandir: ICMS exemption on exports of primary goods",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "Fernando Henrique Cardoso government (signatory not confirmed from an opened page); the compensation fight ran under every later government",
+  "what": "The state tax ICMS was waived on exports of primary and semi-finished goods (LC 87, 13 Sept 1996). Loss estimates differ: R$268.9 bn accumulated 1997-2016 (R$25 bn in 2016 alone) versus R$637 bn since 1996 as of 2019.",
+  "who_got": "Exporters of ore, soy, meat, pulp and similar goods (named companies not opened). Financed by states and municipalities. By 2016 the biggest absolute losses were Minas Gerais R$64.6 bn, Rio R$60.7 bn, Para R$35.7 bn, Mato Grosso R$30.8 bn, Espirito Santo R$28.3 bn. As a share of revenue: Mato Grosso 26.01%, Para 14.58%.",
+  "terms": "Compensation to states was never based on measured loss. The STF found Congress had failed to regulate ADCT art. 91 for more than ten years after EC 42/2003.",
+  "mechanism": "LC 87/1996 art. 3 exemption; transitional compensation in art. 31 and annex, amended by LC 115/2002; EC 42/2003 wrote the exemption into the Constitution and created ADCT art. 91. ADO 25 was filed in 2013 by Para and 15 other states (rapporteur Gilmar Mendes). On 30 Nov 2016 the STF unanimously found the omission and gave Congress 12 months; the TCU would set the amount if Congress failed.",
+  "who_paid": "The states. LC 176/2020 pays R$58 bn from 2020 to 2037: R$4 bn a year to 2030 (R$1 bn to municipalities), then falling R$500 mn a year for 2031-2037. Extra R$7.6 bn brings the total to R$65.6 bn. States had to drop lawsuits against the Union to receive it.",
+  "after": "The R$58 bn is far below either loss estimate, so on those numbers the settlement repays a fraction. Whether the exemption brought more exports than it cost is not documented.",
+  "counter_view": "The Union argued it already transfers large sums to states and that the temporary scheme is constitutional (Conjur, 13 Dec 2016). The rapporteur replied that social contributions, which are not shared with states, rose from 29% to 54% of federal revenue between 1994 and 2016. A Folha Vitoria headline says the Fazenda held that the law does not oblige full repayment; that page returned 403 and was not read. The economic defence (exports and the trade balance rose) is not documented.",
+  "signs": [
+   "subsidy-or-tax-break",
+   "law-rewritten-for-deal"
+  ],
+  "figures": [
+   {
+    "label": "State losses 1997-2016",
+    "value": "R$268.9 bn (R$25 bn in 2016 alone)",
+    "currency": "BRL",
+    "value_year": "2016",
+    "estimator": "Fapespa president, at Kandir joint committee hearing (method not described)",
+    "kind": "subsidy",
+    "source_url": "https://www.congressoemfoco.com.br/noticia/45551/estados-perderam-r-25-bilhoes-devido-a-lei-kandir-em-2016-diz-estudo",
+    "status": "disputed",
+    "note": "Range R$268.9 bn (1997-2016) to R$637 bn (to 2019). Windows differ and methods are unknown; not the same measure."
+   },
+   {
+    "label": "State losses since 1996, 27 states",
+    "value": "R$637 bn (Minas Gerais owed R$135 bn, 21%)",
+    "currency": "BRL",
+    "value_year": "2019",
+    "estimator": "Not named in the article",
+    "kind": "subsidy",
+    "source_url": "https://www.hojeemdia.com.br/primeiro-plano/d%C3%ADvida-bilion%C3%A1ria-estados-se-mobilizam-para-recuperar-perdas-de-r-637-bilh%C3%B5es-da-lei-kandir-1.699524",
+    "status": "disputed",
+    "note": "Estimator not named; see range on the R$268.9 bn figure."
+   },
+   {
+    "label": "Settlement under LC 176/2020",
+    "value": "R$58 bn over 2020-2037 (R$65.6 bn with extras)",
+    "currency": "BRL",
+    "value_year": "2020",
+    "estimator": "Comsefaz",
+    "kind": "other",
+    "source_url": "https://comsefaz.org.br/novo/sancionada-lei-que-garante-repasse-de-r-58-bilhoes-aos-estados-pelas-perdas-da-lei-kandir/",
+    "status": "verified",
+    "note": "Extra R$7.6 bn: R$3.6 bn conditional on PEC 188/2019, R$4 bn after the Atapu and Sepia oil auctions."
+   }
+  ],
+  "summary": "In 1996 Brazil waived the state ICMS tax on primary-goods exports. States say they lost between R$269 bn and R$637 bn. A 2020 law pays them R$58 bn over 17 years, a fraction of the estimates.",
+  "sources": [
+   {
+    "title": "Comsefaz: law guarantees R$58 bn transfer",
+    "url": "https://comsefaz.org.br/novo/sancionada-lei-que-garante-repasse-de-r-58-bilhoes-aos-estados-pelas-perdas-da-lei-kandir/"
+   },
+   {
+    "title": "Conjur, 13 Dec 2016: Congress was remiss",
+    "url": "https://www.conjur.com.br/2016-dez-13/congresso-foi-omisso-nao-editar-lei-compensacao-icms//?print=1"
+   },
+   {
+    "title": "Congresso em Foco: states lost R$25 bn in 2016",
+    "url": "https://www.congressoemfoco.com.br/noticia/45551/estados-perderam-r-25-bilhoes-devido-a-lei-kandir-em-2016-diz-estudo"
+   },
+   {
+    "title": "Hoje em Dia: R$637 bn",
+    "url": "https://www.hojeemdia.com.br/primeiro-plano/d%C3%ADvida-bilion%C3%A1ria-estados-se-mobilizam-para-recuperar-perdas-de-r-637-bilh%C3%B5es-da-lei-kandir-1.699524"
+   },
+   {
+    "title": "Camara: LC 87/1996 (text not opened)",
+    "url": "https://www2.camara.leg.br/legin/fed/leicom/1996/leicomplementar-87-13-setembro-1996-348769-norma-pl.html"
+   },
+   {
+    "title": "Folha Vitoria (403, not read)",
+    "url": "https://www.folhavitoria.com.br/economia/fazenda-lei-kandir-nao-obriga-uniao-a-ressarcimento-integral-aos-estados/"
+   }
+  ]
+ },
+ {
+  "id": "x-12",
+  "year": "1996-2025",
+  "start_year": 1996,
+  "title": "Dividend tax exemption",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "FHC (law of 26 Dec 1995, date from a URL slug); Lula III for Lei 15.270/2025",
+  "what": "Profits distributed to owners escaped personal income tax from January 1996. Ipea (Gobetti and Orair) estimated in 2015 that a 15% tax on profits and dividends would raise R$43 bn a year (R$50 bn in another version).",
+  "who_got": "Owners and shareholders of companies. 71,440 Brazilians earning over R$1.3 million a year declared an average of R$4.2 million and paid 6.7% in tax. A senator compared a civil servant paying 27.5% on R$5,000 with an owner receiving R$300,000 in dividends paying nothing. Financed by employees and consumers through payroll and consumption taxes.",
+  "terms": "Ipea estimate of revenue forgone. The claim that 'only Brazil and Estonia fully exempt dividends' is a senator's hearing statement; a search did not confirm Estonia. An OECD comparison was not opened.",
+  "mechanism": "Art. 10 of Lei 9.249/1995 exempts distributed profits from withholding and from the recipient's tax base. The same law's art. 9 created interest on equity (JCP), deductible from corporate tax (text not opened). Lei 15.270/2025: 10% withholding when a company pays one resident individual over R$50,000 a month; non-residents pay 10%; a minimum tax starts at R$600,000 a year and reaches 10% at R$1.2 million.",
+  "who_paid": "Wage earners (labour income taxed up to 27.5%) and the Treasury.",
+  "after": "After about 30 years, Lei 15.270/2025 reintroduced a withholding, effective 1 Jan 2026 (date from a snippet). Dividends from profits up to fiscal year 2025 stay exempt.",
+  "counter_view": "The defence reported by IHU is that the exemption avoids taxing profit twice, at the company and again as personal income. The opposing argument, that the 1995 corporate rate cut and the JCP deduction already lower the corporate burden, was not sourced.",
+  "signs": [
+   "subsidy-or-tax-break",
+   "law-rewritten-for-deal"
+  ],
+  "figures": [
+   {
+    "label": "Revenue from a 15% tax on profits and dividends",
+    "value": "R$43 bn a year",
+    "currency": "BRL",
+    "value_year": "2015",
+    "estimator": "Gobetti and Orair (Ipea), via IHU/Unisinos",
+    "kind": "subsidy",
+    "source_url": "https://ihu.unisinos.br/546904-imposto-sobre-lucros-e-dividendos-recebidos-por-donos-e-acionistas-de-empresas-geraria-r-43-bi-ao-ano-diz-estudo",
+    "status": "disputed",
+    "note": "Range R$43 bn (IHU, opened) to R$50 bn (search snippet, unopened); both 2015 money."
+   },
+   {
+    "label": "Top earners' tax rate",
+    "value": "71,440 people earning over R$1.3 million paid 6.7% on average declared R$4.2 million",
+    "currency": "BRL",
+    "value_year": null,
+    "estimator": "IHU/Unisinos",
+    "kind": "other",
+    "source_url": "https://ihu.unisinos.br/546904-imposto-sobre-lucros-e-dividendos-recebidos-por-donos-e-acionistas-de-empresas-geraria-r-43-bi-ao-ano-diz-estudo",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "New withholding threshold (Lei 15.270/2025)",
+    "value": "10% above R$50,000 a month per resident individual",
+    "currency": "BRL",
+    "value_year": "2025",
+    "estimator": "Capital Aberto",
+    "kind": "other",
+    "source_url": "https://capitalaberto.com.br/insights/freitas-ferraz-advogados/2026/02/o-novo-regime-de-tributacao-de-dividendos-no-brasil-aspectos-juridicos-e-reflexos-da-lei-no-15-270-2025",
+    "status": "verified",
+    "note": ""
+   }
+  ],
+  "summary": "From 1996 Brazil did not tax dividends paid to owners. Ipea estimated a 15% tax would raise about R$43 bn a year. Lei 15.270/2025 ended the exemption in part from 2026.",
+  "sources": [
+   {
+    "title": "Capital Aberto: new dividend regime, Lei 15.270/2025",
+    "url": "https://capitalaberto.com.br/insights/freitas-ferraz-advogados/2026/02/o-novo-regime-de-tributacao-de-dividendos-no-brasil-aspectos-juridicos-e-reflexos-da-lei-no-15-270-2025"
+   },
+   {
+    "title": "IHU/Unisinos: tax on profits and dividends would raise R$43 bn",
+    "url": "https://ihu.unisinos.br/546904-imposto-sobre-lucros-e-dividendos-recebidos-por-donos-e-acionistas-de-empresas-geraria-r-43-bi-ao-ano-diz-estudo"
+   },
+   {
+    "title": "Conjur 2021, Silber: tax reform and dividends",
+    "url": "https://www.conjur.com.br/2021-ago-20/silber-reforma-tributaria-tributacao-lucros-dividendos//?print=1"
+   },
+   {
+    "title": "INESC survey of oil industry tax waivers",
+    "url": "https://inesc.org.br/wp-content/uploads/2024/09/levantamento-inedito-mostra-renuncias-bilionarias-para-industria-petroleo-docx.pdf"
+   }
+  ]
+ },
+ {
+  "id": "x-13",
+  "year": "1996-2000",
+  "start_year": 1996,
+  "title": "PROES and Banespa",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "Fernando Henrique Cardoso",
+  "what": "The Union issued federal securities to states to clean up state banks (MP 1.514/1996, CMN Res. 2.365/1997) and refinanced state debts (Lei 9.496/97). Banespa was federalised in Dec 1994 and sold to Santander in Nov 2000. The BCB book counts R$61.4 bn in securities issued under PROES.",
+  "who_got": "State governments (debts refinanced), state-bank creditors, and buyers (Itau, Bradesco, Santander, ABN) who received cleaned banks. The Union financed it with federal securities.",
+  "terms": "States federalised or privatised banks and the Union absorbed the bad assets. The price paid for Banespa was not opened.",
+  "mechanism": "MP 1.514 and Lei 9.496/97; state-debt contracts with the Union indexed to IGP-DI plus fixed interest.",
+  "who_paid": "The Union and so taxpayers; states bore it through long debt service to the Treasury.",
+  "after": "See the privatization notes for the sales. Federal-bank follow-up (BB recapitalisation 1996-97 under MP 1.504, 1.553/1.555 with an R$8 bn ceiling; PROEF 2001 and Emgea): amounts not confirmed, only search snippets seen.",
+  "counter_view": "The BCB book argues the cleanup cost belongs to past state-bank management (politically driven lending), not to the program that closed the banks.",
+  "signs": [
+   "bailout",
+   "cleanup-before-sale",
+   "public-money-private-control",
+   "paid-in-paper-or-cheap-credit"
+  ],
+  "figures": [
+   {
+    "label": "Federal securities issued under PROES",
+    "value": "R$61.4 bn",
+    "currency": "BRL",
+    "value_year": null,
+    "estimator": "BCB book on state banks",
+    "kind": "bailout",
+    "source_url": "https://www.bcb.gov.br/htms/public/BancosEstaduais/livro_bancos_estaduais.pdf",
+    "status": "disputed",
+    "note": "Range R$61.4 bn (BCB) to more than R$73 bn (ANPUH paper). Scope differs."
+   },
+   {
+    "label": "PROES cost, ANPUH paper",
+    "value": "more than R$73 bn",
+    "currency": "BRL",
+    "value_year": null,
+    "estimator": "ANPUH paper",
+    "kind": "bailout",
+    "source_url": "https://anpuh.org.br/uploads/anais-simposios/pdf/2019-01/1548772005_adf83124319e5fa5b6bfb10d220fef86.pdf",
+    "status": "disputed",
+    "note": "See range on the BCB figure."
+   },
+   {
+    "label": "State-debt assumption incl. refinancing",
+    "value": "about R$500 bn",
+    "currency": "BRL",
+    "value_year": null,
+    "estimator": "Sul21 piece (search snippet)",
+    "kind": "debt-absorbed",
+    "source_url": null,
+    "status": "unverified",
+    "note": "Scope is the whole state-debt refinancing, not PROES alone."
+   },
+   {
+    "label": "PROEF (federal banks), not PROES",
+    "value": "R$74.58 bn (R$12.18 bn + R$62.4 bn)",
+    "currency": "BRL",
+    "value_year": null,
+    "estimator": "Senate PLS 561/15 document",
+    "kind": "bailout",
+    "source_url": "https://legis.senado.leg.br/sdleg-getter/documento/download/df9a7785-ef5c-4545-aee0-076d3d3dfbcd",
+    "status": "verified",
+    "note": "Sometimes wrongly quoted as PROES; it belongs to PROEF."
+   }
+  ],
+  "summary": "In the late 1990s the Union issued about R$61-73 bn in securities to clean up state banks and refinance state debts before sales such as Banespa's. Buyers got cleaned banks and the Union absorbed the bad assets. The BCB says the real fault lay with earlier state-bank management.",
+  "sources": [
+   {
+    "title": "BCB book on state banks",
+    "url": "https://www.bcb.gov.br/htms/public/BancosEstaduais/livro_bancos_estaduais.pdf"
+   },
+   {
+    "title": "ANPUH paper",
+    "url": "https://anpuh.org.br/uploads/anais-simposios/pdf/2019-01/1548772005_adf83124319e5fa5b6bfb10d220fef86.pdf"
+   },
+   {
+    "title": "Senate PLS 561/15 document",
+    "url": "https://legis.senado.leg.br/sdleg-getter/documento/download/df9a7785-ef5c-4545-aee0-076d3d3dfbcd"
+   }
+  ]
+ },
+ {
+  "id": "x-14",
+  "year": "1969-2025 (main law 1997)",
+  "start_year": 1997,
+  "title": "Oil royalties and the special participation",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "Military regime (1969), Sarney (1989), FHC (1997), Lula (2010), Dilma (2012); signatories not verified",
+  "what": "The question is how much of the oil rent the state kept. Lei 9.478/1997 raised the basic royalty from 5% to up to 10% (snippet only); the ANP says the field rate can vary from 5% to 15% by contract. Royalties plus special participation grew 5,204% from 1999 to 2025 and in 2022 first exceeded ICMS on fuel. The TCU reports R$58.22 bn paid in 2024.",
+  "who_got": "The state kept more as production rose. Distribution is concentrated: ten municipalities hold half of the municipal share and have under 9 million people; some get over R$20,000 per resident per year. Lei 12.734 cut the 'confronting states' share from about 30% to 20% and 'confronting municipalities' from 20% to 4%.",
+  "terms": "In the concession regime the rent is split by rate, not by auction price alone. Bonus, royalty and special participation by field were not opened. In 1997 the 5% rate produced only about R$208 million in today's values.",
+  "mechanism": "Concession contracts (Lei 9.478/1997); production sharing in the pre-salt (Lei 12.351/2010); redistribution under Lei 12.734/2012. The STF suspended the redistribution rules in 2013 (ADI 4917), with the final status not confirmed.",
+  "who_paid": "Non-producing states and municipalities under the old distribution; producing ones after Lei 12.734 if it takes effect. The TCU found weaknesses in how the ANP calculates and distributes.",
+  "after": "More revenue as production rose 61% between 2015 and 2025 and prices moved. The ANP projects R$68 bn for 2025. The Petrobras corruption context is in other notes.",
+  "counter_view": "FGV IBRE (an opinion piece by the authors) argues royalties are not ICMS compensation, so producing states cannot claim them as a replacement. The producing states argue the opposite, but their position was not documented in an opened page.",
+  "signs": [
+   "exclusive-privilege",
+   "regulator-absent-or-late"
+  ],
+  "figures": [
+   {
+    "label": "Royalties and special participation paid 2024",
+    "value": "R$58.22 bn",
+    "currency": "BRL",
+    "value_year": "2024",
+    "estimator": "TCU, reported by Eixos / Estadao Conteudo",
+    "kind": "other",
+    "source_url": "https://eixos.com.br/politica/tcu-ve-fragilidades-na-distribuicao-de-royalties-de-petroleo-e-gas-e-cobra-ajustes-da-anp/",
+    "status": "verified",
+    "note": "A second search snippet gave a much higher figure that could not be sourced and is not used."
+   },
+   {
+    "label": "ANP projection 2025",
+    "value": "R$68 bn",
+    "currency": "BRL",
+    "value_year": "2025",
+    "estimator": "ANP, reported by Eixos",
+    "kind": "other",
+    "source_url": "https://eixos.com.br/politica/tcu-ve-fragilidades-na-distribuicao-de-royalties-de-petroleo-e-gas-e-cobra-ajustes-da-anp/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Growth 1999-2025",
+    "value": "5,204% (about 53 times)",
+    "currency": "BRL",
+    "value_year": "2025",
+    "estimator": "FGV IBRE blog (opinion piece)",
+    "kind": "other",
+    "source_url": "https://blogdoibre.fgv.br/posts/royalties-do-petroleo-o-que-analise-das-series-historicas-revela",
+    "status": "verified",
+    "note": "The annual table in the blog was an image and not extracted."
+   },
+   {
+    "label": "Basic royalty rate under Lei 9.478",
+    "value": "up to 10% (search snippet); ANP page says 5% to 15% by contract",
+    "currency": "BRL",
+    "value_year": "1997",
+    "estimator": "Search snippet vs ANP page",
+    "kind": "other",
+    "source_url": "https://www.gov.br/anp/pt-br/assuntos/royalties-e-outras-participacoes/royalties",
+    "status": "disputed",
+    "note": "Range 5-15% per ANP contract terms; the 10% ceiling is snippet-only."
+   },
+   {
+    "label": "1997 royalty in today's values",
+    "value": "about R$208 million (about 0.2% of today's revenue)",
+    "currency": "BRL",
+    "value_year": "1997",
+    "estimator": "FGV IBRE opinion piece",
+    "kind": "other",
+    "source_url": "https://blogdoibre.fgv.br/posts/royalties-do-petroleo-o-que-analise-das-series-historicas-revela",
+    "status": "verified",
+    "note": ""
+   }
+  ],
+  "summary": "Brazil's oil royalties grew about 53 times from 1999 to 2025 as production rose, reaching R$58.22 bn in 2024. The fight is over how the money is shared between producing and non-producing states. Some legal details (the 2013 STF suspension, the 10% rate) were not confirmed.",
+  "sources": [
+   {
+    "title": "FGV IBRE blog: oil royalties and historical series",
+    "url": "https://blogdoibre.fgv.br/posts/royalties-do-petroleo-o-que-analise-das-series-historicas-revela"
+   },
+   {
+    "title": "ANP: royalties page",
+    "url": "https://www.gov.br/anp/pt-br/assuntos/royalties-e-outras-participacoes/royalties"
+   },
+   {
+    "title": "Eixos: TCU sees weaknesses in royalty distribution",
+    "url": "https://eixos.com.br/politica/tcu-ve-fragilidades-na-distribuicao-de-royalties-de-petroleo-e-gas-e-cobra-ajustes-da-anp/"
+   }
+  ]
+ },
+ {
+  "id": "x-15",
+  "year": "1999-2040",
+  "start_year": 1999,
+  "title": "Repetro: customs regime for oil and gas equipment",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "FHC (1999) and Temer (2017) by date in office; the sources do not name the president",
+  "what": "Relief from import tax, IPI, PIS and Cofins on equipment for oil and gas exploration. INESC crossed Receita data with the 267 firms listed under Repetro: R$260.08 bn of incentives, exemptions and immunities in 2015-2023.",
+  "who_got": "Most of the 267 firms are transnationals; the top three include MODEC and Ventura Petroleo. Petrobras-operated fields produce 88-89% of Brazilian oil, so some benefit reaches Petrobras. Financed by the Treasury.",
+  "terms": "The Receita says it is technically impossible to compute Repetro as a deviation from the reference system, so it is not in the official tax expenditure report. INESC says the Receita holds robust data and could publish it.",
+  "mechanism": "Special customs regime: suspension of II, IPI, PIS/Pasep and Cofins on goods for oil, gas and hydrocarbon activities, becoming exemption or zero rate once used as required. Decreto 3.161/1999; Lei 12.276/2010 and 12.351/2010 (pre-salt); Lei 13.586/2017 extended it to 31 Dec 2040. LC 215/2025 kept it among relieved regimes.",
+  "who_paid": "The federal budget.",
+  "after": "INESC says values grew significantly from 2017, though the table peaks in 2020 and declines to 2022, so the table alone does not prove cause.",
+  "counter_view": "The regime is defended as a way to avoid taxing imported capital goods that would be re-exported (position not documented in an opened page). The Receita's own treatment, that Repetro is not a deviation from the reference system, is the verified form of the same argument.",
+  "signs": [
+   "exclusive-privilege",
+   "subsidy-or-tax-break",
+   "law-rewritten-for-deal"
+  ],
+  "figures": [
+   {
+    "label": "Incentives to Repetro-listed firms 2015-2023",
+    "value": "R$260.08 bn",
+    "currency": "BRL",
+    "value_year": "2015-2023",
+    "estimator": "INESC, using Receita data",
+    "kind": "subsidy",
+    "source_url": "https://inesc.org.br/wp-content/uploads/2024/09/levantamento-inedito-mostra-renuncias-bilionarias-para-industria-petroleo-docx.pdf",
+    "status": "disputed",
+    "note": "The table counts all benefits received by the 267 firms, including Sudam/Sudene and Zona Franca incentives, so the Repetro-only part is lower; the exact figure is not published. 2023 has no Sudam/Sudene data."
+   },
+   {
+    "label": "By year (R$ bn)",
+    "value": "2015 16.9; 2016 16.8; 2017 10.9; 2018 23.5; 2019 34.8; 2020 56.1; 2021 45.3; 2022 26.7; 2023 29.1",
+    "currency": "BRL",
+    "value_year": "2015-2023",
+    "estimator": "INESC",
+    "kind": "subsidy",
+    "source_url": "https://inesc.org.br/wp-content/uploads/2024/09/levantamento-inedito-mostra-renuncias-bilionarias-para-industria-petroleo-docx.pdf",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Breakdown by tax (R$ bn)",
+    "value": "Cofins 107.7; II 114.3; PIS 23.0; IPI 9.3; Sudam/Sudene IRPJ 75% 5.6",
+    "currency": "BRL",
+    "value_year": "2015-2023",
+    "estimator": "INESC",
+    "kind": "subsidy",
+    "source_url": "https://inesc.org.br/wp-content/uploads/2024/09/levantamento-inedito-mostra-renuncias-bilionarias-para-industria-petroleo-docx.pdf",
+    "status": "verified",
+    "note": ""
+   }
+  ],
+  "summary": "Repetro waives import and federal taxes on oil and gas equipment, and runs to 2040. INESC counts R$260 bn of benefits to the 267 listed firms in 2015-2023, though part is not Repetro itself. The Receita keeps the regime out of its official tax expenditure report.",
+  "sources": [
+   {
+    "title": "INESC survey of oil industry tax waivers",
+    "url": "https://inesc.org.br/wp-content/uploads/2024/09/levantamento-inedito-mostra-renuncias-bilionarias-para-industria-petroleo-docx.pdf"
+   },
+   {
+    "title": "Conjur, 8 Jul 2025: Repetro and the tax reform",
+    "url": "https://www.conjur.com.br/2025-jul-08/repetro-impactos-da-reforma-tributaria-e-da-nova-lei-geral-aduaneira//?print=1"
+   },
+   {
+    "title": "Monitor Mercantil (403, not read)",
+    "url": "https://monitormercantil.com.br/repetro-renuncia-fiscal-bilionaria-sem-controle-ou-metas/"
+   }
+  ]
+ },
+ {
+  "id": "x-16",
+  "year": "1999-2017",
+  "start_year": 1999,
+  "title": "Marka and FonteCindam rescue (Cacciola)",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "Fernando Henrique Cardoso; BC president Francisco Lopes (took over days before)",
+  "what": "On 11-14 Jan 1999 the BC sold dollar futures to Marka and FonteCindam below market after the 13 Jan devaluation. The 2012 civil sentence ordered repayment of R$1.05 bn plus R$0.52 bn.",
+  "who_got": "Marka (Salvatore Cacciola) and FonteCindam. The Union financed it through the BC.",
+  "terms": "Futures were sold at a rate below the market rate of the day (JB report on the 2012 sentence).",
+  "mechanism": "BC discretion over exchange operations; civil improbity action.",
+  "who_paid": "The BC and Treasury, per the 2012 sentence, until it was reversed.",
+  "after": "The 2012 civil condemnation was annulled and TRF-1 held the rescue legal in 2017. The Cacciola criminal case (embezzlement, fled to Italy, extradited from Monaco 2008) was not opened; its figures must not be mixed with the civil case.",
+  "counter_view": "No loss at all: the BC and TRF-1 held the rescue legal in 2017 (ConJur).",
+  "signs": [
+   "bailout",
+   "conflict-of-interest-or-kickbacks",
+   "law-rewritten-for-deal"
+  ],
+  "figures": [
+   {
+    "label": "2012 civil sentence",
+    "value": "R$1.05 bn plus R$0.52 bn to be repaid",
+    "currency": "BRL",
+    "value_year": "2012",
+    "estimator": "Federal court, reported by Jornal do Brasil",
+    "kind": "bailout",
+    "source_url": "https://www.jb.com.br/pais/noticias/2012/03/29/amp/ex-dirigentes-do-bc-e-banqueiros-sao-condenados-a-devolver-bilhoes-ao-erario.html",
+    "status": "disputed",
+    "note": "Later annulled. Claim amounts vary: R$5.4 bn (annulment action), more than R$8 bn (ConJur), R$5.7 bn plus R$3.1 bn (MPF claim, snippet)."
+   },
+   {
+    "label": "Annulment action",
+    "value": "R$5.4 bn",
+    "currency": "BRL",
+    "value_year": null,
+    "estimator": "Court filings, as described in the sources",
+    "kind": "bailout",
+    "source_url": "https://www.conjur.com.br/2017-jun-27/resgate-banco-marka-banco-central-foi-legal-decide-trf//?print=1",
+    "status": "unverified",
+    "note": "Source for this figure is not explicit in the notes."
+   },
+   {
+    "label": "Annulled condemnation, ConJur",
+    "value": "more than R$8 bn",
+    "currency": "BRL",
+    "value_year": "2017",
+    "estimator": "ConJur",
+    "kind": "bailout",
+    "source_url": "https://www.conjur.com.br/2017-jun-27/resgate-banco-marka-banco-central-foi-legal-decide-trf//?print=1",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "MPF claim",
+    "value": "R$5.7 bn plus R$3.1 bn",
+    "currency": "BRL",
+    "value_year": null,
+    "estimator": "Search snippet",
+    "kind": "bailout",
+    "source_url": null,
+    "status": "unverified",
+    "note": "Search snippet only."
+   }
+  ],
+  "summary": "In January 1999 the central bank sold dollars forward to two banks below market just after a devaluation. A 2012 court ordered repayment of billions, but the ruling was annulled and a 2017 appeal court held the rescue legal. The figures vary widely between sources.",
+  "sources": [
+   {
+    "title": "Jornal do Brasil: ex-BC directors condemned in 2012",
+    "url": "https://www.jb.com.br/pais/noticias/2012/03/29/amp/ex-dirigentes-do-bc-e-banqueiros-sao-condenados-a-devolver-bilhoes-ao-erario.html"
+   },
+   {
+    "title": "ConJur, 27 Jun 2017: Marka rescue was legal, TRF decides",
+    "url": "https://www.conjur.com.br/2017-jun-27/resgate-banco-marka-banco-central-foi-legal-decide-trf//?print=1"
+   }
+  ]
+ },
+ {
+  "id": "x-17",
+  "year": "2000-2017",
+  "start_year": 2000,
+  "title": "REFIS and tax amnesties (special instalment programs)",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "FHC (Refis 2000), Lula (Paes 2003, Paex 2006, Refis da Crise 2009), Dilma (reopenings), Temer (Pert 2017); signatories not in the TCU chart",
+  "what": "Repeated special instalment programs for tax debts. The TCU counts about 28 programs in 2000-2017; the Receita counts about 40 in 18 years costing R$176 bn. Pert forgave R$47.4 bn and Refis da Crise R$60.9 bn.",
+  "who_got": "Debtors, including large firms; named beneficiaries not in the opened pages. Pert covered 131 thousand taxpayers. Taxpayers who joined three or more programs owed over R$160 bn and about half defaulted afterwards. Financed by compliant taxpayers and the social security budget.",
+  "terms": "The TCU says the payment terms 'find no parallel in the world'. Pert gave discounts up to 70% off fines and 90% off interest, and up to 175 instalments. The exact month counts in the TCU comparison chart were not extractable.",
+  "mechanism": "Each program is a medida provisoria converted into law, with discounts on fines and interest and long instalment plans. Lei 9.964/2000 (from MP 2.004-6/2000) created the first Refis; Paes 2003 is Lei 10.684/2003; Refis da Crise is Lei 11.941/2009.",
+  "who_paid": "The Treasury and social security funds. The TCU argues repeated amnesties reward non-payment and punish those who paid on time. The Pert and Refis da Crise forgiveness sums to R$108.3 bn (my sum from press figures); it overlaps with the Receita's R$176 bn and cannot be added.",
+  "after": "More programs followed after 2017, including 2020-2021 transaction regimes (not confirmed). Refis 2000 amounts were not opened.",
+  "counter_view": "The usual defence is that a collectible stream beats an uncollectible stock (no page opened to source it). The Receita itself is quoted as opposing a new Refis (Netcpa), so the tax authority does not back the practice.",
+  "signs": [
+   "subsidy-or-tax-break",
+   "law-rewritten-for-deal"
+  ],
+  "figures": [
+   {
+    "label": "Programs 2000-2017",
+    "value": "about 28",
+    "currency": "BRL",
+    "value_year": "2017",
+    "estimator": "TCU audit, Acordao 2.497/2018",
+    "kind": "other",
+    "source_url": "https://portal.tcu.gov.br/data/files/4D/E7/61/2B/42FD18102DFE0FF7F18818A8/Auditoria%20da%20Gestao%20da%20Divida%20Ativa%20Uniao.pdf",
+    "status": "disputed",
+    "note": "Range 28 (TCU, 2000-2017) to about 40 (Receita, 18 years to 2020); counting window and definition of program differ."
+   },
+   {
+    "label": "Cost of about 40 programs in 18 years",
+    "value": "R$176 bn",
+    "currency": "BRL",
+    "value_year": "2020",
+    "estimator": "Receita Federal 2020 study, cited by Netcpa",
+    "kind": "subsidy",
+    "source_url": "https://netcpa.com.br/colunas/senado-e-economia-negociam-para-novo-refis-ser-aprovado-ate-o-fim-de-maio/10313",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Active-debt companies",
+    "value": "under 15% of active companies owe about R$1.30 trillion",
+    "currency": "BRL",
+    "value_year": "2017",
+    "estimator": "TCU audit",
+    "kind": "other",
+    "source_url": "https://portal.tcu.gov.br/data/files/4D/E7/61/2B/42FD18102DFE0FF7F18818A8/Auditoria%20da%20Gestao%20da%20Divida%20Ativa%20Uniao.pdf",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Pert forgiven (2017)",
+    "value": "R$47.4 bn for 131 thousand taxpayers; R$59.5 bn put into up to 175 instalments",
+    "currency": "BRL",
+    "value_year": "2017",
+    "estimator": "Jovem Pan / Estadao Conteudo, 21 Jan 2019",
+    "kind": "subsidy",
+    "source_url": "https://jovempan.com.br/brasil/temer-perdoou-r-474-bi-de-dividas-de-empresas-maior-anistia-em-10-anos/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Refis da Crise forgiven (2009)",
+    "value": "R$60.9 bn",
+    "currency": "BRL",
+    "value_year": "2009",
+    "estimator": "Jovem Pan / Estadao Conteudo",
+    "kind": "subsidy",
+    "source_url": "https://jovempan.com.br/brasil/temer-perdoou-r-474-bi-de-dividas-de-empresas-maior-anistia-em-10-anos/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Debtors in three or more programs",
+    "value": "owed over R$160 bn; about half defaulted",
+    "currency": "BRL",
+    "value_year": null,
+    "estimator": "Jovem Pan / Estadao Conteudo",
+    "kind": "other",
+    "source_url": "https://jovempan.com.br/brasil/temer-perdoou-r-474-bi-de-dividas-de-empresas-maior-anistia-em-10-anos/",
+    "status": "verified",
+    "note": ""
+   }
+  ],
+  "summary": "Between 2000 and 2017 Brazil ran about 28 tax-debt instalment programs (40 by the Receita's count), each forgiving fines and interest. Pert and Refis da Crise alone forgave R$108.3 bn. The TCU says the repeats reward people who do not pay.",
+  "sources": [
+   {
+    "title": "TCU audit of the Union active debt (Acordao 2.497/2018)",
+    "url": "https://portal.tcu.gov.br/data/files/4D/E7/61/2B/42FD18102DFE0FF7F18818A8/Auditoria%20da%20Gestao%20da%20Divida%20Ativa%20Uniao.pdf"
+   },
+   {
+    "title": "Jovem Pan: Temer forgave R$47.4 bn",
+    "url": "https://jovempan.com.br/brasil/temer-perdoou-r-474-bi-de-dividas-de-empresas-maior-anistia-em-10-anos/"
+   },
+   {
+    "title": "Netcpa: Senate and Economy negotiate new Refis",
+    "url": "https://netcpa.com.br/colunas/senado-e-economia-negociam-para-novo-refis-ser-aprovado-ate-o-fim-de-maio/10313"
+   }
+  ]
+ },
+ {
+  "id": "x-18",
+  "year": "2006-2010",
+  "start_year": 2006,
+  "title": "Para registry with more land than the state, and the CNJ cancellations",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "Lula government; the Judiciary (CNJ, TJ-PA Corregedoria, with Iterpa and INCRA)",
+  "what": "CNJ-driven cancellations hit at least 10,728 registrations in 88 municipalities covering 91.1 million ha in Para. Separately, one registration of 410 million ha in the Vitoria do Xingu registry was cancelled in 2009, '3.9 times the size of Para'.",
+  "who_got": "Claimants through 'phantom' owners and fake inventories; the people behind most chains are not identified. Where later sold, buyers were logging and cattle interests.",
+  "terms": "No price; purchases were mostly registry entries.",
+  "mechanism": "Duplicated or inflated registrations, forged adjudication letters, notary collusion. Lei 6.739/1979 allowed administrative cancellation of null registrations; Provimento 13/2006 blocked registrations by size and date criteria. TJ-PA ordered only blocks, so the matter went to CNJ.",
+  "who_paid": "The state and the Union (land lost, years of litigation); innocent third-party buyers when registrations were cancelled.",
+  "after": "Imazon found some blocked or cancelled holdings re-entered INCRA's Sigef (1.5 million ha), including 332 properties of 2.5 million ha with 34% of the original forest (811 thousand ha) already deforested. 89% of lawsuits started before the CNJ decision.",
+  "counter_view": "The cancellations were administrative and based on size and date proxies, so some legitimate titles may have been caught; critics call it a legal-certainty problem (a jus.com.br article, listed in search and not read).",
+  "signs": [
+   "land-grant",
+   "regulator-absent-or-late",
+   "conflict-of-interest-or-kickbacks"
+  ],
+  "figures": [
+   {
+    "label": "Cancelled registrations in Para",
+    "value": "10,728 registrations, 91.1 million ha (91,124,142 ha) in 88 municipalities",
+    "currency": "other",
+    "value_year": "2006-2010",
+    "estimator": "Imazon, from CNJ-driven cancellations",
+    "kind": "land-area",
+    "source_url": "https://imazon.t3.storage.dev/combate-a-grilagem-de-terras-em-cartorios-no-para-uma-decada-de-avancos-e-desafios-a28bb932.pdf",
+    "status": "verified",
+    "note": "Sao Felix do Xingu and Altamira hold 45.6 million ha (50%). Sao Felix do Xingu alone: 3,167 properties in 32.8 million ha."
+   },
+   {
+    "label": "Single cancelled registration, Vitoria do Xingu",
+    "value": "410 million ha",
+    "currency": "other",
+    "value_year": "2009",
+    "estimator": "Imazon",
+    "kind": "land-area",
+    "source_url": "https://imazon.t3.storage.dev/combate-a-grilagem-de-terras-em-cartorios-no-para-uma-decada-de-avancos-e-desafios-a28bb932.pdf",
+    "status": "verified",
+    "note": "Excluded from the 91.1 million ha total. State area (about 125 million ha) not sourced in the file."
+   },
+   {
+    "label": "Amazonas registries cancelled",
+    "value": "48.4 million ha",
+    "currency": "other",
+    "value_year": "2007",
+    "estimator": "Lima 2002, cited by Imazon; validated by CNJ in 2007",
+    "kind": "land-area",
+    "source_url": "https://imazon.t3.storage.dev/combate-a-grilagem-de-terras-em-cartorios-no-para-uma-decada-de-avancos-e-desafios-a28bb932.pdf",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Private holdings in Para by other data",
+    "value": "12.8 million ha (10.5% of the state)",
+    "currency": "other",
+    "value_year": null,
+    "estimator": "Imazon",
+    "kind": "land-area",
+    "source_url": "https://imazon.t3.storage.dev/combate-a-grilagem-de-terras-em-cartorios-no-para-uma-decada-de-avancos-e-desafios-a28bb932.pdf",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Cancelled areas back in Sigef",
+    "value": "1.5 million ha",
+    "currency": "other",
+    "value_year": null,
+    "estimator": "Imazon",
+    "kind": "land-area",
+    "source_url": "https://imazon.t3.storage.dev/combate-a-grilagem-de-terras-em-cartorios-no-para-uma-decada-de-avancos-e-desafios-a28bb932.pdf",
+    "status": "verified",
+    "note": ""
+   }
+  ],
+  "summary": "Para's property registries held far more land than the state itself, including one 410-million-ha entry. CNJ-driven cancellations removed 91.1 million ha of registrations. Some of the land later reappeared in federal databases.",
+  "sources": [
+   {
+    "title": "Imazon: combating grilagem in Para registries",
+    "url": "https://imazon.t3.storage.dev/combate-a-grilagem-de-terras-em-cartorios-no-para-uma-decada-de-avancos-e-desafios-a28bb932.pdf"
+   },
+   {
+    "title": "jus.com.br: administrative cancellation of registrations (not read)",
+    "url": "https://jus.com.br/artigos/51653/o-cancelamento-administrativo-de-registros-e-matriculas-como-recurso-para-a-grilagem-de-terras-no-estado-do-para"
+   }
+  ]
+ },
+ {
+  "id": "x-19",
+  "year": "2008-2024",
+  "start_year": 2008,
+  "title": "Federal tax expenditures (gastos tributarios) series",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "Lula II, Dilma, Temer, Bolsonaro, Lula III (the series grows under all of them)",
+  "what": "Revenue not collected through exemptions, deductions, reduced rates and deferrals. In the Receita Federal series it rose from R$114.8 bn (3.82% of GDP) in 2008 to R$519.0 bn (4.78%) in 2023. The 2024 value of R$512.3 bn is a projection.",
+  "who_got": "In 2021: Simples Nacional 21.70% (R$91.3 bn), agriculture and agroindustry 12.12%, exempt personal income 8.85%, regional development 7.91%, non-profits 7.56%. Manaus and free-trade areas got R$25.2 bn (5.98%). 62% of federal tax expenditure flows to the Southeast and South. Financed by all other taxpayers.",
+  "terms": "The figure is the Receita's own estimate, not a market valuation. It leaves out several large items (Repetro, dividends, interest on equity, presumed profit) because the reference system treats them as normal or too hard to compute. So it is a floor, not a ceiling.",
+  "mechanism": "Hundreds of separate norms: Simples (LC 123/2006), PIS/COFINS zero rates, income tax exemptions, regional regimes. The legal basis of the report itself was not opened. Portaria RFB 319 (2023) and LC 187/2021 allowed publishing beneficiaries by company.",
+  "who_paid": "Other taxpayers. In 2021 federal expenditure equalled 24.03% of federal collection. FGV IBRE puts state expenditures at 2.4% of GDP in 2024, so federal plus state may reach 7.2% of GDP.",
+  "after": "The 2024 tax reform (EC 132/2023) and later proposals targeted tax expenditures (not confirmed from an opened page). The report still excludes the largest special regimes.",
+  "counter_view": "Brazil is not an outlier. For 2021 the Receita table puts Brazil at 4.67% of GDP against a Latin American listing average of 5.26%; Canada 7.94%, US 6.06%, Colombia 7.73%, Chile 2.49%, Peru 1.82%. The Receita notes each country uses its own method. FGV says Brazil's 2002-2022 average was 3.0% of GDP against Italy 7.0% and US 6.9%. The dispute is about the pace of growth and who benefits (Receita Federal DGT; FGV EESP report).",
+  "signs": [
+   "subsidy-or-tax-break"
+  ],
+  "figures": [
+   {
+    "label": "Federal tax expenditure 2008",
+    "value": "114.8 bn (3.82% of GDP)",
+    "currency": "BRL",
+    "value_year": "2008",
+    "estimator": "Receita Federal DGT",
+    "kind": "subsidy",
+    "source_url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-bases-efetivas/dgt-bases-efetivas-2021-serie-2019-a-2024-base-conceitual-e-gerencial.pdf",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Federal tax expenditure 2023",
+    "value": "519.0 bn (4.78% of GDP)",
+    "currency": "BRL",
+    "value_year": "2023",
+    "estimator": "Receita Federal DGT",
+    "kind": "subsidy",
+    "source_url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-bases-efetivas/dgt-bases-efetivas-2021-serie-2019-a-2024-base-conceitual-e-gerencial.pdf",
+    "status": "verified",
+    "note": "Series also: 2010 135.9 bn; 2013 223.3 bn; 2015 270.1 bn; 2018 311.2 bn; 2020 328.6 bn; 2021 420.8 bn; 2022 479.8 bn."
+   },
+   {
+    "label": "Federal tax expenditure 2024 (projection)",
+    "value": "512.3 bn (4.44% of GDP) in DGT; 563.5 bn (4.8%) in a later RFB estimate cited by FGV",
+    "currency": "BRL",
+    "value_year": "2024",
+    "estimator": "Receita Federal DGT vs later RFB estimate cited by FGV",
+    "kind": "subsidy",
+    "source_url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-bases-efetivas/dgt-bases-efetivas-2021-serie-2019-a-2024-base-conceitual-e-gerencial.pdf",
+    "status": "disputed",
+    "note": "Range R$512.3-563.5 bn. The gap comes from vintage (effective-base series vs later projections), partly unverified. FGV also cites R$578.4 bn as the updated RFB figure for 2025."
+   },
+   {
+    "label": "Share of federal tax collection",
+    "value": "17.4% (2008) to 24.0% (2021)",
+    "currency": "BRL",
+    "value_year": "2021",
+    "estimator": "Receita Federal DGT",
+    "kind": "subsidy",
+    "source_url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-bases-efetivas/dgt-bases-efetivas-2021-serie-2019-a-2024-base-conceitual-e-gerencial.pdf",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "State tax expenditure, 2024",
+    "value": "2.4% of GDP",
+    "currency": "BRL",
+    "value_year": "2024",
+    "estimator": "FGV IBRE (cited in FGV EESP report)",
+    "kind": "subsidy",
+    "source_url": "https://eesp.fgv.br/sites/default/files/files-eesp/relatorio_gastos_tributarios_e_zona_franca_de_manaus_v_18_de_junho2025.pdf",
+    "status": "verified",
+    "note": "Federal plus state may reach 7.2% of GDP."
+   }
+  ],
+  "summary": "Federal revenue given up through tax breaks grew from R$114.8 bn in 2008 to R$519.0 bn in 2023, about a quarter of federal collection. The official series leaves out some of the biggest regimes, so it understates the total. International comparisons show Brazil is near the regional average, so the debate is about pace and beneficiaries.",
+  "sources": [
+   {
+    "title": "Receita Federal DGT, bases efetivas 2021, series 2019-2024",
+    "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-bases-efetivas/dgt-bases-efetivas-2021-serie-2019-a-2024-base-conceitual-e-gerencial.pdf"
+   },
+   {
+    "title": "FGV EESP report on tax expenditures and ZFM, June 2025",
+    "url": "https://eesp.fgv.br/sites/default/files/files-eesp/relatorio_gastos_tributarios_e_zona_franca_de_manaus_v_18_de_junho2025.pdf"
+   },
+   {
+    "title": "INESC survey of oil industry tax waivers",
+    "url": "https://inesc.org.br/wp-content/uploads/2024/09/levantamento-inedito-mostra-renuncias-bilionarias-para-industria-petroleo-docx.pdf"
+   }
+  ]
+ },
+ {
+  "id": "x-20",
+  "year": "2009-2021",
+  "start_year": 2009,
+  "title": "Terra Legal: prices charged versus market value, and the TCU audits",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "Lula (2009); Temer (2017 changes); Bolsonaro (MP 910/2019); also state governments (Para, Amapa, Roraima)",
+  "what": "Federal titling of occupied public land in the Amazon. Imazon: privatising the 19.6 million ha of undesignated federal land at current legal values would cost society R$62-88 billion, about a quarter of Petrobras's 2019 market value. In Para the gap between market value and state price reaches R$9 billion across 8,053 properties.",
+  "who_got": "Occupants of federal land in the Amazon, including holders above the legal limit. TCU audited R$58.6 billion of land; 62 holders above 2,500 ha occupy 540 thousand ha.",
+  "terms": "Lei 11.952 art. 11: free titling up to 1 fiscal module; art. 12: larger areas at 10% to 50% of the INCRA minimum land-value table, paid over 20 years with up to 3 years of grace. That table is itself below market. Amapa sold areas for as little as 4% of market value and Roraima allowed up to 85% discount for those who deforested (both search summaries).",
+  "mechanism": "Dispensation of bidding; discounts by size; instalments; self-declared occupation with remote checks. State land agencies (Iterpa in Para, and in Amapa and Roraima) used discounted price tables; Roraima Lei 976/2014 as changed by Lei 1.351/2019.",
+  "who_paid": "The Treasury (forgone revenue), state treasuries, the forest, and legitimate small occupants who wait.",
+  "after": "The TCU ordered recovery of irregular areas; no complete recovery was found. TCU 627/2015 price findings not confirmed. Title production fell to almost zero in the first half of 2019.",
+  "counter_view": "The government argued the subsidy helps poor occupants and low land values reflect poor access and lack of infrastructure. Imazon replies that most area goes to large claimants and that the subsidy brings no socioenvironmental return (Imazon, 10 facts).",
+  "signs": [
+   "land-grant",
+   "below-value-price",
+   "paid-in-paper-or-cheap-credit",
+   "rights-legalised-after-fact",
+   "regulator-absent-or-late"
+  ],
+  "figures": [
+   {
+    "label": "Forgone value if 19.6 million ha privatised at legal values",
+    "value": "R$62-88 billion",
+    "currency": "BRL",
+    "value_year": "2019",
+    "estimator": "Imazon",
+    "kind": "price-gap",
+    "source_url": "https://imazon.fly.storage.tigris.dev/uploads/2021/04/10FatosRegularizacaoFundiaria.pdf",
+    "status": "verified",
+    "note": "Imazon estimate."
+   },
+   {
+    "label": "Para gap between market value and state price",
+    "value": "R$9 billion across 8,053 properties",
+    "currency": "BRL",
+    "value_year": null,
+    "estimator": "Imazon",
+    "kind": "price-gap",
+    "source_url": "https://imazon.fly.storage.tigris.dev/uploads/2021/04/10FatosRegularizacaoFundiaria.pdf",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Amapa sales as share of market value",
+    "value": "as little as 4%",
+    "currency": "BRL",
+    "value_year": null,
+    "estimator": "Imazon, via IHU/Unisinos (search summary)",
+    "kind": "price-gap",
+    "source_url": "https://ihu.unisinos.br/610016-grilagem-areas-publicas-da-amazonia-no-amapa-chegam-a-ser-vendidas-por-4-do-valor-de-mercado",
+    "status": "unverified",
+    "note": "Search summary only."
+   },
+   {
+    "label": "Roraima discount for those who deforested",
+    "value": "up to 85%",
+    "currency": "BRL",
+    "value_year": null,
+    "estimator": "IHU/Unisinos (search summary)",
+    "kind": "price-gap",
+    "source_url": "https://ihu.unisinos.br/611941-roraima-permite-venda-de-area-publica-com-ate-85-de-desconto-para-quem-desmatou",
+    "status": "unverified",
+    "note": "Search summary only."
+   },
+   {
+    "label": "Land audited by TCU",
+    "value": "R$58.6 billion; 28,331 titles to 31/12/2017 (2,057,119.95 ha)",
+    "currency": "BRL",
+    "value_year": "2017",
+    "estimator": "TCU Acordao 727/2020, via MPF Nota Tecnica 8/2020",
+    "kind": "land-area",
+    "source_url": "https://static.congressoemfoco.com.br/2020/04/nota-tecnica-8-2020-regularizacao-fundiaria.pdf",
+    "status": "verified",
+    "note": "Also: at least R$1 billion loss from non-regularizable areas of at least 657.9 thousand ha; 887 thousand ha with refused applications still occupied (R$2.4 billion); at least 82 thousand ha deforested in a sample; 7,799.4296 ha titled to 94 holders who did not meet art. 5 (loss above R$12 million)."
+   },
+   {
+    "label": "Holders above 2,500 ha",
+    "value": "62 holders occupy 540 thousand ha (R$1.3 billion at VTN); 385 thousand ha above the limit (R$897 million), 193.5 thousand ha in Para and 115 thousand ha in Rondonia",
+    "currency": "BRL",
+    "value_year": "2017",
+    "estimator": "TCU via MPF Nota Tecnica 8/2020",
+    "kind": "land-area",
+    "source_url": "https://static.congressoemfoco.com.br/2020/04/nota-tecnica-8-2020-regularizacao-fundiaria.pdf",
+    "status": "verified",
+    "note": ""
+   }
+  ],
+  "summary": "Brazil sells occupied public land in the Amazon at 10-50% of an already low official table, and some states at far less. Imazon estimates this forgoes R$62-88 billion on 19.6 million ha. A TCU audit found titles given to holders above the legal limit and on areas that should not have been regularised.",
+  "sources": [
+   {
+    "title": "MPF Nota Tecnica 8/2020 on MP 910 and TCU Acordao 727/2020",
+    "url": "https://static.congressoemfoco.com.br/2020/04/nota-tecnica-8-2020-regularizacao-fundiaria.pdf"
+   },
+   {
+    "title": "Imazon, 10 facts on land regularization",
+    "url": "https://imazon.fly.storage.tigris.dev/uploads/2021/04/10FatosRegularizacaoFundiaria.pdf"
+   },
+   {
+    "title": "IHU/Unisinos: Amapa sells public areas at 4% of market value",
+    "url": "https://ihu.unisinos.br/610016-grilagem-areas-publicas-da-amazonia-no-amapa-chegam-a-ser-vendidas-por-4-do-valor-de-mercado"
+   },
+   {
+    "title": "IHU/Unisinos: Roraima allows up to 85% discount",
+    "url": "https://ihu.unisinos.br/611941-roraima-permite-venda-de-area-publica-com-ate-85-de-desconto-para-quem-desmatou"
+   },
+   {
+    "title": "Imazon: Para regularization laws (not opened for numbers)",
+    "url": "https://imazon.fly.storage.tigris.dev/uploads/2021/03/LeisRegularizacaoFundiaria_Para.pdf"
+   }
+  ]
+ },
+ {
+  "id": "x-21",
+  "year": "2008-2019",
+  "start_year": 2009,
+  "title": "Amnesty laws and moving cutoff dates",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "Lula (Lei 11.952/2009); Temer (MP 759/2016, Lei 13.465/2017); Bolsonaro (MP 910/2019)",
+  "what": "Lei 11.952 set a cutoff of 22 July 2008; later occupations can be sold at the maximum land value. Lei 13.465/2017 raised the regularizable limit from 1,500 ha to 2,500 ha. MP 910/2019 would have allowed 55 to 65 million ha of undesignated Union land to be regularised, including occupations with illegal deforestation after 22 July 2008.",
+  "who_got": "Occupants with up to 2,500 ha and, under MP 910, larger claims; large claimants dominate the area.",
+  "terms": "See the Terra Legal case.",
+  "mechanism": "Statutory amnesty by date. The Chamber commission rejected PL 8411/17, which would have restored the 1,500 ha limit, on 11 April 2018. When MP 910 lapsed is not confirmed. Lei 14.757/2023 was not researched.",
+  "who_paid": "The Treasury and the forest; honest occupants who respected earlier cutoffs.",
+  "after": "ADIs against Lei 13.465 were filed (a former prosecutor-general, Raquel Dodge, reportedly argued unconstitutionality; not opened).",
+  "counter_view": "Proponents say regularization brings legal certainty and enables compliance with the Forest Code. MPF Nota Tecnica 8/2020 argues it rewards past crimes.",
+  "signs": [
+   "land-grant",
+   "law-rewritten-for-deal",
+   "rights-legalised-after-fact"
+  ],
+  "figures": [
+   {
+    "label": "Land in play",
+    "value": "19.6 million ha of undesignated federal land",
+    "currency": "other",
+    "value_year": "2020",
+    "estimator": "MPF Nota Tecnica 8/2020",
+    "kind": "land-area",
+    "source_url": "https://static.congressoemfoco.com.br/2020/04/nota-tecnica-8-2020-regularizacao-fundiaria.pdf",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Land under MP 910/2019",
+    "value": "55 to 65 million ha of undesignated Union land",
+    "currency": "other",
+    "value_year": "2019",
+    "estimator": "MPF Nota Tecnica 8/2020",
+    "kind": "land-area",
+    "source_url": "https://static.congressoemfoco.com.br/2020/04/nota-tecnica-8-2020-regularizacao-fundiaria.pdf",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Regularizable limit",
+    "value": "1,500 ha raised to 2,500 ha by Lei 13.465/2017",
+    "currency": "other",
+    "value_year": "2017",
+    "estimator": "Chamber of Deputies news",
+    "kind": "land-area",
+    "source_url": "https://www.camara.leg.br/noticias/535768-projeto-que-reverte-regulamentacao-de-terras-da-amazonia-legal-e-rejeitado/",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "Cutoff date after Lei 13.465/2017",
+    "value": "22 July 2008 (statute text) versus 2011 (ERL 2019, from memory)",
+    "currency": "other",
+    "value_year": "2017",
+    "estimator": "Statute text vs Imazon/ERL 2019",
+    "kind": "other",
+    "source_url": "https://static.congressoemfoco.com.br/2020/04/nota-tecnica-8-2020-regularizacao-fundiaria.pdf",
+    "status": "disputed",
+    "note": "Both recorded; the 2011 claim was cited from memory and not confirmed."
+   }
+  ],
+  "summary": "Brazil's land amnesties keep moving the goalposts: a 2008 cutoff, a limit raised from 1,500 to 2,500 ha, and a 2019 proposal covering 55-65 million ha. Each change rewards earlier occupation and signals to new grabbers to wait. Proponents say it gives legal certainty.",
+  "sources": [
+   {
+    "title": "MPF Nota Tecnica 8/2020",
+    "url": "https://static.congressoemfoco.com.br/2020/04/nota-tecnica-8-2020-regularizacao-fundiaria.pdf"
+   },
+   {
+    "title": "Camara: bill reversing Amazon land regulation is rejected",
+    "url": "https://www.camara.leg.br/noticias/535768-projeto-que-reverte-regulamentacao-de-terras-da-amazonia-legal-e-rejeitado/"
+   }
+  ]
+ },
+ {
+  "id": "x-22",
+  "year": "2009",
+  "start_year": 2009,
+  "title": "Votorantim and Banco do Brasil",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "Lula",
+  "what": "Banco do Brasil bought 49.99% of Banco Votorantim for R$4.2 bn, announced Jan-Sep 2009.",
+  "who_got": "The Votorantim group, whose bank had lost money in the 2008 derivatives and funding squeeze (cause not confirmed).",
+  "terms": "R$4.2 bn for 49.99%. Post-deal returns were not opened.",
+  "mechanism": "A state-bank acquisition.",
+  "who_paid": "Banco do Brasil shareholders, with the Treasury as controlling shareholder.",
+  "after": "Not covered in the notes.",
+  "counter_view": "Banco do Brasil called it a strategic purchase into auto finance, not a rescue.",
+  "signs": [
+   "bailout",
+   "public-money-private-control"
+  ],
+  "figures": [
+   {
+    "label": "Price for 49.99% of Banco Votorantim",
+    "value": "R$4.2 bn",
+    "currency": "BRL",
+    "value_year": "2009",
+    "estimator": "Congresso em Foco",
+    "kind": "public-finance-to-buyer",
+    "source_url": "https://www.congressoemfoco.com.br/noticia/74655/bb-compra-parte-do-banco-votorantim-por-r-4-2-bilhoes",
+    "status": "verified",
+    "note": ""
+   }
+  ],
+  "summary": "In 2009 the state-owned Banco do Brasil bought half of Banco Votorantim for R$4.2 bn. The bank called it a strategic move, while the notes treat it as a possible bailout channel. Later returns were not checked.",
+  "sources": [
+   {
+    "title": "Congresso em Foco: BB buys part of Banco Votorantim",
+    "url": "https://www.congressoemfoco.com.br/noticia/74655/bb-compra-parte-do-banco-votorantim-por-r-4-2-bilhoes"
+   }
+  ]
+ },
+ {
+  "id": "x-23",
+  "year": "2009-2011",
+  "start_year": 2009,
+  "title": "Panamericano and Caixa",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "Lula",
+  "what": "Caixa bought a stake in Banco Panamericano in Dec 2009 (36.6%, not confirmed). The BC found an accounting fraud in Sep 2010. Caixa sold its stake to BTG in 2011.",
+  "who_got": "The controller (Grupo Silvio Santos) got an FGC loan, reported as R$2.5 bn (amount not confirmed). The FGC is funded by banks, not the Treasury.",
+  "terms": "Not covered in the opened pages.",
+  "mechanism": "A state-bank stake purchase plus a private deposit-guarantee loan.",
+  "who_paid": "The FGC (banks) for the hole; Caixa carried the risk and booked a gain.",
+  "after": "Caixa sold its stake to BTG Pactual in 2011.",
+  "counter_view": "Caixa made a profit of R$2.02 bn on the sequence (from earlier reading; the exact source needs re-checking).",
+  "signs": [
+   "bailout",
+   "public-money-private-control"
+  ],
+  "figures": [
+   {
+    "label": "FGC loan to controller",
+    "value": "R$2.5 bn",
+    "currency": "BRL",
+    "value_year": "2010",
+    "estimator": "Notes (amount unverified)",
+    "kind": "bailout",
+    "source_url": "https://capitalaberto.com.br/empresas/2010/12/cronica-de-um-rombo-anunciado",
+    "status": "unverified",
+    "note": "Amount not confirmed."
+   },
+   {
+    "label": "Caixa stake purchased",
+    "value": "36.6%",
+    "currency": "other",
+    "value_year": "2009",
+    "estimator": "Notes (unverified)",
+    "kind": "public-finance-to-buyer",
+    "source_url": null,
+    "status": "unverified",
+    "note": ""
+   },
+   {
+    "label": "Caixa profit on the sequence",
+    "value": "R$2.02 bn",
+    "currency": "BRL",
+    "value_year": "2011",
+    "estimator": "Earlier reading; source needs re-checking",
+    "kind": "other",
+    "source_url": "https://www.folhape.com.br/economia/caixa-vende-participacao-no-banco-pan-para-o-btg-pactual-por-r-37/179108/",
+    "status": "unverified",
+    "note": "Exact source to be re-checked."
+   }
+  ],
+  "summary": "Caixa bought into Banco Panamericano in 2009. In 2010 the central bank found an accounting fraud and the bank guarantee fund (FGC) lent to the controller. Caixa sold its stake to BTG in 2011 and reportedly made a profit.",
+  "sources": [
+   {
+    "title": "Capital Aberto: chronicle of a hole foretold",
+    "url": "https://capitalaberto.com.br/empresas/2010/12/cronica-de-um-rombo-anunciado"
+   },
+   {
+    "title": "Folha PE: Caixa sells Pan stake to BTG",
+    "url": "https://www.folhape.com.br/economia/caixa-vende-participacao-no-banco-pan-para-o-btg-pactual-por-r-37/179108/"
+   }
+  ]
+ },
+ {
+  "id": "x-24",
+  "year": "2012-2020",
+  "start_year": 2012,
+  "title": "Undesignated public forests and CAR self-declarations",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "Dilma (CAR created with the Forest Code 2012); Temer and Bolsonaro (registrations rose)",
+  "what": "Undesignated public forests cover 57.5 million ha in the Amazon. By 2020, 18.6 million ha of them (32%) were illegally registered in the rural environmental registry (CAR). Imazon counts 86.1 million ha (17% of the Amazon) still awaiting a destination.",
+  "who_got": "Claimants who file a CAR on public land; IPAM says 44% of 2020 CAR entries were large areas.",
+  "terms": "The CAR is free and self-declared. It is not a title but is used as proof of possession for later regularization.",
+  "mechanism": "The CAR is self-declaratory and does not check ownership; overlaps with public forests can be registered, which feeds speculation and later regularization.",
+  "who_paid": "The Union and the states; the forest (deforestation and fire higher in CAR areas inside public forests).",
+  "after": "Ongoing. Imazon recommended blocking CAR on these forests in 2021 (not verified in the pages opened).",
+  "counter_view": "Defenders say CAR is only an environmental registry and confers no ownership. IPAM answers that it works as a de facto land document.",
+  "signs": [
+   "land-grant",
+   "rights-legalised-after-fact",
+   "regulator-absent-or-late"
+  ],
+  "figures": [
+   {
+    "label": "Undesignated public forests in the Amazon",
+    "value": "57.5 million ha",
+    "currency": "other",
+    "value_year": "2020",
+    "estimator": "IPAM, Amazon on Fire 7",
+    "kind": "land-area",
+    "source_url": "https://ipam.org.br/wp-content/uploads/2021/04/Amazon-on-Fire-7-en.pdf",
+    "status": "disputed",
+    "note": "Range 57.5 million ha (IPAM) to 86.1 million ha (Imazon); different definitions and dates, not reconciled."
+   },
+   {
+    "label": "Undesignated forests illegally registered in CAR",
+    "value": "18.6 million ha (32%)",
+    "currency": "other",
+    "value_year": "2020",
+    "estimator": "IPAM, Amazon on Fire 7",
+    "kind": "land-area",
+    "source_url": "https://ipam.org.br/wp-content/uploads/2021/04/Amazon-on-Fire-7-en.pdf",
+    "status": "verified",
+    "note": "CAR inside these forests rose 232%."
+   },
+   {
+    "label": "Public land awaiting destination",
+    "value": "86.1 million ha (17% of the Amazon)",
+    "currency": "other",
+    "value_year": "2021",
+    "estimator": "Imazon, 10 facts on land regularization",
+    "kind": "land-area",
+    "source_url": "https://imazon.fly.storage.tigris.dev/uploads/2021/04/10FatosRegularizacaoFundiaria.pdf",
+    "status": "disputed",
+    "note": "See range on the 57.5 million ha figure."
+   }
+  ],
+  "summary": "By 2020, nearly a third of the Amazon's undesignated public forests (18.6 million ha) had been registered in the CAR by private claimants. The CAR is not a title, but it works as a first step toward regularization. Counts of undesignated land differ between IPAM and Imazon.",
+  "sources": [
+   {
+    "title": "IPAM, Amazon on Fire 7",
+    "url": "https://ipam.org.br/wp-content/uploads/2021/04/Amazon-on-Fire-7-en.pdf"
+   },
+   {
+    "title": "Imazon, 10 facts on land regularization",
+    "url": "https://imazon.fly.storage.tigris.dev/uploads/2021/04/10FatosRegularizacaoFundiaria.pdf"
+   }
+  ]
+ },
+ {
+  "id": "x-25",
+  "year": "1989-2025 (reform 2017)",
+  "start_year": 2017,
+  "title": "CFEM mining royalty and the 2017 reform",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "Michel Temer (2017 reform)",
+  "what": "The public share of mineral rent. Before 2017 the royalty was charged on net revenue: iron ore 2%, gold 1%, bauxite/manganese/potassium 3%, precious stones 0.2%. Collection was R$7.45 bn in 2024 on R$270.8 bn of mineral operations; iron ore supplied 75.01% of it.",
+  "who_got": "Miners keep the rent after the royalty. Petrobras plus mining make up 51.2% of 18 'super-profit' companies listed in the slides (profit year not stated). Company-level payments were not extracted. Financed by producing municipalities and the public that bears the environmental cost.",
+  "terms": "Lei 13.540/2017 moved the base from net to gross revenue less sale taxes, and raised the iron ore ceiling from 2% to 3.5% (can be cut to 2%), gold 1% to 1.5%, diamond 0.2% to 2%, niobium 2% to 3%. Other systems tax margin or profit: Ontario 10% of net profit, Quebec 12%, Newfoundland 16%, Peru 1-12% of operating profit, Chile 1% of sales plus 8-26% of operating margin, South Africa 0.5-7%, Western Australia 7.5% of sales on iron ore (official page not opened).",
+  "mechanism": "Lei 13.540/2017 (from MP 789/2017). Old distribution: 12% Union, 23% state, 65% producing municipality, with a 50% landowner share under Lei 8.901/94. The pre-2017 net base let firms shrink the amount due.",
+  "who_paid": "Public revenue lost to under-payment. The TCU found about 69.7% of titleholders did not pay voluntarily in 2017-2022, and those who paid under-reported by 40.2% on average (cited by industry lawyers; the TCU PDF itself was unreadable). Lawyers estimate better enforcement could lift collection to about R$16 bn with no rate change.",
+  "after": "Collection grew about fourfold between 2017 and 2024, but how much comes from the new base versus price and volume is not separated. A Chamber hearing on 12 Aug 2025 shows the fight is still open.",
+  "counter_view": "The industry side (Eixos, by FPA Advocacia) says nominal rates cannot be compared across regimes, a rate on gross revenue can be as onerous as higher rates elsewhere, and the problem is enforcement not rate. The opposite view (Giliad slides to the Chamber) frames sector profitability as the base for a higher take. The effective-rate comparison could not be settled from the pages opened.",
+  "signs": [
+   "exclusive-privilege",
+   "regulator-absent-or-late"
+  ],
+  "figures": [
+   {
+    "label": "CFEM collection 2024",
+    "value": "R$7.45 bn on R$270.8 bn of operations (implied rate about 2.75%)",
+    "currency": "BRL",
+    "value_year": "2024",
+    "estimator": "Giliad de Souza Silva, Chamber CME hearing, 12 Aug 2025",
+    "kind": "other",
+    "source_url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cme/apresentacoes-em-eventos/apresentacao-de-convidados-2025/12-08-2025-debate-sobre-a-compensacao-financeira-pela-exploracao-mineral-cfem/Giliad%20Souza.pdf",
+    "status": "verified",
+    "note": "Implied rate is a division of the slide figures. Iron ore: R$5.58 bn on R$160.7 bn (about 3.47%)."
+   },
+   {
+    "label": "CFEM collection 2025",
+    "value": "R$7.91 bn, up 6.3%; record about R$10.3 bn in 2021",
+    "currency": "BRL",
+    "value_year": "2025",
+    "estimator": "Brasil 61",
+    "kind": "other",
+    "source_url": "https://brasil61.com/n/cfem-94-dos-municipios-brasileiros-receberam-recursos-da-cfem-em-2025-bras2615627",
+    "status": "verified",
+    "note": ""
+   },
+   {
+    "label": "CFEM collection 2017-2020",
+    "value": "R$1.84 bn, 3.04 bn, 4.50 bn, 6.08 bn",
+    "currency": "BRL",
+    "value_year": "2017-2020",
+    "estimator": "Search snippet",
+    "kind": "other",
+    "source_url": null,
+    "status": "unverified",
+    "note": "Search-snippet only."
+   },
+   {
+    "label": "Titleholders not paying voluntarily 2017-2022",
+    "value": "69.7%; payers under-reported by 40.2% on average",
+    "currency": "BRL",
+    "value_year": "2017-2022",
+    "estimator": "TCU, as cited by FPA lawyers in Eixos",
+    "kind": "other",
+    "source_url": "https://eixos.com.br/mineracao/cfem-antes-de-aumentar-royalties-e-preciso-comparar-bases-e-cobrar-eficiencia/",
+    "status": "unverified",
+    "note": "TCU PDF unreadable; second-hand."
+   },
+   {
+    "label": "Collection possible with better enforcement",
+    "value": "about R$16 bn",
+    "currency": "BRL",
+    "value_year": null,
+    "estimator": "FPA Advocacia (author estimate)",
+    "kind": "other",
+    "source_url": "https://eixos.com.br/mineracao/cfem-antes-de-aumentar-royalties-e-preciso-comparar-bases-e-cobrar-eficiencia/",
+    "status": "unverified",
+    "note": "Author estimate."
+   },
+   {
+    "label": "Western Australia iron ore royalty",
+    "value": "7.5% of sales value (5.625% on fines under the 2010 deal)",
+    "currency": "AUD",
+    "value_year": "2013",
+    "estimator": "Search-result summary",
+    "kind": "other",
+    "source_url": "https://www.wa.gov.au/service/resources/mining-and-petroleum/royalties-western-australia",
+    "status": "unverified",
+    "note": "Official page not opened."
+   }
+  ],
+  "summary": "Brazil's mining royalty (CFEM) was charged on net revenue until 2017, when the base became gross revenue and some rates rose. Collection reached R$7.45 bn in 2024. Industry says the problem is enforcement, while others say miners keep too much of the rent.",
+  "sources": [
+   {
+    "title": "MME royalty comparison report no. 9",
+    "url": "https://www.gov.br/mme/pt-br/assuntos/secretarias/geologia-mineracao-e-transformacao-mineral/relatorios-de-apoio-ao-pnm-2030-projeto-estal-1/estudos-sobre-economia-e-o-setor-mineral-brasileiro/documentos/relatorio-ndeg9_analise-comparativa-de-royalties.pdf"
+   },
+   {
+    "title": "Giliad Souza slides, Chamber CME hearing, 12 Aug 2025",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cme/apresentacoes-em-eventos/apresentacao-de-convidados-2025/12-08-2025-debate-sobre-a-compensacao-financeira-pela-exploracao-mineral-cfem/Giliad%20Souza.pdf"
+   },
+   {
+    "title": "Brasil 61: CFEM 2025",
+    "url": "https://brasil61.com/n/cfem-94-dos-municipios-brasileiros-receberam-recursos-da-cfem-em-2025-bras2615627"
+   },
+   {
+    "title": "Congresso em Foco: MP 789 royalties",
+    "url": "https://www.congressoemfoco.com.br/noticia/28953/camara-aprova-mp-dos-royalties-da-mineracao-texto-altera-distribuicao-dos-recursos"
+   },
+   {
+    "title": "Eixos: CFEM, compare bases before raising royalties",
+    "url": "https://eixos.com.br/mineracao/cfem-antes-de-aumentar-royalties-e-preciso-comparar-bases-e-cobrar-eficiencia/"
+   },
+   {
+    "title": "TCU inspection report copy (not read)",
+    "url": "https://observatoriodamineracao.com.br/wp-content/uploads/2024/09/Relatorio-completo-de-fiscalizacao-tcu.pdf"
+   },
+   {
+    "title": "Western Australia royalties",
+    "url": "https://www.wa.gov.au/service/resources/mining-and-petroleum/royalties-western-australia"
+   },
+   {
+    "title": "Camara: Lei 13.540/2017 (text not opened)",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13540-18-dezembro-2017-785987-norma-pl.html"
+   }
+  ]
+ },
+ {
+  "id": "x-26",
+  "year": "2020-2021",
+  "start_year": 2020,
+  "title": "Pandemic credit lines and guarantee funds",
+  "era": "Cross-cutting mechanisms (all eras)",
+  "government": "Bolsonaro; Guedes",
+  "what": "Union equity contributions to the guarantee funds FGO (Pronampe), FGI (Peac-FGI) and the Pese payroll line.",
+  "who_got": "Small businesses and the banks that lent against the Union guarantee; the guarantee shifts default risk to the funds.",
+  "terms": "Not covered.",
+  "mechanism": "Equity contributions to guarantee funds that honour defaulted loans.",
+  "who_paid": "The Union via the funds. The total of honoured guarantees and losses so far was not found.",
+  "after": "Pronampe debts honoured by the FGO were renegotiated by Banco do Brasil.",
+  "counter_view": "The programs kept firms alive and the loss rate depends on guarantee design; no verified figure for either (researcher's note).",
+  "signs": [
+   "bailout",
+   "public-money-private-control"
+  ],
+  "figures": [
+   {
+    "label": "Total guarantees honoured and losses",
+    "value": "not found",
+    "currency": "BRL",
+    "value_year": null,
+    "estimator": "None",
+    "kind": "bailout",
+    "source_url": "https://portal.tcu.gov.br/data/files/5C/65/1F/99/5D15C710C74E7EB7E18818A8/014.547-2021-0-ALC%20-%20Anop_programas_emergenciais_concessao_credito_pandemia.pdf",
+    "status": "unverified",
+    "note": "No total seen from an opened page."
+   }
+  ],
+  "summary": "In 2020-21 the Union put money into guarantee funds so banks could lend to small firms with default risk covered. The loss is hidden in fund equity and no total was found.",
+  "sources": [
+   {
+    "title": "TCU audit of pandemic emergency credit programs",
+    "url": "https://portal.tcu.gov.br/data/files/5C/65/1F/99/5D15C710C74E7EB7E18818A8/014.547-2021-0-ALC%20-%20Anop_programas_emergenciais_concessao_credito_pandemia.pdf"
+   },
+   {
+    "title": "Folha PE: BB renegotiates Pronampe debts honoured by FGO",
+    "url": "https://www.folhape.com.br/economia/bb-inicia-renegociacao-de-dividas-do-pronampe-honradas-pelo-fgo/340315/"
+   }
+  ]
+ }
+]

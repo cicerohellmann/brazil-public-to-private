@@ -1,0 +1,2335 @@
+{
+  "era": "1964-1985, military dictatorship",
+  "terms": [
+    {
+      "term": "Castelo Branco 1964-1967",
+      "decision_makers": [
+        "p-castelo-branco",
+        "p-roberto-campos",
+        "p-bulhoes",
+        "p-lincoln-gordon",
+        "p-eliezer-batista",
+        "p-antunes"
+      ]
+    },
+    {
+      "term": "Costa e Silva 1967-1969",
+      "decision_makers": [
+        "p-costa-e-silva",
+        "p-delfim-netto",
+        "p-galveas",
+        "p-albuquerque-lima",
+        "p-costa-cavalcanti",
+        "p-dias-leite",
+        "p-antunes"
+      ]
+    },
+    {
+      "term": "Médici 1969-1974",
+      "decision_makers": [
+        "p-medici",
+        "p-delfim-netto",
+        "p-galveas",
+        "p-dias-leite",
+        "p-reis-velloso",
+        "p-costa-cavalcanti",
+        "p-andreazza",
+        "p-geisel"
+      ]
+    },
+    {
+      "term": "Geisel 1974-1979",
+      "decision_makers": [
+        "p-geisel",
+        "p-simonsen",
+        "p-reis-velloso",
+        "p-ueki",
+        "p-araken-oliveira",
+        "p-paulo-nogueira-batista",
+        "p-azeredo-silveira",
+        "p-roquette-reis",
+        "p-costa-cavalcanti",
+        "p-roberto-campos"
+      ]
+    },
+    {
+      "term": "Figueiredo 1979-1985",
+      "decision_makers": [
+        "p-figueiredo",
+        "p-delfim-netto",
+        "p-galveas",
+        "p-langoni",
+        "p-andreazza",
+        "p-cesar-cals",
+        "p-ueki",
+        "p-eliezer-batista",
+        "p-sebastiao-curio",
+        "p-simonsen"
+      ]
+    },
+    {
+      "term": "Sarney 1985 (first civilian term)",
+      "decision_makers": [
+        "p-sarney",
+        "p-bayama-denys",
+        "p-fernao-bracher"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "p-castelo-branco",
+      "name": "Humberto de Alencar Castelo Branco",
+      "posts": [
+        {
+          "post": "President of the Republic",
+          "start": 1964,
+          "end": 1967,
+          "appointed_by": "Congress, under the April 1964 military regime",
+          "status": "verified"
+        }
+      ],
+      "before": "Army marshal; led the 1964 coup group. Per Wikipedia on Eliezer Batista, he advised the dismissed Vale president to take the presidency of the private miner Caemi instead of facing prison.",
+      "after": "Died in a plane collision in July 1967.",
+      "foreign_ties": [
+        {
+          "counterpart": "United States government",
+          "kind": "foreign government",
+          "detail": "Recognised promptly by Washington: Lincoln Gordon asked President Johnson for immediate recognition (CPDOC, Gordon).",
+          "source_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/gordon-lincoln",
+          "status": "verified"
+        }
+      ],
+      "case_links": [
+        {
+          "case_id": "e3-04",
+          "role": "head of government when the Hanna dispute began (1964)",
+          "detail": "Held office at the time. The claim that he signed a decree on 23 Dec 1964 was not confirmed in any opened page and was removed.",
+          "source_url": "https://en.wikipedia.org/wiki/Caemi",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-06",
+          "role": "SUDAM created in 1966 under his government",
+          "detail": "Operation Amazonia; case e3-06.",
+          "source_url": "https://www.abphe.org.br/uploads/abphe2023/anais/joaoraiel.pdf",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-07",
+          "role": "Decreto-Lei 288/1967 (Zona Franca de Manaus) issued in his last weeks (28 Feb 1967)",
+          "detail": "Case e3-07 and x-01 date the decree to 1967 and the Castelo Branco government.",
+          "source_url": "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/textos-para-discussao/td-126-zona-franca-de-manaus-desafios-e-vulnerabilidades",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "x-01",
+          "role": "head of government when the Manaus tax exemptions were created",
+          "detail": "See e3-07.",
+          "source_url": "https://eesp.fgv.br/sites/default/files/files-eesp/relatorio_gastos_tributarios_e_zona_franca_de_manaus_v_18_de_junho2025.pdf",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-05",
+          "role": "head of government when the Xavante were flown out of Suia-Missu by the FAB (1966)",
+          "detail": "Case e3-05; individual orders not identified.",
+          "source_url": "https://apublica.org/?p=25868",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-08",
+          "role": "head of government in the case file's 'Castelo Branco to Figueiredo' span; Ludwig's 1967 purchase falls at the Castelo/Costa e Silva handover",
+          "detail": "Exact date within 1967 not verified.",
+          "source_url": "https://en.wikipedia.org/wiki/Jari_project",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "x-02",
+          "role": "head of government when BNH was created (1964); FCVS dates from 1967",
+          "detail": "Context link.",
+          "source_url": "https://www.gazetadopovo.com.br/economia/lei-garante-reducao-de-divida-a-bancos-falidos-51z13fp30r12v5cig2ui1aez2/",
+          "basis": "in-office",
+          "status": "verified"
+        }
+      ],
+      "controversies": [],
+      "sources": [
+        {
+          "title": "Castelo Branco (CPDOC)",
+          "url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/humberto-de-alencar-castelo-branco"
+        },
+        {
+          "title": "Eliezer Batista (Wikipedia)",
+          "url": "https://pt.wikipedia.org/wiki/Eliezer_Batista"
+        }
+      ],
+      "verified_sources": [
+        "https://apublica.org/?p=25868",
+        "https://eesp.fgv.br/sites/default/files/files-eesp/relatorio_gastos_tributarios_e_zona_franca_de_manaus_v_18_de_junho2025.pdf",
+        "https://en.wikipedia.org/wiki/Caemi",
+        "https://en.wikipedia.org/wiki/Jari_project",
+        "https://pt.wikipedia.org/wiki/Eliezer_Batista",
+        "https://www.abphe.org.br/uploads/abphe2023/anais/joaoraiel.pdf",
+        "https://www.gazetadopovo.com.br/economia/lei-garante-reducao-de-divida-a-bancos-falidos-51z13fp30r12v5cig2ui1aez2/",
+        "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/textos-para-discussao/td-126-zona-franca-de-manaus-desafios-e-vulnerabilidades",
+        "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/gordon-lincoln",
+        "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/humberto-de-alencar-castelo-branco"
+      ]
+    },
+    {
+      "id": "p-costa-e-silva",
+      "name": "Artur da Costa e Silva",
+      "posts": [
+        {
+          "post": "President of the Republic",
+          "start": 1967,
+          "end": 1969,
+          "appointed_by": "Congress, under the military regime",
+          "status": "verified"
+        }
+      ],
+      "before": "Army marshal and Minister of War under Castelo Branco.",
+      "after": "Incapacitated by illness in Aug 1969; a military junta governed until Médici took office in Oct 1969.",
+      "foreign_ties": [],
+      "case_links": [
+        {
+          "case_id": "e3-04",
+          "role": "government that settled the Hanna/MBR dispute (1967)",
+          "detail": "Case file: settled under Costa e Silva in 1967.",
+          "source_url": "https://en.wikipedia.org/wiki/Caemi",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-11",
+          "role": "government that issued Resolução 63 (21 Aug 1967)",
+          "detail": "Res. 63 is a Central Bank/CMN norm; the president's own role is not documented.",
+          "source_url": "https://repositorio.ipea.gov.br/server/api/core/bitstreams/1faac9f7-872f-4cd8-842f-baae55950e70/content",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-06",
+          "role": "DL 756/1969 (SUDAM tax-credit funds) falls in 1969",
+          "detail": "Case e3-06 says the Planalto text was not opened; date unconfirmed.",
+          "source_url": "https://www.abphe.org.br/uploads/abphe2023/anais/joaoraiel.pdf",
+          "basis": "in-office",
+          "status": "verified"
+        }
+      ],
+      "controversies": [
+        {
+          "what": "Signed AI-5 (13 Dec 1968), which closed Congress",
+          "outcome": "Not a case of prosecution; historical fact recorded for context",
+          "source_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/artur-da-costa-e-silva",
+          "status": "verified"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Costa e Silva (CPDOC)",
+          "url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/artur-da-costa-e-silva"
+        }
+      ],
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Caemi",
+        "https://repositorio.ipea.gov.br/server/api/core/bitstreams/1faac9f7-872f-4cd8-842f-baae55950e70/content",
+        "https://www.abphe.org.br/uploads/abphe2023/anais/joaoraiel.pdf",
+        "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/artur-da-costa-e-silva"
+      ]
+    },
+    {
+      "id": "p-medici",
+      "name": "Emílio Garrastazu Médici",
+      "posts": [
+        {
+          "post": "President of the Republic",
+          "start": 1969,
+          "end": 1974,
+          "appointed_by": "Electoral college of Congress, under the military regime",
+          "status": "verified"
+        }
+      ],
+      "before": "Army general; head of the SNI intelligence service under Costa e Silva (from general knowledge; not verified in an opened page).",
+      "after": "Died 1985.",
+      "foreign_ties": [],
+      "case_links": [
+        {
+          "case_id": "e3-12",
+          "role": "government that issued Decreto-Lei 1.164 (1 Apr 1971), putting federal-highway land strips under Union control",
+          "detail": "DL text: Câmara archive (case file).",
+          "source_url": "https://www2.camara.leg.br/legin/fed/declei/1970-1979/decreto-lei-1164-1-abril-1971-375317-publicacaooriginal-1-pe.html",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-13",
+          "role": "government that signed the Itaipu treaty (1973)",
+          "detail": "Case e3-13.",
+          "source_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/itaipu-binacional",
+          "basis": "documented-act",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-01",
+          "role": "DL 1.164/1971 put about 60% of Mato Grosso under federal control",
+          "detail": "Case file mechanism.",
+          "source_url": "https://governancadeterras.com.br/wp-content/uploads/2017/10/Lilian-da-Rosa-Aspectos-Historicos-da-ocupacao-em-MT.pdf",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "x-04",
+          "role": "incentives and SUDAM under Médici-Geisel",
+          "detail": "Context link.",
+          "source_url": "https://travessia.emnuvens.com.br/travessia/article/download/37/33",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "x-03",
+          "role": "a 1970 Chamber inquiry into land grabbing falls in his term",
+          "detail": "Inquiry, not a decision.",
+          "source_url": "https://apublica.org/wp-content/uploads/2020/01/33421741-relatorio-final-cpi-terras-amazonas-grilagem.pdf",
+          "basis": "in-office",
+          "status": "verified"
+        }
+      ],
+      "controversies": [],
+      "sources": [
+        {
+          "title": "Case file g3 (e3-12)",
+          "url": "https://www2.camara.leg.br/legin/fed/declei/1970-1979/decreto-lei-1164-1-abril-1971-375317-publicacaooriginal-1-pe.html"
+        }
+      ],
+      "verified_sources": [
+        "https://apublica.org/wp-content/uploads/2020/01/33421741-relatorio-final-cpi-terras-amazonas-grilagem.pdf",
+        "https://governancadeterras.com.br/wp-content/uploads/2017/10/Lilian-da-Rosa-Aspectos-Historicos-da-ocupacao-em-MT.pdf",
+        "https://travessia.emnuvens.com.br/travessia/article/download/37/33",
+        "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/itaipu-binacional",
+        "https://www2.camara.leg.br/legin/fed/declei/1970-1979/decreto-lei-1164-1-abril-1971-375317-publicacaooriginal-1-pe.html"
+      ]
+    },
+    {
+      "id": "p-geisel",
+      "name": "Ernesto Geisel",
+      "posts": [
+        {
+          "post": "Chief of the Casa Militar",
+          "start": 1964,
+          "end": 1967,
+          "appointed_by": "Castelo Branco",
+          "status": "verified"
+        },
+        {
+          "post": "President of Petrobras",
+          "start": 1969,
+          "end": 1973,
+          "appointed_by": "Médici",
+          "status": "verified"
+        },
+        {
+          "post": "President of the Republic",
+          "start": 1974,
+          "end": 1979,
+          "appointed_by": "Electoral college of Congress, backed by Médici and the army",
+          "status": "verified"
+        }
+      ],
+      "before": "German-Lutheran-descended Army general; his brother Orlando Geisel was Army minister under Médici (Wikipedia).",
+      "after": "President of Norquisa, a petrochemical holding (Wikipedia). Supported Tancredo Neves in 1985.",
+      "foreign_ties": [
+        {
+          "counterpart": "West German government",
+          "kind": "foreign government",
+          "detail": "Government that signed the 1975 nuclear accord.",
+          "source_url": "https://wilsoncenter.org/publication/brazils-1975-nuclear-agreement-west-germany",
+          "status": "verified"
+        }
+      ],
+      "case_links": [
+        {
+          "case_id": "e3-16",
+          "role": "head of government that signed the 1975 Brazil-Germany nuclear agreement",
+          "detail": "Per case file, project run by Paulo Nogueira Batista at Nuclebrás; Ueki and Silveira negotiated.",
+          "source_url": "https://wilsoncenter.org/publication/brazils-1975-nuclear-agreement-west-germany",
+          "basis": "documented-act",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-14",
+          "role": "head of government when the Tucuruí/aluminium protocol (1976) and 1978 agreements were set",
+          "detail": "Case e3-14.",
+          "source_url": "https://www.redalyc.org/pdf/3940/394034998010.pdf",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-17",
+          "role": "launched Proálcool in 1975",
+          "detail": "Case e3-17; Ueki is credited with leading its creation.",
+          "source_url": "https://periodicos.fgv.br/rbe/article/download/2637/6674/16894",
+          "basis": "in-office",
+          "status": "unverified"
+        },
+        {
+          "case_id": "e3-10",
+          "role": "Decreto 81.889 (1978) railway concession for MRN falls in his term",
+          "detail": "Signature not verified.",
+          "source_url": "https://pt.wikipedia.org/wiki/Mineração_Rio_do_Norte",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-11",
+          "role": "Circular 230 (1974) and Resolução 432 (1977) issued in his term",
+          "detail": "Central Bank/CMN norms; president's own role not documented.",
+          "source_url": "https://repositorio.ipea.gov.br/server/api/core/bitstreams/1faac9f7-872f-4cd8-842f-baae55950e70/content",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "x-06",
+          "role": "same as e3-11",
+          "detail": "",
+          "source_url": "https://www.imf.org/-/media/websites/imf/imported-full-text-pdf/external/pubs/ft/wp/2012/_wp12163.pdf",
+          "basis": "in-office",
+          "status": "unverified"
+        },
+        {
+          "case_id": "e3-13",
+          "role": "Itaipu contracts (1975) signed in his term",
+          "detail": "Case e3-13.",
+          "source_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/itaipu-binacional",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-15",
+          "role": "term overlaps Volkswagen's ranch start (1974)",
+          "detail": "SUDAM approvals; individual approver not identified.",
+          "source_url": "https://apublica.org/2025/01/volkswagen-manteve-por-12-anos-fazenda-com-trabalho-escravo-no-pa-financiada-pela-ditadura/",
+          "basis": "in-office",
+          "status": "verified"
+        }
+      ],
+      "controversies": [],
+      "sources": [
+        {
+          "title": "Ernesto Geisel (CPDOC)",
+          "url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/geisel-ernesto"
+        },
+        {
+          "title": "Ernesto Geisel (Wikipedia)",
+          "url": "https://pt.wikipedia.org/wiki/Ernesto_Geisel"
+        }
+      ],
+      "verified_sources": [
+        "https://apublica.org/2025/01/volkswagen-manteve-por-12-anos-fazenda-com-trabalho-escravo-no-pa-financiada-pela-ditadura/",
+        "https://pt.wikipedia.org/wiki/Ernesto_Geisel",
+        "https://pt.wikipedia.org/wiki/Mineração_Rio_do_Norte",
+        "https://repositorio.ipea.gov.br/server/api/core/bitstreams/1faac9f7-872f-4cd8-842f-baae55950e70/content",
+        "https://wilsoncenter.org/publication/brazils-1975-nuclear-agreement-west-germany",
+        "https://www.redalyc.org/pdf/3940/394034998010.pdf",
+        "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/geisel-ernesto",
+        "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/itaipu-binacional"
+      ]
+    },
+    {
+      "id": "p-figueiredo",
+      "name": "João Baptista de Oliveira Figueiredo",
+      "posts": [
+        {
+          "post": "President of the Republic",
+          "start": 1979,
+          "end": 1985,
+          "appointed_by": "Electoral college of Congress, under the military regime",
+          "status": "verified"
+        }
+      ],
+      "before": "Army general; last head of the SNI before the presidency (general knowledge; not verified in an opened page).",
+      "after": "Left the Palácio do Planalto in March 1985 without attending Sarney's inauguration (general knowledge).",
+      "foreign_ties": [
+        {
+          "counterpart": "IMF and creditor banks",
+          "kind": "lender",
+          "detail": "Brazil sought IMF programmes from Dec 1982 and restructured external debt in his government (Wikipedia on Galvêas).",
+          "source_url": "https://pt.wikipedia.org/wiki/Ernane_Galv%C3%AAas",
+          "status": "verified"
+        }
+      ],
+      "case_links": [
+        {
+          "case_id": "e3-18",
+          "role": "government that created the Grande Carajás tax regime (DL 1.813 and 1.825, Nov-Dec 1980)",
+          "detail": "Signature not verified.",
+          "source_url": "https://pt.wikipedia.org/wiki/Programa_Grande_Carajás",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-19",
+          "role": "government that ran the World Bank-financed Polonoroeste",
+          "detail": "Case e3-19.",
+          "source_url": "https://www.culturalsurvival.org/node/4698",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-20",
+          "role": "government when Agropecuária Capemi's Tucuruí timber contract ran (cancelled March 1983)",
+          "detail": "Case e3-20; the only source is a blog.",
+          "source_url": "https://grandesfraudes.wordpress.com/2016/05/11/capemi-delfimnetto/",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-21",
+          "role": "government that placed Serra Pelada under federal control",
+          "detail": "Case e3-21.",
+          "source_url": "https://en.wikipedia.org/wiki/Serra_Pelada",
+          "basis": "documented-act",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-22",
+          "role": "decrees 85.898 and 86.630 (1981) cut the Waimiri-Atroari reserve",
+          "detail": "Case e3-22; signatures not verified.",
+          "source_url": "https://en.wikipedia.org/wiki/Waimiri_Atroari_Indigenous_Territory",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-23",
+          "role": "government of the Coroa-Brastel rescue and collapse",
+          "detail": "Case e3-23.",
+          "source_url": "https://pt.wikipedia.org/wiki/Esc%C3%A2ndalo_Coroa_Brastel",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-24",
+          "role": "government of the Delfin/BNH swap",
+          "detail": "Case e3-24.",
+          "source_url": "https://www.diariodocentrodomundo.com.br/morre-ronald-levinsohn-protagonista-de-um-dos-maiores-casos-de-corrupcao-da-ditadura-amigo-de-jornalistas-e-de-juizes/",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-08",
+          "role": "government that pushed 23 Brazilian groups to take over Jari (1981-82)",
+          "detail": "Case e3-08.",
+          "source_url": "https://en.wikipedia.org/wiki/Jari_project",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-09",
+          "role": "1981 military-brokered accord with Aracruz cut the Tupinikim/Guarani area",
+          "detail": "Case e3-09.",
+          "source_url": "https://periodicos.ufes.br/agora/article/download/1891/1403/0",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-14",
+          "role": "government that continued Tucuruí and the Albras/Alunorte arrangements",
+          "detail": "Case e3-14.",
+          "source_url": "https://www.redalyc.org/pdf/3940/394034998010.pdf",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-17",
+          "role": "Proálcool second phase",
+          "detail": "Case e3-17.",
+          "source_url": "https://periodicos.fgv.br/rbe/article/download/2637/6674/16894",
+          "basis": "in-office",
+          "status": "unverified"
+        },
+        {
+          "case_id": "e3-11",
+          "role": "'project deposits' of 1983-84",
+          "detail": "Case e3-11.",
+          "source_url": "https://repositorio.ipea.gov.br/server/api/core/bitstreams/1faac9f7-872f-4cd8-842f-baae55950e70/content",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "x-06",
+          "role": "same as e3-11",
+          "detail": "",
+          "source_url": "https://www.imf.org/-/media/websites/imf/imported-full-text-pdf/external/pubs/ft/wp/2012/_wp12163.pdf",
+          "basis": "in-office",
+          "status": "unverified"
+        },
+        {
+          "case_id": "e3-03",
+          "role": "INCRA acted on Codeara under Figueiredo and Sarney",
+          "detail": "Case file e3-03; individual decisions not identified.",
+          "source_url": "https://seer.ufu.br/index.php/campoterritorio/article/download/37728/22289/179181",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-25",
+          "role": "term ends in the bank-failure period of 1983-85",
+          "detail": "Context link.",
+          "source_url": "https://en.wikipedia.org/wiki/Banco_Sulbrasileiro",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-13",
+          "role": "Itaipu plant completed in his government",
+          "detail": "CPDOC dates the plant inauguration to Oct 1984; Wikipedia (Costa Cavalcanti) gives a 5 Nov 1982 opening ceremony.",
+          "source_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/itaipu-binacional",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "x-04",
+          "role": "incentives in northern Mato Grosso under Figueiredo",
+          "detail": "Context link.",
+          "source_url": "https://travessia.emnuvens.com.br/travessia/article/download/37/33",
+          "basis": "in-office",
+          "status": "verified"
+        }
+      ],
+      "controversies": [],
+      "sources": [
+        {
+          "title": "Case file g3-dictatorship",
+          "url": "g3-dictatorship.json"
+        }
+      ],
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Banco_Sulbrasileiro",
+        "https://en.wikipedia.org/wiki/Jari_project",
+        "https://en.wikipedia.org/wiki/Serra_Pelada",
+        "https://en.wikipedia.org/wiki/Waimiri_Atroari_Indigenous_Territory",
+        "https://grandesfraudes.wordpress.com/2016/05/11/capemi-delfimnetto/",
+        "https://periodicos.ufes.br/agora/article/download/1891/1403/0",
+        "https://pt.wikipedia.org/wiki/Ernane_Galv%C3%AAas",
+        "https://pt.wikipedia.org/wiki/Esc%C3%A2ndalo_Coroa_Brastel",
+        "https://pt.wikipedia.org/wiki/Programa_Grande_Carajás",
+        "https://repositorio.ipea.gov.br/server/api/core/bitstreams/1faac9f7-872f-4cd8-842f-baae55950e70/content",
+        "https://seer.ufu.br/index.php/campoterritorio/article/download/37728/22289/179181",
+        "https://travessia.emnuvens.com.br/travessia/article/download/37/33",
+        "https://www.culturalsurvival.org/node/4698",
+        "https://www.diariodocentrodomundo.com.br/morre-ronald-levinsohn-protagonista-de-um-dos-maiores-casos-de-corrupcao-da-ditadura-amigo-de-jornalistas-e-de-juizes/",
+        "https://www.redalyc.org/pdf/3940/394034998010.pdf",
+        "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/itaipu-binacional"
+      ]
+    },
+    {
+      "id": "p-sarney",
+      "name": "José Sarney",
+      "posts": [
+        {
+          "post": "President of the Republic",
+          "start": 1985,
+          "end": 1990,
+          "appointed_by": "Indirect succession after Tancredo Neves's death (took office 15 Mar 1985)",
+          "status": "verified"
+        }
+      ],
+      "before": "Former ARENA/PDS senator; vice-president elect (general knowledge; not verified in an opened page).",
+      "after": "See later eras.",
+      "foreign_ties": [],
+      "case_links": [
+        {
+          "case_id": "e3-25",
+          "role": "head of government that took over Sulbrasileiro and liquidated Comind, Auxiliar and Maisonnave in 1985",
+          "detail": "Case e3-25.",
+          "source_url": "https://en.wikipedia.org/wiki/Banco_Sulbrasileiro",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-26",
+          "role": "head of government that launched Calha Norte (1985)",
+          "detail": "Plan prepared by the dictatorship's National Security Council.",
+          "source_url": "https://fpabramo.org.br/1989/04/01/calha-norte-alem-das-fronteiras/",
+          "basis": "documented-act",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-03",
+          "role": "INCRA acted on Codeara under Sarney",
+          "detail": "Case e3-03.",
+          "source_url": "https://seer.ufu.br/index.php/campoterritorio/article/download/37728/22289/179181",
+          "basis": "in-office",
+          "status": "verified"
+        }
+      ],
+      "controversies": [],
+      "sources": [
+        {
+          "title": "Case file g3",
+          "url": "g3-dictatorship.json"
+        }
+      ],
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Banco_Sulbrasileiro",
+        "https://fpabramo.org.br/1989/04/01/calha-norte-alem-das-fronteiras/",
+        "https://seer.ufu.br/index.php/campoterritorio/article/download/37728/22289/179181"
+      ]
+    },
+    {
+      "id": "p-roberto-campos",
+      "name": "Roberto de Oliveira Campos",
+      "posts": [
+        {
+          "post": "Brazilian ambassador in Washington",
+          "start": 1961,
+          "end": 1964,
+          "appointed_by": "Jânio Quadros (post 1961-1964)",
+          "status": "verified"
+        },
+        {
+          "post": "Minister of Planning",
+          "start": 1964,
+          "end": 1967,
+          "appointed_by": "Castelo Branco",
+          "status": "verified"
+        },
+        {
+          "post": "Brazilian ambassador in London",
+          "start": 1975,
+          "end": 1982,
+          "appointed_by": "Geisel",
+          "status": "verified"
+        },
+        {
+          "post": "Senator for Mato Grosso",
+          "start": 1983,
+          "end": 1991,
+          "appointed_by": "Elected 1982",
+          "status": "verified"
+        }
+      ],
+      "before": "Diplomat; delegate at Bretton Woods (founding of the IMF and World Bank); Brazil-US Joint Commission; BNDE president Aug 1958-Jul 1959; Consultec partner of Bulhões (Wikipedia, Simonsen article).",
+      "after": "Federal deputy for Rio de Janeiro 1991-1999; ABL member 1999.",
+      "foreign_ties": [
+        {
+          "counterpart": "IMF and World Bank",
+          "kind": "lender",
+          "detail": "Took part in the Bretton Woods conference (1944).",
+          "source_url": "https://pt.wikipedia.org/wiki/Roberto_Campos",
+          "status": "verified"
+        }
+      ],
+      "case_links": [
+        {
+          "case_id": "e3-04",
+          "role": "architect of the 1964 reforms that opened subsoil and profit remittances to foreign capital (Lei 4.390/1964 on remittances)",
+          "detail": "Planning minister in the Castelo Branco government that dealt with the Hanna dispute; signature on a 23 Dec 1964 decree not confirmed.",
+          "source_url": "https://pt.wikipedia.org/wiki/Roberto_Campos",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-07",
+          "role": "Planning minister when DL 288/1967 (Zona Franca) was issued",
+          "detail": "Minister's specific role not verified.",
+          "source_url": "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/textos-para-discussao/td-126-zona-franca-de-manaus-desafios-e-vulnerabilidades",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "x-01",
+          "role": "same as e3-07",
+          "detail": "",
+          "source_url": "https://eesp.fgv.br/sites/default/files/files-eesp/relatorio_gastos_tributarios_e_zona_franca_de_manaus_v_18_de_junho2025.pdf",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "x-02",
+          "role": "helped create BNH and the FGTS, the system behind FCVS",
+          "detail": "Per Wikipedia.",
+          "source_url": "https://pt.wikipedia.org/wiki/Roberto_Campos",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-11",
+          "role": "economic-team head when Resolução 63 was being prepared (adopted Aug 1967, after he left)",
+          "detail": "Context link: Link is contextual; the specific decision or signature was not verified in the opened sources.",
+          "source_url": "https://repositorio.ipea.gov.br/server/api/core/bitstreams/1faac9f7-872f-4cd8-842f-baae55950e70/content",
+          "basis": "in-office",
+          "status": "verified"
+        }
+      ],
+      "controversies": [
+        {
+          "what": "Defended ending the Petrobras oil monopoly (he called Petrobras 'Petrossauro'); critics said this favoured foreign interests",
+          "outcome": "Political criticism only; no charge",
+          "source_url": "https://pt.wikipedia.org/wiki/Roberto_Campos",
+          "status": "verified"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Roberto Campos (Wikipedia)",
+          "url": "https://pt.wikipedia.org/wiki/Roberto_Campos"
+        }
+      ],
+      "verified_sources": [
+        "https://eesp.fgv.br/sites/default/files/files-eesp/relatorio_gastos_tributarios_e_zona_franca_de_manaus_v_18_de_junho2025.pdf",
+        "https://pt.wikipedia.org/wiki/Roberto_Campos",
+        "https://repositorio.ipea.gov.br/server/api/core/bitstreams/1faac9f7-872f-4cd8-842f-baae55950e70/content",
+        "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/textos-para-discussao/td-126-zona-franca-de-manaus-desafios-e-vulnerabilidades"
+      ]
+    },
+    {
+      "id": "p-bulhoes",
+      "name": "Otávio (Octávio) Gouveia de Bulhões",
+      "posts": [
+        {
+          "post": "Minister of Finance (Fazenda)",
+          "start": 1964,
+          "end": 1967,
+          "appointed_by": "Mazzilli, then Castelo Branco",
+          "status": "verified"
+        },
+        {
+          "post": "President of Banco do Estado da Guanabara",
+          "start": 1971,
+          "end": 1973,
+          "appointed_by": "Not stated",
+          "status": "verified"
+        }
+      ],
+      "before": "Career civil servant at Fazenda from 1926; Bretton Woods delegate 1944; SUMOC director; Consultec partner of Roberto Campos.",
+      "after": "IBRE/FGV; his bid for the Central Bank under Geisel was blocked by Simonsen (Wikipedia).",
+      "foreign_ties": [
+        {
+          "counterpart": "IMF and World Bank",
+          "kind": "lender",
+          "detail": "Bretton Woods delegation 1944.",
+          "source_url": "https://pt.wikipedia.org/wiki/Ot%C3%A1vio_Gouveia_de_Bulh%C3%B5es",
+          "status": "verified"
+        }
+      ],
+      "case_links": [
+        {
+          "case_id": "e3-04",
+          "role": "Finance minister when the 1964 rules for foreign mining capital were set and DL 157/1967 gave tax incentives for capitalisation",
+          "detail": "Role in the Hanna settlement not verified. CPDOC entry is listed in the case file.",
+          "source_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/bulhoes-otavio-gouveia-de",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "x-02",
+          "role": "created BNH and the CMN as Finance minister",
+          "detail": "Per Wikipedia.",
+          "source_url": "https://pt.wikipedia.org/wiki/Ot%C3%A1vio_Gouveia_de_Bulh%C3%B5es",
+          "basis": "in-office",
+          "status": "verified"
+        }
+      ],
+      "controversies": [],
+      "sources": [
+        {
+          "title": "Bulhões (CPDOC)",
+          "url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/bulhoes-otavio-gouveia-de"
+        },
+        {
+          "title": "Bulhões (Wikipedia)",
+          "url": "https://pt.wikipedia.org/wiki/Ot%C3%A1vio_Gouveia_de_Bulh%C3%B5es"
+        }
+      ],
+      "verified_sources": [
+        "https://pt.wikipedia.org/wiki/Ot%C3%A1vio_Gouveia_de_Bulh%C3%B5es",
+        "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/bulhoes-otavio-gouveia-de"
+      ]
+    },
+    {
+      "id": "p-delfim-netto",
+      "name": "Antônio Delfim Netto",
+      "posts": [
+        {
+          "post": "Minister of Finance",
+          "start": 1967,
+          "end": 1974,
+          "appointed_by": "Costa e Silva (kept by Médici)",
+          "status": "verified"
+        },
+        {
+          "post": "Ambassador to France",
+          "start": 1975,
+          "end": 1978,
+          "appointed_by": "Geisel",
+          "status": "verified"
+        },
+        {
+          "post": "Minister of Agriculture",
+          "start": 1979,
+          "end": 1979,
+          "appointed_by": "Figueiredo",
+          "status": "verified"
+        },
+        {
+          "post": "Minister of Planning",
+          "start": 1979,
+          "end": 1985,
+          "appointed_by": "Figueiredo",
+          "status": "verified"
+        }
+      ],
+      "before": "USP professor; São Paulo state finance secretary 1966-67 under Laudo Natel; Consplan adviser to Castelo Branco 1965.",
+      "after": "Federal deputy 1987-2007; adviser to Lula; died 2024.",
+      "foreign_ties": [
+        {
+          "counterpart": "IMF",
+          "kind": "lender",
+          "detail": "Planning minister during the 1982-85 IMF programmes; Galvêas led the debt talks 'in conjunction with Delfim Netto and Langoni'.",
+          "source_url": "https://pt.wikipedia.org/wiki/Ernane_Galv%C3%AAas",
+          "status": "verified"
+        }
+      ],
+      "case_links": [
+        {
+          "case_id": "e3-11",
+          "role": "chaired Brazil's economic policy during the Res. 63 era (Finance minister 1967-74) and the 1983-84 project deposits",
+          "detail": "Specific signatures not verified.",
+          "source_url": "https://pt.wikipedia.org/wiki/Delfim_Netto",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "x-06",
+          "role": "Finance/Planning minister during the state takeover of private external debt",
+          "detail": "Case x-06.",
+          "source_url": "https://www.imf.org/-/media/websites/imf/imported-full-text-pdf/external/pubs/ft/wp/2012/_wp12163.pdf",
+          "basis": "in-office",
+          "status": "unverified"
+        },
+        {
+          "case_id": "e3-23",
+          "role": "told Central Bank president Langoni on 30 May 1983 that Paim had liquidity problems; accused of diverting funds via a Caixa loan",
+          "detail": "Reported (DCM) that Coroa-Brastel liquidity problems reached the economic team around 30 May 1983; acquitted by the STF per the same source.",
+          "source_url": "https://www.diariodocentrodomundo.com.br/delfim-netto-e-o-caso-coroa-brastel-um-dos-maiores-escandalos-financeiros-da-ditadura-que-bolsonaro-ama/",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-24",
+          "role": "Planning minister at the time of the Delfin/BNH swap; named in Folha (Dec 1982) and investigated",
+          "detail": "Investigated, no personal conviction found (see controversies).",
+          "source_url": "https://pt.wikipedia.org/wiki/Delfim_Netto",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-18",
+          "role": "Planning minister when Grande Carajás tax regime was set (Nov 1980)",
+          "detail": "Specific role not verified.",
+          "source_url": "https://pt.wikipedia.org/wiki/Programa_Grande_Carajás",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-17",
+          "role": "Planning minister during Proálcool's second phase",
+          "detail": "Specific role not verified.",
+          "source_url": "https://periodicos.fgv.br/rbe/article/download/2637/6674/16894",
+          "basis": "in-office",
+          "status": "unverified"
+        }
+      ],
+      "controversies": [
+        {
+          "what": "Coroa-Brastel: accused of favouring the group via a Caixa loan",
+          "outcome": "Reported as acquitted by the STF (Diário do Centro do Mundo; single source); Wikipedia records charges filed in 1985",
+          "source_url": "https://www.diariodocentrodomundo.com.br/delfim-netto-e-o-caso-coroa-brastel-um-dos-maiores-escandalos-financeiros-da-ditadura-que-bolsonaro-ama/",
+          "status": "verified"
+        },
+        {
+          "what": "Delfin/BNH swap: named in a 1982 Folha report and investigated",
+          "outcome": "No personal conviction found. In 2006 the STJ accepted the property payment to creditors as fair (Wikipedia, Caso Delfin)",
+          "source_url": "https://pt.wikipedia.org/wiki/Caso_Delfin",
+          "status": "verified"
+        },
+        {
+          "what": "Investigated in Lava Jato (Belo Monte): search and seizure in March 2018 on suspicion of receiving R$15 mn",
+          "outcome": "Latest outcome not found in opened sources as of 1 Nov 2026",
+          "source_url": "https://www.poder360.com.br/justica/ex-ministro-delfim-netto-e-alvo-de-nova-fase-da-lava-jato/",
+          "status": "verified"
+        },
+        {
+          "what": "Named in the Panama Papers (2016) in connection with offshore companies",
+          "outcome": "No charge found in opened sources",
+          "source_url": "https://pt.wikipedia.org/wiki/Delfim_Netto",
+          "status": "verified"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Delfim Netto (Wikipedia)",
+          "url": "https://pt.wikipedia.org/wiki/Delfim_Netto"
+        }
+      ],
+      "verified_sources": [
+        "https://pt.wikipedia.org/wiki/Caso_Delfin",
+        "https://pt.wikipedia.org/wiki/Delfim_Netto",
+        "https://pt.wikipedia.org/wiki/Ernane_Galv%C3%AAas",
+        "https://pt.wikipedia.org/wiki/Programa_Grande_Carajás",
+        "https://www.diariodocentrodomundo.com.br/delfim-netto-e-o-caso-coroa-brastel-um-dos-maiores-escandalos-financeiros-da-ditadura-que-bolsonaro-ama/",
+        "https://www.poder360.com.br/justica/ex-ministro-delfim-netto-e-alvo-de-nova-fase-da-lava-jato/"
+      ]
+    },
+    {
+      "id": "p-simonsen",
+      "name": "Mário Henrique Simonsen",
+      "posts": [
+        {
+          "post": "President of Mobral",
+          "start": 1969,
+          "end": 1974,
+          "appointed_by": "Médici",
+          "status": "verified"
+        },
+        {
+          "post": "Minister of Finance",
+          "start": 1974,
+          "end": 1979,
+          "appointed_by": "Geisel",
+          "status": "verified"
+        },
+        {
+          "post": "Minister of Planning",
+          "start": 1979,
+          "end": 1979,
+          "appointed_by": "Figueiredo (Mar-Aug 1979)",
+          "status": "verified"
+        }
+      ],
+      "before": "FGV/EPGE economist; collaborator of Campos and Bulhões on the 1964 PAEG wage formula; CMN member.",
+      "after": "Partner-consultant at Banco Bozano, Simonsen (investment bank) per Wikipedia.",
+      "foreign_ties": [
+        {
+          "counterpart": "Foreign creditors (Poland credit line)",
+          "kind": "lender",
+          "detail": "1977-80 export credit to Poland above US$6 bn; Simonsen noticed Poland could not pay (Wikipedia).",
+          "source_url": "https://pt.wikipedia.org/wiki/M%C3%A1rio_Henrique_Simonsen",
+          "status": "verified"
+        }
+      ],
+      "case_links": [
+        {
+          "case_id": "e3-11",
+          "role": "Finance minister and CMN chair when Resolução 432 (23 Jun 1977) was adopted",
+          "detail": "Context link: Link is contextual; the specific decision or signature was not verified in the opened sources.",
+          "source_url": "https://repositorio.ipea.gov.br/server/api/core/bitstreams/1faac9f7-872f-4cd8-842f-baae55950e70/content",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "x-06",
+          "role": "same",
+          "detail": "",
+          "source_url": "https://www.imf.org/-/media/websites/imf/imported-full-text-pdf/external/pubs/ft/wp/2012/_wp12163.pdf",
+          "basis": "in-office",
+          "status": "unverified"
+        },
+        {
+          "case_id": "e3-16",
+          "role": "Finance minister of the government that financed the nuclear deal",
+          "detail": "Role in the deal not detailed in opened pages.",
+          "source_url": "https://wilsoncenter.org/publication/brazils-1975-nuclear-agreement-west-germany",
+          "basis": "in-office",
+          "status": "verified"
+        }
+      ],
+      "controversies": [],
+      "sources": [
+        {
+          "title": "Simonsen (Wikipedia)",
+          "url": "https://pt.wikipedia.org/wiki/M%C3%A1rio_Henrique_Simonsen"
+        },
+        {
+          "title": "Simonsen (CPDOC)",
+          "url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/simonsen-mario-henrique"
+        }
+      ],
+      "verified_sources": [
+        "https://pt.wikipedia.org/wiki/M%C3%A1rio_Henrique_Simonsen",
+        "https://repositorio.ipea.gov.br/server/api/core/bitstreams/1faac9f7-872f-4cd8-842f-baae55950e70/content",
+        "https://wilsoncenter.org/publication/brazils-1975-nuclear-agreement-west-germany",
+        "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/simonsen-mario-henrique"
+      ]
+    },
+    {
+      "id": "p-galveas",
+      "name": "Ernane Galvêas",
+      "posts": [
+        {
+          "post": "President of the Central Bank",
+          "start": 1968,
+          "end": 1974,
+          "appointed_by": "Costa e Silva (kept by Médici)",
+          "status": "verified"
+        },
+        {
+          "post": "Vice-president then president of Aracruz Celulose",
+          "start": 1974,
+          "end": 1979,
+          "appointed_by": "Private company",
+          "status": "verified"
+        },
+        {
+          "post": "President of the Central Bank",
+          "start": 1979,
+          "end": 1980,
+          "appointed_by": "Figueiredo",
+          "status": "verified"
+        },
+        {
+          "post": "Minister of Finance",
+          "start": 1980,
+          "end": 1985,
+          "appointed_by": "Figueiredo",
+          "status": "verified"
+        }
+      ],
+      "before": "Banco do Brasil career; Sumoc; Yale MA; consultant to the IDB (1962); adviser to Bulhões at Fazenda under Castelo Branco.",
+      "after": "Revolving door: after the Central Bank in 1974 he joined Aracruz Celulose (a project mixing private, state and foreign capital) as VP then president; adviser at Grupo Financeiro Intercontinental from 1975; later on boards of Aracruz and the Lorentzen group; CNC economic consultant from 1988.",
+      "foreign_ties": [
+        {
+          "counterpart": "IMF and creditor banks",
+          "kind": "lender",
+          "detail": "Led external-debt talks in 1982-84 with Delfim and Langoni; IMF programme from Dec 1982.",
+          "source_url": "https://pt.wikipedia.org/wiki/Ernane_Galv%C3%AAas",
+          "status": "verified"
+        },
+        {
+          "counterpart": "Lorentzen group",
+          "kind": "board seat",
+          "detail": "Sat on the boards of Aracruz Celulose and the Lorentzen group after leaving government (pt.wikipedia).",
+          "source_url": "https://pt.wikipedia.org/wiki/Ernane_Galv%C3%AAas",
+          "status": "verified"
+        }
+      ],
+      "case_links": [
+        {
+          "case_id": "e3-11",
+          "role": "Central Bank president 1968-74 and Finance minister during the 1983-84 project deposits",
+          "detail": "Specific signatures not verified.",
+          "source_url": "https://pt.wikipedia.org/wiki/Ernane_Galv%C3%AAas",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "x-06",
+          "role": "same as e3-11",
+          "detail": "",
+          "source_url": "https://www.imf.org/-/media/websites/imf/imported-full-text-pdf/external/pubs/ft/wp/2012/_wp12163.pdf",
+          "basis": "in-office",
+          "status": "unverified"
+        },
+        {
+          "case_id": "e3-23",
+          "role": "Finance minister at the Coroa-Brastel collapse",
+          "detail": "Accused; reported as acquitted by the STF (DCM).",
+          "source_url": "https://www.diariodocentrodomundo.com.br/delfim-netto-e-o-caso-coroa-brastel-um-dos-maiores-escandalos-financeiros-da-ditadura-que-bolsonaro-ama/",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-24",
+          "role": "Finance minister at the time of the Delfin/BNH swap; named in Folha and investigated",
+          "detail": "Investigated, no personal conviction found.",
+          "source_url": "https://pt.wikipedia.org/wiki/Delfim_Netto",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-25",
+          "role": "Finance minister until March 1985",
+          "detail": "Context link.",
+          "source_url": "https://en.wikipedia.org/wiki/Banco_Sulbrasileiro",
+          "basis": "in-office",
+          "status": "verified"
+        }
+      ],
+      "controversies": [
+        {
+          "what": "Coroa-Brastel: accused of favouring the group via a Caixa loan",
+          "outcome": "Reported as acquitted by the STF (Diário do Centro do Mundo; single source); Wikipedia records charges filed in 1985",
+          "source_url": "https://www.diariodocentrodomundo.com.br/delfim-netto-e-o-caso-coroa-brastel-um-dos-maiores-escandalos-financeiros-da-ditadura-que-bolsonaro-ama/",
+          "status": "verified"
+        },
+        {
+          "what": "Delfin/BNH swap: named in a 1982 Folha report and investigated",
+          "outcome": "No personal conviction found. In 2006 the STJ accepted the property payment to creditors as fair (Wikipedia, Caso Delfin)",
+          "source_url": "https://pt.wikipedia.org/wiki/Caso_Delfin",
+          "status": "verified"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Galvêas (Wikipedia)",
+          "url": "https://pt.wikipedia.org/wiki/Ernane_Galv%C3%AAas"
+        }
+      ],
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Banco_Sulbrasileiro",
+        "https://pt.wikipedia.org/wiki/Caso_Delfin",
+        "https://pt.wikipedia.org/wiki/Delfim_Netto",
+        "https://pt.wikipedia.org/wiki/Ernane_Galv%C3%AAas",
+        "https://www.diariodocentrodomundo.com.br/delfim-netto-e-o-caso-coroa-brastel-um-dos-maiores-escandalos-financeiros-da-ditadura-que-bolsonaro-ama/"
+      ]
+    },
+    {
+      "id": "p-langoni",
+      "name": "Carlos Geraldo Langoni",
+      "posts": [
+        {
+          "post": "Director, Banking Area, Central Bank",
+          "start": 1979,
+          "end": 1980,
+          "appointed_by": "Galvêas",
+          "status": "verified"
+        },
+        {
+          "post": "President of the Central Bank",
+          "start": 1980,
+          "end": 1983,
+          "appointed_by": "Figueiredo",
+          "status": "verified"
+        }
+      ],
+      "before": "Economist; University of Chicago PhD 1970 (Ford Foundation scholarship); FIPE/USP.",
+      "after": "Founded the privately funded Centro de Economia Mundial at FGV after leaving the bank.",
+      "foreign_ties": [
+        {
+          "counterpart": "IMF and creditor banks",
+          "kind": "lender",
+          "detail": "Negotiated with the IMF and banks in Dec 1982 for US$4.4 bn; refused to sign the third letter of intent in Aug 1983 and resigned (Wikipedia).",
+          "source_url": "https://pt.wikipedia.org/wiki/Carlos_Langoni",
+          "status": "verified"
+        }
+      ],
+      "case_links": [
+        {
+          "case_id": "e3-23",
+          "role": "Central Bank president at the Coroa-Brastel intervention (June 1983)",
+          "detail": "Central Bank president at the time; the Coroa-Brastel liquidity trouble surfaced in May-June 1983 (DCM).",
+          "source_url": "https://www.diariodocentrodomundo.com.br/delfim-netto-e-o-caso-coroa-brastel-um-dos-maiores-escandalos-financeiros-da-ditadura-que-bolsonaro-ama/",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-11",
+          "role": "Central Bank president during the 1983 external-debt crisis",
+          "detail": "Context link.",
+          "source_url": "https://pt.wikipedia.org/wiki/Carlos_Langoni",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "x-06",
+          "role": "same",
+          "detail": "",
+          "source_url": "https://www.imf.org/-/media/websites/imf/imported-full-text-pdf/external/pubs/ft/wp/2012/_wp12163.pdf",
+          "basis": "in-office",
+          "status": "unverified"
+        }
+      ],
+      "controversies": [
+        {
+          "what": "Coroa-Brastel: in March 1985 the deputy prosecutor-general asked for his indictment (prevaricação)",
+          "outcome": "Reported as cleared by the STF; he testified as a prosecution witness in Aug 1987 (Wikipedia)",
+          "source_url": "https://pt.wikipedia.org/wiki/Carlos_Langoni",
+          "status": "verified"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Langoni (Wikipedia)",
+          "url": "https://pt.wikipedia.org/wiki/Carlos_Langoni"
+        },
+        {
+          "title": "Langoni (CPDOC)",
+          "url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/langoni-carlos-geraldo"
+        }
+      ],
+      "verified_sources": [
+        "https://pt.wikipedia.org/wiki/Carlos_Langoni",
+        "https://www.diariodocentrodomundo.com.br/delfim-netto-e-o-caso-coroa-brastel-um-dos-maiores-escandalos-financeiros-da-ditadura-que-bolsonaro-ama/",
+        "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/langoni-carlos-geraldo"
+      ]
+    },
+    {
+      "id": "p-reis-velloso",
+      "name": "João Paulo dos Reis Velloso",
+      "posts": [
+        {
+          "post": "Minister of Planning",
+          "start": 1969,
+          "end": 1979,
+          "appointed_by": "Médici, kept by Geisel",
+          "status": "verified"
+        }
+      ],
+      "before": "Created and presided over Ipea.",
+      "after": "Founded the Instituto Nacional de Altos Estudos.",
+      "foreign_ties": [],
+      "case_links": [
+        {
+          "case_id": "e3-16",
+          "role": "planned the II PND (1975-79) of which the nuclear programme was part",
+          "detail": "Per Wikipedia on the 'milagre'; detail not verified.",
+          "source_url": "https://pt.wikipedia.org/wiki/Jo%C3%A3o_Paulo_dos_Reis_Velloso",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-14",
+          "role": "II PND included Tucuruí and aluminium",
+          "detail": "Detail not verified.",
+          "source_url": "https://pt.wikipedia.org/wiki/Jo%C3%A3o_Paulo_dos_Reis_Velloso",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-13",
+          "role": "Planning minister when Itaipu was started",
+          "detail": "Context link.",
+          "source_url": "https://pt.wikipedia.org/wiki/Jo%C3%A3o_Paulo_dos_Reis_Velloso",
+          "basis": "in-office",
+          "status": "verified"
+        }
+      ],
+      "controversies": [],
+      "sources": [
+        {
+          "title": "Reis Velloso (Wikipedia)",
+          "url": "https://pt.wikipedia.org/wiki/Jo%C3%A3o_Paulo_dos_Reis_Velloso"
+        }
+      ],
+      "verified_sources": [
+        "https://pt.wikipedia.org/wiki/Jo%C3%A3o_Paulo_dos_Reis_Velloso"
+      ]
+    },
+    {
+      "id": "p-ueki",
+      "name": "Shigeaki Ueki",
+      "posts": [
+        {
+          "post": "President of Petrobras Distribuidora / commercial director of Petrobras",
+          "start": 1969,
+          "end": null,
+          "appointed_by": "Geisel (Petrobras president)",
+          "status": "verified"
+        },
+        {
+          "post": "Minister of Mines and Energy",
+          "start": 1974,
+          "end": 1979,
+          "appointed_by": "Geisel",
+          "status": "verified"
+        },
+        {
+          "post": "President of Petrobras",
+          "start": 1979,
+          "end": 1984,
+          "appointed_by": "Figueiredo",
+          "status": "verified"
+        }
+      ],
+      "before": "Lawyer; clerk at Banco Moreira Salles (now Unibanco).",
+      "after": "Executive president of Camargo Corrêa construction (1985); acquired Camargo Corrêa Engenharia (1987); chairman of Petroleum Finance Corporation in Washington. Camargo Corrêa built Tucuruí and the Albras plant; a 1980s EEC ambassador nomination was refused by the Senate (CPDOC).",
+      "foreign_ties": [
+        {
+          "counterpart": "West German government and firms",
+          "kind": "foreign government",
+          "detail": "Agreed the Brazil-Germany nuclear agreement in June 1975 (CPDOC).",
+          "source_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/ueki-shigeaki",
+          "status": "verified"
+        },
+        {
+          "counterpart": "Petroleum Finance Corporation (Washington)",
+          "kind": "board seat",
+          "detail": "Chairman after leaving Petrobras.",
+          "source_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/ueki-shigeaki",
+          "status": "verified"
+        },
+        {
+          "counterpart": "Foreign oil companies",
+          "kind": "company",
+          "detail": "In 1975 allowed foreign firms to prospect under risk contracts, breaking Petrobras's exploration monopoly (Wikipedia).",
+          "source_url": "https://pt.wikipedia.org/wiki/Shigeaki_Ueki",
+          "status": "verified"
+        }
+      ],
+      "case_links": [
+        {
+          "case_id": "e3-16",
+          "role": "negotiated the nuclear agreement",
+          "detail": "CPDOC.",
+          "source_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/ueki-shigeaki",
+          "basis": "documented-act",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-17",
+          "role": "led the creation of Proálcool (1975)",
+          "detail": "Wikipedia.",
+          "source_url": "https://pt.wikipedia.org/wiki/Shigeaki_Ueki",
+          "basis": "documented-act",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-14",
+          "role": "Mines and Energy minister over Eletronorte/Tucuruí in the 1976 protocol and 1978 agreements",
+          "detail": "Specific role not verified; Camargo Corrêa (his later employer) was the contractor in the case file.",
+          "source_url": "https://www.redalyc.org/pdf/3940/394034998010.pdf",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-10",
+          "role": "Mines and Energy minister at the 1978 MRN railway decree",
+          "detail": "Signature not verified.",
+          "source_url": "https://pt.wikipedia.org/wiki/Mineração_Rio_do_Norte",
+          "basis": "in-office",
+          "status": "verified"
+        }
+      ],
+      "controversies": [
+        {
+          "what": "Senate committee rejected his nomination as ambassador to the EEC",
+          "outcome": "Nomination not confirmed",
+          "source_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/ueki-shigeaki",
+          "status": "verified"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ueki (CPDOC)",
+          "url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/ueki-shigeaki"
+        },
+        {
+          "title": "Ueki (Wikipedia)",
+          "url": "https://pt.wikipedia.org/wiki/Shigeaki_Ueki"
+        }
+      ],
+      "verified_sources": [
+        "https://pt.wikipedia.org/wiki/Mineração_Rio_do_Norte",
+        "https://pt.wikipedia.org/wiki/Shigeaki_Ueki",
+        "https://www.redalyc.org/pdf/3940/394034998010.pdf",
+        "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/ueki-shigeaki"
+      ]
+    },
+    {
+      "id": "p-eliezer-batista",
+      "name": "Eliezer Batista da Silva",
+      "posts": [
+        {
+          "post": "President of Vale",
+          "start": 1961,
+          "end": 1964,
+          "appointed_by": "Jânio Quadros",
+          "status": "verified"
+        },
+        {
+          "post": "Minister of Mines and Energy",
+          "start": 1962,
+          "end": 1963,
+          "appointed_by": "Goulart (Hermes Lima cabinet)",
+          "status": "verified"
+        },
+        {
+          "post": "President of Vale",
+          "start": 1979,
+          "end": 1986,
+          "appointed_by": "Figueiredo",
+          "status": "verified"
+        }
+      ],
+      "before": "Railway engineer at Vale since 1949; built the Japanese ore contracts (11 steelmakers, 1962) and the Tubarão port.",
+      "after": "Revolving door: dismissed in 1964, then (Castelo Branco's advice) director-president of MBR/Caemi, VP of Itabira International Company, director of Itabira Eisenerz (Düsseldorf), president of Rio Doce Internacional (Brussels) and of Paranapanema; founded Aracruz Florestal in 1967.",
+      "foreign_ties": [
+        {
+          "counterpart": "Japanese steelmakers",
+          "kind": "client",
+          "detail": "Eleven 15-year export contracts with Japanese steelmakers signed in 1962, totalling 5 mt/year, while he presided over Vale.",
+          "source_url": "https://pt.wikipedia.org/wiki/Eliezer_Batista",
+          "status": "verified"
+        },
+        {
+          "counterpart": "Minerações Brasileiras Reunidas (MBR / Caemi)",
+          "kind": "board seat",
+          "detail": "Director-president of MBR in the military period. Wikipedia pages differ on the foreign partner (Hanna on the Caemi page, Bethlehem Steel on the Eliezer page); the job is confirmed, the partner name is not.",
+          "source_url": "https://pt.wikipedia.org/wiki/Eliezer_Batista",
+          "status": "verified"
+        },
+        {
+          "counterpart": "United States Steel",
+          "kind": "partner",
+          "detail": "Vale and US Steel formed Amazônia Mineração (AMZA) for Carajás after Albuquerque Lima advised US Steel to negotiate with Vale (Wikipedia on Vale). The page does not date Eliezer's role in it.",
+          "source_url": "https://pt.wikipedia.org/wiki/Companhia_Vale_do_Rio_Doce",
+          "status": "verified"
+        },
+        {
+          "counterpart": "Itabira Eisenerz GmbH (Düsseldorf)",
+          "kind": "board seat",
+          "detail": "Director of Itabira Eisenerz GmbH, Düsseldorf, from 1968 (Wikipedia).",
+          "source_url": "https://pt.wikipedia.org/wiki/Companhia_Vale_do_Rio_Doce",
+          "status": "verified"
+        }
+      ],
+      "case_links": [
+        {
+          "case_id": "e3-04",
+          "role": "director-president of MBR (Caemi group)",
+          "detail": "Dates not stated; also Castelo Branco 'Caemi or jail' episode.",
+          "source_url": "https://pt.wikipedia.org/wiki/Eliezer_Batista",
+          "basis": "documented-act",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-09",
+          "role": "founded Aracruz Florestal in 1967",
+          "detail": "Wikipedia.",
+          "source_url": "https://pt.wikipedia.org/wiki/Eliezer_Batista",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-18",
+          "role": "Vale president 1979-86 when Grande Carajás started; Vale held the ore",
+          "detail": "Case e3-18.",
+          "source_url": "https://pt.wikipedia.org/wiki/Programa_Grande_Carajás",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-22",
+          "role": "president of Paranapanema, owner of Mineração Taboca (Pitinga tin)",
+          "detail": "Dates not stated.",
+          "source_url": "https://pt.wikipedia.org/wiki/Companhia_Vale_do_Rio_Doce",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-21",
+          "role": "Vale president 1979-86; Docegeo (Vale subsidiary) held the Serra Pelada gold-purchase monopoly",
+          "detail": "Case e3-21.",
+          "source_url": "https://en.wikipedia.org/wiki/Serra_Pelada",
+          "basis": "in-office",
+          "status": "verified"
+        }
+      ],
+      "controversies": [],
+      "sources": [
+        {
+          "title": "Eliezer Batista (Wikipedia)",
+          "url": "https://pt.wikipedia.org/wiki/Eliezer_Batista"
+        },
+        {
+          "title": "Vale (Wikipedia)",
+          "url": "https://pt.wikipedia.org/wiki/Companhia_Vale_do_Rio_Doce"
+        }
+      ],
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Serra_Pelada",
+        "https://pt.wikipedia.org/wiki/Companhia_Vale_do_Rio_Doce",
+        "https://pt.wikipedia.org/wiki/Eliezer_Batista",
+        "https://pt.wikipedia.org/wiki/Programa_Grande_Carajás"
+      ]
+    },
+    {
+      "id": "p-dias-leite",
+      "name": "Antônio Dias Leite Júnior",
+      "posts": [
+        {
+          "post": "President of Vale",
+          "start": 1967,
+          "end": 1968,
+          "appointed_by": "Costa e Silva",
+          "status": "verified"
+        },
+        {
+          "post": "Minister of Mines and Energy",
+          "start": 1969,
+          "end": 1974,
+          "appointed_by": "Costa e Silva (Jan 1969), kept under Médici",
+          "status": "verified"
+        }
+      ],
+      "before": "Engineer and economist; made Brazil's first GDP estimate.",
+      "after": "Idealiser and founder of Aracruz Florestal (Wikipedia). Professor at UFRJ.",
+      "foreign_ties": [],
+      "case_links": [
+        {
+          "case_id": "e3-09",
+          "role": "called idealiser and founder of Aracruz Florestal while holding senior state posts",
+          "detail": "Wikipedia; date of founding is 1967 per Eliezer Batista's entry.",
+          "source_url": "https://pt.wikipedia.org/wiki/Ant%C3%B4nio_Dias_Leite_J%C3%BAnior",
+          "basis": "documented-act",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-13",
+          "role": "made Itaipu viable as Mines and Energy minister",
+          "detail": "Wikipedia.",
+          "source_url": "https://pt.wikipedia.org/wiki/Ant%C3%B4nio_Dias_Leite_J%C3%BAnior",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-14",
+          "role": "made Tucuruí viable and founded Eletronorte",
+          "detail": "Wikipedia.",
+          "source_url": "https://pt.wikipedia.org/wiki/Ant%C3%B4nio_Dias_Leite_J%C3%BAnior",
+          "basis": "in-office",
+          "status": "verified"
+        }
+      ],
+      "controversies": [],
+      "sources": [
+        {
+          "title": "Dias Leite (Wikipedia)",
+          "url": "https://pt.wikipedia.org/wiki/Ant%C3%B4nio_Dias_Leite_J%C3%BAnior"
+        },
+        {
+          "title": "Dias Leite (CPDOC)",
+          "url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/antonio-dias-leite-junior"
+        }
+      ],
+      "verified_sources": [
+        "https://pt.wikipedia.org/wiki/Ant%C3%B4nio_Dias_Leite_J%C3%BAnior",
+        "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/antonio-dias-leite-junior"
+      ]
+    },
+    {
+      "id": "p-cesar-cals",
+      "name": "César Cals de Oliveira Filho",
+      "posts": [
+        {
+          "post": "Minister of Mines and Energy",
+          "start": 1979,
+          "end": 1985,
+          "appointed_by": "Figueiredo",
+          "status": "verified"
+        }
+      ],
+      "before": "Colonel/politician from Ceará (CPDOC).",
+      "after": "Not stated.",
+      "foreign_ties": [],
+      "case_links": [
+        {
+          "case_id": "e3-14",
+          "role": "Mines and Energy minister during Tucuruí and the Albras/Alunorte phase",
+          "detail": "Link is contextual; the specific decision or signature was not verified in the opened sources.",
+          "source_url": "https://www.redalyc.org/pdf/3940/394034998010.pdf",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-13",
+          "role": "Mines and Energy minister when Itaipu opened (1982)",
+          "detail": "Link is contextual; the specific decision or signature was not verified in the opened sources.",
+          "source_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/itaipu-binacional",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-18",
+          "role": "Mines and Energy minister during Grande Carajás",
+          "detail": "Link is contextual; the specific decision or signature was not verified in the opened sources.",
+          "source_url": "https://pt.wikipedia.org/wiki/Programa_Grande_Carajás",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-20",
+          "role": "Mines and Energy minister when the Capemi contract was cancelled (March 1983)",
+          "detail": "Link is contextual; the specific decision or signature was not verified in the opened sources.",
+          "source_url": "https://grandesfraudes.wordpress.com/2016/05/11/capemi-delfimnetto/",
+          "basis": "in-office",
+          "status": "verified"
+        }
+      ],
+      "controversies": [],
+      "sources": [
+        {
+          "title": "Cals (CPDOC)",
+          "url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/cesar-cals-de-oliveira-filho"
+        }
+      ],
+      "verified_sources": [
+        "https://grandesfraudes.wordpress.com/2016/05/11/capemi-delfimnetto/",
+        "https://pt.wikipedia.org/wiki/Programa_Grande_Carajás",
+        "https://www.redalyc.org/pdf/3940/394034998010.pdf",
+        "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/cesar-cals-de-oliveira-filho",
+        "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/itaipu-binacional"
+      ]
+    },
+    {
+      "id": "p-costa-cavalcanti",
+      "name": "José Costa Cavalcanti",
+      "posts": [
+        {
+          "post": "Minister of Mines and Energy",
+          "start": 1967,
+          "end": 1969,
+          "appointed_by": "Costa e Silva (15 Mar 1967-27 Jan 1969)",
+          "status": "verified"
+        },
+        {
+          "post": "Minister of the Interior",
+          "start": 1969,
+          "end": 1974,
+          "appointed_by": "Costa e Silva (moved Jan 1969), kept under Médici",
+          "status": "verified"
+        },
+        {
+          "post": "Director-General of Itaipu Binacional",
+          "start": 1974,
+          "end": 1985,
+          "appointed_by": "Geisel (April 1974)",
+          "status": "verified"
+        }
+      ],
+      "before": "Army officer; UDN federal deputy 1962; trained at Fort Benning 1950-51.",
+      "after": "General of the Army in reserve.",
+      "foreign_ties": [
+        {
+          "counterpart": "Paraguay (Itaipu counterpart)",
+          "kind": "foreign government",
+          "detail": "First Brazilian director-general of the binational plant.",
+          "source_url": "https://pt.wikipedia.org/wiki/Jos%C3%A9_Costa_Cavalcanti",
+          "status": "verified"
+        }
+      ],
+      "case_links": [
+        {
+          "case_id": "e3-13",
+          "role": "first director-general of Itaipu (eleven years)",
+          "detail": "Named by Geisel in April 1974 as first Brazilian director-general of Itaipu Binacional, until 1985 (Wikipedia).",
+          "source_url": "https://pt.wikipedia.org/wiki/Jos%C3%A9_Costa_Cavalcanti",
+          "basis": "documented-act",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-12",
+          "role": "Interior minister in the Médici years (INCRA/SUDAM line)",
+          "detail": "Link is contextual; the specific decision or signature was not verified in the opened sources.",
+          "source_url": "https://pt.wikipedia.org/wiki/Jos%C3%A9_Costa_Cavalcanti",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-02",
+          "role": "at the 1972 Stockholm conference said 'develop first, pay the costs of pollution later'",
+          "detail": "Context for Cubatão; Wikipedia.",
+          "source_url": "https://pt.wikipedia.org/wiki/Jos%C3%A9_Costa_Cavalcanti",
+          "basis": "in-office",
+          "status": "verified"
+        }
+      ],
+      "controversies": [],
+      "sources": [
+        {
+          "title": "Costa Cavalcanti (Wikipedia)",
+          "url": "https://pt.wikipedia.org/wiki/Jos%C3%A9_Costa_Cavalcanti"
+        }
+      ],
+      "verified_sources": [
+        "https://pt.wikipedia.org/wiki/Jos%C3%A9_Costa_Cavalcanti"
+      ]
+    },
+    {
+      "id": "p-andreazza",
+      "name": "Mário David Andreazza",
+      "posts": [
+        {
+          "post": "Minister of Transport",
+          "start": 1967,
+          "end": 1974,
+          "appointed_by": "Costa e Silva, Médici",
+          "status": "verified"
+        },
+        {
+          "post": "Minister of the Interior (BNH, SUDAM)",
+          "start": 1979,
+          "end": 1985,
+          "appointed_by": "Figueiredo",
+          "status": "verified"
+        }
+      ],
+      "before": "Army colonel; built the Rio-Niterói bridge and the Transamazônica.",
+      "after": "Later presidential candidate (1989), per Wikipedia lead.",
+      "foreign_ties": [],
+      "case_links": [
+        {
+          "case_id": "e3-24",
+          "role": "Minister in charge of BNH at the time of the Delfin swap; named and investigated",
+          "detail": "Investigated, no personal conviction found.",
+          "source_url": "https://pt.wikipedia.org/wiki/Caso_Delfin",
+          "basis": "in-office",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-12",
+          "role": "Transport minister for the Transamazônica",
+          "detail": "Wikipedia.",
+          "source_url": "https://pt.wikipedia.org/wiki/M%C3%A1rio_Andreazza",
+          "basis": "in-office",
+          "status": "verified"
+        }
+      ],
+      "controversies": [
+        {
+          "what": "Delfin/BNH swap: named in Folha (Dec 1982) with Delfim and Galvêas and investigated",
+          "outcome": "No personal conviction found. In 2006 the STJ accepted the property payment to creditors as fair (Wikipedia, Caso Delfin)",
+          "source_url": "https://pt.wikipedia.org/wiki/Caso_Delfin",
+          "status": "verified"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Andreazza (Wikipedia)",
+          "url": "https://pt.wikipedia.org/wiki/M%C3%A1rio_Andreazza"
+        }
+      ],
+      "verified_sources": [
+        "https://pt.wikipedia.org/wiki/Caso_Delfin",
+        "https://pt.wikipedia.org/wiki/M%C3%A1rio_Andreazza"
+      ]
+    },
+    {
+      "id": "p-albuquerque-lima",
+      "name": "Afonso Augusto de Albuquerque Lima",
+      "posts": [
+        {
+          "post": "Minister of the Interior",
+          "start": 1967,
+          "end": 1969,
+          "appointed_by": "Costa e Silva",
+          "status": "verified"
+        }
+      ],
+      "before": "Army general (general knowledge; not verified).",
+      "after": "Not stated.",
+      "foreign_ties": [
+        {
+          "counterpart": "United States Steel",
+          "kind": "partner",
+          "detail": "Per Wikipedia on Vale, he suggested US Steel negotiate an association with Vale for Carajás.",
+          "source_url": "https://pt.wikipedia.org/wiki/Companhia_Vale_do_Rio_Doce",
+          "status": "verified"
+        }
+      ],
+      "case_links": [
+        {
+          "case_id": "e3-18",
+          "role": "suggested the Vale-US Steel association that became Amazônia Mineração (AMZA)",
+          "detail": "Wikipedia on Vale.",
+          "source_url": "https://pt.wikipedia.org/wiki/Companhia_Vale_do_Rio_Doce",
+          "basis": "documented-act",
+          "status": "verified"
+        },
+        {
+          "case_id": "e3-06",
+          "role": "head of the ministry overseeing SUDAM in 1967-69",
+          "detail": "Link is contextual; the specific decision or signature was not verified in the opened sources.",
+          "source_url": "https://www.abphe.org.br/uploads/abphe2023/anais/joaoraiel.pdf",
+          "basis": "in-office",
+          "status": "verified"
+        }
+      ],
+      "controversies": [],
+      "sources": [
+        {
+          "title": "Vale (Wikipedia)",
+          "url": "https://pt.wikipedia.org/wiki/Companhia_Vale_do_Rio_Doce"
+        }
+      ],
+      "verified_sources": [
+        "https://pt.wikipedia.org/wiki/Companhia_Vale_do_Rio_Doce",
+        "https://www.abphe.org.br/uploads/abphe2023/anais/joaoraiel.pdf",
+        "https://pt.wikipedia.org/wiki/Afonso_Augusto_de_Albuquerque_Lima"
+      ]
+    },
+    {
+      "id": "p-roquette-reis",
+      "name": "Fernando Roquete Reis",
+      "posts": [
+        {
+          "post": "President of Vale",
+          "start": null,
+          "end": null,
+          "appointed_by": "Dates not found in opened pages; succeeded Raimundo Mascarenhas (Wikipedia on Vale)",
+          "status": "unverified"
+        }
+      ],
+      "before": "Vale executive.",
+      "after": "Not stated.",
+      "foreign_ties": [
+        {
+          "counterpart": "United States Steel",
+          "kind": "partner",
+          "detail": "Bought US Steel's share of Amazônia Mineração after US Steel withdrew from the Carajás railway (Wikipedia on Vale; spelled 'Roquete Reis' there).",
+          "source_url": "https://pt.wikipedia.org/wiki/Companhia_Vale_do_Rio_Doce",
+          "status": "verified"
+        }
+      ],
+      "case_links": [
+        {
+          "case_id": "e3-18",
+          "role": "Vale president who bought US Steel out of the Carajás joint venture",
+          "detail": "Case e3-18.",
+          "source_url": "https://pt.wikipedia.org/wiki/Programa_Grande_Carajás",
+          "basis": "in-office",
+          "status": "unverified"
+        }
+      ],
+      "controversies": [],
+      "sources": [
+        {
+          "title": "Vale (Wikipedia)",
+          "url": "https://pt.wikipedia.org/wiki/Companhia_Vale_do_Rio_Doce"
+        }
+      ],
+      "verified_sources": [
+        "https://pt.wikipedia.org/wiki/Companhia_Vale_do_Rio_Doce",
+        "https://pt.wikipedia.org/wiki/Programa_Grande_Carajás"
+      ]
+    },
+    {
+      "id": "p-araken-oliveira",
+      "name": "Araken de Oliveira",
+      "posts": [
+        {
+          "post": "President of Petrobras",
+          "start": 1974,
+          "end": 1979,
+          "appointed_by": "Geisel",
+          "status": "verified"
+        }
+      ],
+      "before": "Army artillery officer (CPDOC).",
+      "after": "Succeeded by Ueki in March 1979.",
+      "foreign_ties": [],
+      "case_links": [
+        {
+          "case_id": "e3-17",
+          "role": "Petrobras president during Proálcool's start (mandatory purchase of alcohol)",
+          "detail": "Context link: Link is contextual; the specific decision or signature was not verified in the opened sources.",
+          "source_url": "https://periodicos.fgv.br/rbe/article/download/2637/6674/16894",
+          "basis": "in-office",
+          "status": "unverified"
+        }
+      ],
+      "controversies": [],
+      "sources": [
+        {
+          "title": "Araken de Oliveira (CPDOC)",
+          "url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/oliveira-araken-de"
+        }
+      ],
+      "verified_sources": [
+        "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/oliveira-araken-de"
+      ]
+    },
+    {
+      "id": "p-paulo-nogueira-batista",
+      "name": "Paulo Nogueira Batista",
+      "posts": [
+        {
+          "post": "President of Nuclebrás",
+          "start": 1975,
+          "end": null,
+          "appointed_by": "Geisel",
+          "status": "verified"
+        }
+      ],
+      "before": "Diplomat; negotiated the 1969 Brazil-West Germany science and technology accord and served in Bonn 1969-71.",
+      "after": "Ambassador to the UN 1987-1990 (CPDOC).",
+      "foreign_ties": [
+        {
+          "counterpart": "West German government",
+          "kind": "foreign government",
+          "detail": "Negotiated the nuclear accord of 1969 and ran Nuclebrás under the 1975 deal.",
+          "source_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/batista-paulo-nogueira",
+          "status": "verified"
+        }
+      ],
+      "case_links": [
+        {
+          "case_id": "e3-16",
+          "role": "ran Nuclebrás under the 1975 deal",
+          "detail": "CPDOC.",
+          "source_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/batista-paulo-nogueira",
+          "basis": "documented-act",
+          "status": "verified"
+        }
+      ],
+      "controversies": [],
+      "sources": [
+        {
+          "title": "Paulo Nogueira Batista (CPDOC)",
+          "url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/batista-paulo-nogueira"
+        }
+      ],
+      "verified_sources": [
+        "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/batista-paulo-nogueira"
+      ]
+    },
+    {
+      "id": "p-azeredo-silveira",
+      "name": "Antônio Francisco Azeredo da Silveira",
+      "posts": [
+        {
+          "post": "Foreign minister",
+          "start": 1974,
+          "end": 1979,
+          "appointed_by": "Geisel",
+          "status": "verified"
+        }
+      ],
+      "before": "Diplomat (CPDOC).",
+      "after": "Not stated.",
+      "foreign_ties": [
+        {
+          "counterpart": "West German government",
+          "kind": "foreign government",
+          "detail": "Foreign minister of the government that signed the 1975 nuclear accord.",
+          "source_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/antonio-francisco-azeredo-da-silveira",
+          "status": "verified"
+        }
+      ],
+      "case_links": [
+        {
+          "case_id": "e3-16",
+          "role": "foreign minister during the 1975 Germany nuclear accord",
+          "detail": "Role in the negotiation not verified.",
+          "source_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/antonio-francisco-azeredo-da-silveira",
+          "basis": "in-office",
+          "status": "verified"
+        }
+      ],
+      "controversies": [],
+      "sources": [
+        {
+          "title": "Azeredo da Silveira (CPDOC)",
+          "url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/antonio-francisco-azeredo-da-silveira"
+        }
+      ],
+      "verified_sources": [
+        "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/antonio-francisco-azeredo-da-silveira"
+      ]
+    },
+    {
+      "id": "p-lincoln-gordon",
+      "name": "Abraham Lincoln Gordon",
+      "posts": [
+        {
+          "post": "US ambassador to Brazil",
+          "start": 1961,
+          "end": 1966,
+          "appointed_by": "Kennedy (and Johnson)",
+          "status": "verified"
+        }
+      ],
+      "before": "Harvard professor; Marshall Plan mission head; Alliance for Progress.",
+      "after": "President of Johns Hopkins University 1967-71; business career and Brookings Institution (Wikipedia).",
+      "foreign_ties": [
+        {
+          "counterpart": "US government",
+          "kind": "foreign government",
+          "detail": "Ambassador.",
+          "source_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/gordon-lincoln",
+          "status": "verified"
+        }
+      ],
+      "case_links": [
+        {
+          "case_id": "e3-04",
+          "role": "US ambassador when the rules for foreign mining capital changed after the 1964 coup",
+          "detail": "His specific role in the Hanna dispute was not verified; CPDOC documents embassy preparation for the overthrow and quick recognition of the regime.",
+          "source_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/gordon-lincoln",
+          "basis": "in-office",
+          "status": "verified"
+        }
+      ],
+      "controversies": [],
+      "sources": [
+        {
+          "title": "Gordon (CPDOC)",
+          "url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/gordon-lincoln"
+        },
+        {
+          "title": "Gordon (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Lincoln_Gordon"
+        }
+      ],
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Lincoln_Gordon",
+        "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/gordon-lincoln"
+      ]
+    },
+    {
+      "id": "p-bayama-denys",
+      "name": "Rubens Bayama Denys",
+      "posts": [
+        {
+          "post": "Head of the Casa Militar",
+          "start": 1985,
+          "end": 1990,
+          "appointed_by": "Sarney",
+          "status": "verified"
+        }
+      ],
+      "before": "Army general (case file).",
+      "after": "Not stated.",
+      "foreign_ties": [],
+      "case_links": [
+        {
+          "case_id": "e3-26",
+          "role": "coordinated the drafting of Calha Norte in secret",
+          "detail": "Case e3-26.",
+          "source_url": "https://fpabramo.org.br/1989/04/01/calha-norte-alem-das-fronteiras/",
+          "basis": "documented-act",
+          "status": "verified"
+        }
+      ],
+      "controversies": [],
+      "sources": [
+        {
+          "title": "Calha Norte (FPA)",
+          "url": "https://fpabramo.org.br/1989/04/01/calha-norte-alem-das-fronteiras/"
+        }
+      ],
+      "verified_sources": [
+        "https://fpabramo.org.br/1989/04/01/calha-norte-alem-das-fronteiras/",
+        "https://pt.wikipedia.org/wiki/Rubens_Bayma_Denys"
+      ]
+    },
+    {
+      "id": "p-antunes",
+      "name": "Augusto Trajano de Azevedo Antunes",
+      "posts": [],
+      "before": "Head of Caemi; private industrialist.",
+      "after": "Bought Ludwig's MBR and St John del Rey shares with a BNDE loan of US$35 mn (Em Tempo, partisan source).",
+      "foreign_ties": [
+        {
+          "counterpart": "M. A. Hanna Mining Co.",
+          "kind": "partner",
+          "detail": "Partner in MBR formed 1965.",
+          "source_url": "https://en.wikipedia.org/wiki/Caemi",
+          "status": "verified"
+        }
+      ],
+      "case_links": [
+        {
+          "case_id": "e3-04",
+          "role": "private party in the Hanna/Caemi merger",
+          "detail": "Case file.",
+          "source_url": "https://en.wikipedia.org/wiki/Caemi",
+          "basis": "documented-act",
+          "status": "verified"
+        }
+      ],
+      "controversies": [],
+      "sources": [
+        {
+          "title": "Caemi (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Caemi"
+        }
+      ],
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Caemi"
+      ]
+    },
+    {
+      "id": "p-fernao-bracher",
+      "name": "Fernão Carlos Botelho Bracher",
+      "posts": [
+        {
+          "post": "President of the Central Bank",
+          "start": 1985,
+          "end": 1987,
+          "appointed_by": "Dilson Funaro (Finance Minister) under Sarney",
+          "status": "verified"
+        }
+      ],
+      "before": "Banker (general knowledge; not verified in an opened page).",
+      "after": "Founded Banco BBA (general knowledge).",
+      "foreign_ties": [],
+      "case_links": [
+        {
+          "case_id": "e3-25",
+          "role": "Central Bank president at the 1985 liquidations of Comind, Auxiliar and Maisonnave",
+          "detail": "Dates and role from general knowledge, not verified in an opened page.",
+          "source_url": "https://en.wikipedia.org/wiki/Banco_Sulbrasileiro",
+          "basis": "in-office",
+          "status": "verified"
+        }
+      ],
+      "controversies": [],
+      "sources": [
+        {
+          "title": "Case file g3 (e3-25)",
+          "url": "https://en.wikipedia.org/wiki/Banco_Sulbrasileiro"
+        }
+      ],
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Banco_Sulbrasileiro",
+        "https://pt.wikipedia.org/wiki/Fernão_Bracher"
+      ]
+    },
+    {
+      "id": "p-sebastiao-curio",
+      "name": "Sebastião Rodrigues de Moura (Major Curió)",
+      "posts": [
+        {
+          "post": "Federal controller at Serra Pelada",
+          "start": 1980,
+          "end": 1982,
+          "appointed_by": "Figueiredo government",
+          "status": "verified"
+        }
+      ],
+      "before": "Army major, intelligence officer (case file).",
+      "after": "Not stated.",
+      "foreign_ties": [],
+      "case_links": [
+        {
+          "case_id": "e3-21",
+          "role": "federal controller of the Serra Pelada gold field",
+          "detail": "Case e3-21.",
+          "source_url": "https://en.wikipedia.org/wiki/Serra_Pelada",
+          "basis": "documented-act",
+          "status": "verified"
+        }
+      ],
+      "controversies": [],
+      "sources": [
+        {
+          "title": "Serra Pelada (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Serra_Pelada"
+        }
+      ],
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Serra_Pelada"
+      ]
+    }
+  ],
+  "foreign_counterparts": [
+    {
+      "case_id": "e3-04",
+      "counterpart": "M. A. Hanna Mining Co.",
+      "country": "United States",
+      "kind": "company",
+      "detail": "Partner of Caemi in MBR (1965). Hanna's iron-ore registrations were voided in 1962.",
+      "source_url": "https://en.wikipedia.org/wiki/Caemi",
+      "status": "verified"
+    },
+    {
+      "case_id": "e3-05",
+      "counterpart": "Liquifarm, later Agip (Italian group)",
+      "country": "Italy",
+      "kind": "company",
+      "detail": "Suiá-Missu was sold to the Italian group Liquifarm in the 1970s, which later became Agip; at Eco-92 Agip announced donating 165,000 ha (A Pública).",
+      "source_url": "https://apublica.org/?p=25868",
+      "status": "verified"
+    },
+    {
+      "case_id": "e3-08",
+      "counterpart": "Daniel K. Ludwig",
+      "country": "United States",
+      "kind": "investor",
+      "detail": "Bought land on the Rio Jari in 1967 (Wikipedia).",
+      "source_url": "https://en.wikipedia.org/wiki/Jari_project",
+      "status": "verified"
+    },
+    {
+      "case_id": "e3-10",
+      "counterpart": "Alcan",
+      "country": "Canada",
+      "kind": "company",
+      "detail": "Joint owner of MRN with Vale; later owners Glencore, South32 and Rio Tinto.",
+      "source_url": "https://pt.wikipedia.org/wiki/Mineração_Rio_do_Norte",
+      "status": "verified"
+    },
+    {
+      "case_id": "e3-13",
+      "counterpart": "Paraguay (ANDE) and Conempa consortium",
+      "country": "Paraguay",
+      "kind": "government",
+      "detail": "Co-owner of Itaipu Binacional; Conempa did the civil works with Unicon (1975 contract).",
+      "source_url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/itaipu-binacional",
+      "status": "verified"
+    },
+    {
+      "case_id": "e3-15",
+      "counterpart": "Volkswagen AG (through its Brazilian subsidiary)",
+      "country": "Germany",
+      "kind": "company",
+      "detail": "Ran the 139,000 ha ranch 1974-1986 with SUDAM incentives and Basa loans; ordered to pay R$165 mn in collective damages (A Pública, 2025).",
+      "source_url": "https://apublica.org/2025/01/volkswagen-manteve-por-12-anos-fazenda-com-trabalho-escravo-no-pa-financiada-pela-ditadura/",
+      "status": "verified"
+    },
+    {
+      "case_id": "e3-16",
+      "counterpart": "West German government, Kraftwerk Union/Siemens, German banks",
+      "country": "Germany",
+      "kind": "government",
+      "detail": "1975 agreement: up to eight reactors, enrichment and reprocessing; value estimated US$4-10 bn.",
+      "source_url": "https://wilsoncenter.org/publication/brazils-1975-nuclear-agreement-west-germany",
+      "status": "verified"
+    },
+    {
+      "case_id": "e3-18",
+      "counterpart": "United States Steel",
+      "country": "United States",
+      "kind": "company",
+      "detail": "Discovered Carajás; formed AMZA with Vale; left 1977 with a US$50 mn indemnity.",
+      "source_url": "https://pt.wikipedia.org/wiki/Programa_Grande_Carajás",
+      "status": "verified"
+    },
+    {
+      "case_id": "e3-19",
+      "counterpart": "World Bank",
+      "country": "Multiple",
+      "kind": "lender",
+      "detail": "Financed the Polonoroeste programme.",
+      "source_url": "https://www.culturalsurvival.org/node/4698",
+      "status": "verified"
+    },
+    {
+      "case_id": "e3-22",
+      "counterpart": "Minsur",
+      "country": "Peru",
+      "kind": "company",
+      "detail": "Bought Mineração Taboca later.",
+      "source_url": "https://en.wikipedia.org/wiki/Waimiri_Atroari_Indigenous_Territory",
+      "status": "verified"
+    },
+    {
+      "case_id": "e3-09",
+      "counterpart": "Lorentzen group (Norwegian-born family)",
+      "country": "Norway/Brazil",
+      "kind": "investor",
+      "detail": "Galvêas sat on its board; its stake in Aracruz is not stated in the opened page.",
+      "source_url": "https://pt.wikipedia.org/wiki/Ernane_Galv%C3%AAas",
+      "status": "verified"
+    }
+  ],
+  "verification_note": "Fact-checked 1 Nov 2026 against opened pages. status=verified means an opened source supports the entry; unverified entries are kept only for posts and case_links. basis: documented-act = an opened source names the person acting; in-office = held the post at the time."
+}

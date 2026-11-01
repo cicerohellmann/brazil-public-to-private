@@ -1,0 +1,2081 @@
+{
+ "era": "2003-2016 (Lula 1-2, Dilma 1-2)",
+ "terms": [
+  {
+   "term": "Lula 1 (2003-2006)",
+   "decision_makers": [
+    "p-lula",
+    "p-jose-dirceu",
+    "p-antonio-palocci",
+    "p-guido-mantega",
+    "p-dilma-rousseff",
+    "p-henrique-meirelles",
+    "p-paulo-bernardo",
+    "p-paulo-roberto-costa",
+    "p-renato-duque",
+    "p-nestor-cervero",
+    "p-sergio-gabrielli",
+    "p-haroldo-lima",
+    "p-jerson-kelman"
+   ]
+  },
+  {
+   "term": "Lula 2 (2007-2010)",
+   "decision_makers": [
+    "p-lula",
+    "p-dilma-rousseff",
+    "p-guido-mantega",
+    "p-henrique-meirelles",
+    "p-edison-lobao",
+    "p-luciano-coutinho",
+    "p-sergio-gabrielli",
+    "p-aldemir-bendine",
+    "p-paulo-bernardo",
+    "p-nelson-hubner",
+    "p-haroldo-lima",
+    "p-jerson-kelman",
+    "p-marcelo-odebrecht"
+   ]
+  },
+  {
+   "term": "Dilma 1 (2011-2014)",
+   "decision_makers": [
+    "p-dilma-rousseff",
+    "p-antonio-palocci",
+    "p-gleisi-hoffmann",
+    "p-guido-mantega",
+    "p-alexandre-tombini",
+    "p-edison-lobao",
+    "p-luciano-coutinho",
+    "p-graca-foster",
+    "p-aldemir-bendine",
+    "p-magda-chambriard",
+    "p-nelson-hubner",
+    "p-paulo-bernardo"
+   ]
+  },
+  {
+   "term": "Dilma 2 (2015-2016)",
+   "decision_makers": [
+    "p-dilma-rousseff",
+    "p-joaquim-levy",
+    "p-alexandre-tombini",
+    "p-luciano-coutinho",
+    "p-graca-foster",
+    "p-aldemir-bendine",
+    "p-magda-chambriard"
+   ]
+  }
+ ],
+ "people": [
+  {
+   "id": "p-lula",
+   "name": "Luiz Inácio Lula da Silva",
+   "posts": [
+    {
+     "post": "President of Brazil",
+     "start": "2003-01-01",
+     "end": "2011-01-01",
+     "appointed_by": "elected",
+     "status": "verified"
+    }
+   ],
+   "before": "",
+   "after": "",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e5-01",
+     "role": "head of government",
+     "detail": "head of government during the concession rounds",
+     "source_url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-02",
+     "role": "head of government during BNDES export-service lending to Odebrecht and others",
+     "detail": "head of government during BNDES export-service lending to Odebrecht and others",
+     "source_url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-03",
+     "role": "named Petrobras director Paulo Roberto Costa (2004) and nominated Cerveró to BR Distribuidora (2008)",
+     "detail": "Costa named by Lula on the indication of deputy José Janene (PP) per Wikipedia (Paulo Roberto Costa); Cerveró nominated to BR Distribuidora by Lula, per Cerveró's plea deal (Wikipedia, Nestor Cerveró)",
+     "source_url": "https://pt.wikipedia.org/wiki/Paulo_Roberto_Costa",
+     "basis": "documented-act",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-04",
+     "role": "head of government when Lei 11.079/2004 (PPP law) was enacted",
+     "detail": "head of government when the PPP law was enacted; signatory not confirmed on an opened page",
+     "source_url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva",
+     "basis": "in-office",
+     "status": "unverified"
+    },
+    {
+     "case_id": "e5-05",
+     "role": "head of government when Lei 11.284/2006 was enacted",
+     "detail": "head of government when Lei 11.284/2006 was enacted",
+     "source_url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-06",
+     "role": "head of government during the Madeira auctions",
+     "detail": "head of government during the Madeira auctions (2007)",
+     "source_url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-07",
+     "role": "head of government during BNDES equity in JBS/Bertin",
+     "detail": "head of government during BNDES equity in JBS/Bertin",
+     "source_url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-09",
+     "role": "head of government when Decree 6.654/2008 was issued",
+     "detail": "head of government when Decree 6.654/2008 was issued",
+     "source_url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-10",
+     "role": "head of government during BNDES support for VCP-Aracruz",
+     "detail": "head of government during BNDES support for VCP-Aracruz",
+     "source_url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-13",
+     "role": "head of government when MP 458/2009 and Lei 11.952/2009 were enacted",
+     "detail": "head of government when MP 458/2009 and Lei 11.952/2009 were enacted",
+     "source_url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-14",
+     "role": "head of government when Caixa bought Panamericano stake",
+     "detail": "head of government when Caixa bought Panamericano stake (2009)",
+     "source_url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-15",
+     "role": "head of government at the April 2010 Belo Monte auction",
+     "detail": "head of government at the April 2010 Belo Monte auction",
+     "source_url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-16",
+     "role": "head of government when Lei 12.276/2010",
+     "detail": "head of government when Lei 12.276/2010 (cessão onerosa) was enacted",
+     "source_url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-17",
+     "role": "head of government when Lei 12.351/2010",
+     "detail": "head of government when Lei 12.351/2010 (pre-salt sharing) was enacted",
+     "source_url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "x-20",
+     "role": "head of government",
+     "detail": "head of government; Terra Legal",
+     "source_url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "x-21",
+     "role": "head of government",
+     "detail": "head of government; Lei 11.952/2009",
+     "source_url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "x-22",
+     "role": "head of government",
+     "detail": "head of government; Votorantim and Banco do Brasil",
+     "source_url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "x-23",
+     "role": "head of government",
+     "detail": "head of government; Panamericano and Caixa",
+     "source_url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Convicted at first instance in Curitiba in 2017 (Guarujá triplex) and 2019 (Atibaia sítio); accused of receiving benefits from contractors.",
+     "outcome": "ANNULLED. On 8 Mar 2021 STF Justice Edson Fachin annulled the Curitiba convictions for lack of jurisdiction of the 13th Federal Court of Curitiba; on 15 Apr 2021 the STF plenary upheld the annulment (8 votes to 3). On 23 Mar 2021 the STF Second Panel had found judge Sergio Moro partial in the triplex case. Not currently convicted on these cases. Sentence figures not verified.",
+     "source_url": "https://www.poder360.com.br/justica/stf-confirma-anulacao-das-decisoes-da-justica-de-curitiba/",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Luiz Inácio Lula da Silva",
+     "url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva"
+    },
+    {
+     "title": "Conjur: Fachin annuls Lula convictions (8 Mar 2021) - via search",
+     "url": "https://www.conjur.com.br/2021-mar-12/fachin-manda-anulacao-condenacoes-lula-plenario-stf//?print=1"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva",
+    "https://www.conjur.com.br/2021-mar-12/fachin-manda-anulacao-condenacoes-lula-plenario-stf//?print=1",
+    "https://www.poder360.com.br/justica/stf-confirma-anulacao-das-decisoes-da-justica-de-curitiba/"
+   ]
+  },
+  {
+   "id": "p-dilma-rousseff",
+   "name": "Dilma Rousseff",
+   "posts": [
+    {
+     "post": "Minister of Mines and Energy; chair of the Petrobras board",
+     "start": "2003-01-01",
+     "end": "2005-06-21",
+     "appointed_by": "Lula (board chair role held until March 2010)",
+     "status": "verified"
+    },
+    {
+     "post": "Chief of Staff (Casa Civil)",
+     "start": "2005-06-21",
+     "end": "2010-03-31",
+     "appointed_by": "Lula",
+     "status": "verified"
+    },
+    {
+     "post": "President of Brazil",
+     "start": "2011-01-01",
+     "end": "2016-08-31",
+     "appointed_by": "elected; suspended 2016-05-12, removed by impeachment 2016-08-31, keeping the right to hold other offices",
+     "status": "verified"
+    }
+   ],
+   "before": "",
+   "after": "",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e5-01",
+     "role": "as MME minister and then president, set the policy under which ANP held the concession rou",
+     "detail": "as MME minister and then president, set the policy under which ANP held the concession rounds",
+     "source_url": "https://pt.wikipedia.org/wiki/Dilma_Rousseff",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-03",
+     "role": "chaired the Petrobras board until March 2010",
+     "detail": "chaired the Petrobras board until March 2010; appointed Graça Foster (2012) and Bendine (2015); the page does not give any Lava Jato outcome for her",
+     "source_url": "https://pt.wikipedia.org/wiki/Dilma_Rousseff",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-06",
+     "role": "Casa Civil/president during Madeira dams",
+     "detail": "Casa Civil/president during Madeira dams",
+     "source_url": "https://pt.wikipedia.org/wiki/Dilma_Rousseff",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-11",
+     "role": "president during Angra 3 contracts",
+     "detail": "president during Angra 3 contracts",
+     "source_url": "https://pt.wikipedia.org/wiki/Dilma_Rousseff",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-12",
+     "role": "president during PSI/Treasury funding of BNDES",
+     "detail": "president during PSI/Treasury funding of BNDES",
+     "source_url": "https://pt.wikipedia.org/wiki/Dilma_Rousseff",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-15",
+     "role": "as Casa Civil chief/president, central to the Belo Monte project",
+     "detail": "as Casa Civil chief/president, central to the Belo Monte project; case file source",
+     "source_url": "https://pt.wikipedia.org/wiki/Dilma_Rousseff",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-17",
+     "role": "president at the Libra auction",
+     "detail": "president at the Libra auction (21 Oct 2013)",
+     "source_url": "https://pt.wikipedia.org/wiki/Dilma_Rousseff",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-19",
+     "role": "president",
+     "detail": "president; Plano Brasil Maior 2011",
+     "source_url": "https://pt.wikipedia.org/wiki/Dilma_Rousseff",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-20",
+     "role": "president at the 2012-2013 airport auctions",
+     "detail": "president at the 2012-2013 airport auctions",
+     "source_url": "https://pt.wikipedia.org/wiki/Dilma_Rousseff",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-21",
+     "role": "president",
+     "detail": "president; MP 579/2012",
+     "source_url": "https://pt.wikipedia.org/wiki/Dilma_Rousseff",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-22",
+     "role": "president",
+     "detail": "president; Lei 12.651/2012",
+     "source_url": "https://pt.wikipedia.org/wiki/Dilma_Rousseff",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-23",
+     "role": "president",
+     "detail": "president; third highway round",
+     "source_url": "https://pt.wikipedia.org/wiki/Dilma_Rousseff",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "x-24",
+     "role": "president when the CAR was created",
+     "detail": "president when the CAR was created",
+     "source_url": "https://pt.wikipedia.org/wiki/Dilma_Rousseff",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Impeachment process over alleged fiscal irregularities (pedaladas).",
+     "outcome": "Suspended 12 May 2016; mandate revoked 31 Aug 2016 with the right to hold other offices kept.",
+     "source_url": "https://pt.wikipedia.org/wiki/Dilma_Rousseff",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Dilma Rousseff",
+     "url": "https://pt.wikipedia.org/wiki/Dilma_Rousseff"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Dilma_Rousseff"
+   ]
+  },
+  {
+   "id": "p-jose-dirceu",
+   "name": "José Dirceu",
+   "posts": [
+    {
+     "post": "Chief of Staff (Casa Civil)",
+     "start": "2003-01-01",
+     "end": "2005-06-16 (infobox: 2005-06-21)",
+     "appointed_by": "Lula",
+     "status": "verified"
+    },
+    {
+     "post": "President of the PT",
+     "start": "1995-10-29",
+     "end": "2002-12-07",
+     "appointed_by": "party",
+     "status": "verified"
+    }
+   ],
+   "before": "PT national president 1995-2002 (leave from 7 Dec 2002).",
+   "after": "Lawyer registration cancelled by the OAB on 11 Apr 2016 (cancellation final only once appeals are exhausted).",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e5-03",
+     "role": "accused in Lava Jato",
+     "detail": "accused in Lava Jato (Pixuleco phase) of receiving benefits; not a Petrobras decision-maker",
+     "source_url": "https://pt.wikipedia.org/wiki/Jos%C3%A9_Dirceu",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Mensalão (AP 470): convicted by the STF on 9 Oct 2012 of corrupção ativa; convicted on 22 Oct 2012 of formação de quadrilha (6-4).",
+     "outcome": "Quadrilha conviction reversed: acquitted of that charge on 27 Feb 2014 (embargos infringentes, 6-5). Corrupção ativa conviction stands per the page.",
+     "source_url": "https://pt.wikipedia.org/wiki/Jos%C3%A9_Dirceu",
+     "status": "verified"
+    },
+    {
+     "what": "Lava Jato: arrested 3 Aug 2015; convicted by judge Moro on 18 May 2016 (23 years 3 months) and on 8 Mar 2017 (11 years 3 months) for passive corruption and money laundering; TRF4 rejected his last appeal there on 17 May 2018.",
+     "outcome": "ANNULLED. On 28 Oct 2024 STF Justice Gilmar Mendes (single-judge decision) annulled all of Moro's Lava Jato convictions against him, extending the Second Panel's finding that Moro was partial in Lula's cases.",
+     "source_url": "https://www.correiodamanha.com.br/politica/2024/10/amp/164779-stf-anula-condenacoes-de-jose-dirceu-na-lava-jato.html",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): José Dirceu",
+     "url": "https://pt.wikipedia.org/wiki/Jos%C3%A9_Dirceu"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Jos%C3%A9_Dirceu",
+    "https://www.correiodamanha.com.br/politica/2024/10/amp/164779-stf-anula-condenacoes-de-jose-dirceu-na-lava-jato.html"
+   ]
+  },
+  {
+   "id": "p-antonio-palocci",
+   "name": "Antonio Palocci",
+   "posts": [
+    {
+     "post": "Minister of Finance",
+     "start": "2003-01-01",
+     "end": "2006-03-27",
+     "appointed_by": "Lula",
+     "status": "verified"
+    },
+    {
+     "post": "Chief of Staff (Casa Civil)",
+     "start": "2011-01-01",
+     "end": "2011-06-07",
+     "appointed_by": "Dilma Rousseff",
+     "status": "verified"
+    }
+   ],
+   "before": "",
+   "after": "",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e5-03",
+     "role": "accused of receiving funds for Dilma's 2010 campaign",
+     "detail": "accused of receiving funds for Dilma's 2010 campaign; Lava Jato defendant",
+     "source_url": "https://pt.wikipedia.org/wiki/Antonio_Palocci",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-01",
+     "role": "finance minister when the first rounds took place",
+     "detail": "finance minister when the first rounds took place (policy context only)",
+     "source_url": "https://pt.wikipedia.org/wiki/Antonio_Palocci",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Francenildo bank-secrecy case: charged by the PGR at the STF in Feb 2008.",
+     "outcome": "Acquitted by the STF in Aug 2009.",
+     "source_url": "https://pt.wikipedia.org/wiki/Antonio_Palocci",
+     "status": "verified"
+    },
+    {
+     "what": "Lava Jato: convicted by judge Moro on 26 Jun 2017 (12 years); signed a plea deal with the Federal Police in Apr 2018, approved by TRF4 in Jun 2018.",
+     "outcome": "ANNULLED. On 19 Feb 2025 STF Justice Dias Toffoli annulled the Lava Jato cases against him (citing Moro's partiality); the PGR appealed on 10 Mar 2025; on 15 Aug 2025 the STF Second Panel rejected the PGR appeal (3-2), so the annulment stands.",
+     "source_url": "https://www.gazetadopovo.com.br/republica/nunes-marques-voto-decisivo-mantem-anulacao-de-atos-da-lava-jato-contra-palocci/",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Antonio Palocci",
+     "url": "https://pt.wikipedia.org/wiki/Antonio_Palocci"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Antonio_Palocci",
+    "https://www.gazetadopovo.com.br/republica/nunes-marques-voto-decisivo-mantem-anulacao-de-atos-da-lava-jato-contra-palocci/"
+   ]
+  },
+  {
+   "id": "p-guido-mantega",
+   "name": "Guido Mantega",
+   "posts": [
+    {
+     "post": "Minister of Planning",
+     "start": "2003-01-01",
+     "end": "2004-11-18",
+     "appointed_by": "Lula",
+     "status": "unverified"
+    },
+    {
+     "post": "President of BNDES",
+     "start": "2004-11-22",
+     "end": "2006-03-27",
+     "appointed_by": "Lula",
+     "status": "unverified"
+    },
+    {
+     "post": "Minister of Finance",
+     "start": "2006-03-27",
+     "end": "2015-01-01",
+     "appointed_by": "Lula, then Dilma",
+     "status": "unverified"
+    }
+   ],
+   "before": "",
+   "after": "",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e5-02",
+     "role": "BNDES president 2004-06 and finance minister afterwards during the export-loan years",
+     "detail": "BNDES president 2004-06 and finance minister afterwards during the export-loan years",
+     "source_url": "https://pt.wikipedia.org/wiki/Guido_Mantega",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-07",
+     "role": "finance minister during BNDES equity in JBS and Bertin",
+     "detail": "finance minister during BNDES equity in JBS and Bertin",
+     "source_url": "https://pt.wikipedia.org/wiki/Guido_Mantega",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-08",
+     "role": "accused by Eike Batista",
+     "detail": "accused by Eike Batista (Arquivo X) of a scheme tied to OSX while chairing Petrobras's board; critics said no concrete evidence",
+     "source_url": "https://pt.wikipedia.org/wiki/Guido_Mantega",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-10",
+     "role": "finance minister during BNDES support for VCP-Aracruz",
+     "detail": "finance minister during BNDES support for VCP-Aracruz",
+     "source_url": "https://pt.wikipedia.org/wiki/Guido_Mantega",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-12",
+     "role": "finance minister during Treasury funding of BNDES / PSI",
+     "detail": "finance minister during Treasury funding of BNDES / PSI",
+     "source_url": "https://pt.wikipedia.org/wiki/Guido_Mantega",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-14",
+     "role": "finance minister",
+     "detail": "finance minister; Caixa is a Treasury-controlled bank",
+     "source_url": "https://pt.wikipedia.org/wiki/Guido_Mantega",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-16",
+     "role": "finance minister",
+     "detail": "finance minister; 2010 capitalisation",
+     "source_url": "https://pt.wikipedia.org/wiki/Guido_Mantega",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-19",
+     "role": "finance minister",
+     "detail": "finance minister; payroll relief",
+     "source_url": "https://pt.wikipedia.org/wiki/Guido_Mantega",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-20",
+     "role": "finance minister",
+     "detail": "finance minister; airport auctions",
+     "source_url": "https://pt.wikipedia.org/wiki/Guido_Mantega",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-03",
+     "role": "accused in Arquivo X",
+     "detail": "accused in Arquivo X",
+     "source_url": "https://pt.wikipedia.org/wiki/Guido_Mantega",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "x-19",
+     "role": "finance minister during the rise of tax expenditures",
+     "detail": "finance minister during the rise of tax expenditures",
+     "source_url": "https://pt.wikipedia.org/wiki/Guido_Mantega",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "x-22",
+     "role": "finance minister",
+     "detail": "finance minister; Votorantim/BB",
+     "source_url": "https://pt.wikipedia.org/wiki/Guido_Mantega",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "x-23",
+     "role": "finance minister",
+     "detail": "finance minister; Panamericano/Caixa",
+     "source_url": "https://pt.wikipedia.org/wiki/Guido_Mantega",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Zelotes: taken for questioning on 9 May 2016 over alleged reduced fines; later charged for a crime against the tax order.",
+     "outcome": "On 21 Feb 2025 the 10th Federal Criminal Court of the DF declared the punishability extinguished by prescription (no verdict on the merits; the MPF agreed).",
+     "source_url": "https://www.conjur.com.br/2025-fev-25/juiz-reconhece-prescricao-de-acusacao-da-zelotes-contra-guido-mantega/",
+     "status": "verified"
+    },
+    {
+     "what": "Charged with fraudulent management (gestão fraudulenta) over BNDES financing of J&F companies (Joesley Batista plea deal).",
+     "outcome": "ACQUITTED on 15 Mar 2023 by the 12th Federal Criminal Court of the DF (same ruling acquitted Luciano Coutinho).",
+     "source_url": "https://conjur.com.br/2023-mar-16/justica-absolve-guido-mantega-acao-penal-baseada-delacao/",
+     "status": "verified"
+    },
+    {
+     "what": "TCU held him responsible for 2014 pedaladas (10 Oct 2016) and barred him from trust posts; temporarily arrested on 22 Sep 2016 (Lava Jato phase Arquivo X, on Eike Batista's testimony); his defense told judge Moro on 29 May 2017 of an undeclared account at Swiss bank Pictet.",
+     "outcome": "Moro revoked the temporary arrest the same day; the Wikipedia page reports no verdict for these items. Outcomes after Aug 2019 (ankle monitor ordered 21 Aug 2019) not verified.",
+     "source_url": "https://pt.wikipedia.org/wiki/Guido_Mantega",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Guido Mantega",
+     "url": "https://pt.wikipedia.org/wiki/Guido_Mantega"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Guido_Mantega",
+    "https://conjur.com.br/2023-mar-16/justica-absolve-guido-mantega-acao-penal-baseada-delacao/",
+    "https://www.conjur.com.br/2025-fev-25/juiz-reconhece-prescricao-de-acusacao-da-zelotes-contra-guido-mantega/"
+   ]
+  },
+  {
+   "id": "p-joaquim-levy",
+   "name": "Joaquim Levy",
+   "posts": [
+    {
+     "post": "National Treasury Secretary",
+     "start": "2003",
+     "end": "2006-03",
+     "appointed_by": "Lula",
+     "status": "verified"
+    },
+    {
+     "post": "Minister of Finance",
+     "start": "2015-01-01",
+     "end": "2015-12-18",
+     "appointed_by": "Dilma Rousseff",
+     "status": "verified"
+    }
+   ],
+   "before": "IMF 1992-1999; ECB visiting economist 1999-2000; Rio de Janeiro Finance Secretary 2007-2010; Bradesco Asset Management 2010-2014.",
+   "after": "IDB vice president for finance 2006; World Bank CFO 2016-2018; BNDES president Jan-Jun 2019.",
+   "foreign_ties": [
+    {
+     "counterpart": "IMF",
+     "kind": "former employer",
+     "detail": "1992-1999",
+     "source_url": "https://pt.wikipedia.org/wiki/Joaquim_Levy",
+     "status": "verified"
+    },
+    {
+     "counterpart": "World Bank",
+     "kind": "later employer",
+     "detail": "Managing director and CFO, Feb 2016-Nov 2018 (Ethics Commission allowed immediate start on 1 Feb 2016)",
+     "source_url": "https://pt.wikipedia.org/wiki/Joaquim_Levy",
+     "status": "verified"
+    },
+    {
+     "counterpart": "Bradesco Asset Management",
+     "kind": "former employer",
+     "detail": "director-superintendent 2010-2014 (page inconsistent on start date)",
+     "source_url": "https://pt.wikipedia.org/wiki/Joaquim_Levy",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e5-19",
+     "role": "as finance minister called payroll tax relief wasteful",
+     "detail": "as finance minister called payroll tax relief wasteful (Feb 2015) and was rebuked by Dilma",
+     "source_url": "https://pt.wikipedia.org/wiki/Joaquim_Levy",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Joaquim Levy",
+     "url": "https://pt.wikipedia.org/wiki/Joaquim_Levy"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Joaquim_Levy"
+   ]
+  },
+  {
+   "id": "p-henrique-meirelles",
+   "name": "Henrique Meirelles",
+   "posts": [
+    {
+     "post": "President of the Central Bank",
+     "start": "2003",
+     "end": "2011-01",
+     "appointed_by": "Lula",
+     "status": "verified"
+    },
+    {
+     "post": "Minister of Finance",
+     "start": "2016-05-12",
+     "end": "2018-04-06",
+     "appointed_by": "Michel Temer",
+     "status": "verified"
+    }
+   ],
+   "before": "BankBoston from 1974 (global president 1996-1999); FleetBoston until retiring in 2002.",
+   "after": "Advised J&F Investimentos on Banco Original (2012); temporarily chair of J&F's board in 2014; ended consulting contract May 2016; headed the Public Olympic Authority from 2011 (Dilma).",
+   "foreign_ties": [
+    {
+     "counterpart": "BankBoston/FleetBoston",
+     "kind": "former employer",
+     "detail": "BankBoston from 1974, about 28 years; FleetBoston until 2002",
+     "source_url": "https://pt.wikipedia.org/wiki/Henrique_Meirelles",
+     "status": "verified"
+    },
+    {
+     "counterpart": "J&F Investimentos (JBS controller)",
+     "kind": "client/board seat",
+     "detail": "advised J&F on Banco Original (2012); temporary chair of J&F board (2014); contract ended May 2016; never held an executive post",
+     "source_url": "https://pt.wikipedia.org/wiki/Henrique_Meirelles",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e5-14",
+     "role": "head of the Central Bank when Caixa bought the Panamericano stake",
+     "detail": "head of the Central Bank when Caixa bought the Panamericano stake (Dec 2009) and when the fraud was found (Sep-Nov 2010)",
+     "source_url": "https://pt.wikipedia.org/wiki/Henrique_Meirelles",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-07",
+     "role": "head of the Central Bank",
+     "detail": "head of the Central Bank; JBS later tied to him as adviser (page does not link to the BNDES operations)",
+     "source_url": "https://pt.wikipedia.org/wiki/Henrique_Meirelles",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "x-23",
+     "role": "Central Bank head",
+     "detail": "Central Bank head; Panamericano",
+     "source_url": "https://pt.wikipedia.org/wiki/Henrique_Meirelles",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "x-22",
+     "role": "Central Bank head",
+     "detail": "Central Bank head; Votorantim 2008 losses",
+     "source_url": "https://pt.wikipedia.org/wiki/Henrique_Meirelles",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Henrique Meirelles",
+     "url": "https://pt.wikipedia.org/wiki/Henrique_Meirelles"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Henrique_Meirelles"
+   ]
+  },
+  {
+   "id": "p-alexandre-tombini",
+   "name": "Alexandre Tombini",
+   "posts": [
+    {
+     "post": "President of the Central Bank",
+     "start": "2011-01-01",
+     "end": "2016-06-09",
+     "appointed_by": "Dilma Rousseff (chosen 24 Nov 2010); served under Temer in 2016",
+     "status": "verified"
+    }
+   ],
+   "before": "IMF Executive Board senior adviser 2001-2005.",
+   "after": "",
+   "foreign_ties": [
+    {
+     "counterpart": "IMF",
+     "kind": "former employer",
+     "detail": "senior adviser to the Executive Board 2001-2005",
+     "source_url": "https://pt.wikipedia.org/wiki/Alexandre_Tombini",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e5-14",
+     "role": "Central Bank head during the Panamericano aftermath",
+     "detail": "Central Bank head during the Panamericano aftermath (2011)",
+     "source_url": "https://pt.wikipedia.org/wiki/Alexandre_Tombini",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-12",
+     "role": "Central Bank head during PSI years",
+     "detail": "Central Bank head during PSI years (context)",
+     "source_url": "https://pt.wikipedia.org/wiki/Alexandre_Tombini",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Alexandre Tombini",
+     "url": "https://pt.wikipedia.org/wiki/Alexandre_Tombini"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Alexandre_Tombini"
+   ]
+  },
+  {
+   "id": "p-edison-lobao",
+   "name": "Edison Lobão",
+   "posts": [
+    {
+     "post": "Minister of Mines and Energy",
+     "start": "2008-01-21",
+     "end": "2010-03-31",
+     "appointed_by": "Lula",
+     "status": "verified"
+    },
+    {
+     "post": "Minister of Mines and Energy",
+     "start": "2011-01-01",
+     "end": "2015-01-01",
+     "appointed_by": "Dilma Rousseff",
+     "status": "verified"
+    }
+   ],
+   "before": "Senator for Maranhão 1987-1991 and 1995-2019 (resigned in 1991 to become governor).",
+   "after": "Senator until 1 Feb 2019.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e5-01",
+     "role": "minister overseeing the ANP in the concession rounds",
+     "detail": "minister overseeing the ANP in the concession rounds",
+     "source_url": "https://pt.wikipedia.org/wiki/Edison_Lob%C3%A3o",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-11",
+     "role": "accused of bribes tied to Angra 3",
+     "detail": "accused of bribes tied to Angra 3 (Leviatã, 2017)",
+     "source_url": "https://pt.wikipedia.org/wiki/Edison_Lob%C3%A3o",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-15",
+     "role": "accused of bribes linked to Belo Monte",
+     "detail": "accused of bribes linked to Belo Monte (R$ 2.8 million; defendant Jul 2019)",
+     "source_url": "https://pt.wikipedia.org/wiki/Edison_Lob%C3%A3o",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-17",
+     "role": "minister at the Libra auction",
+     "detail": "minister at the Libra auction",
+     "source_url": "https://pt.wikipedia.org/wiki/Edison_Lob%C3%A3o",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-21",
+     "role": "minister for MP 579/2012",
+     "detail": "minister for MP 579/2012",
+     "source_url": "https://pt.wikipedia.org/wiki/Edison_Lob%C3%A3o",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Operação Catilinárias (Dec 2015); Leviatã (2017); defendant (réu) from Jul 2019 for passive corruption and money laundering over R$ 2.8 million linked to Belo Monte; charged Oct 2019 with his son over 44 Transpetro contracts. He denies all charges.",
+     "outcome": "ACQUITTED in the Belo Monte/Odebrecht case: on 7 Jun 2024 the TRF-1 4th Panel unanimously upheld the first-instance acquittal of Lobão and his son (no justa causa). In the Transpetro case the 12th Criminal Court of Brasília rejected most charges and acquitted on the rest for lack of evidence (date not given on the page).",
+     "source_url": "https://www.jb.com.br/brasil/politica/2024/06/1050503-ex-senador-edison-lobao-e-o-filho-marcio-lobao-sao-inocentados.html",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Edison Lobão",
+     "url": "https://pt.wikipedia.org/wiki/Edison_Lob%C3%A3o"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Edison_Lob%C3%A3o",
+    "https://www.jb.com.br/brasil/politica/2024/06/1050503-ex-senador-edison-lobao-e-o-filho-marcio-lobao-sao-inocentados.html"
+   ]
+  },
+  {
+   "id": "p-luciano-coutinho",
+   "name": "Luciano Coutinho",
+   "posts": [
+    {
+     "post": "President of BNDES (33rd)",
+     "start": "2007-05-01",
+     "end": "2016-05-16",
+     "appointed_by": "not stated on the page (Lula government)",
+     "status": "verified"
+    }
+   ],
+   "before": "Professor at Unicamp; executive secretary of the Ministry of Science and Technology 1985-1988; partner at LCA Consultores.",
+   "after": "",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e5-02",
+     "role": "headed BNDES during the export-service loans",
+     "detail": "headed BNDES during the export-service loans (2007-2016)",
+     "source_url": "https://pt.wikipedia.org/wiki/Luciano_Coutinho",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-06",
+     "role": "BNDES loans to Santo Antonio and Jirau",
+     "detail": "BNDES loans to Santo Antonio and Jirau (case file)",
+     "source_url": "https://pt.wikipedia.org/wiki/Luciano_Coutinho",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-07",
+     "role": "headed BNDES when it bought JBS/Bertin equity",
+     "detail": "headed BNDES when it bought JBS/Bertin equity",
+     "source_url": "https://pt.wikipedia.org/wiki/Luciano_Coutinho",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-08",
+     "role": "BNDES loans to Eike Batista",
+     "detail": "BNDES loans to Eike Batista",
+     "source_url": "https://pt.wikipedia.org/wiki/Luciano_Coutinho",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-09",
+     "role": "BNDES loans to Oi",
+     "detail": "BNDES loans to Oi",
+     "source_url": "https://pt.wikipedia.org/wiki/Luciano_Coutinho",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-10",
+     "role": "BNDES R$ 2.4 billion for VCP-Aracruz",
+     "detail": "BNDES R$ 2.4 billion for VCP-Aracruz",
+     "source_url": "https://pt.wikipedia.org/wiki/Luciano_Coutinho",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-12",
+     "role": "headed BNDES during PSI",
+     "detail": "headed BNDES during PSI",
+     "source_url": "https://pt.wikipedia.org/wiki/Luciano_Coutinho",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-15",
+     "role": "BNDES approved R$ 22.5 billion for Belo Monte in Nov 2012",
+     "detail": "BNDES approved R$ 22.5 billion for Belo Monte in Nov 2012",
+     "source_url": "https://pt.wikipedia.org/wiki/Luciano_Coutinho",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-18",
+     "role": "BNDES role not verified",
+     "detail": "BNDES role not verified",
+     "source_url": "https://pt.wikipedia.org/wiki/Luciano_Coutinho",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-23",
+     "role": "BNDES financing of highways",
+     "detail": "BNDES financing of highways (unconfirmed in case file)",
+     "source_url": "https://pt.wikipedia.org/wiki/Luciano_Coutinho",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Charged with fraudulent management (gestão fraudulenta) and prevaricação financeira over BNDES financing of J&F companies.",
+     "outcome": "ACQUITTED on 15 Mar 2023 by the 12th Federal Criminal Court of the DF (weak evidence resting on the Joesley Batista plea deal).",
+     "source_url": "https://conjur.com.br/2023-mar-16/justica-absolve-guido-mantega-acao-penal-baseada-delacao/",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Luciano Coutinho",
+     "url": "https://pt.wikipedia.org/wiki/Luciano_Coutinho"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Luciano_Coutinho",
+    "https://conjur.com.br/2023-mar-16/justica-absolve-guido-mantega-acao-penal-baseada-delacao/"
+   ]
+  },
+  {
+   "id": "p-sergio-gabrielli",
+   "name": "José Sergio Gabrielli",
+   "posts": [
+    {
+     "post": "Financial and Investor Relations director, Petrobras",
+     "start": "2003-02",
+     "end": "2005-07",
+     "appointed_by": "Lula government",
+     "status": "verified"
+    },
+    {
+     "post": "President of Petrobras (33rd)",
+     "start": "2005-07-22",
+     "end": "2012-02-13",
+     "appointed_by": "Lula government (appointer not stated)",
+     "status": "verified"
+    }
+   ],
+   "before": "",
+   "after": "Bahia Planning Secretary 2012-2015; board of Itaúsa and Galp Energia; Haddad 2018 campaign coordinator.",
+   "foreign_ties": [
+    {
+     "counterpart": "Galp Energia",
+     "kind": "board seat",
+     "detail": "non-executive board member and member of the International Strategy Committee (dates not given)",
+     "source_url": "https://pt.wikipedia.org/wiki/Jos%C3%A9_Sergio_Gabrielli",
+     "status": "verified"
+    },
+    {
+     "counterpart": "Petrobras Argentina",
+     "kind": "former subsidiary board",
+     "detail": "former board member (dates not given)",
+     "source_url": "https://pt.wikipedia.org/wiki/Jos%C3%A9_Sergio_Gabrielli",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e5-03",
+     "role": "Petrobras president during the cartel period",
+     "detail": "Petrobras president during the cartel period",
+     "source_url": "https://pt.wikipedia.org/wiki/Jos%C3%A9_Sergio_Gabrielli",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-16",
+     "role": "Petrobras president in the 2010 capitalisation",
+     "detail": "Petrobras president in the 2010 capitalisation",
+     "source_url": "https://pt.wikipedia.org/wiki/Jos%C3%A9_Sergio_Gabrielli",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-17",
+     "role": "Petrobras president when pre-salt regime was created",
+     "detail": "Petrobras president when pre-salt regime was created",
+     "source_url": "https://pt.wikipedia.org/wiki/Jos%C3%A9_Sergio_Gabrielli",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-18",
+     "role": "Petrobras president when Sete Brasil was created",
+     "detail": "Petrobras president when Sete Brasil was created",
+     "source_url": "https://pt.wikipedia.org/wiki/Jos%C3%A9_Sergio_Gabrielli",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): José Sergio Gabrielli",
+     "url": "https://pt.wikipedia.org/wiki/Jos%C3%A9_Sergio_Gabrielli"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Jos%C3%A9_Sergio_Gabrielli"
+   ]
+  },
+  {
+   "id": "p-graca-foster",
+   "name": "Maria das Graças Silva Foster",
+   "posts": [
+    {
+     "post": "President of Petrobras (34th)",
+     "start": "2012-02-13",
+     "end": "2015-02-04",
+     "appointed_by": "Dilma Rousseff",
+     "status": "verified"
+    },
+    {
+     "post": "Director of Gas & Energy, Petrobras",
+     "start": "2007-09",
+     "end": "2012",
+     "appointed_by": "",
+     "status": "verified"
+    }
+   ],
+   "before": "Secretary of Petroleum, Gas and Renewable Fuels at MME 2003-2005; president of Petrobras Química 2005; BR Distribuidora 2006-07.",
+   "after": "Law degree at Estácio de Sá (2021).",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e5-03",
+     "role": "Petrobras president when Lava Jato broke",
+     "detail": "Petrobras president when Lava Jato broke; barred 23 contractors in Dec 2014",
+     "source_url": "https://pt.wikipedia.org/wiki/Maria_das_Gra%C3%A7as_Silva_Foster",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-17",
+     "role": "Petrobras president at Libra",
+     "detail": "Petrobras president at Libra (Oct 2013)",
+     "source_url": "https://pt.wikipedia.org/wiki/Maria_das_Gra%C3%A7as_Silva_Foster",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-18",
+     "role": "Petrobras president",
+     "detail": "Petrobras president; Sete Brasil rigs cut",
+     "source_url": "https://pt.wikipedia.org/wiki/Maria_das_Gra%C3%A7as_Silva_Foster",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Petrobras recognised about R$ 88 billion in Lava Jato-related losses; she resigned on 4 Feb 2015.",
+     "outcome": "Resigned; the page reports no charge or verdict against her.",
+     "source_url": "https://pt.wikipedia.org/wiki/Maria_das_Gra%C3%A7as_Silva_Foster",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Maria das Graças Silva Foster",
+     "url": "https://pt.wikipedia.org/wiki/Maria_das_Gra%C3%A7as_Silva_Foster"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Maria_das_Gra%C3%A7as_Silva_Foster"
+   ]
+  },
+  {
+   "id": "p-paulo-roberto-costa",
+   "name": "Paulo Roberto Costa",
+   "posts": [
+    {
+     "post": "Director of Supply (Abastecimento), Petrobras",
+     "start": "2004",
+     "end": "2012",
+     "appointed_by": "Lula, on the indication of deputy José Janene (PP)",
+     "status": "verified"
+    },
+    {
+     "post": "Director of Gaspetro",
+     "start": "1997",
+     "end": "2000",
+     "appointed_by": "",
+     "status": "verified"
+    }
+   ],
+   "before": "",
+   "after": "Died 13 Aug 2022.",
+   "foreign_ties": [
+    {
+     "counterpart": "US DOJ / FBI",
+     "kind": "cooperation agreement",
+     "detail": "Cooperation agreement with FBI/US DOJ, Nov 2016",
+     "source_url": "https://pt.wikipedia.org/wiki/Paulo_Roberto_Costa",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e5-03",
+     "role": "Supply director",
+     "detail": "Supply director; plea testimony says PP, PT and PMDB split directorships and collected 1-3%",
+     "source_url": "https://pt.wikipedia.org/wiki/Paulo_Roberto_Costa",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Lava Jato (Repar, Rnest, Comperj): convicted of money laundering (12 years, per the page, cited ruling dated 20 Jul 2015).",
+     "outcome": "Plea deal (testimony began 5 Sep 2014); semi-open regime from Oct 2016; cooperation agreement with FBI/US DOJ in Nov 2016. Died 13 Aug 2022. Exact Brazilian plea signature date not on the page.",
+     "source_url": "https://pt.wikipedia.org/wiki/Paulo_Roberto_Costa",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Paulo Roberto Costa",
+     "url": "https://pt.wikipedia.org/wiki/Paulo_Roberto_Costa"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Paulo_Roberto_Costa"
+   ]
+  },
+  {
+   "id": "p-renato-duque",
+   "name": "Renato Duque",
+   "posts": [
+    {
+     "post": "Director of Services, Petrobras",
+     "start": "2003",
+     "end": "2012 (page also says 2015)",
+     "appointed_by": "Lula/Dilma governments (sponsor not named)",
+     "status": "unverified"
+    }
+   ],
+   "before": "",
+   "after": "",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e5-03",
+     "role": "Services director",
+     "detail": "Services director; alleged kickback recipient per Barusco",
+     "source_url": "https://pt.wikipedia.org/wiki/Renato_Duque",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Lava Jato convictions: 21 Sep 2015; 8 Mar 2016 (20 years 3 months); Aug 2017 (10y8m, raised by TRF4 to 28y5m on 12 Sep 2018); 19 Nov 2018 (6y8m); 22 Apr 2025 (29y2m), among others.",
+     "outcome": "Convicted several times (73y7m total per the page, closed regime limited to 5 years under a collaboration agreement from 2016 with about EUR 20.5 million given up); the page mentions no annulment.",
+     "source_url": "https://pt.wikipedia.org/wiki/Renato_Duque",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Renato Duque",
+     "url": "https://pt.wikipedia.org/wiki/Renato_Duque"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Renato_Duque"
+   ]
+  },
+  {
+   "id": "p-nestor-cervero",
+   "name": "Nestor Cerveró",
+   "posts": [
+    {
+     "post": "International Director, Petrobras",
+     "start": "2003",
+     "end": "2008",
+     "appointed_by": "nominated by minister Dilma Rousseff and senator Renan Calheiros per the page",
+     "status": "verified"
+    },
+    {
+     "post": "Financial and services director, BR Distribuidora",
+     "start": "2008",
+     "end": "",
+     "appointed_by": "Lula",
+     "status": "verified"
+    }
+   ],
+   "before": "Petrobras employee since 1975.",
+   "after": "",
+   "foreign_ties": [
+    {
+     "counterpart": "Astra Oil (Belgium)",
+     "kind": "partner",
+     "detail": "Pasadena refinery: Petrobras paid US$ 360 million for 50% in 2006; a court later forced it to buy the rest, total about US$ 1.18 billion",
+     "source_url": "https://pt.wikipedia.org/wiki/Nestor_Cerver%C3%B3",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e5-03",
+     "role": "author of the report that led to Pasadena",
+     "detail": "author of the report that led to Pasadena; Lava Jato",
+     "source_url": "https://pt.wikipedia.org/wiki/Nestor_Cerver%C3%B3",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Arrested 14 Jan 2015; sentenced in May 2015 (5 years) and Aug 2015 (total 12y3m10d); TRF4 raised the total to 27y4m in Nov 2016.",
+     "outcome": "Convicted; plea deal signed 18 Nov 2015 (sentence served under the deal).",
+     "source_url": "https://pt.wikipedia.org/wiki/Nestor_Cerver%C3%B3",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Nestor Cerveró",
+     "url": "https://pt.wikipedia.org/wiki/Nestor_Cerver%C3%B3"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Nestor_Cerver%C3%B3"
+   ]
+  },
+  {
+   "id": "p-gleisi-hoffmann",
+   "name": "Gleisi Hoffmann",
+   "posts": [
+    {
+     "post": "Financial director, Itaipu Binacional",
+     "start": "2003-01-21",
+     "end": "2006-03-29",
+     "appointed_by": "Lula",
+     "status": "verified"
+    },
+    {
+     "post": "Chief of Staff (Casa Civil)",
+     "start": "2011-06-08",
+     "end": "2014-02-02",
+     "appointed_by": "Dilma Rousseff",
+     "status": "verified"
+    }
+   ],
+   "before": "",
+   "after": "",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e5-03",
+     "role": "accused via Youssef/Costa of R$ 1 million for her 2010 campaign",
+     "detail": "accused via Youssef/Costa of R$ 1 million for her 2010 campaign",
+     "source_url": "https://pt.wikipedia.org/wiki/Gleisi_Hoffmann",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Lava Jato: accused of passive corruption (R$ 1 million for her 2010 campaign); indicted by the Federal Police in Mar 2016, charged by the MPF on 7 May 2016; STF Second Panel accepted the charges on 27 Sep 2016.",
+     "outcome": "ACQUITTED by the STF Second Panel on 19 Jun 2018, together with Paulo Bernardo and Ernesto Kugler Rodrigues.",
+     "source_url": "https://pt.wikipedia.org/wiki/Gleisi_Hoffmann",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Gleisi Hoffmann",
+     "url": "https://pt.wikipedia.org/wiki/Gleisi_Hoffmann"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Gleisi_Hoffmann"
+   ]
+  },
+  {
+   "id": "p-paulo-bernardo",
+   "name": "Paulo Bernardo",
+   "posts": [
+    {
+     "post": "Minister of Planning",
+     "start": "2005-03-22",
+     "end": "2011-01-01",
+     "appointed_by": "Lula",
+     "status": "verified"
+    },
+    {
+     "post": "Minister of Communications",
+     "start": "2011-01-01",
+     "end": "2015-01-01",
+     "appointed_by": "Dilma Rousseff",
+     "status": "verified"
+    }
+   ],
+   "before": "",
+   "after": "",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e5-09",
+     "role": "Communications minister 2011-2015, after the Oi merger",
+     "detail": "Communications minister 2011-2015, after the Oi merger (policy context only)",
+     "source_url": "https://pt.wikipedia.org/wiki/Paulo_Bernardo",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Operação Custo Brasil / Consist: arrested 23 Jun 2016 (revoked by Toffoli on 29 Jun); charged on 1 Aug 2016 with criminal organisation, passive corruption and money laundering; charges accepted 4 Aug 2016.",
+     "outcome": "Evidence seized at his apartment ruled invalid by the STF Second Panel on 26 Jun 2018; the page gives no final verdict.",
+     "source_url": "https://pt.wikipedia.org/wiki/Paulo_Bernardo",
+     "status": "verified"
+    },
+    {
+     "what": "2010 campaign case (R$ 1 million allegedly diverted from Petrobras).",
+     "outcome": "ACQUITTED by the STF Second Panel on 19 Jun 2018.",
+     "source_url": "https://pt.wikipedia.org/wiki/Paulo_Bernardo",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Paulo Bernardo",
+     "url": "https://pt.wikipedia.org/wiki/Paulo_Bernardo"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Paulo_Bernardo"
+   ]
+  },
+  {
+   "id": "p-aldemir-bendine",
+   "name": "Aldemir Bendine",
+   "posts": [
+    {
+     "post": "President of Banco do Brasil",
+     "start": "2009-04-17",
+     "end": "2015-02",
+     "appointed_by": "Lula/Dilma",
+     "status": "verified"
+    },
+    {
+     "post": "President of Petrobras",
+     "start": "2015-02-06",
+     "end": "2016-05-30",
+     "appointed_by": "Dilma Rousseff",
+     "status": "verified"
+    }
+   ],
+   "before": "",
+   "after": "",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e5-09",
+     "role": "Banco do Brasil lent to the Brasil Telecom purchase",
+     "detail": "Banco do Brasil lent to the Brasil Telecom purchase (case file, unverified)",
+     "source_url": "https://pt.wikipedia.org/wiki/Aldemir_Bendine",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "x-22",
+     "role": "Banco do Brasil president during the Votorantim bank deal",
+     "detail": "Banco do Brasil president during the Votorantim bank deal",
+     "source_url": "https://pt.wikipedia.org/wiki/Aldemir_Bendine",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-03",
+     "role": "accused of taking R$ 3 million from Odebrecht",
+     "detail": "accused of taking R$ 3 million from Odebrecht",
+     "source_url": "https://pt.wikipedia.org/wiki/Aldemir_Bendine",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Lava Jato: arrested 27 Jul 2017; sentenced by Moro on 7 Mar 2018 (11 years) for corruption and money laundering; STF freed him on 9 Apr 2019; the STF Second Panel annulled that conviction on 27 Aug 2019 (3-1, order of final arguments); sentenced again on 11 May 2020 (6y8m).",
+     "outcome": "ANNULLED. On 15 Apr 2024 STJ Justice Daniela Teixeira (single-judge decision, REsp 1.999.433) annulled all decisions in the criminal action, because it rested on Odebrecht Drousys evidence and executive plea deals ruled null. Whether this was later challenged was not verified.",
+     "source_url": "https://conjur.com.br/2024-abr-18/ministra-do-stj-anula-condenacao-da-lava-jato-embasada-em-sistema-da-odebrecht/",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Aldemir Bendine",
+     "url": "https://pt.wikipedia.org/wiki/Aldemir_Bendine"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Aldemir_Bendine",
+    "https://conjur.com.br/2024-abr-18/ministra-do-stj-anula-condenacao-da-lava-jato-embasada-em-sistema-da-odebrecht/",
+    "https://agenciabrasil.ebc.com.br/justica/noticia/2019-08/segunda-turma-do-stf-anula-condenacao-de-bendine-na-lava-jato"
+   ]
+  },
+  {
+   "id": "p-marcelo-odebrecht",
+   "name": "Marcelo Odebrecht",
+   "posts": [
+    {
+     "post": "CEO, Odebrecht group",
+     "start": "2008",
+     "end": "2015",
+     "appointed_by": "family",
+     "status": "verified"
+    }
+   ],
+   "before": "Odebrecht group executive.",
+   "after": "",
+   "foreign_ties": [
+    {
+     "counterpart": "Odebrecht foreign projects (e.g. Cuba, Mariel port)",
+     "kind": "operator",
+     "detail": "BNDES provided about R$ 5.8 billion in loans for the group's overseas projects, 2008-2015",
+     "source_url": "https://pt.wikipedia.org/wiki/Marcelo_Odebrecht",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e5-02",
+     "role": "principal beneficiary of BNDES export-service loans",
+     "detail": "principal beneficiary of BNDES export-service loans",
+     "source_url": "https://pt.wikipedia.org/wiki/Marcelo_Odebrecht",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-03",
+     "role": "led the cartel per Federal Police and prosecutors",
+     "detail": "led the cartel per Federal Police and prosecutors",
+     "source_url": "https://pt.wikipedia.org/wiki/Marcelo_Odebrecht",
+     "basis": "documented-act",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-06",
+     "role": "Odebrecht Investimentos in Santo Antonio",
+     "detail": "Odebrecht Investimentos in Santo Antonio",
+     "source_url": "https://pt.wikipedia.org/wiki/Marcelo_Odebrecht",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-11",
+     "role": "Angra 3 consortium member",
+     "detail": "Angra 3 consortium member",
+     "source_url": "https://pt.wikipedia.org/wiki/Marcelo_Odebrecht",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-20",
+     "role": "Odebrecht Transport with Changi at Galeão",
+     "detail": "Odebrecht Transport with Changi at Galeão",
+     "source_url": "https://pt.wikipedia.org/wiki/Marcelo_Odebrecht",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Arrested 19 Jun 2015; sentenced on 8 Mar 2016 (19y4m) for corrupção ativa, money laundering and criminal association; plea deal on 1 Dec 2016 (with father Emílio Odebrecht); house arrest 19 Dec 2017.",
+     "outcome": "Sentence reduced by Fachin (Apr 2022); sentence completed 28 Apr 2023. ANNULLED: on 21 May 2024 STF Justice Toffoli annulled the Curitiba (13th Federal Court) Lava Jato acts against him; on 6 Sep 2024 the STF Second Panel kept the nullity of those acts but did not order the criminal proceedings closed.",
+     "source_url": "https://pt.wikipedia.org/wiki/Marcelo_Odebrecht",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Marcelo Odebrecht",
+     "url": "https://pt.wikipedia.org/wiki/Marcelo_Odebrecht"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Marcelo_Odebrecht"
+   ]
+  },
+  {
+   "id": "p-pedro-barusco",
+   "name": "Pedro Barusco",
+   "posts": [
+    {
+     "post": "Executive engineering manager, Petrobras",
+     "start": "",
+     "end": "",
+     "appointed_by": "reported to Renato Duque",
+     "status": "verified"
+    }
+   ],
+   "before": "",
+   "after": "",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e5-03",
+     "role": "said he and Duque received payments linked to over 60 contracts",
+     "detail": "said he and Duque received payments linked to over 60 contracts",
+     "source_url": "https://pt.wikipedia.org/wiki/Pedro_Barusco",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Lava Jato: plea deal; sentenced in Sep 2015 to 18y4m served under a differentiated open regime.",
+     "outcome": "Plea deal; Lava Jato recovered about R$ 182 million from his share.",
+     "source_url": "https://pt.wikipedia.org/wiki/Pedro_Barusco",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Pedro Barusco",
+     "url": "https://pt.wikipedia.org/wiki/Pedro_Barusco"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Pedro_Barusco"
+   ]
+  },
+  {
+   "id": "p-haroldo-lima",
+   "name": "Haroldo Lima",
+   "posts": [
+    {
+     "post": "Director-General of the ANP",
+     "start": "2005-01-15",
+     "end": "2011-12-11",
+     "appointed_by": "Lula government",
+     "status": "verified"
+    }
+   ],
+   "before": "Federal deputy for Bahia 1983-2003.",
+   "after": "Consultant to HRT (oil company founded 2008 by former Petrobras staff). Died 24 Mar 2021.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e5-01",
+     "role": "headed the ANP in rounds 6 to 10",
+     "detail": "headed the ANP in rounds 6 to 10 (2005-2008) and 11",
+     "source_url": "https://pt.wikipedia.org/wiki/Haroldo_Lima",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "2008 'megafield' remark at an FGV seminar (14 Apr 2008); the MPF considered opening an inquiry.",
+     "outcome": "The page does not say whether an inquiry was opened or its result.",
+     "source_url": "https://pt.wikipedia.org/wiki/Haroldo_Lima",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Haroldo Lima",
+     "url": "https://pt.wikipedia.org/wiki/Haroldo_Lima"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Haroldo_Lima"
+   ]
+  },
+  {
+   "id": "p-magda-chambriard",
+   "name": "Magda Chambriard",
+   "posts": [
+    {
+     "post": "Director-General of the ANP",
+     "start": "2012-03-09",
+     "end": "2016-12-22",
+     "appointed_by": "Dilma Rousseff",
+     "status": "verified"
+    }
+   ],
+   "before": "",
+   "after": "Petrobras CEO from 24 May 2024.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e5-01",
+     "role": "headed the ANP in rounds 11-13",
+     "detail": "headed the ANP in rounds 11-13",
+     "source_url": "https://pt.wikipedia.org/wiki/Magda_Chambriard",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-17",
+     "role": "headed the ANP at the Libra auction",
+     "detail": "headed the ANP at the Libra auction",
+     "source_url": "https://pt.wikipedia.org/wiki/Magda_Chambriard",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-08",
+     "role": "praised OGX in public during its decline",
+     "detail": "praised OGX in public during its decline",
+     "source_url": "https://pt.wikipedia.org/wiki/Magda_Chambriard",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Criticised for holding a PPSA role while the ANP regulated pre-salt contracts, for praising OGX before its collapse, and for receiving Petrobras pay while at the ANP.",
+     "outcome": "Criticism only; the page reports no charge or legal outcome against her.",
+     "source_url": "https://pt.wikipedia.org/wiki/Magda_Chambriard",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Magda Chambriard",
+     "url": "https://pt.wikipedia.org/wiki/Magda_Chambriard"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Magda_Chambriard"
+   ]
+  },
+  {
+   "id": "p-jerson-kelman",
+   "name": "Jerson Kelman",
+   "posts": [
+    {
+     "post": "Director-General of ANEEL",
+     "start": "2005",
+     "end": "2008",
+     "appointed_by": "Lula government",
+     "status": "verified"
+    }
+   ],
+   "before": "First director-president of ANA (Dec 2000-Jan 2005); CEPEL/Eletrobras researcher 1976-1991; World Bank consultant until 1999.",
+   "after": "President of Light 2010-2012; president of Sabesp 2015-2018.",
+   "foreign_ties": [
+    {
+     "counterpart": "World Bank",
+     "kind": "former consultant",
+     "detail": "consultant until 1999",
+     "source_url": "https://pt.wikipedia.org/wiki/Jerson_Kelman",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e5-06",
+     "role": "ANEEL head during the Madeira auctions",
+     "detail": "ANEEL head during the Madeira auctions (Dec 2007)",
+     "source_url": "https://pt.wikipedia.org/wiki/Jerson_Kelman",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Jerson Kelman",
+     "url": "https://pt.wikipedia.org/wiki/Jerson_Kelman"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Jerson_Kelman"
+   ]
+  },
+  {
+   "id": "p-nelson-hubner",
+   "name": "Nelson Hubner",
+   "posts": [
+    {
+     "post": "Interim Minister of Mines and Energy",
+     "start": "2007-05-24",
+     "end": "2008-01-21",
+     "appointed_by": "Lula",
+     "status": "verified"
+    },
+    {
+     "post": "Director-General of ANEEL",
+     "start": "2009-03-13",
+     "end": "2013-03",
+     "appointed_by": "Senate approval Jan 2009",
+     "status": "verified"
+    }
+   ],
+   "before": "",
+   "after": "",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e5-06",
+     "role": "interim MME minister when Madeira auctions were held",
+     "detail": "interim MME minister when Madeira auctions were held (2007)",
+     "source_url": "https://pt.wikipedia.org/wiki/Nelson_Hubner",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-15",
+     "role": "ANEEL head at the April 2010 Belo Monte auction",
+     "detail": "ANEEL head at the April 2010 Belo Monte auction",
+     "source_url": "https://pt.wikipedia.org/wiki/Nelson_Hubner",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e5-21",
+     "role": "ANEEL head at the MP 579 renewals",
+     "detail": "ANEEL head at the MP 579 renewals",
+     "source_url": "https://pt.wikipedia.org/wiki/Nelson_Hubner",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Wikipedia (pt): Nelson Hubner",
+     "url": "https://pt.wikipedia.org/wiki/Nelson_Hubner"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Nelson_Hubner"
+   ]
+  }
+ ],
+ "foreign_counterparts": [
+  {
+   "case_id": "e5-17",
+   "counterpart": "Shell",
+   "country": "Netherlands/UK",
+   "kind": "company",
+   "detail": "Libra consortium partner, 20%; Petrobras operator (at least 30% required by the rules, about 40% implied); 35-year production sharing contract; auction held 21 Oct 2013; US$ 6.9 billion signing fee (WorldOil)",
+   "source_url": "https://worldoil.com/news/2013/10/22/oil-auction-falling-flat-is-boon-for-petrobras",
+   "status": "verified"
+  },
+  {
+   "case_id": "e5-17",
+   "counterpart": "Total",
+   "country": "France",
+   "kind": "company",
+   "detail": "Libra consortium partner, 20%; Petrobras operator (at least 30% required by the rules, about 40% implied); 35-year production sharing contract; auction held 21 Oct 2013; US$ 6.9 billion signing fee (WorldOil)",
+   "source_url": "https://worldoil.com/news/2013/10/22/oil-auction-falling-flat-is-boon-for-petrobras",
+   "status": "verified"
+  },
+  {
+   "case_id": "e5-17",
+   "counterpart": "CNPC",
+   "country": "China",
+   "kind": "company",
+   "detail": "Libra consortium partner, 10%; Petrobras operator (at least 30% required by the rules, about 40% implied); 35-year production sharing contract; auction held 21 Oct 2013; US$ 6.9 billion signing fee (WorldOil)",
+   "source_url": "https://worldoil.com/news/2013/10/22/oil-auction-falling-flat-is-boon-for-petrobras",
+   "status": "verified"
+  },
+  {
+   "case_id": "e5-17",
+   "counterpart": "CNOOC",
+   "country": "China",
+   "kind": "company",
+   "detail": "Libra consortium partner, 10%; Petrobras operator (at least 30% required by the rules, about 40% implied); 35-year production sharing contract; auction held 21 Oct 2013; US$ 6.9 billion signing fee (WorldOil)",
+   "source_url": "https://worldoil.com/news/2013/10/22/oil-auction-falling-flat-is-boon-for-petrobras",
+   "status": "verified"
+  },
+  {
+   "case_id": "e5-02",
+   "counterpart": "Cuba (Mariel port) and Angola",
+   "country": "Cuba/Angola",
+   "kind": "country",
+   "detail": "Among the countries receiving Odebrecht services supported by BNDES export credit (Mariel port; Angola: Cambambe and Capanda hydro, Luanda roads, Catumbela airport). The earlier 76% of US$ 10.5 billion figure was not confirmed.",
+   "source_url": "https://www.bndes.gov.br/arquivos/apresentacao-odebrecht.pdf",
+   "status": "verified"
+  },
+  {
+   "case_id": "e5-03",
+   "counterpart": "US Department of Justice (Eastern District of New York); Brazilian and Swiss authorities",
+   "country": "USA/Switzerland",
+   "kind": "government",
+   "detail": "21 Dec 2016: Odebrecht and Braskem pleaded guilty to conspiracy to violate the FCPA in the Eastern District of New York and agreed to pay at least US$ 3.5 billion to authorities in the US, Brazil and Switzerland.",
+   "source_url": "https://www.davispolk.com/insights/client-update/white-collar-update-odebrecht-and-braskem-pay-record-fcpa-penalty-least-35",
+   "status": "verified"
+  },
+  {
+   "case_id": "e5-03",
+   "counterpart": "Astra Oil",
+   "country": "Belgium",
+   "kind": "company",
+   "detail": "Partner in the Pasadena refinery: Petrobras bought 50% in 2006 for US$ 360 million; a court later forced it to buy the rest, total about US$ 1.18 billion",
+   "source_url": "https://pt.wikipedia.org/wiki/Nestor_Cerver%C3%B3",
+   "status": "verified"
+  },
+  {
+   "case_id": "e5-06",
+   "counterpart": "GDF Suez",
+   "country": "France",
+   "kind": "company",
+   "detail": "Held 50.1% of Energia Sustentável do Brasil, the Jirau consortium (Eletrosul 20%, Chesf 20%, Camargo Correa 9.9%); R$ 7.2 billion debt package from BNDES and five other banks",
+   "source_url": "https://www.waterpowermagazine.com/news/gdf-suez-led-jv-agrees-debt-funding-for-jirau-with-bndes-banks/",
+   "status": "verified"
+  },
+  {
+   "case_id": "e5-06",
+   "counterpart": "Banif/Santander fund",
+   "country": "Portugal/Spain",
+   "kind": "bank",
+   "detail": "Fund of Banif and Santander held 20% of the Santo Antonio (Madeira) consortium, with Furnas 39%, Odebrecht Investimentos 17.6%, Andrade Gutierrez 12.4%, Cemig 10%",
+   "source_url": "https://www.congressoemfoco.com.br/noticia/1538/furnas-e-odebrecht-vencem-leilao-de-usina-do-madeira",
+   "status": "verified"
+  },
+  {
+   "case_id": "e5-07",
+   "counterpart": "Swift Foods",
+   "country": "USA",
+   "kind": "company",
+   "detail": "BNDESPar invested US$ 750 million in JBS (up from the roughly US$ 600 million first requested) to help finance JBS's 2007 purchase of the US meatpacker Swift Foods; a TCU report alleges irregularities in the approval",
+   "source_url": "https://www.tribunapr.com.br/noticias/economia/relatorio-do-tcu-indica-favorecimento-do-bndes-a-jbs/",
+   "status": "verified"
+  },
+  {
+   "case_id": "e5-09",
+   "counterpart": "Portugal Telecom",
+   "country": "Portugal",
+   "kind": "company",
+   "detail": "Took control of CorpCo, the vehicle created by the Oi/PT merger, in Oct 2013 (about 38.1% against Oi 13.1%, injecting EUR 7 billion); BNDES was also a major CorpCo shareholder; merger in doubt by July 2014",
+   "source_url": "https://exame.com/negocios/entenda-a-con-fusao-entre-oi-e-portugal-telecom/",
+   "status": "verified"
+  },
+  {
+   "case_id": "e5-18",
+   "counterpart": "Keppel Fels (BrasFels yard; lobbyist Zwi Skornicki)",
+   "country": "Singapore",
+   "kind": "company",
+   "detail": "Lava Jato prosecutors linked Skornicki, who worked for Keppel Fels, to a price-fixing scheme; BrasFels/Keppel Fels and Estaleiro Jurong Aracruz were among Sete Brasil's contracted yards",
+   "source_url": "https://pt.wikipedia.org/wiki/Sete_Brasil",
+   "status": "verified"
+  },
+  {
+   "case_id": "e5-18",
+   "counterpart": "Chubb (insurer)",
+   "country": "not stated on source",
+   "kind": "company",
+   "detail": "Sete Brasil could not resolve a deadlock with Chubb, lead insurer of 16 rigs under construction; entered judicial recovery in Jun 2016 with US$ 19.3 billion debt",
+   "source_url": "https://pt.wikipedia.org/wiki/Sete_Brasil",
+   "status": "verified"
+  },
+  {
+   "case_id": "e5-20",
+   "counterpart": "Airports Company South Africa (ACSA)",
+   "country": "South Africa",
+   "kind": "company",
+   "detail": "Partner of Invepar in the Guarulhos consortium (auction Feb 2012, R$ 16.213 billion bid)",
+   "source_url": "https://www.baguete.com.br/noticias/invepar-triunfo-e-engevix-levam-aeroportos",
+   "status": "verified"
+  },
+  {
+   "case_id": "e5-20",
+   "counterpart": "Egis Airport Operation",
+   "country": "France",
+   "kind": "company",
+   "detail": "Member of Consórcio Aeroportos Brasil (Triunfo, UTC, Egis), winner of Viracopos in 2012",
+   "source_url": "https://pt.wikipedia.org/wiki/Aeroporto_Internacional_de_Viracopos",
+   "status": "verified"
+  },
+  {
+   "case_id": "e5-20",
+   "counterpart": "Changi Airports",
+   "country": "Singapore",
+   "kind": "company",
+   "detail": "Galeão concession 2013: consortium Aeroportos do Futuro, Odebrecht TransPort 60% and Changi 40%; Infraero held 49% of RIOgaleão",
+   "source_url": "https://pt.wikipedia.org/wiki/Aeroporto_Internacional_do_Rio_de_Janeiro/Gale%C3%A3o",
+   "status": "verified"
+  },
+  {
+   "case_id": "e5-20",
+   "counterpart": "Flughafen Zürich (24%) and Flughafen München (1%)",
+   "country": "Switzerland/Germany",
+   "kind": "company",
+   "detail": "Confins concession (Nov 2013, Aerobrasil): CCR 75%, Zurich 24%, Munich 1%; Munich left in 2014 and Zurich went to 25%",
+   "source_url": "https://pt.wikipedia.org/wiki/Aeroporto_Internacional_Tancredo_Neves",
+   "status": "verified"
+  },
+  {
+   "case_id": "e5-20",
+   "counterpart": "Corporación América (Inframerica)",
+   "country": "Argentina",
+   "kind": "company",
+   "detail": "Inframerica consortium, led by Engevix with Corporación América, won Brasília airport in Feb 2012 (R$ 4.501 billion bid)",
+   "source_url": "https://www.baguete.com.br/noticias/invepar-triunfo-e-engevix-levam-aeroportos",
+   "status": "verified"
+  }
+ ],
+ "gaps": [
+  "Anac presidents in order (Milton Zuanazzi, Denise Abreu, Solange Paiva Vieira, Marcelo Pacheco dos Guaranys, José Botelho de Queiroz) have no verified dates; not entered as person records.",
+  "Eletrobras presidents, Caixa president, Banco do Brasil before Bendine, MDA/Terra Legal ministers not mapped.",
+  "Cases e5-04, e5-05, e5-13 linked only to Lula; x-18 not linked; e5-18 and e5-23 link thinly.",
+  "Lula Lava Jato sentence details not verified; DOJ Petrobras 2018 settlement not confirmed.",
+  "Wikipedia pages were read in the first 100,000 characters only.",
+  "Round 7 ANP winners (e5-01) and Neoenergia/Vale as Norte Energia shareholders (e5-15) removed as unconfirmed on an opened page; Mantega post dates and Renato Duque end date not verified."
+ ]
+}

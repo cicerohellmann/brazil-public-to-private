@@ -1,0 +1,2919 @@
+[
+  {
+    "id": "e5-01",
+    "year": "2003–2015",
+    "start_year": 2003,
+    "title": "Oil and gas concession rounds 5 to 13 (ANP)",
+    "era": "2003–2016 Lula and Dilma",
+    "government": "Lula 1 and 2, Dilma 1 and 2",
+    "what": "Exploration and production rights over offshore and onshore blocks of Union-owned subsoil were sold by concession in rounds 5 to 13. Signing bonuses ran from R$ 27 million (round 5) to R$ 2.48 billion (round 11).",
+    "who_got": "Petrobras, foreign majors and, from round 9 on, many small Brazilian firms. Winners are named only for round 7 (for example Petrobras, Petrogal, Devon, ENI, Shell, Koch, Repsol YPF, Statoil). Financing is not documented in the sources.",
+    "terms": "The signing bonus was the only up-front price. No source values the blocks. ANP reports only the bonus, the minimum exploration programme and local-content offers.",
+    "mechanism": "Concession model of Lei 9.478/1997. From round 5 the bonus, exploration programme and local-content offer were scored together. Minimum local content in round 5: 30% deep water, 50% and 60% shallow water, 70% onshore. Round 12 weights: 40% bonus, 40% exploration programme, 20% local content.",
+    "who_paid": "The Union gave up subsoil rights in exchange for bonuses. Round 8 was stopped by a federal-court injunction after 38 blocks were sold. No rounds were held in 2009–2012.",
+    "after": "After the 2007 pre-salt discoveries the government stopped concession rounds in the pre-salt area and moved to production sharing (see cessão onerosa and Libra). Local-content waivers per round and winner lists for most rounds were not found.",
+    "counter_view": "ANP's stated aim of scoring exploration programme and local content in the bid was to raise exploration and local supply (ANP yearbook 2004). Low early bonuses may reflect frontier risk before the pre-salt was known (this is an interpretation, unverified).",
+    "signs": [
+      "below-value-price"
+    ],
+    "figures": [
+      {
+        "label": "Round 5 signing bonus (Aug 2003)",
+        "value": "27.4 million",
+        "currency": "n/a",
+        "value_year": "2003",
+        "estimator": "ANP statistical yearbook",
+        "kind": "other",
+        "source_url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/anuario-estatistico/arquivos-anuario-estatistico-2004/textos/anuario-2004-texto_s5.pdf",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Round 6 signing bonus (Aug 2004)",
+        "value": "665.2 million",
+        "currency": "n/a",
+        "value_year": "2004",
+        "estimator": "ANP statistical yearbook",
+        "kind": "other",
+        "source_url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/anuario-estatistico/arquivos-anuario-estatistico-2005/textos/anuario-2005-secao-5_2005.pdf",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Round 7 signing bonus (Oct 2005)",
+        "value": "1,085.35 million",
+        "currency": "n/a",
+        "value_year": "2005",
+        "estimator": "ANP statistical yearbook",
+        "kind": "other",
+        "source_url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/anuario-estatistico/arquivos-anuario-estatistico-2006/secao-5/texto-secao-5.doc",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Round 8 bonus that would have been collected (Nov 2006, stopped by court)",
+        "value": "587 million",
+        "currency": "n/a",
+        "value_year": "2006",
+        "estimator": "ANP statistical yearbook",
+        "kind": "other",
+        "source_url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/anuario-estatistico/arquivos-anuario-estatistico-2007/secao-5/texto-secao-5_2007.pdf",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Round 9 signing bonus (Nov 2007)",
+        "value": "2.1 billion",
+        "currency": "n/a",
+        "value_year": "2007",
+        "estimator": "ANP statistical yearbook",
+        "kind": "other",
+        "source_url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/anuario-estatistico/arquivos-anuario-estatistico-2008/secao-5/texto-secao-5.pdf",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Round 10 signing bonus (Dec 2008)",
+        "value": "89.4 million",
+        "currency": "n/a",
+        "value_year": "2008",
+        "estimator": "ANP statistical yearbook",
+        "kind": "other",
+        "source_url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/anuario-estatistico/arquivos-anuario-estatistico-2009/secao-5/texto-secao-5.pdf",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Round 11 signing bonus (May 2013)",
+        "value": "2.48 billion (a search summary gave 2.8 billion)",
+        "currency": "n/a",
+        "value_year": "2013",
+        "estimator": "ANP statistical yearbook",
+        "kind": "other",
+        "source_url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/anuario-estatistico/arquivos-anuario-estatistico-2014/secao-5/texto-secao-5.pdf",
+        "status": "disputed",
+        "note": "Range R$ 2.48-2.8 bn. The 2.8 bn figure is an unverified search summary of an ANP/Senate deck."
+      },
+      {
+        "label": "Round 12 signing bonus (Nov 2013)",
+        "value": "165.2 million",
+        "currency": "n/a",
+        "value_year": "2013",
+        "estimator": "ANP statistical yearbook",
+        "kind": "other",
+        "source_url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/anuario-estatistico/arquivos-anuario-estatistico-2014/secao-5/texto-secao-5.pdf",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Round 13 signing bonus (Oct 2015)",
+        "value": "about 121 million (ANP target was 979 million)",
+        "currency": "n/a",
+        "value_year": "2015",
+        "estimator": "ANP statistical yearbook",
+        "kind": "other",
+        "source_url": "https://istoedinheiro.com.br/anp-quer-arrecadar-r-979-mi-em-bonus-de-assinatura-na-13a-rodada-de-licitacao",
+        "status": "unverified",
+        "note": "Marked UNVERIFIED in the gaps note; the target figure was seen only as a search result."
+      },
+      {
+        "label": "Cumulative bonus through the nine concluded rounds",
+        "value": "US$ 2.6 billion (978 blocks in the 2008 yearbook, 765 blocks in 2009 and 2011)",
+        "currency": "USD",
+        "value_year": "2008–2011",
+        "estimator": "ANP statistical yearbooks",
+        "kind": "other",
+        "source_url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/anuario-estatistico/arquivos-anuario-estatistico-2008/secao-5/texto-secao-5.pdf",
+        "status": "disputed",
+        "note": "ANP does not reconcile 978 versus 765 blocks. Not re-checked: read from the cited page in the gaps research."
+      }
+    ],
+    "summary": "Between 2003 and 2015 the state sold oil and gas exploration rights in nine bidding rounds. Early signing bonuses were small, from R$ 27 million to R$ 1.1 billion, and the blocks were not independently valued. After the pre-salt discoveries the government moved to other models.",
+    "sources": [
+      {
+        "title": "ANP yearbook 2004, section 5",
+        "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/anuario-estatistico/arquivos-anuario-estatistico-2004/textos/anuario-2004-texto_s5.pdf"
+      },
+      {
+        "title": "ANP yearbook 2005, section 5",
+        "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/anuario-estatistico/arquivos-anuario-estatistico-2005/textos/anuario-2005-secao-5_2005.pdf"
+      },
+      {
+        "title": "ANP yearbook 2006, section 5",
+        "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/anuario-estatistico/arquivos-anuario-estatistico-2006/secao-5/texto-secao-5.doc"
+      },
+      {
+        "title": "ANP yearbook 2007, section 5",
+        "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/anuario-estatistico/arquivos-anuario-estatistico-2007/secao-5/texto-secao-5_2007.pdf"
+      },
+      {
+        "title": "ANP yearbook 2008, section 5",
+        "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/anuario-estatistico/arquivos-anuario-estatistico-2008/secao-5/texto-secao-5.pdf"
+      },
+      {
+        "title": "ANP yearbook 2009, section 5",
+        "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/anuario-estatistico/arquivos-anuario-estatistico-2009/secao-5/texto-secao-5.pdf"
+      },
+      {
+        "title": "ANP yearbook 2011, section 5",
+        "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/anuario-estatistico/arquivos-anuario-estatistico-2011/secao-5/texto-secao-5.pdf"
+      },
+      {
+        "title": "ANP yearbook 2014, section 5",
+        "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/anuario-estatistico/arquivos-anuario-estatistico-2014/secao-5/texto-secao-5.pdf"
+      },
+      {
+        "title": "Istoé Dinheiro on round 13 target",
+        "url": "https://istoedinheiro.com.br/anp-quer-arrecadar-r-979-mi-em-bonus-de-assinatura-na-13a-rodada-de-licitacao"
+      }
+    ]
+  },
+  {
+    "id": "e5-02",
+    "year": "2003–2015",
+    "start_year": 2003,
+    "title": "BNDES export-service loans to Brazilian contractors abroad (Odebrecht, Mariel, Angola)",
+    "era": "2003–2016 Lula and Dilma",
+    "government": "Lula 1 and 2, Dilma 1 and 2",
+    "what": "BNDES disbursed US$ 10.5 billion to finance engineering services exported by Brazilian contractors. Five contractors took 98% of it and Odebrecht took 76%.",
+    "who_got": "Odebrecht 76%, Andrade Gutierrez 14%, Queiroz Galvão 4%, Camargo Corrêa 2%, OAS 2%. Foreign states such as Cuba (Mariel port) and Angola were the borrowers. Odebrecht was also the third-largest recipient of all BNDES disbursements in 2003–2018 (R$ 51.3 billion, domestic and export).",
+    "terms": "Loans to foreign states, to be repaid. For Mariel, MDIC confirmed some Treasury transfers without return. Sources disagree on the size of the Angola exposure.",
+    "mechanism": "BNDES export financing, with repayment risk on foreign states. A Treasury-backed export guarantee fund is mentioned in the notes (unverified).",
+    "who_paid": "BNDES and the Treasury carry the default risk. From 2018 Venezuela, Mozambique and Cuba stopped paying (arrears US$ 554 million by June 2019).",
+    "after": "Secrecy fight over BNDES files, CGU and TCU probes, and Odebrecht plea deals in Lava Jato.",
+    "counter_view": "Aos Fatos: these were loans to be repaid, not donations. BNDES had received US$ 10.3 billion of the US$ 10.5 billion disbursed, so the loss was small. Only the Mariel Proex transfers were confirmed as non-repayable (Aos Fatos, https://www.aosfatos.org/noticias/e-falso-que-pt-doou-r-14-bilhoes-do-bndes-para-governo-de-angola/).",
+    "signs": [
+      "public-money-private-control",
+      "guaranteed-return",
+      "conflict-of-interest-or-kickbacks"
+    ],
+    "figures": [
+      {
+        "label": "Service-export disbursements",
+        "value": "US$ 10.5 billion (US$ 10.3 billion repaid)",
+        "currency": "USD",
+        "value_year": "1998–June 2019",
+        "estimator": "BNDES data via Crusoe",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://crusoe.com.br/?p=29855",
+        "status": "corrected",
+        "note": "Note said 2003–2015. BNDES data cover 1998 to June 2019; 88% was released in 2007–2015."
+      },
+      {
+        "label": "Odebrecht share of service-export loans",
+        "value": "76%; five contractors 98%",
+        "currency": "n/a",
+        "value_year": "2019",
+        "estimator": "BNDES data via Crusoe",
+        "kind": "other",
+        "source_url": "https://crusoe.com.br/?p=29855",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Odebrecht total BNDES disbursements 2003–2018",
+        "value": "R$ 51.3 billion (IPCA-updated), third largest recipient",
+        "currency": "BRL",
+        "value_year": "2018",
+        "estimator": "BNDES presentation",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://www.bndes.gov.br/arquivos/apresentacao-odebrecht.pdf",
+        "status": "verified",
+        "note": "Includes domestic and export loans."
+      },
+      {
+        "label": "Mariel port BNDES financing",
+        "value": "US$ 692 million (R$ 1.5 billion); the notes said 682-692 million",
+        "currency": "USD",
+        "value_year": "2008–2014",
+        "estimator": "Congresso em Foco",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://www.congressoemfoco.com.br/noticias/ministerio-confirma-gasto-a-fundo-perdido-para-cuba",
+        "status": "verified",
+        "note": "The 2008 agreement was US$ 600 million."
+      },
+      {
+        "label": "Mariel non-repayable Treasury transfers",
+        "value": "at least US$ 107 million (Proex data 2010–2013)",
+        "currency": "USD",
+        "value_year": "2010–2013",
+        "estimator": "MDIC / Proex data via Congresso em Foco",
+        "kind": "subsidy",
+        "source_url": "https://www.congressoemfoco.com.br/noticias/ministerio-confirma-gasto-a-fundo-perdido-para-cuba",
+        "status": "corrected",
+        "note": "Note said up to US$ 107 million. MDIC withheld the total, so 107 million is a floor."
+      },
+      {
+        "label": "Mariel total port cost",
+        "value": "US$ 957 million (note said above US$ 900 million)",
+        "currency": "USD",
+        "value_year": "2014",
+        "estimator": "Congresso em Foco",
+        "kind": "other",
+        "source_url": "https://www.congressoemfoco.com.br/noticias/ministerio-confirma-gasto-a-fundo-perdido-para-cuba",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Angola contracts per BNDES open data (2006–2014, 84 contracts)",
+        "value": "US$ 3.27 billion",
+        "currency": "USD",
+        "value_year": "2006–2014",
+        "estimator": "Aos Fatos / Crusoe",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://www.aosfatos.org/noticias/e-falso-que-pt-doou-r-14-bilhoes-do-bndes-para-governo-de-angola/",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Angola exposure, range across sources",
+        "value": "US$ 2.33 billion (BNDES data 2009–2014) to about US$ 4 billion (Ipea paper, Goes 2017)",
+        "currency": "USD",
+        "value_year": "2009–2017",
+        "estimator": "Aos Fatos; Ipea paper",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://www.aosfatos.org/noticias/e-falso-que-pt-doou-r-14-bilhoes-do-bndes-para-governo-de-angola/",
+        "status": "disputed",
+        "note": "Range US$ 2.33-4 bn. The 2.33 bn figure was not found on the Aos Fatos page and the 4 bn figure was seen only in search results."
+      },
+      {
+        "label": "Arrears from Venezuela, Mozambique and Cuba (from 2018)",
+        "value": "US$ 554 million by June 2019",
+        "currency": "USD",
+        "value_year": "2019",
+        "estimator": "Crusoe",
+        "kind": "other",
+        "source_url": "https://crusoe.com.br/?p=29855",
+        "status": "verified",
+        "note": "Venezuela US$ 374 m, Mozambique US$ 118 m, Cuba US$ 62 m."
+      }
+    ],
+    "summary": "BNDES financed US$ 10.5 billion of services that Brazilian contractors sold to foreign governments. Almost all went to five firms, led by Odebrecht. Most of the money was repaid, but arrears and non-repayable transfers to Cuba drew criticism.",
+    "sources": [
+      {
+        "title": "Crusoe on BNDES service exports",
+        "url": "https://crusoe.com.br/?p=29855"
+      },
+      {
+        "title": "BNDES presentation on Odebrecht",
+        "url": "https://www.bndes.gov.br/arquivos/apresentacao-odebrecht.pdf"
+      },
+      {
+        "title": "Congresso em Foco on Mariel",
+        "url": "https://www.congressoemfoco.com.br/noticias/ministerio-confirma-gasto-a-fundo-perdido-para-cuba"
+      },
+      {
+        "title": "Aos Fatos on Angola",
+        "url": "https://www.aosfatos.org/noticias/e-falso-que-pt-doou-r-14-bilhoes-do-bndes-para-governo-de-angola/"
+      }
+    ]
+  },
+  {
+    "id": "e5-03",
+    "year": "about 2004–2014 (revealed 2014; leniency deals 2015–2019)",
+    "start_year": 2004,
+    "title": "Petrobras contractor cartel and kickbacks (Lava Jato) and the leniency deals",
+    "era": "2003–2016 Lula and Dilma",
+    "government": "Lula 1 and 2, Dilma 1",
+    "what": "Contractors inflated Petrobras contracts and paid 1-3% kickbacks to parties, according to plea testimony. Petrobras recognised a R$ 6.19 billion corruption loss in 2014. Later leniency deals with the main contractors agreed about R$ 8 billion, of which about R$ 1 billion was paid by mid-2022.",
+    "who_got": "Odebrecht and Andrade Gutierrez led the cartel, per the Federal Police and prosecutors. Ex-director Paulo Roberto Costa said PP, PT and PMDB split Petrobras directorships to collect 1-3% on big contracts. Youssef said 60% of the bribe fed political agents.",
+    "terms": "Costa said the 3% was embedded in contractor margins and denied overpricing at some works. The Federal Police estimated losses of up to 20% of contract values, while plea-bargainers admitted 3%. TCU found about R$ 4.2 billion of overpricing at three works alone (Rnest, Repar, Angra 3).",
+    "mechanism": "Cartel in Petrobras tenders plus political division of directorships. Afterwards the Anticorruption Law (Lei 12.846/2013) allowed leniency agreements: first MPF agreements, then CGU/AGU agreements that credit the earlier ones, with Selic indexation. Firms may keep selling to the public sector.",
+    "who_paid": "Petrobras (minority shareholders and the Treasury), Eletrobras and taxpayers. The notes also say workers lost jobs afterwards (not sourced).",
+    "after": "Plea deals and leniency agreements followed. In 2022 the firms were trying to rewrite the agreements for longer terms or lower amounts.",
+    "counter_view": "Costa said the 3% was embedded in contractor margins and denied overpricing at some works (Gazeta do Povo). Firms argue the sums cannot be paid while they are barred from contracts and that restructuring preserves jobs (Congresso em Foco, 13 Jun 2022).",
+    "signs": [
+      "conflict-of-interest-or-kickbacks",
+      "exclusive-privilege",
+      "regulator-absent-or-late"
+    ],
+    "figures": [
+      {
+        "label": "MPF civil suits for Petrobras diversions",
+        "value": "R$ 44.7 billion (from the article title)",
+        "currency": "BRL",
+        "value_year": "2015",
+        "estimator": "MPF via Conjur",
+        "kind": "other",
+        "source_url": "https://www.conjur.com.br/2015-fev-20/cinco-acoes-mpf-cobra-447-bilhoes-desvios-petrobras",
+        "status": "unverified",
+        "note": "Case 11 of the notes was not covered by either fact-check. Unverified. The note itself says verify."
+      },
+      {
+        "label": "Petrobras corruption loss recognised in 2014 balance sheet (3% method)",
+        "value": "R$ 6.19 billion",
+        "currency": "BRL",
+        "value_year": "2014",
+        "estimator": "Petrobras",
+        "kind": "other",
+        "source_url": "https://www.infomoney.com.br/?p=363746",
+        "status": "unverified",
+        "note": "Case 11 of the notes was not covered by either fact-check. Unverified."
+      },
+      {
+        "label": "Federal Police loss estimate vs plea-bargainer admission",
+        "value": "up to 20% of contract values vs 3%",
+        "currency": "n/a",
+        "value_year": "2015",
+        "estimator": "Federal Police; plea-bargainers (STJ clipping)",
+        "kind": "other",
+        "source_url": "https://scon.stj.jus.br/docs_intranet/noticias/Newsletter/2015/np0410.pdf",
+        "status": "disputed",
+        "note": "Range 3%-20% of contract values. Case 11 of the notes was not covered by either fact-check. Unverified."
+      },
+      {
+        "label": "Petrobras 2014 net loss and asset impairments (separate items)",
+        "value": "net loss R$ 21.58 billion; impairments R$ 44.63 billion",
+        "currency": "BRL",
+        "value_year": "2014",
+        "estimator": "Petrobras",
+        "kind": "other",
+        "source_url": "https://www.gazetadopovo.com.br/economia/petrobras-desvaloriza-r-14-bilhoes-apos-balanco-desconsiderar-corrupcao-ejbl0c8fcxeag2wqdsn9xi91q",
+        "status": "unverified",
+        "note": "Case 11 of the notes was not covered by either fact-check. Unverified."
+      },
+      {
+        "label": "TCU overpricing found at Rnest, Repar and Angra 3",
+        "value": "about R$ 4.2 billion",
+        "currency": "BRL",
+        "value_year": "2015",
+        "estimator": "TCU",
+        "kind": "price-gap",
+        "source_url": "https://portal.tcu.gov.br/data/files/16/B5/85/0D/33CFA51010B6DEA51A2818A8/016.991-2015-0%20-%20angra%203.pdf",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Odebrecht/Novonor leniency: MPF agreement (Dec 2016)",
+        "value": "R$ 3.8 billion",
+        "currency": "BRL",
+        "value_year": "2016",
+        "estimator": "MPF via JB",
+        "kind": "other",
+        "source_url": "https://www.jb.com.br/economia/noticias/2018/07/09/amp/governo-assina-acordo-de-leniencia-e-odebrecht-tera-de-devolver-r-27-bilhoes.html",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Odebrecht/Novonor leniency: CGU/AGU agreement (9 Jul 2018), credited against the R$ 3.8 bn",
+        "value": "R$ 2.7 billion (Tribuna PR: R$ 2.72 billion)",
+        "currency": "BRL",
+        "value_year": "2018",
+        "estimator": "CGU/AGU via JB and Tribuna PR",
+        "kind": "other",
+        "source_url": "https://www.tribunapr.com.br/noticias/politica/acordos-de-leniencia-com-gigantes-que-a-lava-jato-pegou-ja-somam-r-89-bilhoes/",
+        "status": "verified",
+        "note": "Two layers overlap; do not add them. Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Camargo Corrêa leniency: MPF civil fine (1 Oct 2015)",
+        "value": "R$ 700 million",
+        "currency": "BRL",
+        "value_year": "2015",
+        "estimator": "TCU ruling",
+        "kind": "other",
+        "source_url": "https://portal.tcu.gov.br/data/files/16/B5/85/0D/33CFA51010B6DEA51A2818A8/016.991-2015-0%20-%20angra%203.pdf",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Camargo Corrêa leniency: CGU/AGU agreement (31 Jul 2019)",
+        "value": "R$ 1.396 billion (illicit gain 905.9 m, bribe restitution 330.3 m, improbity fine 123.6 m, Anticorruption Law fine 36.2 m), paid to Jan 2038 with Selic",
+        "currency": "BRL",
+        "value_year": "2019",
+        "estimator": "CGU/AGU via Poder360",
+        "kind": "other",
+        "source_url": "https://www.poder360.com.br/lava-jato/camargo-correa-firma-acordo-de-leniencia-de-r-13-bilhao-com-agu-e-cgu/",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Andrade Gutierrez leniency: MPF (2016) and CGU/AGU (18 Dec 2018)",
+        "value": "MPF R$ 1 billion; CGU/AGU R$ 1.49 billion over 16 years, could reach about R$ 3.6 billion with Selic",
+        "currency": "BRL",
+        "value_year": "2018",
+        "estimator": "CGU/AGU via Money Times",
+        "kind": "other",
+        "source_url": "https://www.moneytimes.com.br/andrade-gutierrez-se-compromete-a-devolver-r-149-bi-a-uniao/",
+        "status": "verified",
+        "note": "The MPF amounts paid to federal bodies are deducted. Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "UTC leniency (10 Jul 2017)",
+        "value": "R$ 574 million, up to 22 years; could exceed R$ 3.1 billion with Selic",
+        "currency": "BRL",
+        "value_year": "2017",
+        "estimator": "CGU/AGU via Migalhas",
+        "kind": "other",
+        "source_url": "https://www.migalhas.com.br/quentes/261798/cgu-e-agu-assinam-acordo-de-leniencia-com-a-utc",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "OAS leniency",
+        "value": "amount not established",
+        "currency": "n/a",
+        "value_year": "",
+        "estimator": "",
+        "kind": "other",
+        "source_url": "https://monitormercantil.com.br/oas-voltara-a-fornecer-ao-governo-apos-acordo-de-leniencia/",
+        "status": "unverified",
+        "note": "Marked UNVERIFIED in the gaps note; the source page returned 403."
+      },
+      {
+        "label": "Five contractor leniency deals: agreed vs paid",
+        "value": "R$ 8 billion agreed, about R$ 1 billion paid by mid-2022 (Tribuna PR 2019: R$ 8.93 billion across seven agreements incl. Braskem 2.87 bn and SBM 1.22 bn)",
+        "currency": "BRL",
+        "value_year": "2022",
+        "estimator": "Congresso em Foco; Tribuna PR",
+        "kind": "other",
+        "source_url": "https://congressoemfoco.com.br/area/pais/empreiteiras-da-lava-jato-tentam-desfazer-acordos-de-leniencia-bilionarios",
+        "status": "disputed",
+        "note": "Range R$ 8-8.93 bn depending on which agreements are counted. A later CGU figure (R$ 15.6 bn agreed since 2015, about R$ 6 bn paid) is an unverified search summary."
+      }
+    ],
+    "summary": "Prosecutors and plea-bargainers say a cartel of contractors inflated Petrobras contracts and paid kickbacks to political parties. Estimates of the loss range from 3% to 20% of contract values. The leniency deals agreed about R$ 8 billion, but only about R$ 1 billion had been paid by mid-2022.",
+    "sources": [
+      {
+        "title": "Gazeta do Povo on the cartel (Costa)",
+        "url": "https://www.gazetadopovo.com.br/vida-publica/cartel-de-empreiteiras-atuou-em-refinaria-do-pr-diz-costa-eet1tbuvl6d58uwdegdddx74e"
+      },
+      {
+        "title": "Conjur on MPF suits",
+        "url": "https://www.conjur.com.br/2015-fev-20/cinco-acoes-mpf-cobra-447-bilhoes-desvios-petrobras"
+      },
+      {
+        "title": "Congresso em Foco on Odebrecht and Andrade Gutierrez leading the cartel",
+        "url": "https://www.congressoemfoco.com.br/noticia/74961/odebrecht-e-andrade-gutierrez-lideravam-cartel-dizem-pf-e-mpf"
+      },
+      {
+        "title": "InfoMoney on Petrobras loss",
+        "url": "https://www.infomoney.com.br/?p=363746"
+      },
+      {
+        "title": "Gazeta do Povo on Petrobras balance",
+        "url": "https://www.gazetadopovo.com.br/economia/petrobras-desvaloriza-r-14-bilhoes-apos-balanco-desconsiderar-corrupcao-ejbl0c8fcxeag2wqdsn9xi91q"
+      },
+      {
+        "title": "STJ clipping",
+        "url": "https://scon.stj.jus.br/docs_intranet/noticias/Newsletter/2015/np0410.pdf"
+      },
+      {
+        "title": "TCU ruling TC 016.991/2015-0",
+        "url": "https://portal.tcu.gov.br/data/files/16/B5/85/0D/33CFA51010B6DEA51A2818A8/016.991-2015-0%20-%20angra%203.pdf"
+      },
+      {
+        "title": "Tribuna PR on leniency deals",
+        "url": "https://www.tribunapr.com.br/noticias/politica/acordos-de-leniencia-com-gigantes-que-a-lava-jato-pegou-ja-somam-r-89-bilhoes/"
+      },
+      {
+        "title": "JB on Odebrecht leniency",
+        "url": "https://www.jb.com.br/economia/noticias/2018/07/09/amp/governo-assina-acordo-de-leniencia-e-odebrecht-tera-de-devolver-r-27-bilhoes.html"
+      },
+      {
+        "title": "Poder360 on Camargo Corrêa",
+        "url": "https://www.poder360.com.br/lava-jato/camargo-correa-firma-acordo-de-leniencia-de-r-13-bilhao-com-agu-e-cgu/"
+      },
+      {
+        "title": "Money Times on Andrade Gutierrez",
+        "url": "https://www.moneytimes.com.br/andrade-gutierrez-se-compromete-a-devolver-r-149-bi-a-uniao/"
+      },
+      {
+        "title": "Migalhas on UTC",
+        "url": "https://www.migalhas.com.br/quentes/261798/cgu-e-agu-assinam-acordo-de-leniencia-com-a-utc"
+      },
+      {
+        "title": "Monitor Mercantil on OAS",
+        "url": "https://monitormercantil.com.br/oas-voltara-a-fornecer-ao-governo-apos-acordo-de-leniencia/"
+      },
+      {
+        "title": "Congresso em Foco on leniency deals 2022",
+        "url": "https://congressoemfoco.com.br/area/pais/empreiteiras-da-lava-jato-tentam-desfazer-acordos-de-leniencia-bilionarios"
+      }
+    ]
+  },
+  {
+    "id": "e5-04",
+    "year": "2004–2006",
+    "start_year": 2004,
+    "title": "PPP law and the first PPP, São Paulo Metro Line 4",
+    "era": "2003–2016 Lula and Dilma",
+    "government": "Lula 1 (federal law); São Paulo state (Line 4 contract)",
+    "what": "Lei 11.079/2004 created public-private partnerships with state payment guarantees. Line 4 of the São Paulo Metro (ViaQuatro) was the first metro PPP: private operation for 30 years.",
+    "who_got": "The ViaQuatro consortium, which buys trains and systems and operates the line.",
+    "terms": "No audited cost figure was found. A union publication says the government pays 80% of civil works, the rest is financed by BNDES over 30 years with the state as guarantor, and the state pays the shortfall if demand is lower.",
+    "mechanism": "Sponsored and administrative concessions under Lei 11.079 of 30 Dec 2004. The state guarantees the payments. The public side builds tunnels and stations.",
+    "who_paid": "The São Paulo state treasury carries demand and guarantee risk, according to the union text.",
+    "after": "ViaQuatro later sought about R$ 500 million from the state for works delays (search result only), which shows risk also hit the private side. Total investment is given in the press as about US$ 2 billion (not verified).",
+    "counter_view": "Pro-PPP view: private operation brought driverless trains and quicker works. The critical text is a union advocacy publication (metroviarios.org.br).",
+    "signs": [
+      "guaranteed-return",
+      "public-money-private-control"
+    ],
+    "figures": [
+      {
+        "label": "Line 4 civil works paid by government",
+        "value": "80% of civil works",
+        "currency": "n/a",
+        "value_year": "2006",
+        "estimator": "Union publication (advocacy)",
+        "kind": "other",
+        "source_url": "https://www.metroviarios.org.br/site/wp-content/uploads/2015/10/especial_contraprivatizacao.pdf",
+        "status": "verified",
+        "note": "Confirmed in the opened advocacy publication; secondary source. No audited cost figure found."
+      },
+      {
+        "label": "ViaQuatro claim for works delays",
+        "value": "about R$ 500 million",
+        "currency": "BRL",
+        "value_year": "",
+        "estimator": "Diário do Transporte (search result only)",
+        "kind": "other",
+        "source_url": "https://www.al.sp.gov.br/spl/2012/12/Propositura/28415101_1113061_pl751-Mensagem%20134.doc",
+        "status": "unverified",
+        "note": "Search result only; the cited legislature document was not opened."
+      }
+    ],
+    "summary": "The 2004 PPP law let the state guarantee payments to private partners. Line 4 of the São Paulo Metro was the first such deal. Critics call it capitalism without risk, while supporters point to faster delivery.",
+    "sources": [
+      {
+        "title": "Lei 11.079/2004",
+        "url": "https://legis.senado.leg.br/norma/570528"
+      },
+      {
+        "title": "Senate material on PPP",
+        "url": "https://www2.senado.leg.br/jspui/bitstream/id/479419/3/complemento_2.htm"
+      },
+      {
+        "title": "Union publication on Metro privatisation",
+        "url": "https://www.metroviarios.org.br/site/wp-content/uploads/2015/10/especial_contraprivatizacao.pdf"
+      },
+      {
+        "title": "São Paulo legislature document on PPP cost",
+        "url": "https://www.al.sp.gov.br/spl/2012/12/Propositura/28415101_1113061_pl751-Mensagem%20134.doc"
+      }
+    ]
+  },
+  {
+    "id": "e5-05",
+    "year": "2006–2010",
+    "start_year": 2006,
+    "title": "Public forest concessions (Lei de Gestão de Florestas Públicas)",
+    "era": "2003–2016 Lula and Dilma",
+    "government": "Lula 2",
+    "what": "Timber-management rights in national forests were granted for up to 40 years while the land stays public. Flona Jamari (RO) had 96,000 ha under concession in three management units.",
+    "who_got": "Private timber firms. The 2008 Jamari tender covered three areas and five firms were qualified for the final stage. The notes' 'three firms' is corrected to three areas.",
+    "terms": "Payment per area and volume. The notes' claim of about R$ 7 million a year from one forest is unsupported (the cited page was unrelated). JB 2013 says R$ 5.5 million had been paid in total up to 2012.",
+    "mechanism": "Lei 11.284/2006, with tenders run by the forest service. Contracts allow up to 40 years.",
+    "who_paid": "Outcome and community impacts were not researched.",
+    "after": "By Nov 2021 there were seven forests with about 1.265 million ha and 21 contracts (Brasil61). A Saracá-Taquera (PA) south lot signed in Aug 2010 could not be confirmed.",
+    "counter_view": "The law is defended as a way to fight illegal logging while keeping the land public (Brasil61). It is a weak 'handover' case.",
+    "signs": [
+      "land-grant"
+    ],
+    "figures": [
+      {
+        "label": "Flona Jamari area under concession",
+        "value": "96,000 ha (96,361 ha in three units); about 220,000 ha forest in total",
+        "currency": "ha",
+        "value_year": "2008",
+        "estimator": "Search summary",
+        "kind": "land-area",
+        "source_url": "https://www.jb.com.br/ciencia-e-tecnologia/noticias/2013/09/03/amp/mais-de-1-milhao-de-hectares-na-floresta-amazonica-poderao-ser-explorados.html",
+        "status": "unverified",
+        "note": "The 96,000 ha figure came from a search summary; the 220,000 ha total was not verified. Currency field is not applicable."
+      },
+      {
+        "label": "Total paid by concessionaires up to 2012",
+        "value": "R$ 5.5 million",
+        "currency": "BRL",
+        "value_year": "2012",
+        "estimator": "JB, 2013",
+        "kind": "other",
+        "source_url": "https://www.jb.com.br/ciencia-e-tecnologia/noticias/2013/09/03/amp/mais-de-1-milhao-de-hectares-na-floresta-amazonica-poderao-ser-explorados.html",
+        "status": "corrected",
+        "note": "Replaces the notes' unsupported 'about R$ 7 million a year from one forest'."
+      },
+      {
+        "label": "Area under forest concession (Nov 2021)",
+        "value": "about 1.265 million ha, 7 forests, 21 contracts",
+        "currency": "ha",
+        "value_year": "2021",
+        "estimator": "Brasil61",
+        "kind": "land-area",
+        "source_url": "https://brasil61.com/n/brasil-possui-sete-florestas-com-contratos-de-concessao-florestal-pind212952",
+        "status": "verified",
+        "note": "The notes' '1.3 to 5 million ha target' from a 2024 SFB slide deck could not be confirmed."
+      }
+    ],
+    "summary": "A 2006 law let private firms log national forests under long contracts, while the state keeps the land. The first contracts were signed in 2008. The notes treat this as a weak handover and the outcome was not researched.",
+    "sources": [
+      {
+        "title": "Brasil61 on forest concessions",
+        "url": "https://brasil61.com/n/brasil-possui-sete-florestas-com-contratos-de-concessao-florestal-pind212952"
+      },
+      {
+        "title": "JB 2013 on forest concessions",
+        "url": "https://www.jb.com.br/ciencia-e-tecnologia/noticias/2013/09/03/amp/mais-de-1-milhao-de-hectares-na-floresta-amazonica-poderao-ser-explorados.html"
+      },
+      {
+        "title": "JB 2008 on the Jamari tender",
+        "url": "https://www.jb.com.br/ciencia-e-tecnologia/noticias/2008/05/29/5-empresas-estao-habilitadas-para-a-ultima-fase-da-licitacao-em-jamari.html"
+      },
+      {
+        "title": "Sedep page cited by the notes (unrelated)",
+        "url": "https://www.sedep.com.br/?p=29584"
+      },
+      {
+        "title": "SFB presentation to MPF 2024",
+        "url": "https://www.mpf.mp.br/atuacao/ccr4/coordenacao/eventos/encontro-regional-da-amazonia-2024/arquivos/sfb_apresentacao_mpf_belem_27nov_final-pptx.pdf"
+      }
+    ]
+  },
+  {
+    "id": "e5-06",
+    "year": "2007–2016 (suits 2014 and 2025)",
+    "start_year": 2007,
+    "title": "Madeira River dams: Santo Antonio and Jirau (Rondônia)",
+    "era": "2003–2016 Lula and Dilma",
+    "government": "Lula 1 and 2, Dilma 1",
+    "what": "Two large hydropower concessions on the Madeira River, with BNDES loans of R$ 6.1 billion (Santo Antonio) and R$ 7.2 billion (Jirau). Total investment was estimated at about R$ 28 billion.",
+    "who_got": "Santo Antonio: Furnas 39%, a Banif/Santander fund 20%, Odebrecht Investimentos 17.6%, Andrade Gutierrez 12.4%, Cemig 10%, CNO 1% (public share 49% with Cemig). Jirau: GDF Suez, Camargo Corrêa, Eletrosul, Chesf, with Funcef and Petros in Camargo's stake.",
+    "terms": "Santo Antonio won the 10 Dec 2007 auction at R$ 78.87/MWh (Exame: 78.90), 35% below an ANEEL ceiling of R$ 122 and 16.1% below the runner-up. No independent valuation was found.",
+    "mechanism": "ANEEL auctions in 2007–2008 and BNDES project-finance loans.",
+    "who_paid": "Displaced riverside residents and workers. The Union through Furnas' stake and BNDES financing (BNDES amounts for this point not opened). Workers rioted in March 2011 over conditions; BNDES kept disbursing.",
+    "after": "MPF, public defenders and OAB-RO sued on 6 Mar 2014 after a flood. A court ordered help for about 10,500 displaced people and new impact studies within 90 days, under a R$ 100,000/day fine. The final outcome was not found. In July 2025 MPF sued Jirau for flooding beyond its licensed quota into Mapinguari National Park. Plea testimony alleges about R$ 80 million in bribes tied to Santo Antonio; the accused dispute it.",
+    "counter_view": "The low auction tariff gave consumers cheaper energy. Later cost overruns suggest the bid may have been unrealistic (unverified). The bribery claims are allegations, not findings.",
+    "signs": [
+      "public-money-private-control",
+      "conflict-of-interest-or-kickbacks",
+      "regulator-absent-or-late"
+    ],
+    "figures": [
+      {
+        "label": "BNDES loan to Santo Antonio (Dec 2008)",
+        "value": "R$ 6.1 billion",
+        "currency": "BRL",
+        "value_year": "2008",
+        "estimator": "BNDES via Exame",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://exame.com/mundo/bndes-mantem-desembolsos-para-hidreletricas-do-rio-madeira",
+        "status": "verified",
+        "note": "About R$ 1 bn released by Mar 2011."
+      },
+      {
+        "label": "BNDES loan to Jirau (Feb 2009)",
+        "value": "R$ 7.2 billion",
+        "currency": "BRL",
+        "value_year": "2009",
+        "estimator": "BNDES via Exame",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://exame.com/mundo/bndes-mantem-desembolsos-para-hidreletricas-do-rio-madeira",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Total investment in both dams",
+        "value": "about R$ 28 billion (R$ 16 bn + R$ 13.1 bn)",
+        "currency": "BRL",
+        "value_year": "2008–2009",
+        "estimator": "Exame; Water Power Magazine",
+        "kind": "other",
+        "source_url": "https://www.waterpowermagazine.com/news/gdf-suez-led-jv-agrees-debt-funding-for-jirau-with-bndes-banks/",
+        "status": "unverified",
+        "note": "Not found in the opened Exame page."
+      },
+      {
+        "label": "Santo Antonio auction price vs ceiling",
+        "value": "R$ 78.87/MWh vs ceiling R$ 122/MWh (35% below); 16.1% below runner-up",
+        "currency": "BRL",
+        "value_year": "2007",
+        "estimator": "Congresso em Foco; Exame",
+        "kind": "other",
+        "source_url": "https://www.congressoemfoco.com.br/noticia/1538/furnas-e-odebrecht-vencem-leilao-de-usina-do-madeira",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Families affected by the dams",
+        "value": "MAB: about 10,000; Santo Antonio acknowledges 1,621",
+        "currency": "people",
+        "value_year": "2011",
+        "estimator": "MAB vs Santo Antonio (IPS)",
+        "kind": "other",
+        "source_url": "https://www.ipsnews.net/portuguese/2011/05/america-latina/reportagem-amazonia-inovacoes-e-dramas-do-subito-progresso-hidreletrico/",
+        "status": "disputed",
+        "note": "Range 1,621-10,000 families. The gap is definitional: the consortia count only flooded land."
+      },
+      {
+        "label": "Alleged bribes tied to Santo Antonio",
+        "value": "about R$ 80 million (allegation)",
+        "currency": "BRL",
+        "value_year": "2017",
+        "estimator": "Plea testimony reported by Estadão",
+        "kind": "other",
+        "source_url": "https://www.tribunapr.com.br/noticias/politica/propina-em-usina-no-rio-madeira-foi-de-r-80-milhoes/amp/",
+        "status": "unverified",
+        "note": "Allegation from plea testimony, denied by the accused. Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Displaced people covered by the 2014 court order",
+        "value": "about 10,500",
+        "currency": "people",
+        "value_year": "2014",
+        "estimator": "5th Federal Environmental Court",
+        "kind": "other",
+        "source_url": "https://www.congressoemfoco.com.br/noticia/54268/justica-determina-novos-estudos-de-impacto-nas-usinas-de-jirau-e-santo-antonio",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Jirau flooded area beyond licensed quota (MPF suit, 2025)",
+        "value": "over 2,000 ha (headline 2,884 ha); claim R$ 1.3 million material and R$ 500,000 moral damages",
+        "currency": "BRL and ha",
+        "value_year": "2025",
+        "estimator": "MPF",
+        "kind": "land-area",
+        "source_url": "https://www.mpf.mp.br/o-mpf/unidades/pr-ro/noticias/mpf-cobra-na-justica-que-hidreletrica-de-jirau-respeite-cota-de-inundacao-e-compense-danos-ao-parna-mapinguari-em-rondonia",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      }
+    ],
+    "summary": "Two big dams on the Madeira River were won at low tariffs and built with R$ 13 billion of BNDES loans. State firms held large stakes. Residents and workers bore much of the social cost, and courts and prosecutors are still dealing with floods and alleged bribes.",
+    "sources": [
+      {
+        "title": "Exame on BNDES disbursements",
+        "url": "https://exame.com/mundo/bndes-mantem-desembolsos-para-hidreletricas-do-rio-madeira"
+      },
+      {
+        "title": "Water Power Magazine on Jirau debt",
+        "url": "https://www.waterpowermagazine.com/news/gdf-suez-led-jv-agrees-debt-funding-for-jirau-with-bndes-banks/"
+      },
+      {
+        "title": "Banktrack on Funcef and Petros in Jirau",
+        "url": "https://www.banktrack.org/news/funcef_e_petros_cobicam_10_da_camargo_em_jirau"
+      },
+      {
+        "title": "IHU on BNDES and workers' rights",
+        "url": "https://ihu.unisinos.br/noticias/41879-organizacao-pede-fim-dos-financiamentos-do-bndes-a-obras-que-violam-direitos-dos-trabalhadores"
+      },
+      {
+        "title": "IPS on families affected",
+        "url": "https://www.ipsnews.net/portuguese/2011/05/america-latina/reportagem-amazonia-inovacoes-e-dramas-do-subito-progresso-hidreletrico/"
+      },
+      {
+        "title": "Congresso em Foco on the Santo Antonio auction",
+        "url": "https://www.congressoemfoco.com.br/noticia/1538/furnas-e-odebrecht-vencem-leilao-de-usina-do-madeira"
+      },
+      {
+        "title": "Exame on the auction price",
+        "url": "https://exame.com/negocios/odebrecht-cobrou-16-menos-que-2o-colocado-no-leilao-do-rio-madeira-m0145979"
+      },
+      {
+        "title": "Tribuna PR on alleged bribes",
+        "url": "https://www.tribunapr.com.br/noticias/politica/propina-em-usina-no-rio-madeira-foi-de-r-80-milhoes/amp/"
+      },
+      {
+        "title": "Congresso em Foco on 2014 court order",
+        "url": "https://www.congressoemfoco.com.br/noticia/54268/justica-determina-novos-estudos-de-impacto-nas-usinas-de-jirau-e-santo-antonio"
+      },
+      {
+        "title": "MPF on the 2025 Jirau suit",
+        "url": "https://www.mpf.mp.br/o-mpf/unidades/pr-ro/noticias/mpf-cobra-na-justica-que-hidreletrica-de-jirau-respeite-cota-de-inundacao-e-compense-danos-ao-parna-mapinguari-em-rondonia"
+      }
+    ]
+  },
+  {
+    "id": "e5-07",
+    "year": "2007–2013 (TCU audits 2015–2018, ruling 2024)",
+    "start_year": 2007,
+    "title": "BNDES 'national champion' equity in JBS and Bertin",
+    "era": "2003–2016 Lula and Dilma",
+    "government": "Lula 2, Dilma 1",
+    "what": "BNDESPar put equity and debenture money into JBS to buy foreign meatpackers. A police and TCU table sums R$ 8.11 billion across the JBS group. BNDESPar rose to 33.40% of JBS.",
+    "who_got": "JBS/Friboi (Batista family). BNDES also bought 26.92% of Bertin in 2008 for R$ 2.5 billion.",
+    "terms": "Disputed. TCU technical staff estimated losses between R$ 711 million and R$ 5.08 billion. BNDES says the operations gave a R$ 2.8 billion positive result. In April 2024 TCU judged the special accounts regular and found no debit.",
+    "mechanism": "Discretionary BNDESPar equity purchases and debentures under the 'national champions' industrial policy.",
+    "who_paid": "BNDES and the Treasury, which funds BNDES (see the BNDES/Treasury funding case).",
+    "after": "The 2017 JBS plea deal (Joesley Batista) and police and TCU probes followed. JBS became the world's largest meat processor.",
+    "counter_view": "BNDES says the operations gave a R$ 2.8 billion positive result (O Antagonista). TCU Acórdão 628/2024-Plenário found 'inexistência dos débitos' and rejected both alleged losses (https://portal.tcu.gov.br/imprensa/noticias/compra-de-acoes-da-empresa-jbs-pela-bndes-participacoes-nao-gerou-debitos.htm).",
+    "signs": [
+      "public-money-private-control",
+      "below-value-price",
+      "subsidy-or-tax-break"
+    ],
+    "figures": [
+      {
+        "label": "Total BNDES disbursements to the JBS group (police/TCU table)",
+        "value": "8,110,371,712.96",
+        "currency": "n/a",
+        "value_year": "2007–2013",
+        "estimator": "Federal Police / TCU (Acórdão 3011/2015)",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://legis.senado.leg.br/sdleg-getter/documento/download/8359a698-18c3-4ac6-9b34-b147b77b1126",
+        "status": "verified",
+        "note": "This is total disbursed, not a loss."
+      },
+      {
+        "label": "BNDESPar stake in JBS after each step",
+        "value": "12.95% (Swift), 19.42% (National Beef), 33.40% (Pilgrim's debenture conversion)",
+        "currency": "n/a",
+        "value_year": "2007–2010",
+        "estimator": "TCU table",
+        "kind": "other",
+        "source_url": "https://legis.senado.leg.br/sdleg-getter/documento/download/8359a698-18c3-4ac6-9b34-b147b77b1126",
+        "status": "verified",
+        "note": "Later divestments took it from 31.30% to 24.60% by 2014."
+      },
+      {
+        "label": "Bertin stake purchase (2008)",
+        "value": "R$ 2.5 billion for 26.92%",
+        "currency": "BRL",
+        "value_year": "2008",
+        "estimator": "Gazeta do Povo / TCU",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://www.gazetadopovo.com.br/agronegocio/pecuaria/bndes-perdeu-mais-de-r-1-bilhao-em-compra-de-frigorifico-1ajtajdsf3p6fubear6qka232",
+        "status": "verified",
+        "note": "TCU staff said R$ 2.5 bn was overstated and matched a larger stake than 26.92%."
+      },
+      {
+        "label": "TCU loss on Bertin",
+        "value": "R$ 670 million historical (R$ 1.17 billion updated); rapporteur Sherman: R$ 758 million (stake fell from R$ 2.5 bn to R$ 1.742 bn)",
+        "currency": "BRL",
+        "value_year": "2015–2018",
+        "estimator": "TCU",
+        "kind": "price-gap",
+        "source_url": "https://www.gazetadopovo.com.br/agronegocio/pecuaria/bndes-perdeu-mais-de-r-1-bilhao-em-compra-de-frigorifico-1ajtajdsf3p6fubear6qka232",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Missed 10% fee on a conversion",
+        "value": "R$ 347.7 million",
+        "currency": "BRL",
+        "value_year": "",
+        "estimator": "TCU via Jornal Opção",
+        "kind": "price-gap",
+        "source_url": "https://www.jornalopcao.com.br/bastidores/jbs-deu-prejuizo-de-quase-1-bilhao-de-reais-ao-bndes-revela-o-tcu-94710/",
+        "status": "unverified",
+        "note": "The cited page returned 403 and the figure was not found elsewhere."
+      },
+      {
+        "label": "Swift purchase",
+        "value": "US$ 750 million (R$ 2.3 billion)",
+        "currency": "USD",
+        "value_year": "2007",
+        "estimator": "Notes",
+        "kind": "other",
+        "source_url": "https://legis.senado.leg.br/sdleg-getter/documento/download/8359a698-18c3-4ac6-9b34-b147b77b1126",
+        "status": "unverified",
+        "note": "Not found in opened sources. The TCU table shows BNDESPar's Swift disbursement as R$ 1.137 bn, a different quantity."
+      },
+      {
+        "label": "TCU technical estimate of BNDES loss on JBS shares and debentures",
+        "value": "R$ 711 million",
+        "currency": "BRL",
+        "value_year": "2017",
+        "estimator": "TCU technical report",
+        "kind": "price-gap",
+        "source_url": "https://www.congressoemfoco.com.br/noticia/40399/bndes-perdeu-r-711-milhoes-com-a-jbs-diz-tcu",
+        "status": "disputed",
+        "note": "Range of loss estimates R$ 711 m to R$ 5.08 bn. Superseded by the 2024 TCU ruling finding no debit."
+      },
+      {
+        "label": "Loss on Pilgrim's operation",
+        "value": "R$ 950 million",
+        "currency": "BRL",
+        "value_year": "",
+        "estimator": "TCU via Poder360",
+        "kind": "price-gap",
+        "source_url": "https://www.poder360.com.br/economia/tcu-aponta-prejuizo-de-r-950-mi-do-bndes-em-operacao-com-a-jbs",
+        "status": "unverified",
+        "note": "Page returned 403."
+      },
+      {
+        "label": "TCU audit loss estimate counting fall in JBS share value to July 2017",
+        "value": "R$ 5.082 billion",
+        "currency": "BRL",
+        "value_year": "2017",
+        "estimator": "TCU audit via Folha / O Antagonista",
+        "kind": "price-gap",
+        "source_url": "https://oantagonista.com.br/economia/bndes-perdeu-mais-de-r-5-bi-na-jbs-diz-o-tcu/",
+        "status": "corrected",
+        "note": "Notes said '2018 audit'. The article gives no audit year; the data run to July 2017. About three times what JBS agreed to return under its leniency deal."
+      },
+      {
+        "label": "BNDES own result claim",
+        "value": "R$ 2.8 billion positive",
+        "currency": "BRL",
+        "value_year": "",
+        "estimator": "BNDES",
+        "kind": "other",
+        "source_url": "https://oantagonista.com.br/economia/bndes-perdeu-mais-de-r-5-bi-na-jbs-diz-o-tcu/",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "summary": "BNDES put billions into JBS and Bertin so Brazilian meatpackers could buy abroad. TCU auditors estimated losses between R$ 711 million and R$ 5.08 billion. In 2024 TCU found no debit in the special accounts, and BNDES says it made a profit.",
+    "sources": [
+      {
+        "title": "Senate document with the TCU table (Acórdão 3011/2015)",
+        "url": "https://legis.senado.leg.br/sdleg-getter/documento/download/8359a698-18c3-4ac6-9b34-b147b77b1126"
+      },
+      {
+        "title": "Gazeta do Povo on the Bertin loss",
+        "url": "https://www.gazetadopovo.com.br/agronegocio/pecuaria/bndes-perdeu-mais-de-r-1-bilhao-em-compra-de-frigorifico-1ajtajdsf3p6fubear6qka232"
+      },
+      {
+        "title": "Jornal Opção on the nearly R$ 1 bn loss",
+        "url": "https://www.jornalopcao.com.br/bastidores/jbs-deu-prejuizo-de-quase-1-bilhao-de-reais-ao-bndes-revela-o-tcu-94710/"
+      },
+      {
+        "title": "Congresso em Foco on the R$ 711 m loss",
+        "url": "https://www.congressoemfoco.com.br/noticia/40399/bndes-perdeu-r-711-milhoes-com-a-jbs-diz-tcu"
+      },
+      {
+        "title": "Poder360 on Pilgrim's",
+        "url": "https://www.poder360.com.br/economia/tcu-aponta-prejuizo-de-r-950-mi-do-bndes-em-operacao-com-a-jbs"
+      },
+      {
+        "title": "O Antagonista on R$ 5 bn loss",
+        "url": "https://oantagonista.com.br/economia/bndes-perdeu-mais-de-r-5-bi-na-jbs-diz-o-tcu/"
+      },
+      {
+        "title": "TCU on the 2024 ruling",
+        "url": "https://portal.tcu.gov.br/imprensa/noticias/compra-de-acoes-da-empresa-jbs-pela-bndes-participacoes-nao-gerou-debitos.htm"
+      },
+      {
+        "title": "Tribuna PR on TCU report",
+        "url": "https://www.tribunapr.com.br/noticias/economia/relatorio-do-tcu-indica-favorecimento-do-bndes-a-jbs/"
+      }
+    ]
+  },
+  {
+    "id": "e5-08",
+    "year": "2007–2014 (collapse 2013)",
+    "start_year": 2007,
+    "title": "Eike Batista's EBX group (OGX, MMX, LLX/Prumo, OSX, MPX)",
+    "era": "2003–2016 Lula and Dilma",
+    "government": "Lula 2, Dilma 1",
+    "what": "BNDES and the Merchant Marine Fund (FMM) lent to Eike Batista's companies. About R$ 10.4 billion was approved, and about R$ 6 billion was contracted according to BNDES's president.",
+    "who_got": "Eike Batista's companies.",
+    "terms": "Eike told the CPI that BNDES had 'zero loss'. No independent loss estimate was found.",
+    "mechanism": "BNDES/BNDESPar credit and FMM financing.",
+    "who_paid": "BNDES and so the Treasury. Part of Eike's personal assets was pledged to R$ 2.3 billion of BNDES loans.",
+    "after": "OGX filed the largest judicial recovery in Latin America on 30 Oct 2013 (R$ 11.2 billion owed). OSX also filed. The OGX recovery closed on 2 Aug 2017.",
+    "counter_view": "Eike told the CPI do BNDES (17 Nov 2015) that BNDES money of about R$ 10 billion was only part of R$ 150 billion of total investment, and that BNDES had no loss (Congresso em Foco). BNDES president Coutinho said contracted loans were about R$ 6 billion, not R$ 10.4 billion.",
+    "signs": [
+      "public-money-private-control",
+      "bailout"
+    ],
+    "figures": [
+      {
+        "label": "BNDES amount granted to Batista companies since 2007",
+        "value": "R$ 10.4 billion (approved, not disbursed); about R$ 6 billion actually contracted",
+        "currency": "BRL",
+        "value_year": "2013",
+        "estimator": "Exame; BNDES president Coutinho (Senate, Aug 2013)",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://exame.com/negocios/noticias/25-revelacoes-sobre-a-crise-de-eike-batista",
+        "status": "corrected",
+        "note": "Notes presented R$ 10.4 bn as lent. It was approved. Coutinho put contracted loans at about R$ 6 bn."
+      },
+      {
+        "label": "Eike's own figure for BNDES money (to the CPI)",
+        "value": "about R$ 10 billion, out of R$ 150 billion total investment",
+        "currency": "BRL",
+        "value_year": "2015",
+        "estimator": "Eike Batista",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://www.congressoemfoco.com.br/noticia/52451/eike-diz-que-recursos-do-bndes-foram-apenas-parte-dos-seus-investimentos",
+        "status": "verified",
+        "note": "Acu port: BNDES R$ 3 bn of R$ 70 bn."
+      },
+      {
+        "label": "Personal assets pledged to BNDES loans",
+        "value": "R$ 2.3 billion of loans",
+        "currency": "BRL",
+        "value_year": "2013",
+        "estimator": "Bloomberg via Exame",
+        "kind": "other",
+        "source_url": "https://exame.com/negocios/noticias/25-revelacoes-sobre-a-crise-de-eike-batista",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "MMX Açu port loan (Jan 2010)",
+        "value": "R$ 1.3 billion",
+        "currency": "BRL",
+        "value_year": "2010",
+        "estimator": "Notes",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://www.infomoney.com.br/?p=557125",
+        "status": "unverified",
+        "note": "InfoMoney link not opened."
+      },
+      {
+        "label": "MPX debentures (2011)",
+        "value": "R$ 600 million",
+        "currency": "BRL",
+        "value_year": "2011",
+        "estimator": "Notes",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://www.infomoney.com.br/?p=557125",
+        "status": "unverified",
+        "note": "Not opened."
+      },
+      {
+        "label": "FMM-sourced financing for the OSX shipyard",
+        "value": "R$ 2.7 billion; R$ 1.344 billion approved June 2012",
+        "currency": "BRL",
+        "value_year": "2012",
+        "estimator": "Notes",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://www.infomoney.com.br/?p=557125",
+        "status": "unverified",
+        "note": "Not opened."
+      },
+      {
+        "label": "Loans contracted 2009–2012 (principal only, 15 loans)",
+        "value": "about R$ 10 billion; R$ 1.17 billion due in 2013; full repayment scheduled for 2034",
+        "currency": "BRL",
+        "value_year": "2013",
+        "estimator": "JB, 24 Jul 2013",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://www.jb.com.br/economia/noticias/2013/07/24/amp/calote-a-vista-bndes-tem-a-receber-r-117-bi-de-ebx.html",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research. How much was actually disbursed was not found."
+      },
+      {
+        "label": "OGX judicial recovery filing (30 Oct 2013)",
+        "value": "R$ 11.2 billion owed to main creditors",
+        "currency": "BRL",
+        "value_year": "2013",
+        "estimator": "Época via JB",
+        "kind": "other",
+        "source_url": "https://www.jb.com.br/economia/noticias/2013/10/30/amp/ogx-entra-com-pedido-de-recuperacao-judicial.html",
+        "status": "verified",
+        "note": "Source is an anonymous source. At closing in Aug 2017 the restructured debt was cited as R$ 13.8 bn (Money Times)."
+      }
+    ],
+    "summary": "BNDES and the shipping fund backed Eike Batista's companies with billions in loans. The R$ 10.4 billion figure is what was approved, not what was paid out. OGX filed Latin America's largest judicial recovery in 2013, and no independent estimate of BNDES's loss was found.",
+    "sources": [
+      {
+        "title": "Exame: 25 revelations on Eike's crisis",
+        "url": "https://exame.com/negocios/noticias/25-revelacoes-sobre-a-crise-de-eike-batista"
+      },
+      {
+        "title": "Congresso em Foco: Eike on BNDES funds",
+        "url": "https://www.congressoemfoco.com.br/noticia/52451/eike-diz-que-recursos-do-bndes-foram-apenas-parte-dos-seus-investimentos"
+      },
+      {
+        "title": "Congresso em Foco: Eike says BNDES had no loss",
+        "url": "https://www.congressoemfoco.com.br/noticia/52450/bndes-nao-teve-prejuizo-com-investimentos-no-grupo-ebx-afirma-eike"
+      },
+      {
+        "title": "InfoMoney on EBX loans",
+        "url": "https://www.infomoney.com.br/?p=557125"
+      },
+      {
+        "title": "InfoMoney on R$ 10.4 bn",
+        "url": "https://www.infomoney.com.br/?p=596578"
+      },
+      {
+        "title": "JB on EBX debts to BNDES",
+        "url": "https://www.jb.com.br/economia/noticias/2013/07/24/amp/calote-a-vista-bndes-tem-a-receber-r-117-bi-de-ebx.html"
+      },
+      {
+        "title": "JB on the OGX filing",
+        "url": "https://www.jb.com.br/economia/noticias/2013/10/30/amp/ogx-entra-com-pedido-de-recuperacao-judicial.html"
+      },
+      {
+        "title": "Grupo GEN on OGX recovery",
+        "url": "https://blog.grupogen.com.br/juridico/postagens/noticias/professor-cassio-cavalli-autor-da-editora-forense-fala-sobre-recuperacao-judicial-da-ogx/"
+      },
+      {
+        "title": "Exame on OSX recovery",
+        "url": "https://exame.com/negocios/justica-acata-pedido-de-recuperacao-judicial-da-osx-2"
+      },
+      {
+        "title": "Money Times on OGX recovery closing",
+        "url": "https://www.moneytimes.com.br/ogx-de-eike-encerra-recuperacao-judicial/"
+      }
+    ]
+  },
+  {
+    "id": "e5-09",
+    "year": "2008–2018 (collapse 2016)",
+    "start_year": 2008,
+    "title": "Oi / Brasil Telecom merger ('supertele') and public-bank exposure",
+    "era": "2003–2016 Lula and Dilma",
+    "government": "Lula 2 (merger), Dilma and Temer (collapse and recovery)",
+    "what": "Decree 6.654 of 20 Nov 2008 changed the telecom concession plan, which allowed Oi (Telemar) to buy Brasil Telecom. BNDES lent R$ 2.569 billion to restructure Telemar's control. In 2004–2018 BNDES lent Oi R$ 14.129 billion in total.",
+    "who_got": "Telemar/Oi controllers (Andrade Gutierrez, La Fonte/Jereissati, funds), then Portugal Telecom in 2010–2014.",
+    "terms": "BNDES owned 16.89% of the Telemar holding (about 2013). Banco do Brasil reportedly financed R$ 4.3 billion of the Brasil Telecom purchase and private banks R$ 5.6 billion in notes (unverified).",
+    "mechanism": "Decree 6.654/2008 (new Plano Geral de Outorgas) plus BNDES credit. Sector sources say the plan change enabled the merger, but the exact article that removed the cross-ownership barrier was not confirmed.",
+    "who_paid": "BNDES, Banco do Brasil and Caixa as creditors, and so their shareholder, the Union. Effects on consumers are not sourced.",
+    "after": "Oi filed for judicial recovery on 20 Jun 2016 with R$ 65.38 billion of debt, then the largest in Brazil. The recovery closed on 14 Dec 2022, with about R$ 35 billion still owed. BNDES held over 30% of Oi in 2010 and 5.73% at end-2017, and as the only creditor in its class voted for the plan on 20 Dec 2017.",
+    "counter_view": "A law firm (BKBG) argued that the plan did not need to change for the merger (Baguete, https://www.baguete.com.br/public/noticias/fusao-oibrt-pgo-nao-precisaria-ser-alterado); not opened by the fact-check. The government line was that a national champion would bring scale and investment (not sourced).",
+    "signs": [
+      "law-rewritten-for-deal",
+      "public-money-private-control",
+      "paid-in-paper-or-cheap-credit",
+      "bailout"
+    ],
+    "figures": [
+      {
+        "label": "BNDES loan to restructure Telemar Participações' control",
+        "value": "R$ 2.569 billion",
+        "currency": "BRL",
+        "value_year": "2008",
+        "estimator": "BNDES via Exame",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://exame.com/negocios/bndes-considera-positiva-possivel-alianca-oi-portugal-telecom-582732/",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "BNDES stake in the Telemar holding",
+        "value": "16.89%",
+        "currency": "n/a",
+        "value_year": "2013",
+        "estimator": "Exame",
+        "kind": "other",
+        "source_url": "https://exame.com/negocios/bndes-considera-positiva-possivel-alianca-oi-portugal-telecom-582732/",
+        "status": "verified",
+        "note": "Stake as of that article, around 2013."
+      },
+      {
+        "label": "BNDES lending to Oi in 1998–2007",
+        "value": "Oi R$ 6.5 billion; Brasil Telecom R$ 6.1 billion",
+        "currency": "BRL",
+        "value_year": "2007",
+        "estimator": "Folha Vitória",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://www.folhavitoria.com.br/economia/campea-nacional-oi-sucumbiu-a-crise/",
+        "status": "unverified",
+        "note": "Cited page returned 403."
+      },
+      {
+        "label": "Banco do Brasil and private bank financing of the Brasil Telecom purchase",
+        "value": "BB R$ 4.3 billion; private banks R$ 5.6 billion",
+        "currency": "BRL",
+        "value_year": "2008",
+        "estimator": "Folha Vitória (search summary)",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://www.folhavitoria.com.br/economia/campea-nacional-oi-sucumbiu-a-crise/",
+        "status": "unverified",
+        "note": "Cited page returned 403."
+      },
+      {
+        "label": "BNDES network loan to Oi approved 18 Nov 2009",
+        "value": "R$ 4.4 billion (R$ 3.2 bn Oi, R$ 1.39 bn Brasil Telecom); 9 years, 2 grace, TJLP + 3.95%",
+        "currency": "BRL",
+        "value_year": "2009",
+        "estimator": "BNDES via Teletime",
+        "kind": "subsidy",
+        "source_url": "https://teletime.com.br/18/11/2009/bndes-aprova-emprestimo-de-r-44-bilhoes-para-oi/",
+        "status": "verified",
+        "note": "Purpose was network expansion and school broadband, not the Brasil Telecom purchase."
+      },
+      {
+        "label": "BNDES lending to Oi, 2004–2018",
+        "value": "R$ 14.129 billion (Oi Móvel 9.828 bn + Oi S.A. 4.301 bn); more than TIM or Telefónica",
+        "currency": "BRL",
+        "value_year": "2018",
+        "estimator": "MobileTime",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://www.mobiletime.com.br/noticias/18/01/2019/oi-e-a-operadora-que-mais-recebeu-recursos-do-bndes-desde-2004/",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Other state-bank exposure in 2016",
+        "value": "Banco do Brasil R$ 4.37 bn, BNDES R$ 3.34 bn, Caixa R$ 1.96 bn, Banco do Nordeste R$ 127 m",
+        "currency": "BRL",
+        "value_year": "2016",
+        "estimator": "BNamericas (search snippet)",
+        "kind": "bailout",
+        "source_url": "https://www.bnamericas.com/en/news/oi-heavily-indebted-with-public-banks",
+        "status": "unverified",
+        "note": "Page returned 403. A headline claim of possible R$ 12 bn losses is also unverified."
+      },
+      {
+        "label": "Oi debt at judicial recovery filing (20 Jun 2016)",
+        "value": "R$ 65.38 billion",
+        "currency": "BRL",
+        "value_year": "2016",
+        "estimator": "Metrópoles / Convergência Digital",
+        "kind": "debt-absorbed",
+        "source_url": "https://convergenciadigital.com.br/telecom/seis-anos-depois-acaba-a-recuperao-judicial-da-oi",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "summary": "A 2008 decree changed the telecom plan so Oi could buy Brasil Telecom, and BNDES lent heavily to Oi. Oi collapsed in 2016 with R$ 65 billion of debt, then the largest judicial recovery in Brazil. State banks were among its biggest creditors.",
+    "sources": [
+      {
+        "title": "Exame on BNDES and Oi",
+        "url": "https://exame.com/negocios/bndes-considera-positiva-possivel-alianca-oi-portugal-telecom-582732/"
+      },
+      {
+        "title": "Folha Vitória on Oi",
+        "url": "https://www.folhavitoria.com.br/economia/campea-nacional-oi-sucumbiu-a-crise/"
+      },
+      {
+        "title": "Teletime on the R$ 4.4 bn loan",
+        "url": "https://teletime.com.br/18/11/2009/bndes-aprova-emprestimo-de-r-44-bilhoes-para-oi/"
+      },
+      {
+        "title": "Decree 6.654/2008",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/decreto/D6654.htm"
+      },
+      {
+        "title": "Baguete on BKBG view",
+        "url": "https://www.baguete.com.br/public/noticias/fusao-oibrt-pgo-nao-precisaria-ser-alterado"
+      },
+      {
+        "title": "IT Forum on the 2016 filing",
+        "url": "https://itforum.com.br/?p=115936"
+      },
+      {
+        "title": "Teletime on BNDES suspending payments",
+        "url": "https://teletime.com.br/22/06/2016/oi-confirma-suspensao-de-pagamentos-de-r-8167-milhoes-bndes-e-banco-do-brasil/"
+      },
+      {
+        "title": "TJRJ on the end of recovery",
+        "url": "https://portaltj.tjrj.jus.br/noticias/noticia/-/visualizar-conteudo/5111210/132533679"
+      },
+      {
+        "title": "Convergência Digital on the end of recovery",
+        "url": "https://convergenciadigital.com.br/telecom/seis-anos-depois-acaba-a-recuperao-judicial-da-oi"
+      },
+      {
+        "title": "Metrópoles on the filing",
+        "url": "https://www.metropoles.com/brasil/economia-br/com-divida-de-r-654-bi-oi-entra-com-pedido-de-recuperacao-judicial"
+      },
+      {
+        "title": "MobileTime on BNDES lending to Oi",
+        "url": "https://www.mobiletime.com.br/noticias/18/01/2019/oi-e-a-operadora-que-mais-recebeu-recursos-do-bndes-desde-2004/"
+      },
+      {
+        "title": "BNamericas on Oi and public banks",
+        "url": "https://www.bnamericas.com/en/news/oi-heavily-indebted-with-public-banks"
+      }
+    ]
+  },
+  {
+    "id": "e5-10",
+    "year": "2008–2009 (Suzano merger 2018)",
+    "start_year": 2008,
+    "title": "Votorantim Celulose (VCP) buys Aracruz and becomes Fibria",
+    "era": "2003–2016 Lula and Dilma",
+    "government": "Lula 2",
+    "what": "BNDES agreed to put up to R$ 2.4 billion into the new VCP to enable the Aracruz purchase. VCP agreed to pay R$ 2.7 billion for the Lorentzen family's 28% of voting shares.",
+    "who_got": "The Votorantim group. The notes say Fibria ended with BNDESPar 34.9% and Votorantim 29.3%.",
+    "terms": "The price was kept as before Aracruz's derivative losses were disclosed, to avoid a fine of about R$ 1 billion under the shareholder agreement. Aracruz lost US$ 2.1 billion on dollar-linked derivatives. Preferred shareholders got about 17.8% below the prior price.",
+    "mechanism": "BNDES equity and credit support for a private merger.",
+    "who_paid": "BNDES, as co-investor in the new company.",
+    "after": "Fibria later merged with Suzano. At the March 2018 announcement BNDESPar would receive about R$ 8.5 billion in cash plus shares in the new company, and kept a minority stake.",
+    "counter_view": "BNDES president Coutinho defended the deal as preventing the companies from falling apart (Exame). The 2018 cash exit shows BNDES was a long-term shareholder who sold, which weakens the 'transfer' framing. Critics, including BMO Capital Markets, objected to BNDES's role.",
+    "signs": [
+      "public-money-private-control",
+      "bailout"
+    ],
+    "figures": [
+      {
+        "label": "BNDES commitment to the new VCP",
+        "value": "up to R$ 2.4 billion",
+        "currency": "BRL",
+        "value_year": "2008",
+        "estimator": "Exame",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://exame.com/carreira/mercado-critica-compra-aracruz-pela-vcp-416327",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Price for the Lorentzen family's 28% of voting shares",
+        "value": "R$ 2.7 billion",
+        "currency": "BRL",
+        "value_year": "2008",
+        "estimator": "Exame",
+        "kind": "other",
+        "source_url": "https://exame.com/carreira/mercado-critica-compra-aracruz-pela-vcp-416327",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Aracruz derivative losses",
+        "value": "US$ 2.1 billion",
+        "currency": "USD",
+        "value_year": "2008",
+        "estimator": "Exame",
+        "kind": "other",
+        "source_url": "https://exame.com/carreira/mercado-critica-compra-aracruz-pela-vcp-416327",
+        "status": "corrected",
+        "note": "Notes left the currency unresolved (US$ or R$). Exame says US$."
+      },
+      {
+        "label": "BNDESPar and Votorantim stakes in Fibria",
+        "value": "BNDESPar 34.9%, Votorantim 29.3%",
+        "currency": "n/a",
+        "value_year": "2009",
+        "estimator": "Investe SP",
+        "kind": "other",
+        "source_url": "https://www.en.investe.sp.gov.br/news/post/the-aracruz-vcp-merger",
+        "status": "unverified",
+        "note": "Page could not be opened (DNS error) and the figures were not found elsewhere."
+      },
+      {
+        "label": "BNDES conditioned support on a prior deal with creditor banks",
+        "value": "Stated in notes",
+        "currency": "n/a",
+        "value_year": "2008",
+        "estimator": "Investe SP",
+        "kind": "other",
+        "source_url": "https://www.en.investe.sp.gov.br/news/post/the-aracruz-vcp-merger",
+        "status": "unverified",
+        "note": "Not in an opened page."
+      },
+      {
+        "label": "BNDESPar proceeds at the 2018 Suzano–Fibria merger announcement",
+        "value": "about R$ 8.5 billion in cash plus shares",
+        "currency": "BRL",
+        "value_year": "2018",
+        "estimator": "Money Times",
+        "kind": "other",
+        "source_url": "https://moneytimes.com.br/suzano-e-fibria-anunciam-fusao/",
+        "status": "verified",
+        "note": "Announcement date 15 Mar 2018, not completion."
+      }
+    ],
+    "summary": "BNDES backed Votorantim's purchase of Aracruz with up to R$ 2.4 billion, and the price was set before Aracruz's US$ 2.1 billion derivative loss became public. Years later BNDES sold into the Suzano merger and received about R$ 8.5 billion in cash.",
+    "sources": [
+      {
+        "title": "Exame on the Aracruz purchase",
+        "url": "https://exame.com/carreira/mercado-critica-compra-aracruz-pela-vcp-416327"
+      },
+      {
+        "title": "Investe SP on the merger",
+        "url": "https://www.en.investe.sp.gov.br/news/post/the-aracruz-vcp-merger"
+      },
+      {
+        "title": "Money Times on Suzano–Fibria",
+        "url": "https://moneytimes.com.br/suzano-e-fibria-anunciam-fusao/"
+      },
+      {
+        "title": "Portal Tela on Aracruz derivative loss",
+        "url": "https://www.portaltela.com/noticias/economia/2025/08/07/empresa-brasileira-perde-r-21-bilhoes-em-tentativa-de-protecao-contra-o-dolar/"
+      }
+    ]
+  },
+  {
+    "id": "e5-11",
+    "year": "2008–2017",
+    "start_year": 2008,
+    "title": "Angra 3 nuclear plant contracts",
+    "era": "2003–2016 Lula and Dilma",
+    "government": "Lula 2, Dilma 1 and 2, Temer",
+    "what": "Works resumed in 2008 on the Eletronuclear (Eletrobras) plant, started in 1984. The original estimate was R$ 8.3 billion in 2008. Eletronuclear later estimated over R$ 25 billion including sunk costs.",
+    "who_got": "Electromechanical assembly tender GAC.T/CN-003/13 had only two bidders for two packages. The winning consortium included Camargo Corrêa, UTC, Andrade Gutierrez, Odebrecht, EBE and Queiroz Galvão. Financing came from BNDES loans (amount not found).",
+    "terms": "TCU found indications of overpricing of R$ 314 million (10.5%) in the tender, reduced after Eletronuclear's reply to R$ 96 million (3.2% of R$ 2.98 billion). The tender allowed bids up to 5% above budget.",
+    "mechanism": "Public tender under Lei 8.666/1993 by a state subsidiary. TCU imposed a ban of up to five years on cartel firms in the same ruling.",
+    "who_paid": "Eletrobras and electricity consumers through the tariff.",
+    "after": "Works halted in Oct 2015 and Eletronuclear sought partners. MPF said Eletronuclear's president Othon Luiz Pinheiro da Silva received R$ 4.5 million from consortium firms; he denied it.",
+    "counter_view": "TCU downgraded its finding from 'serious, halt' to 'serious, may continue' after Eletronuclear's reply (TCU ruling).",
+    "signs": [
+      "conflict-of-interest-or-kickbacks",
+      "public-money-private-control"
+    ],
+    "figures": [
+      {
+        "label": "Original cost estimate (2008) and later estimate",
+        "value": "R$ 8.3 billion in 2008; over R$ 25 billion including sunk costs; about R$ 17 bn more to finish, about R$ 12 bn if abandoned",
+        "currency": "BRL",
+        "value_year": "2017",
+        "estimator": "Eletronuclear via TCU",
+        "kind": "other",
+        "source_url": "https://portal.tcu.gov.br/imprensa/noticias/conclusao-de-angra-3-pode-custar-r-25-bilhoes",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Spent by 30 Sep 2015",
+        "value": "R$ 7.17 billion",
+        "currency": "BRL",
+        "value_year": "2015",
+        "estimator": "TCU",
+        "kind": "other",
+        "source_url": "https://portal.tcu.gov.br/data/files/16/B5/85/0D/33CFA51010B6DEA51A2818A8/016.991-2015-0%20-%20angra%203.pdf",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Later BNDES study of cost",
+        "value": "about R$ 23 billion",
+        "currency": "BRL",
+        "value_year": "",
+        "estimator": "BNDES (search snippet)",
+        "kind": "other",
+        "source_url": "https://portal.tcu.gov.br/imprensa/noticias/conclusao-de-angra-3-pode-custar-r-25-bilhoes",
+        "status": "unverified",
+        "note": "Marked UNVERIFIED in the gaps note."
+      },
+      {
+        "label": "Overpricing in the assembly tender",
+        "value": "R$ 314 million (10.5%), reduced to R$ 96 million (3.2%) after reply",
+        "currency": "BRL",
+        "value_year": "2017",
+        "estimator": "TCU",
+        "kind": "price-gap",
+        "source_url": "https://portal.tcu.gov.br/data/files/16/B5/85/0D/33CFA51010B6DEA51A2818A8/016.991-2015-0%20-%20angra%203.pdf",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Alleged payments to Eletronuclear's president",
+        "value": "R$ 4.5 million (allegation)",
+        "currency": "BRL",
+        "value_year": "2016",
+        "estimator": "MPF via Congresso em Foco",
+        "kind": "other",
+        "source_url": "https://www.congressoemfoco.com.br/noticias/presidente-licenciado-da-eletronuclear-recebeu-r-45-mi-em-propina-diz-mpf",
+        "status": "verified",
+        "note": "Allegation, denied. Not re-checked: read from the cited page in the gaps research."
+      }
+    ],
+    "summary": "Angra 3 is a long-delayed state nuclear plant whose assembly tender drew only two bidders from the same group of contractors. TCU found possible overpricing of R$ 96 million to R$ 314 million. Works stopped in 2015, and prosecutors allege kickbacks.",
+    "sources": [
+      {
+        "title": "TCU press on Angra 3 cost",
+        "url": "https://portal.tcu.gov.br/imprensa/noticias/conclusao-de-angra-3-pode-custar-r-25-bilhoes"
+      },
+      {
+        "title": "TCU ruling TC 016.991/2015-0",
+        "url": "https://portal.tcu.gov.br/data/files/16/B5/85/0D/33CFA51010B6DEA51A2818A8/016.991-2015-0%20-%20angra%203.pdf"
+      },
+      {
+        "title": "Congresso em Foco on Eletronuclear's president",
+        "url": "https://www.congressoemfoco.com.br/noticias/presidente-licenciado-da-eletronuclear-recebeu-r-45-mi-em-propina-diz-mpf"
+      }
+    ]
+  },
+  {
+    "id": "e5-12",
+    "year": "2008–2015",
+    "start_year": 2008,
+    "title": "Treasury funding of BNDES and PSI subsidised credit ('bolsa-empresário')",
+    "era": "2003–2016 Lula and Dilma",
+    "government": "Lula 2, Dilma 1 and 2",
+    "what": "The Treasury borrowed at market rates and lent to BNDES at the lower TJLP rate. Treasury injections into BNDES were R$ 441-455 billion in 2008–2014. Estimates of the subsidy cost differ by orders of magnitude.",
+    "who_got": "Mostly large firms (67.9% of disbursements in 2012 went to large firms, per Márcio Garcia), including the firms in the JBS, Oi, EBX and Votorantim cases. Named beneficiaries of PSI were not extracted.",
+    "terms": "Cost depends on method: R$ 11.6-15.9 billion in 2008–2010 (Mansueto Almeida), R$ 44.5 billion versus R$ 180.7 billion over four decades (Coutinho), R$ 205.6 billion in 2008–2022 (IBRE). PSI 2011 cost was R$ 11.8 billion (SPE) or R$ 19.2 billion (Treasury method).",
+    "mechanism": "Treasury bond issues on-lent to BNDES at TJLP, and PSI interest equalisation paid by the Treasury (PSI ended 31 Dec 2015).",
+    "who_paid": "Taxpayers through public debt. R$ 27.2 billion of equalisation was owed to BNDES by mid-2015; the government paid R$ 15.1 billion in Dec 2015. TCU classed the deferred equalisation as a fiscal 'pedalada'.",
+    "after": "PSI ended in 2015. No TCU ruling quantifying total PSI cost was found.",
+    "counter_view": "Luciano Coutinho (BNDES president) argues the cost is R$ 44.5 billion with BNDES's margin included, against R$ 180.7 billion gross, and claims a net fiscal benefit of +R$ 16.6 billion to +R$ 33 billion in two scenarios (https://pt.org.br/luciano-coutinho-o-bndes-e-o-tesouro-nacional/, advocacy site; figures via search summary). IBRE authors say the subsidy may have generated GDP, jobs and tax revenue that offset the cost, but give no estimate.",
+    "signs": [
+      "subsidy-or-tax-break",
+      "paid-in-paper-or-cheap-credit",
+      "public-money-private-control"
+    ],
+    "figures": [
+      {
+        "label": "Subsidy on Treasury transfers to BNDES, 2008–2010",
+        "value": "R$ 11.6 billion to R$ 15.9 billion on R$ 236 billion transferred",
+        "currency": "BRL",
+        "value_year": "2010",
+        "estimator": "Mansueto Almeida (Ipea economist) via Exame",
+        "kind": "subsidy",
+        "source_url": "https://exame.com/brasil/credito-do-tesouro-ao-bndes-custa-r-21-bi-ao-pais/",
+        "status": "unverified",
+        "note": "Exame page not opened. It is an Ipea economist's calculation, not an institutional Ipea study. Adding R$ 5 bn of PSI gives R$ 16.6-20.8 bn."
+      },
+      {
+        "label": "Treasury transfers to BNDES since 2008",
+        "value": "R$ 414 billion (the BNDES part of a total near 10% of GDP to public banks)",
+        "currency": "BRL",
+        "value_year": "2014",
+        "estimator": "Márcio Garcia (PUC-Rio), Valor column",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://www.econ.puc-rio.br/mgarcia/Artigos/Valor%20140523%20MGarcia.pdf",
+        "status": "corrected",
+        "note": "Notes said R$ 414 bn went to public banks. It is the BNDES part."
+      },
+      {
+        "label": "'Bolsa-empresário' cost",
+        "value": "more than 0.6% of GDP",
+        "currency": "n/a",
+        "value_year": "2014",
+        "estimator": "Márcio Garcia",
+        "kind": "subsidy",
+        "source_url": "https://www.econ.puc-rio.br/mgarcia/Artigos/Valor%20140523%20MGarcia.pdf",
+        "status": "verified",
+        "note": "Opinion column."
+      },
+      {
+        "label": "Cost over four decades, Folha vs Coutinho",
+        "value": "Folha: R$ 184 billion; Coutinho: R$ 180.7 billion gross, R$ 44.5 billion including BNDES margin",
+        "currency": "BRL",
+        "value_year": "2015",
+        "estimator": "Folha; Luciano Coutinho",
+        "kind": "subsidy",
+        "source_url": "https://pt.org.br/luciano-coutinho-o-bndes-e-o-tesouro-nacional/",
+        "status": "disputed",
+        "note": "Range R$ 44.5-184 bn. The Folha item dates from 2015, not 2014. Coutinho page returned 403; content via search summary."
+      },
+      {
+        "label": "Explicit PSI subsidies",
+        "value": "R$ 8.0 billion (2014); R$ 9.8 billion (2015)",
+        "currency": "BRL",
+        "value_year": "2015",
+        "estimator": "Tesouro Nacional",
+        "kind": "subsidy",
+        "source_url": "https://www.tesourotransparente.gov.br/ckan/dataset/6d99f766-54ec-4dcf-9376-0b297df3ab17/resource/29e6f62f-d0a8-4879-b8c8-2e3683481ea0/download/Boletim-1o-bimestre-2018--novo-modelo-28-03v16textotabelaIII.pdf",
+        "status": "verified",
+        "note": "BNDES and Finep equalisation; PSI loan base R$ 21.3 bn (2014) and R$ 19.0 bn (2015)."
+      },
+      {
+        "label": "Treasury injections into BNDES, 2008–2014",
+        "value": "R$ 441 billion (10.7% of GDP, FGV IBRE) to R$ 455 billion (Gazeta do Povo)",
+        "currency": "BRL",
+        "value_year": "2014",
+        "estimator": "FGV IBRE; Gazeta do Povo",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://blogdoibre.fgv.br/node/1648",
+        "status": "disputed",
+        "note": "Range R$ 441-455 bn, different definitions. Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "IBRE cost 2008–2022, all Treasury–BNDES loans",
+        "value": "implicit subsidy R$ 145.9 bn + explicit equalisation R$ 59.7 bn = R$ 205.6 bn (3.7% of GDP); present value R$ 329 bn; net of corporate tax return R$ 217 bn",
+        "currency": "BRL",
+        "value_year": "2022",
+        "estimator": "FGV IBRE",
+        "kind": "subsidy",
+        "source_url": "https://blogdoibre.fgv.br/node/1648",
+        "status": "verified",
+        "note": "IBRE also notes a favourable nominal cash flow to the Treasury of R$ 248 bn (withdrawals R$ 689 bn vs deposits R$ 441 bn). Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "PSI cost in 2011",
+        "value": "R$ 11.8 billion (SPE, Apr 2013, new method) vs R$ 19.2 billion (Treasury method); 2012: R$ 12.686 billion (SPE)",
+        "currency": "BRL",
+        "value_year": "2013",
+        "estimator": "SPE (Fazenda) vs Tesouro (STN)",
+        "kind": "subsidy",
+        "source_url": "https://olhardireto.com.br/agro-e-negocios/noticias/subsidios-do-tesouro-a-bndes-e-psi-chegam-a-r-12-7-bi-em-2012",
+        "status": "disputed",
+        "note": "Range R$ 11.8-19.2 bn for 2011. SPE called the Treasury method wrong. Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "PSI equalisation debt owed to BNDES",
+        "value": "R$ 27.2 billion by mid-2015; R$ 15.1 billion paid in Dec 2015",
+        "currency": "BRL",
+        "value_year": "2015",
+        "estimator": "Gazeta do Povo",
+        "kind": "debt-absorbed",
+        "source_url": "https://www.gazetadopovo.com.br/economia/bndes-encerra-o-psi-uma-das-origens-das-pedaladas-7tv9rumumwmt1p5tyesx2lkqi",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      }
+    ],
+    "summary": "From 2008 the Treasury borrowed at market rates and lent to BNDES at cheaper rates, with R$ 441-455 billion going in by 2014. Economists disagree sharply about the cost, from R$ 44.5 billion to over R$ 200 billion depending on method. Defenders say the programme paid for itself.",
+    "sources": [
+      {
+        "title": "Exame on Treasury credit to BNDES",
+        "url": "https://exame.com/brasil/credito-do-tesouro-ao-bndes-custa-r-21-bi-ao-pais/"
+      },
+      {
+        "title": "Márcio Garcia column in Valor",
+        "url": "https://www.econ.puc-rio.br/mgarcia/Artigos/Valor%20140523%20MGarcia.pdf"
+      },
+      {
+        "title": "Luciano Coutinho: BNDES and the Treasury",
+        "url": "https://pt.org.br/luciano-coutinho-o-bndes-e-o-tesouro-nacional/"
+      },
+      {
+        "title": "Tesouro Nacional bulletin on subsidies",
+        "url": "https://www.tesourotransparente.gov.br/ckan/dataset/6d99f766-54ec-4dcf-9376-0b297df3ab17/resource/29e6f62f-d0a8-4879-b8c8-2e3683481ea0/download/Boletim-1o-bimestre-2018--novo-modelo-28-03v16textotabelaIII.pdf"
+      },
+      {
+        "title": "FGV IBRE blog on Treasury–BNDES",
+        "url": "https://blogdoibre.fgv.br/node/1648"
+      },
+      {
+        "title": "Gazeta do Povo on the end of PSI",
+        "url": "https://www.gazetadopovo.com.br/economia/bndes-encerra-o-psi-uma-das-origens-das-pedaladas-7tv9rumumwmt1p5tyesx2lkqi"
+      },
+      {
+        "title": "Olhar Direto on subsidies 2012",
+        "url": "https://olhardireto.com.br/agro-e-negocios/noticias/subsidios-do-tesouro-a-bndes-e-psi-chegam-a-r-12-7-bi-em-2012"
+      }
+    ]
+  },
+  {
+    "id": "e5-13",
+    "year": "2009 onward",
+    "start_year": 2009,
+    "title": "Terra Legal: land regularisation in the Amazon (MP 458/2009, Lei 11.952/2009)",
+    "era": "2003–2016 Lula and Dilma",
+    "government": "Lula 2",
+    "what": "Federal public land in the Amazon was titled to occupants, up to 15 fiscal modules and a maximum of 1,500 ha. TCU data cited by MPF show 28,331 titles covering 2,057,119.95 ha by 31 Dec 2017.",
+    "who_got": "Occupants of federal public land who were there before 1 Dec 2004 (article 5 IV).",
+    "terms": "Free up to one fiscal module. Above that, paid titles priced from the minimum value in the Incra reference table, adjusted for time, region and size. Resale is restricted for 10 years, and over 4 modules can be transferred after 3 years.",
+    "mechanism": "MP 458/2009 converted into Lei 11.952/2009. Later the cut-off date moved to 22 July 2008 (Lei 13.465/2017, from a search summary), and the 2,500 ha ceiling was added by a congressional amendment in that conversion bill, not in MP 759.",
+    "who_paid": "The public land stock. A TCU audit found poor functioning and incentive to land grabbing.",
+    "after": "In Nov 2015 the Chamber asked TCU for an audit. TCU preliminary: 712 beneficiaries (9%) did not meet requirements and 3,075 (38.87%) showed signs of not qualifying. Carta Capital cites TCU that about one third of the area donated in Rondônia (about 21,000 ha, about R$ 1 billion) is occupied irregularly (article of Dec 2021).",
+    "counter_view": "The notes found no government source. The ruralist view (Frente Parlamentar da Agropecuária) is that regularisation brings legal certainty and cuts deforestation (not sourced for this case). Free titles up to one module were the programme's stated social aim. The critics are the CPT, which called MP 458 a 'legalisation of land grabbing' (https://www.congressoemfoco.com.br/noticia/78037/pastoral-da-terra-publica-nota-de-repudio-a-mp-da-amazonia), TCU and MPF.",
+    "signs": [
+      "land-grant",
+      "rights-legalised-after-fact",
+      "below-value-price",
+      "law-rewritten-for-deal"
+    ],
+    "figures": [
+      {
+        "label": "Titles issued to 31 Dec 2017",
+        "value": "28,331 titles, 2,057,119.95 ha",
+        "currency": "ha",
+        "value_year": "2017",
+        "estimator": "TCU via MPF/PFDC nota técnica 8/2020",
+        "kind": "land-area",
+        "source_url": "https://static.congressoemfoco.com.br/2020/04/nota-tecnica-8-2020-regularizacao-fundiaria.pdf",
+        "status": "verified",
+        "note": "The numbers come from the MPF note quoting TCU. Another source says almost 40,000 titles in 2012–2017 (not found)."
+      },
+      {
+        "label": "Titles per other source",
+        "value": "almost 40,000 titles, 2012–2017",
+        "currency": "n/a",
+        "value_year": "2017",
+        "estimator": "Notes",
+        "kind": "other",
+        "source_url": "https://static.congressoemfoco.com.br/2020/04/nota-tecnica-8-2020-regularizacao-fundiaria.pdf",
+        "status": "unverified",
+        "note": "Not found in any opened source; counting methods differ."
+      },
+      {
+        "label": "Maximum title size",
+        "value": "1,500 ha (15 fiscal modules); later raised to 2,500 ha in Lei 13.465/2017 by congressional amendment",
+        "currency": "ha",
+        "value_year": "2009–2017",
+        "estimator": "Lei 11.952 text; Pública",
+        "kind": "land-area",
+        "source_url": "https://legis.senado.leg.br/norma/580175/publicacao/15749544",
+        "status": "corrected",
+        "note": "Notes put the 2,500 ha ceiling in MP 759/2016. It came from an amendment (Dep. Nilson Leitão) in the conversion bill. Pública counts 2,376 properties and 6.3 m ha overlapping."
+      },
+      {
+        "label": "Share of donated area occupied irregularly (Rondônia audit)",
+        "value": "about one third; about 21,000 ha, about R$ 1 billion",
+        "currency": "ha",
+        "value_year": "2021",
+        "estimator": "TCU via Carta Capital",
+        "kind": "land-area",
+        "source_url": "https://www.cartacapital.com.br/?p=246086",
+        "status": "corrected",
+        "note": "Notes said 33% of the area, date unknown. It is the Rondônia audit only; article of Dec 2021."
+      },
+      {
+        "label": "Public land involved, per CPT",
+        "value": "67.4 million ha",
+        "currency": "ha",
+        "value_year": "2009",
+        "estimator": "Comissão Pastoral da Terra",
+        "kind": "land-area",
+        "source_url": "https://www.congressoemfoco.com.br/noticia/78037/pastoral-da-terra-publica-nota-de-repudio-a-mp-da-amazonia",
+        "status": "verified",
+        "note": "Advocacy source."
+      },
+      {
+        "label": "TCU preliminary audit of beneficiaries (2015)",
+        "value": "712 beneficiaries (9%) not meeting requirements; 3,075 (38.87%) with signs of not qualifying",
+        "currency": "n/a",
+        "value_year": "2015",
+        "estimator": "TCU via Agência Câmara",
+        "kind": "other",
+        "source_url": "https://www.camara.leg.br/noticias/474929-a-pedido-de-comissao,-tcu-fara-auditoria-no-programa-terra-legal",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "summary": "Terra Legal gave titles to people who occupied federal land in the Amazon, with small plots free and larger ones sold at the minimum table price. About 2 million hectares were titled by 2017. Audits found many beneficiaries who did not qualify, and critics called it the legalisation of land grabbing.",
+    "sources": [
+      {
+        "title": "Lei 11.952/2009 text",
+        "url": "https://legis.senado.leg.br/norma/580175/publicacao/15749544"
+      },
+      {
+        "title": "CPT note against MP 458",
+        "url": "https://www.congressoemfoco.com.br/noticia/78037/pastoral-da-terra-publica-nota-de-repudio-a-mp-da-amazonia"
+      },
+      {
+        "title": "MPF/PFDC technical note 8/2020",
+        "url": "https://static.congressoemfoco.com.br/2020/04/nota-tecnica-8-2020-regularizacao-fundiaria.pdf"
+      },
+      {
+        "title": "Carta Capital on TCU and Rondônia",
+        "url": "https://www.cartacapital.com.br/?p=246086"
+      },
+      {
+        "title": "Agência Câmara on TCU audit",
+        "url": "https://www.camara.leg.br/noticias/474929-a-pedido-de-comissao,-tcu-fara-auditoria-no-programa-terra-legal"
+      },
+      {
+        "title": "Pública on the 2,500 ha ceiling",
+        "url": "https://apublica.org/2017/07/mais-de-2-mil-imoveis-irregulares-em-terras-publicas-na-amazonia-podem-ser-legalizados-por-mp-da-grilagem/"
+      }
+    ]
+  },
+  {
+    "id": "e5-14",
+    "year": "2009–2021",
+    "start_year": 2009,
+    "title": "Caixa buys a stake in Banco Panamericano",
+    "era": "2003–2016 Lula and Dilma",
+    "government": "Lula 2, Dilma 1",
+    "what": "In Dec 2009 Caixa (via Caixapar) bought 35.54% of Banco Panamericano for R$ 739.272 million. Fraud was found in Sep-Nov 2010. Caixa held 49% of voting capital.",
+    "who_got": "Grupo Silvio Santos received the price.",
+    "terms": "The Central Bank estimated a hole of R$ 2.5 billion. New management put the shortfall at R$ 4.3 billion. Prosecutors alleged balance-sheet fraud of at least R$ 3.8 billion in 2007–2010, and a court convicted seven former directors. The Central Bank's own inspector had flagged R$ 171.5 million of missing provisions on 12 Mar 2010, before the approval.",
+    "mechanism": "Equity purchase approved by the Central Bank on 15 Jul 2010. The remaining 30% of the price (R$ 221.8 million) was paid on 26 Jul 2010.",
+    "who_paid": "The 2010–11 hole fell first on FGC, the banks' deposit-guarantee fund (first R$ 2.5 billion), and on the group. Silvio Santos pledged personal assets as collateral.",
+    "after": "BTG Pactual bought 51% of the voting shares for R$ 450 million in 2011 and Caixa kept its stake. On 6 Apr 2021 CaixaPar agreed to sell its 49.2% of voting shares to BTG's Banco Sistema for about R$ 3.7 billion (R$ 11.42/share). The article reports a net profit of R$ 2.02 billion to Caixa but does not show how it is derived.",
+    "counter_view": "TCU Acórdão 987/2020 found the representation against the Central Bank unfounded and no irregular action established, though the MP de Contas argued the approval was rushed. Caixa ended with a gain, although the TCU representation called the deal 'ruinous' at the time.",
+    "signs": [
+      "bailout",
+      "regulator-absent-or-late",
+      "public-money-private-control"
+    ],
+    "figures": [
+      {
+        "label": "Caixa purchase price for 35.54%",
+        "value": "R$ 739.272 million (70% in Dec 2009; R$ 221.8 m on 26 Jul 2010)",
+        "currency": "BRL",
+        "value_year": "2009",
+        "estimator": "TCU Acórdão 987/2020",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://www.gov.br/mj/pt-br/acesso-a-informacao/transparencia-e-prestacao-de-contas/relatorio-de-fiscalizacao-do-orgao-de-controle-externo-tcu-exercicio-de-2020/representacao/acordao-987-2020-plenario.pdf",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Hole found in Panamericano",
+        "value": "Central Bank: R$ 2.5 billion; new management: R$ 4.3 billion (Dec 2010 net loss R$ 133.6 m)",
+        "currency": "BRL",
+        "value_year": "2011",
+        "estimator": "Central Bank; Panamericano management (JB)",
+        "kind": "other",
+        "source_url": "https://www.jb.com.br/economia/noticias/2011/02/16/amp/rombo-no-banco-panamericano-chega-a-r-43-bilhoes.html",
+        "status": "disputed",
+        "note": "Range R$ 2.5-4.3 bn. Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "FGC cover of the first part of the hole",
+        "value": "R$ 2.5 billion",
+        "currency": "BRL",
+        "value_year": "2010",
+        "estimator": "Gazeta do Povo",
+        "kind": "bailout",
+        "source_url": "https://www.gazetadopovo.com.br/economia/panamericano-tem-rombo-superior-a-r-25-bilhoes-dph4jtn03la620cr4qu0bymvi",
+        "status": "verified",
+        "note": "FGC loan amounts beyond that are unverified."
+      },
+      {
+        "label": "Alleged balance-sheet fraud, 2007–2010",
+        "value": "at least R$ 3.8 billion",
+        "currency": "BRL",
+        "value_year": "2010",
+        "estimator": "Prosecutors (TCU ruling)",
+        "kind": "other",
+        "source_url": "https://www.gov.br/mj/pt-br/acesso-a-informacao/transparencia-e-prestacao-de-contas/relatorio-de-fiscalizacao-do-orgao-de-controle-externo-tcu-exercicio-de-2020/representacao/acordao-987-2020-plenario.pdf",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "BTG purchase of 51% of voting shares (2011)",
+        "value": "R$ 450 million",
+        "currency": "BRL",
+        "value_year": "2011",
+        "estimator": "JB",
+        "kind": "other",
+        "source_url": "https://www.jb.com.br/economia/noticias/2011/02/16/amp/rombo-no-banco-panamericano-chega-a-r-43-bilhoes.html",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Caixa's 2021 sale to BTG's Banco Sistema",
+        "value": "about R$ 3.7 billion; reported net profit R$ 2.02 billion",
+        "currency": "BRL",
+        "value_year": "2021",
+        "estimator": "Folha PE",
+        "kind": "other",
+        "source_url": "https://www.folhape.com.br/economia/caixa-vende-participacao-no-banco-pan-para-o-btg-pactual-por-r-37/179108/",
+        "status": "verified",
+        "note": "The article does not show how R$ 2.02 bn is derived from R$ 3.7 bn minus R$ 0.74 bn. Not re-checked: read from the cited page in the gaps research."
+      }
+    ],
+    "summary": "Caixa, a state bank, bought a third of Banco Panamericano in 2009. A fraud of billions came to light a year later. The banks' guarantee fund covered the first part, Caixa kept its stake, and it sold in 2021 at a reported profit.",
+    "sources": [
+      {
+        "title": "TCU Acórdão 987/2020",
+        "url": "https://www.gov.br/mj/pt-br/acesso-a-informacao/transparencia-e-prestacao-de-contas/relatorio-de-fiscalizacao-do-orgao-de-controle-externo-tcu-exercicio-de-2020/representacao/acordao-987-2020-plenario.pdf"
+      },
+      {
+        "title": "Gazeta do Povo on the hole",
+        "url": "https://www.gazetadopovo.com.br/economia/panamericano-tem-rombo-superior-a-r-25-bilhoes-dph4jtn03la620cr4qu0bymvi"
+      },
+      {
+        "title": "JB on the R$ 4.3 bn hole",
+        "url": "https://www.jb.com.br/economia/noticias/2011/02/16/amp/rombo-no-banco-panamericano-chega-a-r-43-bilhoes.html"
+      },
+      {
+        "title": "JB on the 2014 MP de Contas request",
+        "url": "https://www.jb.com.br/economia/noticias/2014/08/02/amp/compra-do-panamericano-pela-caixa-economica-sera-investigada-pelo-mp.html"
+      },
+      {
+        "title": "Folha PE on the 2021 sale",
+        "url": "https://www.folhape.com.br/economia/caixa-vende-participacao-no-banco-pan-para-o-btg-pactual-por-r-37/179108/"
+      }
+    ]
+  },
+  {
+    "id": "e5-15",
+    "year": "2010–2016+",
+    "start_year": 2010,
+    "title": "Belo Monte dam (Xingu, Pará)",
+    "era": "2003–2016 Lula and Dilma",
+    "government": "Lula 2, Dilma 1",
+    "what": "The concession went to Norte Energia, led by Chesf/Eletrobras, at the April 2010 auction. BNDES approved R$ 22.5 billion in Nov 2012 over 30 years, the biggest loan in its history.",
+    "who_got": "Norte Energia. The shares quoted in the notes (Eletronorte 19.98%, Eletrobras 15%, Chesf 15%, Petros 10%, Funcef 10%) are from June 2017, not 2010. Others held Belo Monte Participações (Neoenergia) 10%, Amazônia Energia (Cemig/Light) 9.77%, Aliança Norte (Vale/Cemig) 9%. Norte Energia was majority state-owned.",
+    "terms": "Winning bid R$ 77.97/MWh versus a ceiling of R$ 83 (6.02% discount); the subtitle of the source says 78.03. Cost estimates rose from R$ 19 billion at the auction to about R$ 26-30 billion. Economist Rogério Werneck argued a cost-reflective tariff was at least R$ 100/MWh (not verified).",
+    "mechanism": "A legislative decree (DL 788/2005) authorised works without prior Indigenous consultation, followed by an ANEEL auction and BNDES credit. The MPF suit filed in 2006 lost 2-1 at TRF-1 on 9 Nov 2011; judge Selene Almeida voted to annul the decree until Indigenous people were heard. ILO Convention 169 was ratified in 2003. The final merits outcome was not confirmed.",
+    "who_paid": "Indigenous and riverine people (the Xingu basin has 24 ethnic groups in 30 Indigenous Lands), the Treasury through BNDES and state shareholders, and the environment.",
+    "after": "Plea deals: Camargo Corrêa executives said 1% of the contract went to PT and PMDB politicians. Andrade Gutierrez's deal cites about R$ 150 million in bribes. A claim of R$ 15 million to Delfim Netto is denied. TCU opened an audit in June 2015 (result not found). The MPF said BNDES showed no evidence of viability and risk analysis (reported via WRM, not opened). Contractors asked for another R$ 1 billion (unverified).",
+    "counter_view": "The government and developers say there is no direct impact on Indigenous lands, but MPF disagrees (Outras Palavras guide). The plea-deal bribe claims are allegations from testimony. MDB denied them, Delfim Netto's lawyers say he did consulting work and paid taxes, and he told police he got R$ 240,000 from Odebrecht. The opposing bidder, Belo Monte Energia (Andrade Gutierrez, Furnas, Eletrosul), lost.",
+    "signs": [
+      "exclusive-privilege",
+      "public-money-private-control",
+      "law-rewritten-for-deal",
+      "conflict-of-interest-or-kickbacks",
+      "regulator-absent-or-late"
+    ],
+    "figures": [
+      {
+        "label": "Auction bid versus ceiling",
+        "value": "R$ 77.97/MWh vs R$ 83 ceiling (6.02% discount)",
+        "currency": "BRL",
+        "value_year": "2010",
+        "estimator": "Gazeta do Povo",
+        "kind": "other",
+        "source_url": "https://www.gazetadopovo.com.br/economia/chesf-e-queiroz-galvao-vencem-leilao-de-belo-monte-0knsdijxm7roqbti5z1nxaqtq",
+        "status": "verified",
+        "note": "Subtitle says 78.03; body says 77.97."
+      },
+      {
+        "label": "BNDES loan approved Nov 2012",
+        "value": "R$ 22.5 billion over 30 years (78% of R$ 28.9 bn investment; includes bridge loans of R$ 1.1 bn + R$ 1.8 bn)",
+        "currency": "BRL",
+        "value_year": "2012",
+        "estimator": "BNDES via Valor/IHU",
+        "kind": "public-finance-to-buyer",
+        "source_url": "https://ihu.unisinos.br/noticias/515876-belo-monte-tera-r-225-bi-do-bndes",
+        "status": "verified",
+        "note": "The notes' R$ 24.5 bn request could not be confirmed."
+      },
+      {
+        "label": "Project cost estimates",
+        "value": "R$ 19 billion at the auction; about R$ 26-30 billion later (R$ 28.9 bn BNDES figure)",
+        "currency": "BRL",
+        "value_year": "2011–2012",
+        "estimator": "Norte Energia; TCU-approved budget; BNDES",
+        "kind": "other",
+        "source_url": "https://outraspalavras.net/outrasmidias/guia-belo-monte/",
+        "status": "corrected",
+        "note": "Notes said R$ 25 bn by 2012 and about R$ 31 bn. Those two figures were not found in the cited guide."
+      },
+      {
+        "label": "Cost-reflective tariff argued by Werneck",
+        "value": "at least R$ 100/MWh",
+        "currency": "BRL",
+        "value_year": "2010",
+        "estimator": "Rogério Werneck (Estadão)",
+        "kind": "price-gap",
+        "source_url": "https://www.gazetadopovo.com.br/economia/chesf-e-queiroz-galvao-vencem-leilao-de-belo-monte-0knsdijxm7roqbti5z1nxaqtq",
+        "status": "unverified",
+        "note": "Not opened."
+      },
+      {
+        "label": "Andrade Gutierrez bribes (plea deal)",
+        "value": "about R$ 150 million, about 1% of contracts (allegation)",
+        "currency": "BRL",
+        "value_year": "2016",
+        "estimator": "Andrade Gutierrez plea deal",
+        "kind": "other",
+        "source_url": "https://www.tribunapr.com.br/noticias/politica/delacao-de-andrade-gutierrez-confirma-r-150-milhoes-de-propina-em-belo-monte/",
+        "status": "verified",
+        "note": "Allegation from plea testimony, not a proven finding."
+      },
+      {
+        "label": "Alleged payment to Delfim Netto",
+        "value": "R$ 15 million (allegation; MPF traced more than R$ 4 m from five firms)",
+        "currency": "BRL",
+        "value_year": "2016",
+        "estimator": "Flávio Barra (Andrade Gutierrez)",
+        "kind": "other",
+        "source_url": "https://congressoemfoco.com.br/noticia/28293/lava-jato-acusa-delfim-netto-de-receber-r-15-milhoes-em-propina-de-consorcio-para-construcao-de-belo-monte",
+        "status": "verified",
+        "note": "Allegation, denied."
+      },
+      {
+        "label": "Contractors' request for extra money",
+        "value": "R$ 1 billion",
+        "currency": "BRL",
+        "value_year": "",
+        "estimator": "Construction consortium",
+        "kind": "other",
+        "source_url": "https://www.ihu.unisinos.br/noticias/520145-construtora-pede-mais-r-1-bi-por-belo-monte",
+        "status": "unverified",
+        "note": "Not opened."
+      }
+    ],
+    "summary": "Belo Monte was won in 2010 by a consortium led by state-owned firms and funded mostly by a R$ 22.5 billion BNDES loan. Costs rose from R$ 19 billion to about R$ 30 billion. Indigenous groups were not consulted first, and plea deals allege bribes of about 1% of contracts.",
+    "sources": [
+      {
+        "title": "Gazeta do Povo on the auction",
+        "url": "https://www.gazetadopovo.com.br/economia/chesf-e-queiroz-galvao-vencem-leilao-de-belo-monte-0knsdijxm7roqbti5z1nxaqtq"
+      },
+      {
+        "title": "Pública on Norte Energia shareholders",
+        "url": "https://apublica.org/?p=34459"
+      },
+      {
+        "title": "IHU on the BNDES loan",
+        "url": "https://ihu.unisinos.br/noticias/515876-belo-monte-tera-r-225-bi-do-bndes"
+      },
+      {
+        "title": "Outras Palavras Belo Monte guide",
+        "url": "https://outraspalavras.net/outrasmidias/guia-belo-monte/"
+      },
+      {
+        "title": "IHU: MPF to appeal to STF (TRF-1 2011 ruling)",
+        "url": "https://www.ihu.unisinos.br/noticias/502738-ministerio-publico-vai-recorrer-ao-stf-para-que-indios-sejam-consultados-sobre-usina-de-belo-monte"
+      },
+      {
+        "title": "IHU: MPF asks about financing terms",
+        "url": "https://www.ihu.unisinos.br/noticias/509990-depois-das-negativas-de-fiscalizacao-mpf-pa-quer-saber-condicoes-do-financiamento-de-belo-monte"
+      },
+      {
+        "title": "Socioambiental page (describes a 2007 ruling)",
+        "url": "https://site-antigo.socioambiental.org/en/print/2079"
+      },
+      {
+        "title": "APET on cost",
+        "url": "https://apet.org.br/?p=87150"
+      },
+      {
+        "title": "Tribuna PR on Andrade Gutierrez plea",
+        "url": "https://www.tribunapr.com.br/noticias/politica/delacao-de-andrade-gutierrez-confirma-r-150-milhoes-de-propina-em-belo-monte/"
+      },
+      {
+        "title": "Congresso em Foco on Delfim Netto",
+        "url": "https://congressoemfoco.com.br/noticia/28293/lava-jato-acusa-delfim-netto-de-receber-r-15-milhoes-em-propina-de-consorcio-para-construcao-de-belo-monte"
+      },
+      {
+        "title": "IHU on contractor request",
+        "url": "https://www.ihu.unisinos.br/noticias/520145-construtora-pede-mais-r-1-bi-por-belo-monte"
+      }
+    ]
+  },
+  {
+    "id": "e5-16",
+    "year": "2010",
+    "start_year": 2010,
+    "title": "Cessão onerosa and the 2010 Petrobras capitalisation",
+    "era": "2003–2016 Lula and Dilma",
+    "government": "Lula 2",
+    "what": "Lei 12.276/2010 gave Petrobras the right to produce up to 5 billion barrels of oil equivalent in six Santos Basin pre-salt areas without a bid. The price was about R$ 75 billion (US$ 42.5 billion), around US$ 8.5 a barrel.",
+    "who_got": "Petrobras, which is state-controlled with private minority shareholders. The state raised its stake in exchange for the capital. This is a state-to-state-company transfer, not a plain private handover.",
+    "terms": "Petrobras later argued it overpaid because oil prices fell and the fields held more oil than assumed. It saw itself as a creditor and sought compensation.",
+    "mechanism": "Lei 12.276/2010, with payment in Treasury securities within the Petrobras capitalisation.",
+    "who_paid": "The Union and Petrobras minority shareholders, through the capitalisation.",
+    "after": "Surplus volumes were offered in a 6 Nov 2019 round: signing bonus R$ 69.96 billion against about R$ 106.5 billion expected. Only Búzios (Petrobras 90%, CNODC and CNOOC 5% each) and Itapu sold. Atapu and Sépia had no bids.",
+    "counter_view": "Petrobras's compensation claim is the main counter to the 'giveaway' framing: Petrobras says it paid too much. Critics such as Monitor Mercantil call it a giveaway (https://monitormercantil.com.br/denunciando-a-entrega-da-cess-o-onerosa/, not opened).",
+    "signs": [
+      "exclusive-privilege",
+      "paid-in-paper-or-cheap-credit",
+      "law-rewritten-for-deal"
+    ],
+    "figures": [
+      {
+        "label": "Price paid by Petrobras",
+        "value": "about R$ 75 billion (US$ 42-42.5 billion), average US$ 8.51-8.56 a barrel",
+        "currency": "BRL",
+        "value_year": "2010",
+        "estimator": "Eixos; Brazil Journal; ANP",
+        "kind": "price-gap",
+        "source_url": "https://eixos.com.br/cessao-onerosa-o-que-esta-em-jogo/",
+        "status": "corrected",
+        "note": "Notes had US$ 42.5 bn = R$ 74.8 bn. Sources give small variations. Use about R$ 75 bn and about US$ 8.5/bbl."
+      },
+      {
+        "label": "Estimated surplus volume above 5 bn barrels",
+        "value": "6 to 15 billion barrels (ANP/GCA, 2017); 6 to 10 billion (Brazil Journal 2019)",
+        "currency": "n/a",
+        "value_year": "2017–2019",
+        "estimator": "ANP/GCA; Adriano Pires",
+        "kind": "other",
+        "source_url": "https://braziljournal.com/show-me-the-money-os-riscos-no-leilao-da-cessao-onerosa",
+        "status": "corrected",
+        "note": "Notes said 9.8-15.2 bn bbl, which is in neither opened page."
+      },
+      {
+        "label": "Petrobras compensation claim",
+        "value": "R$ 12-20 billion floated (2017); US$ 20-25 billion reported under Temer",
+        "currency": "BRL",
+        "value_year": "2017",
+        "estimator": "Eixos; Brazil Journal",
+        "kind": "other",
+        "source_url": "https://eixos.com.br/cessao-onerosa-o-que-esta-em-jogo/",
+        "status": "disputed",
+        "note": "Range R$ 12-20 bn to US$ 20-25 bn, different dates and reports."
+      },
+      {
+        "label": "2019 surplus-volume round signing bonus",
+        "value": "R$ 69.96 billion (expected about R$ 106.5 billion)",
+        "currency": "BRL",
+        "value_year": "2019",
+        "estimator": "ANP round of 6 Nov 2019",
+        "kind": "other",
+        "source_url": "https://moneytimes.com.br/leilao-da-cessao-onerosa-arrecada-r-69960-bilhoes-em-bonus/",
+        "status": "unverified",
+        "note": "Search listing only; page not opened by the fact-check."
+      }
+    ],
+    "summary": "In 2010 the government gave Petrobras the right to produce 5 billion barrels in the pre-salt without a bid, in return for about R$ 75 billion paid in Treasury bonds. Petrobras later said it overpaid and wanted compensation. It is a transfer between the state and its own company, so it is context for the study.",
+    "sources": [
+      {
+        "title": "ANP presentation on the cessão onerosa round",
+        "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/apresentacoes-palestras/2019/arquivos/apresentacao-rodada-cessao-onerosa.pdf"
+      },
+      {
+        "title": "Eixos: what is at stake",
+        "url": "https://eixos.com.br/cessao-onerosa-o-que-esta-em-jogo/"
+      },
+      {
+        "title": "Brazil Journal on the 2019 risks",
+        "url": "https://braziljournal.com/show-me-the-money-os-riscos-no-leilao-da-cessao-onerosa"
+      },
+      {
+        "title": "Monitor Mercantil critique",
+        "url": "https://monitormercantil.com.br/denunciando-a-entrega-da-cess-o-onerosa/"
+      },
+      {
+        "title": "Money Times on the 2019 round",
+        "url": "https://moneytimes.com.br/leilao-da-cessao-onerosa-arrecada-r-69960-bilhoes-em-bonus/"
+      }
+    ]
+  },
+  {
+    "id": "e5-17",
+    "year": "2010–2013 (Lei 13.365 in 2016)",
+    "start_year": 2010,
+    "title": "Pre-salt production-sharing regime (Lei 12.351/2010) and the Libra auction (2013)",
+    "era": "2003–2016 Lula and Dilma",
+    "government": "Lula 2, Dilma 1",
+    "what": "Pre-salt areas moved from concession to production sharing. At the Libra auction on 21 Oct 2013 there was a single bid. A fixed signing bonus of R$ 15 billion was paid on 27 Nov 2013.",
+    "who_got": "Consortium: Petrobras 40% (operator), Shell 20%, Total 20%, CNPC 10%, CNOOC 10%. Petrobras bid 10% on top of its mandatory 30%. Eleven companies qualified; Exxon, BP and Chevron stayed out.",
+    "terms": "Profit oil to the Union was 41.65%, exactly the minimum in the notice. The bonus was a fixed fee, not bid up, and the auction was decided only on profit oil.",
+    "mechanism": "Lei 12.351/2010: production sharing, Petrobras as sole operator with at least 30%, and a Social Fund (art. 47). Lei 12.734/2012 redistributed royalties. Lei 13.365 of 29 Nov 2016 made Petrobras's operatorship a right of preference rather than an obligation.",
+    "who_paid": "The Union forgoes some upside to the consortium; critics also say the bonus helped balance the 2013 accounts (not confirmed).",
+    "after": "Part of the Libra area was returned in 2021 (not checked).",
+    "counter_view": "The government line was that the Union keeps ownership of the oil and Petrobras keeps control. The notes themselves call this a state retaining control, a counter-example rather than a handover.",
+    "signs": [
+      "exclusive-privilege",
+      "law-rewritten-for-deal"
+    ],
+    "figures": [
+      {
+        "label": "Libra signing bonus",
+        "value": "R$ 15 billion, paid 27 Nov 2013",
+        "currency": "BRL",
+        "value_year": "2013",
+        "estimator": "ANP / Exame",
+        "kind": "other",
+        "source_url": "https://exame.com/economia/empresas-deposita-r-15-bi-do-bonus-de-libra/",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Profit oil offered to the Union",
+        "value": "41.65% (the minimum)",
+        "currency": "n/a",
+        "value_year": "2013",
+        "estimator": "Exame",
+        "kind": "other",
+        "source_url": "https://exame.com/economia/noticias/consorcio-ofereceu-minimo-exigido-pelo-edital-de-libra",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Libra minimum exploration programme",
+        "value": "R$ 610.9 million",
+        "currency": "BRL",
+        "value_year": "2013",
+        "estimator": "ANP yearbook 2014",
+        "kind": "other",
+        "source_url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/anuario-estatistico/arquivos-anuario-estatistico-2014/secao-5/texto-secao-5.pdf",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Government used the bonus to balance 2013 accounts",
+        "value": "claim",
+        "currency": "n/a",
+        "value_year": "2013",
+        "estimator": "Critics",
+        "kind": "other",
+        "source_url": "https://exame.com/economia/noticias/consorcio-ofereceu-minimo-exigido-pelo-edital-de-libra",
+        "status": "unverified",
+        "note": "The Exame page does not say how the funds were used; the CMS page returned 403."
+      },
+      {
+        "label": "Number of bidders",
+        "value": "one consortium",
+        "currency": "n/a",
+        "value_year": "2013",
+        "estimator": "Exame",
+        "kind": "other",
+        "source_url": "https://exame.com/economia/noticias/consorcio-ofereceu-minimo-exigido-pelo-edital-de-libra",
+        "status": "verified",
+        "note": "The gaps note marks this UNVERIFIED, but Exame confirms one bid."
+      }
+    ],
+    "summary": "Under the 2010 law the pre-salt moved to production sharing with Petrobras as operator. The Libra auction in 2013 drew a single bid at the minimum profit-oil share and a fixed R$ 15 billion bonus. The state kept control, so this is a counter-example.",
+    "sources": [
+      {
+        "title": "Lei 12.351/2010",
+        "url": "https://planalto.gov.br/ccivil_03/_Ato2007-2010/2010/Lei/L12351.htm"
+      },
+      {
+        "title": "CMS on the Libra result",
+        "url": "https://www.cms-lawnow.com/ealerts/2013/10/brazil-results-of-the-1st-presalt-licensing-round"
+      },
+      {
+        "title": "Exame: consortium offered the minimum",
+        "url": "https://exame.com/economia/noticias/consorcio-ofereceu-minimo-exigido-pelo-edital-de-libra"
+      },
+      {
+        "title": "Exame: R$ 15 bn bonus deposited",
+        "url": "https://exame.com/economia/empresas-deposita-r-15-bi-do-bonus-de-libra/"
+      },
+      {
+        "title": "ANP yearbook 2014, section 5",
+        "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/anuario-estatistico/arquivos-anuario-estatistico-2014/secao-5/texto-secao-5.pdf"
+      },
+      {
+        "title": "Lei 13.365/2016",
+        "url": "https://www.planalto.gov.br/ccivil%5F03/_Ato2015-2018/2016/Lei/L13365.htm"
+      },
+      {
+        "title": "Senate bill reference",
+        "url": "https://static.poder360.com.br/2025/06/DOC-Avulso-inicial-da-materia-20190528.pdf"
+      }
+    ]
+  },
+  {
+    "id": "e5-18",
+    "year": "2010–2020",
+    "start_year": 2010,
+    "title": "Sete Brasil (drilling-rig company for the pre-salt)",
+    "era": "2003–2016 Lula and Dilma",
+    "government": "Lula 2, Dilma 1 and 2",
+    "what": "Petrobras, state pension funds and banks capitalised a company to order 28 drilling rigs from new Brazilian yards under local-content rules. Petrobras later cut the order, with 14 given as the later outcome. Shareholder contributions were R$ 8.3 billion.",
+    "who_got": "The Sete Brasil shareholders and the Brazilian shipyards. Shareholders included Petrobras (over 5%), Petros, BTG, Funcef and Previ.",
+    "terms": "Local-content rules required rigs from new Brazilian yards. Funds kept investing after the schedule slipped, and the money was fully applied by 2016.",
+    "mechanism": "Private-law company funded by state pension funds, FI-FGTS and banks. Financing from BNDES was expected but the notes' claim that it was never released could not be confirmed.",
+    "who_paid": "Pension-fund participants (Petros, Funcef, Previ, Valia), FI-FGTS (workers' FGTS money), the Union as the largest creditor (about two-thirds, about R$ 12 billion through state banks and funds), private banks and funds, and the shipbuilding guarantee fund FGCN.",
+    "after": "Judicial recovery was filed on 29 Apr 2016. A Greenfield complaint (29 Dec 2019) put the loss borne by pension-fund participants at R$ 5.5 billion and sought R$ 16 billion in reparation.",
+    "counter_view": "Sete Brasil later sued Petrobras for R$ 36 billion, arguing Petrobras cancelled the rig orders and local-content policy caused the losses, and shareholders claimed about R$ 8 billion from Petrobras (search summary, BNamericas, not opened). A director blames Lava Jato (Congresso em Foco, not opened).",
+    "signs": [
+      "public-money-private-control",
+      "bailout",
+      "guaranteed-return",
+      "conflict-of-interest-or-kickbacks"
+    ],
+    "figures": [
+      {
+        "label": "Debt at judicial recovery",
+        "value": "R$ 14 billion (before filing); about R$ 18 billion on filing day; R$ 17.4 billion at plan approval",
+        "currency": "BRL",
+        "value_year": "2016",
+        "estimator": "Tribuna PR; Istoé; Eixos",
+        "kind": "debt-absorbed",
+        "source_url": "https://istoe.com.br/governo-e-o-maior-credor-da-sete-brasil",
+        "status": "disputed",
+        "note": "Range R$ 14-18 bn depending on date. 'Over R$ 19 bn' in the notes was not found."
+      },
+      {
+        "label": "Federal government's share of creditors",
+        "value": "about two-thirds, about R$ 12 billion; Banco do Brasil R$ 3.58 billion",
+        "currency": "BRL",
+        "value_year": "2016",
+        "estimator": "Istoé",
+        "kind": "debt-absorbed",
+        "source_url": "https://istoe.com.br/governo-e-o-maior-credor-da-sete-brasil",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Funcef, Previ and BTG recognised losses (Mar 2015)",
+        "value": "R$ 2.6 billion",
+        "currency": "BRL",
+        "value_year": "2015",
+        "estimator": "Tribuna PR",
+        "kind": "other",
+        "source_url": "https://www.tribunapr.com.br/noticias/economia/sete-brasil-vai-pedir-recuperacao-judicial/",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Shareholder contributions and expected loss (May 2015)",
+        "value": "contributions R$ 8.3 billion; expected loss about R$ 2.5 billion (30% write-down of FIP Sondas quotas)",
+        "currency": "BRL",
+        "value_year": "2015",
+        "estimator": "Istoé Dinheiro, press estimates",
+        "kind": "other",
+        "source_url": "https://istoedinheiro.com.br/fundacoes-e-bancos-tem-perdas-de-r25bi-com-sete",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research. By investor: Funcef about R$ 500 m; FI-FGTS about R$ 640 m invested; BTG provisioned 25%; Petros 29% cut in value."
+      },
+      {
+        "label": "Loss borne by pension-fund participants (Greenfield complaint)",
+        "value": "R$ 5.5 billion; reparation sought R$ 16 billion",
+        "currency": "BRL",
+        "value_year": "2019",
+        "estimator": "Greenfield complaint (MPF) via Gazeta do Povo",
+        "kind": "other",
+        "source_url": "https://www.gazetadopovo.com.br/republica/operacao-do-mpf-denuncia-29-executivos-e-pede-reparacao-de-r-16-bilhoes/",
+        "status": "disputed",
+        "note": "The 2015 (R$ 2.5 bn) and 2019 (R$ 5.5 bn) figures are different dates and bases. Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Loss of the shipbuilding guarantee fund (FGCN)",
+        "value": "US$ 798 million, after assuming US$ 1.25 billion of debts of 29 Sete subsidiaries",
+        "currency": "USD",
+        "value_year": "2020",
+        "estimator": "CGU via Eixos",
+        "kind": "bailout",
+        "source_url": "https://eixos.com.br/energia/caixa-deve-apurar-responsabilidade-por-prejuizo-de-r-798-milhoes-causado-pela-sete-brasil-e-estaleiros-a-fundo-de-garantia/",
+        "status": "corrected",
+        "note": "Notes said 'FGTS lost R$ 798 m'. It is the Fundo de Garantia para a Construção Naval and the amount is in US dollars. Caixa holds 97.88% of the fund."
+      },
+      {
+        "label": "Petrobras loss booked in 2016",
+        "value": "R$ 5.6 billion",
+        "currency": "BRL",
+        "value_year": "2016",
+        "estimator": "Notes",
+        "kind": "other",
+        "source_url": "https://istoe.com.br/governo-e-o-maior-credor-da-sete-brasil",
+        "status": "unverified",
+        "note": "No source found."
+      }
+    ],
+    "summary": "Sete Brasil was a state-backed company created to build 28 drilling rigs in Brazilian yards for Petrobras. It went into judicial recovery in April 2016 with R$ 14-18 billion of debt, and state banks, pension funds and a shipbuilding guarantee fund took the losses. The company blames the Petrobras order cut and Lava Jato.",
+    "sources": [
+      {
+        "title": "Isto É: government is the biggest creditor",
+        "url": "https://istoe.com.br/governo-e-o-maior-credor-da-sete-brasil"
+      },
+      {
+        "title": "Eixos: the saga of the Sete Brasil recovery",
+        "url": "https://eixos.com.br/a-saga-da-recuperacao-judicial-da-sete-brasil/"
+      },
+      {
+        "title": "Tribuna PR on the planned recovery filing",
+        "url": "https://www.tribunapr.com.br/noticias/economia/sete-brasil-vai-pedir-recuperacao-judicial/"
+      },
+      {
+        "title": "Tribuna PR: Petrobras may halve the rig order",
+        "url": "https://www.tribunapr.com.br/noticias/economia/petrobras-pode-cortar-pela-metade-encomenda-de-28-sondas-a-sete-brasil/"
+      },
+      {
+        "title": "Eixos on the FGCN loss",
+        "url": "https://eixos.com.br/energia/caixa-deve-apurar-responsabilidade-por-prejuizo-de-r-798-milhoes-causado-pela-sete-brasil-e-estaleiros-a-fundo-de-garantia/"
+      },
+      {
+        "title": "Istoé Dinheiro on investor losses",
+        "url": "https://istoedinheiro.com.br/fundacoes-e-bancos-tem-perdas-de-r25bi-com-sete"
+      },
+      {
+        "title": "Gazeta do Povo on the Greenfield complaint",
+        "url": "https://www.gazetadopovo.com.br/republica/operacao-do-mpf-denuncia-29-executivos-e-pede-reparacao-de-r-16-bilhoes/"
+      }
+    ]
+  },
+  {
+    "id": "e5-19",
+    "year": "2011–2016",
+    "start_year": 2011,
+    "title": "Payroll tax relief (desoneração da folha)",
+    "era": "2003–2016 Lula and Dilma",
+    "government": "Dilma 1",
+    "what": "Employers in chosen sectors paid a tax on revenue instead of on payroll. A 2011 pilot was widened in 2012–2015. The cost peaked at R$ 25.2 billion in 2015 and the cumulative cost for 2012–2016 was R$ 77.9 billion.",
+    "who_got": "Employers in the covered sectors. Part of Plano Brasil Maior (2011).",
+    "terms": "Government studies found small job effects, 30,000 to 132,634 jobs. FGV IBRE says the Treasury cost per job kept was R$ 4,800-5,600 a month against an average admission wage of R$ 1,700.",
+    "mechanism": "Tax-law change replacing the payroll contribution with a levy on revenue.",
+    "who_paid": "Social security, compensated by the Treasury.",
+    "after": "The relief was partly reversed in 2015–2016: cost fell to about R$ 14.5 billion in 2016.",
+    "counter_view": "Sector groups said the relief protected jobs and formalisation, and the government presented it as part of Plano Brasil Maior (sources not opened beyond the UFRGS article's note of intent).",
+    "signs": [
+      "subsidy-or-tax-break"
+    ],
+    "figures": [
+      {
+        "label": "Cost in 2012",
+        "value": "R$ 3.62 billion (0.08% of GDP)",
+        "currency": "BRL",
+        "value_year": "2012",
+        "estimator": "AZ Quest chart (search only)",
+        "kind": "subsidy",
+        "source_url": "https://blogdoibre.fgv.br/node/1859",
+        "status": "unverified",
+        "note": "About R$ 3.6 bn is in a search result; other sources give R$ 3-3.8 bn. The 0.08% of GDP was not found."
+      },
+      {
+        "label": "Cost in 2015",
+        "value": "R$ 25.2 billion (0.42% of GDP)",
+        "currency": "BRL",
+        "value_year": "2015",
+        "estimator": "FGV IBRE",
+        "kind": "subsidy",
+        "source_url": "https://blogdoibre.fgv.br/node/1859",
+        "status": "verified",
+        "note": "An earlier Receita estimate for 2015 in the UFRGS article was R$ 22.4 bn."
+      },
+      {
+        "label": "Cost in 2016",
+        "value": "about R$ 14.5 billion",
+        "currency": "BRL",
+        "value_year": "2016",
+        "estimator": "FGV IBRE",
+        "kind": "subsidy",
+        "source_url": "https://blogdoibre.fgv.br/node/1859",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Cumulative cost 2012–2016",
+        "value": "R$ 77.9 billion",
+        "currency": "BRL",
+        "value_year": "2016",
+        "estimator": "Receita Federal via Baguete",
+        "kind": "subsidy",
+        "source_url": "https://www.baguete.com.br/noticias/desoneracao-da-folha-acabou-para-ti",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Cumulative cost 2012–2017",
+        "value": "R$ 91.1 billion (Fazenda)",
+        "currency": "BRL",
+        "value_year": "2017",
+        "estimator": "Fazenda via Setcesp",
+        "kind": "subsidy",
+        "source_url": "https://setcesp.org.br/noticias/governo-eleva-imposto-sobre-folha-de-pagamento-em-5-anos-desoneracoes-somaram-r-78-bilhoes/",
+        "status": "unverified",
+        "note": "Not on the FGV page; the Setcesp page returned 404."
+      },
+      {
+        "label": "Jobs effect",
+        "value": "30,000 to 132,634 jobs",
+        "currency": "n/a",
+        "value_year": "2015",
+        "estimator": "FGV 2013/2014; Scherer 2015 via Análise Econômica (UFRGS)",
+        "kind": "other",
+        "source_url": "https://seer.ufrgs.br/AnaliseEconomica/article/download/71093/52463",
+        "status": "verified",
+        "note": "Currency not applicable (job count)."
+      }
+    ],
+    "summary": "From 2011 many employers paid tax on revenue instead of payroll. The relief cost R$ 77.9 billion over 2012–2016 and peaked at R$ 25.2 billion in 2015. Government studies found small job gains for that cost.",
+    "sources": [
+      {
+        "title": "Baguete on the end of the relief",
+        "url": "https://www.baguete.com.br/noticias/desoneracao-da-folha-acabou-para-ti"
+      },
+      {
+        "title": "Setcesp on cumulative cost",
+        "url": "https://setcesp.org.br/noticias/governo-eleva-imposto-sobre-folha-de-pagamento-em-5-anos-desoneracoes-somaram-r-78-bilhoes/"
+      },
+      {
+        "title": "FGV IBRE blog",
+        "url": "https://blogdoibre.fgv.br/node/1859"
+      },
+      {
+        "title": "Análise Econômica (UFRGS) article",
+        "url": "https://seer.ufrgs.br/AnaliseEconomica/article/download/71093/52463"
+      }
+    ]
+  },
+  {
+    "id": "e5-20",
+    "year": "2012–2026",
+    "start_year": 2012,
+    "title": "Airport concessions: Guarulhos, Viracopos, Brasília (2012), Galeão and Confins (2013)",
+    "era": "2003–2016 Lula and Dilma",
+    "government": "Dilma 1",
+    "what": "Concessions of 20 to 30 years. The 6 Feb 2012 auction offered R$ 24.535 billion in total. The 22 Nov 2013 auction of Galeão and Confins offered R$ 20.839 billion in total.",
+    "who_got": "Guarulhos: Invepar/ACSA. Brasília: Inframerica. Viracopos: Aeroportos Brasil (Triunfo, UTC, Egis). Galeão: Odebrecht Transport with Changi. Confins: CCR 75%, Flughafen Zurich 24%, Munich 1%. Infraero kept 49% of each concessionaire (ITL; Galeão confirmed). Financing for Galeão and Confins was not established.",
+    "terms": "Premiums over the minimum were large: Guarulhos 373% (R$ 16.213 billion on a minimum of R$ 3.424 billion), Brasília 673% (R$ 4.5 billion on R$ 582 million), Viracopos 159% (R$ 3.821 billion), Galeão 293.9% (R$ 19.018 billion), Confins 66% (R$ 1.82 billion). The true Galeão and Confins minimums are uncertain: Exame's numbers and the premium maths do not agree.",
+    "mechanism": "Federal concession run by ANAC, with a fixed grant (outorga) plus a variable contribution. The Lei 13.448/2017 relicitation framework was later used for Galeão.",
+    "who_paid": "Users and the public side bore the aftermath: forgone grant payments and Infraero's 49% exposure; BNDES was the main creditor of Viracopos. Odebrecht exited Galeão in 2017.",
+    "after": "Viracopos: shareholders asked to return the concession in 2017 (year unconfirmed), the concessionaire filed for judicial recovery on 7 May 2018 (debt about R$ 2.88 billion, mostly BNDES) and the plan was approved on 14 Feb 2020, leading to Brazil's first airport relicitation. Galeão: Changi (51% after buying out Odebrecht in 2017) asked ANAC on 10 Feb 2022 to return it, claiming a R$ 7.5 billion imbalance; ANAC had denied the rebalancing. A 30 Mar 2026 auction reportedly gave Galeão to Aena for R$ 2.9 billion (not confirmed by the fact-check). Confins was not returned and got a R$ 60.7 million recomposition in Nov 2022.",
+    "counter_view": "The government framed the premiums as proof of competition and low taxpayer cost (bids about five times the minimum, EBC). The concessionaires blame the 2014–16 recession and Covid. ANAC held the demand shortfall was the concessionaire's risk. Critics read the big premiums as over-bidding (the winner's curse).",
+    "signs": [
+      "guaranteed-return",
+      "bailout",
+      "public-money-private-control",
+      "regulator-absent-or-late"
+    ],
+    "figures": [
+      {
+        "label": "Total offered, 2012 auction",
+        "value": "R$ 24.535 billion (R$ 24,535,132,500)",
+        "currency": "BRL",
+        "value_year": "2012",
+        "estimator": "Baguete",
+        "kind": "other",
+        "source_url": "https://www.baguete.com.br/noticias/invepar-triunfo-e-engevix-levam-aeroportos",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Guarulhos bid and premium",
+        "value": "R$ 16.213 billion, 373% over the minimum of R$ 3.424 billion",
+        "currency": "BRL",
+        "value_year": "2012",
+        "estimator": "Baguete",
+        "kind": "other",
+        "source_url": "https://www.baguete.com.br/noticias/invepar-triunfo-e-engevix-levam-aeroportos",
+        "status": "verified",
+        "note": "The minimum was not checked."
+      },
+      {
+        "label": "Brasília bid and premium",
+        "value": "R$ 4,501,132,500, 673.39% over the minimum of R$ 582 million",
+        "currency": "BRL",
+        "value_year": "2012",
+        "estimator": "Baguete",
+        "kind": "other",
+        "source_url": "https://www.baguete.com.br/noticias/invepar-triunfo-e-engevix-levam-aeroportos",
+        "status": "verified",
+        "note": "The minimum was not checked."
+      },
+      {
+        "label": "Viracopos bid and premium",
+        "value": "R$ 3.821 billion, 159% (notes said about 160%)",
+        "currency": "BRL",
+        "value_year": "2012",
+        "estimator": "Baguete",
+        "kind": "other",
+        "source_url": "https://www.baguete.com.br/noticias/invepar-triunfo-e-engevix-levam-aeroportos",
+        "status": "corrected",
+        "note": "Rounded from 160% to 159%."
+      },
+      {
+        "label": "Galeão bid and premium (22 Nov 2013)",
+        "value": "R$ 19.018 billion, 293.9%",
+        "currency": "BRL",
+        "value_year": "2013",
+        "estimator": "Estado de Minas",
+        "kind": "other",
+        "source_url": "https://www.em.com.br/app/noticia/economia/2013/11/22/internas_economia,472718/dilma-comemora-resultado-de-leilao-de-aeroportos.shtml",
+        "status": "unverified",
+        "note": "The fact-check could not confirm the R$ 19 bn outorga in an opened page."
+      },
+      {
+        "label": "Confins bid and premium (22 Nov 2013)",
+        "value": "R$ 1.82 billion, 66%; combined with Galeão R$ 20.839 billion",
+        "currency": "BRL",
+        "value_year": "2013",
+        "estimator": "Estado de Minas",
+        "kind": "other",
+        "source_url": "https://www.em.com.br/app/noticia/economia/2013/11/22/internas_economia,472718/dilma-comemora-resultado-de-leilao-de-aeroportos.shtml",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Galeão and Confins minimum bids",
+        "value": "Galeão R$ 4.65 bn raised to R$ 4.729 bn (premium maths imply about R$ 4.83 bn); Confins R$ 1.56 bn lowered to R$ 994 m (premium maths imply about R$ 1.10 bn)",
+        "currency": "BRL",
+        "value_year": "2013",
+        "estimator": "Exame; premium arithmetic",
+        "kind": "price-gap",
+        "source_url": "https://exame.com/economia/governo-atualiza-valores-para-concessao-de-galeao-e-confins-2/",
+        "status": "disputed",
+        "note": "The true edital minimums are uncertain. Investment requirements R$ 5.8 bn (Galeão) and R$ 3.6 bn (Confins)."
+      },
+      {
+        "label": "Viracopos judicial recovery (7 May 2018)",
+        "value": "debt about R$ 2.88-2.9 billion, about 90% BNDES loans; one report: R$ 2.71 billion with creditors",
+        "currency": "BRL",
+        "value_year": "2018",
+        "estimator": "Exame; search listings",
+        "kind": "debt-absorbed",
+        "source_url": "https://exame.com/negocios/concessionaria-de-viracopos-pede-recuperacao-judicial-diz-triunfo",
+        "status": "unverified",
+        "note": "The debt figure was not in the opened Reuters/Exame piece. A later Deloitte figure of R$ 7.5 bn total (R$ 4.6 bn to ANAC, contested) was not opened."
+      },
+      {
+        "label": "Galeão imbalance claimed by Changi",
+        "value": "R$ 7.5 billion, to be deducted from monthly outorgas over 19 years; ANAC denied it",
+        "currency": "BRL",
+        "value_year": "2022",
+        "estimator": "RioGaleão (Changi) via Poder360",
+        "kind": "other",
+        "source_url": "https://www.poder360.com.br/economia/aeroporto-do-galeao-sera-relicitado-com-santos-dumont/",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      },
+      {
+        "label": "Galeão repactuação auction (30 Mar 2026)",
+        "value": "Aena, R$ 2.9 billion (premium 210.88% on a R$ 932 m minimum); variable contribution 20% of gross revenue until 2039",
+        "currency": "BRL",
+        "value_year": "2026",
+        "estimator": "Mercado e Consumo",
+        "kind": "other",
+        "source_url": "https://mercadoeconsumo.com.br/30/03/2026/economia/aena-arremata-aeroporto-do-galeao-em-leilao-por-r-29-bi/?noamp=mobile",
+        "status": "unverified",
+        "note": "The fact-check found three proposals on 24 Mar 2026 but could not confirm the winner. One headline read 'R$ 29 bi'; the body says R$ 2.9 bn. Not comparable with the 2013 bid."
+      },
+      {
+        "label": "Confins COVID recomposition (ANAC Decision 569, 16 Nov 2022)",
+        "value": "R$ 60,721,357.66, applied as discounts on outorga payments",
+        "currency": "BRL",
+        "value_year": "2022",
+        "estimator": "ANAC via Motiva RI",
+        "kind": "other",
+        "source_url": "https://ri.motiva.com.br/en/noticia/materal-fact-extraordinary-review-and-amendment-to-the-concession-agreement-of-the-bh-airport-2/",
+        "status": "verified",
+        "note": "Not re-checked: read from the cited page in the gaps research."
+      }
+    ],
+    "summary": "In 2012 and 2013 the government auctioned six big airports and bids ran 66% to 673% above the minimum. Later, Viracopos went into judicial recovery and Galeão was handed back, with the public side absorbing the losses. The government had called the high bids a success.",
+    "sources": [
+      {
+        "title": "ITL on airport concessions",
+        "url": "https://repositorio.itl.org.br/jspui/bitstream/123456789/269/1/Economia%20em%20Foco_novembro_2013%20-%20Concess%c3%a3o%20de%20aeroportos.pdf"
+      },
+      {
+        "title": "Baguete on the 2012 auction",
+        "url": "https://www.baguete.com.br/noticias/invepar-triunfo-e-engevix-levam-aeroportos"
+      },
+      {
+        "title": "EBC on the 2012 auction",
+        "url": "http://memoria.ebc.com.br/agenciabrasil/new-in-english/2012-02-07/news-english-%E2%80%93-airport-privatization-auction-considered-success-bids-were-five-times-what-gove"
+      },
+      {
+        "title": "Estado de Minas on the 2013 auction",
+        "url": "https://www.em.com.br/app/noticia/economia/2013/11/22/internas_economia,472718/dilma-comemora-resultado-de-leilao-de-aeroportos.shtml"
+      },
+      {
+        "title": "Exame on updated minimums",
+        "url": "https://exame.com/economia/governo-atualiza-valores-para-concessao-de-galeao-e-confins-2/"
+      },
+      {
+        "title": "Poder360 on Galeão relicitation",
+        "url": "https://www.poder360.com.br/economia/aeroporto-do-galeao-sera-relicitado-com-santos-dumont/"
+      },
+      {
+        "title": "Mercado e Consumo on the 2026 Galeão auction",
+        "url": "https://mercadoeconsumo.com.br/30/03/2026/economia/aena-arremata-aeroporto-do-galeao-em-leilao-por-r-29-bi/?noamp=mobile"
+      },
+      {
+        "title": "Motiva RI on Confins review",
+        "url": "https://ri.motiva.com.br/en/noticia/materal-fact-extraordinary-review-and-amendment-to-the-concession-agreement-of-the-bh-airport-2/"
+      },
+      {
+        "title": "A Gazeta on Viracopos",
+        "url": "https://www.agazeta.com.br/economia/aeroporto-de-viracopos-sera-devolvido-pela-concessionaria-e-relicitado-0220"
+      },
+      {
+        "title": "CNN Brasil on Viracopos",
+        "url": "https://www.cnnbrasil.com.br/infra/anac-e-viracopos-vivem-historico-de-conflitos-e-acoes-judiciais-desde-2014/"
+      },
+      {
+        "title": "Exame on Viracopos filing",
+        "url": "https://exame.com/negocios/concessionaria-de-viracopos-pede-recuperacao-judicial-diz-triunfo"
+      },
+      {
+        "title": "Passageiro de Primeira on Galeão return",
+        "url": "https://passageirodeprimeira.com/concessionaria-devolve-riogaleao-e-governo-planeja-novo-leilao-conjunto-com-santos-dumont"
+      }
+    ]
+  },
+  {
+    "id": "e5-21",
+    "year": "2012–2013",
+    "start_year": 2012,
+    "title": "MP 579/2012 (Lei 12.783/2013): electricity concession renewals",
+    "era": "2003–2016 Lula and Dilma",
+    "government": "Dilma 1",
+    "what": "Generation and transmission concessions were renewed early for up to 30 years at lower revenue, with indemnity for unamortised assets and lower sector charges. The promised bill cut was more than 16%.",
+    "who_got": "Consumers and electro-intensive firms got lower tariffs. Concessionaires such as Cesp, Cemig and Copel resisted. This is a reverse case.",
+    "terms": "MME expected indemnities of about R$ 20 billion and Eletrobras expected about R$ 30 billion. Eletrobras later got about R$ 14 billion, then about R$ 20.8 billion after MP 591 (search summary).",
+    "mechanism": "MP 579/2012, converted into Lei 12.783/2013, with MP 591/2012 correcting transmission indemnities (investments up to 31 May 2000, paid over 30 years, IPCA).",
+    "who_paid": "The Treasury (through CDE transfers) and Eletrobras. No consolidated Treasury figure was found. Eletrobras's 2012 loss was R$ 6.88 billion and its shares fell about 28% around the announcement (search summary only).",
+    "after": "Critics say the cut was artificial and was followed by a 'tarifaço' in later years.",
+    "counter_view": "The opposing view is that the state forced renewal at below-market indemnities (Poder360 and Acende Brasil, via search summary, not opened).",
+    "signs": [
+      "law-rewritten-for-deal",
+      "subsidy-or-tax-break"
+    ],
+    "figures": [
+      {
+        "label": "Promised bill reduction",
+        "value": "more than 16% from 2013 (a related headline said 20%)",
+        "currency": "n/a",
+        "value_year": "2012",
+        "estimator": "Agência Câmara",
+        "kind": "other",
+        "source_url": "https://www.camara.leg.br/noticias/384998-renovacao-das-concessoes-do-setor-eletrico-gera-polemica-no-congresso",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Indemnities expected by MME",
+        "value": "about R$ 20 billion",
+        "currency": "BRL",
+        "value_year": "2012",
+        "estimator": "MME via InfoMoney",
+        "kind": "other",
+        "source_url": "https://www.infomoney.com.br/?p=593603",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Indemnity expected by Eletrobras",
+        "value": "about R$ 30 billion",
+        "currency": "BRL",
+        "value_year": "2012",
+        "estimator": "Eletrobras via InfoMoney",
+        "kind": "other",
+        "source_url": "https://www.infomoney.com.br/?p=593603",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Added indemnity for transmission (MP 591/2012)",
+        "value": "R$ 10 billion",
+        "currency": "BRL",
+        "value_year": "2012",
+        "estimator": "Agência Câmara (rapporteur Eduardo Cunha)",
+        "kind": "other",
+        "source_url": "https://www.camara.leg.br/noticias/391005-mp-corrige-indenizacoes-para-empresas-de-transmissao-de-energia/",
+        "status": "corrected",
+        "note": "Notes cited InfoMoney. The real source is Agência Câmara, 3 Dec 2012, and the correction is MP 591."
+      },
+      {
+        "label": "Eletrobras indemnity received",
+        "value": "about R$ 14 billion, then about R$ 20.8 billion after MP 591",
+        "currency": "BRL",
+        "value_year": "2013",
+        "estimator": "Poder360 / Acende Brasil (search summary)",
+        "kind": "other",
+        "source_url": "https://www.infomoney.com.br/?p=593603",
+        "status": "unverified",
+        "note": "Search summary only."
+      },
+      {
+        "label": "Eletrobras 2012 loss and share fall",
+        "value": "loss R$ 6.88 billion; shares about -28% around the announcement",
+        "currency": "BRL",
+        "value_year": "2012",
+        "estimator": "Search summary",
+        "kind": "other",
+        "source_url": "https://www.infomoney.com.br/?p=593603",
+        "status": "unverified",
+        "note": "Search summary only."
+      }
+    ],
+    "summary": "In 2012 the government forced early renewal of power concessions in return for lower tariffs and indemnities, cutting bills by more than 16%. The cost fell on the Treasury and Eletrobras. It runs against the usual handover pattern, because the state pushed prices down.",
+    "sources": [
+      {
+        "title": "Agência Câmara on the renewal controversy",
+        "url": "https://www.camara.leg.br/noticias/384998-renovacao-das-concessoes-do-setor-eletrico-gera-polemica-no-congresso"
+      },
+      {
+        "title": "Senate summary of MPV 579",
+        "url": "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/sumarios-de-proposicoes/mpv579"
+      },
+      {
+        "title": "InfoMoney on indemnities",
+        "url": "https://www.infomoney.com.br/?p=593603"
+      },
+      {
+        "title": "Agência Câmara on MP 591",
+        "url": "https://www.camara.leg.br/noticias/391005-mp-corrige-indenizacoes-para-empresas-de-transmissao-de-energia/"
+      }
+    ]
+  },
+  {
+    "id": "e5-22",
+    "year": "2012 (STF ruling 2018)",
+    "start_year": 2012,
+    "title": "Forest Code 2012 (Lei 12.651): amnesty for past deforestation",
+    "era": "2003–2016 Lula and Dilma",
+    "government": "Dilma 1",
+    "what": "The new Forest Code reduced the penalties and restoration duties for clearing before 2008. Soares-Filho and colleagues (Science, 2014) estimate it amnesties 29 million ha illegally cleared before 2008.",
+    "who_got": "Rural landowners, large and small, whose legal-reserve debts for pre-2008 clearing were reduced.",
+    "terms": "Restoration needed falls from 50 to 21 million ha (-58%), and 88 million ha remain legally clearable. Protection from penalties applies to infractions before 22 June 2008 if the owner joins the regularisation programme (PRA).",
+    "mechanism": "Lei 12.651/2012. On 28 Feb 2018 the STF upheld most of it: of 23 provisions, 18 were constitutional and 5 unconstitutional.",
+    "who_paid": "The environment, the climate and downstream water users.",
+    "after": "The STF held that it is not a true amnesty, because owners keep penalties if they fail the regularisation terms.",
+    "counter_view": "Tereza Cristina (Frente Parlamentar da Agropecuária) called the amnesty partial, with legal certainty for farmers and over 90% of producers in the rural registry (CAR). Agroicone's Rodrigo Lima said pre-2008 penalties are forgiven only if owners follow the 2012 rules. The Science authors say only 1% of cropland sits in areas needing restoration. Environmentalists such as ISA's Nurit Bensusan say it invites future deforestation (Câmara; Brasil Agro).",
+    "signs": [
+      "rights-legalised-after-fact",
+      "law-rewritten-for-deal",
+      "subsidy-or-tax-break"
+    ],
+    "figures": [
+      {
+        "label": "Illegal clearing amnestied (Science 2014)",
+        "value": "29 million ha",
+        "currency": "ha",
+        "value_year": "2014",
+        "estimator": "Soares-Filho et al., Science 344:363",
+        "kind": "land-area",
+        "source_url": "https://ihu.unisinos.br/noticias/530640-codigo-florestal-deve-anistiar-29-milhoes-de-hectares-desmatados",
+        "status": "verified",
+        "note": "Confirmed through press reports (IHU, UFMG); the paper itself was not opened."
+      },
+      {
+        "label": "Land still legally clearable",
+        "value": "88 million ha",
+        "currency": "ha",
+        "value_year": "2014",
+        "estimator": "Soares-Filho et al.",
+        "kind": "land-area",
+        "source_url": "https://ihu.unisinos.br/noticias/530640-codigo-florestal-deve-anistiar-29-milhoes-de-hectares-desmatados",
+        "status": "verified",
+        "note": "Stated by IHU; the UFMG page does not give it."
+      },
+      {
+        "label": "Restoration needed",
+        "value": "from 50 to 21 million ha (-58%)",
+        "currency": "ha",
+        "value_year": "2014",
+        "estimator": "Soares-Filho et al. via UFMG",
+        "kind": "land-area",
+        "source_url": "https://www.ufmg.br/online/arquivos/032981.shtml",
+        "status": "verified",
+        "note": "Of the remaining 21 m ha, 78% is legal reserve and 22% is protected riparian areas (APP)."
+      },
+      {
+        "label": "STF ruling (28 Feb 2018)",
+        "value": "18 of 23 provisions constitutional, 5 unconstitutional; not a full amnesty",
+        "currency": "n/a",
+        "value_year": "2018",
+        "estimator": "STF via Agência Câmara",
+        "kind": "other",
+        "source_url": "https://www.camara.leg.br/noticias/532920-decisao-do-stf-sobre-codigo-florestal-repercute-entre-partidos",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "summary": "The 2012 Forest Code cut restoration duties for land cleared before 2008, by an estimated 29 million hectares. The Supreme Court upheld most of it in 2018 and said it is not a full amnesty, because penalties return if owners break the agreements.",
+    "sources": [
+      {
+        "title": "IHU on the 29 million ha amnesty",
+        "url": "https://ihu.unisinos.br/noticias/530640-codigo-florestal-deve-anistiar-29-milhoes-de-hectares-desmatados"
+      },
+      {
+        "title": "UFMG on the Science study",
+        "url": "https://www.ufmg.br/online/arquivos/032981.shtml"
+      },
+      {
+        "title": "Agência Câmara on the STF ruling",
+        "url": "https://www.camara.leg.br/noticias/532920-decisao-do-stf-sobre-codigo-florestal-repercute-entre-partidos"
+      },
+      {
+        "title": "Brasil Agro on the STF ruling",
+        "url": "https://www.brasilagro.com.br/conteudo/em-vitoria-do-agronegocio-stf-mantem-anistia-a-desmatadores.html"
+      }
+    ]
+  },
+  {
+    "id": "e5-23",
+    "year": "2013–2014 (relicitation 2021 onward)",
+    "start_year": 2013,
+    "title": "Federal highway concessions, third round",
+    "era": "2003–2016 Lula and Dilma",
+    "government": "Dilma 1",
+    "what": "30-year toll concessions with duplication obligations in the first five years. Example: Concebra (BR-060/153/262, 1,176.5 km, Triunfo), won in 2014.",
+    "who_got": "Concessionaires such as Triunfo (Concebra). Financing via BNDES and a 15% internal return were not confirmed.",
+    "terms": "Low-toll-bid model. The notes' signing date of 31 Jan 2014, the five-year duplication duty and the BR-163 details come from a page that is now 404, so they are unconfirmed.",
+    "mechanism": "Federal toll concessions awarded by ANTT (Edital 004/2013 for Concebra).",
+    "who_paid": "Users paid tolls without the promised works. BNDES exposure was not quantified.",
+    "after": "Six concessions of 2013–14 struggled to meet the main duplication requirement. ANTT approved relicitation of BR-060/153/262 in 2021, split into Rota do Zebu (BR-262 MG, auctioned 2024) and Rota Sertaneja (BR-153/262 GO-MG). The remaining 211.6 km of BR-060/153 stays with Concebra in a TCU consensual-solution process (2026).",
+    "counter_view": "Not found. The usual argument for low-toll-bid auctions was not sourced. A primary source such as an ANTT or TCU audit of the third round is still needed.",
+    "signs": [
+      "guaranteed-return",
+      "regulator-absent-or-late",
+      "paid-in-paper-or-cheap-credit"
+    ],
+    "figures": [
+      {
+        "label": "Concebra length",
+        "value": "1,176.5 km, BR-060/153/262",
+        "currency": "km",
+        "value_year": "2014",
+        "estimator": "Agência Infra (search listing)",
+        "kind": "other",
+        "source_url": "https://agenciainfra.com/blog/antt-libera-relicitacao-da-concebra/",
+        "status": "unverified",
+        "note": "QA: cited page lists BR-060/153/262 but gives no length; 1,176.5 km not confirmed there. Search listing only."
+      },
+      {
+        "label": "BR-163/MS blocked points",
+        "value": "44 blocked points over 806 km",
+        "currency": "n/a",
+        "value_year": "",
+        "estimator": "Setcesp",
+        "kind": "other",
+        "source_url": "https://setcesp.org.br/?p=26709",
+        "status": "unverified",
+        "note": "The cited page returned 404."
+      },
+      {
+        "label": "Internal rate of return of the concessions",
+        "value": "15%",
+        "currency": "n/a",
+        "value_year": "2013",
+        "estimator": "Notes",
+        "kind": "guaranteed-return",
+        "source_url": "https://setcesp.org.br/?p=26709",
+        "status": "unverified",
+        "note": "The note itself says this is not confirmed."
+      }
+    ],
+    "summary": "In 2013–14 the government auctioned 30-year highway concessions with duplication duties in the first five years. Several concessionaires fell short, and relicitation started in 2021. Few figures could be confirmed, so this case needs a primary source such as an ANTT or TCU audit.",
+    "sources": [
+      {
+        "title": "Setcesp on highway concessions",
+        "url": "https://setcesp.org.br/?p=26709"
+      },
+      {
+        "title": "Setcesp on renegotiation of toll contracts",
+        "url": "https://setcesp.org.br/noticias/congresso-pode-permitir-renegociacao-de-contratos-de-rodovias-pedagiadas/"
+      },
+      {
+        "title": "Agência Infra on Concebra relicitation",
+        "url": "https://agenciainfra.com/blog/antt-libera-relicitacao-da-concebra/"
+      }
+    ]
+  }
+]

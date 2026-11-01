@@ -1,0 +1,6 @@
+*.jump.html
+.DS_Store
+sources/cache/
+sources/index.json.tmp
+verification.html.tmp
+__pycache__/

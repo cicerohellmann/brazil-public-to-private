@@ -1,0 +1,1396 @@
+{
+ "era": "1500-1889 colony and empire",
+ "terms": [
+  {
+   "term": "Manuel I, 1495-1521",
+   "decision_makers": [
+    "p-manuel-i"
+   ]
+  },
+  {
+   "term": "John III, 1521-1557",
+   "decision_makers": [
+    "p-joao-iii"
+   ]
+  },
+  {
+   "term": "Pedro (Regent/King), 1668-1706",
+   "decision_makers": [
+    "p-pedro-ii-portugal"
+   ]
+  },
+  {
+   "term": "John V, 1706-1750",
+   "decision_makers": [
+    "p-joao-v"
+   ]
+  },
+  {
+   "term": "Joseph I and Pombal, 1750-1777",
+   "decision_makers": [
+    "p-jose-i",
+    "p-pombal",
+    "p-mendonca-furtado"
+   ]
+  },
+  {
+   "term": "Maria I, 1777-1816",
+   "decision_makers": [
+    "p-maria-i"
+   ]
+  },
+  {
+   "term": "John VI in Rio, 1808-1821",
+   "decision_makers": [
+    "p-joao-vi",
+    "p-linhares",
+    "p-aguiar",
+    "p-strangford"
+   ]
+  },
+  {
+   "term": "Pedro I, 1822-1831",
+   "decision_makers": [
+    "p-pedro-i",
+    "p-jose-bonifacio",
+    "p-canning"
+   ]
+  },
+  {
+   "term": "Pedro II, 1840-1889",
+   "decision_makers": [
+    "p-pedro-ii",
+    "p-monte-alegre",
+    "p-eusebio",
+    "p-martins",
+    "p-almeida-pereira-filho",
+    "p-jesuino-sa",
+    "p-isabel",
+    "p-prado",
+    "p-joao-alfredo"
+   ]
+  }
+ ],
+ "people": [
+  {
+   "id": "p-manuel-i",
+   "name": "Manuel I of Portugal",
+   "posts": [
+    {
+     "post": "King of Portugal",
+     "start": 1495,
+     "end": 1521,
+     "appointed_by": "hereditary",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e1-01",
+     "role": "granted the brazilwood lease (head of Crown)",
+     "detail": "Lease to Fernão de Loronha's Lisbon consortium, reconstructed from a letter of 3 Oct 1502; terms differ between sources (see case).",
+     "source_url": "https://en.wikipedia.org/wiki/Fern%C3%A3o_de_Loronha",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Wikipedia: Fernão de Loronha",
+     "url": "https://en.wikipedia.org/wiki/Fern%C3%A3o_de_Loronha"
+    }
+   ],
+   "verified_sources": [
+    "https://en.wikipedia.org/wiki/Manuel_I_of_Portugal",
+    "https://en.wikipedia.org/wiki/Fern%C3%A3o_de_Loronha"
+   ]
+  },
+  {
+   "id": "p-joao-iii",
+   "name": "John III of Portugal",
+   "posts": [
+    {
+     "post": "King of Portugal",
+     "start": 1521,
+     "end": 1557,
+     "appointed_by": "hereditary",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e1-03",
+     "role": "issued the hereditary captaincies (head of Crown)",
+     "detail": "Captaincies created 1534-1536 (pt.wikipedia); the page does not name the king personally. Charters per the case file.",
+     "source_url": "https://pt.wikipedia.org/wiki/Capitanias_heredit%C3%A1rias",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e1-02",
+     "role": "head of Crown during first Brazilian sesmaria/donatário system",
+     "detail": "Donatários distributed sesmarias; the sesmaria law itself dates from 1375 (Fernando I), per the case file.",
+     "source_url": "https://pt.wikipedia.org/wiki/Sesmaria",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e1-04",
+     "role": "Crown held the dízimos as Grand Master of the Order of Christ",
+     "detail": "Case file: papal grant of Julius III; not confirmed on the opened pages (the pt.wikipedia captaincies page does not cover the dizimos).",
+     "source_url": "https://pt.wikipedia.org/wiki/Capitanias_heredit%C3%A1rias",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "pt.wikipedia: Capitanias hereditárias",
+     "url": "https://pt.wikipedia.org/wiki/Capitanias_heredit%C3%A1rias"
+    },
+    {
+     "title": "pt.wikipedia: Sesmaria",
+     "url": "https://pt.wikipedia.org/wiki/Sesmaria"
+    }
+   ],
+   "verified_sources": [
+    "https://en.wikipedia.org/wiki/John_III_of_Portugal",
+    "https://pt.wikipedia.org/wiki/Capitanias_heredit%C3%A1rias"
+   ]
+  },
+  {
+   "id": "p-pedro-ii-portugal",
+   "name": "Pedro II of Portugal (Prince Regent 1668-83, king 1683-1706)",
+   "posts": [
+    {
+     "post": "Prince Regent, later King of Portugal",
+     "start": 1668,
+     "end": 1706,
+     "appointed_by": "hereditary",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e1-07",
+     "role": "Crown (regent Pedro) decreed on 14 July 1674 the Junta da Administracao do Tabaco",
+     "detail": "Novais thesis: 'a Coroa decretou' the Junta in 1674; it names the Crown, not the person. The estanco label is the case file's.",
+     "source_url": "https://teses.usp.br/teses/disponiveis/8/8137/tde-15082016-112609/publico/2016_IdelmaAparecidaFerreiraNovais_VCorr.pdf",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Novais thesis, USP",
+     "url": "https://teses.usp.br/teses/disponiveis/8/8137/tde-15082016-112609/publico/2016_IdelmaAparecidaFerreiraNovais_VCorr.pdf"
+    }
+   ],
+   "verified_sources": [
+    "https://en.wikipedia.org/wiki/Peter_II_of_Portugal",
+    "https://teses.usp.br/teses/disponiveis/8/8137/tde-15082016-112609/publico/2016_IdelmaAparecidaFerreiraNovais_VCorr.pdf"
+   ]
+  },
+  {
+   "id": "p-joao-v",
+   "name": "John V of Portugal",
+   "posts": [
+    {
+     "post": "King of Portugal",
+     "start": 1706,
+     "end": 1750,
+     "appointed_by": "hereditary",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e1-08",
+     "role": "head of Crown during the gold quinto/capitação regime",
+     "detail": "Capitação applied 1735 to c.1751 per the case file.",
+     "source_url": "https://www.redalyc.org/pdf/3844/384446660010.pdf",
+     "basis": "in-office",
+     "status": "unverified"
+    },
+    {
+     "case_id": "e1-09",
+     "role": "head of Crown during the diamond contracts",
+     "detail": "Contracts held mostly by the Fernandes de Oliveira and Caldeira Brant families, per the case file.",
+     "source_url": "https://pt.wikipedia.org/wiki/Distrito_Diamantino",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "pt.wikipedia: Distrito Diamantino",
+     "url": "https://pt.wikipedia.org/wiki/Distrito_Diamantino"
+    },
+    {
+     "title": "Redalyc 384446660010",
+     "url": "https://www.redalyc.org/pdf/3844/384446660010.pdf"
+    }
+   ],
+   "verified_sources": [
+    "https://en.wikipedia.org/wiki/John_V_of_Portugal",
+    "https://pt.wikipedia.org/wiki/Distrito_Diamantino"
+   ]
+  },
+  {
+   "id": "p-jose-i",
+   "name": "Joseph I of Portugal",
+   "posts": [
+    {
+     "post": "King of Portugal",
+     "start": 1750,
+     "end": 1777,
+     "appointed_by": "hereditary",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e1-10",
+     "role": "chartered the Companhia Geral do Grão-Pará e Maranhão (1755)",
+     "detail": "Royal charter of a joint-stock monopoly company, per the case file.",
+     "source_url": "https://en.wikipedia.org/wiki/Gr%C3%A3o_Par%C3%A1_and_Maranh%C3%A3o_Company",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e1-11",
+     "role": "chartered the Companhia Geral de Pernambuco e Paraíba (1759)",
+     "detail": "Charter date 13 Aug 1759 (Wikipedia) or 30 July (another source).",
+     "source_url": "https://en.wikipedia.org/wiki/Companhia_Geral_de_Pernambuco_e_Para%C3%ADba",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e1-12",
+     "role": "royal orders for sequestration and resale of Jesuit estates",
+     "detail": "Alvará of 25 Feb 1761 put the goods in the Real Fazenda, per the case file.",
+     "source_url": "https://www.redalyc.org/pdf/5798/579866785002.pdf",
+     "basis": "documented-act",
+     "status": "verified"
+    },
+    {
+     "case_id": "e1-09",
+     "role": "head of Crown when Real Extração replaced the contracts (1771)",
+     "detail": "Decree of 12 Aug 1771 reported by CartaCapital only.",
+     "source_url": "https://www.cartacapital.com.br/?p=78301",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e1-07",
+     "role": "head of Crown for the 1751 Mesas de Inspeção reform",
+     "detail": "Per the case file.",
+     "source_url": "https://teses.usp.br/teses/disponiveis/8/8137/tde-15082016-112609/publico/2016_IdelmaAparecidaFerreiraNovais_VCorr.pdf",
+     "basis": "in-office",
+     "status": "unverified"
+    },
+    {
+     "case_id": "e1-08",
+     "role": "head of Crown when foundry houses were re-established (order of 3 Dec 1750)",
+     "detail": "Per the case file.",
+     "source_url": "https://www.redalyc.org/pdf/3844/384446660010.pdf",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Wikipedia: Grão-Pará and Maranhão Company",
+     "url": "https://en.wikipedia.org/wiki/Gr%C3%A3o_Par%C3%A1_and_Maranh%C3%A3o_Company"
+    }
+   ],
+   "verified_sources": [
+    "https://en.wikipedia.org/wiki/Joseph_I_of_Portugal",
+    "https://en.wikipedia.org/wiki/Gr%C3%A3o_Par%C3%A1_and_Maranh%C3%A3o_Company",
+    "https://www.redalyc.org/pdf/5798/579866785002.pdf",
+    "https://www.redalyc.org/pdf/3844/384446660010.pdf"
+   ]
+  },
+  {
+   "id": "p-pombal",
+   "name": "Sebastião José de Carvalho e Melo, Marquis of Pombal",
+   "posts": [
+    {
+     "post": "Secretary of State for Foreign Affairs and War",
+     "start": 1750,
+     "end": 1756,
+     "appointed_by": "Joseph I",
+     "status": "verified"
+    },
+    {
+     "post": "Secretary of State for Internal Affairs (de facto chief minister)",
+     "start": 1756,
+     "end": 1777,
+     "appointed_by": "Joseph I",
+     "status": "verified"
+    }
+   ],
+   "before": "Portuguese ambassador to Great Britain 29 Nov 1738 - 25 Sep 1745 (appointed by John V); ambassador to the Holy Roman Empire (Vienna) 1745-1749.",
+   "after": "Lost power after Joseph I's death (24 Feb 1777) under Maria I; stripped of offices and exiled to his estates; died 8 May 1782.",
+   "foreign_ties": [
+    {
+     "counterpart": "Great Britain (court and merchant world)",
+     "kind": "foreign government",
+     "detail": "Portuguese ambassador in London 1738-1745 (Wikipedia). This is a career link, not evidence of improper dealings.",
+     "source_url": "https://en.wikipedia.org/wiki/Sebasti%C3%A3o_Jos%C3%A9_de_Carvalho_e_Melo,_1st_Marquess_of_Pombal",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e1-10",
+     "role": "founded the company (Wikipedia names him as founder)",
+     "detail": "Case file lists José I and Pombal as the government; he was also brother of the governor of Grão-Pará (see p-mendonca-furtado).",
+     "source_url": "https://en.wikipedia.org/wiki/Gr%C3%A3o_Par%C3%A1_and_Maranh%C3%A3o_Company",
+     "basis": "documented-act",
+     "status": "verified"
+    },
+    {
+     "case_id": "e1-11",
+     "role": "founded the company (Wikipedia names him as founder)",
+     "detail": "Case file lists José I and Pombal.",
+     "source_url": "https://en.wikipedia.org/wiki/Companhia_Geral_de_Pernambuco_e_Para%C3%ADba",
+     "basis": "documented-act",
+     "status": "verified"
+    },
+    {
+     "case_id": "e1-12",
+     "role": "minister in charge of the Jesuit sequestration and resale",
+     "detail": "Case file lists José I and minister Pombal.",
+     "source_url": "https://www.redalyc.org/pdf/5798/579866785002.pdf",
+     "basis": "in-office",
+     "status": "unverified"
+    },
+    {
+     "case_id": "e1-09",
+     "role": "minister when the contract regime became Real Extração (1771) and the Regimento Diamantino was issued",
+     "detail": "Per the case file.",
+     "source_url": "https://pt.wikipedia.org/wiki/Distrito_Diamantino",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e1-07",
+     "role": "minister behind the 1751 tobacco reforms; his Dedução Compendiosa is the source for contract prices",
+     "detail": "Per the case file.",
+     "source_url": "https://teses.usp.br/teses/disponiveis/8/8137/tde-15082016-112609/publico/2016_IdelmaAparecidaFerreiraNovais_VCorr.pdf",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Accused after 1777 of abuse of power and tyrannical conduct, and prosecuted (Wikipedia).",
+     "outcome": "Stripped of his offices, prosecuted and exiled to his estates, where he died in 1782 (Wikipedia summary).",
+     "source_url": "https://en.wikipedia.org/wiki/Sebasti%C3%A3o_Jos%C3%A9_de_Carvalho_e_Melo,_1st_Marquess_of_Pombal",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia: Marquis of Pombal",
+     "url": "https://en.wikipedia.org/wiki/Sebasti%C3%A3o_Jos%C3%A9_de_Carvalho_e_Melo,_1st_Marquess_of_Pombal"
+    }
+   ],
+   "verified_sources": [
+    "https://en.wikipedia.org/wiki/Sebasti%C3%A3o_Jos%C3%A9_de_Carvalho_e_Melo,_1st_Marquess_of_Pombal",
+    "https://en.wikipedia.org/wiki/Gr%C3%A3o_Par%C3%A1_and_Maranh%C3%A3o_Company",
+    "https://en.wikipedia.org/wiki/Companhia_Geral_de_Pernambuco_e_Para%C3%ADba"
+   ]
+  },
+  {
+   "id": "p-mendonca-furtado",
+   "name": "Francisco Xavier de Mendonça Furtado",
+   "posts": [
+    {
+     "post": "Governor-general of Grão-Pará and Maranhão",
+     "start": 1751,
+     "end": 1759,
+     "appointed_by": "Joseph I",
+     "status": "verified"
+    },
+    {
+     "post": "Secretary of State for Navy and Overseas",
+     "start": 1760,
+     "end": 1769,
+     "appointed_by": "Joseph I",
+     "status": "verified"
+    }
+   ],
+   "before": "Brother of the Marquis of Pombal (pt.wikipedia).",
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e1-10",
+     "role": "governor of the region during the company's founding",
+     "detail": "Governor 1751-1759; received instruction to create a trading company for Grao-Para (pt.wikipedia). Company chartered 1755 while he governed; his drafting role not documented.",
+     "source_url": "https://pt.wikipedia.org/wiki/Francisco_Xavier_de_Mendon%C3%A7a_Furtado",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "pt.wikipedia: Francisco Xavier de Mendonça Furtado",
+     "url": "https://pt.wikipedia.org/wiki/Francisco_Xavier_de_Mendon%C3%A7a_Furtado"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Francisco_Xavier_de_Mendon%C3%A7a_Furtado"
+   ]
+  },
+  {
+   "id": "p-maria-i",
+   "name": "Maria I of Portugal",
+   "posts": [
+    {
+     "post": "Queen of Portugal",
+     "start": 1777,
+     "end": 1816,
+     "appointed_by": "hereditary",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e1-10",
+     "role": "ordered the Companhia Geral do Grao-Para e Maranhao shut down (1778)",
+     "detail": "Wikipedia: after Pombal fell, Maria I ordered the company shut down in 1778.",
+     "source_url": "https://en.wikipedia.org/wiki/Gr%C3%A3o_Par%C3%A1_and_Maranh%C3%A3o_Company",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Wikipedia: Grão-Pará and Maranhão Company",
+     "url": "https://en.wikipedia.org/wiki/Gr%C3%A3o_Par%C3%A1_and_Maranh%C3%A3o_Company"
+    }
+   ],
+   "verified_sources": [
+    "https://en.wikipedia.org/wiki/Maria_I_of_Portugal",
+    "https://en.wikipedia.org/wiki/Gr%C3%A3o_Par%C3%A1_and_Maranh%C3%A3o_Company",
+    "https://en.wikipedia.org/wiki/Companhia_Geral_de_Pernambuco_e_Para%C3%ADba"
+   ]
+  },
+  {
+   "id": "p-joao-vi",
+   "name": "John VI (Prince Regent from 1799/1808, king 1816-26)",
+   "posts": [
+    {
+     "post": "Prince Regent of Portugal (de facto from 1792, formally from 1799)",
+     "start": 1799,
+     "end": 1816,
+     "appointed_by": "Maria I",
+     "status": "verified"
+    },
+    {
+     "post": "King of the United Kingdom of Portugal, Brazil and the Algarves",
+     "start": 1816,
+     "end": 1826,
+     "appointed_by": "hereditary",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [
+    {
+     "counterpart": "United Kingdom",
+     "kind": "foreign government",
+     "detail": "British squadron arrived at Lisbon in Nov 1807 to escort the royal family to Brazil (Wikipedia); loan contracted with Great Britain on 21 April 1809 (Cardoso, scielo); 1810 treaty with Britain.",
+     "source_url": "https://www.scielo.br/j/rbh/a/JJgTM6Q3Fkv7dGB8dtTr7Vj/?lang=en",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e1-13",
+     "role": "Prince Regent whose alvara of 12 Oct 1808 founded the Banco do Brasil (statutes signed by D. Fernando Jose de Portugal)",
+     "detail": "pt.wikipedia: alvara of 12 Oct 1808 by the Prince Regent, on Linhares' suggestion. The claim that a decree of 23 Mar 1821 made its liabilities national debt was not confirmed on an opened page and is removed.",
+     "source_url": "https://pt.wikipedia.org/wiki/Banco_do_Brasil",
+     "basis": "documented-act",
+     "status": "verified"
+    },
+    {
+     "case_id": "e1-14",
+     "role": "opened the ports (1808) and approved the 1810 treaty of commerce",
+     "detail": "Open-ports policy of 1808 and the 1810 treaty (15% on British goods) confirmed on Wikipedia; the page does not name the Prince Regent personally.",
+     "source_url": "https://en.wikipedia.org/wiki/Strangford_Treaty",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e1-05",
+     "role": "Prince Regent when the whaling contract ended (alvará of 24 April 1801, date unconfirmed)",
+     "detail": "Alvara of 24 April 1801 not confirmed on an opened page (the UFSC page was opened but states no 1801 alvara; USP page could not be opened).",
+     "source_url": "https://ojs.sites.ufsc.br/index.php/sceh/article/download/50/50",
+     "basis": "in-office",
+     "status": "unverified"
+    },
+    {
+     "case_id": "e1-06",
+     "role": "Prince Regent when the salt estanco ended (alvará of 24 April 1801, date unconfirmed)",
+     "detail": "Alvara of 24 April 1801 not confirmed on an opened page (the UFSC page was opened but states no 1801 alvara; USP page could not be opened).",
+     "source_url": "https://revhistoria2.webhostusp.sti.usp.br/wp-content/uploads/revistas/004/A005N004.pdf",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Wikipedia: Strangford Treaty",
+     "url": "https://en.wikipedia.org/wiki/Strangford_Treaty"
+    },
+    {
+     "title": "pt.wikipedia: Banco do Brasil",
+     "url": "https://pt.wikipedia.org/wiki/Banco_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://en.wikipedia.org/wiki/John_VI_of_Portugal",
+    "https://pt.wikipedia.org/wiki/Banco_do_Brasil",
+    "https://www.scielo.br/j/rbh/a/JJgTM6Q3Fkv7dGB8dtTr7Vj/?lang=en",
+    "https://en.wikipedia.org/wiki/Strangford_Treaty"
+   ]
+  },
+  {
+   "id": "p-linhares",
+   "name": "Rodrigo de Sousa Coutinho, Count of Linhares",
+   "posts": [
+    {
+     "post": "Secretary of State for Foreign Affairs and War (Rio de Janeiro; pt.wikipedia lists 'Ministro da Guerra do Brasil')",
+     "start": 1808,
+     "end": 1812,
+     "appointed_by": "John, Prince Regent",
+     "status": "verified"
+    }
+   ],
+   "before": "Portuguese diplomat and minister; earlier Secretary of State for Foreign Affairs and War (1801).",
+   "after": "Died in Rio de Janeiro on 26 Jan 1812 while minister.",
+   "foreign_ties": [
+    {
+     "counterpart": "United Kingdom",
+     "kind": "foreign government",
+     "detail": "Portuguese side of the 1810 treaty negotiation with Britain.",
+     "source_url": "https://pt.wikipedia.org/wiki/Rodrigo_de_Sousa_Coutinho",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e1-14",
+     "role": "minister credited with making the 1810 treaty with England possible",
+     "detail": "pt.wikipedia says he was responsible for stimulating the creation of the Banco do Brasil and enabling the 1810 treaty.",
+     "source_url": "https://pt.wikipedia.org/wiki/Rodrigo_de_Sousa_Coutinho",
+     "basis": "documented-act",
+     "status": "verified"
+    },
+    {
+     "case_id": "e1-13",
+     "role": "credited with stimulating the creation of the Banco do Brasil",
+     "detail": "Per pt.wikipedia.",
+     "source_url": "https://pt.wikipedia.org/wiki/Rodrigo_de_Sousa_Coutinho",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "pt.wikipedia: Rodrigo de Sousa Coutinho",
+     "url": "https://pt.wikipedia.org/wiki/Rodrigo_de_Sousa_Coutinho"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Rodrigo_de_Sousa_Coutinho",
+    "https://pt.wikipedia.org/wiki/Banco_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-aguiar",
+   "name": "Fernando José de Portugal e Castro, Count (later Marquis) of Aguiar",
+   "posts": [
+    {
+     "post": "Minister assisting the cabinet, president of the Real Erario, secretary of state for Brazil (title in the 1808 alvara); pt.wikipedia: Secretario de Estado dos Negocios do Reino 1808-1817",
+     "start": 1808,
+     "end": 1817,
+     "appointed_by": "John, Prince Regent",
+     "status": "verified"
+    }
+   ],
+   "before": "Viceroy of Brazil 1801-1806; governor of Bahia 1788-1801.",
+   "after": "Died in Rio de Janeiro on 24 Jan 1817.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e1-13",
+     "role": "signed the statutes of the Banco do Brasil and acted as the bank's director",
+     "detail": "Alvará of 12 Oct 1808 names the statutes 'signed by D. Fernando José de Portugal, president of the Real Erário'; Cardoso names him among the bank's directors in 1810.",
+     "source_url": "https://pt.wikipedia.org/wiki/Banco_do_Brasil",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "pt.wikipedia: Banco do Brasil",
+     "url": "https://pt.wikipedia.org/wiki/Banco_do_Brasil"
+    },
+    {
+     "title": "Cardoso, RBH",
+     "url": "https://www.scielo.br/j/rbh/a/JJgTM6Q3Fkv7dGB8dtTr7Vj/?lang=en"
+    },
+    {
+     "title": "pt.wikipedia: Fernando José de Portugal e Castro",
+     "url": "https://pt.wikipedia.org/wiki/Fernando_Jos%C3%A9_de_Portugal_e_Castro"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Fernando_Jos%C3%A9_de_Portugal_e_Castro",
+    "https://pt.wikipedia.org/wiki/Banco_do_Brasil",
+    "https://www.scielo.br/j/rbh/a/JJgTM6Q3Fkv7dGB8dtTr7Vj/?lang=en"
+   ]
+  },
+  {
+   "id": "p-strangford",
+   "name": "Percy Smythe, 6th Viscount Strangford",
+   "posts": [
+    {
+     "post": "British envoy to the Portuguese court in Rio de Janeiro",
+     "start": 1808,
+     "end": 1815,
+     "appointed_by": "UK government (appointed envoy to the Portuguese court in Brazil on 16 April 1808)",
+     "status": "verified"
+    }
+   ],
+   "before": "British envoy to Portugal 1806-1808; helped coordinate the court's transfer to Brazil.",
+   "after": null,
+   "foreign_ties": [
+    {
+     "counterpart": "United Kingdom",
+     "kind": "foreign government",
+     "detail": "Represented British interests; associated with negotiating the 1810 treaty.",
+     "source_url": "https://en.wikipedia.org/wiki/Percy_Smythe,_6th_Viscount_Strangford",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e1-14",
+     "role": "British negotiator of the 1810 treaty",
+     "detail": "Wikipedia: 'associated with the negotiation' of the treaty.",
+     "source_url": "https://en.wikipedia.org/wiki/Percy_Smythe,_6th_Viscount_Strangford",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Wikipedia: Viscount Strangford",
+     "url": "https://en.wikipedia.org/wiki/Percy_Smythe,_6th_Viscount_Strangford"
+    },
+    {
+     "title": "Wikipedia: Strangford Treaty",
+     "url": "https://en.wikipedia.org/wiki/Strangford_Treaty"
+    }
+   ],
+   "verified_sources": [
+    "https://en.wikipedia.org/wiki/Percy_Smythe,_6th_Viscount_Strangford",
+    "https://en.wikipedia.org/wiki/Strangford_Treaty"
+   ]
+  },
+  {
+   "id": "p-pedro-i",
+   "name": "Pedro I of Brazil (Prince Regent 1821-22)",
+   "posts": [
+    {
+     "post": "Prince Regent of Brazil",
+     "start": 1821,
+     "end": 1822,
+     "appointed_by": "John VI",
+     "status": "verified"
+    },
+    {
+     "post": "Emperor of Brazil",
+     "start": 1822,
+     "end": 1831,
+     "appointed_by": "acclaimed 1822",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [
+    {
+     "counterpart": "United Kingdom",
+     "kind": "foreign government",
+     "detail": "Brazilian officials renewed the 1810 commercial treaty in 1827 (Pereira, Estudos Economicos).",
+     "source_url": "https://journals.usp.br/ee/article/download/172019/173252/498031",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e1-15",
+     "role": "reigning emperor when the 1827 treaty was concluded",
+     "detail": "Treaty valid 15 years from ratification, per the case file.",
+     "source_url": "https://journals.usp.br/ee/article/download/172019/173252/498031",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e1-02",
+     "role": "as Prince Regent, sesmarias suspended in 1822 (Resolution 76)",
+     "detail": "Resolution attributed to José Bonifácio per the case file; day unconfirmed.",
+     "source_url": "https://pt.wikipedia.org/wiki/Sesmaria",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e1-13",
+     "role": "reigning emperor when the first Banco do Brasil was liquidated (law of September 1829)",
+     "detail": "Per the case file.",
+     "source_url": "https://www.scielo.br/j/rbh/a/JJgTM6Q3Fkv7dGB8dtTr7Vj/?lang=en",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e1-16",
+     "role": "reigning emperor at the company's founding (1830); no state grant or decision identified",
+     "detail": "Case file: private sale and joint-stock company.",
+     "source_url": "https://en.wikipedia.org/wiki/Saint_John_d%27El_Rey_Mining_Company",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Pereira, Estudos Econômicos",
+     "url": "https://journals.usp.br/ee/article/download/172019/173252/498031"
+    }
+   ],
+   "verified_sources": [
+    "https://en.wikipedia.org/wiki/Pedro_I_of_Brazil",
+    "https://journals.usp.br/ee/article/download/172019/173252/498031",
+    "https://pt.wikipedia.org/wiki/Sesmaria"
+   ]
+  },
+  {
+   "id": "p-jose-bonifacio",
+   "name": "José Bonifácio de Andrada e Silva",
+   "posts": [
+    {
+     "post": "Minister of the Kingdom and Foreign Affairs",
+     "start": 1822,
+     "end": 1823,
+     "appointed_by": "Pedro, Prince Regent",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e1-02",
+     "role": "attributed author of Resolution 76 (1822) suspending sesmarias",
+     "detail": "Attribution from the case file; the day (17 July 1822) was not seen on an opened page.",
+     "source_url": "https://pt.wikipedia.org/wiki/Sesmaria",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "pt.wikipedia: Sesmaria",
+     "url": "https://pt.wikipedia.org/wiki/Sesmaria"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Jos%C3%A9_Bonif%C3%A1cio_de_Andrada_e_Silva",
+    "https://pt.wikipedia.org/wiki/Sesmaria"
+   ]
+  },
+  {
+   "id": "p-canning",
+   "name": "George Canning",
+   "posts": [
+    {
+     "post": "British Foreign Secretary",
+     "start": 1822,
+     "end": 1827,
+     "appointed_by": "King George IV (cabinet of Lord Liverpool)",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [
+    {
+     "counterpart": "United Kingdom",
+     "kind": "foreign government",
+     "detail": "British Foreign Secretary during the Brazil treaty talks.",
+     "source_url": "https://en.wikipedia.org/wiki/George_Canning",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e1-15",
+     "role": "British Foreign Secretary; argued in 1826 that the commercial treaty was advantageous to Britain and 'more onerous to Brazil'",
+     "detail": "Quote per Pereira (Estudos Economicos); the article says 'the commercial treaty' (the 1810 regime that was renewed in 1827). Canning died 8 Aug 1827.",
+     "source_url": "https://journals.usp.br/ee/article/download/172019/173252/498031",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Wikipedia: George Canning",
+     "url": "https://en.wikipedia.org/wiki/George_Canning"
+    }
+   ],
+   "verified_sources": [
+    "https://en.wikipedia.org/wiki/George_Canning",
+    "https://journals.usp.br/ee/article/download/172019/173252/498031"
+   ]
+  },
+  {
+   "id": "p-pedro-ii",
+   "name": "Pedro II of Brazil",
+   "posts": [
+    {
+     "post": "Emperor of Brazil",
+     "start": 1831,
+     "end": 1889,
+     "appointed_by": "hereditary; regency until declared of age in 1840",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [
+    {
+     "counterpart": "British companies (São Paulo Railway Company, Rio de Janeiro Gas Company; both London-incorporated)",
+     "kind": "foreign company",
+     "detail": "Decreto 2.601 (1860) and Decreto 3.456 (1865) carry the Emperor's rubrica. This is a record of concessions, not of personal gain. The telegraph and steam-navigation concessions listed earlier were not confirmed on opened pages and are removed.",
+     "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-3456-27-abril-1865-554638-publicacaooriginal-73376-pe.html",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e1-17",
+     "role": "reigning emperor; Lei 601 sanctioned 1850",
+     "detail": "Carta de Lei with rubrica; see Monte Alegre. Decree/law bears 'Com Rubrica de Sua Magestade o Imperador' (opened).",
+     "source_url": "https://www2.camara.leg.br/legin/fed/leimp/1824-1899/lei-601-18-setembro-1850-559842-publicacaooriginal-82254-pl.html",
+     "basis": "documented-act",
+     "status": "verified"
+    },
+    {
+     "case_id": "e1-18",
+     "role": "reigning emperor; Decreto 3.456 (1865) authorised the London-based Rio de Janeiro Gas Company Limited",
+     "detail": "Decree signed by the minister of Agriculture. Decree/law bears 'Com Rubrica de Sua Magestade o Imperador' (opened).",
+     "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-3456-27-abril-1865-554638-publicacaooriginal-73376-pe.html",
+     "basis": "documented-act",
+     "status": "verified"
+    },
+    {
+     "case_id": "e1-19",
+     "role": "reigning emperor; Decreto 1.037 (1852) gave the steam navigation privilege to Mauá",
+     "detail": "Per the decree. Decree/law bears 'Com Rubrica de Sua Magestade o Imperador' (opened).",
+     "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-1037-30-agosto-1852-559381-publicacaooriginal-81578-pe.html",
+     "basis": "documented-act",
+     "status": "verified"
+    },
+    {
+     "case_id": "e1-20",
+     "role": "reigning emperor; Decreto 641 (1852), Decreto 2.601 (1860) approving the London articles of the São Paulo Railway",
+     "detail": "Per the decrees. Decree/law bears 'Com Rubrica de Sua Magestade o Imperador' (opened).",
+     "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-641-26-junho-1852-558790-publicacaooriginal-80365-pl.html",
+     "basis": "documented-act",
+     "status": "verified"
+    },
+    {
+     "case_id": "e1-21",
+     "role": "reigning emperor; 1873 submarine telegraph concessions",
+     "detail": "Telegraph concessions of 1873: the cited page returned 403 and could not be opened.",
+     "source_url": "https://atlantic-cable.com/Cables/1873Rio-Para/index.htm",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Decreto 641 (1852)",
+     "url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-641-26-junho-1852-558790-publicacaooriginal-80365-pl.html"
+    },
+    {
+     "title": "Decreto 2.601 (1860)",
+     "url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-2601-6-junho-1860-556490-publicacaooriginal-76537-pe.html"
+    }
+   ],
+   "verified_sources": [
+    "https://en.wikipedia.org/wiki/Pedro_II_of_Brazil",
+    "https://www2.camara.leg.br/legin/fed/leimp/1824-1899/lei-601-18-setembro-1850-559842-publicacaooriginal-82254-pl.html",
+    "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-3456-27-abril-1865-554638-publicacaooriginal-73376-pe.html",
+    "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-1037-30-agosto-1852-559381-publicacaooriginal-81578-pe.html",
+    "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-641-26-junho-1852-558790-publicacaooriginal-80365-pl.html",
+    "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-2601-6-junho-1860-556490-publicacaooriginal-76537-pe.html"
+   ]
+  },
+  {
+   "id": "p-monte-alegre",
+   "name": "José da Costa Carvalho, Viscount (later Marquis) of Monte Alegre",
+   "posts": [
+    {
+     "post": "President of the Council of Ministers (cabinet of 8 Oct 1849; also Minister of the Empire 1848-1852)",
+     "start": 1849,
+     "end": 1852,
+     "appointed_by": "Pedro II",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e1-17",
+     "role": "head of government; Lei 601 carta de lei is signed 'Visconde de Mont'alegre'",
+     "detail": "Per the original publication.",
+     "source_url": "https://www2.camara.leg.br/legin/fed/leimp/1824-1899/lei-601-18-setembro-1850-559842-publicacaooriginal-82254-pl.html",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Lei 601 (Câmara)",
+     "url": "https://www2.camara.leg.br/legin/fed/leimp/1824-1899/lei-601-18-setembro-1850-559842-publicacaooriginal-82254-pl.html"
+    },
+    {
+     "title": "pt.wikipedia: José da Costa Carvalho",
+     "url": "https://pt.wikipedia.org/wiki/Jos%C3%A9_da_Costa_Carvalho"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Jos%C3%A9_da_Costa_Carvalho",
+    "https://www2.camara.leg.br/legin/fed/leimp/1824-1899/lei-601-18-setembro-1850-559842-publicacaooriginal-82254-pl.html"
+   ]
+  },
+  {
+   "id": "p-eusebio",
+   "name": "Eusébio de Queirós Coutinho Matoso Câmara",
+   "posts": [
+    {
+     "post": "Minister of Justice (and so Chancellor in the Lei 601 sealing chain)",
+     "start": 1848,
+     "end": 1852,
+     "appointed_by": "Pedro II",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e1-17",
+     "role": "signed the Lei 601 carta de lei chain as Eusebio de Queiroz (Minister of Justice)",
+     "detail": "His name appears in the chain; his role in drafting the law is not documented. (He is known for the 1850 anti-slave-trade law, a different act.)",
+     "source_url": "https://www2.camara.leg.br/legin/fed/leimp/1824-1899/lei-601-18-setembro-1850-559842-publicacaooriginal-82254-pl.html",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Lei 601 (Câmara)",
+     "url": "https://www2.camara.leg.br/legin/fed/leimp/1824-1899/lei-601-18-setembro-1850-559842-publicacaooriginal-82254-pl.html"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Eus%C3%A9bio_de_Queir%C3%B3s",
+    "https://www2.camara.leg.br/legin/fed/leimp/1824-1899/lei-601-18-setembro-1850-559842-publicacaooriginal-82254-pl.html"
+   ]
+  },
+  {
+   "id": "p-martins",
+   "name": "Francisco Gonçalves Martins, Viscount of São Lourenço",
+   "posts": [
+    {
+     "post": "Minister of the Empire",
+     "start": 1852,
+     "end": 1853,
+     "appointed_by": "Pedro II",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e1-20",
+     "role": "signed Decreto 641 (interest guarantee)",
+     "detail": "Decreto 641 (26 June 1852) is signed by him; it also orders a refund to Thomaz Cochrane, whose nationality is unconfirmed (removed as a foreign tie).",
+     "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-641-26-junho-1852-558790-publicacaooriginal-80365-pl.html",
+     "basis": "documented-act",
+     "status": "verified"
+    },
+    {
+     "case_id": "e1-19",
+     "role": "signed Decreto 1.037 (Amazon steam navigation contract)",
+     "detail": "Per the decree.",
+     "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-1037-30-agosto-1852-559381-publicacaooriginal-81578-pe.html",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Decreto 641",
+     "url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-641-26-junho-1852-558790-publicacaooriginal-80365-pl.html"
+    },
+    {
+     "title": "Decreto 1.037",
+     "url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-1037-30-agosto-1852-559381-publicacaooriginal-81578-pe.html"
+    },
+    {
+     "title": "pt.wikipedia: Francisco Gonçalves Martins",
+     "url": "https://pt.wikipedia.org/wiki/Francisco_Gon%C3%A7alves_Martins"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Francisco_Gon%C3%A7alves_Martins",
+    "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-641-26-junho-1852-558790-publicacaooriginal-80365-pl.html",
+    "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-1037-30-agosto-1852-559381-publicacaooriginal-81578-pe.html"
+   ]
+  },
+  {
+   "id": "p-almeida-pereira-filho",
+   "name": "João de Almeida Pereira Filho",
+   "posts": [
+    {
+     "post": "Minister of the Empire (17 Sep 1859 - 2 Mar 1861, pt.wikipedia)",
+     "start": 1859,
+     "end": 1861,
+     "appointed_by": "Pedro II",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [
+    {
+     "counterpart": "São Paulo Railway Company (London)",
+     "kind": "foreign company",
+     "detail": "Approved its articles of association made in London.",
+     "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-2601-6-junho-1860-556490-publicacaooriginal-76537-pe.html",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e1-20",
+     "role": "signed Decreto 2.601 approving the São Paulo Railway articles",
+     "detail": "Per the decree.",
+     "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-2601-6-junho-1860-556490-publicacaooriginal-76537-pe.html",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Decreto 2.601",
+     "url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-2601-6-junho-1860-556490-publicacaooriginal-76537-pe.html"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Jo%C3%A3o_de_Almeida_Pereira_Filho",
+    "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-2601-6-junho-1860-556490-publicacaooriginal-76537-pe.html"
+   ]
+  },
+  {
+   "id": "p-jesuino-sa",
+   "name": "Jesuino Marcondes de Oliveira e Sá",
+   "posts": [
+    {
+     "post": "Minister of Agriculture, Commerce and Public Works (confirmed in office on 27 Apr 1865 by the decree; full term dates not confirmed, no Wikipedia article)",
+     "start": 1865,
+     "end": 1865,
+     "appointed_by": "Pedro II",
+     "status": "unverified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [
+    {
+     "counterpart": "Rio de Janeiro Gas Company Limited (London)",
+     "kind": "foreign company",
+     "detail": "Decree authorised it to operate in the Empire.",
+     "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-3456-27-abril-1865-554638-publicacaooriginal-73376-pe.html",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e1-18",
+     "role": "signed Decreto 3.456 (1865)",
+     "detail": "Per the decree.",
+     "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-3456-27-abril-1865-554638-publicacaooriginal-73376-pe.html",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Decreto 3.456",
+     "url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-3456-27-abril-1865-554638-publicacaooriginal-73376-pe.html"
+    }
+   ],
+   "verified_sources": [
+    "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-3456-27-abril-1865-554638-publicacaooriginal-73376-pe.html"
+   ]
+  },
+  {
+   "id": "p-isabel",
+   "name": "Isabel, Princess Imperial (Regent)",
+   "posts": [
+    {
+     "post": "Regent of the Empire (30 Jun 1887 - 22 Aug 1888, pt.wikipedia)",
+     "start": 1887,
+     "end": 1888,
+     "appointed_by": "Pedro II absent in Europe",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e1-22",
+     "role": "regent when the Santos port concession was decreed (12 July 1888)",
+     "detail": "Countersigned by Antonio da Silva Prado.",
+     "source_url": "https://legis.senado.leg.br/norma/417971/publicacao/15778887",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Decreto 9.979",
+     "url": "https://legis.senado.leg.br/norma/417971/publicacao/15778887"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Isabel_do_Brasil",
+    "https://legis.senado.leg.br/norma/417971/publicacao/15778887"
+   ]
+  },
+  {
+   "id": "p-prado",
+   "name": "Antonio da Silva Prado",
+   "posts": [
+    {
+     "post": "Minister of Agriculture, Commerce and Public Works (first term)",
+     "start": 1885,
+     "end": 1887,
+     "appointed_by": "Pedro II (Cotegipe cabinet; 20 Aug 1885 - 10 May 1887)",
+     "status": "verified"
+    },
+    {
+     "post": "Minister of Foreign Affairs",
+     "start": 1888,
+     "end": 1888,
+     "appointed_by": "Isabel / João Alfredo cabinet (10 Mar - 27 Jun 1888)",
+     "status": "verified"
+    },
+    {
+     "post": "Minister of Agriculture, Commerce and Public Works (second term)",
+     "start": 1888,
+     "end": 1889,
+     "appointed_by": "Isabel / João Alfredo cabinet (27 Jun 1888 - 5 Jan 1889)",
+     "status": "verified"
+    }
+   ],
+   "before": "Paulista politician and railway-linked planter (pt.wikipedia).",
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e1-22",
+     "role": "signed Decreto 9.979 (Santos port concession)",
+     "detail": "Decreto 9.979 of 12 July 1888, signed 'Antonio da Silva Prado'; concessionaires José Pinto de Oliveira, C. Gaffrée, Eduardo P. Guinle and others (opened decree).",
+     "source_url": "https://legis.senado.leg.br/norma/417971/publicacao/15778887",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Decreto 9.979",
+     "url": "https://legis.senado.leg.br/norma/417971/publicacao/15778887"
+    },
+    {
+     "title": "pt.wikipedia: Antonio da Silva Prado",
+     "url": "https://pt.wikipedia.org/wiki/Antonio_da_Silva_Prado"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Antonio_da_Silva_Prado",
+    "https://legis.senado.leg.br/norma/417971/publicacao/15778887"
+   ]
+  },
+  {
+   "id": "p-joao-alfredo",
+   "name": "João Alfredo Correia de Oliveira",
+   "posts": [
+    {
+     "post": "President of the Council of Ministers",
+     "start": 1888,
+     "end": 1889,
+     "appointed_by": "Isabel (Regent) (10 Mar 1888 - 7 Jun 1889)",
+     "status": "verified"
+    }
+   ],
+   "before": null,
+   "after": null,
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e1-22",
+     "role": "head of government when the Santos concession was decreed",
+     "detail": "President of the Council 10 Mar 1888 - 7 Jun 1889 (pt.wikipedia); not named in the decree text.",
+     "source_url": "https://pt.wikipedia.org/wiki/Jo%C3%A3o_Alfredo_Correia_de_Oliveira",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "pt.wikipedia: João Alfredo Correia de Oliveira",
+     "url": "https://pt.wikipedia.org/wiki/Jo%C3%A3o_Alfredo_Correia_de_Oliveira"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Jo%C3%A3o_Alfredo_Correia_de_Oliveira"
+   ]
+  }
+ ],
+ "foreign_counterparts": [
+  {
+   "case_id": "e1-13",
+   "counterpart": "United Kingdom",
+   "country": "United Kingdom",
+   "kind": "government",
+   "detail": "Loan contracted with Great Britain on 21 April 1809 (Cardoso); bank directors dealt with the Portuguese minister in London.",
+   "source_url": "https://www.scielo.br/j/rbh/a/JJgTM6Q3Fkv7dGB8dtTr7Vj/?lang=en",
+   "status": "verified"
+  },
+  {
+   "case_id": "e1-14",
+   "counterpart": "United Kingdom (Viscount Strangford)",
+   "country": "United Kingdom",
+   "kind": "government",
+   "detail": "British side of the 1810 Treaty of Commerce (Strangford Treaty page); 15% preferential tariff on British goods.",
+   "source_url": "https://en.wikipedia.org/wiki/Strangford_Treaty",
+   "status": "verified"
+  },
+  {
+   "case_id": "e1-15",
+   "counterpart": "United Kingdom (Canning)",
+   "country": "United Kingdom",
+   "kind": "government",
+   "detail": "British side of the 1827 treaty; Canning: 'more onerous to Brazil'.",
+   "source_url": "https://en.wikipedia.org/wiki/George_Canning",
+   "status": "verified"
+  },
+  {
+   "case_id": "e1-16",
+   "counterpart": "St John d'el Rey Mining Company (London joint-stock, first chairman John Diston Powles)",
+   "country": "United Kingdom",
+   "kind": "company",
+   "detail": "Owner of Morro Velho; Cornish managers and miners.",
+   "source_url": "https://en.wikipedia.org/wiki/Saint_John_d%27El_Rey_Mining_Company",
+   "status": "verified"
+  },
+  {
+   "case_id": "e1-18",
+   "counterpart": "Rio de Janeiro Gas Company Limited (London)",
+   "country": "United Kingdom",
+   "kind": "company",
+   "detail": "Authorised to operate in the Empire by Decreto 3.456 (1865).",
+   "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-3456-27-abril-1865-554638-publicacaooriginal-73376-pe.html",
+   "status": "verified"
+  },
+  {
+   "case_id": "e1-19",
+   "counterpart": "Amazon Steam Navigation Company (London)",
+   "country": "United Kingdom",
+   "kind": "company",
+   "detail": "Decreto 9.971 (20 Jun 1888) approved a capital reduction to £625,000 in 50,000 shares of £12.10s.",
+   "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-9971-20-junho-1888-542635-publicacaooriginal-51855-pe.html",
+   "status": "verified"
+  },
+  {
+   "case_id": "e1-20",
+   "counterpart": "São Paulo Railway Company (London); the articles list Stephen Sleigh, Stephen Busk, Robert Amadeus Heath, Martin Ridley Smith among those named",
+   "country": "United Kingdom",
+   "kind": "company",
+   "detail": "Articles of association made in London, approved by Decreto 2.601 (1860).",
+   "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-2601-6-junho-1860-556490-publicacaooriginal-76537-pe.html",
+   "status": "verified"
+  }
+ ]
+}

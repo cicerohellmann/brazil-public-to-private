@@ -1,0 +1,2723 @@
+[
+  {
+    "id": "e6-01",
+    "year": "2016 (law of 29 Nov 2016)",
+    "start_year": 2016,
+    "title": "End of Petrobras's mandatory pre-salt operator role (Lei 13.365/2016)",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Temer",
+    "what": "Lei 13.365/2016 revoked the rule in Lei 12.351/2010 that made Petrobras operator of all pre-salt blocks with at least 30% stake. Petrobras kept a right of first refusal (30 days to answer per block). If it takes the operator role it keeps at least 30%. The first auction under the new rules was held on 27 Oct 2017.",
+    "who_got": "Foreign and private oil companies able to operate pre-salt blocks. The bill is linked in the research notes to Sen. José Serra (PLS 131/2015); the ConJur page does not mention it.",
+    "terms": "No single price. There is a dispute over the value of the reserves ceded; no estimate was found in these sources.",
+    "mechanism": "Ordinary law amending the pre-salt production-sharing regime.",
+    "who_paid": "Disputed. Critics (FUP, unions, nationalists) say the Treasury and the country lose control of the strategic reserve. Supporters say Petrobras lacked capital to operate everything.",
+    "after": "Petrobras CEO Pedro Parente said Petrobras would use its preference right 'very selectively' (Carta Capital, confirmed). The 2017 auction went ahead after a federal injunction (26 Oct) was challenged by the AGU. A union challenged the law in court; no outcome found. Whether Petrobras took preference in only some blocks is unconfirmed (search says 2 of 4 blocks in the 3rd round).",
+    "counter_view": "Supporters: Temer said the old mandatory share was 'exagerada' (ConJur). The Senate bill rationale said Petrobras lacked capital to operate every block.",
+    "signs": [
+      "law-rewritten-for-deal"
+    ],
+    "figures": [
+      {
+        "label": "Signature bonuses of the 27 Oct 2017 auction",
+        "value": "about R$ 6.15 bn",
+        "currency": "BRL",
+        "value_year": 2017,
+        "estimator": "Search result (Carta Capital fact-check)",
+        "kind": "other",
+        "source_url": "https://www.cartacapital.com.br/?p=7005",
+        "status": "unverified",
+        "note": "Search snippet only; page not opened for this figure."
+      }
+    ],
+    "summary": "A 2016 law ended Petrobras's rule of operating every pre-salt block. Private and foreign oil firms can now operate them. Critics say the country loses control of its reserves; supporters say Petrobras lacked the capital.",
+    "sources": [
+      {
+        "title": "legis.senado.leg.br",
+        "url": "https://legis.senado.leg.br/sdleg-getter/documento?dm=5211029"
+      },
+      {
+        "title": "congressonacional.leg.br",
+        "url": "https://www.congressonacional.leg.br/materias/materias-bicamerais/-/ver/pls-131-2015"
+      },
+      {
+        "title": "legjur.com",
+        "url": "https://www.legjur.com/legislacao/htm/lei_00133652016"
+      },
+      {
+        "title": "cartacapital.com.br",
+        "url": "https://www.cartacapital.com.br/?p=7005"
+      },
+      {
+        "title": "jb.com.br",
+        "url": "https://www.jb.com.br/pais/noticias/2016/02/24/amp/fim-da-participacao-obrigatoria-da-petrobras-na-exploracao-do-pre-sal-e-aprovado-no-senado.html"
+      },
+      {
+        "title": "conjur.com.br",
+        "url": "https://www.conjur.com.br/2016-nov-30/publicada-lei-retira-obrigatoriedade-petrobras-explorar-pre-sal//?print=1"
+      }
+    ]
+  },
+  {
+    "id": "e6-02",
+    "year": "2016–2019",
+    "start_year": 2016,
+    "title": "Petrobras gas pipelines: NTS and TAG (and TBG)",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Temer (NTS), Bolsonaro (TAG)",
+    "what": "Sale of 90% of NTS (Brookfield-led group), announced Sept 2016 and closed 4 Apr 2017. Sale of 90% of TAG (Engie-led group), announced 5 Apr 2019 and closed 13 Jun 2019. TBG (51%) was pledged in the 2019 CADE agreement with a deadline at the end of 2021, but was not completed.",
+    "who_got": "Brookfield group (NTS). Engie-led group (TAG).",
+    "terms": "NTS: US$ 5.19 bn headline (US$ 3.55 bn shares plus US$ 1.64 bn debt); US$ 4.23 bn actually paid at closing. TAG: about US$ 8.6 bn enterprise value (includes US$ 800 mn BNDES debt); Petrobras received R$ 33.5 bn. No undervaluation estimate was found.",
+    "mechanism": "Sale of subsidiary stakes under Petrobras's divestment plan and a CADE settlement (TCC) to end its dominance in the gas market.",
+    "who_paid": "Unions (FUP) argue loss of a strategic network. Unnamed specialists cited by CUT/FUP say about US$ 1 bn a year in revenue is lost; this is unconfirmed and comes from an advocacy source.",
+    "after": "Not traced beyond the sale. TBG sale required by CADE was not completed (Eixos search result only).",
+    "counter_view": "Petrobras argued the sales were for debt reduction and for opening the gas market, as CADE required. CUT/FUP frame it as 'delivering pipelines to foreigners'.",
+    "signs": [],
+    "figures": [
+      {
+        "label": "NTS sale, headline total",
+        "value": "5.19 bn",
+        "currency": "USD",
+        "value_year": 2016,
+        "estimator": "Petrobras / JB report",
+        "kind": "other",
+        "source_url": "https://www.jb.com.br/economia/noticias/2016/09/23/amp/petrobras-vende-por-us-52-bi-para-brookfield-90-de-seu-gasoduto.html",
+        "status": "verified",
+        "note": "US$ 3.55 bn shares plus US$ 1.64 bn debt. The notes' disagreement of 4.2 vs 5.2 is explained: both are right (see next figure)."
+      },
+      {
+        "label": "NTS paid at closing (4 Apr 2017)",
+        "value": "4.23 bn",
+        "currency": "USD",
+        "value_year": 2017,
+        "estimator": "Exame",
+        "kind": "other",
+        "source_url": "https://exame.com/negocios/petrobras-conclui-venda-de-participacao-na-nts/",
+        "status": "verified",
+        "note": "US$ 2.59 bn shares plus US$ 1.64 bn debentures. US$ 850 mn over 5 years in the original announcement."
+      },
+      {
+        "label": "TAG enterprise value",
+        "value": "about 8.6 bn",
+        "currency": "USD",
+        "value_year": 2019,
+        "estimator": "InfoMoney",
+        "kind": "other",
+        "source_url": "https://www.infomoney.com.br/?p=422213",
+        "status": "corrected",
+        "note": "Notes said 'US$ 9 bn' (Exame, unconfirmed). Fact-check found no source for US$ 9 bn; value corrected to about US$ 8.6 bn (R$ 35.1 bn enterprise value, includes US$ 800 mn BNDES debt)."
+      },
+      {
+        "label": "TAG cash received by Petrobras at closing (13 Jun 2019)",
+        "value": "33.5 bn",
+        "currency": "BRL",
+        "value_year": 2019,
+        "estimator": "Forbes Brasil",
+        "kind": "other",
+        "source_url": "https://forbes.com.br/last/2019/06/petrobras-recebe-r-335-bi-por-tag/",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Claimed loss of pipeline revenue",
+        "value": "about 1 bn per year",
+        "currency": "USD",
+        "value_year": null,
+        "estimator": "Unnamed specialists cited by CUT/FUP",
+        "kind": "other",
+        "source_url": "https://www.cut.org.br/noticias/parente-quer-entregar-aos-gringos-todos-os-gasodutos-da-petrobras-c29e/",
+        "status": "unverified",
+        "note": "Only in an advocacy source; not confirmed."
+      }
+    ],
+    "summary": "Petrobras sold 90% of its NTS and TAG gas pipelines to private groups. NTS went to Brookfield for about US$ 5.2 bn (US$ 4.2 bn paid at closing). TAG went to Engie for about US$ 8.6 bn. The sales were part of a debt plan and a CADE settlement; unions say the country lost a strategic network.",
+    "sources": [
+      {
+        "title": "pgjonline.com (unrelated Yamal gas article; wrong link in notes)",
+        "url": "https://pgjonline.com/19765/"
+      },
+      {
+        "title": "cut.org.br",
+        "url": "https://www.cut.org.br/noticias/parente-quer-entregar-aos-gringos-todos-os-gasodutos-da-petrobras-c29e/"
+      },
+      {
+        "title": "folhavitoria.com.br",
+        "url": "https://www.folhavitoria.com.br/economia/engie-vira-a-unica-na-disputa-por-gasoduto/"
+      },
+      {
+        "title": "gov.br",
+        "url": "https://www.gov.br/mme/pt-br/arquivos/clipping-06-09-2017.pdf"
+      },
+      {
+        "title": "jb.com.br",
+        "url": "https://www.jb.com.br/economia/noticias/2016/09/23/amp/petrobras-vende-por-us-52-bi-para-brookfield-90-de-seu-gasoduto.html"
+      },
+      {
+        "title": "exame.com",
+        "url": "https://exame.com/negocios/petrobras-conclui-venda-de-participacao-na-nts/"
+      },
+      {
+        "title": "infomoney.com.br",
+        "url": "https://www.infomoney.com.br/?p=422213"
+      },
+      {
+        "title": "forbes.com.br",
+        "url": "https://forbes.com.br/last/2019/06/petrobras-recebe-r-335-bi-por-tag/"
+      }
+    ]
+  },
+  {
+    "id": "e6-03",
+    "year": "2016–2023",
+    "start_year": 2016,
+    "title": "Petrobras import-parity pricing (PPI) and dividends to private shareholders",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Temer, Bolsonaro, Lula 3 (to May 2023)",
+    "what": "Petrobras priced fuels at import parity (PPI). The FUP says this began in 2016 under Temer and was kept by Bolsonaro (labor source, snippet only). On 12 May 2023 CEO Prates confirmed a new formula would replace it; the board approved a new strategy on 15 May 2023. In the PPI years Petrobras paid large dividends, mostly in 2022.",
+    "who_got": "Shareholders: the Union (largest single receiver), BNDES/BNDESPar, Brazilian institutions and foreign holders.",
+    "terms": "Dividends 2022: R$ 215.7 bn announced, with Brent averaging US$ 101.19. Union got about R$ 79 bn. Union plus BNDES/BNDESPar hold 36.6% of capital.",
+    "mechanism": "Company pricing policy and dividend policy. No new law.",
+    "who_paid": "Fuel consumers (import-parity prices); disputed. The Union is itself the biggest dividend receiver, so dividends are not purely a transfer to private owners.",
+    "after": "New pricing formula announced May 2023 (uses client alternative cost and marginal value). Critics say the formula is not published. Ineep says prices became more stable in 2023-24. In 2023 the payout rule changed from 60% to 45% of free cash flow (snippet).",
+    "counter_view": "The Union is the largest dividend receiver, so the open questions are the share paid to non-Union holders and whether the payout crowded out investment. (Money Times / InfoMoney / BP Money, as in the notes.)",
+    "signs": [],
+    "figures": [
+      {
+        "label": "Dividends announced for 2022",
+        "value": "215.7 bn",
+        "currency": "BRL",
+        "value_year": 2022,
+        "estimator": "InfoMoney",
+        "kind": "other",
+        "source_url": "https://www.infomoney.com.br/?p=2397525",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "Union share of 2022 dividends",
+        "value": "about 79 bn",
+        "currency": "BRL",
+        "value_year": 2022,
+        "estimator": "InfoMoney",
+        "kind": "other",
+        "source_url": "https://www.infomoney.com.br/?p=2397525",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "Dividends to non-Union holders 2022 (derived)",
+        "value": "about 136.7 bn",
+        "currency": "BRL",
+        "value_year": 2022,
+        "estimator": "Researcher arithmetic (215.7 minus 79), not a source",
+        "kind": "other",
+        "source_url": "https://www.infomoney.com.br/?p=2397525",
+        "status": "unverified",
+        "note": "Derived by the researcher; includes Brazilian institutions and foreign holders, and part of BNDES/BNDESPar."
+      },
+      {
+        "label": "Union, BNDES and BNDESPar share of 2023 dividends",
+        "value": "34.5 bn (R$ 26.5 bn ordinary plus JCP, R$ 8 bn Union share of R$ 21.9 bn extra)",
+        "currency": "BRL",
+        "value_year": 2023,
+        "estimator": "BP Money",
+        "kind": "other",
+        "source_url": "https://bpmoney.com.br/negocios/empresas-na-bolsa/petrobras-petr4-pagou-r-274-bi-a-uniao-em-2023-com-dividendo-extra",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes. R$ 274.7 bn in that source is dividends plus taxes, not dividends alone."
+      },
+      {
+        "label": "Bolsonaro-era dividends, yearly average",
+        "value": "84.5 bn, 98.8% of profit",
+        "currency": "BRL",
+        "value_year": null,
+        "estimator": "DIEESE/FUP (partisan)",
+        "kind": "other",
+        "source_url": null,
+        "status": "unverified",
+        "note": "Snippet only; labor-aligned estimator. The notes give no URL for this figure."
+      }
+    ],
+    "summary": "Petrobras priced fuel at import parity from 2016 until May 2023, and paid very large dividends, especially in 2022 (R$ 215.7 bn). The Union received about R$ 79 bn of that. The case is about who gained from the payouts, not a sale of an asset.",
+    "sources": [
+      {
+        "title": "moneytimes.com.br",
+        "url": "https://www.moneytimes.com.br/petrobras-petr4-nova-regra-tera-o-preco-sempre-mais-baixo-que-a-ppi-diz-ceo/"
+      },
+      {
+        "title": "infomoney.com.br",
+        "url": "https://www.infomoney.com.br/?p=2397525"
+      },
+      {
+        "title": "bpmoney.com.br",
+        "url": "https://bpmoney.com.br/negocios/empresas-na-bolsa/petrobras-petr4-pagou-r-274-bi-a-uniao-em-2023-com-dividendo-extra"
+      },
+      {
+        "title": "cut.org.br",
+        "url": "https://www.cut.org.br/noticias/parente-quer-entregar-aos-gringos-todos-os-gasodutos-da-petrobras-c29e/"
+      }
+    ]
+  },
+  {
+    "id": "e6-04",
+    "year": "2016–2020",
+    "start_year": 2016,
+    "title": "Early renewal of Vale railway concessions (EFVM, EFC) and Rumo Malha Paulista",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Temer (process), Bolsonaro (TCU approval)",
+    "what": "Extension of the 1997 Vale concessions (Vitória-Minas, EFVM; Carajás, EFC) without a new auction. TCU approved the renewals on 29 Jul 2020. Investment commitments: R$ 8.5 bn (EFVM) and R$ 9.8 bn (EFC), plus Fico R$ 2.73 bn. Rumo's Malha Paulista: TCU Acórdão 2.876/2019 (27 Nov 2019), extension to 31 Dec 2058, addendum signed 27 May 2020.",
+    "who_got": "Vale (EFVM, EFC) and Rumo (Malha Paulista).",
+    "terms": "The grant (outorga) swung with the valuation method. Vale waived a negative EFC value of about R$ 2.1 bn; EFVM ranged from about R$ 1.52 bn to R$ 3.28 bn after TCU recalculation. TCU staff recalculation with Vale's 2017 EBIT/ROL would add about R$ 14.17 bn on EFC and over R$ 15 bn in total. Vale proposed R$ 639 mn at an 11.04% discount rate; at the Selic of 2.25% that would be about R$ 15.47 bn. Final outorga R$ 11.8 bn; total commitments R$ 24.7 bn to 2057.",
+    "mechanism": "Early (anticipated) renewal clause under Lei 13.448/2017 (confirmed by a typo on the TCU page, which says 'Lei 13.488'), with the grant valued by the regulator ANTT.",
+    "who_paid": "The Treasury (value of the grant); competitors lose the chance for a new bid.",
+    "after": "Repactuation: Dec 2024 protocol of about R$ 17 bn including R$ 11.3 bn of outorgas; the Secex Consenso at TCU failed in Aug 2025; as of 13 Mar 2026 a deal of about R$ 11 bn was near (about R$ 4 bn paid, about R$ 7 bn to go) plus about 400 km of Fico. 'Terms' were under discussion on 1 Apr 2026 (agenciainfra).",
+    "counter_view": "Vale and ANTT argue the ore price is internal and that other operators' cost of capital would overstate the value. TCU staff argued the opposite.",
+    "signs": [
+      "exclusive-privilege",
+      "below-value-price"
+    ],
+    "figures": [
+      {
+        "label": "EFVM investment commitment",
+        "value": "8.5 bn",
+        "currency": "BRL",
+        "value_year": 2020,
+        "estimator": "TCU / Diário do Transporte",
+        "kind": "other",
+        "source_url": "https://diariodotransporte.com.br/2020/07/30/tcu-avaliza-renovacao-de-concessao-das-estradas-de-ferro-vitoria-a-minas-efvm-e-carajas-efc/amp/",
+        "status": "verified",
+        "note": "Counterpart is mainly Fico plus the Cariacica-Anchieta section (about 200 km per a search snippet); the notes had only the Vitória-Anchieta section."
+      },
+      {
+        "label": "EFC investment commitment",
+        "value": "9.8 bn",
+        "currency": "BRL",
+        "value_year": 2020,
+        "estimator": "TCU / Agência iNFRA",
+        "kind": "other",
+        "source_url": "https://agenciainfra.com/blog/orgaos-do-governo-e-vale-trabalham-para-assinar-renovacoes-da-efvm-e-da-efc-em-novembro/",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Outorga by method (EFC)",
+        "value": "negative 2.1 bn (ANTT/Vale) to about 14.17 bn extra (TCU staff method). The 'about R$ 200 mn' ANTT figure was not found",
+        "currency": "BRL",
+        "value_year": 2020,
+        "estimator": "ANTT vs TCU technical staff",
+        "kind": "price-gap",
+        "source_url": "https://agenciainfra.com/blog/?p=4267",
+        "status": "disputed",
+        "note": "Notes said EFC grant ran from about R$ 14 bn (CADE method) to about R$ 200 mn (ANTT method). The R$ 200 mn is unconfirmable; the negative R$ 2.1 bn and the TCU staff +R$ 14.17 bn are confirmed."
+      },
+      {
+        "label": "Final outorga",
+        "value": "11.8 bn (total commitments 24.7 bn to 2057)",
+        "currency": "BRL",
+        "value_year": null,
+        "estimator": "Suno",
+        "kind": "other",
+        "source_url": "https://www.suno.com.br/noticias/?p=108566",
+        "status": "corrected",
+        "note": "Notes said final figures were not confirmed; fact-check found R$ 11.8 bn."
+      },
+      {
+        "label": "Vale's proposed outorga vs value at Selic 2.25%",
+        "value": "639 mn at 11.04% discount rate vs about 15.47 bn",
+        "currency": "BRL",
+        "value_year": 2020,
+        "estimator": "Diário do Comércio",
+        "kind": "price-gap",
+        "source_url": "https://diariodocomercio.com.br/especial/sme/engenharia-hoje-renovacao-antecipada-da-estrada-de-ferro-vitoria-a-minas-gera-batalha/",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Repactuation, Dec 2024 protocol",
+        "value": "about 17 bn including 11.3 bn of outorgas",
+        "currency": "BRL",
+        "value_year": 2024,
+        "estimator": "Agência iNFRA",
+        "kind": "other",
+        "source_url": "https://agenciainfra.com/blog/?p=37849",
+        "status": "verified",
+        "note": "Mar 2026: a deal of about R$ 11 bn was near."
+      },
+      {
+        "label": "Malha Paulista outorga (addendum 27 May 2020)",
+        "value": "about 2.9 bn",
+        "currency": "BRL",
+        "value_year": 2020,
+        "estimator": "TCU",
+        "kind": "other",
+        "source_url": "https://portal.tcu.gov.br/imprensa/noticias/tribunal-aprova-com-condicoes-a-prorrogacao-da-malha-paulista.htm",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "summary": "The government renewed Vale's two big railway concessions early, without a new auction, and renewed Rumo's Malha Paulista to 2058. The payment owed to the state changed hugely with the valuation method, from negative to over R$ 14 bn more. The final grant was R$ 11.8 bn and a new settlement was still being worked out in 2026.",
+    "sources": [
+      {
+        "title": "agenciainfra.com",
+        "url": "https://agenciainfra.com/blog/antt-aumenta-valor-da-outorga-para-renovar-concessoes-de-ferrovias-da-vale/"
+      },
+      {
+        "title": "agenciainfra.com",
+        "url": "https://agenciainfra.com/blog/tag/efvm/page/4"
+      },
+      {
+        "title": "agenciainfra.com",
+        "url": "https://agenciainfra.com/blog/orgaos-do-governo-e-vale-trabalham-para-assinar-renovacoes-da-efvm-e-da-efc-em-novembro/"
+      },
+      {
+        "title": "diariodocomercio.com.br",
+        "url": "https://diariodocomercio.com.br/especial/sme/engenharia-hoje-renovacao-antecipada-da-estrada-de-ferro-vitoria-a-minas-gera-batalha/"
+      },
+      {
+        "title": "agenciainfra.com",
+        "url": "https://agenciainfra.com/blog/?p=38869"
+      },
+      {
+        "title": "diariodotransporte.com.br",
+        "url": "https://diariodotransporte.com.br/2020/07/30/tcu-avaliza-renovacao-de-concessao-das-estradas-de-ferro-vitoria-a-minas-efvm-e-carajas-efc/amp/"
+      },
+      {
+        "title": "agenciainfra.com",
+        "url": "https://agenciainfra.com/blog/?p=4267"
+      },
+      {
+        "title": "agenciainfra.com",
+        "url": "https://agenciainfra.com/blog/?p=4102"
+      },
+      {
+        "title": "suno.com.br",
+        "url": "https://www.suno.com.br/noticias/?p=108566"
+      },
+      {
+        "title": "agenciainfra.com",
+        "url": "https://agenciainfra.com/blog/?p=37849"
+      },
+      {
+        "title": "portal.tcu.gov.br",
+        "url": "https://portal.tcu.gov.br/imprensa/noticias/tribunal-aprova-com-condicoes-a-prorrogacao-da-malha-paulista.htm"
+      }
+    ]
+  },
+  {
+    "id": "e6-05",
+    "year": "2016–2021",
+    "start_year": 2016,
+    "title": "Ferrogrão and the cut of Jamanxim National Park (Lei 13.452/2017)",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Temer (law); Lula 3 (STF ruling)",
+    "what": "MP 758/2016 and Lei 13.452/2017 removed about 862 ha from Jamanxim National Park for the Ferrogrão (EF-170) railway and BR-163 right of way. PSOL filed ADI 6553; the STF suspended the law (injunction 2021) and sent the case to conciliation (hearing 2 Jun 2023). Judgment began Oct 2025 (Dino vista); postponements 8-9 Apr 2026; the STF validated the law on 21 May 2026 with 7 votes in the majority (Fachin dissented, Dino partly diverged, Cármen Lúcia did not vote).",
+    "who_got": "Grain trading companies and exporters via the railway concession. The model was never auctioned (not in sources).",
+    "terms": "No price. Land taken out of a protected area.",
+    "mechanism": "Provisional measure converted into law reducing a conservation unit.",
+    "who_paid": "Indigenous peoples in the region (INESC factsheet) and the park area.",
+    "after": "STF validated the law in May 2026, saying there is no environmental regression.",
+    "counter_view": "The same MP/law would add over 51,000 ha of APA Tapajós to the park, so net protected area rises (ConJur). The case is told one-sidedly if only the 862 ha cut is cited.",
+    "signs": [
+      "law-rewritten-for-deal"
+    ],
+    "figures": [
+      {
+        "label": "Area removed from Jamanxim National Park",
+        "value": "862 ha",
+        "currency": "n/a",
+        "value_year": 2017,
+        "estimator": "STF",
+        "kind": "land-area",
+        "source_url": "https://noticias.stf.jus.br/postsnoticias/stf-valida-lei-que-reduziu-area-protegida-no-para-para-viabilizar-ferrograo/",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Area added from APA Tapajós (offset)",
+        "value": "over 51,000 ha",
+        "currency": "n/a",
+        "value_year": 2017,
+        "estimator": "ConJur",
+        "kind": "land-area",
+        "source_url": "https://noticias.stf.jus.br/postsnoticias/stf-valida-lei-que-reduziu-area-protegida-no-para-para-viabilizar-ferrograo/",
+        "status": "unverified",
+        "note": "Per ConJur as reported in the fact-check; ConJur page not opened. Source URL is the STF page; the ConJur link is not given in the files."
+      }
+    ],
+    "summary": "A 2017 law cut about 862 ha out of Jamanxim National Park to make room for the Ferrogrão grain railway. The STF suspended it, then validated it in May 2026. Defenders say the law also added over 51,000 ha of other protected land.",
+    "sources": [
+      {
+        "title": "noticias.stf.jus.br",
+        "url": "https://noticias.stf.jus.br/postsnoticias/stf-valida-lei-que-reduziu-area-protegida-no-para-para-viabilizar-ferrograo/"
+      },
+      {
+        "title": "noticias.stf.jus.br",
+        "url": "https://noticias.stf.jus.br/postsnoticias/ferrograo-entenda-controversia-sobre-reducao-de-parque-ambiental-para-construcao-de-ferrovia/"
+      },
+      {
+        "title": "mattosfilho.com.br",
+        "url": "https://www.mattosfilho.com.br/unico/ferrograo-julgamento-stf-adi-6553/"
+      },
+      {
+        "title": "static.poder360.com.br",
+        "url": "https://static.poder360.com.br/2026/05/Voto_Dino_Ferrograo_21_mai_2026_ADI_6553.pdf"
+      },
+      {
+        "title": "inesc.org.br",
+        "url": "https://inesc.org.br/wp-content/uploads/2025/04/factsheet-05_impactosculturaisdaferrograo.pdf"
+      }
+    ]
+  },
+  {
+    "id": "e6-06",
+    "year": "2016–2025",
+    "start_year": 2016,
+    "title": "Land regularization: Lei 13.465/2017 and PL 2633/2020 ('PL da grilagem')",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Temer (law); Bolsonaro era (PL 2633)",
+    "what": "MP 759/2016 and Lei 13.465 (July 2017) broadened regularization of rural and urban land, including federal land. The PGR (Janot, filed late Aug 2017, then Raquel Dodge) filed ADI 5.771 arguing unconstitutionality. PL 2633/2020 was approved by the Câmara on 3 Aug 2021 (296 to 196) and sent to the Senate; critics say art. 38 and the 22 Jul 2008 cutoff amount to a continuing amnesty. Law 11.952/2009 allows no-bid titling up to 2,500 ha for occupations up to Dec 2011; the original cap was 1,500 ha and Lei 13.465/2017 raised it to 2,500 ha.",
+    "who_got": "Occupiers of federal public land, including large holders; critics say it favours land concentration. The MST opposes the title-deed model.",
+    "terms": "No price; free or low-cost titling. Free titling up to 1 fiscal module (100 ha in the Amazon); faster track up to 4 modules (400 ha).",
+    "mechanism": "Law and provisional measure regularizing occupations after the fact.",
+    "who_paid": "Public land (the Union) and traditional communities.",
+    "after": "STF: ADIs 5771/5787/5883/6787 are in the virtual plenary. Toffoli voted on 6 Dec 2024; Dino diverged (partial upholding, vista May 2025); Cármen Lúcia followed; a Toffoli complement about Aug 2026 aligns with Dino. No final outcome found. PL 2633 Senate status is in conflict: 'prejudicada/encerrada' vs 'aguardando apreciação' on the Congress page.",
+    "counter_view": "Defenders say titling reduces conflict and gives smallholders legal security; the STF majority trend is partial, not full, invalidation.",
+    "signs": [
+      "land-grant",
+      "rights-legalised-after-fact",
+      "law-rewritten-for-deal"
+    ],
+    "figures": [
+      {
+        "label": "Undesignated federal land in the Legal Amazon",
+        "value": "about 144 million ha (nearly 30%); about 300,000 occupations not regularized",
+        "currency": "n/a",
+        "value_year": 2022,
+        "estimator": "Imazon / Amazônia 2030 (Brenda Brito)",
+        "kind": "land-area",
+        "source_url": "https://acervo.socioambiental.org/sites/default/files/documents/t1d00112.pdf",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "Terra Legal target vs delivery",
+        "value": "target 300,000 properties / 67 million ha; under 40,000 titles in 2009-2018 (about 3,190 a year); 753 definitive titles in 2021",
+        "currency": "n/a",
+        "value_year": 2022,
+        "estimator": "Imazon / Amazônia 2030",
+        "kind": "land-area",
+        "source_url": "https://acervo.socioambiental.org/sites/default/files/documents/t1d00112.pdf",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "Untitled parcels overlapping undesignated public forests (Jan 2021)",
+        "value": "85,359 parcels, 11.1 million ha, of which 6.1 million ha (55%) overlap forests where titling is prohibited",
+        "currency": "n/a",
+        "value_year": 2021,
+        "estimator": "Imazon / Amazônia 2030",
+        "kind": "land-area",
+        "source_url": "https://acervo.socioambiental.org/sites/default/files/documents/t1d00112.pdf",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "Rejected requests with no retake measures (TCU 2020)",
+        "value": "887,000 ha in 5,080 properties",
+        "currency": "n/a",
+        "value_year": 2020,
+        "estimator": "TCU 2020, via Imazon",
+        "kind": "land-area",
+        "source_url": "https://acervo.socioambiental.org/sites/default/files/documents/t1d00112.pdf",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "Incra title deliveries",
+        "value": "2016: 17.3k; 2018: 78.6k; 2020: over 100k; 2021: 91.7k so far (130k expected)",
+        "currency": "n/a",
+        "value_year": 2021,
+        "estimator": "Gazeta do Povo",
+        "kind": "other",
+        "source_url": "https://www.gazetadopovo.com.br/vida-e-cidadania/incra-governo-federal-acelera-concessao-titulos-produtores-rurais-mst-contrario/",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes. Titula Brasil launched Feb 2021, goal 130k; about half of roughly 2,000 eligible municipalities joined. Snippets (unverified): 404,933 titles Jan 2019-Aug 2022 vs 332,818 under Lula and Dilma; about 88% provisional."
+      },
+      {
+        "label": "Total hectares titled under Lei 13.465 / Terra Legal",
+        "value": "not found",
+        "currency": "n/a",
+        "value_year": null,
+        "estimator": "n/a",
+        "kind": "land-area",
+        "source_url": null,
+        "status": "unverified",
+        "note": "Gap in the research: no hectare total found."
+      }
+    ],
+    "summary": "Lei 13.465 (2017) made it easier to get title to federal land, and the 2021 'PL da grilagem' would have extended it. The STF is judging the law and leans toward partial invalidation. Reports say over half of 11 million ha of untitled parcels overlapped forests where titling is banned.",
+    "sources": [
+      {
+        "title": "ihu.unisinos.br",
+        "url": "https://www.ihu.unisinos.br/571374"
+      },
+      {
+        "title": "oeco.org.br",
+        "url": "https://oeco.org.br/wp-content/uploads/wp-post-to-pdf-enhanced-cache/1/raquel-dodge-defende-inconstitucionalidade-da-lei-da-grilagem.pdf"
+      },
+      {
+        "title": "site-antigo.socioambiental.org",
+        "url": "https://site-antigo.socioambiental.org/en/print/7335"
+      },
+      {
+        "title": "site-antigo.socioambiental.org",
+        "url": "https://site-antigo.socioambiental.org/pt-br/print/7363"
+      },
+      {
+        "title": "migalhas.com.br",
+        "url": "https://www.migalhas.com.br/arquivos/2025/5/54F4B4AF457F92_6424097.pdf"
+      },
+      {
+        "title": "acervo.socioambiental.org",
+        "url": "https://acervo.socioambiental.org/sites/default/files/documents/t1d00112.pdf"
+      },
+      {
+        "title": "gazetadopovo.com.br",
+        "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/incra-governo-federal-acelera-concessao-titulos-produtores-rurais-mst-contrario/"
+      }
+    ]
+  },
+  {
+    "id": "e6-07",
+    "year": "2017",
+    "start_year": 2017,
+    "title": "Renca decree: opening a copper reserve to mining",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Temer",
+    "what": "In Aug 2017 a decree extinguished the Renca (National Reserve of Copper and Associates, created 1984) to open it to mineral exploration. The area is about 47,000 km2, about 4.7 million ha, in Amapá and Pará (about 2.3 million ha in Amapá); gold is the main mineral, plus iron, manganese and tantalum. Decree 9.142 (22 Aug) was replaced by 9.147 (28 Aug), which kept the extinction but excluded Indigenous and conservation areas. A federal court in Brasília (Judge Spanholo, 21st Federal Court) suspended it on 29 or 30 Aug. Decree 9.159 (signed 25 Sep, published 26 Sep) revoked 9.147.",
+    "who_got": "Prospective private mining companies. No concession was granted in the sources; the 'transfer' was the opening of the area to private mining rights.",
+    "terms": "No price.",
+    "mechanism": "Presidential decree.",
+    "who_paid": "Indigenous and conservation areas, forest. Reversed before any concession was found.",
+    "after": "Reversed. The case shows that mass mobilization and a court stopped a transfer. Whether any mining right was ever issued is not known. One snippet says the September decree revoked 9.147 but kept the extinction (oeco).",
+    "counter_view": "The government argued the decree only ended the reserve status and that protected areas inside Renca stayed untouched (specific laws still applied).",
+    "signs": [],
+    "figures": [
+      {
+        "label": "Renca area",
+        "value": "about 47,000 km2 (about 4.7 million ha)",
+        "currency": "n/a",
+        "value_year": 2017,
+        "estimator": "Agência Brasil",
+        "kind": "land-area",
+        "source_url": "https://agenciabrasil.ebc.com.br/politica/noticia/2017-09/diario-oficial-publica-decreto-que-revoga-extincao-da-renca",
+        "status": "corrected",
+        "note": "Notes said about 4 million ha (the IHU page says 'more than 4 million ha'). Fact-check corrected to about 4.7 million ha. Decree numbers corrected: 9.142 first, 9.147 second, 9.159 revoked 9.147."
+      }
+    ],
+    "summary": "A 2017 decree closed the Renca copper reserve, about 4.7 million ha in the Amazon, to open it to mining. A court suspended it and President Temer revoked it in September 2017. No mining rights are known to have been issued.",
+    "sources": [
+      {
+        "title": "agenciabrasil.ebc.com.br",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2017-09/diario-oficial-publica-decreto-que-revoga-extincao-da-renca"
+      },
+      {
+        "title": "jb.com.br",
+        "url": "https://www.jb.com.br/pais/noticias/2017/09/25/amp/temer-recua-e-decide-revogar-decreto-que-extinguiu-reserva-na-amazonia.html"
+      },
+      {
+        "title": "ihu.unisinos.br",
+        "url": "https://ihu.unisinos.br/571149-governo-mantem-extincao-de-reserva-amazonica-mas-exclui-areas-indigenas-e-de-preservacao-em-novo-decreto"
+      },
+      {
+        "title": "ihu.unisinos.br",
+        "url": "https://ihu.unisinos.br/categorias/571209-governo-pulou-debate-no-congresso-diz-juiz-que-anulou-decreto-de-temer-sobre-amazonia"
+      },
+      {
+        "title": "ihu.unisinos.br",
+        "url": "https://ihu.unisinos.br/categorias/570990-governo-federal-extingue-reserva-ao-sul-do-amapa-para-liberar-exploracao-mineral"
+      }
+    ]
+  },
+  {
+    "id": "e6-08",
+    "year": "2018–2020",
+    "start_year": 2018,
+    "title": "Liquigás (LPG distributor) sale",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Temer, then Bolsonaro",
+    "what": "Failed 2018 sale to Ultragaz: CADE blocked it on 28 Feb 2018 (5-2; original price R$ 2.8 bn) and Petrobras paid a R$ 286.2 mn contractual fine. Nov 2019: sale to Copagaz, Nacional Gás Butano (NGB) and Itaúsa. CADE approved with restrictions on 18 Nov 2020.",
+    "who_got": "Copagaz / Nacional Gás Butano / Itaúsa. Under the CADE remedy, NewCo 1 goes to NGB and NewCo 2 to Fogás.",
+    "terms": "R$ 3.7 bn (a headline in the search says 'R$ 37 milhões', which is a typo).",
+    "mechanism": "Sale of a subsidiary with a CADE concentration-control agreement (ACC).",
+    "who_paid": "Concentration risk in LPG distribution per CADE; no consumer-cost study found.",
+    "after": "Sale approved with remedies in Nov 2020.",
+    "counter_view": "Petrobras said the sale fit its divestment plan and debt cuts. CADE's 2018 rejection was over concentration in LPG distribution.",
+    "signs": [],
+    "figures": [
+      {
+        "label": "Sale price to Copagaz/NGB/Itaúsa",
+        "value": "3.7 bn",
+        "currency": "BRL",
+        "value_year": 2019,
+        "estimator": "Suno / InfoMoney / Forbes (search results)",
+        "kind": "other",
+        "source_url": "https://www.suno.com.br/noticias/cade-aprova-venda-liquigas/amp/",
+        "status": "unverified",
+        "note": "No opened page states the price; several outlets in search results give R$ 3.7 bn. 'R$ 37 milhões' is a typo."
+      },
+      {
+        "label": "Failed 2018 price (Ultragaz)",
+        "value": "2.8 bn",
+        "currency": "BRL",
+        "value_year": 2018,
+        "estimator": "Search results",
+        "kind": "other",
+        "source_url": "https://eixos.com.br/venda-da-liquigas-depende-de-acordo-para-controle-de-concentracao-de-mercado-indica-o-cade/",
+        "status": "unverified",
+        "note": "Search only."
+      },
+      {
+        "label": "Petrobras contractual fine after CADE blocked the 2018 sale",
+        "value": "286.2 mn",
+        "currency": "BRL",
+        "value_year": 2018,
+        "estimator": "Search results",
+        "kind": "other",
+        "source_url": "https://blogs.correiobraziliense.com.br/servidor/petrobras-recebe-multa-contratual-por-reprovacao-de-venda-da-liquigas/amp/",
+        "status": "unverified",
+        "note": "Search only; the cited Correio Braziliense link is an unrelated TCE/SC article."
+      }
+    ],
+    "summary": "Petrobras first tried to sell Liquigás to Ultragaz in 2018, but CADE blocked it over market concentration. It sold it in 2019-20 to Copagaz, NGB and Itaúsa for about R$ 3.7 bn, with CADE conditions.",
+    "sources": [
+      {
+        "title": "diariodepernambuco.com.br",
+        "url": "https://www.diariodepernambuco.com.br/noticia/economia/2020/11/cade-autoriza-venda-da-liquigas.html"
+      },
+      {
+        "title": "blogs.correiobraziliense.com.br (unrelated TCE/SC article; wrong link in notes)",
+        "url": "https://blogs.correiobraziliense.com.br/servidor/petrobras-recebe-multa-contratual-por-reprovacao-de-venda-da-liquigas/amp/"
+      },
+      {
+        "title": "eixos.com.br",
+        "url": "https://eixos.com.br/venda-da-liquigas-depende-de-acordo-para-controle-de-concentracao-de-mercado-indica-o-cade/"
+      },
+      {
+        "title": "suno.com.br",
+        "url": "https://www.suno.com.br/noticias/cade-aprova-venda-liquigas/amp/"
+      }
+    ]
+  },
+  {
+    "id": "e6-09",
+    "year": "2018–2023",
+    "start_year": 2018,
+    "title": "Garimpo expansion, Yanomami crisis and PL 191/2020 (mining on Indigenous land)",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Bolsonaro; emergency response under Lula 3",
+    "what": "Illegal mining on Yanomami land: Hutukara estimated about 20,000 miners (ISA 2021: 21,000). Mining-related deforestation grew 309% between Oct 2018 and Dec 2022 (1,236 to 5,053.82 ha). Malaria cases rose from 9,908 (2018) to 21,883 (2021). PL 191/2020 (sent Feb 2020) would regulate mining, oil, gas and hydropower on Indigenous lands. The Câmara approved urgency on 9 Mar 2022 (279 to 180/190). Ibram opposed (note of 15 Mar 2022). The bill was withdrawn on 29 May 2023.",
+    "who_got": "Illegal gold miners and their financiers; no fiscal benefit to the State.",
+    "terms": "No price. No fiscal benefit.",
+    "mechanism": "Weak enforcement; a bill to legalise mining on Indigenous land (not passed).",
+    "who_paid": "Yanomami lives and health, rivers, forest. Bolsonaro's government at one point called the crisis exaggerated ('exagero', Mourão; DOL).",
+    "after": "Federal government declared a national public-health emergency (ESPIN, Portaria GM/MS 28, 20 Jan 2023) and began an emergency response. Hutukara's report says the Uraricoera river holds 52% of the mining-degraded area; Congresso em Foco says over 45% (2020 data).",
+    "counter_view": "Miners' associations and bill sponsors argued regulated mining on Indigenous land would reduce illegal garimpo and bring royalties to communities.",
+    "signs": [
+      "regulator-absent-or-late"
+    ],
+    "figures": [
+      {
+        "label": "Mining-related deforestation growth, Oct 2018 to Dec 2022",
+        "value": "309% (1,236 to 5,053.82 ha)",
+        "currency": "n/a",
+        "value_year": 2022,
+        "estimator": "Jornal Contábil",
+        "kind": "land-area",
+        "source_url": "https://jornalcontabil.com.br/noticia/terra-yanomami-garimpo-ilegal-gerou-alta-de-309-no-desmatamento/",
+        "status": "corrected",
+        "note": "Notes gave only '309%'; the period and hectare values were added by the fact-check."
+      },
+      {
+        "label": "Malaria cases",
+        "value": "9,908 (2018) to 21,883 (2021)",
+        "currency": "n/a",
+        "value_year": 2021,
+        "estimator": "Opened source (fact-check)",
+        "kind": "other",
+        "source_url": null,
+        "status": "verified",
+        "note": "Confirmed in an opened source per the fact-check; the exact URL is not named in the files."
+      },
+      {
+        "label": "Number of illegal miners",
+        "value": "about 20,000 (Hutukara) to 21,000 (ISA 2021)",
+        "currency": "n/a",
+        "value_year": 2021,
+        "estimator": "Hutukara; ISA",
+        "kind": "other",
+        "source_url": "https://congressoemfoco.com.br/area/pais/garimpo-violencia-e-morte-relatorio-mostra-politica-de-destruicao-do-povo-yanomami",
+        "status": "unverified",
+        "note": "2021 report figure; only snippets."
+      },
+      {
+        "label": "Share of degraded area on the Uraricoera river",
+        "value": "52% (Hutukara) vs over 45% (Congresso em Foco)",
+        "currency": "percent",
+        "value_year": 2020,
+        "estimator": "Hutukara; Congresso em Foco",
+        "kind": "land-area",
+        "source_url": "https://congressoemfoco.com.br/area/pais/garimpo-violencia-e-morte-relatorio-mostra-politica-de-destruicao-do-povo-yanomami",
+        "status": "disputed",
+        "note": "2020 data; snippet only."
+      }
+    ],
+    "summary": "Illegal gold mining on Yanomami land grew sharply from 2018: mining-related deforestation rose 309% by 2022 and malaria cases more than doubled. A bill to legalise mining on Indigenous land (PL 191) was never passed and was withdrawn in 2023. The Lula government declared a health emergency in January 2023.",
+    "sources": [
+      {
+        "title": "jornalcontabil.com.br",
+        "url": "https://jornalcontabil.com.br/noticia/terra-yanomami-garimpo-ilegal-gerou-alta-de-309-no-desmatamento/"
+      },
+      {
+        "title": "congressoemfoco.com.br",
+        "url": "https://congressoemfoco.com.br/area/pais/garimpo-violencia-e-morte-relatorio-mostra-politica-de-destruicao-do-povo-yanomami"
+      },
+      {
+        "title": "dol.com.br",
+        "url": "https://dol.com.br/noticias/brasil/792204/governo-bolsonaro-chamou-crise-yanomami-de-exagero"
+      },
+      {
+        "title": "pt.org.br",
+        "url": "https://pt.org.br/pl-191-de-bolsonaro-abre-a-porteira-de-terras-indigenas/"
+      },
+      {
+        "title": "poder360.com.br",
+        "url": "https://www.poder360.com.br/meio-ambiente/mineradoras-sao-contra-pl-que-permite-garimpo-em-terra-indigena/"
+      }
+    ]
+  },
+  {
+    "id": "e6-10",
+    "year": "2019 and 2021",
+    "start_year": 2019,
+    "title": "BR Distribuidora privatization (now Vibra Energia)",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Bolsonaro",
+    "what": "2019: Petrobras sold about 350 million shares at R$ 24.50 (R$ 8.6 bn) and went from 71.25% to 41.25% (37.5% with the supplementary lot, R$ 9.6 bn). 30 Jun 2021: it sold the remaining 37.5% at R$ 26 per share (R$ 11.36 bn) and left the capital.",
+    "who_got": "Dispersed market through public share offerings; no controlling owner. The company was renamed Vibra Energia (announced 19 Aug 2021; search only).",
+    "terms": "Market-priced offerings; no undervaluation estimate was found.",
+    "mechanism": "Follow-on share offerings registered with CVM, no control premium.",
+    "who_paid": "Critics reported that ex-BR stations (Vibra) sold the most expensive gasoline in several capitals. This rests on one week of ANP data (10-16 Jul 2022) and critical framing.",
+    "after": "Petrobras later discussed retaking part of the brand/stake (Money Times, Eixos).",
+    "counter_view": "Vibra says pump prices are set by individual stations (Brasil de Fato page). The sale rationale was debt reduction and a focus on pre-salt.",
+    "signs": [],
+    "figures": [
+      {
+        "label": "2019 offering proceeds",
+        "value": "8.6 bn (9.6 bn with supplementary lot)",
+        "currency": "BRL",
+        "value_year": 2019,
+        "estimator": "Band B / Petrobras",
+        "kind": "other",
+        "source_url": "https://www.bandab.com.br/economia/petrobras-vende-r-86-bi-em-acoes-da-br-distribuidora-e-privatiza-subsidiaria/amp/",
+        "status": "verified",
+        "note": "About 350 mn shares at R$ 24.50; supplementary 43.7 mn shares; stake falls to 41.25% (37.5% with supplementary)."
+      },
+      {
+        "label": "2021 sale of remaining stake",
+        "value": "11.36 bn",
+        "currency": "BRL",
+        "value_year": 2021,
+        "estimator": "Isto é Dinheiro / O Povo",
+        "kind": "other",
+        "source_url": "https://istoedinheiro.com.br/petrobras-levanta-r1136-bi-2",
+        "status": "verified",
+        "note": "R$ 26 per share, remaining 37.5%, 30 Jun 2021."
+      },
+      {
+        "label": "Two sales combined",
+        "value": "about 20 bn (about 21 bn with the supplementary lot)",
+        "currency": "BRL",
+        "value_year": null,
+        "estimator": "Fact-check arithmetic (8.6 + 11.36)",
+        "kind": "other",
+        "source_url": "https://istoedinheiro.com.br/petrobras-levanta-r1136-bi-2",
+        "status": "corrected",
+        "note": "Notes said 'about R$ 24.4 bn'. That figure is not supported; 8.6 + 11.36 = 19.96."
+      },
+      {
+        "label": "Vibra gasoline price, Sao Paulo, 10-16 Jul 2022",
+        "value": "R$ 6.31 vs R$ 5.99 city average",
+        "currency": "BRL",
+        "value_year": 2022,
+        "estimator": "ANP data via Brasil de Fato",
+        "kind": "other",
+        "source_url": "https://www.brasildefato.com.br/2022/07/20/postos-da-br-distribuidora-vendida-por-bolsonaro-tem-gasolina-mais-cara-de-sp-e-sete-capitais/",
+        "status": "corrected",
+        "note": "Narrowed from the broad claim: one week of data; highest average in 8 capitals; above the local average in 16 of 27. Critical framing, not a systematic study."
+      }
+    ],
+    "summary": "Petrobras sold its fuel distributor BR Distribuidora in two share offerings, in 2019 and 2021, raising about R$ 20 bn in total. The buyer was the open market, so no single owner took control. The price looked market-based. Critics say Vibra stations charged more, but that rests on a single week of data.",
+    "sources": [
+      {
+        "title": "bandab.com.br",
+        "url": "https://www.bandab.com.br/economia/petrobras-vende-r-86-bi-em-acoes-da-br-distribuidora-e-privatiza-subsidiaria/amp/"
+      },
+      {
+        "title": "opovo.com.br",
+        "url": "https://www.opovo.com.br/noticias/economia/2021/07/01/amp/petrobras-embolsa-r--11-4-bilhoes-e-sai-de-vez-do-capital-da-br-distribuidora.html"
+      },
+      {
+        "title": "istoedinheiro.com.br",
+        "url": "https://istoedinheiro.com.br/petrobras-levanta-r1136-bi-2"
+      },
+      {
+        "title": "brasildefato.com.br",
+        "url": "https://www.brasildefato.com.br/2022/07/20/postos-da-br-distribuidora-vendida-por-bolsonaro-tem-gasolina-mais-cara-de-sp-e-sete-capitais/"
+      }
+    ]
+  },
+  {
+    "id": "e6-11",
+    "year": "2019–2026",
+    "start_year": 2019,
+    "title": "Federal airport concession rounds 2019-2022 (5th, 6th, 7th) and the returns of Viracopos and Galeão",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Bolsonaro (all three auctions); Lula 3 (relicitações)",
+    "what": "5th round (2019): 12 airports in 3 blocks. 6th round (2021): 22 airports. 7th round (18 Aug 2022): SP-MS-PA-MG block with Congonhas, Norte II, and a General Aviation block (11 airports plus). Private concessions carried 77.5% of passengers in 2011-2021, rising to 91.6% with the 7th round.",
+    "who_got": "5th round: Aena (Nordeste), Zurich Airport (Sudeste), Consórcio Aeroeste (Centro-Oeste). 6th: CCR (Sul block, Central block), Vinci (Norte). 7th: Aena (SP-MS-PA-MG, sole bidder), XP Infra IV FIP (General Aviation, no competition), Consórcio Novo Norte (Norte II). Financing of bidders is not published. CCR (6th round winner) was a Lava Jato target and had paid about R$ 800 mn under two leniency agreements (R$ 81.5 mn with São Paulo prosecutors in Nov 2018; R$ 750 mn with Paraná prosecutors in Mar 2019) before bidding.",
+    "terms": "5th round total R$ 2.377 bn against a minimum of R$ 219 mn (average ágio 986%), investment promise R$ 3.5 bn over 30 years. 6th round R$ 3.3 bn (ágio about 3,822%), investment R$ 6.1 bn. 7th round: SP-MS-PA-MG R$ 2.45 bn, ágio 231.02%. The large ágios can be read two ways: low reserve prices set by the state, or bidders pricing risk and investment duties. No independent valuation was opened.",
+    "mechanism": "ANAC auctions at B3 for 30-year concessions with initial outorga plus annual variable fees; relicitação under Lei 13.448/2017.",
+    "who_paid": "Taxpayers carry the legal and TCU process of the 2010-2014 round hand-backs (Viracopos, Galeão, Natal) after demand fell. Galeão's return was announced 10 Feb 2022.",
+    "after": "Viracopos: relicitação started 2020; the TCU deadline of 2 Jun 2025 passed unmet; an autocomposição commission was created Oct 2025; talks still open on 10 Jun 2026 (agenciainfra snippets). Galeão (Changi): TCU approved a repactuação in Jun 2025; new-concession bids on 24 Mar 2026 from Aena, Zurich and RIOgaleão (snippets). 7th-round contracts signed 29 Mar 2023 (unverified). No opened source on the winning bid of the 2026 Galeão round.",
+    "counter_view": "The defenders' view is that the ágio is paid up front for risk and investment duties. The sole-bidder 7th round shows limited competition.",
+    "signs": [
+      "exclusive-privilege"
+    ],
+    "figures": [
+      {
+        "label": "5th round (2019) total vs minimum",
+        "value": "2.377 bn vs 219 mn (ágio 986%)",
+        "currency": "BRL",
+        "value_year": 2019,
+        "estimator": "Congresso em Foco",
+        "kind": "price-gap",
+        "source_url": "https://www.congressoemfoco.com.br/especial/noticias/leilao-de-privatizacao-12-aeroportos-arrecada-r-237-bilhoes/",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes. Nordeste: Aena R$ 1.900 bn (ágio 1,010.69%, minimum R$ 171 mn). Sudeste: Zurich R$ 437 mn (830.15%, minimum R$ 47 mn). Centro-Oeste: Aeroeste R$ 40 mn (4,739%, minimum R$ 0.8 mn)."
+      },
+      {
+        "label": "6th round (2021) total",
+        "value": "3.3 bn, ágio about 3,822%, investment 6.1 bn",
+        "currency": "BRL",
+        "value_year": 2021,
+        "estimator": "Congresso em Foco",
+        "kind": "price-gap",
+        "source_url": "https://congressoemfoco.com.br/noticia/14844/com-agio-de-3-800-governo-arrecada-r-33-bilhoes-em-leilao-de-aeroportos",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes. CCR Sul R$ 2.128 bn, CCR Central R$ 754 mn, Vinci Norte R$ 420 mn."
+      },
+      {
+        "label": "6th round ágio by block",
+        "value": "Sul 1,500% vs 1,534%; Central 9,000% vs 9,156%; Norte 777% vs 778%",
+        "currency": "percent",
+        "value_year": 2021,
+        "estimator": "Two sources",
+        "kind": "price-gap",
+        "source_url": "https://congressoemfoco.com.br/noticia/14844/com-agio-de-3-800-governo-arrecada-r-33-bilhoes-em-leilao-de-aeroportos",
+        "status": "disputed",
+        "note": "Sources differ per block; ranges given."
+      },
+      {
+        "label": "7th round: SP-MS-PA-MG block (Aena, sole bidder)",
+        "value": "2.45 bn, ágio 231.02%",
+        "currency": "BRL",
+        "value_year": 2022,
+        "estimator": "Agência Brasil",
+        "kind": "price-gap",
+        "source_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2022-08/unica-empresa-apresentar-proposta-aena-leva-aeroporto-de-congonhas",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes. General Aviation (XP Infra IV FIP) R$ 141.4 mn, ágio 0.01%; Norte II R$ 125 mn, ágio 119.78%."
+      },
+      {
+        "label": "7th round: SP-MS-PA-MG minimum price",
+        "value": "R$ 255 mn to R$ 740 mn (investment R$ 4.089 bn to R$ 5.889 bn)",
+        "currency": "BRL",
+        "value_year": 2022,
+        "estimator": "Passageiro de Primeira vs a search snippet",
+        "kind": "price-gap",
+        "source_url": "https://passageirodeprimeira.com/?p=220090",
+        "status": "disputed",
+        "note": "Pre-auction plan: initial outorga R$ 255 mn, investment R$ 5.889 bn. A snippet gives a minimum R$ 740.1 mn and ANAC investment R$ 4.089 bn (unverified). Treat as a range until the ANAC edital is opened."
+      },
+      {
+        "label": "CCR leniency payments before bidding",
+        "value": "about 800 mn (81.5 mn + 750 mn)",
+        "currency": "BRL",
+        "value_year": 2019,
+        "estimator": "Band B",
+        "kind": "other",
+        "source_url": "https://www.bandab.com.br/economia/alvo-da-lava-jato-ccr-ressarciu-cofres-publicos-para-disputar-concessoes-no-pais/amp/",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      }
+    ],
+    "summary": "Three airport auctions from 2019 to 2022 handed dozens of airports to private groups for 30 years. Bidders paid many times the minimum price, but the 7th round had a single bidder for Congonhas. Earlier-round concessions such as Viracopos and Galeão were handed back, and risk returned to the public side.",
+    "sources": [
+      {
+        "title": "congressoemfoco.com.br",
+        "url": "https://www.congressoemfoco.com.br/especial/noticias/leilao-de-privatizacao-12-aeroportos-arrecada-r-237-bilhoes/"
+      },
+      {
+        "title": "congressoemfoco.com.br",
+        "url": "https://congressoemfoco.com.br/noticia/14844/com-agio-de-3-800-governo-arrecada-r-33-bilhoes-em-leilao-de-aeroportos"
+      },
+      {
+        "title": "agenciabrasil.ebc.com.br",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2022-08/unica-empresa-apresentar-proposta-aena-leva-aeroporto-de-congonhas"
+      },
+      {
+        "title": "passageirodeprimeira.com",
+        "url": "https://passageirodeprimeira.com/?p=220090"
+      },
+      {
+        "title": "bandab.com.br",
+        "url": "https://www.bandab.com.br/economia/alvo-da-lava-jato-ccr-ressarciu-cofres-publicos-para-disputar-concessoes-no-pais/amp/"
+      }
+    ]
+  },
+  {
+    "id": "e6-12",
+    "year": "2019–2025",
+    "start_year": 2019,
+    "title": "Federal road concessions 2019-2025 (Dutra 2021, relicitação and repactuação)",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Bolsonaro (Dutra); Lula 3 (2023-25 rounds, repactuação)",
+    "what": "Dutra / Rio-Santos auction on 29 Oct 2021: 625.8 km, 30 years. Ministry balance 2023-24: 9 auctions, about 4,300 km, more than R$ 111 bn of potential investment. On 28 Jul 2023, of 24 federal concessions, 16 were in devolution/relicitação or had serious imbalance; only Rota do Oeste had reached an agreement under the 2017 law.",
+    "who_got": "CCR won Dutra with the maximum 15.31% toll discount; EcoRodovias offered 10.6%. Only two bidders were admitted.",
+    "terms": "Dutra: outorga R$ 1.77 bn, investment about R$ 14.83 bn. Paraná lot 3 won with about 70% off the average toll. A new policy redirects outorga into works.",
+    "mechanism": "ANTT auctions with toll discount (and outorga) as the bid; relicitação by Lei 13.448/2017; the 2023 'otimização' program (Portaria 848, Aug 2023).",
+    "who_paid": "Road users (tolls, delayed works on stalled stretches), the state in renegotiation, and lenders. Causes given: recession, pandemic (about R$ 250 mn loss) and Lava Jato financing problems. Whether aggressive discounts caused the failures is not stated in the opened article; analysts often claim it, unverified here.",
+    "after": "Four advanced negotiations could unlock about R$ 20 bn, and at least R$ 60 bn more if the other 12 agree; terms capped at 15 years, investments in the first 3 years, lower tariffs. 14 contracts joined the optimization program; TCU approved 3. 2025 cycle: 13 auctions, about 6,200 km, R$ 135 bn (agenciainfra snippet, unverified). First relicitação under Lei 13.448 on BR-040 in 2024 (unverified).",
+    "counter_view": "The Ministry's own balance is used as the positive case (Tribuna PR); it is not an independent source.",
+    "signs": [
+      "exclusive-privilege"
+    ],
+    "figures": [
+      {
+        "label": "Dutra / Rio-Santos outorga and investment",
+        "value": "outorga 1.77 bn; investment about 14.83 bn; 15.31% toll discount",
+        "currency": "BRL",
+        "value_year": 2021,
+        "estimator": "Diário do Transporte",
+        "kind": "other",
+        "source_url": "https://diariodotransporte.com.br/2021/10/29/ccr-vence-leilao-de-concessao-da-dutra-e-parte-da-rio-santos/",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "Ministry balance 2023-24",
+        "value": "9 auctions, about 4,300 km, more than 111 bn potential investment",
+        "currency": "BRL",
+        "value_year": 2024,
+        "estimator": "Ministry of Transport (via Tribuna PR)",
+        "kind": "other",
+        "source_url": "https://www.tribunapr.com.br/noticias/automoveis/leiloes-rodoviarios-levam-r-111-bi-para-modernizacao-de-estradas/",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes. Ministry account, not independent."
+      },
+      {
+        "label": "Impasse of 28 Jul 2023",
+        "value": "16 of 24 federal concessions troubled; about 20 bn unlockable in 4 negotiations, at least 60 bn more",
+        "currency": "BRL",
+        "value_year": 2023,
+        "estimator": "Neofeed",
+        "kind": "other",
+        "source_url": "https://neofeed.com.br/economia/um-grande-impasse-ronda-as-concessoes-rodoviarias-e-deixa-o-governo-de-cabelo-em-pe",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "2025 cycle",
+        "value": "13 auctions, about 6,200 km, 135 bn",
+        "currency": "BRL",
+        "value_year": 2025,
+        "estimator": "Agência iNFRA (snippet)",
+        "kind": "other",
+        "source_url": null,
+        "status": "unverified",
+        "note": "Snippet only; no URL in the notes."
+      }
+    ],
+    "summary": "Federal road concessions were auctioned with toll discounts as the main bid. By mid-2023, 16 of 24 federal concessions were in hand-back or serious imbalance. The government then renegotiated terms to unlock new investment.",
+    "sources": [
+      {
+        "title": "diariodotransporte.com.br",
+        "url": "https://diariodotransporte.com.br/2021/10/29/ccr-vence-leilao-de-concessao-da-dutra-e-parte-da-rio-santos/"
+      },
+      {
+        "title": "tribunapr.com.br",
+        "url": "https://www.tribunapr.com.br/noticias/automoveis/leiloes-rodoviarios-levam-r-111-bi-para-modernizacao-de-estradas/"
+      },
+      {
+        "title": "neofeed.com.br",
+        "url": "https://neofeed.com.br/economia/um-grande-impasse-ronda-as-concessoes-rodoviarias-e-deixa-o-governo-de-cabelo-em-pe"
+      }
+    ]
+  },
+  {
+    "id": "e6-13",
+    "year": "2020–2022 (decision Dec 2022)",
+    "start_year": 2020,
+    "title": "Orçamento secreto (relator amendments, RP9)",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Bolsonaro, with Congress (Lira, Pacheco) controlling indications",
+    "what": "Relator amendments (RP9) were decided by the budget rapporteur with no set criteria; the visible name is the rapporteur's, not the requesting member. This is a channel through which public budget flowed to private contractors via politically picked recipients, not a sale of an asset.",
+    "who_got": "Health took 57.4% of the R$ 28.79 bn paid, then urbanism 11.53%, social assistance 5%, education 4.68%. Six parties (PP, PL, PSD, MDB, União, Republicanos) hold 81% of the 2022 executed amount attributed to party indications; external users (non-members who sponsored) controlled about 31%. Lira tops the 2022 list (R$ 134.5 mn indicated). An NGO (ICA) received R$ 98 mn in 2020-2022. Data cover Jan-Oct 2022 only with manual matching, so are partial. PL, PP and Republicanos took R$ 2.86 bn in 2020-2021.",
+    "terms": "Amounts are given as ranges because sources differ (see figures).",
+    "mechanism": "Budget amendments with no traceability. Rosa Weber suspended execution in Nov 2021 (upheld 8-2). On 19 Dec 2022 the STF ruled RP9 unconstitutional 6-5 (ADPFs 850, 851, 854, 1014).",
+    "who_paid": "The public budget, through lost traceability. Proven losses are not stated here.",
+    "after": "The 2023 budget reserved R$ 19.4 bn for relator amendments, and Congress passed a stopgap resolution days before the ruling. A merits decision on 19 Dec 2024 declared the practices incompatible with the Constitution; RP8/RP9 execution partly resumed; R$ 12.6 bn of unpaid items were paid in 2025 (snippets, unverified; the Senate note was unreadable).",
+    "counter_view": "Congress argues the amendments are its legitimate budget prerogative. The criticism is lack of traceability, not that congressional amendments exist.",
+    "signs": [
+      "public-money-private-control",
+      "regulator-absent-or-late"
+    ],
+    "figures": [
+      {
+        "label": "Relator amendments 2020-2022",
+        "value": "authorized 53.5 bn; committed 45 bn; paid 28.9 bn (Outras Palavras: 45 bn committed, 28 bn paid by Oct 2022; Conjur snippet: about 80 bn budgeted, 30 bn paid)",
+        "currency": "BRL",
+        "value_year": 2022,
+        "estimator": "Siga Brasil via Aos Fatos; Outras Palavras; Conjur (Scaff)",
+        "kind": "other",
+        "source_url": "https://www.aosfatos.org/noticias/orcamento-secreto-stf/",
+        "status": "disputed",
+        "note": "Sources differ; the Aos Fatos page itself shows conflicting annual planned figures (R$ 20.1 bn vs R$ 30 bn for 2020). Conjur figure is a snippet (unverified). Not covered by the fact-check round."
+      },
+      {
+        "label": "Spending share by area",
+        "value": "health 57.4% of R$ 28.79 bn paid",
+        "currency": "percent",
+        "value_year": 2022,
+        "estimator": "Outras Palavras",
+        "kind": "other",
+        "source_url": "https://outraspalavras.net/outrasmidias/quem-controla-o-orcamento-secreto/",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "Centrão share 2020-2021",
+        "value": "PL, PP, Republicanos 2.86 bn (not 28 bn as a headline suggested)",
+        "currency": "BRL",
+        "value_year": 2021,
+        "estimator": "Correio Braziliense",
+        "kind": "other",
+        "source_url": "https://www.correiobraziliense.com.br/politica/2022/05/amp/5006963-centrao-abocanha-rs-28-bi-das-emendas-do-orcamento-secreto.html",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "2023 budget reserve for relator amendments",
+        "value": "19.4 bn",
+        "currency": "BRL",
+        "value_year": 2023,
+        "estimator": "InfoMoney",
+        "kind": "other",
+        "source_url": "https://www.infomoney.com.br/?p=2011420",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      }
+    ],
+    "summary": "Relator amendments, called the secret budget, moved tens of billions of reais in 2020-22 to recipients chosen by Congress leaders, with little traceability. The STF ruled the practice unconstitutional in December 2022 (6-5). Estimates of the paid amount range from about R$ 28 bn to R$ 30 bn.",
+    "sources": [
+      {
+        "title": "aosfatos.org",
+        "url": "https://www.aosfatos.org/noticias/orcamento-secreto-stf/"
+      },
+      {
+        "title": "outraspalavras.net",
+        "url": "https://outraspalavras.net/outrasmidias/quem-controla-o-orcamento-secreto/"
+      },
+      {
+        "title": "correiobraziliense.com.br",
+        "url": "https://www.correiobraziliense.com.br/politica/2022/05/amp/5006963-centrao-abocanha-rs-28-bi-das-emendas-do-orcamento-secreto.html"
+      },
+      {
+        "title": "infomoney.com.br",
+        "url": "https://www.infomoney.com.br/?p=2011420"
+      }
+    ]
+  },
+  {
+    "id": "e6-14",
+    "year": "2020–2023",
+    "start_year": 2020,
+    "title": "Codevasf: relator amendments and contracts",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Bolsonaro; Centrão-nominated leadership",
+    "what": "R$ 7.3 bn passed through Codevasf in 2020-21, of which R$ 3.6 bn were relator amendments. In 2022, R$ 610 mn of relator amendments were approved, raised to R$ 1.2 bn after a May portaria; the total went from R$ 2.1 bn to R$ 2.7 bn (about 44% relator amendments). In 2021 the budget started at R$ 1.3 bn and rose to R$ 3.5 bn; about one third had no identified author.",
+    "who_got": "Contractors such as Construservice, Engefort and JT. President Marcelo Moreira Pinto was a PP nominee (Lira, Ciro Nogueira per CUT, a partisan source). Operation Odoacro (PF, 20 Jul 2022): Construservice had at least R$ 140 mn reserved since 2019; 16 search warrants.",
+    "terms": "Auditors could not opine on a R$ 2.7 bn balance (Russell Bedford audit via Folha, relayed by CUT). Loss R$ 358 mn in 2021.",
+    "mechanism": "Budget routing via relator amendments and public works contracts.",
+    "who_paid": "The public budget. Proven overpayments are small (millions) against the billions routed; the case is mainly about traceability and loss of control.",
+    "after": "CGU found R$ 7.3 mn of damage on asphalt in 10 of 12 states. TCU found R$ 7.8 mn overpayment in 12 contracts (a drainage item never built) among 23 contracts with Engefort, Construservice and JT (11 Aug 2023), without a link to the orçamento secreto in the article.",
+    "counter_view": "Codevasf says appointments follow technical requirements. No wrongdoing has been established against named politicians in the opened sources.",
+    "signs": [
+      "public-money-private-control"
+    ],
+    "figures": [
+      {
+        "label": "Funds through Codevasf 2020-21",
+        "value": "7.3 bn, of which 3.6 bn relator amendments; auditors could not opine on a 2.7 bn balance",
+        "currency": "BRL",
+        "value_year": 2021,
+        "estimator": "Folha / Russell Bedford audit via CUT (partisan relay)",
+        "kind": "other",
+        "source_url": "https://www.cut.org.br/noticias/comandada-pelo-centrao-codevasf-gasta-r-3-bilhoes-sem-comprovacao-de-obras-c082",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "2022 relator amendments",
+        "value": "610 mn raised to 1.2 bn; total 2.1 bn raised to 2.7 bn",
+        "currency": "BRL",
+        "value_year": 2022,
+        "estimator": "A Gazeta",
+        "kind": "other",
+        "source_url": "https://www.agazeta.com.br/brasil/alvo-da-pf-codevasf-dobra-orcamento-de-emendas-de-relator-no-ano-eleitoral-0722",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "CGU: damage on asphalt",
+        "value": "7.3 mn (10 of 12 states)",
+        "currency": "BRL",
+        "value_year": 2022,
+        "estimator": "CGU",
+        "kind": "other",
+        "source_url": "https://www.dgabc.com.br/Noticia/4153451/auditoria-da-cgu-diz-que-codevasf-superfaturou-asfalto-em-10-estados",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "TCU: overpayment in 12 contracts",
+        "value": "7.8 mn",
+        "currency": "BRL",
+        "value_year": 2023,
+        "estimator": "TCU",
+        "kind": "other",
+        "source_url": "https://www.bahianoticias.com.br/noticia/283137-codevasf-tcu-aponta-superfaturamento-nos-contratos-de-asfalto",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "Operation Odoacro: Construservice reserved amount",
+        "value": "at least 140 mn since 2019",
+        "currency": "BRL",
+        "value_year": 2022,
+        "estimator": "PF via CUT",
+        "kind": "other",
+        "source_url": "https://www.cut.org.br/noticias/operacao-da-pf-no-maranhao-apura-fraudes-na-codevasf-gerida-pelo-centrao-078a/",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      }
+    ],
+    "summary": "Codevasf, a regional development agency led by Centrão nominees, handled billions in relator amendments in 2020-22. Audits found overpayments of a few million reais, small against the money routed. The main issue is traceability.",
+    "sources": [
+      {
+        "title": "cut.org.br",
+        "url": "https://www.cut.org.br/noticias/comandada-pelo-centrao-codevasf-gasta-r-3-bilhoes-sem-comprovacao-de-obras-c082"
+      },
+      {
+        "title": "agazeta.com.br",
+        "url": "https://www.agazeta.com.br/brasil/alvo-da-pf-codevasf-dobra-orcamento-de-emendas-de-relator-no-ano-eleitoral-0722"
+      },
+      {
+        "title": "cut.org.br",
+        "url": "https://www.cut.org.br/noticias/operacao-da-pf-no-maranhao-apura-fraudes-na-codevasf-gerida-pelo-centrao-078a/"
+      },
+      {
+        "title": "dgabc.com.br",
+        "url": "https://www.dgabc.com.br/Noticia/4153451/auditoria-da-cgu-diz-que-codevasf-superfaturou-asfalto-em-10-estados"
+      },
+      {
+        "title": "bahianoticias.com.br",
+        "url": "https://www.bahianoticias.com.br/noticia/283137-codevasf-tcu-aponta-superfaturamento-nos-contratos-de-asfalto"
+      }
+    ]
+  },
+  {
+    "id": "e6-15",
+    "year": "2020–2021",
+    "start_year": 2020,
+    "title": "Marco Legal do Saneamento (Lei 14.026/2020) and the CEDAE auctions",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Bolsonaro; CEDAE auction by Rio de Janeiro state",
+    "what": "The law (July 2020) requires bidding for sanitation services previously handed to state companies without competition. CEDAE auction on 30 Apr 2021: three of four blocks sold for about R$ 22.7 bn in grant payments against a minimum of R$ 10.6 bn (ágio 113.2%).",
+    "who_got": "Aegea consortium: Block 1 (R$ 8.2 bn, 103.13% premium) and Block 4 (about R$ 7.2 bn, about 188%). Iguá: Block 2 (R$ 7.286 bn). Block 3 (minimum R$ 908 mn) had no winner.",
+    "terms": "The premium over the minimum looks high, but the grant is paid up front and recovered through tariffs. No independent valuation was found.",
+    "mechanism": "Federal framework law plus state concession auctions.",
+    "who_paid": "Tariff payers and service quality over the concession period; critics (Outras Palavras) claim hidden risks. A 2025 sector review (acionista.com.br) discusses the aftermath; details were not extracted.",
+    "after": "Aftermath not traced in detail.",
+    "counter_view": "Government and the industry cite investment and universalization targets; critics (Outras Palavras, academic) raise tariff and public-control concerns. Neither was independently opened in the fact-check.",
+    "signs": [
+      "law-rewritten-for-deal",
+      "exclusive-privilege"
+    ],
+    "figures": [
+      {
+        "label": "CEDAE auction grants vs minimum",
+        "value": "22.7 bn vs minimum 10.6 bn (Neofeed: 22.6 bn; premium 113.2%)",
+        "currency": "BRL",
+        "value_year": 2021,
+        "estimator": "InfoMoney / Neofeed",
+        "kind": "price-gap",
+        "source_url": "https://www.infomoney.com.br/mercados/leilao-da-cedae-arrecada-r-22-bilhoes-com-concessao-de-3-blocos-e-supera-projecoes/",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Block 1 (Aegea)",
+        "value": "8.2 bn (103.13% premium)",
+        "currency": "BRL",
+        "value_year": 2021,
+        "estimator": "Neofeed",
+        "kind": "other",
+        "source_url": "https://neofeed.com.br/blog/home/martelo-batido-consorcios-aegea-e-igua-arrematam-blocos-da-cedae-por-r-226-bi/",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Block 2 (Iguá)",
+        "value": "7.286 bn",
+        "currency": "BRL",
+        "value_year": 2021,
+        "estimator": "Neofeed",
+        "kind": "other",
+        "source_url": "https://neofeed.com.br/blog/home/martelo-batido-consorcios-aegea-e-igua-arrematam-blocos-da-cedae-por-r-226-bi/",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Block 4 (Aegea)",
+        "value": "about 7.2 bn (about 188% premium)",
+        "currency": "BRL",
+        "value_year": 2021,
+        "estimator": "Neofeed",
+        "kind": "other",
+        "source_url": "https://neofeed.com.br/blog/home/martelo-batido-consorcios-aegea-e-igua-arrematam-blocos-da-cedae-por-r-226-bi/",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "summary": "A 2020 federal law forced sanitation services to go to bidding. Rio's CEDAE auction in April 2021 raised about R$ 22.7 bn for three of four blocks, more than double the minimum. The costs fall on tariff payers over the concession period.",
+    "sources": [
+      {
+        "title": "infomoney.com.br",
+        "url": "https://www.infomoney.com.br/mercados/leilao-da-cedae-arrecada-r-22-bilhoes-com-concessao-de-3-blocos-e-supera-projecoes/"
+      },
+      {
+        "title": "neofeed.com.br",
+        "url": "https://neofeed.com.br/blog/home/martelo-batido-consorcios-aegea-e-igua-arrematam-blocos-da-cedae-por-r-226-bi/"
+      },
+      {
+        "title": "noticias.portaldaindustria.com.br",
+        "url": "https://noticias.portaldaindustria.com.br/posicionamentos/sucesso-do-leilao-da-cedae-coloca-saneamento-no-caminho-da-universalizacao/"
+      },
+      {
+        "title": "outraspalavras.net",
+        "url": "https://outraspalavras.net/crise-brasileira/face-oculta-da-privatizacao-das-aguas/"
+      },
+      {
+        "title": "scielosp.org",
+        "url": "https://scielosp.org/pdf/csc/2023.v28n2/547-559/pt"
+      }
+    ]
+  },
+  {
+    "id": "e6-16",
+    "year": "2021",
+    "start_year": 2021,
+    "title": "RLAM refinery (Bahia) sold to Mubadala / Acelen",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Bolsonaro (buyback talks under Lula 3)",
+    "what": "Sale of the Landulpho Alves refinery (RLAM, Mataripe, Bahia) to Mubadala Capital (Abu Dhabi), operating as Acelen. Concluded Nov 2021. It ended Petrobras's regional refining monopoly and created a private regional monopoly in Bahia.",
+    "who_got": "Mubadala Capital (Abu Dhabi), operator Acelen.",
+    "terms": "US$ 1.65 bn signed (closing announcement said US$ 1.8 bn subject to adjustment). In the 2021 TCU case, Petrobras's own base scenario was US$ 3.04 bn, so the price was about 45% below it. INEEP (union-linked think tank) estimates US$ 3-4 bn, 'half price'. TCU authorized the sale in 2021 and rejected challenges; CADE approved without restrictions. A CGU audit (Jan 2024) found weak valuation method but did not conclude there was a clear economic loss.",
+    "mechanism": "Competitive sale of an asset by a state company, under a CADE commitment, with TCU and CADE review.",
+    "who_paid": "Bahia buyers of fuel (private regional monopoly), and the Treasury if the price was too low. CADE opened an investigation into Acelen for alleged price discrimination against Bahia buyers of gasoline A and diesel S10; Acelen accuses Petrobras of the reverse. The CADE probe was opened in 2022 (a Brasil Energia headline says archived, page not opened). A current Bahia gasoline price series was not found.",
+    "after": "Petrobras resumed talks to buy the refinery back: due diligence reported Jul 2024 (Reuters), and on 24 Mar 2026 Petrobras reaffirmed interest in a CVM letter, with no deal. A Mubadala partnership proposal was disclosed on 22 Dec 2023. Sindipetro-BA appealed to CADE.",
+    "counter_view": "Petrobras says it followed its rules, TCU found compliance, due diligence was done, and goals were debt reduction, the CADE commitment and pre-salt capital (Bahia Notícias 287859).",
+    "signs": [
+      "below-value-price",
+      "regulator-absent-or-late"
+    ],
+    "figures": [
+      {
+        "label": "Sale price",
+        "value": "1.65 bn (1.8 bn at closing, subject to adjustment)",
+        "currency": "USD",
+        "value_year": 2021,
+        "estimator": "Petrobras / Bahia Notícias",
+        "kind": "price-gap",
+        "source_url": "https://www.bahianoticias.com.br/noticia/287819-petrobras-sob-bolsonaro-teria-vendido-rlam-para-arabes-abaixo-do-preco-de-mercado-aponta-cgu",
+        "status": "verified",
+        "note": "Some sources say US$ 1.8 bn: that is the closing announcement before adjustment."
+      },
+      {
+        "label": "Petrobras base-scenario value",
+        "value": "3.04 bn (price about 45% below)",
+        "currency": "USD",
+        "value_year": 2021,
+        "estimator": "Petrobras figure in the 2021 TCU case",
+        "kind": "price-gap",
+        "source_url": "https://eixos.com.br/tcu-pode-suspender-da-venda-da-rlam-e-ministro-alerta-que-pressa-pode-gerar-punicoes/",
+        "status": "corrected",
+        "note": "Notes attributed the US$ 3.04 bn and '45% below' to the CGU audit of Jan 2024. Fact-check: they come from the 2021 TCU case; the CGU gives no percentage."
+      },
+      {
+        "label": "INEEP estimate of asset value",
+        "value": "3 to 4 bn ('half price')",
+        "currency": "USD",
+        "value_year": null,
+        "estimator": "INEEP (union-linked think tank)",
+        "kind": "price-gap",
+        "source_url": "https://www.cut.org.br/noticias/cgu-confirma-que-refinaria-rlam-na-bahia-foi-vendida-por-bolsonaro-abaixo-do-pre-c7aa",
+        "status": "verified",
+        "note": "The INEEP figure is confirmed as stated; the estimator is union-linked."
+      }
+    ],
+    "summary": "Petrobras sold the Bahia refinery RLAM to Abu Dhabi's Mubadala for US$ 1.65 bn in 2021. Critics say it was worth about twice that. The audit court approved the sale, and a CGU audit found weak valuation methods. Petrobras has since talked about buying it back.",
+    "sources": [
+      {
+        "title": "cut.org.br",
+        "url": "https://www.cut.org.br/noticias/cgu-confirma-que-refinaria-rlam-na-bahia-foi-vendida-por-bolsonaro-abaixo-do-pre-c7aa"
+      },
+      {
+        "title": "bahianoticias.com.br",
+        "url": "https://www.bahianoticias.com.br/noticia/287819-petrobras-sob-bolsonaro-teria-vendido-rlam-para-arabes-abaixo-do-preco-de-mercado-aponta-cgu"
+      },
+      {
+        "title": "monitormercantil.com.br",
+        "url": "https://monitormercantil.com.br/tcu-pode-impedir-venda-da-rlam-pela-metade-do-preco/"
+      },
+      {
+        "title": "bnews.com.br",
+        "url": "https://www.bnews.com.br/noticias/economia-e-mercado/petrobras-retoma-negociacao-para-recompra-da-refinaria-mataripe-na-bahia.html"
+      },
+      {
+        "title": "novacana.com",
+        "url": "https://www.novacana.com/noticias/petrobras-conclui-due-diligence-recomprar-refinaria-mubadala-290724"
+      },
+      {
+        "title": "eixos.com.br",
+        "url": "https://eixos.com.br/sindipetro-bahia-entra-com-recurso-no-cade-contra-decisao-sobre-venda-da-rlam/"
+      },
+      {
+        "title": "eixos.com.br",
+        "url": "https://eixos.com.br/tcu-pode-suspender-da-venda-da-rlam-e-ministro-alerta-que-pressa-pode-gerar-punicoes/"
+      },
+      {
+        "title": "bahianoticias.com.br",
+        "url": "https://www.bahianoticias.com.br/noticia/287859-petrobras-diz-que-venda-da-rlam-foi-legal-em-meio-a-investigacao-da-cgu"
+      },
+      {
+        "title": "novacana.com",
+        "url": "https://www.novacana.com/noticias/petrobras-reafirma-interesse-recompra-refinaria-mataripe-260326"
+      },
+      {
+        "title": "bloomberglinea.com.br",
+        "url": "https://www.bloomberglinea.com.br/negocios/petrobras-como-ativos-vendidos-nos-ultimos-anos-voltaram-a-mira-da-estatal/"
+      }
+    ]
+  },
+  {
+    "id": "e6-17",
+    "year": "2021–2022",
+    "start_year": 2021,
+    "title": "Eletrobras privatization (capitalization)",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Bolsonaro",
+    "what": "Law 14.182/2021 (from MP 1031) turned Eletrobras into a corporation by a capital increase and share offering that diluted the Union. Offer priced on 9 Jun 2022. Union total capital fell from 58.7% to about 37%; direct voting share fell to 40.29% before a 10% cap on any holder's votes. The law also forced the contracting of 8 GW of gas thermal plants ('jabutis'), even where there are no gas pipelines.",
+    "who_got": "The market (share offering, no controlling owner). Voting power of any shareholder is capped at 10%.",
+    "terms": "R$ 42 per share, R$ 29.29 bn base and about R$ 33.7 bn with the supplementary lot. TCU minister Vital do Rêgo (dissent) said the plants were worth R$ 130.4 bn against the government's R$ 67 bn and listed six alleged illegalities (e.g. Itaipu valued at R$ 1.2 bn). TCU technical staff flagged R$ 16.2 bn of failures in the valuation model. TCU plenary approved 6-1 (15 Feb 2022, first stage) and 7-1 (18 May 2022).",
+    "mechanism": "Law 14.182/2021 converting a state company into a corporation via dilution (no direct sale).",
+    "who_paid": "Consumers through tariffs (thermal plants, CDE-related items); the Treasury through lower value.",
+    "after": "Company renamed Axia (ticker AXIA3, from ELET3; per snippets). Three years on (Eixos, 2025): PMSO costs down 18%, headcount down 27%, investments up from R$ 4.6 bn (2021) to R$ 7.7 bn (2024), shares about R$ 41 against the R$ 42 offer, with analysts having projected R$ 60-70. AXIA3 closed at R$ 47.30 on 31 Oct 2026, about 13% above the offer before dividends (researcher arithmetic). Net income R$ 3.64 bn (2022), R$ 10.38 bn (2024), R$ 6.56 bn (2025).",
+    "counter_view": "TCU majority approved; the government estimated a R$ 67 bn value and said the bonus plus CDE flows benefit consumers. Defenders say the capital goes to the company, not the state. Critics: TCU staff, Vital do Rêgo, unions.",
+    "signs": [
+      "below-value-price",
+      "law-rewritten-for-deal"
+    ],
+    "figures": [
+      {
+        "label": "Offer size",
+        "value": "29.29 bn base; 33.7 bn with supplementary lot (R$ 42 per share)",
+        "currency": "BRL",
+        "value_year": 2022,
+        "estimator": "Money Times / Mais Retorno / Brazil Journal",
+        "kind": "other",
+        "source_url": "https://www.moneytimes.com.br/eletrobras-elet3-confirma-oferta-de-privatizacao-ao-preco-de-r-42-por-acao/",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Union stake after the offering",
+        "value": "total capital about 37% (from 58.7%); voting about 40.29% before the 10% cap",
+        "currency": "percent",
+        "value_year": 2022,
+        "estimator": "O Antagonista (9 Jun 2022)",
+        "kind": "other",
+        "source_url": "https://oantagonista.com.br/?p=771027",
+        "status": "corrected",
+        "note": "Notes said the Union's voting stake fell from about 72% to 42-45%. The 72% is not supported (one source prints 68.6% as the prior voting level)."
+      },
+      {
+        "label": "Undervaluation claimed by TCU minister Vital do Rêgo",
+        "value": "plants worth 130.4 bn vs government 67 bn (gap about 63 bn); 46 bn is the capacity component that would raise the outorga",
+        "currency": "BRL",
+        "value_year": 2022,
+        "estimator": "Vital do Rêgo (TCU, dissent)",
+        "kind": "price-gap",
+        "source_url": "https://exame.com/brasil/ministro-do-tcu-aponta-seis-ilegalidades-na-privatizacao-da-eletrobras",
+        "status": "corrected",
+        "note": "Notes said 'R$ 46 bn undervaluation'. Fact-check: 46 bn is only the capacity component; the total gap he stated is about R$ 63 bn."
+      },
+      {
+        "label": "TCU technical staff: valuation failures",
+        "value": "16.2 bn (MME accepted 5.6 bn; CDE transfer could fall from 29.8 bn to 26.9 bn)",
+        "currency": "BRL",
+        "value_year": 2022,
+        "estimator": "TCU technical unit (Seinfra Elétrica)",
+        "kind": "price-gap",
+        "source_url": "https://exame.com/brasil/ministro-do-tcu-aponta-seis-ilegalidades-na-privatizacao-da-eletrobras",
+        "status": "corrected",
+        "note": "Not a booked loss; it is an estimate of flaws in the model. The labor-union document is not the source. Search only; page not opened."
+      },
+      {
+        "label": "Cost of the mandated gas thermals (jabutis)",
+        "value": "R$ 52 bn to 2036 up to R$ 368 bn over decades (other estimates: R$ 3.51 to R$ 35.45 per MWh tariff effect; up to 10% tariff rise from 2030)",
+        "currency": "BRL",
+        "value_year": null,
+        "estimator": "Estadão via InfoMoney; MME transition team; Agência iNFRA; Abrace",
+        "kind": "subsidy",
+        "source_url": "https://exame.com/brasil/ministro-do-tcu-aponta-seis-ilegalidades-na-privatizacao-da-eletrobras",
+        "status": "disputed",
+        "note": "Notes said 'R$ 50 bn'. Fact-check could not find that figure; estimates differ in scope and are not comparable. 8 GW mandate confirmed (1 GW NE, 2.5 GW CO, 2 GW SE, 2.5 GW N). Search only."
+      },
+      {
+        "label": "AXIA3 closing price, 31 Oct 2026",
+        "value": "R$ 47.30 (offer was R$ 42)",
+        "currency": "BRL",
+        "value_year": 2026,
+        "estimator": "HG Brasil",
+        "kind": "other",
+        "source_url": "https://hgbrasil.com/finance/tickers/B3:AXIA3",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes. The page's market cap and dividend figures are internally inconsistent; only the closing price is used. Other prices (R$ 53.03 on 31 Jul 2026; R$ 58.60 after Q1 2026; Bradesco BBI target R$ 79) are snippets only."
+      }
+    ],
+    "summary": "Eletrobras was privatized in June 2022 by a share offering at R$ 42 per share, cutting the Union to about 37% of capital. A TCU minister said the plants were undervalued by tens of billions of reais, but the court majority approved. The law also forced the contracting of 8 GW of gas plants, which critics say consumers will pay for.",
+    "sources": [
+      {
+        "title": "exame.com",
+        "url": "https://exame.com/brasil/ministro-do-tcu-aponta-seis-ilegalidades-na-privatizacao-da-eletrobras"
+      },
+      {
+        "title": "eixos.com.br",
+        "url": "https://eixos.com.br/tcu-aprovou-privatizacao-da-eletrobras-com-ampla-maioria-de-votos/"
+      },
+      {
+        "title": "moneytimes.com.br",
+        "url": "https://www.moneytimes.com.br/eletrobras-elet3-confirma-oferta-de-privatizacao-ao-preco-de-r-42-por-acao/"
+      },
+      {
+        "title": "maisretorno.com",
+        "url": "https://maisretorno.com/portal/eletrobras-e-privatizada-com-oferta-de-r-337-bi-e-se-torna-a-segunda-maior-operacao-em-bolsa-do-mundo-em-2022"
+      },
+      {
+        "title": "bloomberglinea.com.br",
+        "url": "https://www.bloomberglinea.com.br/2022/05/20/eletrobras-e-hora-de-comprar-a-acao-antes-da-privatizacao/"
+      },
+      {
+        "title": "oantagonista.com.br",
+        "url": "https://oantagonista.com.br/?p=771027"
+      },
+      {
+        "title": "eixos.com.br",
+        "url": "https://eixos.com.br/energia-eletrica/eletrobras-completa-tres-anos-de-privatizacao-com-entregas-mas-acoes-ainda-patinam/"
+      },
+      {
+        "title": "crusoe.com.br",
+        "url": "https://crusoe.com.br/?p=158177"
+      },
+      {
+        "title": "braziljournal.com",
+        "url": "https://braziljournal.com/brazil-privatiza-a-eletrobras/"
+      },
+      {
+        "title": "brasildefato.com.br",
+        "url": "https://www.brasildefato.com.br/2022/02/15/por-6-votos-a-1-tcu-autoriza-primeira-etapa-de-venda-da-eletrobras-julgamento-segue-em-marco"
+      },
+      {
+        "title": "hgbrasil.com",
+        "url": "https://hgbrasil.com/finance/tickers/B3:AXIA3"
+      }
+    ]
+  },
+  {
+    "id": "e6-18",
+    "year": "2021–2023",
+    "start_year": 2021,
+    "title": "Petrobras refinery sales 2021-2023 (Reman, Lubnor, SIX; failed Refap, Repar, RNEST)",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Bolsonaro (sales); Lula 3 (cancellation)",
+    "what": "The 2019 CADE agreement (TCC) obliged Petrobras to sell 8 refineries. Reman (Manaus, 46,000 b/d) was sold to Ream; Lubnor (Ceará, 8,000 b/d) to Grepar (cancelled); SIX (shale unit, São Mateus do Sul, PR) to Forbes & Manhattan Resources. Repar's first sale attempt was halted over low offers; RNEST got no proposals. Ultrapar's reported Refap interest (about US$ 1.2-1.4 bn) ended in Oct 2021.",
+    "who_got": "Reman: Ream (Atem's Distribuidora). Lubnor: Grepar (linked to Greca; competing asphalt distributors opposed). SIX: Forbes & Manhattan Resources (closed early Nov 2022 to Forbes Resources Brazil Holding). Private buyers gain regional fuel monopolies in small markets.",
+    "terms": "Reman: US$ 189.5 mn headline (Eixos) to US$ 257.2 mn total (US$ 28.4 mn deposit in Aug 2021; US$ 228.8 mn at closing on 30 Nov 2022). Lubnor: US$ 34 mn (signed 25 May 2022). Ineep (union-linked) says market value was at least US$ 62 mn, so 55% below, with no method detail and no Petrobras reply. SIX: US$ 33 mn.",
+    "mechanism": "CADE TCC 2019; sales without a new law, through Petrobras board and binding rounds.",
+    "who_paid": "Regional fuel consumers if monopolies move to private hands (FUP, Ineep). Petrobras (federal and private shareholders) gets cash. CADE says the sales open competition.",
+    "after": "Lubnor contract terminated 27 Nov 2023 over unmet conditions precedent about land involving two federal entities; Grepar says it waived them and will sue. Lubnor stays with Petrobras. CADE asked for further diligence on Reman in Mar 2022. The messy outcomes (one cancelled, one price adjusted) show the process was uneven.",
+    "counter_view": "Defenders (CADE) say the sales open competition. Critics (FUP, Ineep) say they move regional monopolies from public to private hands.",
+    "signs": [
+      "below-value-price",
+      "exclusive-privilege"
+    ],
+    "figures": [
+      {
+        "label": "Reman sale price",
+        "value": "US$ 189.5 mn (headline) to US$ 257.2 mn (closing 228.8 mn plus deposit 28.4 mn)",
+        "currency": "USD",
+        "value_year": 2022,
+        "estimator": "OGJ; Eixos",
+        "kind": "other",
+        "source_url": "https://ogj.com/refining-processing/article/14286478/petrobras-completes-reman-refinery-sale",
+        "status": "disputed",
+        "note": "Range depends on whether adjustments and deposit are counted. The Eixos price headline link is not given in the notes."
+      },
+      {
+        "label": "Lubnor sale price",
+        "value": "34 mn (3.4 mn at signing, 9.6 mn at closing, 21 mn deferred)",
+        "currency": "USD",
+        "value_year": 2022,
+        "estimator": "Eixos",
+        "kind": "other",
+        "source_url": "https://eixos.com.br/petrobras-vende-refinaria-lubnor-no-ceara-por-us-34-milhoes/",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "Ineep estimate of Lubnor market value",
+        "value": "at least 62 mn (price 55% below)",
+        "currency": "USD",
+        "value_year": 2022,
+        "estimator": "Ineep (union-linked)",
+        "kind": "price-gap",
+        "source_url": "https://www.jb.com.br/economia/2022/05/1037721-refinaria-da-petrobras-e-vendida-por-preco-55-abaixo-do-valor-de-mercado-diz-ineep.html",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes. No method detail; no Petrobras reply in the article."
+      },
+      {
+        "label": "SIX sale price",
+        "value": "33 mn",
+        "currency": "USD",
+        "value_year": 2022,
+        "estimator": "Eixos / OGJ",
+        "kind": "other",
+        "source_url": "https://ogj.com/refining-processing/article/14286478/petrobras-completes-reman-refinery-sale",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "Reported Ultrapar interest in Refap",
+        "value": "about 1.2 to 1.4 bn",
+        "currency": "USD",
+        "value_year": 2021,
+        "estimator": "Valor via Suno; Money Times (snippets)",
+        "kind": "other",
+        "source_url": null,
+        "status": "unverified",
+        "note": "Snippets only; the notes give no URL."
+      }
+    ],
+    "summary": "To meet a 2019 CADE agreement, Petrobras sold or tried to sell several small refineries. Reman and SIX were sold; the Lubnor sale was cancelled in 2023 after Ineep said it was priced 55% too low. Critics say regional monopolies moved from public to private hands.",
+    "sources": [
+      {
+        "title": "ogj.com",
+        "url": "https://ogj.com/refining-processing/article/14286478/petrobras-completes-reman-refinery-sale"
+      },
+      {
+        "title": "eixos.com.br (home page only; the Reman price-headline article was not re-opened in the notes)",
+        "url": "https://eixos.com.br"
+      },
+      {
+        "title": "eixos.com.br",
+        "url": "https://eixos.com.br/petrobras-vende-refinaria-lubnor-no-ceara-por-us-34-milhoes/"
+      },
+      {
+        "title": "jb.com.br",
+        "url": "https://www.jb.com.br/economia/2022/05/1037721-refinaria-da-petrobras-e-vendida-por-preco-55-abaixo-do-valor-de-mercado-diz-ineep.html"
+      },
+      {
+        "title": "eixos.com.br",
+        "url": "https://eixos.com.br/petrobras-cancela-venda-da-lubnor/"
+      }
+    ]
+  },
+  {
+    "id": "e6-19",
+    "year": "2021–2023",
+    "start_year": 2021,
+    "title": "Petrobras field and gas asset sales and divestment totals (Polo Bahia Terra, Carmópolis, Gaspetro/Bahiagas)",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Bolsonaro (sales); Lula 3 (end of E&P divestments)",
+    "what": "Polo Bahia Terra (28 onshore concessions, Recôncavo and Tucano, about 13,500 b/d oil and 660,000 m3/d gas): binding phase began 19 Mar 2021; Petrobras ended E&P divestments on 4 Sep 2023 and dropped Bahia Terra, Urucu, Manati and Argentina. Carmópolis (11 Sergipe concessions) was sold to Carmo Energy (Cobra group), closed Dec 2022. Gaspetro: Compass (Cosan) bought Petrobras's 51% and Bahia bought Gaspetro's stake in Bahiagas.",
+    "who_got": "Carmo Energy (Cobra group) for Carmópolis. Compass (Cosan) for Gaspetro. The Águila consortium offered above US$ 1.5 bn for Bahia Terra but was disqualified for not proving financial backing and started arbitration; PetroReconcavo/Eneva made a binding offer in Mar 2022 of about US$ 1.4 bn (unverified).",
+    "terms": "Gaspetro: Compass paid R$ 2.03 bn for 51%; CADE approved unanimously and required Compass to sell stakes in 12 of 18 distributors. Bahia paid R$ 540 mn for Gaspetro's Bahiagas stake, about a quarter of the Compass price; the Bahia secretary called the price 'very low'. Mitsui had bought 49% in 2015 for about R$ 1.9 bn (unverified). Carmópolis: US$ 1.1 bn in total.",
+    "mechanism": "Asset sales by Petrobras under its divestment plan, with CADE conditions where required.",
+    "who_paid": "The Union and private shareholders of Petrobras if prices were low; no independent valuation was found.",
+    "after": "Carmópolis: Petrobras says US$ 296 mn was due and unpaid (reported 26 Dec 2023). Several sold assets came back onto Petrobras's agenda after buyer problems (Mataripe pricing, Carmópolis payment default, Lubnor cancellation). Petrobras reconsidered a Bahia Terra sale in 2025 (unverified).",
+    "counter_view": "Defenders say the sales reduced debt and focused Petrobras. The only totals found come from labor-aligned sources (OSP, DIEESE/FUP); a non-union estimate is a gap.",
+    "signs": [
+      "below-value-price"
+    ],
+    "figures": [
+      {
+        "label": "Compass price for Petrobras's 51% of Gaspetro",
+        "value": "2.03 bn",
+        "currency": "BRL",
+        "value_year": 2022,
+        "estimator": "Eixos",
+        "kind": "other",
+        "source_url": "https://eixos.com.br/governo-da-bahia-vai-pagar-r-540-milhoes-por-acoes-da-gaspetro-na-bahiagas/",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "Bahia's price for Gaspetro's Bahiagas stake",
+        "value": "540 mn (about a quarter of the Compass price)",
+        "currency": "BRL",
+        "value_year": 2022,
+        "estimator": "Eixos",
+        "kind": "price-gap",
+        "source_url": "https://eixos.com.br/governo-da-bahia-vai-pagar-r-540-milhoes-por-acoes-da-gaspetro-na-bahiagas/",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "Carmópolis sale price and unpaid part",
+        "value": "1.1 bn total; 296 mn due and unpaid per Petrobras",
+        "currency": "USD",
+        "value_year": 2022,
+        "estimator": "Bloomberg Línea",
+        "kind": "other",
+        "source_url": "https://www.bloomberglinea.com.br/negocios/petrobras-como-ativos-vendidos-nos-ultimos-anos-voltaram-a-mira-da-estatal/",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "Bahia Terra offers",
+        "value": "Águila above 1.5 bn (disqualified); PetroReconcavo/Eneva about 1.4 bn (Mar 2022)",
+        "currency": "USD",
+        "value_year": 2022,
+        "estimator": "Eu Quero Investir; Eixos; snippet",
+        "kind": "other",
+        "source_url": "https://www.euqueroinvestir.com/petrobras-inicia-fase-vinculante-polo-bahia-terra/",
+        "status": "unverified",
+        "note": "The 1.4 bn is a snippet only."
+      },
+      {
+        "label": "Total of privatizations (OSP Privatômetro, Jul 2022)",
+        "value": "67 assets, 280.4 bn at Jun 2022 values; about 175 bn (62.4%) under Bolsonaro (other snippet: 70 assets / 281 bn)",
+        "currency": "BRL",
+        "value_year": 2022,
+        "estimator": "OSP (labor-aligned)",
+        "kind": "other",
+        "source_url": "https://www.infomoney.com.br/?p=1904463",
+        "status": "disputed",
+        "note": "Labor-aligned source; another snippet gives 70 assets / R$ 281 bn."
+      },
+      {
+        "label": "DIEESE/FUP count of Petrobras assets sold 2013-2022",
+        "value": "96 assets, US$ 58.5 bn",
+        "currency": "USD",
+        "value_year": 2022,
+        "estimator": "DIEESE/FUP (labor-aligned)",
+        "kind": "other",
+        "source_url": null,
+        "status": "unverified",
+        "note": "Snippet only; the notes give no URL."
+      }
+    ],
+    "summary": "Petrobras sold gas and onshore field assets in 2021-23 and then stopped its field divestments in September 2023. Bahia bought a Gaspetro stake for about a quarter of what Compass paid for a bigger stake. Some buyers had payment or contract problems, and totals come mainly from labor-aligned sources.",
+    "sources": [
+      {
+        "title": "euqueroinvestir.com",
+        "url": "https://www.euqueroinvestir.com/petrobras-inicia-fase-vinculante-polo-bahia-terra/"
+      },
+      {
+        "title": "eixos.com.br",
+        "url": "https://eixos.com.br/empresas/petrobras-desiste-de-vender-bahia-terra-veja-o-que-fica-e-o-que-sera-vendido-pela-estatal/"
+      },
+      {
+        "title": "bloomberglinea.com.br",
+        "url": "https://www.bloomberglinea.com.br/negocios/petrobras-como-ativos-vendidos-nos-ultimos-anos-voltaram-a-mira-da-estatal/"
+      },
+      {
+        "title": "eixos.com.br",
+        "url": "https://eixos.com.br/governo-da-bahia-vai-pagar-r-540-milhoes-por-acoes-da-gaspetro-na-bahiagas/"
+      },
+      {
+        "title": "infomoney.com.br",
+        "url": "https://www.infomoney.com.br/?p=1904463"
+      }
+    ]
+  },
+  {
+    "id": "e6-20",
+    "year": "2021–2026",
+    "start_year": 2021,
+    "title": "Correios: privatization attempt and 2025 financial crisis",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Bolsonaro (PL 591/2021); Lula 3 (2025 crisis)",
+    "what": "No privatization was completed. The Câmara approved PL 591/2021 on 5 Aug 2021 (286 to 173, 2 abstentions; rapporteur Gil Cutrim) and sent it to the Senate (rapporteurs Oriovisto Guimarães, then Marcio Bittar; ADIs at the STF; outcome unconfirmed). In 2025 the company posted a net loss of R$ 8.5 bn (2024: R$ 2.6 bn), about R$ 6.4 bn of it court liabilities, with negative equity of R$ 13.1 bn.",
+    "who_got": "Nobody: the company stays public. The company's president (Rondon) ruled out privatization in Oct 2025 (Carta Capital only; unconfirmed).",
+    "terms": "Loan: board approved R$ 20 bn on 28 Nov 2025; the Treasury rejected that version and authorized R$ 12 bn on 18 Dec 2025 (Caixa, BB, Bradesco R$ 3 bn each; Itaú and Santander R$ 1.5 bn each; about 115% of CDI; 3-year grace; 15-year term). Signed 26 Dec 2025, runs to Dec 2040. No R$ 10 bn figure was found.",
+    "mechanism": "Privatization bill (stalled); a Treasury-guaranteed bank loan.",
+    "who_paid": "The Treasury, as guarantor. A public company, not sold, with the public bearing the risk.",
+    "after": "H1 2026 net loss R$ 5.55 bn (up 30.36% from R$ 4.26 bn); Q2 loss R$ 2.39 bn, Q1 R$ 3.16 bn. The government committed a R$ 6 bn capital injection by end 2027, linked to the R$ 12 bn five-bank loan; debt term extended from 18 to 180 months. Restructuring of up to 15,000 voluntary dismissals and 1,000 agency closures to save R$ 2.1 bn (snippets, unverified).",
+    "counter_view": "Defenders of privatization point to the losses and the need for the loan. Opponents say the crisis comes from legal liabilities, pension costs and competition rules.",
+    "signs": [
+      "bailout"
+    ],
+    "figures": [
+      {
+        "label": "2025 net loss",
+        "value": "8.5 bn (2024: 2.6 bn); R$ 6.4 bn court liabilities; negative equity R$ 13.1 bn",
+        "currency": "BRL",
+        "value_year": 2025,
+        "estimator": "Poder360 / Mercado e Consumo",
+        "kind": "other",
+        "source_url": "https://www.poder360.com.br/poder-economia/prejuizo-dos-correios-mais-do-que-triplica-em-2025-e-atinge-r-85-bi/",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Treasury-guaranteed bank loan",
+        "value": "12 bn (signed 26 Dec 2025, to Dec 2040)",
+        "currency": "BRL",
+        "value_year": 2025,
+        "estimator": "Gazeta do Povo; Money Times",
+        "kind": "bailout",
+        "source_url": "https://www.moneytimes.com.br/tesouro-autoriza-emprestimo-de-r-12-bilhoes-aos-correios-com-garantia-estatal-fets/",
+        "status": "corrected",
+        "note": "Notes had R$ 12 bn, R$ 20 bn and R$ 10 bn. Corrected: the board approved R$ 20 bn (28 Nov 2025); the Treasury authorized R$ 12 bn (18 Dec 2025). No R$ 10 bn figure was found. Signing date comes from a search result."
+      },
+      {
+        "label": "Capital injection promised",
+        "value": "6 bn by end 2027",
+        "currency": "BRL",
+        "value_year": 2026,
+        "estimator": "O Povo",
+        "kind": "bailout",
+        "source_url": "https://mais.opovo.com.br/jornal/farol/2026/08/31/prejuizo-liquido-dos-correios-sobe-no-1-semestre-mas-cai-no-2-trimestre.html",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "H1 2026 net loss",
+        "value": "5.55 bn (up 30.36% from 4.26 bn)",
+        "currency": "BRL",
+        "value_year": 2026,
+        "estimator": "O Povo",
+        "kind": "other",
+        "source_url": "https://mais.opovo.com.br/jornal/farol/2026/08/31/prejuizo-liquido-dos-correios-sobe-no-1-semestre-mas-cai-no-2-trimestre.html",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "PL 591/2021 vote in the Câmara",
+        "value": "286 to 173, 2 abstentions (5 Aug 2021)",
+        "currency": "n/a",
+        "value_year": 2021,
+        "estimator": "Metrópoles",
+        "kind": "other",
+        "source_url": "https://www.metropoles.com/brasil/politica-brasil/camara-aprova-projeto-de-privatizacao-dos-correios",
+        "status": "verified",
+        "note": "Notes said the PL 591 plan was 'not verified'; now confirmed. Senate outcome unconfirmed."
+      }
+    ],
+    "summary": "Correios was not privatized: the Câmara passed the bill in 2021 but it stalled in the Senate. In 2025 the company lost R$ 8.5 bn and took a R$ 12 bn bank loan backed by the Treasury. The public, not private owners, now carries the risk.",
+    "sources": [
+      {
+        "title": "poder360.com.br",
+        "url": "https://www.poder360.com.br/poder-economia/prejuizo-dos-correios-mais-do-que-triplica-em-2025-e-atinge-r-85-bi/"
+      },
+      {
+        "title": "gazetadopovo.com.br",
+        "url": "https://www.gazetadopovo.com.br/republica/correios-emprestimo-20-bilhoes-prejuizo-historico/"
+      },
+      {
+        "title": "timesbrasil.com.br",
+        "url": "https://timesbrasil.com.br/brasil/correios-aprovam-emprestimo-20-bi-reestruturacao-2025/"
+      },
+      {
+        "title": "ocafezinho.com",
+        "url": "https://www.ocafezinho.com/2025/12/29/correios-ficam-com-pires-na-mao-e-pedem-emprestimo-de-r-12-bilhoes-com-garantia-do-governo/amp/"
+      },
+      {
+        "title": "mercadoeconsumo.com.br",
+        "url": "https://mercadoeconsumo.com.br/23/04/2026/economia/correios-tem-prejuizo-de-r-85-bi-em-2025-puxado-por-obrigacoes-judiciais-e-custo-operacional/"
+      },
+      {
+        "title": "moneytimes.com.br",
+        "url": "https://www.moneytimes.com.br/tesouro-autoriza-emprestimo-de-r-12-bilhoes-aos-correios-com-garantia-estatal-fets/"
+      },
+      {
+        "title": "metropoles.com",
+        "url": "https://www.metropoles.com/brasil/politica-brasil/camara-aprova-projeto-de-privatizacao-dos-correios"
+      },
+      {
+        "title": "congressoemfoco.com.br",
+        "url": "https://www.congressoemfoco.com.br/legislativo/camara-aprova-privatizacao-dos-correios/"
+      },
+      {
+        "title": "mais.opovo.com.br",
+        "url": "https://mais.opovo.com.br/jornal/farol/2026/08/31/prejuizo-liquido-dos-correios-sobe-no-1-semestre-mas-cai-no-2-trimestre.html"
+      }
+    ]
+  },
+  {
+    "id": "e6-21",
+    "year": "2023–2025",
+    "start_year": 2023,
+    "title": "Eletrobras 10% voting cap and the Union's reply (ADI 7385)",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Lula 3",
+    "what": "The Union holds about 42-43% of common shares but votes only 10%. The AGU filed suit in 2023. On 11 Dec 2025 the STF plenary homologated a settlement (rapporteur Nunes Marques; PGR supported it). The Union nominates 3 of 10 board members (2 if its stake is below 30%, none below 20%) and 1 of 5 fiscal council members. Eletronuclear: R$ 2.4 bn investment in Angra, negotiated over 15 months. The cap stays at 10%.",
+    "who_got": "The Union gets governance seats, not proportional votes. The private shareholders keep the 10% cap.",
+    "terms": "No price. The terms are governance rights.",
+    "mechanism": "Settlement in the STF conciliation centre, homologated by the plenary.",
+    "who_paid": "Treasury / public control: the Union holds about 42% of common shares but cannot vote them in proportion.",
+    "after": "Vote reported as 6-4 (CNN Brasil): majority Nunes Marques, Fux and others; dissenters Moraes, Cármen Lúcia, Dino and Fachin (on the Court's competence). A conflicting Eixos report says Moraes proposed a constitutional-conforming interpretation and that three justices voted to approve before a pause; both are given. The term 'golden share' does not appear in the sources.",
+    "counter_view": "Citi analyst via Eixos: the deal leaves political risk. Eletrobras treats the deal as legal certainty.",
+    "signs": [],
+    "figures": [
+      {
+        "label": "Union nominations",
+        "value": "3 of 10 board seats (2 if stake below 30%; 0 below 20%); 1 of 5 fiscal council seats",
+        "currency": "n/a",
+        "value_year": 2025,
+        "estimator": "STF / MPF",
+        "kind": "other",
+        "source_url": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/stf-homologa-acordo-que-amplia-participacao-da-uniao-no-conselho-de-administracao-da-antiga-eletrobras",
+        "status": "verified",
+        "note": "Date of homologation corrected from 'about Dec 2025 [CHECK]' to 11 Dec 2025."
+      },
+      {
+        "label": "Eletronuclear / Angra investment in the settlement",
+        "value": "2.4 bn",
+        "currency": "BRL",
+        "value_year": 2025,
+        "estimator": "MPF",
+        "kind": "other",
+        "source_url": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/stf-homologa-acordo-que-amplia-participacao-da-uniao-no-conselho-de-administracao-da-antiga-eletrobras",
+        "status": "corrected",
+        "note": "Notes said 'Eletronuclear guarantees'. Fact-check: MPF cites an R$ 2.4 bn investment for the Angra nuclear plant (debentures), negotiated over 15 months at the CAAF."
+      },
+      {
+        "label": "STF vote on homologation",
+        "value": "6-4",
+        "currency": "n/a",
+        "value_year": 2025,
+        "estimator": "CNN Brasil",
+        "kind": "other",
+        "source_url": "https://www.cnnbrasil.com.br/politica/stf-homologa-acordo-entre-governo-e-eletrobras/",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes. Eixos describes the sequence differently."
+      }
+    ],
+    "summary": "After the privatization the Union kept about 42% of the shares but only 10% of the votes. In December 2025 the STF approved a deal that gives the Union 3 of 10 board seats. The 10% voting cap stays.",
+    "sources": [
+      {
+        "title": "bahianoticias.com.br",
+        "url": "https://www.bahianoticias.com.br/justica/noticia/73671-stf-homologa-acordo-entre-uniao-e-eletrobras-sobre-poder-de-voto-apos-privatizacao"
+      },
+      {
+        "title": "noticias.stf.jus.br",
+        "url": "https://noticias.stf.jus.br/postsnoticias/stf-discute-homologacao-de-acordo-que-redefine-participacao-da-uniao-na-eletrobras/"
+      },
+      {
+        "title": "mpf.mp.br",
+        "url": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/stf-homologa-acordo-que-amplia-participacao-da-uniao-no-conselho-de-administracao-da-antiga-eletrobras"
+      },
+      {
+        "title": "portalin.com.br",
+        "url": "https://www.portalin.com.br/negocios/stf-ministro-manda-acao-da-uniao-sobre-eletrobras-para-conciliacao/"
+      },
+      {
+        "title": "noticias.stf.jus.br",
+        "url": "https://noticias.stf.jus.br/?p=159006"
+      },
+      {
+        "title": "gazetadopovo.com.br",
+        "url": "https://www.gazetadopovo.com.br/economia/stf-homologa-acordo-que-devolve-poder-de-voto-da-uniao-na-eletrobras/"
+      },
+      {
+        "title": "cnnbrasil.com.br",
+        "url": "https://www.cnnbrasil.com.br/politica/stf-homologa-acordo-entre-governo-e-eletrobras/"
+      },
+      {
+        "title": "eixos.com.br",
+        "url": "https://eixos.com.br/empresas/moraes-vota-por-interpretacao-constitucional-em-acao-sobre-poder-de-voto-na-axia/"
+      }
+    ]
+  },
+  {
+    "id": "e6-22",
+    "year": "2023",
+    "start_year": 2023,
+    "title": "Desenrola Brasil and Novo Desenrola (household-debt relief)",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Lula 3",
+    "what": "Not an asset transfer: a household-debt relief channel, included as a counter-case and as private-credit relief. Desenrola Brasil 2023: lenders' auction offered R$ 126 bn in discounts (average 83%, credit cards 96%, 654 companies), debts up to R$ 20k, and R$ 32.5 bn was renegotiated for about 11.5 million people by Dec 2023. Range 2 had no Treasury guarantee. Novo Desenrola (4 May 2026): discounts 30-90% (average 65%), FGO guarantees up to 50% of defaults.",
+    "who_got": "Indebted households (income cap of 5 minimum wages, R$ 8,105 under Novo Desenrola) and lenders, who recover part of bad debt with a public guarantee. Maximum interest 1.99% a month over 48 months.",
+    "terms": "Novo Desenrola: guarantees up to R$ 15 bn; R$ 2 bn from the FGO, R$ 5-8 bn from forgotten funds, up to R$ 5 bn from the Treasury if needed.",
+    "mechanism": "Federal program with FGO guarantee (Lei 14.690/2023 details from a snippet, unverified).",
+    "who_paid": "Banks (write-downs) and a small public guarantee. A critic's view is that the state subsidizes credit-card interest practices.",
+    "after": "Tax waivers (Refis, Carf voto de qualidade, Perse) were not researched here; they are partly covered in the tax-expenditure case.",
+    "counter_view": "The R$ 126 bn is face value offered, not a cost to the state.",
+    "signs": [],
+    "figures": [
+      {
+        "label": "Discounts offered in the 2023 lender auction",
+        "value": "126 bn face value (average 83%)",
+        "currency": "BRL",
+        "value_year": 2023,
+        "estimator": "O Povo",
+        "kind": "other",
+        "source_url": "https://www.opovo.com.br/noticias/brasil/2023/09/29/desenrola-brasil-conclui-leilao-com-rs-126-bi-em-descontos-oferecidos.html",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes. Face value offered, not a cost to the state."
+      },
+      {
+        "label": "Debt renegotiated by Dec 2023",
+        "value": "32.5 bn for about 11.5 million people",
+        "currency": "BRL",
+        "value_year": 2023,
+        "estimator": "O Povo",
+        "kind": "other",
+        "source_url": "https://www.opovo.com.br/noticias/economia/2023/12/28/desenrola-renegociou-rs-325-bilhoes-em-dividas-em-2023.html",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "Novo Desenrola public guarantee",
+        "value": "FGO guarantees up to 15 bn (2 bn FGO + 5-8 bn forgotten funds + up to 5 bn Treasury)",
+        "currency": "BRL",
+        "value_year": 2026,
+        "estimator": "O Povo",
+        "kind": "subsidy",
+        "source_url": "https://www.opovo.com.br/noticias/economia/2026/05/04/novo-desenrola-tera-desconto-de-65-para-divida-das-familias-com-garantia-do-fgo.html",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      }
+    ],
+    "summary": "Desenrola is a debt-relief program, not a sale of public assets. In 2023 it renegotiated R$ 32.5 bn of household debt; the 2026 version uses a public guarantee of up to R$ 15 bn. It is included as a counter-case.",
+    "sources": [
+      {
+        "title": "opovo.com.br",
+        "url": "https://www.opovo.com.br/noticias/brasil/2023/09/29/desenrola-brasil-conclui-leilao-com-rs-126-bi-em-descontos-oferecidos.html"
+      },
+      {
+        "title": "opovo.com.br",
+        "url": "https://www.opovo.com.br/noticias/economia/2023/12/28/desenrola-renegociou-rs-325-bilhoes-em-dividas-em-2023.html"
+      },
+      {
+        "title": "opovo.com.br",
+        "url": "https://www.opovo.com.br/noticias/economia/2026/05/04/novo-desenrola-tera-desconto-de-65-para-divida-das-familias-com-garantia-do-fgo.html"
+      }
+    ]
+  },
+  {
+    "id": "e6-23",
+    "year": "2023–2026",
+    "start_year": 2023,
+    "title": "Foz do Amazonas / Margem Equatorial: licensing and block auction",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Lula 3",
+    "what": "Ibama refused Petrobras's drilling licence for block FZA-M-59 on 17 May 2023 (sensitivity, insufficient studies, strong currents). In the ANP 5th permanent-offer cycle (17 Jun 2025), 34 blocks were sold, 19 in the Foz do Amazonas. Licence LO 1684 was issued on 20 Oct 2025 for the Morpho well only, and rectified on 3 or 4 Sep 2026 to cover 3 more wells within FZA-M-59 (prosecutors said the earlier authorization covered only Morpho).",
+    "who_got": "Chevron-CNPC (9 Foz blocks); Petrobras with ExxonMobil (10 Foz blocks); Petrobras/Petrogal (3 blocks in Pelotas).",
+    "terms": "Total signing bonus R$ 989.26 mn for 34 blocks. The ministry had expected R$ 444 mn (an MME projection for the whole cycle; snippet).",
+    "mechanism": "ANP permanent-offer auction plus Ibama licensing.",
+    "who_paid": "Environmental, Indigenous and coastal communities (MPF disputes); climate.",
+    "after": "New licences in 2025-2026.",
+    "counter_view": "Petrobras and MME argue the Equatorial Margin is strategic for energy security. Ibama staff, MPF and climate groups cite oil-spill risk and wildlife response gaps.",
+    "signs": [],
+    "figures": [
+      {
+        "label": "Total signing bonus, 34 blocks (17 Jun 2025)",
+        "value": "R$ 989,261,000.96",
+        "currency": "BRL",
+        "value_year": 2025,
+        "estimator": "ANP (5th cycle report)",
+        "kind": "other",
+        "source_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-06/leilao-da-anp-tem-34-blocos-arrematados-19-na-foz-do-amazonas",
+        "status": "corrected",
+        "note": "Precise ANP figure; notes said R$ 989.26 mn."
+      },
+      {
+        "label": "Chevron/CNPC, 9 Foz blocks",
+        "value": "about 582 mn",
+        "currency": "BRL",
+        "value_year": 2025,
+        "estimator": "ANP report; Exame",
+        "kind": "other",
+        "source_url": "https://agenciainfra.com/blog/leilao-da-anp-petroleiras-ignoram-dificuldades-com-licencas-ambientais-e-disputam-margem-equatorial-em-leilao-de-quase-r-1-bilhao/",
+        "status": "corrected",
+        "note": "Notes said 'just over R$ 350 mn' (iNFRA). Fact-check contradicted that: R$ 582 mn. Foz basin total about R$ 844 mn (582 + 262.08)."
+      },
+      {
+        "label": "Petrobras/ExxonMobil, 10 Foz blocks",
+        "value": "262.08 mn (Petrobras own share about 139 mn)",
+        "currency": "BRL",
+        "value_year": 2025,
+        "estimator": "ANP report",
+        "kind": "other",
+        "source_url": "https://agenciainfra.com/blog/leilao-da-anp-petroleiras-ignoram-dificuldades-com-licencas-ambientais-e-disputam-margem-equatorial-em-leilao-de-quase-r-1-bilhao/",
+        "status": "corrected",
+        "note": "Notes gave only the Petrobras own share; the ANP report gives the total for the 10 blocks."
+      },
+      {
+        "label": "Petrobras/Petrogal, Pelotas",
+        "value": "about 11.46 mn",
+        "currency": "BRL",
+        "value_year": 2025,
+        "estimator": "ANP report",
+        "kind": "other",
+        "source_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-06/leilao-da-anp-tem-34-blocos-arrematados-19-na-foz-do-amazonas",
+        "status": "corrected",
+        "note": "Notes gave only a combined Petrobras figure (about R$ 139 mn); the fact-check gives the Pelotas amount separately."
+      },
+      {
+        "label": "Ministry expectation for the cycle",
+        "value": "444 mn",
+        "currency": "BRL",
+        "value_year": 2025,
+        "estimator": "MME projection (snippet)",
+        "kind": "other",
+        "source_url": null,
+        "status": "unverified",
+        "note": "Whole-cycle projection; snippet only."
+      }
+    ],
+    "summary": "Ibama refused a drilling licence in the Foz do Amazonas in 2023. In June 2025 the ANP sold 19 blocks there for about R$ 844 mn, mostly to Chevron-CNPC and Petrobras-ExxonMobil. Petrobras later received licences to drill more wells. Environmental groups warn of spill and climate risks.",
+    "sources": [
+      {
+        "title": "agenciabrasil.ebc.com.br",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-06/leilao-da-anp-tem-34-blocos-arrematados-19-na-foz-do-amazonas"
+      },
+      {
+        "title": "agenciainfra.com",
+        "url": "https://agenciainfra.com/blog/leilao-da-anp-petroleiras-ignoram-dificuldades-com-licencas-ambientais-e-disputam-margem-equatorial-em-leilao-de-quase-r-1-bilhao/"
+      },
+      {
+        "title": "opovo.com.br",
+        "url": "https://www.opovo.com.br/noticias/brasil/2023/05/25/ibama-recusa-licenca-para-petrobras-explorar-petroleo-na-foz-do-amazonas.html"
+      },
+      {
+        "title": "diariodepernambuco.com.br",
+        "url": "https://www.diariodepernambuco.com.br/economia/2026/09/11723160-petrobras-ibama-emitiu-licenca-para-perfurar-mais-3-pocos-na-bacia-da-foz-do-amazonas.html"
+      },
+      {
+        "title": "euqueroinvestir.com",
+        "url": "https://euqueroinvestir.com/acoes/mpf-foz-amazonas-petr4-ibama/"
+      }
+    ]
+  },
+  {
+    "id": "e6-24",
+    "year": "2023–2025",
+    "start_year": 2023,
+    "title": "Marco Temporal (Lei 14.701/2023 and STF ruling)",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Congress overriding Lula's vetoes (2023); STF 2025",
+    "what": "Law 14.701/2023 imposed the 5 Oct 1988 cutoff for Indigenous land claims and 'renitente esbulho' requirements. After the STF Tema 1.031 ruling (Sep 2023), a conciliation commission drafted a bill (23 hearings, ended 23 Jun 2025 without conclusion); APIB left the table on 28 Aug 2024, calling it forced conciliation (snippet). The STF (rapporteur Gilmar Mendes) declared the marco temporal and the renitente esbulho requirement unconstitutional, concluding on 19 Dec 2025.",
+    "who_got": "Had it stood: landholders, agribusiness, mining and energy interests on claimed land.",
+    "terms": "No price. Land rights.",
+    "mechanism": "Ordinary law passed by Congress after overriding vetoes; reviewed by the STF.",
+    "who_paid": "Indigenous peoples, had the law stood.",
+    "after": "Nine justices were in the majority against the marco; Mendonça was the lone dissent on the marco; Fachin dissented on the deadline and Cármen Lúcia partly on other provisions. Tribuna do Sertão gives 9-1, names Nunes Marques and dates it 18 Dec (wrong). PEC 48 was approved by the Senate on 9 Dec 2025; the Câmara status was not found. Legislative risk remains.",
+    "counter_view": "Congress and agribusiness argue the Constitution fixes 5 Oct 1988 as the reference; PEC 48 and Lei 14.701/2023 express this.",
+    "signs": [
+      "law-rewritten-for-deal"
+    ],
+    "figures": [
+      {
+        "label": "STF majority against the marco temporal",
+        "value": "9 in the majority; Mendonça dissent on the marco; Fachin dissent on the deadline",
+        "currency": "n/a",
+        "value_year": 2025,
+        "estimator": "STF; Mayer Brown",
+        "kind": "other",
+        "source_url": "https://noticias.stf.jus.br/postsnoticias/stf-considera-inconstitucional-trecho-de-lei-que-institui-marco-temporal-para-terras-indigenas/",
+        "status": "corrected",
+        "note": "Notes said the tally differed by source (9-1 per Tribuna do Sertão). Corrected per STF page and Mayer Brown."
+      },
+      {
+        "label": "Conciliation ended",
+        "value": "23 Jun 2025 without conclusion",
+        "currency": "n/a",
+        "value_year": 2025,
+        "estimator": "ConJur",
+        "kind": "other",
+        "source_url": "https://www.conjur.com.br/2025-jun-23/reuniao-de-conciliacao-sobre-marco-temporal-no-stf-termina-ainda-com-pendencias//?print=1",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "APIB left conciliation",
+        "value": "28 Aug 2024",
+        "currency": "n/a",
+        "value_year": 2024,
+        "estimator": "Snippets",
+        "kind": "other",
+        "source_url": null,
+        "status": "unverified",
+        "note": "Snippet only; the notes say Aug 2024 without a URL."
+      }
+    ],
+    "summary": "In 2023 Congress imposed a 1988 cutoff date for Indigenous land claims, overriding Lula's vetoes. The STF struck the cutoff down in December 2025 with a 9-justice majority. Congress is still pushing a constitutional amendment (PEC 48), so the risk is not over.",
+    "sources": [
+      {
+        "title": "noticias.stf.jus.br",
+        "url": "https://noticias.stf.jus.br/postsnoticias/stf-considera-inconstitucional-trecho-de-lei-que-institui-marco-temporal-para-terras-indigenas/"
+      },
+      {
+        "title": "mayerbrown.com",
+        "url": "https://www.mayerbrown.com/pt/insights/publications/2026/01/brazils-supreme-court-concludes-ruling-on-the-indigenous-time-limit-doctrine"
+      },
+      {
+        "title": "tribunadosertao.com.br",
+        "url": "https://www.tribunadosertao.com.br/geral/2025/12/19/834292-stf-consolida-rejeicao-ao-marco-temporal-por-9-a-1-e-define-prazos-para-demarcacoes"
+      },
+      {
+        "title": "conjur.com.br",
+        "url": "https://www.conjur.com.br/2025-jun-23/reuniao-de-conciliacao-sobre-marco-temporal-no-stf-termina-ainda-com-pendencias//?print=1"
+      },
+      {
+        "title": "mattosfilho.com.br",
+        "url": "https://www.mattosfilho.com.br/unico/marco-temporal-stf-alteracoes/"
+      }
+    ]
+  },
+  {
+    "id": "e6-25",
+    "year": "2024–2026",
+    "start_year": 2024,
+    "title": "Sabesp privatization (São Paulo)",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "State of São Paulo (Tarcísio); federal context Lei 14.026/2020",
+    "what": "Offering closed 22 Jul 2024. The state sold about 32% of shares (from 50.3% to about 18.3%) at R$ 67 per share. A new single concession replaces the municipal contracts (371 of 375 municipalities adhered). Investment commitment R$ 260 bn through 2060, R$ 69 bn by 2029; universalization target moved from 2033 to 2029.",
+    "who_got": "Equatorial Energia bought 15% (R$ 6.9 bn) and became the reference shareholder (no formal control).",
+    "terms": "R$ 67 per share for about R$ 14.7-14.8 bn. R$ 85 was an all-time high, and the close on 17 Jul 2024 was R$ 83.20. The discount is 'almost 20%' per one source and 10-14% per others. Independent valuations of R$ 85.58 and R$ 103.90 per share exist (Valor, search snippet). Tarcísio says the high investment commitments justify the price and that the share rose after the sale (R$ 74 on 28 Jun vs R$ 33-46 in 2022).",
+    "mechanism": "Share offering plus a new concession contract (de facto a regulated monopoly).",
+    "who_paid": "Consumers. Initial tariff cuts (1% residential, 10% social, 0.5% other) apply to the first tier only; the funding source is not stated, and a search says the FAUSP fund receives at least 30% of proceeds, which critics say breaks the LRF. Sabesp had 6,879 Procon complaints in the 2025 ranking, 69% unresolved, against Enel's 5,373. In 2026 Haddad criticized the opaque criteria of the sale.",
+    "after": "Critics (Apública, Haddad) cite service problems. The governor's claim that tariffs are 15% below the no-privatization path was not found and is unconfirmed. The 'Enel of water' phrase was also not found.",
+    "counter_view": "Tarcísio says high investment commitments justify the price and the state says the share rose after the sale.",
+    "signs": [
+      "exclusive-privilege",
+      "below-value-price"
+    ],
+    "figures": [
+      {
+        "label": "Sale price and proceeds",
+        "value": "R$ 67 per share; 14.7-14.8 bn; Equatorial 15% for 6.9 bn",
+        "currency": "BRL",
+        "value_year": 2024,
+        "estimator": "Poder360; Folha PE",
+        "kind": "other",
+        "source_url": "https://www.poder360.com.br/infraestrutura/privatizacao-da-sabesp-e-concluida-e-sp-recebe-r-148-bilhoes/",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Investment commitment",
+        "value": "260 bn through 2060 (69 bn by 2029)",
+        "currency": "BRL",
+        "value_year": 2024,
+        "estimator": "Folha PE",
+        "kind": "other",
+        "source_url": "https://www.folhape.com.br/economia/sabesp/350412/",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Discount to market before the sale",
+        "value": "10% to almost 20% (R$ 85 high, R$ 83.20 close on 17 Jul vs R$ 67)",
+        "currency": "percent",
+        "value_year": 2024,
+        "estimator": "Mercado e Consumo; other sources",
+        "kind": "price-gap",
+        "source_url": "https://mercadoeconsumo.com.br/24/07/2024/economia/tarcisio-diz-que-alto-investimento-justifica-preco-de-venda-da-sabesp/",
+        "status": "disputed",
+        "note": "Notes said R$ 85 'days earlier, ~20% above the sale price'. Fact-check: R$ 85 was an all-time high; sources give 10-14% or almost 20%."
+      },
+      {
+        "label": "Independent valuations per share",
+        "value": "R$ 85.58 and R$ 103.90",
+        "currency": "BRL",
+        "value_year": 2024,
+        "estimator": "Valor (search snippet)",
+        "kind": "price-gap",
+        "source_url": null,
+        "status": "unverified",
+        "note": "Snippet only; contradicts the notes' 'no independent valuation found'."
+      },
+      {
+        "label": "Procon complaints against Sabesp, 2025 ranking",
+        "value": "6,879 (69% unresolved) vs Enel 5,373",
+        "currency": "n/a",
+        "value_year": 2025,
+        "estimator": "Metrópoles",
+        "kind": "other",
+        "source_url": "https://www.metropoles.com/sao-paulo/sabesp-queixas-procon-sp",
+        "status": "corrected",
+        "note": "Notes cited 8,875 and 3,829 complaints for 2026; those were not found. Opened page gives 6,879 for 2025."
+      }
+    ],
+    "summary": "São Paulo sold about 32% of Sabesp in July 2024 at R$ 67 per share, raising about R$ 14.8 bn, and gave the company a single long concession. Critics say the price was below market; the governor says the investment plan justifies it. Complaints against Sabesp are high.",
+    "sources": [
+      {
+        "title": "oespecialista.safra.com.br",
+        "url": "https://oespecialista.safra.com.br/sabesp-privatizada/"
+      },
+      {
+        "title": "poder360.com.br",
+        "url": "https://www.poder360.com.br/infraestrutura/privatizacao-da-sabesp-e-concluida-e-sp-recebe-r-148-bilhoes/"
+      },
+      {
+        "title": "euqueroinvestir.com",
+        "url": "https://euqueroinvestir.com/economia/apos-privatizacao-sabesp-sbsp3-anuncia-reducao-na-tarifa"
+      },
+      {
+        "title": "folhape.com.br",
+        "url": "https://www.folhape.com.br/economia/sabesp/350412/"
+      },
+      {
+        "title": "apublica.org",
+        "url": "https://apublica.org/2025/11/sabesp-institucionalizou-a-falta-dagua-em-sao-paulo-diz-especialista-em-saneamento/"
+      },
+      {
+        "title": "correiodamanha.com.br",
+        "url": "https://www.correiodamanha.com.br/nacional/sao-paulo/estado-de-sao-paulo/2026/06/294108-haddad-critica-privatizacao-da-sabesp-em-sao-paulo.html"
+      },
+      {
+        "title": "mercadoeconsumo.com.br",
+        "url": "https://mercadoeconsumo.com.br/24/07/2024/economia/tarcisio-diz-que-alto-investimento-justifica-preco-de-venda-da-sabesp/"
+      },
+      {
+        "title": "metropoles.com",
+        "url": "https://www.metropoles.com/sao-paulo/sabesp-queixas-procon-sp"
+      }
+    ]
+  },
+  {
+    "id": "e6-26",
+    "year": "2024–2026",
+    "start_year": 2024,
+    "title": "Ports: STS10 terminal (Santos) and other leasings",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Lula 3",
+    "what": "STS10 is a container terminal of about 622,000 m2 at Santos. The auction has been postponed at least 7 times since January 2025. The main dispute is whether incumbent shipping lines and terminal operators may bid (market concentration; CADE, ANTAQ, TCU). On 25 Apr 2026 the Ministry of Ports and Airports asked ANTAQ to suspend the process. On 6 May 2026 a Casa Civil guideline set an 'open auction': incumbents may bid but must divest Santos operations; this replaces ANTAQ's two-phase model.",
+    "who_got": "Not yet awarded. Award criterion plausibly highest grant payment (unconfirmed).",
+    "terms": "Outorga floor: R$ 500 mn (Ministry of Ports, Jan 2026) vs R$ 1.044 bn total (Casa Civil guideline, 6 May 2026).",
+    "mechanism": "Port lease auction.",
+    "who_paid": "Not yet.",
+    "after": "No new auction date was found; the latest event is the April 2026 suspension request. Airport rounds and other port leasings in this period were not confirmed in the notes.",
+    "counter_view": "ANTAQ and TCU back limits on incumbents (Maersk/MSC/Cosco-linked) to avoid concentration. Maersk calls the restrictions illegal; incumbents argue they have the scale to bid.",
+    "signs": [],
+    "figures": [
+      {
+        "label": "Terminal area",
+        "value": "about 622,000 m2",
+        "currency": "n/a",
+        "value_year": 2026,
+        "estimator": "Poder360",
+        "kind": "land-area",
+        "source_url": "https://www.poder360.com.br/poder-infra/governo-adiou-leilao-do-sts-10-ao-menos-7-vezes-desde-2025/",
+        "status": "corrected",
+        "note": "Notes said about 601,000 m2; fact-check corrected to about 622,000."
+      },
+      {
+        "label": "Outorga floor",
+        "value": "R$ 500 mn (MPor, Jan 2026) vs R$ 1.044 bn total (Casa Civil, 6 May 2026)",
+        "currency": "BRL",
+        "value_year": 2026,
+        "estimator": "Agência iNFRA (8 May 2026)",
+        "kind": "other",
+        "source_url": null,
+        "status": "disputed",
+        "note": "Two different figures from two government bodies; the notes do not give the iNFRA article URL, only the domain."
+      }
+    ],
+    "summary": "The Santos container terminal STS10 has been held up since 2025 by a fight over whether big shipping lines may bid. The government changed the model in May 2026 so incumbents can bid but must divest. No auction date exists yet.",
+    "sources": [
+      {
+        "title": "poder360.com.br",
+        "url": "https://www.poder360.com.br/poder-infra/governo-adiou-leilao-do-sts-10-ao-menos-7-vezes-desde-2025/"
+      },
+      {
+        "title": "istoedinheiro.com.br",
+        "url": "https://istoedinheiro.com.br/governo-pede-suspensao-de-leilao-de-terminal-em-santos"
+      },
+      {
+        "title": "atribuna.com.br",
+        "url": "https://www.atribuna.com.br/noticias/portomar/en/auctions-at-the-port-of-santos-to-bring-billions-in-investments-1.442750"
+      },
+      {
+        "title": "gov.br",
+        "url": "https://www.gov.br/mdic/pt-br/assuntos/reg/advocacia-da-concorrencia/2022/agencia-nacional-de-transportes-aquaviarios-antaq/parecer-6237.pdf"
+      }
+    ]
+  },
+  {
+    "id": "e6-27",
+    "year": "2025",
+    "start_year": 2025,
+    "title": "General Environmental Licensing Law (Lei 15.190/2025, 'PL da devastação') and LAE",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Lula 3",
+    "what": "The law overhauled licensing with self-declared licensing (LAC) and a Special Environmental License (LAE) for 'strategic' projects. Congress approved it on 17 Jul 2025 (Câmara vote 267 to 116 per snippets); Lula sanctioned it on 8 Aug 2025 with 63 vetoes (of about 400 provisions), including limiting LAC to low-pollution projects. Congress overrode vetoes on 27 Nov 2025; promulgation is dated 5 Dec (Mayer Brown) or 8 Dec (CBIC snippet). LAE items (32-38) were held back for an MP (MP 1.308/2025), converted into Lei 15.300/2025 on 22/23 Dec 2025 with no vetoes (snippets).",
+    "who_got": "Developers of infrastructure, agribusiness and energy projects.",
+    "terms": "No price.",
+    "mechanism": "Law approved by Congress, with vetoes overridden.",
+    "who_paid": "The environment and Indigenous and traditional communities. Observatório do Clima called it the biggest environmental setback in history, and ADIs were filed at the STF (Monitor Mercantil).",
+    "after": "Number of overridden vetoes differs: 52 (press) or 56 of 63 (Observatório do Clima); the attribution to Observatório is unconfirmed. NGOs went to court.",
+    "counter_view": "Industry and government say the law ends licensing paralysis. Critics (Observatório do Clima, MPF) call it the 'devastation bill'.",
+    "signs": [
+      "law-rewritten-for-deal"
+    ],
+    "figures": [
+      {
+        "label": "Vetoes overridden",
+        "value": "52 (several outlets) or 56 of 63 (others)",
+        "currency": "n/a",
+        "value_year": 2025,
+        "estimator": "Press; Observatório do Clima",
+        "kind": "other",
+        "source_url": "https://movimentoeconomico.com.br/meio-ambiente/2025/11/27/pl-da-devastacao-congresso-derruba-vetos-de-lula-a-lei-do-licenciamento-ambiental/",
+        "status": "disputed",
+        "note": "Range as reported."
+      },
+      {
+        "label": "Promulgation date",
+        "value": "5 Dec 2025 (Mayer Brown) or 8 Dec 2025 (CBIC snippet)",
+        "currency": "n/a",
+        "value_year": 2025,
+        "estimator": "Mayer Brown; CBIC",
+        "kind": "other",
+        "source_url": "https://www.mayerbrown.com/pt/insights/publications/2025/12/brazilian-congress-overrides-presidential-vetoes-to-the-general-environmental-licensing-law-and-approves-new-rules-on-the-special-environmental-license",
+        "status": "disputed",
+        "note": "Partly 403 on the other source."
+      },
+      {
+        "label": "Vetoes of the sanctioned law",
+        "value": "63 (sanctioned 8 Aug 2025)",
+        "currency": "n/a",
+        "value_year": 2025,
+        "estimator": "Eixos",
+        "kind": "other",
+        "source_url": "https://eixos.com.br/politica/meio-ambiente/lula-veta-63-dispositivos-de-lei-ambiental-e-edita-mp-para-acelerar-licenciamento-especial/",
+        "status": "verified",
+        "note": "Override on 27 Nov 2025 also confirmed."
+      }
+    ],
+    "summary": "A 2025 law loosened environmental licensing, adding self-declared licences and a fast track for strategic projects. Lula vetoed 63 provisions but Congress overrode most of them in November 2025. Environmental groups have taken the law to the STF.",
+    "sources": [
+      {
+        "title": "eixos.com.br",
+        "url": "https://eixos.com.br/politica/meio-ambiente/lula-veta-63-dispositivos-de-lei-ambiental-e-edita-mp-para-acelerar-licenciamento-especial/"
+      },
+      {
+        "title": "movimentoeconomico.com.br",
+        "url": "https://movimentoeconomico.com.br/meio-ambiente/2025/11/27/pl-da-devastacao-congresso-derruba-vetos-de-lula-a-lei-do-licenciamento-ambiental/"
+      },
+      {
+        "title": "mayerbrown.com",
+        "url": "https://www.mayerbrown.com/pt/insights/publications/2025/12/brazilian-congress-overrides-presidential-vetoes-to-the-general-environmental-licensing-law-and-approves-new-rules-on-the-special-environmental-license"
+      },
+      {
+        "title": "jornaldebrasilia.com.br",
+        "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/lula-validou-licenciamento-ambiental-por-pressao-politica-diz-observatorio-do-clima/"
+      },
+      {
+        "title": "monitormercantil.com.br",
+        "url": "https://monitormercantil.com.br/lei-do-licenciamento-ambiental-entra-em-vigor-com-acoes-no-stf/"
+      }
+    ]
+  },
+  {
+    "id": "e6-28",
+    "year": "2025–2026",
+    "start_year": 2025,
+    "title": "Federal tax expenditures (renúncias / gastos tributários)",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Lula 3 (trend over the whole era)",
+    "what": "Federal tax expenditure forecast for 2025: R$ 543.7 bn (4.4% of GDP, 19.7% of expected revenue) in the 2025 budget bill. FGV estimates the federal total at R$ 544 bn (4.8% of GDP) and R$ 821 bn (7.2% of GDP) with states. For 2026, FGV gives 7.1% of GDP (Union R$ 621.0 bn) and the budget bill projects R$ 612.8 bn (4.43%). TCU (deck of 20 Mar 2026) says R$ 612 bn is the largest volume on record and flags governance gaps and under-reporting. LC 224/2025 is a new framework.",
+    "who_got": "Many sectors (Simples, Zona Franca, deductions for health and education, agribusiness and real-estate credit notes); not itemized in the sources.",
+    "terms": "No single price. The gap between 4.4% and 4.8% of GDP likely reflects different GDP denominators (inference, not sourced).",
+    "mechanism": "Tax law (waivers, exemptions, deductions).",
+    "who_paid": "The Treasury and other taxpayers.",
+    "after": "The trend has grown: FGV compares 4.8% of GDP in 2025 with 1.3% in 2002 (snippet only).",
+    "counter_view": "Many expenditures (Simples, Zona Franca, health and education deductions) have social or regional rationale. Not all are transfers to private interests.",
+    "signs": [
+      "subsidy-or-tax-break"
+    ],
+    "figures": [
+      {
+        "label": "Federal tax expenditure forecast 2025",
+        "value": "543.7 bn (4.4% of GDP; 19.7% of revenue)",
+        "currency": "BRL",
+        "value_year": 2025,
+        "estimator": "Budget bill 2025 (Diário do Comércio)",
+        "kind": "subsidy",
+        "source_url": "https://diariodocomercio.com.br/legislacao/renuncia-fiscal-sera-r-543-7-bilhoes-2025/",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "FGV estimate, 2025",
+        "value": "federal 544 bn (4.8% of GDP); with states 821 bn (7.2%)",
+        "currency": "BRL",
+        "value_year": 2025,
+        "estimator": "FGV Ibre via CRC-SP",
+        "kind": "subsidy",
+        "source_url": "https://online.crcsp.org.br/portal/noticias/noticia.asp?c=8814",
+        "status": "verified",
+        "note": "4.4% and 4.8% reflect different methods."
+      },
+      {
+        "label": "Federal tax expenditure in 2002",
+        "value": "1.3% of GDP",
+        "currency": "percent",
+        "value_year": 2002,
+        "estimator": "Valor / ANFIP (snippet)",
+        "kind": "subsidy",
+        "source_url": null,
+        "status": "unverified",
+        "note": "Snippet only."
+      },
+      {
+        "label": "FGV estimate, 2026",
+        "value": "7.1% of GDP; Union 621.0 bn",
+        "currency": "BRL",
+        "value_year": 2026,
+        "estimator": "FGV via Brasil 61",
+        "kind": "subsidy",
+        "source_url": "https://brasil61.com/n/gastos-tributarios-do-brasil-em-2026-devem-chegar-a-7-1-do-pib-revela-pesquisa-da-fgv-bras2515048",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "label": "Budget bill 2026",
+        "value": "612.8 bn (4.43% of GDP)",
+        "currency": "BRL",
+        "value_year": 2026,
+        "estimator": "PLOA 2026 (Paraíba Business)",
+        "kind": "subsidy",
+        "source_url": "https://paraibabusiness.com.br/renuncia-fiscal-deve-crescer-em-2026-com-aumento-de-investimentos-em-titulos-imobiliarios-e-do-agronegocio/",
+        "status": "corrected",
+        "note": "Notes also gave R$ 620.8 bn / 4.5% (unconfirmable, not found). Corrected to R$ 612.8 bn."
+      },
+      {
+        "label": "TCU assessment, 20 Mar 2026",
+        "value": "612 bn, largest volume on record",
+        "currency": "BRL",
+        "value_year": 2026,
+        "estimator": "TCU",
+        "kind": "subsidy",
+        "source_url": "https://tce.pb.gov.br/wp-content/uploads/2026/04/Gastos-Tributarios-Atuacao-do-TCU_v2.pdf",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "summary": "Federal tax expenditures were forecast at R$ 543.7 bn for 2025 and about R$ 612 bn for 2026, the largest on record per TCU. Estimates of their size vs GDP vary by method. Many have social or regional goals, and not all go to private interests.",
+    "sources": [
+      {
+        "title": "diariodocomercio.com.br",
+        "url": "https://diariodocomercio.com.br/legislacao/renuncia-fiscal-sera-r-543-7-bilhoes-2025/"
+      },
+      {
+        "title": "online.crcsp.org.br",
+        "url": "https://online.crcsp.org.br/portal/noticias/noticia.asp?c=8814"
+      },
+      {
+        "title": "brasil61.com",
+        "url": "https://brasil61.com/n/gastos-tributarios-do-brasil-em-2026-devem-chegar-a-7-1-do-pib-revela-pesquisa-da-fgv-bras2515048"
+      },
+      {
+        "title": "paraibabusiness.com.br",
+        "url": "https://paraibabusiness.com.br/renuncia-fiscal-deve-crescer-em-2026-com-aumento-de-investimentos-em-titulos-imobiliarios-e-do-agronegocio/"
+      },
+      {
+        "title": "tce.pb.gov.br",
+        "url": "https://tce.pb.gov.br/wp-content/uploads/2026/04/Gastos-Tributarios-Atuacao-do-TCU_v2.pdf"
+      }
+    ]
+  },
+  {
+    "id": "e6-29",
+    "year": "2025–2026",
+    "start_year": 2025,
+    "title": "Redata: special tax regime for data centers",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Lula 3",
+    "what": "Suspension of import duty, PIS/Cofins (including import PIS/Cofins) and IPI for data centers. MP 1.318/2025 lapsed on 25 Feb 2026. PL 278/2026 was approved by the Senate on 1 Sep 2026 and became Lei 15.504 on 15 Sep 2026 (DOU extra 174-C). Five-year term; PIS/Cofins/IPI effects end on 31 Dec 2026 because of tax reform. Counterparts: investment of 2% of the value of products bought with the waiver, and 10% of services/capacity reserved for the domestic market.",
+    "who_got": "Data-center investors, largely foreign big tech.",
+    "terms": "Government estimates R$ 5.2 bn in waivers in 2026, falling to R$ 1 bn in each of the next two years.",
+    "mechanism": "Tax-regime law replacing a lapsed provisional measure.",
+    "who_paid": "The Treasury; energy demand and consumers (energy cost not quantified here). State ICMS exemption was not resolved: only a Dec 2025 expectation of Confaz action (snippet).",
+    "after": "Lei 15.504 is dated 15 Sep 2026.",
+    "counter_view": "Government and the data-center industry argue the incentives attract investment. Critics question the energy and water burden and the fiscal cost.",
+    "signs": [
+      "subsidy-or-tax-break"
+    ],
+    "figures": [
+      {
+        "label": "Estimated waivers",
+        "value": "5.2 bn in 2026, then about 1 bn in each of the next two years",
+        "currency": "BRL",
+        "value_year": 2026,
+        "estimator": "Government estimate (Jornal Grande Bahia)",
+        "kind": "subsidy",
+        "source_url": "https://jornalgrandebahia.com.br/2026/09/senado-aprova-incentivos-fiscais-para-data-centers-no-brasil-e-cria-regime-especial-de-tributacao/",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "summary": "Lula's government gave data centers a five-year tax holiday in 2026 (Lei 15.504), costing about R$ 5.2 bn in 2026. Investors must reinvest 2% of purchases and reserve 10% of capacity for the domestic market. Critics question the fiscal and energy costs.",
+    "sources": [
+      {
+        "title": "jornalgrandebahia.com.br",
+        "url": "https://jornalgrandebahia.com.br/2026/09/senado-aprova-incentivos-fiscais-para-data-centers-no-brasil-e-cria-regime-especial-de-tributacao/"
+      },
+      {
+        "title": "lefosse.com",
+        "url": "https://lefosse.com/?p=34422"
+      },
+      {
+        "title": "convergenciadigital.com.br",
+        "url": "https://convergenciadigital.com.br/governo/data-centers-sem-pl-da-inteligencia-artificial-empresas-lutam-por-medida-provisoria-do-redata/"
+      },
+      {
+        "title": "mayerbrown.com",
+        "url": "https://www.mayerbrown.com/ja/insights/publications/2025/09/pm-1318-the-special-tax-regime-for-data-centers-redata-from-tax-environmental-and-energy-perspectives"
+      }
+    ]
+  },
+  {
+    "id": "e6-30",
+    "year": "2025–2026",
+    "start_year": 2025,
+    "title": "Braskem control sale (Novonor to IG4)",
+    "era": "2016–2026 Temer, Bolsonaro, Lula 3",
+    "government": "Lula 3",
+    "what": "Novonor (ex-Odebrecht, in judicial recovery) sold its controlling stake to the Shine I FIP (Vórtx, advised by IG4 Capital). Deal indicated 15 Dec 2025; contract signed 17 Apr 2026 and announced 20 Apr. Petrobras (47% of voting capital, 36.1% of total) did not exercise preference or tag-along (material fact 23 Apr 2026) and remains co-controller. After closing: IG4/Shine 50.1% of voting shares (34.3% of total capital), Petrobras 47%. CADE's general superintendence approved without restrictions on 6 Mar 2026. Closing was announced on 3 Jun 2026 (euqueroinvestir), but the fact-check found no closing page. Court approvals and an EU Foreign Subsidies Regulation review were conditions; a tender offer (OPA) for minority shares is required.",
+    "who_got": "Shine I FIP (Vórtx / IG4). IG4 bought about R$ 20 bn of Novonor debts held by banks (December 2025 deal), secured by Braskem shares. The Alagoas geological problem (mine subsidence in Maceió) is inherited by the buyer.",
+    "terms": "No cash price: paid in NSP debentures (2 first-series plus 1 second-series NSP debentures per Braskem share; 547,257,590 first-series and 273,628,795 second-series in total). BTG says the implied price is probably very low. Citi flags judicial recovery risk. Braskem ended 2025 with adjusted net debt of US$ 7.5 bn.",
+    "mechanism": "Debt-for-equity structure; control passes between private owners with Petrobras as co-controller (new shareholder agreement requires consensus).",
+    "who_paid": "Minority shareholders take the risk. The public-to-private angle is whether Petrobras pays or protects Braskem; not found in opened sources.",
+    "after": "The OPA price per share is a gap. Snippet only: CVM approved the OPA registration but the notice was unpublished as of 21 Sep 2026; TJ-SP rejected a Safra request to suspend the sale in July. Petrobras CEO Magda Chambriard was reported to chair the board (unconfirmed).",
+    "counter_view": "Novonor and creditors present the sale as a rescue of a distressed asset. Petrobras waiving rights is framed by some as avoiding fiscal exposure, not as a transfer. Not strictly a transfer of public assets.",
+    "signs": [],
+    "figures": [
+      {
+        "label": "Stake transferred",
+        "value": "50.1% of voting shares; 34.3% of total capital (one source gives 28.4% of total capital for ON shares)",
+        "currency": "percent",
+        "value_year": 2026,
+        "estimator": "Bloomberg Línea; Eu Quero Investir",
+        "kind": "other",
+        "source_url": "https://www.bloomberglinea.com.br/negocios/ig4-fecha-acordo-para-assumir-o-controle-da-braskem-apos-meses-de-incerteza/",
+        "status": "verified",
+        "note": "Sources use different bases (common only vs total capital)."
+      },
+      {
+        "label": "Price",
+        "value": "no cash price (paid in debentures)",
+        "currency": "n/a",
+        "value_year": 2026,
+        "estimator": "Bloomberg Línea; InfoMoney",
+        "kind": "other",
+        "source_url": "https://www.infomoney.com.br/?p=3299591",
+        "status": "corrected",
+        "note": "Notes said price not found. Fact-check: paid in NSP debentures, no cash price."
+      },
+      {
+        "label": "Novonor bank debts bought by IG4",
+        "value": "about 20 bn",
+        "currency": "BRL",
+        "value_year": 2025,
+        "estimator": "InfoMoney",
+        "kind": "other",
+        "source_url": "https://www.infomoney.com.br/?p=3299591",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "Braskem adjusted net debt, end 2025",
+        "value": "7.5 bn",
+        "currency": "USD",
+        "value_year": 2025,
+        "estimator": "InfoMoney",
+        "kind": "debt-absorbed",
+        "source_url": "https://www.infomoney.com.br/?p=3299591",
+        "status": "unverified",
+        "note": "Not covered by the fact-check round; taken from the gap research notes."
+      },
+      {
+        "label": "Contract signing date",
+        "value": "17 Apr 2026 (announced 20 Apr)",
+        "currency": "n/a",
+        "value_year": 2026,
+        "estimator": "Bloomberg Línea",
+        "kind": "other",
+        "source_url": "https://www.bloomberglinea.com.br/negocios/ig4-fecha-acordo-para-assumir-o-controle-da-braskem-apos-meses-de-incerteza/",
+        "status": "corrected",
+        "note": "Notes said signed 20 Apr 2026; fact-check: signed 17 Apr, announced 20 Apr."
+      }
+    ],
+    "summary": "Novonor sold control of Braskem to an IG4-backed fund in 2026, paid in debentures with no cash price. Petrobras kept its 47% of the votes and co-control. This is a private-to-private transfer, so it is not strictly public to private.",
+    "sources": [
+      {
+        "title": "bloomberglinea.com.br",
+        "url": "https://www.bloomberglinea.com.br/negocios/ig4-fecha-acordo-para-assumir-o-controle-da-braskem-apos-meses-de-incerteza/"
+      },
+      {
+        "title": "tnh1.com.br",
+        "url": "https://www.tnh1.com.br/noticia/nid/novonor-assina-venda-do-controle-da-braskem-apos-alta-nas-acoes-da-mineradora/"
+      },
+      {
+        "title": "movimentoeconomico.com.br",
+        "url": "https://movimentoeconomico.com.br/economia/negocios/2026/04/20/ig4-compra-controle-da-braskem-e-herda-desafio-geologico-em-alagoas/"
+      },
+      {
+        "title": "moneytimes.com.br",
+        "url": "https://www.moneytimes.com.br/petrobras-petr4-comemora-indicacao-de-acordo-entre-novonor-e-ig4-sobre-braskem-pads/"
+      },
+      {
+        "title": "infomoney.com.br",
+        "url": "https://www.infomoney.com.br/?p=3299591"
+      },
+      {
+        "title": "hydrocarbonprocessing.com",
+        "url": "https://hydrocarbonprocessing.com/news/2026/03/brazils-antitrust-watchdog-approves-private-equity-firms-controlling-stake-purchase-in-braskem/"
+      },
+      {
+        "title": "euqueroinvestir.com",
+        "url": "https://euqueroinvestir.com/acoes/ig4-conclui-aquisicao-de-343-da-braskem-da-novonor-e-anuncia-opa"
+      }
+    ]
+  }
+]

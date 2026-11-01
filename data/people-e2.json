@@ -1,0 +1,2549 @@
+{
+ "era": "1889-1964 First Republic, Vargas, 1946-64 democracy",
+ "terms": [
+  {
+   "term": "Deodoro da Fonseca 1889-1891",
+   "decision_makers": [
+    "p-deodoro-da-fonseca",
+    "p-rui-barbosa",
+    "p-julio-de-castilhos",
+    "p-percival-farquhar"
+   ]
+  },
+  {
+   "term": "Floriano Peixoto and Prudente de Morais 1891-1898",
+   "decision_makers": [
+    "p-rodrigues-alves"
+   ]
+  },
+  {
+   "term": "Campos Sales 1898-1902",
+   "decision_makers": [
+    "p-joaquim-murtinho"
+   ]
+  },
+  {
+   "term": "Rodrigues Alves 1902-1906",
+   "decision_makers": [
+    "p-rodrigues-alves",
+    "p-barao-do-rio-branco",
+    "p-assis-brasil",
+    "p-leopoldo-de-bulhoes",
+    "p-lauro-muller",
+    "p-jorge-tibirica",
+    "p-nilo-pecanha",
+    "p-francisco-antonio-de-sales"
+   ]
+  },
+  {
+   "term": "Afonso Pena 1906-1909",
+   "decision_makers": [
+    "p-afonso-pena",
+    "p-david-campista",
+    "p-percival-farquhar"
+   ]
+  },
+  {
+   "term": "Nilo Pecanha 1909-1910",
+   "decision_makers": [
+    "p-nilo-pecanha",
+    "p-leopoldo-de-bulhoes"
+   ]
+  },
+  {
+   "term": "Hermes da Fonseca 1910-1914",
+   "decision_makers": [
+    "p-hermes-da-fonseca",
+    "p-francisco-antonio-de-sales",
+    "p-lauro-muller"
+   ]
+  },
+  {
+   "term": "Epitacio Pessoa 1919-1922",
+   "decision_makers": [
+    "p-epitacio-pessoa",
+    "p-pires-do-rio"
+   ]
+  },
+  {
+   "term": "Washington Luis 1926-1930",
+   "decision_makers": [
+    "p-washington-luis",
+    "p-getulio-vargas",
+    "p-william-mackenzie",
+    "p-frederick-pearson"
+   ]
+  },
+  {
+   "term": "Vargas 1930-1945",
+   "decision_makers": [
+    "p-getulio-vargas",
+    "p-jose-maria-whitaker",
+    "p-oswaldo-aranha",
+    "p-souza-costa",
+    "p-jefferson-caffery",
+    "p-dionisio-bentes",
+    "p-henry-ford"
+   ]
+  },
+  {
+   "term": "Dutra 1946-1951",
+   "decision_makers": [
+    "p-eurico-gaspar-dutra",
+    "p-augusto-antunes"
+   ]
+  },
+  {
+   "term": "Vargas 1951-1954",
+   "decision_makers": [
+    "p-getulio-vargas",
+    "p-oswaldo-aranha"
+   ]
+  },
+  {
+   "term": "Kubitschek 1956-1961",
+   "decision_makers": [
+    "p-juscelino-kubitschek",
+    "p-antonio-barros-carvalho",
+    "p-george-humphrey",
+    "p-bulhoes-pedreira",
+    "p-roberto-campos"
+   ]
+  },
+  {
+   "term": "Janio Quadros 1961",
+   "decision_makers": [
+    "p-janio-quadros",
+    "p-joao-agripino",
+    "p-eliezer-batista"
+   ]
+  },
+  {
+   "term": "Goulart 1961-1964",
+   "decision_makers": [
+    "p-joao-goulart",
+    "p-gabriel-passos",
+    "p-eliezer-batista",
+    "p-leonel-brizola",
+    "p-paulo-richer",
+    "p-lincoln-gordon"
+   ]
+  },
+  {
+   "term": "Castelo Branco 1964",
+   "decision_makers": [
+    "p-castelo-branco",
+    "p-otavio-bulhoes",
+    "p-mauro-thibau",
+    "p-roberto-campos"
+   ]
+  }
+ ],
+ "people": [
+  {
+   "id": "p-deodoro-da-fonseca",
+   "name": "Deodoro da Fonseca",
+   "posts": [
+    {
+     "post": "Head of the Provisional Government / first president",
+     "start": "1889-11-15",
+     "end": "1891-11",
+     "appointed_by": "proclamation of the Republic",
+     "status": "unverified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-03",
+     "role": "Head of government that issued the banking and company decree-laws",
+     "detail": "Rui Barbosa served as his Finance Minister (15 Nov 1889 - 21 Jan 1891); Deodoro appointed him per pt.wikipedia.",
+     "source_url": "https://pt.wikipedia.org/wiki/Ruy_Barbosa",
+     "basis": "in-office",
+     "status": "unverified"
+    },
+    {
+     "case_id": "e2-04",
+     "role": "Head of government at the 1890 concession (Decreto 305, 7 Apr 1890)",
+     "detail": "Signatures of Decreto 305 not opened (page returned 404); role inferred from date only.",
+     "source_url": "data/g2-republic.json (case file; its own sources listed per case)",
+     "basis": "in-office",
+     "status": "unverified"
+    },
+    {
+     "case_id": "e2-05",
+     "role": "Head of the Provisional Government that convened the constitutional process",
+     "detail": "Constitution of 24 Feb 1891 came under Deodoro; Art. 64 transferred vacant lands to the states.",
+     "source_url": "data/g2-republic.json (case file; its own sources listed per case)",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "pt.wikipedia Ruy Barbosa",
+     "url": "https://pt.wikipedia.org/wiki/Ruy_Barbosa"
+    },
+    {
+     "title": "Finance ministers list",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Ruy_Barbosa",
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-rui-barbosa",
+   "name": "Rui Barbosa",
+   "posts": [
+    {
+     "post": "Minister of Finance (Fazenda)",
+     "start": "1889-11-15",
+     "end": "1891-01-21",
+     "appointed_by": "Deodoro da Fonseca",
+     "status": "verified"
+    },
+    {
+     "post": "Senator for Bahia",
+     "start": "1890-11-15",
+     "end": "1923-03-01 (resigned 1921-03-10, re-elected June 1921; page infobox/body inconsistent)",
+     "appointed_by": "election",
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-03",
+     "role": "Finance minister who issued the banking and company-formation decree-laws of the Encilhamento",
+     "detail": "Banking law of 17 Jan 1890 and Decreto 1.154 of 7 Dec 1890 (Banco da Republica) are in the case file; his signature on each was not opened.",
+     "source_url": "data/g2-republic.json (case file; its own sources listed per case)",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Ordered the burning of the slave registration books (14 Dec 1889) as Finance Minister; pt.wikipedia reports experts saying the aim was to block compensation claims by ex-slaveholders.",
+     "outcome": "Expert interpretation, not established fact; no legal proceeding recorded.",
+     "source_url": "https://pt.wikipedia.org/wiki/Ruy_Barbosa",
+     "status": "verified"
+    },
+    {
+     "what": "Described by pt.wikipedia as the main person responsible for the Encilhamento crisis through uncontrolled currency issuance; the page itself calls his tenure 'brief and disputed'.",
+     "outcome": "Historiographical judgment; no charge or court ruling.",
+     "source_url": "https://pt.wikipedia.org/wiki/Ruy_Barbosa",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "pt.wikipedia Ruy Barbosa",
+     "url": "https://pt.wikipedia.org/wiki/Ruy_Barbosa"
+    },
+    {
+     "title": "Finance ministers list",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Ruy_Barbosa",
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-julio-de-castilhos",
+   "name": "Julio de Castilhos",
+   "posts": [],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-05",
+     "role": "Author of the amendment behind Art. 64 (transfer of vacant lands to the states)",
+     "detail": "Named in the case file as the Julio de Castilho amendment; spelling and posts not verified.",
+     "source_url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/602494/Regularizacao_fundiaria_experiencias_regionais.pdf",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Senate PDF cited by case e2-05",
+     "url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/602494/Regularizacao_fundiaria_experiencias_regionais.pdf"
+    }
+   ],
+   "verified_sources": []
+  },
+  {
+   "id": "p-joaquim-murtinho",
+   "name": "Joaquim Murtinho",
+   "posts": [
+    {
+     "post": "Senator for Mato Grosso",
+     "start": "1890",
+     "end": "1896",
+     "appointed_by": null,
+     "status": "verified"
+    },
+    {
+     "post": "Minister of Industry, Transport and Public Works (Viacao)",
+     "start": "1896/1897 (pt.wikipedia inconsistent; lead says 1899-1902 Industria e Comercio)",
+     "end": null,
+     "appointed_by": "Prudente de Morais",
+     "status": "unverified"
+    },
+    {
+     "post": "Minister of Finance (Fazenda)",
+     "start": "1898-11-15",
+     "end": "1902-09-02",
+     "appointed_by": "Campos Sales",
+     "status": "verified"
+    },
+    {
+     "post": "Senator for Mato Grosso",
+     "start": "1903",
+     "end": "1911",
+     "appointed_by": null,
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-01",
+     "role": "Finance minister (1898-1902) during the Laranjeira - Banco Rio e Mato Grosso partnership (1892-1902); family-name tie only",
+     "detail": "No evidence found that he decided or influenced the lease.",
+     "source_url": "https://pt.wikipedia.org/wiki/Joaquim_Murtinho",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "pt.wikipedia Joaquim Murtinho",
+     "url": "https://pt.wikipedia.org/wiki/Joaquim_Murtinho"
+    },
+    {
+     "title": "Finance ministers list",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Joaquim_Murtinho",
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-rodrigues-alves",
+   "name": "Rodrigues Alves",
+   "posts": [
+    {
+     "post": "Minister of Finance",
+     "start": "1891-11-26",
+     "end": "1892-08-31",
+     "appointed_by": "Floriano Peixoto",
+     "status": "verified"
+    },
+    {
+     "post": "Minister of Finance",
+     "start": "1894-11-15",
+     "end": "1896-11-20",
+     "appointed_by": "Prudente de Morais",
+     "status": "unverified"
+    },
+    {
+     "post": "President of Sao Paulo state",
+     "start": "1900-05-01",
+     "end": "1902-02-13",
+     "appointed_by": null,
+     "status": "verified"
+    },
+    {
+     "post": "President of Brazil",
+     "start": "1902-11-15",
+     "end": "1906-11-15",
+     "appointed_by": "election",
+     "status": "verified"
+    },
+    {
+     "post": "President of Sao Paulo state (2nd; on leave 1913-15)",
+     "start": "1912-05-01",
+     "end": "1916-05-01",
+     "appointed_by": null,
+     "status": "verified"
+    }
+   ],
+   "before": "In 1895-96 as Finance Minister he arranged a GBP 6 million loan with the Rothschild group (pt.wikipedia).",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [
+    {
+     "counterpart": "Rothschild group",
+     "kind": "lender",
+     "detail": "Finance Minister under Prudente de Morais (1895-96): GBP 6 million loan from the Rothschild group, meant to cover earlier debts and back redemption of paper money (pt.wikipedia).",
+     "source_url": "https://pt.wikipedia.org/wiki/Rodrigues_Alves",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e2-07",
+     "role": "President when Brazil ended the Bolivian Syndicate lease (distrato 26 Feb 1903) and signed the Treaty of Petropolis (17 Nov 1903)",
+     "detail": "Treaty drafted by Rio Branco; Brazilian signatory Assis Brasil.",
+     "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Petr%C3%B3polis",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e2-08",
+     "role": "President who resisted the coffee price-support convention; Decree 1489 of 6 Aug 1906 (federal role) falls at end of his term",
+     "detail": "pt.wikipedia (Convenio de Taubate): he refused to sign the 1906 coffee agreement; successor Afonso Pena ratified it. Decree 1489 not opened.",
+     "source_url": "https://pt.wikipedia.org/wiki/Rodrigues_Alves",
+     "basis": "documented-act",
+     "status": "verified"
+    },
+    {
+     "case_id": "e2-10",
+     "role": "President under whom the Treaty of Petropolis obliged Brazil to build the Madeira-Mamore line; Decreto 6.106 of 7 Aug 1906 falls in his term",
+     "detail": "Signatures of the decree not opened.",
+     "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Petr%C3%B3polis",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Revolta da Vacina (1904): revolt against compulsory smallpox vaccination during his presidency and the Rio urban reforms.",
+     "outcome": "Revolt suppressed by army, navy and state police; no charge against him recorded.",
+     "source_url": "https://pt.wikipedia.org/wiki/Rodrigues_Alves",
+     "status": "verified"
+    },
+    {
+     "what": "Historians Lilia Schwarcz and Heloisa Starling (2020) argue that his death in 1919 was not from Spanish flu and that the flu story avoided admitting he was too ill to govern after being re-elected in 1918.",
+     "outcome": "Historiographical argument; death certificate cites acute asystole in pernicious anemia.",
+     "source_url": "https://pt.wikipedia.org/wiki/Rodrigues_Alves",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "pt.wikipedia Rodrigues Alves",
+     "url": "https://pt.wikipedia.org/wiki/Rodrigues_Alves"
+    },
+    {
+     "title": "Finance ministers list",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Rodrigues_Alves",
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+    "https://pt.wikipedia.org/wiki/Convênio_de_Taubaté"
+   ]
+  },
+  {
+   "id": "p-barao-do-rio-branco",
+   "name": "Barao do Rio Branco (Jose Maria da Silva Paranhos)",
+   "posts": [
+    {
+     "post": "Foreign Minister",
+     "start": "1902-12-03",
+     "end": "1912-02-10 (death)",
+     "appointed_by": "Rodrigues Alves; continued under Afonso Pena, Nilo Pecanha and Hermes da Fonseca",
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-07",
+     "role": "Drafted the Treaty of Petropolis (July 1903) that ended the Bolivian Syndicate lease and traded Acre for GBP 2 million and the railway",
+     "detail": "Signed 17 Nov 1903.",
+     "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Petr%C3%B3polis",
+     "basis": "documented-act",
+     "status": "verified"
+    },
+    {
+     "case_id": "e2-10",
+     "role": "Author of the treaty that created the obligation to build the Madeira-Mamore railway",
+     "detail": "en.wikipedia: Treaty of Petropolis (17 Nov 1903), drafted by Rio Branco, pledged a rail link Riberalta-Porto Velho, which became the Madeira-Mamore railway.",
+     "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Petr%C3%B3polis",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Treaty of Petropolis (en.wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Treaty_of_Petr%C3%B3polis"
+    },
+    {
+     "title": "pt.wikipedia Rodrigues Alves",
+     "url": "https://pt.wikipedia.org/wiki/Rodrigues_Alves"
+    },
+    {
+     "title": "pt.wikipedia Hermes da Fonseca",
+     "url": "https://pt.wikipedia.org/wiki/Hermes_da_Fonseca"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Barão_do_Rio_Branco",
+    "https://en.wikipedia.org/wiki/Treaty_of_Petr%C3%B3polis"
+   ]
+  },
+  {
+   "id": "p-assis-brasil",
+   "name": "Joaquim Francisco de Assis Brasil",
+   "posts": [
+    {
+     "post": "Brazilian signatory, Treaty of Petropolis",
+     "start": "1903-11-17",
+     "end": "1903-11-17",
+     "appointed_by": null,
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-07",
+     "role": "Signed the Treaty of Petropolis for Brazil",
+     "detail": "Counterparts: Fernando Eloy Guachalla and Claudio Pinilla for Bolivia.",
+     "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Petr%C3%B3polis",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Treaty of Petropolis",
+     "url": "https://en.wikipedia.org/wiki/Treaty_of_Petr%C3%B3polis"
+    }
+   ],
+   "verified_sources": [
+    "https://en.wikipedia.org/wiki/Treaty_of_Petr%C3%B3polis"
+   ]
+  },
+  {
+   "id": "p-leopoldo-de-bulhoes",
+   "name": "Leopoldo de Bulhoes",
+   "posts": [
+    {
+     "post": "Minister of Finance",
+     "start": "1902-11-15",
+     "end": "1906-11-15",
+     "appointed_by": "Rodrigues Alves",
+     "status": "verified"
+    },
+    {
+     "post": "Minister of Finance",
+     "start": "1909-06-14",
+     "end": "1910-11-15",
+     "appointed_by": "Nilo Pecanha",
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-08",
+     "role": "Finance minister during the 1906 convention and Decree 1489 (6 Aug 1906)",
+     "detail": "Personal role not established in pages opened.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e2-10",
+     "role": "Finance minister in office at Decreto 6.106 (7 Aug 1906)",
+     "detail": "Signature not opened.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Finance ministers list",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-afonso-pena",
+   "name": "Afonso Pena",
+   "posts": [
+    {
+     "post": "Vice president",
+     "start": "1903-06-17",
+     "end": "1906-11-15",
+     "appointed_by": "election",
+     "status": "verified"
+    },
+    {
+     "post": "President of Brazil",
+     "start": "1906-11-15",
+     "end": "1909-06-14",
+     "appointed_by": "election (died in office)",
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-08",
+     "role": "President who carried out the coffee valorization policy and gave it federal support",
+     "detail": "pt.wikipedia: under Pena the federal government took over the costs of coffee valorization and he ratified the Taubate Agreement.",
+     "source_url": "https://en.wikipedia.org/wiki/Taubat%C3%A9_Agreement",
+     "basis": "documented-act",
+     "status": "verified"
+    },
+    {
+     "case_id": "e2-09",
+     "role": "President during creation of the Brazil Railway Company (7 Sep 1906) and expansion of its concessions",
+     "detail": "Case file: Afonso Pena and following governments. pt.wikipedia Afonso Pena does not mention Farquhar.",
+     "source_url": "data/g2-republic.json (case file; its own sources listed per case)",
+     "basis": "in-office",
+     "status": "unverified"
+    },
+    {
+     "case_id": "e2-10",
+     "role": "President at Decretos 6.755 (28 Nov 1907) and 6.838 (30 Jan 1908)",
+     "detail": "Signatures not opened.",
+     "source_url": "data/g2-republic.json (case file; its own sources listed per case)",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "pt.wikipedia Afonso Pena",
+     "url": "https://pt.wikipedia.org/wiki/Afonso_Pena"
+    },
+    {
+     "title": "Taubate Agreement",
+     "url": "https://en.wikipedia.org/wiki/Taubat%C3%A9_Agreement"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Afonso_Pena",
+    "https://pt.wikipedia.org/wiki/Convênio_de_Taubaté"
+   ]
+  },
+  {
+   "id": "p-david-campista",
+   "name": "David Morethson Campista",
+   "posts": [
+    {
+     "post": "Minister of Finance",
+     "start": "1906-11-15",
+     "end": "1909-06-14",
+     "appointed_by": "Afonso Pena",
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-08",
+     "role": "Finance minister during the Union guarantee phase (1906-09)",
+     "detail": "Personal role not established.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Finance ministers list",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-jorge-tibirica",
+   "name": "Jorge Tibirica",
+   "posts": [
+    {
+     "post": "President (governor) of Sao Paulo state (1st)",
+     "start": "1890-10-18",
+     "end": "1891-03-07",
+     "appointed_by": "Deodoro da Fonseca",
+     "status": "verified"
+    },
+    {
+     "post": "President (governor) of Sao Paulo state (2nd)",
+     "start": "1904-05-01 (text says assumed 15 Feb 1904)",
+     "end": "1908-05-01",
+     "appointed_by": "election",
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-08",
+     "role": "Signatory for Sao Paulo of the Taubate Agreement (Feb 1906)",
+     "detail": "Co-signed with Francisco Antonio de Sales (Minas) and Nilo Pecanha (Rio de Janeiro).",
+     "source_url": "https://en.wikipedia.org/wiki/Taubat%C3%A9_Agreement",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Taubate Agreement",
+     "url": "https://en.wikipedia.org/wiki/Taubat%C3%A9_Agreement"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Jorge_Tibiriçá_Piratininga",
+    "https://pt.wikipedia.org/wiki/Convênio_de_Taubaté"
+   ]
+  },
+  {
+   "id": "p-nilo-pecanha",
+   "name": "Nilo Pecanha",
+   "posts": [
+    {
+     "post": "President (governor) of Rio de Janeiro state",
+     "start": "1903-12-31",
+     "end": "1906-11-01",
+     "appointed_by": null,
+     "status": "verified"
+    },
+    {
+     "post": "President of Brazil",
+     "start": "1909-06-14",
+     "end": "1910-11-15",
+     "appointed_by": "succeeded Afonso Pena",
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-08",
+     "role": "Signatory for Rio de Janeiro of the Taubate Agreement (Feb 1906)",
+     "detail": "",
+     "source_url": "https://en.wikipedia.org/wiki/Taubat%C3%A9_Agreement",
+     "basis": "documented-act",
+     "status": "verified"
+    },
+    {
+     "case_id": "e2-10",
+     "role": "President from June 1909 (the case file ties the Madeira-Mamore contract period to earlier presidents)",
+     "detail": "Specific act not established.",
+     "source_url": "data/g2-republic.json (case file; its own sources listed per case)",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Taubate Agreement",
+     "url": "https://en.wikipedia.org/wiki/Taubat%C3%A9_Agreement"
+    },
+    {
+     "title": "Finance ministers list",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Nilo_Peçanha",
+    "https://pt.wikipedia.org/wiki/Convênio_de_Taubaté"
+   ]
+  },
+  {
+   "id": "p-francisco-antonio-de-sales",
+   "name": "Francisco Antonio de Sales",
+   "posts": [
+    {
+     "post": "President (governor) of Minas Gerais",
+     "start": "1902",
+     "end": "1906",
+     "appointed_by": null,
+     "status": "verified"
+    },
+    {
+     "post": "Minister of Finance",
+     "start": "1910-11-15",
+     "end": "1913-05-09",
+     "appointed_by": "Hermes da Fonseca",
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-08",
+     "role": "Signatory for Minas Gerais of the Taubate Agreement (Feb 1906); later Finance minister",
+     "detail": "",
+     "source_url": "https://en.wikipedia.org/wiki/Taubat%C3%A9_Agreement",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Taubate Agreement",
+     "url": "https://en.wikipedia.org/wiki/Taubat%C3%A9_Agreement"
+    },
+    {
+     "title": "Finance ministers list",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Francisco_Antônio_de_Sales",
+    "https://pt.wikipedia.org/wiki/Convênio_de_Taubaté",
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-hermes-da-fonseca",
+   "name": "Hermes da Fonseca",
+   "posts": [
+    {
+     "post": "President of Brazil",
+     "start": "1910-11-15",
+     "end": "1914-11-15",
+     "appointed_by": "election (TSE later acknowledged fraud per pt.wikipedia)",
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-04",
+     "role": "President during the army campaign in the Contestado War, fought over land of the Brazil Railway / Lumber concession",
+     "detail": "pt.wikipedia: the Contestado War, begun two years after the 1910 naval revolt, was not put down by the end of his government. Link to Brazil Railway land not confirmed on the page.",
+     "source_url": "data/g2-republic.json (case file; its own sources listed per case)",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "pt.wikipedia reports that, according to the electoral court (TSE), his 1910 election was obtained through fraud, adding that fraud was common at the time.",
+     "outcome": "He took office and served to 1914; no proceedings recorded.",
+     "source_url": "https://pt.wikipedia.org/wiki/Hermes_da_Fonseca",
+     "status": "verified"
+    },
+    {
+     "what": "Revolta da Chibata (Nov 1910): amnesty was granted to more than 2,000 mutinous sailors, then more than 1,200 were expelled.",
+     "outcome": "Not stated as prosecuted.",
+     "source_url": "https://pt.wikipedia.org/wiki/Hermes_da_Fonseca",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "pt.wikipedia Hermes da Fonseca",
+     "url": "https://pt.wikipedia.org/wiki/Hermes_da_Fonseca"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Hermes_da_Fonseca"
+   ]
+  },
+  {
+   "id": "p-lauro-muller",
+   "name": "Lauro Muller",
+   "posts": [
+    {
+     "post": "Minister of Industry, Viacao and Public Works",
+     "start": "1902-11-15",
+     "end": "1906-11-15",
+     "appointed_by": "Rodrigues Alves",
+     "status": "verified"
+    },
+    {
+     "post": "Foreign Minister",
+     "start": "1912-02-14 (body text says 1913)",
+     "end": "1917-05-07",
+     "appointed_by": "Hermes da Fonseca / Venceslau Bras",
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-10",
+     "role": "Minister of Viacao in office until Nov 1906, when Decreto 6.106 (7 Aug 1906) was issued",
+     "detail": "No page opened ties him to the Madeira-Mamore contract.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lauro_Müller",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Pressured by the press ('perigo alemao') and by speeches of Rui Barbosa over his German origin.",
+     "outcome": "Resigned as Foreign Minister on 7 May 1917; no charge.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lauro_Müller",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "pt.wikipedia Lauro Muller",
+     "url": "https://pt.wikipedia.org/wiki/Lauro_Müller"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lauro_Müller"
+   ]
+  },
+  {
+   "id": "p-percival-farquhar",
+   "name": "Percival Farquhar",
+   "posts": [],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-04",
+     "role": "Controlled the Brazil Railway Co., holder of the Sao Paulo-Rio Grande concession",
+     "detail": "",
+     "source_url": "https://en.wikipedia.org/wiki/Percival_Farquhar",
+     "basis": "in-office",
+     "status": "unverified"
+    },
+    {
+     "case_id": "e2-09",
+     "role": "President of the Brazil Railway Company (en.wikipedia)",
+     "detail": "",
+     "source_url": "https://en.wikipedia.org/wiki/Percival_Farquhar",
+     "basis": "documented-act",
+     "status": "verified"
+    },
+    {
+     "case_id": "e2-10",
+     "role": "President of the Mamore Railway Co. (en.wikipedia); the Madeira-Mamore contract itself is not described on the page",
+     "detail": "",
+     "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Petr%C3%B3polis",
+     "basis": "in-office",
+     "status": "unverified"
+    },
+    {
+     "case_id": "e2-11",
+     "role": "Head of the Itabira Iron Ore Co.",
+     "detail": "",
+     "source_url": "https://www.cambridge.org/core/journals/journal-of-inter-american-studies/article/brazils-rio-doce-valley-project/926AD0E9227DFA3A539C0727DB8FB498",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "en.wikipedia says he obtained concessions from young, inexperienced local governments 'frequently through personal bribery'; historian Edgard Carone says his businesses 'lived off government favors'.",
+     "outcome": "Statement in a Wikipedia article; no named official, charge or court ruling.",
+     "source_url": "https://en.wikipedia.org/wiki/Percival_Farquhar",
+     "status": "verified"
+    },
+    {
+     "what": "en.wikipedia says Assis Chateaubriand bought O Jornal (1924) with funds 'supposedly' paid as legal fees by Farquhar.",
+     "outcome": "Presented as unverified on the page.",
+     "source_url": "https://en.wikipedia.org/wiki/Percival_Farquhar",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Percival Farquhar (en.wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Percival_Farquhar"
+    }
+   ],
+   "verified_sources": [
+    "https://en.wikipedia.org/wiki/Percival_Farquhar"
+   ]
+  },
+  {
+   "id": "p-epitacio-pessoa",
+   "name": "Epitacio Pessoa",
+   "posts": [
+    {
+     "post": "President of Brazil",
+     "start": "1919-07-28",
+     "end": "1922-11-15",
+     "appointed_by": "election",
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-11",
+     "role": "Signed the Itabira Iron Ore Co. contract for the Brazilian government",
+     "detail": "Cambridge (J. Inter-American Studies), fn 15: contract signed for the Brazilian government by President Epitacio Pessoa and J. Pires de Rio, Minister of Transportation.",
+     "source_url": "https://www.cambridge.org/core/journals/journal-of-inter-american-studies/article/brazils-rio-doce-valley-project/926AD0E9227DFA3A539C0727DB8FB498",
+     "basis": "documented-act",
+     "status": "verified"
+    },
+    {
+     "case_id": "e2-08",
+     "role": "President during the 1921-22 coffee defence loan",
+     "detail": "pt.wikipedia: a new loan of GBP 9 million financed the retention of coffee; undated on the page.",
+     "source_url": "data/g2-republic.json (case file; its own sources listed per case)",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Rogers 1959, Rio Doce Valley Project",
+     "url": "https://www.cambridge.org/core/journals/journal-of-inter-american-studies/article/brazils-rio-doce-valley-project/926AD0E9227DFA3A539C0727DB8FB498"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Epitácio_Pessoa",
+    "https://www.cambridge.org/core/journals/journal-of-inter-american-studies/article/brazils-rio-doce-valley-project/926AD0E9227DFA3A539C0727DB8FB498"
+   ]
+  },
+  {
+   "id": "p-pires-do-rio",
+   "name": "Jose Pires do Rio (named \"J. Pires de Rio\" in Rogers)",
+   "posts": [
+    {
+     "post": "Minister of Transport (Viacao)",
+     "start": null,
+     "end": null,
+     "appointed_by": "Epitacio Pessoa (cabinet listing; dates not given on page)",
+     "status": "verified"
+    },
+    {
+     "post": "Minister of Finance",
+     "start": "1945-10-29",
+     "end": "1946-02-01",
+     "appointed_by": "Jose Linhares",
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-11",
+     "role": "Co-signed the Itabira Iron Ore Co. contract as Transport Minister",
+     "detail": "Identity with the 1945-46 Finance Minister of the same name is likely but not confirmed in the pages opened.",
+     "source_url": "https://www.cambridge.org/core/journals/journal-of-inter-american-studies/article/brazils-rio-doce-valley-project/926AD0E9227DFA3A539C0727DB8FB498",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Rogers 1959",
+     "url": "https://www.cambridge.org/core/journals/journal-of-inter-american-studies/article/brazils-rio-doce-valley-project/926AD0E9227DFA3A539C0727DB8FB498"
+    },
+    {
+     "title": "Finance ministers list",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Epitácio_Pessoa",
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+    "https://www.cambridge.org/core/journals/journal-of-inter-american-studies/article/brazils-rio-doce-valley-project/926AD0E9227DFA3A539C0727DB8FB498"
+   ]
+  },
+  {
+   "id": "p-washington-luis",
+   "name": "Washington Luis",
+   "posts": [
+    {
+     "post": "President of Brazil",
+     "start": "1926-11-15",
+     "end": "1930-10-24",
+     "appointed_by": "election",
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-13",
+     "role": "President of the era of the 1927 Light (Billings) water-diversion contract",
+     "detail": "Presidency verified; en.wikipedia's Light page does not name him in connection with the 1927 contract.",
+     "source_url": "data/g2-republic.json (case file; its own sources listed per case)",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Finance ministers list (his term)",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Washington_Luís",
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-getulio-vargas",
+   "name": "Getulio Vargas",
+   "posts": [
+    {
+     "post": "Minister of Finance",
+     "start": "1926-11-15",
+     "end": "1927-12-17",
+     "appointed_by": "Washington Luis",
+     "status": "verified"
+    },
+    {
+     "post": "Head of Provisional Government / President",
+     "start": "1930-11-04",
+     "end": "1945-10-29",
+     "appointed_by": null,
+     "status": "unverified"
+    },
+    {
+     "post": "President",
+     "start": "1951-02-01",
+     "end": "1954-08-24",
+     "appointed_by": "election",
+     "status": "unverified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-15",
+     "role": "Government that created the Conselho Nacional do Cafe (1931) and the DNC (Decreto 22.452, 10 Feb 1933)",
+     "detail": "Signatures of Decreto 22.452 could not be opened (HTTP 429).",
+     "source_url": "data/g2-republic.json (case file; its own sources listed per case)",
+     "basis": "in-office",
+     "status": "unverified"
+    },
+    {
+     "case_id": "e2-16",
+     "role": "Created CSN (1941), Vale (1942), Petrobras (1953)",
+     "detail": "Case file.",
+     "source_url": "data/g2-republic.json (case file; its own sources listed per case)",
+     "basis": "in-office",
+     "status": "unverified"
+    },
+    {
+     "case_id": "e2-17",
+     "role": "Signed Decreto-lei 4.451 of 9 Jul 1942 creating the Banco de Credito da Borracha",
+     "detail": "Signature line listed Getulio Vargas, A. de Souza Costa, Oswaldo Aranha.",
+     "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4451-9-julho-1942-414643-publicacaooriginal-1-pe.html",
+     "basis": "in-office",
+     "status": "unverified"
+    },
+    {
+     "case_id": "e2-11",
+     "role": "President when Itabira was \"Brazilianized\" in the 1930s and Vale was created in 1942",
+     "detail": "Case file.",
+     "source_url": "data/g2-republic.json (case file; its own sources listed per case)",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Decreto-lei 4.451",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4451-9-julho-1942-414643-publicacaooriginal-1-pe.html"
+    },
+    {
+     "title": "Finance ministers list",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-oswaldo-aranha",
+   "name": "Oswaldo Aranha",
+   "posts": [
+    {
+     "post": "Minister of Finance",
+     "start": "1931-11-16",
+     "end": "1934-07-24",
+     "appointed_by": "Getulio Vargas",
+     "status": "verified"
+    },
+    {
+     "post": "Ambassador in Washington",
+     "start": "1934",
+     "end": "1937",
+     "appointed_by": "Getulio Vargas",
+     "status": "verified"
+    },
+    {
+     "post": "Foreign Minister",
+     "start": "1938-03-15",
+     "end": "1944-08-23",
+     "appointed_by": "Getulio Vargas",
+     "status": "verified"
+    },
+    {
+     "post": "Minister of Finance",
+     "start": "1953-06-16",
+     "end": "1954-08-24",
+     "appointed_by": "Getulio Vargas",
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "After Vargas's death (1954) he left government for personal business interests and law practice; headed Brazil's UN delegation under Kubitschek; died 27 Jan 1960 (pt.wikipedia). No company named.",
+   "foreign_ties": [
+    {
+     "counterpart": "United States government",
+     "kind": "foreign government",
+     "detail": "Ambassador in Washington 1934-37; as Foreign Minister pushed closer ties with the US.",
+     "source_url": "https://pt.wikipedia.org/wiki/Osvaldo_Aranha",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e2-15",
+     "role": "Finance minister in office when the DNC was created (Feb 1933)",
+     "detail": "Personal role not established.",
+     "source_url": "https://pt.wikipedia.org/wiki/Osvaldo_Aranha",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e2-17",
+     "role": "Signed Decreto-lei 4.451/1942 and was Foreign Minister during the Washington Accords",
+     "detail": "Foreign Minister 1938-44 and Finance Minister 1931-34 / 1953-54. His pt.wikipedia page does not mention Decreto-lei 4.451 or the Washington Accords.",
+     "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4451-9-julho-1942-414643-publicacaooriginal-1-pe.html",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "pt.wikipedia Osvaldo Aranha",
+     "url": "https://pt.wikipedia.org/wiki/Osvaldo_Aranha"
+    },
+    {
+     "title": "Decreto-lei 4.451",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4451-9-julho-1942-414643-publicacaooriginal-1-pe.html"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Osvaldo_Aranha",
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-souza-costa",
+   "name": "Arthur de Souza Costa",
+   "posts": [
+    {
+     "post": "Minister of Finance",
+     "start": "1934-07-24",
+     "end": "1945-10-29",
+     "appointed_by": "Getulio Vargas",
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-17",
+     "role": "Co-signed Decreto-lei 4.451/1942 as Finance Minister",
+     "detail": "Brazilian Minister of Finance also sent the 3 Mar 1942 note under the Rubber Reserve agreement (unnamed in FRUS).",
+     "source_url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4451-9-julho-1942-414643-publicacaooriginal-1-pe.html",
+     "basis": "in-office",
+     "status": "unverified"
+    },
+    {
+     "case_id": "e2-16",
+     "role": "Finance minister throughout the creation of CSN and Vale",
+     "detail": "Personal role not established.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Decreto-lei 4.451",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4451-9-julho-1942-414643-publicacaooriginal-1-pe.html"
+    },
+    {
+     "title": "Finance ministers list",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+    },
+    {
+     "title": "FRUS 1942 v5 d654",
+     "url": "https://history.state.gov/historicaldocuments/frus1942v05/d654"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-jose-maria-whitaker",
+   "name": "Jose Maria Whitaker",
+   "posts": [
+    {
+     "post": "Minister of Finance",
+     "start": "1930-11-04",
+     "end": "1931-11-16",
+     "appointed_by": "Getulio Vargas",
+     "status": "verified"
+    },
+    {
+     "post": "Minister of Finance",
+     "start": "1955-04-13",
+     "end": "1955-10-10",
+     "appointed_by": "Cafe Filho",
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-15",
+     "role": "Finance minister in office when the Conselho Nacional do Cafe was created (1931)",
+     "detail": "Personal role not established.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Finance ministers list",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+   ]
+  },
+  {
+   "id": "p-jefferson-caffery",
+   "name": "Jefferson Caffery",
+   "posts": [
+    {
+     "post": "US Ambassador to Brazil",
+     "start": "1937",
+     "end": "1944",
+     "appointed_by": "US government",
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [
+    {
+     "counterpart": "US government",
+     "kind": "foreign government",
+     "detail": "US ambassador to Brazil 1937-1944 (pt.wikipedia).",
+     "source_url": "https://history.state.gov/historicaldocuments/frus1942v05/d654",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e2-17",
+     "role": "Addressee of the US telegram of 13 Mar 1942 transmitting the Rubber Reserve agreement",
+     "detail": "FRUS 1942 v5 d654: telegram of 13 Mar 1942 from Acting Secretary of State Welles to Ambassador Caffery relaying the Rubber Reserve agreement signed 3 Mar 1942.",
+     "source_url": "https://history.state.gov/historicaldocuments/frus1942v05/d654",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "FRUS 1942 v5 d654",
+     "url": "https://history.state.gov/historicaldocuments/frus1942v05/d654"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Jefferson_Caffery",
+    "https://history.state.gov/historicaldocuments/frus1942v05/d654"
+   ]
+  },
+  {
+   "id": "p-eurico-gaspar-dutra",
+   "name": "Eurico Gaspar Dutra",
+   "posts": [
+    {
+     "post": "President of Brazil",
+     "start": "1946-01-31",
+     "end": "1951-01-31",
+     "appointed_by": "election",
+     "status": "unverified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-18",
+     "role": "President at the 1947 ICOMI concession in Amapa",
+     "detail": "Mining concession decree and signer not opened (certificate error on source).",
+     "source_url": "data/g2-republic.json (case file; its own sources listed per case)",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Finance ministers list",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+    }
+   ],
+   "verified_sources": []
+  },
+  {
+   "id": "p-augusto-antunes",
+   "name": "Augusto Trajano de Azevedo Antunes",
+   "posts": [],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-18",
+     "role": "Head of the ICOMI group that received the Serra do Navio concession",
+     "detail": "",
+     "source_url": "data/g2-republic.json (case file; its own sources listed per case)",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Case file e2-18",
+     "url": "data/g2-republic.json (case file; its own sources listed per case)"
+    }
+   ],
+   "verified_sources": []
+  },
+  {
+   "id": "p-juscelino-kubitschek",
+   "name": "Juscelino Kubitschek",
+   "posts": [
+    {
+     "post": "President of Brazil",
+     "start": "1956-01-31",
+     "end": "1961-01-31",
+     "appointed_by": "election",
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-19",
+     "role": "Signed Decreto 49.889 (12 Jan 1961; signature line reads 1960) authorizing the Hanna iron-ore operation",
+     "detail": "President 1956-61; Decreto 49.889 text not opened (404), signature unconfirmed.",
+     "source_url": "https://legis.senado.leg.br/norma/472471/publicacao/15661805",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Decreto 49.889",
+     "url": "https://legis.senado.leg.br/norma/472471/publicacao/15661805"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Juscelino_Kubitschek"
+   ]
+  },
+  {
+   "id": "p-antonio-barros-carvalho",
+   "name": "Antonio Barros Carvalho",
+   "posts": [
+    {
+     "post": "Minister (post not stated)",
+     "start": "1961-01-12",
+     "end": "1961-01-12",
+     "appointed_by": "Juscelino Kubitschek",
+     "status": "unverified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-19",
+     "role": "Countersigned Decreto 49.889",
+     "detail": "Post not stated on the Senate page; likely the ministry for Mines, unverified.",
+     "source_url": "https://legis.senado.leg.br/norma/472471/publicacao/15661805",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Decreto 49.889",
+     "url": "https://legis.senado.leg.br/norma/472471/publicacao/15661805"
+    }
+   ],
+   "verified_sources": []
+  },
+  {
+   "id": "p-george-humphrey",
+   "name": "George M. Humphrey",
+   "posts": [
+    {
+     "post": "Chairman/president (diretor presidente) of M.A. Hanna Co. (pt.wikipedia)",
+     "start": null,
+     "end": null,
+     "appointed_by": null,
+     "status": "verified"
+    },
+    {
+     "post": "US Secretary of the Treasury",
+     "start": null,
+     "end": null,
+     "appointed_by": "US President",
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [
+    {
+     "counterpart": "M.A. Hanna Co.",
+     "kind": "board seat",
+     "detail": "Described by pt.wikipedia as Hanna diretor presidente; sought the Paraopeba Valley iron reserves in Minas Gerais.",
+     "source_url": "https://pt.wikipedia.org/wiki/Hanna_Mining_Company",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e2-19",
+     "role": "Hanna chairman/president and US Treasury Secretary; sought the Paraopeba iron reserves (pt.wikipedia)",
+     "detail": "",
+     "source_url": "https://pt.wikipedia.org/wiki/Hanna_Mining_Company",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "pt.wikipedia Hanna Mining",
+     "url": "https://pt.wikipedia.org/wiki/Hanna_Mining_Company"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Hanna_Mining_Company"
+   ]
+  },
+  {
+   "id": "p-bulhoes-pedreira",
+   "name": "Jose Luiz Bulhoes Pedreira",
+   "posts": [],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [
+    {
+     "counterpart": "M.A. Hanna Co.",
+     "kind": "former employer / client",
+     "detail": "pt.wikipedia's Hanna page names him among Hanna lawyers or advisers who were placed in high government positions; single source.",
+     "source_url": "https://pt.wikipedia.org/wiki/Hanna_Mining_Company",
+     "status": "unverified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e2-19",
+     "role": "Hanna lawyer or adviser (single source)",
+     "detail": "",
+     "source_url": "https://pt.wikipedia.org/wiki/Hanna_Mining_Company",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "pt.wikipedia Hanna Mining",
+     "url": "https://pt.wikipedia.org/wiki/Hanna_Mining_Company"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Hanna_Mining_Company"
+   ]
+  },
+  {
+   "id": "p-janio-quadros",
+   "name": "Janio Quadros",
+   "posts": [
+    {
+     "post": "President of Brazil",
+     "start": "1961-01-31",
+     "end": "1961-08-25",
+     "appointed_by": "election",
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-19",
+     "role": "Annulled the Hanna authorizations on 21 Aug 1961",
+     "detail": "pt.wikipedia: on 21 Aug 1961 he signed a resolution annulling the company's authorizations and returning the Minas Gerais iron deposits to the national reserve; resigned four days later.",
+     "source_url": "https://pt.wikipedia.org/wiki/Hanna_Mining_Company",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "pt.wikipedia Hanna Mining",
+     "url": "https://pt.wikipedia.org/wiki/Hanna_Mining_Company"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Jânio_Quadros",
+    "https://pt.wikipedia.org/wiki/Hanna_Mining_Company"
+   ]
+  },
+  {
+   "id": "p-joao-agripino",
+   "name": "Joao Agripino",
+   "posts": [
+    {
+     "post": "Minister of Mines and Energy",
+     "start": "1961-02-02",
+     "end": "1961-08-25 (infobox says 28 Aug; page inconsistent)",
+     "appointed_by": "Janio Quadros",
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-19",
+     "role": "Mines minister in office at the annulment of 21 Aug 1961",
+     "detail": "Personal role not established.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil",
+     "basis": "in-office",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Mines and Energy ministers list",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/João_Agripino_Filho",
+    "https://pt.wikipedia.org/wiki/Jânio_Quadros"
+   ]
+  },
+  {
+   "id": "p-joao-goulart",
+   "name": "Joao Goulart",
+   "posts": [
+    {
+     "post": "President of Brazil",
+     "start": "1961-09-07",
+     "end": "1964-04-01",
+     "appointed_by": "Congress / parliamentary system, then plebiscite",
+     "status": "unverified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-19",
+     "role": "Tried to revoke the Hanna concessions again",
+     "detail": "pt.wikipedia Hanna page: his government tried again to revoke the company's concessions, before the 1964 coup.",
+     "source_url": "https://pt.wikipedia.org/wiki/Hanna_Mining_Company",
+     "basis": "documented-act",
+     "status": "verified"
+    },
+    {
+     "case_id": "e2-20",
+     "role": "President when the Amforp deal was negotiated (April 1963 US$135m agreement) and interrupted",
+     "detail": "",
+     "source_url": "data/g2-republic.json (case file; its own sources listed per case)",
+     "basis": "in-office",
+     "status": "unverified"
+    },
+    {
+     "case_id": "e2-16",
+     "role": "President when Eletrobras was set up (1962)",
+     "detail": "",
+     "source_url": "data/g2-republic.json (case file; its own sources listed per case)",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Finance ministers list",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil"
+    },
+    {
+     "title": "pt.wikipedia Hanna Mining",
+     "url": "https://pt.wikipedia.org/wiki/Hanna_Mining_Company"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Hanna_Mining_Company"
+   ]
+  },
+  {
+   "id": "p-gabriel-passos",
+   "name": "Gabriel Passos",
+   "posts": [
+    {
+     "post": "Minister of Mines and Energy",
+     "start": "1961-09-11",
+     "end": "1962-06-19 (died in office)",
+     "appointed_by": "Joao Goulart",
+     "status": "unverified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-19",
+     "role": "Mines minister in office in the first Goulart period",
+     "detail": "Role in revoking Hanna not verified.",
+     "source_url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Mines and Energy ministers list",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Gabriel_Passos"
+   ]
+  },
+  {
+   "id": "p-eliezer-batista",
+   "name": "Eliezer Batista",
+   "posts": [
+    {
+     "post": "President of Vale",
+     "start": "1961",
+     "end": "1964",
+     "appointed_by": "Janio Quadros",
+     "status": "verified"
+    },
+    {
+     "post": "Minister of Mines and Energy",
+     "start": "1962",
+     "end": "1962 (exact dates not on the page)",
+     "appointed_by": "Joao Goulart",
+     "status": "unverified"
+    },
+    {
+     "post": "President of Vale",
+     "start": "1979",
+     "end": "1986",
+     "appointed_by": "Joao Figueiredo (invitation)",
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Dismissed from Vale after the 1964 coup; director-president of Mineracoes Brasileiras Reunidas 1964-68, vice-president of Itabira International (New York), director of Itabira Eisenerz (Dusseldorf) 1968-74 (pt.wikipedia).",
+   "foreign_ties": [
+    {
+     "counterpart": "Mineracoes Brasileiras Reunidas (CAEMI / Bethlehem Steel merger)",
+     "kind": "later employer",
+     "detail": "After dismissal from Vale following the 1964 coup he took the CAEMI presidency (quoted: 'CAEMI or prison'); director-president of Mineracoes Brasileiras Reunidas 1964-68.",
+     "source_url": "https://pt.wikipedia.org/wiki/Eliezer_Batista",
+     "status": "verified"
+    },
+    {
+     "counterpart": "Itabira International Company (New York)",
+     "kind": "later employer",
+     "detail": "Vice-president.",
+     "source_url": "https://pt.wikipedia.org/wiki/Eliezer_Batista",
+     "status": "verified"
+    },
+    {
+     "counterpart": "Itabira Eisenerz GmbH (Dusseldorf)",
+     "kind": "later employer",
+     "detail": "Director 1968-1974.",
+     "source_url": "https://pt.wikipedia.org/wiki/Eliezer_Batista",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e2-16",
+     "role": "Vale president 1961-64",
+     "detail": "",
+     "source_url": "https://pt.wikipedia.org/wiki/Eliezer_Batista",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e2-19",
+     "role": "Vale president and later Mines minister during the Hanna fight",
+     "detail": "Specific action not established.",
+     "source_url": "https://pt.wikipedia.org/wiki/Eliezer_Batista",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "pt.wikipedia reports he was accused of giving his son Eike Batista a map of mines that Vale had discarded.",
+     "outcome": "Never proven; Eike denied it.",
+     "source_url": "https://pt.wikipedia.org/wiki/Eliezer_Batista",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "pt.wikipedia Eliezer Batista",
+     "url": "https://pt.wikipedia.org/wiki/Eliezer_Batista"
+    },
+    {
+     "title": "Mines and Energy list",
+     "url": "https://pt.wikipedia.org/wiki/Lista_de_ministros_de_Minas_e_Energia_do_Brasil"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Eliezer_Batista"
+   ]
+  },
+  {
+   "id": "p-leonel-brizola",
+   "name": "Leonel Brizola",
+   "posts": [
+    {
+     "post": "Governor of Rio Grande do Sul",
+     "start": "1959-01-31",
+     "end": "1963-03-25",
+     "appointed_by": null,
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [
+    {
+     "counterpart": "Bond and Share (Companhia de Energia Eletrica Riograndense)",
+     "kind": "counterpart",
+     "detail": "Subsidiary expropriated (encampada) in May 1959. The page does not use the name Amforp.",
+     "source_url": "https://pt.wikipedia.org/wiki/Leonel_Brizola",
+     "status": "verified"
+    },
+    {
+     "counterpart": "ITT (Companhia Telefonica Riograndense)",
+     "kind": "counterpart",
+     "detail": "Expropriated in Feb 1962 after failed negotiations.",
+     "source_url": "https://pt.wikipedia.org/wiki/Leonel_Brizola",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e2-20",
+     "role": "Ordered the 1959 CEE takeover and the 1962 telephone takeover",
+     "detail": "Kennedy criticised him; Hickenlooper amendment effort failed.",
+     "source_url": "https://pt.wikipedia.org/wiki/Leonel_Brizola",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "pt.wikipedia Leonel Brizola",
+     "url": "https://pt.wikipedia.org/wiki/Leonel_Brizola"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Leonel_Brizola"
+   ]
+  },
+  {
+   "id": "p-castelo-branco",
+   "name": "Humberto de Alencar Castelo Branco",
+   "posts": [
+    {
+     "post": "President of Brazil",
+     "start": "1964-04-15",
+     "end": "1967-03-15",
+     "appointed_by": "Congress after the 1964 coup",
+     "status": "unverified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-20",
+     "role": "Signed Law 4.428 of 14 Oct 1964 (Eletrobras buy-out basis)",
+     "detail": "Lei 4.428 of 14 Oct 1964 (authorizing Eletrobras to buy shares of two US companies' Brazilian utility subsidiaries) is printed with his signature (legis.senado.leg.br).",
+     "source_url": "https://legis.senado.leg.br/norma/546278/publicacao/15715156",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Law 4.428",
+     "url": "https://legis.senado.leg.br/norma/546278/publicacao/15715156"
+    }
+   ],
+   "verified_sources": [
+    "https://legis.senado.leg.br/norma/546278/publicacao/15715156"
+   ]
+  },
+  {
+   "id": "p-otavio-bulhoes",
+   "name": "Otavio Gouveia de Bulhoes",
+   "posts": [
+    {
+     "post": "Acting Minister of Finance",
+     "start": "1954-09-20",
+     "end": "1954-11-08",
+     "appointed_by": "Cafe Filho",
+     "status": "verified"
+    },
+    {
+     "post": "Executive director of SUMOC",
+     "start": "1954-1955; 1961-1962",
+     "end": null,
+     "appointed_by": null,
+     "status": "verified"
+    },
+    {
+     "post": "Acting Minister of Finance",
+     "start": "1964-04-04",
+     "end": "1964-04-15",
+     "appointed_by": "Ranieri Mazzilli",
+     "status": "verified"
+    },
+    {
+     "post": "Minister of Finance",
+     "start": "1964-04-15",
+     "end": "1967-03-16",
+     "appointed_by": "Castelo Branco",
+     "status": "verified"
+    }
+   ],
+   "before": "Joined the Finance Ministry in 1926; member of the Brazilian delegation to Bretton Woods (1944) (pt.wikipedia).",
+   "after": "President of Banco do Estado da Guanabara and COPEG 1971-73 (pt.wikipedia).",
+   "foreign_ties": [
+    {
+     "counterpart": "M.A. Hanna Co.",
+     "kind": "lawyer/adviser (single source)",
+     "detail": "pt.wikipedia's Hanna page names him among Hanna lawyers or advisers placed in high government positions; his own pt.wikipedia page does not mention Hanna.",
+     "source_url": "https://pt.wikipedia.org/wiki/Hanna_Mining_Company",
+     "status": "unverified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e2-20",
+     "role": "Countersigned Law 4.428 of 1964",
+     "detail": "Lei 4.428 of 14 Oct 1964 is printed with the signature 'Octavio Gouveia de Bulhoes' alongside Castello Branco and Mauro Thibau.",
+     "source_url": "https://legis.senado.leg.br/norma/546278/publicacao/15715156",
+     "basis": "documented-act",
+     "status": "verified"
+    },
+    {
+     "case_id": "e2-19",
+     "role": "Described as a Hanna lawyer/adviser by pt.wikipedia Hanna page; his own page does not mention this",
+     "detail": "Unconfirmed link.",
+     "source_url": "https://pt.wikipedia.org/wiki/Hanna_Mining_Company",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "pt.wikipedia Otavio Bulhoes",
+     "url": "https://pt.wikipedia.org/wiki/Otávio_Gouveia_de_Bulhões"
+    },
+    {
+     "title": "pt.wikipedia Hanna",
+     "url": "https://pt.wikipedia.org/wiki/Hanna_Mining_Company"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Otávio_Gouveia_de_Bulhões",
+    "https://pt.wikipedia.org/wiki/Lista_de_ministros_da_Fazenda_do_Brasil",
+    "https://pt.wikipedia.org/wiki/Hanna_Mining_Company",
+    "https://legis.senado.leg.br/norma/546278/publicacao/15715156"
+   ]
+  },
+  {
+   "id": "p-mauro-thibau",
+   "name": "Mauro Thibau",
+   "posts": [
+    {
+     "post": "Minister of Mines and Energy",
+     "start": "1964-04-17",
+     "end": "1967-03-15",
+     "appointed_by": "Castelo Branco",
+     "status": "verified"
+    }
+   ],
+   "before": "CAEEB 1946 (electric company); CVSF 1950; first board of CEMIG 1952.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-20",
+     "role": "Countersigned Law 4.428 of 1964",
+     "detail": "Lei 4.428 of 14 Oct 1964 is printed with the signature 'Mauro Thibau'.",
+     "source_url": "https://legis.senado.leg.br/norma/546278/publicacao/15715156",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "pt.wikipedia Mauro Thibau",
+     "url": "https://pt.wikipedia.org/wiki/Mauro_Thibau"
+    },
+    {
+     "title": "Law 4.428",
+     "url": "https://legis.senado.leg.br/norma/546278/publicacao/15715156"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Mauro_Thibau",
+    "https://legis.senado.leg.br/norma/546278/publicacao/15715156"
+   ]
+  },
+  {
+   "id": "p-roberto-campos",
+   "name": "Roberto Campos",
+   "posts": [
+    {
+     "post": "BNDE president",
+     "start": "1958-08",
+     "end": "1959-07",
+     "appointed_by": "Kubitschek",
+     "status": "verified"
+    },
+    {
+     "post": "Ambassador to the US",
+     "start": null,
+     "end": null,
+     "appointed_by": "Goulart government (pt.wikipedia; dates not given)",
+     "status": "unverified"
+    },
+    {
+     "post": "Planning minister",
+     "start": "1964-04-15",
+     "end": "1967-03-15",
+     "appointed_by": "Castelo Branco",
+     "status": "verified"
+    }
+   ],
+   "before": "Early in his career consul and secretary in Washington; member of the Brazilian delegation to Bretton Woods (pt.wikipedia).",
+   "after": "Ambassador to London under Geisel (pt.wikipedia; page dates inconsistent).",
+   "foreign_ties": [
+    {
+     "counterpart": "Brazilian delegation to the Bretton Woods Conference (1944)",
+     "kind": "multilateral conference (IMF / World Bank)",
+     "detail": "Took part with Eugenio Gudin (pt.wikipedia). Not a foreign employer.",
+     "source_url": "https://pt.wikipedia.org/wiki/Roberto_Campos",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e2-20",
+     "role": "Planning minister from April 1964 when the Amforp deal was closed",
+     "detail": "Role in the deal not established.",
+     "source_url": "https://pt.wikipedia.org/wiki/Roberto_Campos",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e2-16",
+     "role": "Said to have helped shape Petrobras and the BNDES",
+     "detail": "",
+     "source_url": "https://pt.wikipedia.org/wiki/Roberto_Campos",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "Opponents nicknamed him 'Bobby Fields', accusing him of being pro-American (americanista / entreguista), tied to his openness to foreign capital.",
+     "outcome": "Nickname only; no charge.",
+     "source_url": "https://pt.wikipedia.org/wiki/Roberto_Campos",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "pt.wikipedia Roberto Campos",
+     "url": "https://pt.wikipedia.org/wiki/Roberto_Campos"
+    }
+   ],
+   "verified_sources": [
+    "https://pt.wikipedia.org/wiki/Roberto_Campos"
+   ]
+  },
+  {
+   "id": "p-paulo-richer",
+   "name": "Paulo Richer",
+   "posts": [
+    {
+     "post": "First president of Eletrobras",
+     "start": "1962",
+     "end": null,
+     "appointed_by": "not stated",
+     "status": "unverified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-16",
+     "role": "First Eletrobras president",
+     "detail": "",
+     "source_url": "https://pt.wikipedia.org/wiki/Eletrobras",
+     "basis": "in-office",
+     "status": "unverified"
+    },
+    {
+     "case_id": "e2-20",
+     "role": "Eletrobras president at the time of the 1963 negotiation (dates unverified)",
+     "detail": "Role unverified.",
+     "source_url": "https://pt.wikipedia.org/wiki/Eletrobras",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "pt.wikipedia Eletrobras",
+     "url": "https://pt.wikipedia.org/wiki/Eletrobras"
+    }
+   ],
+   "verified_sources": []
+  },
+  {
+   "id": "p-lincoln-gordon",
+   "name": "Lincoln Gordon",
+   "posts": [
+    {
+     "post": "US Ambassador to Brazil",
+     "start": "1961-10-09 (succession box says 19 Oct)",
+     "end": "1966-02-25",
+     "appointed_by": "Kennedy / Johnson (not stated on page)",
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [
+    {
+     "counterpart": "US government",
+     "kind": "foreign government",
+     "detail": "US ambassador to Brazil 1961-66 (en.wikipedia).",
+     "source_url": "https://en.wikipedia.org/wiki/Lincoln_Gordon",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e2-19",
+     "role": "US ambassador during the Hanna annulment aftermath; named in pt.wikipedia Hanna page",
+     "detail": "Ambassador during the Hanna dispute; pt.wikipedia's Hanna page names him as the US ambassador who supported the coup.",
+     "source_url": "https://pt.wikipedia.org/wiki/Hanna_Mining_Company",
+     "basis": "in-office",
+     "status": "verified"
+    },
+    {
+     "case_id": "e2-20",
+     "role": "US ambassador during the Amforp negotiation and 1964 buy-out",
+     "detail": "Role in the deal not established.",
+     "source_url": "https://en.wikipedia.org/wiki/Lincoln_Gordon",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [
+    {
+     "what": "en.wikipedia reports that on 27 Mar 1964 he sent a top secret cable urging the US to back the coup led by Castelo Branco, including 'clandestine delivery of arms'.",
+     "outcome": "He, his staff and the CIA repeatedly denied involvement; documents declassified around 2004 indicate the involvement of Johnson, McNamara, Gordon and others.",
+     "source_url": "https://en.wikipedia.org/wiki/Lincoln_Gordon",
+     "status": "verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "en.wikipedia Lincoln Gordon",
+     "url": "https://en.wikipedia.org/wiki/Lincoln_Gordon"
+    }
+   ],
+   "verified_sources": [
+    "https://en.wikipedia.org/wiki/Lincoln_Gordon",
+    "https://pt.wikipedia.org/wiki/Hanna_Mining_Company"
+   ]
+  },
+  {
+   "id": "p-dionisio-bentes",
+   "name": "Dionisio Bentes",
+   "posts": [
+    {
+     "post": "Governor of Para",
+     "start": "1927 (not dated on page)",
+     "end": null,
+     "appointed_by": null,
+     "status": "verified"
+    }
+   ],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-14",
+     "role": "Negotiated with Henry Ford in the US; concession of about 10,000 km2",
+     "detail": "en.wikipedia: negotiations began during a visit by then-governor Dionisio Bentes to the US to meet Ford; concession of about 10,100 km2.",
+     "source_url": "https://en.wikipedia.org/wiki/Fordl%C3%A2ndia",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Fordlandia",
+     "url": "https://en.wikipedia.org/wiki/Fordl%C3%A2ndia"
+    }
+   ],
+   "verified_sources": [
+    "https://en.wikipedia.org/wiki/Fordl%C3%A2ndia"
+   ]
+  },
+  {
+   "id": "p-henry-ford",
+   "name": "Henry Ford",
+   "posts": [],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-14",
+     "role": "Grantee of the Para concession",
+     "detail": "Never visited it.",
+     "source_url": "https://en.wikipedia.org/wiki/Fordl%C3%A2ndia",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Fordlandia",
+     "url": "https://en.wikipedia.org/wiki/Fordl%C3%A2ndia"
+    }
+   ],
+   "verified_sources": [
+    "https://en.wikipedia.org/wiki/Fordl%C3%A2ndia"
+   ]
+  },
+  {
+   "id": "p-william-mackenzie",
+   "name": "William Mackenzie",
+   "posts": [],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [
+    {
+     "counterpart": "Canadian capital",
+     "kind": "investor",
+     "detail": "Co-founder (with Frederick Pearson) of the Sao Paulo Tramway, Light and Power Co., founded in Toronto in 1899 (en.wikipedia).",
+     "source_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Tramway,_Light_and_Power_Company",
+     "status": "verified"
+    }
+   ],
+   "case_links": [
+    {
+     "case_id": "e2-06",
+     "role": "Co-founder of the Sao Paulo Tramway, Light and Power Co. (1899)",
+     "detail": "",
+     "source_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Tramway,_Light_and_Power_Company",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "SPTL&P",
+     "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Tramway,_Light_and_Power_Company"
+    }
+   ],
+   "verified_sources": [
+    "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Tramway,_Light_and_Power_Company"
+   ]
+  },
+  {
+   "id": "p-frederick-pearson",
+   "name": "Frederick Stark Pearson",
+   "posts": [],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-06",
+     "role": "Co-founder of Light (1899)",
+     "detail": "",
+     "source_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Tramway,_Light_and_Power_Company",
+     "basis": "documented-act",
+     "status": "verified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "SPTL&P",
+     "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Tramway,_Light_and_Power_Company"
+    }
+   ],
+   "verified_sources": [
+    "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Tramway,_Light_and_Power_Company"
+   ]
+  },
+  {
+   "id": "p-eduardo-guinle",
+   "name": "Eduardo Palassin Guinle",
+   "posts": [],
+   "before": "Not established in the pages opened.",
+   "after": "Not established in the pages opened.",
+   "foreign_ties": [],
+   "case_links": [
+    {
+     "case_id": "e2-02",
+     "role": "Grantee (Gaffree and Guinle) of the Santos port concession, Decreto 9.979 of 12 Jul 1888",
+     "detail": "Imperial-era decision; government deciders not named in the sources opened.",
+     "source_url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-9979-12-julho-1888-542680-publicacaooriginal-51939-pe.html",
+     "basis": "in-office",
+     "status": "unverified"
+    }
+   ],
+   "controversies": [],
+   "sources": [
+    {
+     "title": "Decreto 9.979",
+     "url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-9979-12-julho-1888-542680-publicacaooriginal-51939-pe.html"
+    }
+   ],
+   "verified_sources": []
+  }
+ ],
+ "foreign_counterparts": [
+  {
+   "case_id": "e2-06",
+   "counterpart": "Sao Paulo Tramway, Light and Power Co. (Canadian capital)",
+   "country": "Canada",
+   "kind": "company",
+   "detail": "Founded 1899 in Toronto by Mackenzie and Pearson (en.wikipedia).",
+   "source_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Tramway,_Light_and_Power_Company",
+   "status": "verified"
+  },
+  {
+   "case_id": "e2-07",
+   "counterpart": "Government of Bolivia",
+   "country": "Bolivia",
+   "kind": "government",
+   "detail": "Received GBP 2 million in two installments under the Treaty of Petropolis (17 Nov 1903) (en.wikipedia).",
+   "source_url": "https://en.wikipedia.org/wiki/Treaty_of_Petr%C3%B3polis",
+   "status": "verified"
+  },
+  {
+   "case_id": "e2-12",
+   "counterpart": "Parana Plantations (British enterprise, northern Parana)",
+   "country": "United Kingdom",
+   "kind": "company",
+   "detail": "Credited with a major role in the urban and industrial development of northern Parana (Canning House).",
+   "source_url": "https://www.canninghouse.org/canning-insights/the-british-in-parana",
+   "status": "verified"
+  },
+  {
+   "case_id": "e2-13",
+   "counterpart": "Sao Paulo Tramway, Light and Power Co.",
+   "country": "Canada",
+   "kind": "company",
+   "detail": "1927 contract to divert Tiete River water to the Henry Borden plant at Cubatao, with rights to expropriate wetlands (en.wikipedia).",
+   "source_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Tramway,_Light_and_Power_Company",
+   "status": "verified"
+  },
+  {
+   "case_id": "e2-14",
+   "counterpart": "Ford Motor Company / Henry Ford",
+   "country": "United States",
+   "kind": "company",
+   "detail": "Concession of about 10,100 km2 (Fordlandia); Henry Ford II sold the area back to the Brazilian government in 1945 (en.wikipedia).",
+   "source_url": "https://en.wikipedia.org/wiki/Fordl%C3%A2ndia",
+   "status": "verified"
+  },
+  {
+   "case_id": "e2-17",
+   "counterpart": "Rubber Reserve Company (US Government)",
+   "country": "United States",
+   "kind": "government",
+   "detail": "Counterparty to the 3 Mar 1942 agreement; 39 cents per pound for Upriver Acre Fine.",
+   "source_url": "https://history.state.gov/historicaldocuments/frus1942v05/d654",
+   "status": "verified"
+  },
+  {
+   "case_id": "e2-17",
+   "counterpart": "Reconstruction Finance Corporation",
+   "country": "United States",
+   "kind": "government",
+   "detail": "Letter of credit through RFC.",
+   "source_url": "https://history.state.gov/historicaldocuments/frus1942v05/d654",
+   "status": "verified"
+  },
+  {
+   "case_id": "e2-19",
+   "counterpart": "M.A. Hanna Co.",
+   "country": "United States",
+   "kind": "company",
+   "detail": "Bought St John del Rey Mining shares in 1957 for US$6 million.",
+   "source_url": "https://pt.wikipedia.org/wiki/Hanna_Mining_Company",
+   "status": "verified"
+  },
+  {
+   "case_id": "e2-19",
+   "counterpart": "St John del Rey Mining Co.",
+   "country": "United Kingdom",
+   "kind": "company",
+   "detail": "British company whose shares Hanna bought.",
+   "source_url": "https://pt.wikipedia.org/wiki/Hanna_Mining_Company",
+   "status": "verified"
+  },
+  {
+   "case_id": "e2-20",
+   "counterpart": "Two US companies holding Brazilian electric-utility subsidiaries (names not on the page opened)",
+   "country": "United States",
+   "kind": "company",
+   "detail": "Lei 4.428 (14 Oct 1964) authorized Eletrobras to buy their shares in the subsidiaries.",
+   "source_url": "https://legis.senado.leg.br/norma/546278/publicacao/15715156",
+   "status": "verified"
+  },
+  {
+   "case_id": "e2-20",
+   "counterpart": "International Telephone and Telegraph (ITT)",
+   "country": "United States",
+   "kind": "company",
+   "detail": "Telephone subsidiary expropriated by Brizola in Feb 1962 (pt.wikipedia).",
+   "source_url": "https://pt.wikipedia.org/wiki/Leonel_Brizola",
+   "status": "verified"
+  }
+ ]
+}
