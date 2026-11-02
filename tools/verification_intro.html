@@ -1,0 +1,43 @@
+<section id="plan">
+<h2 id="plan-h">How do we make every source traceable, like unit tests?</h2>
+<p class="lead"><strong>Every claim gets a test.</strong> The test says: "this exact sentence is on this page, and it contains this number." A script opens every page in a real browser and runs all the tests. A claim is "verified" only while its test passes.</p>
+
+<h3 id="problem">The problem today</h3>
+<ul>
+<li>"Verified" means different things in different groups. In some, a researcher read the page once. In others, a second checker confirmed it.</li>
+<li>Nobody can see <strong>why</strong> a figure is marked verified.</li>
+<li>A reader can't check a claim without hunting through the source.</li>
+</ul>
+
+<h3 id="how-it-works">How the system works</h3>
+<ol>
+<li><strong>Claim list.</strong> Every figure, date, person's post, tie and court outcome gets a permanent id, for example <code>e4-19/fig/2</code> (Vale's sale price).</li>
+<li><strong>Evidence.</strong> Each claim stores the source link, the <strong>exact quote</strong> from the source that supports it, where on the page it is (page number for PDFs), and the date it was read.</li>
+<li><strong>Snapshot.</strong> A script opens each source with Playwright (a real browser) or reads the PDF, then saves the text and a fingerprint (hash). If the page later changes or dies, we see it.</li>
+<li><strong>Test run.</strong> <code>verify.py</code> checks every claim: is the quote on the saved page, and is the number inside the quote? The result is a test report, like software tests.</li>
+<li><strong>Repair.</strong> Failing claims go to a researcher. They find the right source, record the new quote, and the test runs again.</li>
+<li><strong>Open to readers.</strong> Every pill on the study pages links to its claim here: quote, source, archive copy, date, result. The whole claim list can also be downloaded as a spreadsheet file.</li>
+</ol>
+
+<h3 id="statuses">The four marks</h3>
+<div class="scroll"><table>
+<tr><th>Mark</th><th>Means</th></tr>
+<tr><td><span class="pill pass">verified</span></td><td>A researcher recorded the exact quote, and the test finds the quote and the number on the saved source.</td></tr>
+<tr><td><span class="pill auto">auto-match</span></td><td>The script found the number on the source page, but no one has confirmed it's the right sentence yet.</td></tr>
+<tr><td><span class="pill fail">failing</span></td><td>The quote or number isn't on the page, or the page is dead. It needs a new source.</td></tr>
+<tr><td><span class="pill none">unchecked</span></td><td>No evidence recorded yet.</td></tr>
+</table></div>
+<p>Marks are <strong>computed by the script</strong>, never typed by hand. That's what makes them the same everywhere.</p>
+
+<h3 id="steps">Steps</h3>
+<ol>
+<li><strong>Done (2 Nov):</strong> build the claim list, the snapshot script and the test runner. Take snapshots of every source.</li>
+<li><strong>Next:</strong> researchers write evidence for every claim, group by group, and fix failing sources.</li>
+<li>The study pages show the computed marks and link each one here.</li>
+<li>Re-run the tests any time. A source older than 12 months gets re-checked.</li>
+</ol>
+<div class="callout action"><strong>Step 1 is done.</strong> 2,575 claims have ids, 1,276 of 1,394 source pages are saved, and the tests run. No claim is "verified" yet, because no researcher quotes are recorded yet. That is step 2.</div>
+
+<h3 id="decision-archive">Decided: public archive copies</h3>
+<div class="callout"><strong>Decided 1 Nov: yes, but only after everything is bundled.</strong> When every source is final, we ask the Internet Archive (Wayback Machine) to save a public copy of each source page, in one go. It sends only the public source links, nothing of yours. Until then we only look up copies that already exist (907 do).</div>
+</section>
