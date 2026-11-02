@@ -364,7 +364,7 @@ def w_xlabels(x0, x1, X, unit, ybase):
 
 def richer_svg(spans, x0, x1, base_label):
     """Indexed lines (100 = each series' start point of the first span). Coloured inside each span's start..end, faded elsewhere."""
-    W, H, padl, padr, top, bot = 480, 236, 34, 12, 26, 22
+    W, H, padl, padr, top, bot = 480, 236, 34, 44, 26, 22
     unit, X = w_frame(x0, x1, W, H, padl, padr, top, bot)
     lines = []
     for sid, label, _u, _f, cls in RICH:
@@ -377,7 +377,7 @@ def richer_svg(spans, x0, x1, base_label):
         idx = {y: v / pts[a] * 100 for y, v in pts.items() if x0 <= y <= x1}
         if len(idx) < 2:
             continue
-        lines.append((sid, label, cls, idx, pts, w_ok(sid)))
+        lines.append((sid, label, cls if w_ok(sid) else "kunv", idx, pts, w_ok(sid)))
     if not lines:
         return "", []
     vals = [v for *_r, idx, _p, _ok in lines for v in idx.values()]
@@ -417,7 +417,7 @@ def richer_svg(spans, x0, x1, base_label):
     for i in range(1, len(labs)):
         labs[i][0] = max(labs[i][0], labs[i - 1][0] + 13)
     for yv, xv, txt, cls in labs:
-        anc, dx = ("end", -6) if xv > W - padr - 40 else ("start", 6)
+        anc, dx = "start", 6
         o.append(f'<text class="ch-t ch-v w-vl {cls}" x="{xv + dx:.1f}" y="{yv + 4:.1f}" text-anchor="{anc}">{txt}</text>')
     o.append("</svg>")
     keys = "".join(f'<span class="ch-key"><span class="w-sw {cls}{"" if ok else " u"}{" ref" if sid == "gdp-per-capita-worldbank" else ""}"></span>{esc(label)}{"" if ok else " " + pill("unverified")}</span>'
@@ -475,7 +475,9 @@ def gap_panel(sid, label, unit_txt, scale, spans, x0, x1):
                 o.append(f'<text class="ch-t ch-v" x="{x + dx:.1f}" y="{max(12, Y(win[yy]) - 5):.1f}" text-anchor="{anc}">{win[yy]:.1f}</text>')
         res.append((sp, a, b, pts[a], pts[b]))
     o.append("</svg>")
-    if len(spans) == 1 and res:
+    if len(spans) == 1 and not res:
+        head = f"no data in this term (series ends {max(pts)})"
+    elif len(spans) == 1 and res:
         _sp, a, b, va, vb = res[0]
         head = f'{va:.1f} → {vb:.1f} ({vb - va:+.1f} points, {a}–{b})'
     else:
@@ -601,10 +603,14 @@ def state_money_html(spans, x0, x1):
             keys.append(f'<span class="ch-key"><span class="w-sw {cls}{"" if ok else " u"}"></span>{esc(lab)} ({min(pts)}–{max(pts)}){"" if ok else " " + pill(S[sid]["status"])}</span>')
             srcs.append(src(S[sid].get("source_url"), S[sid].get("source_title") or "source"))
         o.append("</svg>")
-        note = ('<p class="small muted">Both lines are % of GDP, so inflation does not matter. Interest is the nominal interest bill of the whole public sector. '
+        note = ('<p class="small muted">Both are shares of GDP, so they need no inflation adjustment. Interest is the nominal interest bill of the whole public sector. '
                 'Bolsa Família annual totals start in 2013 in this file; the December-only monthly figures for 2004–2012 are not annual, so they are not drawn. '
                 'Dotted = not verified yet; no sentence on this page rests on these lines.</p>')
-        return f'<div class="ch-fit">{"".join(o)}</div><p class="small w-keys">{"".join(keys)}</p>{note}', " · ".join(dict.fromkeys(srcs))
+        miss = [lab for sid, lab, _c in STATE_MONEY if sid in S and (sid, lab, _c) not in have]
+        title = " and ".join(lab for _s, lab, _c in have)
+        return (f'<div class="ch-fit">{"".join(o)}</div><p class="small w-keys">{"".join(keys)}</p>'
+                + (f'<p class="small"><strong>{esc(", ".join(miss))}: no annual figure in these years; annual totals start in 2013.</strong></p>' if miss else "")
+                + note), " · ".join(dict.fromkeys(srcs)), title
     except Exception as e:  # optional data written by another helper: never break the build
         print("warning: state-money figure skipped:", e)
         return ""
@@ -653,7 +659,7 @@ def wealth_block(t, tp):
               w_sources(srcs) + ". Each panel says which way is better. Shaded = in office. Dashed grey panels are not verified; no sentence here rests on them.",
               "no inequality series covers this term.")
     sm = state_money_html([sp], x0, x1)
-    f_s = fig(f"{tp}-f-state-money", f"Where the state's money went, {tyrs}: interest on public debt and Bolsa Família, % of GDP (not verified yet)", sm[0], sm[1] + ".", "") if sm else ""
+    f_s = fig(f"{tp}-f-state-money", f"Where the state's money went, {tyrs}: {sm[2][0].lower() + sm[2][1:]}, % of GDP (not verified yet)", sm[0], sm[1] + ".", "") if sm else ""
     main = w_main(facts)
     html_ = (f'<h3 id="{tp}-wealth">Who got richer, who got poorer, {tyrs}{so_far}</h3>'
              f'<p class="big"><strong>{esc(main)}</strong> {esc(gs)}</p>{tab}{f_r}{f_g}{f_s}')
