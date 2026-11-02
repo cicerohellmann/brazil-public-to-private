@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T01:20:18Z",
+ "generated_at": "2026-11-02T01:48:43Z",
  "counts": {
   "fig": 1315,
   "post": 299,
@@ -7,10 +7,10 @@
   "tie": 90,
   "controversy": 72,
   "counterpart": 78,
-  "series": 61,
+  "series": 73,
   "term": 52
  },
- "n_claims": 2575,
+ "n_claims": 2587,
  "records_without_id": [],
  "claims_without_source_url": [
   "e2-03/fig/3",
@@ -44567,6 +44567,198 @@
    ],
    "legacy_status": "verified",
    "file": "data/series-concentration.json",
+   "json_path": "$.series[11]",
+   "flags": []
+  },
+  {
+   "id": "series/dist-interest-pct-gdp",
+   "kind": "series",
+   "group": "series",
+   "record_id": "dist-interest-pct-gdp",
+   "claim_text": "Series: Nominal interest paid by the consolidated public sector, % of GDP (% of GDP (12-month flow at December)), 24 points 2002 to 2025.",
+   "value": "24 points",
+   "numbers": [],
+   "source_urls": [
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5760/dados?formato=json"
+   ],
+   "legacy_status": "unverified",
+   "file": "data/series-distribution.json",
+   "json_path": "$.series[0]",
+   "flags": []
+  },
+  {
+   "id": "series/dist-interest-brl-bn",
+   "kind": "series",
+   "group": "series",
+   "record_id": "dist-interest-brl-bn",
+   "claim_text": "Series: Nominal interest paid by the consolidated public sector, R$ bn (R$ bn nominal per year), 24 points 2002 to 2025.",
+   "value": "24 points",
+   "numbers": [],
+   "source_urls": [
+    "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='BM12_NFSPJNNS12')"
+   ],
+   "legacy_status": "unverified",
+   "file": "data/series-distribution.json",
+   "json_path": "$.series[1]",
+   "flags": []
+  },
+  {
+   "id": "series/dist-bolsa-familia-brl-bn",
+   "kind": "series",
+   "group": "series",
+   "record_id": "dist-bolsa-familia-brl-bn",
+   "claim_text": "Series: Bolsa Familia (incl. Auxilio Brasil 2021-22) benefits paid, R$ bn (R$ bn nominal per year), 13 points 2013 to 2025.",
+   "value": "13 points",
+   "numbers": [],
+   "source_urls": [
+    "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='VAL_PBF12')"
+   ],
+   "legacy_status": "unverified",
+   "file": "data/series-distribution.json",
+   "json_path": "$.series[2]",
+   "flags": []
+  },
+  {
+   "id": "series/dist-bolsa-familia-pct-gdp",
+   "kind": "series",
+   "group": "series",
+   "record_id": "dist-bolsa-familia-pct-gdp",
+   "claim_text": "Series: Bolsa Familia (incl. Auxilio Brasil 2021-22) benefits paid, % of GDP (% of GDP), 13 points 2013 to 2025.",
+   "value": "13 points",
+   "numbers": [],
+   "source_urls": [
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4382/dados?formato=json"
+   ],
+   "legacy_status": "unverified",
+   "file": "data/series-distribution.json",
+   "json_path": "$.series[3]",
+   "flags": []
+  },
+  {
+   "id": "series/dist-bolsa-familia-dec-monthly-brl-bn",
+   "kind": "series",
+   "group": "series",
+   "record_id": "dist-bolsa-familia-dec-monthly-brl-bn",
+   "claim_text": "Series: Bolsa Familia (incl. Auxilio Brasil 2021-22): total benefits paid in December of each year, R$ bn per month (R$ bn nominal, December month only), 21 points 2004 to 2024.",
+   "value": "21 points",
+   "numbers": [],
+   "source_urls": [
+    "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='VAL_PBF')"
+   ],
+   "legacy_status": "unverified",
+   "file": "data/series-distribution.json",
+   "json_path": "$.series[4]",
+   "flags": []
+  },
+  {
+   "id": "series/dist-bndes-implicit-subsidy-brl-bn",
+   "kind": "series",
+   "group": "series",
+   "record_id": "dist-bndes-implicit-subsidy-brl-bn",
+   "claim_text": "Series: Implicit credit subsidy of Treasury loans to BNDES, R$ bn per year (R$ bn nominal per year), 18 points 2008 to 2025.",
+   "value": "18 points",
+   "numbers": [],
+   "source_urls": [
+    "https://thot-arquivos.tesouro.gov.br/publicacao/53784"
+   ],
+   "legacy_status": "unverified",
+   "file": "data/series-distribution.json",
+   "json_path": "$.series[5]",
+   "flags": []
+  },
+  {
+   "id": "series/dist-bndes-treasury-loans-stock-brl-bn",
+   "kind": "series",
+   "group": "series",
+   "record_id": "dist-bndes-treasury-loans-stock-brl-bn",
+   "claim_text": "Series: Stock of Treasury loans (haveres da Uniao) to BNDES at 31 Dec, R$ bn (R$ bn nominal, end of year balance), 10 points 2015 to 2025.",
+   "value": "10 points",
+   "numbers": [],
+   "source_urls": [
+    "https://thot-arquivos.tesouro.gov.br/publicacao/53784"
+   ],
+   "legacy_status": "unverified",
+   "file": "data/series-distribution.json",
+   "json_path": "$.series[6]",
+   "flags": []
+  },
+  {
+   "id": "series/dist-extreme-poverty-rate",
+   "kind": "series",
+   "group": "series",
+   "record_id": "dist-extreme-poverty-rate",
+   "claim_text": "Series: Extreme poverty rate: share of people below PPP$3.00/day (2021 PPP) (% of population), 29 points 1995 to 2025.",
+   "value": "29 points",
+   "numbers": [],
+   "source_urls": [
+    "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='PNADS_PERCPOBRE300')"
+   ],
+   "legacy_status": "unverified",
+   "file": "data/series-distribution.json",
+   "json_path": "$.series[7]",
+   "flags": []
+  },
+  {
+   "id": "series/dist-poverty-rate",
+   "kind": "series",
+   "group": "series",
+   "record_id": "dist-poverty-rate",
+   "claim_text": "Series: Poverty rate: share of people below PPP$8.30/day (2021 PPP) (% of population), 29 points 1995 to 2025.",
+   "value": "29 points",
+   "numbers": [],
+   "source_urls": [
+    "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='PNADS_PERCPOBRE830')"
+   ],
+   "legacy_status": "unverified",
+   "file": "data/series-distribution.json",
+   "json_path": "$.series[8]",
+   "flags": []
+  },
+  {
+   "id": "series/dist-wid-bottom50-share",
+   "kind": "series",
+   "group": "series",
+   "record_id": "dist-wid-bottom50-share",
+   "claim_text": "Series: Share of pre-tax national income held by the bottom 50%, Brazil (% of national income), 30 points 1995 to 2024.",
+   "value": "30 points",
+   "numbers": [],
+   "source_urls": [
+    "https://wid.world/bulk_download/wid_all_data.zip"
+   ],
+   "legacy_status": "unverified",
+   "file": "data/series-distribution.json",
+   "json_path": "$.series[9]",
+   "flags": []
+  },
+  {
+   "id": "series/dist-wid-middle40-share",
+   "kind": "series",
+   "group": "series",
+   "record_id": "dist-wid-middle40-share",
+   "claim_text": "Series: Share of pre-tax national income held by the middle 40%, Brazil (% of national income), 30 points 1995 to 2024.",
+   "value": "30 points",
+   "numbers": [],
+   "source_urls": [
+    "https://wid.world/bulk_download/wid_all_data.zip"
+   ],
+   "legacy_status": "unverified",
+   "file": "data/series-distribution.json",
+   "json_path": "$.series[10]",
+   "flags": []
+  },
+  {
+   "id": "series/dist-wid-top10-share",
+   "kind": "series",
+   "group": "series",
+   "record_id": "dist-wid-top10-share",
+   "claim_text": "Series: Share of pre-tax national income held by the top 10%, Brazil (% of national income), 30 points 1995 to 2024.",
+   "value": "30 points",
+   "numbers": [],
+   "source_urls": [
+    "https://wid.world/bulk_download/wid_all_data.zip"
+   ],
+   "legacy_status": "unverified",
+   "file": "data/series-distribution.json",
    "json_path": "$.series[11]",
    "flags": []
   },

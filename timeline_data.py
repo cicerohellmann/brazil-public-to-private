@@ -18,6 +18,7 @@ CASE_FILES = ["g1-colony", "g2-republic", "g3-dictatorship", "g4-privatization",
               "g5-2003-2016", "g6-2016-2026", "g7-cross-cutting"]
 DIS_FILES = ["g8-dis-mining", "g9-dis-oil", "g10-dis-hydro-land"]
 SERIES_FILES = ["series-patrimony", "series-purchasing", "series-concentration", "series-political"]
+OPTIONAL_SERIES_FILES = ["series-distribution"]   # loaded only if present and readable
 TODAY = datetime.date(2026, 11, 1)
 COLONY = "colony"
 
@@ -147,11 +148,30 @@ def load_disasters():
 
 def load_series():
     S = collections.OrderedDict()
-    for f in SERIES_FILES:
-        for s in load(f)["series"]:
-            s = dict(s)
-            s["_pts"] = {int(y): v for y, v in s["points"] if v is not None}
-            S[s["id"]] = s
+    for f in SERIES_FILES + OPTIONAL_SERIES_FILES:
+        if f in OPTIONAL_SERIES_FILES:
+            if not os.path.exists(os.path.join(DATA, f + ".json")):
+                continue
+            try:
+                rows = load(f)["series"]
+            except (ValueError, KeyError, TypeError) as e:
+                print(f"warning: skipped data/{f}.json ({e})")
+                continue
+        else:
+            rows = load(f)["series"]
+        for s in rows:
+            try:
+                s = dict(s)
+                s["_pts"] = {int(y): v for y, v in s["points"] if v is not None}
+            except (ValueError, KeyError, TypeError):
+                if f in OPTIONAL_SERIES_FILES:
+                    continue
+                raise
+            s["_file"] = f
+            if f in OPTIONAL_SERIES_FILES:
+                S.setdefault(s["id"], s)
+            else:
+                S[s["id"]] = s
     return S
 
 

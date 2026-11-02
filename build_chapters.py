@@ -227,6 +227,476 @@ def term_numbers(t):
     return tab + note, found
 
 
+# ------------------------------------------------------------------ who got richer, who got poorer
+# (sid, label, unit text, value format, colour class). Money series are indexed to 100 at the base year.
+RICH = [
+    ("household-income-per-capita", "Household income per person", "R$ of 2025 a month, survey", lambda v: f"R$ {v:,.0f}", "k0"),
+    ("min-wage-real", "Real minimum wage", "R$ of Sep 2026 a month", lambda v: f"R$ {v:,.0f}", "k1"),
+    ("min-wage-in-cestas", "Minimum wage in food baskets", "São Paulo baskets a month", lambda v: f"{v:.2f}", "k2"),
+    ("gdp-per-capita-worldbank", "GDP per person (reference)", "constant 2015 US$ a year", lambda v: f"US$ {v:,.0f}", "kn"),
+    ("labour-income-pnadc", "Average work income", "R$ a month, survey", lambda v: f"R$ {v:,.0f}", "kn"),
+]
+# (sid, label, unit text, scale, direction note). Shares and Gini change in points.
+GAP = [
+    ("income-gini-pnad-ipea-1995-2025", "Income gap in surveys (Gini)", "0 to 100; up = more unequal", 1, "gini"),
+    ("top1-income-share-wid-2001-2024", "Top 1% share of income (tax data)", "% of national income; up = top got more", 1, "top"),
+    ("top10-income-share-wid-2001-2024", "Top 10% share of income (tax data)", "% of national income; up = top got more", 1, "top"),
+    ("labour-share-pwt-1950-2023", "Workers' share of GDP", "% of GDP; up = workers got more", 100, "lab"),
+    ("dist-wid-bottom50-share", "Bottom 50% share of income (WID)", "% of national income; up = bottom half got more", 1, "bot"),
+    ("dist-wid-middle40-share", "Middle 40% share of income (WID)", "% of national income; up = middle got more", 1, "bot"),
+    ("dist-poverty-rate", "Poverty rate", "% of people below US$ 8.30 a day (2021 PPP); down = fewer poor", 1, "pov"),
+    ("dist-extreme-poverty-rate", "Extreme poverty rate", "% of people below US$ 3.00 a day (2021 PPP); down = fewer poor", 1, "pov"),
+    ("top1-wealth-share-wid-1920-2024", "Top 1% share of wealth", "% of personal wealth; up = top got more", 1, "top"),
+    ("top10-wealth-share-wid-1920-2024", "Top 10% share of wealth", "% of personal wealth; up = top got more", 1, "top"),
+]
+W_OK = ("verified", "corrected")
+W_GATE = "household-income-per-capita"
+W_TRIM = {"labour-share-pwt-1950-2023"}   # its last years repeat one value (carried forward); treated as no new data
+
+
+def w_ok(sid):
+    return S.get(sid, {}).get("status") in W_OK
+
+
+def w_pts(sid, scale=1):
+    """Points of a series; trailing repeats of the same value (carried forward) are dropped. Returns (pts, dropped_years)."""
+    if sid not in S:
+        return {}, []
+    pts = {y: v * scale for y, v in S[sid]["_pts"].items()}
+    ys = sorted(pts)
+    drop = []
+    while sid in W_TRIM and len(ys) > 2 and pts[ys[-1]] == pts[ys[-2]]:
+        drop.append(ys.pop())
+        del pts[drop[-1]]
+    return pts, sorted(drop)
+
+
+def w_end(pts, y, open_):
+    if open_:
+        c = [k for k in pts if k <= td.TODAY.year]
+        return max(c) if c else None
+    return near(pts, y, tol=1)
+
+
+def w_span(t):
+    sy, ey = td.term_ref_years(t)
+    return dict(t=t, sy=sy, ey=ey if ey is not None else td.TODAY.year, open=t["_open"], s=td.frac(t["_start"]), e=td.frac(t["_end"]))
+
+
+def w_ends(pts, sp):
+    a = near(pts, sp["sy"], tol=1)
+    b = w_end(pts, sp["ey"], sp["open"])
+    return (a, b) if a is not None and b is not None and b > a else (None, None)
+
+
+def w_has(t):
+    pts, _ = w_pts(W_GATE)
+    return w_ends(pts, w_span(t))[0] is not None
+
+
+def w_yr(pts, want, got):
+    if got == want:
+        return str(got)
+    if min(pts) < want < max(pts) and want not in pts:
+        return f"{got} (no survey in {want})"
+    return f"{got} (nearest year in the data)"
+
+
+def w_window(spans):
+    lo = min(sp["sy"] for sp in spans) - 4
+    hi = max(sp["ey"] for sp in spans) + 4
+    return max(lo, 1994), min(hi, td.TODAY.year - 1)
+
+
+def w_runs(pts, x0, x1):
+    """Consecutive-year runs inside the window; a missing year breaks the line (never interpolated)."""
+    runs, cur = [], []
+    for y in range(x0, x1 + 1):
+        if y in pts:
+            cur.append(y)
+        elif cur:
+            runs.append(cur)
+            cur = []
+    if cur:
+        runs.append(cur)
+    return runs
+
+
+def w_nice(lo, hi, n=5):
+    rng = (hi - lo) or abs(hi) or 1
+    for st in (0.1, 0.2, 0.25, 0.5, 1, 2, 2.5, 5, 10, 20, 25, 50, 100, 200, 250, 500):
+        if rng / st <= n:
+            break
+    a = math.floor(lo / st) * st
+    b = math.ceil(hi / st) * st
+    return a, b, st
+
+
+def w_terms_marks(x0, x1, X, top):
+    """Vertical lines at term changes and short names of the terms inside the window."""
+    o = []
+    for t in TERMS:
+        s, e = td.frac(t["_start"]), td.frac(t["_end"])
+        if e <= x0 or s >= x1 + 1:
+            continue
+        cs, ce = max(s, x0), min(e, x1 + 1)
+        if s > x0:
+            o.append(f'<line class="w-tb" x1="{X(s):.1f}" y1="{top - 12}" x2="{X(s):.1f}" y2="{top + 1000}"/>')
+        if X(ce) - X(cs) >= 46:
+            o.append(f'<text class="ch-t ch-m w-tn" x="{(X(cs) + X(ce)) / 2:.1f}" y="{top - 3}" text-anchor="middle">{esc(short_name(t))}</text>')
+    return "".join(o)
+
+
+def w_frame(x0, x1, W, H, padl, padr, top, bot):
+    unit = (W - padl - padr) / (x1 - x0 + 1)
+    X = lambda y: padl + (y - x0) * unit
+    return unit, X
+
+
+def w_xlabels(x0, x1, X, unit, ybase):
+    step = 1 if unit >= 40 else 2 if unit >= 20 else 5
+    out = []
+    for y in range(x0, x1 + 1):
+        if (y - x0) % step == 0 or y == x1 and step == 1:
+            out.append(f'<text class="ch-t ch-m" x="{X(y + .5):.1f}" y="{ybase}" text-anchor="middle">{"’" + str(y)[2:] if unit < 40 and y != x0 else y}</text>')
+    return "".join(out)
+
+
+def richer_svg(spans, x0, x1, base_label):
+    """Indexed lines (100 = each series' start point of the first span). Coloured inside each span's start..end, faded elsewhere."""
+    W, H, padl, padr, top, bot = 480, 236, 34, 12, 26, 22
+    unit, X = w_frame(x0, x1, W, H, padl, padr, top, bot)
+    lines = []
+    for sid, label, _u, _f, cls in RICH:
+        pts, _ = w_pts(sid)
+        if not pts:
+            continue
+        a, _b = w_ends(pts, spans[0])
+        if a is None:
+            continue
+        idx = {y: v / pts[a] * 100 for y, v in pts.items() if x0 <= y <= x1}
+        if len(idx) < 2:
+            continue
+        lines.append((sid, label, cls, idx, pts, w_ok(sid)))
+    if not lines:
+        return "", []
+    vals = [v for *_r, idx, _p, _ok in lines for v in idx.values()]
+    lo, hi, st = w_nice(min(vals + [100]), max(vals + [100]))
+    ph = H - top - bot
+    Y = lambda v: top + ph - (v - lo) / ((hi - lo) or 1) * ph
+    o = [f'<svg class="ch-svg" viewBox="0 0 {W} {H}" role="img" aria-label="Indexed income lines, {x0} to {x1}">']
+    for sp in spans:
+        o.append(f'<rect class="sp-t" x="{X(max(sp["s"], x0)):.1f}" y="{top}" width="{max(2, X(min(sp["e"], x1 + 1)) - X(max(sp["s"], x0))):.1f}" height="{ph}"/>')
+    g = lo
+    while g <= hi + 1e-9:
+        o.append(f'<line class="{"w-100" if abs(g - 100) < 1e-9 else "ch-grid"}" x1="{padl}" y1="{Y(g):.1f}" x2="{W - padr}" y2="{Y(g):.1f}"/>'
+                 f'<text class="ch-t ch-m" x="{padl - 4}" y="{Y(g) + 4:.1f}" text-anchor="end">{g:g}</text>')
+        g += st
+    o.append(w_terms_marks(x0, x1, X, top).replace('y2="' + str(top + 1000) + '"', f'y2="{top + ph}"'))
+    o.append(f'<line class="ch-ax" x1="{padl}" y1="{top + ph}" x2="{W - padr}" y2="{top + ph}"/>')
+    o.append(w_xlabels(x0, x1, X, unit, H - 5))
+    labs = []
+    for sid, label, cls, idx, pts, ok in lines:
+        dash = "" if ok else " u"
+        ref = " ref" if sid == "gdp-per-capita-worldbank" else ""
+        for run in w_runs(idx, x0, x1):
+            if len(run) > 1:
+                o.append(f'<polyline class="w-l w-ctx{dash}{ref}" points="' + " ".join(f"{X(y + .5):.1f},{Y(idx[y]):.1f}" for y in run) + '"/>')
+        for sp in spans:
+            a, b = w_ends(pts, sp)
+            if a is None:
+                continue
+            for run in w_runs({y: v for y, v in idx.items() if a <= y <= b}, a, b):
+                if len(run) > 1:
+                    o.append(f'<polyline class="w-l {cls}{dash}{ref}" points="' + " ".join(f"{X(y + .5):.1f},{Y(idx[y]):.1f}" for y in run) + '"/>')
+            if ok and b in idx:
+                o.append(f'<circle class="w-d {cls}" cx="{X(b + .5):.1f}" cy="{Y(idx[b]):.1f}" r="3"><title>{esc(label)} {b}: {idx[b]:.0f}</title></circle>')
+                if len(spans) == 1:
+                    labs.append([Y(idx[b]), X(b + .5), f"{idx[b] - 100:+.0f}%", cls])
+    labs.sort()
+    for i in range(1, len(labs)):
+        labs[i][0] = max(labs[i][0], labs[i - 1][0] + 13)
+    for yv, xv, txt, cls in labs:
+        anc, dx = ("end", -6) if xv > W - padr - 40 else ("start", 6)
+        o.append(f'<text class="ch-t ch-v w-vl {cls}" x="{xv + dx:.1f}" y="{yv + 4:.1f}" text-anchor="{anc}">{txt}</text>')
+    o.append("</svg>")
+    keys = "".join(f'<span class="ch-key"><span class="w-sw {cls}{"" if ok else " u"}{" ref" if sid == "gdp-per-capita-worldbank" else ""}"></span>{esc(label)}{"" if ok else " " + pill("unverified")}</span>'
+                   for sid, label, cls, _i, _p, ok in lines)
+    gaps = sorted({y for _s, _l, _c, idx, pts, _o in lines if pts is not None for y in range(max(x0, min(pts)), min(x1, max(pts)) + 1) if y not in pts})
+    note = f'<p class="small muted">{esc(base_label)} Shaded = in office; faded lines = the years around it, for context.' + (f' Gaps in a line = no survey that year ({", ".join(map(str, gaps))}); nothing is filled in.' if gaps else "") + '</p>'
+    return f'<div class="ch-fit">{"".join(o)}</div><p class="small w-keys">{keys}</p>' + note, lines
+
+
+def gap_panel(sid, label, unit_txt, scale, spans, x0, x1):
+    pts, drop = w_pts(sid, scale)
+    win = {y: v for y, v in pts.items() if x0 <= y <= x1}
+    if len(win) < 2:
+        return "", None
+    ok = w_ok(sid)
+    W, H, padl, padr, top, bot = 300, 112, 30, 8, 20, 18
+    unit, X = w_frame(x0, x1, W, H, padl, padr, top, bot)
+    lo, hi = min(win.values()), max(win.values())
+    padv = (hi - lo) * .15 or 1
+    lo, hi = lo - padv, hi + padv
+    ph = H - top - bot
+    Y = lambda v: top + ph - (v - lo) / (hi - lo) * ph
+    o = [f'<svg class="ch-svg" viewBox="0 0 {W} {H}" role="img" aria-label="{esc(label)}, {x0} to {x1}">']
+    for sp in spans:
+        o.append(f'<rect class="sp-t" x="{X(max(sp["s"], x0)):.1f}" y="{top}" width="{max(2, X(min(sp["e"], x1 + 1)) - X(max(sp["s"], x0))):.1f}" height="{ph}"/>')
+    o.append(f'<line class="ch-ax" x1="{padl}" y1="{top + ph}" x2="{W - padr}" y2="{top + ph}"/>')
+    for v in (lo + padv, hi - padv):
+        o.append(f'<text class="ch-t ch-m" x="{padl - 3}" y="{Y(v) + 4:.1f}" text-anchor="end">{v:.0f}</text>')
+    o.append(f'<text class="ch-t ch-m" x="{X(x0 + .5):.1f}" y="{H - 4}" text-anchor="middle">{x0}</text><text class="ch-t ch-m" x="{X(x1 + .5):.1f}" y="{H - 4}" text-anchor="middle">{x1}</text>')
+    cls = "k3" if ok else "kunv"
+    u = "" if ok else " u"
+    for run in w_runs(win, x0, x1):
+        if len(run) > 1:
+            o.append(f'<polyline class="w-l w-ctx{u}" points="' + " ".join(f"{X(y + .5):.1f},{Y(win[y]):.1f}" for y in run) + '"/>')
+        else:
+            o.append(f'<circle class="w-d w-ctxd" cx="{X(run[0] + .5):.1f}" cy="{Y(win[run[0]]):.1f}" r="2"/>')
+    res = []
+    for sp in spans:
+        a, b = w_ends(pts, sp)
+        if a is None:
+            continue
+        for run in w_runs({y: v for y, v in win.items() if a <= y <= b}, a, b):
+            if len(run) > 1:
+                o.append(f'<polyline class="w-l {cls}{u}" points="' + " ".join(f"{X(y + .5):.1f},{Y(win[y]):.1f}" for y in run) + '"/>')
+        for yy in (a, b):
+            if yy in win:
+                o.append(f'<circle class="w-d {cls}" cx="{X(yy + .5):.1f}" cy="{Y(win[yy]):.1f}" r="2.8"/>')
+        if len(spans) == 1:
+            for yy, anc, dx in ((a, "end", -5), (b, "start", 5)):
+                x = X(yy + .5)
+                if anc == "end" and x < padl + 30:
+                    anc, dx = "start", 5
+                if anc == "start" and x > W - padr - 30:
+                    anc, dx = "end", -5
+                o.append(f'<text class="ch-t ch-v" x="{x + dx:.1f}" y="{max(12, Y(win[yy]) - 5):.1f}" text-anchor="{anc}">{win[yy]:.1f}</text>')
+        res.append((sp, a, b, pts[a], pts[b]))
+    o.append("</svg>")
+    if len(spans) == 1 and res:
+        _sp, a, b, va, vb = res[0]
+        head = f'{va:.1f} → {vb:.1f} ({vb - va:+.1f} points, {a}–{b})'
+    else:
+        head = ", ".join(f'{term_years(sp["t"])}: {vb - va:+.1f}' for sp, a, b, va, vb in res) + " points" if res else ""
+    drop = [y for y in drop if x0 <= y <= x1]
+    dnote = f'<br><span class="small muted">Same value repeated for {", ".join(map(str, drop))}; treated as no new data.</span>' if drop else ""
+    return (f'<div class="w-p{"" if ok else " u"}"><p class="w-pt"><strong>{esc(label)}</strong>{"" if ok else " " + pill("unverified")}<br>'
+            f'<span class="small muted">{esc(unit_txt)}</span><br><span class="small">{esc(head)}</span>{dnote}</p>{"".join(o)}</div>'), (res, ok, drop)
+
+
+def w_word(d, eps):
+    return "rose" if d > eps else "fell" if d < -eps else "stayed about the same"
+
+
+def gap_sentence(gini, top1, inc_up):
+    """Plain sentence from the survey Gini change and the tax-data top 1% change (both points). Built per term from data."""
+    if gini is None:
+        return ""
+    dg = gini[1] - gini[0]
+    g = f'The income gap in surveys (Gini) {w_word(dg, .5)}, {gini[0]:.1f} → {gini[1]:.1f}.'
+    if top1 is None:
+        return g + " Tax data on the top 1% starts in 2001."
+    dt = top1[1] - top1[0]
+    t1 = f' In tax data, the top 1% share of income {w_word(dt, .3)}, {top1[0]:.1f}% → {top1[1]:.1f}%.'
+    gs, ts = (dg < -.5) - (dg > .5), (dt < -.3) - (dt > .3)   # +1 = fell, -1 = rose, 0 = flat
+    if gs == 1 and ts <= 0:
+        why = " Surveys miss top incomes; tax data catches them. So " + ("the poor gained, and " if inc_up else "") + "the top 1% kept or grew its share."
+    elif gs == -1 and ts >= 0:
+        why = " Surveys miss top incomes; tax data catches them. Here the survey gap grew while the top 1% share did not."
+    elif gs == ts == 0:
+        why = " Neither source shows a clear change."
+    elif gs == ts:
+        why = f' Both sources show the gap {"falling" if gs == 1 else "growing"}.'
+    else:
+        why = ""
+    return g + t1 + why
+
+
+def w_change(sid, va, vb, kind):
+    if kind == "money":
+        return f"{(vb / va - 1) * 100:+.0f}%"
+    d = vb - va
+    word = {"gini": ("more unequal", "more equal"), "top": ("top got more", "top got less"), "lab": ("workers got more", "workers got less"), "bot": ("got more", "got less"), "pov": ("more poor", "fewer poor")}[kind]
+    eps = .5 if kind == "gini" else .3
+    return f'{d:+.1f} points ' + (f'({word[0] if d > 0 else word[1]})' if abs(d) > eps else "(about the same)")
+
+
+def headline_rows(sp):
+    rows, facts = [], {}
+    for sid, label, unit_txt, f, _c in RICH:
+        if not w_ok(sid):
+            continue
+        pts, _ = w_pts(sid)
+        a, b = w_ends(pts, sp)
+        if a is None:
+            continue
+        facts[sid] = (pts[a], pts[b], a, b)
+        rows.append(f'<tr><th scope="row">{esc(label)}<br><span class="small muted">{esc(unit_txt)}</span></th>'
+                    f'<td><span class="nw">{f(pts[a])}</span><br><span class="small muted">{esc(w_yr(pts, sp["sy"], a))}</span></td>'
+                    f'<td><span class="nw">{f(pts[b])}</span><br><span class="small muted">{esc(w_yr(pts, sp["ey"], b) if not sp["open"] else str(b) + " (latest)")}</span></td>'
+                    f'<td class="w-ch">{w_change(sid, pts[a], pts[b], "money")}</td></tr>')
+    for sid, label, unit_txt, scale, kind in GAP:
+        if not w_ok(sid):
+            continue
+        pts, drop = w_pts(sid, scale)
+        a, b = w_ends(pts, sp)
+        if a is None:
+            continue
+        facts[sid] = (pts[a], pts[b], a, b)
+        pct = "%" if kind != "gini" else ""
+        rows.append(f'<tr><th scope="row">{esc(label)}<br><span class="small muted">{esc(unit_txt)}</span></th>'
+                    f'<td>{pts[a]:.1f}{pct}<br><span class="small muted">{esc(w_yr(pts, sp["sy"], a))}</span></td>'
+                    f'<td>{pts[b]:.1f}{pct}<br><span class="small muted">{esc(w_yr(pts, sp["ey"], b) if not sp["open"] else str(b) + (" (no new data after)" if drop else " (latest)"))}</span></td>'
+                    f'<td class="w-ch">{w_change(sid, pts[a], pts[b], kind)}</td></tr>')
+    return rows, facts
+
+
+def w_main(facts):
+    bits = []
+    for sid, name in (("household-income-per-capita", "household income per person"), ("min-wage-real", "the real minimum wage")):
+        if sid in facts:
+            va, vb, a, b = facts[sid]
+            p = (vb / va - 1) * 100
+            bits.append(f'{name} {"rose" if p >= 1 else "fell" if p <= -1 else "stayed about the same"}' + (f" {abs(p):.0f}%" if abs(p) >= 1 else "") + f" ({a}–{b})")
+    s = ("Richer or poorer: " + " and ".join(bits) + ".") if bits else ""
+    return s
+
+
+STATE_MONEY = [("dist-interest-pct-gdp", "Interest paid on public debt", "k3"), ("dist-bolsa-familia-pct-gdp", "Bolsa Família benefits", "k1")]
+
+
+def state_money_html(spans, x0, x1):
+    """'Where the state's money went' from data/series-distribution.json (optional file). Both lines are % of GDP, so no
+    nominal money shares an axis with anything. Unverified lines are dotted. Returns (body, sources) or ""."""
+    try:
+        have = [(sid, lab, cls) for sid, lab, cls in STATE_MONEY if sid in S and len([y for y in S[sid]["_pts"] if x0 <= y <= x1]) >= 2]
+        if not have:
+            return ""
+        W, H, padl, padr, top, bot = 480, 200, 34, 12, 26, 22
+        unit, X = w_frame(x0, x1, W, H, padl, padr, top, bot)
+        vals = [v for sid, _l, _c in have for y, v in S[sid]["_pts"].items() if x0 <= y <= x1]
+        lo, hi, st = w_nice(0, max(vals))
+        ph = H - top - bot
+        Y = lambda v: top + ph - (v - lo) / ((hi - lo) or 1) * ph
+        o = [f'<svg class="ch-svg" viewBox="0 0 {W} {H}" role="img" aria-label="Interest paid and Bolsa Família, % of GDP, {x0} to {x1}">']
+        for sp in spans:
+            o.append(f'<rect class="sp-t" x="{X(max(sp["s"], x0)):.1f}" y="{top}" width="{max(2, X(min(sp["e"], x1 + 1)) - X(max(sp["s"], x0))):.1f}" height="{ph}"/>')
+        g = lo
+        while g <= hi + 1e-9:
+            o.append(f'<line class="ch-grid" x1="{padl}" y1="{Y(g):.1f}" x2="{W - padr}" y2="{Y(g):.1f}"/><text class="ch-t ch-m" x="{padl - 4}" y="{Y(g) + 4:.1f}" text-anchor="end">{g:g}%</text>')
+            g += st
+        o.append(w_terms_marks(x0, x1, X, top).replace('y2="' + str(top + 1000) + '"', f'y2="{top + ph}"'))
+        o.append(f'<line class="ch-ax" x1="{padl}" y1="{top + ph}" x2="{W - padr}" y2="{top + ph}"/>' + w_xlabels(x0, x1, X, unit, H - 5))
+        keys, srcs = [], []
+        for sid, lab, cls in have:
+            ok = w_ok(sid)
+            pts = {y: v for y, v in S[sid]["_pts"].items() if x0 <= y <= x1}
+            for run in w_runs(pts, x0, x1):
+                if len(run) > 1:
+                    o.append(f'<polyline class="w-l {cls}{"" if ok else " u"}" points="' + " ".join(f"{X(y + .5):.1f},{Y(pts[y]):.1f}" for y in run) + '"/>')
+            for y, v in pts.items():
+                o.append(f'<circle class="w-d {cls}" cx="{X(y + .5):.1f}" cy="{Y(v):.1f}" r="2.2"><title>{esc(lab)} {y}: {v:.2f}% of GDP</title></circle>')
+            keys.append(f'<span class="ch-key"><span class="w-sw {cls}{"" if ok else " u"}"></span>{esc(lab)} ({min(pts)}–{max(pts)}){"" if ok else " " + pill(S[sid]["status"])}</span>')
+            srcs.append(src(S[sid].get("source_url"), S[sid].get("source_title") or "source"))
+        o.append("</svg>")
+        note = ('<p class="small muted">Both lines are % of GDP, so inflation does not matter. Interest is the nominal interest bill of the whole public sector. '
+                'Bolsa Família annual totals start in 2013 in this file; the December-only monthly figures for 2004–2012 are not annual, so they are not drawn. '
+                'Dotted = not verified yet; no sentence on this page rests on these lines.</p>')
+        return f'<div class="ch-fit">{"".join(o)}</div><p class="small w-keys">{"".join(keys)}</p>{note}', " · ".join(dict.fromkeys(srcs))
+    except Exception as e:  # optional data written by another helper: never break the build
+        print("warning: state-money figure skipped:", e)
+        return ""
+
+
+def w_sources(ids):
+    return " · ".join(dict.fromkeys(src(S[i].get("source_url"), S[i].get("source_title") or "source") for i in ids if i in S))
+
+
+def wealth_block(t, tp):
+    """Per-term block: main point, headline table, richer chart, gap chart (and state money if the optional file exists)."""
+    if not w_has(t):
+        return "", False
+    sp = w_span(t)
+    x0, x1 = w_window([sp])
+    tyrs = term_years(t)
+    rows, facts = headline_rows(sp)
+    inc = facts.get("household-income-per-capita")
+    g = facts.get("income-gini-pnad-ipea-1995-2025")
+    t1 = facts.get("top1-income-share-wid-2001-2024")
+    gs = gap_sentence(g, t1, bool(inc and inc[1] > inc[0]))
+    so_far = ""
+    if sp["open"]:
+        ends = sorted({f[3] for f in facts.values()})
+        so_far = f' <span class="flag">so far (data ends {ends[0]}{"–" + str(ends[-1]) if ends[-1] != ends[0] else ""})</span>'
+    start_note = f"Start = {sp['sy']}, the last full year before taking office." + (" End = the latest year in the data." if sp["open"] else f" End = {sp['ey']}, the last year in office.")
+    tab = ('<div class="tw"><table class="w-tab"><thead><tr><th>What</th><th>Start</th><th>End</th><th>Change</th></tr></thead><tbody>'
+           + "".join(rows) + '</tbody></table></div>' + f'<p class="small muted">{start_note} Only verified series are in this table.</p>')
+    rs, lines = richer_svg([sp], x0, x1, f"100 = each line's value in {sp['sy']} (or the nearest survey year).")
+    best = [(l[1], (facts[l[0]][1] / facts[l[0]][0] - 1) * 100) for l in lines if l[0] in facts and l[0] != "gdp-per-capita-worldbank"]
+    rtitle = (" and ".join(f"{n if i == 0 else n[0].lower() + n[1:]} {p:+.0f}%" for i, (n, p) in enumerate(best[:2])) + f", {tyrs}" + (" so far" if sp["open"] else "") + " (inflation removed)") if best else f"Real incomes in {tyrs}"
+    f_r = fig(f"{tp}-f-richer", rtitle, rs, w_sources([r[0] for r in RICH]) + ". Real money (inflation removed). GDP per person is a reference line, not people's income.",
+              "no real income series covers this term.")
+    panels, srcs = [], []
+    for sid, label, unit_txt, scale, _k in GAP:
+        ph, _r = gap_panel(sid, label, unit_txt, scale, [sp], x0, x1)
+        if ph:
+            panels.append(ph)
+            srcs.append(sid)
+    gtitle = f"The income gap in {tyrs}"
+    if g:
+        gtitle = f"Survey gap {w_word(g[1] - g[0], .5)} (Gini {g[0]:.1f} → {g[1]:.1f})"
+        if t1:
+            gtitle += f"; top 1% share in tax data {w_word(t1[1] - t1[0], .3)} ({t1[0]:.1f}% → {t1[1]:.1f}%)"
+    f_g = fig(f"{tp}-f-gap", gtitle, (f'<div class="w-grid">{"".join(panels)}</div>' if panels else ""),
+              w_sources(srcs) + ". Each panel says which way is better. Shaded = in office. Dashed grey panels are not verified; no sentence here rests on them.",
+              "no inequality series covers this term.")
+    sm = state_money_html([sp], x0, x1)
+    f_s = fig(f"{tp}-f-state-money", f"Where the state's money went, {tyrs}: interest on public debt and Bolsa Família, % of GDP (not verified yet)", sm[0], sm[1] + ".", "") if sm else ""
+    main = w_main(facts)
+    html_ = (f'<h3 id="{tp}-wealth">Who got richer, who got poorer, {tyrs}{so_far}</h3>'
+             f'<p class="big"><strong>{esc(main)}</strong> {esc(gs)}</p>{tab}{f_r}{f_g}{f_s}')
+    return html_, True
+
+
+def summary_wealth(terms):
+    sps = [w_span(t) for t in terms if w_has(t)]
+    if not sps:
+        return ""
+    x0, x1 = w_window(sps)
+    rs, lines = richer_svg(sps, x0, x1, f"100 = each line's value in {sps[0]['sy']} (or the nearest survey year).")
+    per = []
+    for sp in sps:
+        _rows, facts = headline_rows(sp)
+        f = facts.get("household-income-per-capita")
+        m = facts.get("min-wage-real")
+        g = facts.get("income-gini-pnad-ipea-1995-2025")
+        t1 = facts.get("top1-income-share-wid-2001-2024")
+        bits = []
+        if f:
+            bits.append(f"household income per person {(f[1] / f[0] - 1) * 100:+.0f}%")
+        if m:
+            bits.append(f"real minimum wage {(m[1] / m[0] - 1) * 100:+.0f}%")
+        if g:
+            bits.append(f"survey Gini {g[0]:.1f} → {g[1]:.1f}")
+        if t1:
+            bits.append(f"top 1% share {t1[0]:.1f}% → {t1[1]:.1f}%")
+        per.append(f'<li><a href="#term-{tshort(sp["t"])}-wealth"><strong>{term_years(sp["t"])}{" (so far)" if sp["open"] else ""}</strong></a>: {esc(", ".join(bits))}.</li>')
+    f_r = fig("summary-f-richer", f"Real incomes across {len(sps)} term{'s' if len(sps) != 1 else ''}, one line per measure", rs,
+              w_sources([r[0] for r in RICH]) + ". Real money (inflation removed).", "")
+    panels, srcs = [], []
+    for sid, label, unit_txt, scale, _k in GAP:
+        ph, _r = gap_panel(sid, label, unit_txt, scale, sps, x0, x1)
+        if ph:
+            panels.append(ph)
+            srcs.append(sid)
+    f_g = fig("summary-f-gap", "The income gap: surveys and tax data side by side", (f'<div class="w-grid">{"".join(panels)}</div>' if panels else ""),
+              w_sources(srcs) + ". Each panel says which way is better. Shaded = in office. Dashed grey panels are not verified.", "")
+    return (f'<h3 id="summary-wealth">Who got richer, who got poorer</h3><p class="big">Per term, start to end, inflation removed:</p>'
+            f'<ul class="big">{"".join(per)}</ul>{f_r}{f_g}<p class="small muted">Each term has its own table in its section. Surveys miss top incomes; tax data catches them, so the two gap measures can move apart.</p>')
+
+
 # ------------------------------------------------------------------ power json
 def num(v):
     return isinstance(v, (int, float)) and not isinstance(v, bool)
@@ -952,6 +1422,15 @@ tr,figure,section,h3,h4{scroll-margin-top:64px}
 .ch-pl{fill:none;stroke-width:1.6;opacity:.8}.ch-pl.acted{stroke:var(--k2)}.ch-pl.inoff{stroke:var(--muted);stroke-dasharray:5 4}
 @media (max-width:640px){.mrow{grid-template-columns:1fr}.crow{grid-template-columns:1fr}.carr{width:2px;height:16px;margin:2px 0 2px 18px}.carr::after{right:-4px;top:auto;bottom:-2px;border:5px solid transparent;border-top:7px solid var(--muted);border-bottom:0}figure.chart{padding:8px}.ch-fit .ch-t{font-size:15px}.ch-fit .ch-v{font-size:16px}}
 code{font-size:.85em}
+.w-l{fill:none;stroke-width:2.4;stroke-linejoin:round}.w-l.k0{stroke:var(--k0)}.w-l.k1{stroke:var(--k1)}.w-l.k2{stroke:var(--k2)}.w-l.k3{stroke:var(--k3)}.w-l.kn{stroke:var(--kn)}.w-l.kunv{stroke:var(--kunv)}
+.w-l.w-ctx{stroke:var(--muted);stroke-width:1.3;opacity:.45}.w-l.ref{stroke-dasharray:6 4;stroke-width:1.8}.w-l.u{stroke-dasharray:2 3;stroke-width:1.6}
+.w-d{stroke:var(--card);stroke-width:1}.w-d.k0{fill:var(--k0)}.w-d.k1{fill:var(--k1)}.w-d.k2{fill:var(--k2)}.w-d.k3{fill:var(--k3)}.w-d.kn{fill:var(--kn)}.w-d.kunv{fill:var(--kunv)}.w-d.w-ctxd{fill:var(--muted);opacity:.5}
+.w-vl.k0{fill:var(--k0)}.w-vl.k1{fill:var(--k1)}.w-vl.k2{fill:var(--k2)}.w-vl.kn{fill:var(--kn)}
+.w-100{stroke:var(--muted);stroke-width:1.2}.w-tb{stroke:var(--muted);stroke-width:1;stroke-dasharray:3 3;opacity:.7}.w-tn{font-size:10px}
+.w-sw{display:inline-block;width:18px;height:0;border-top:3px solid var(--kn);margin-right:5px;vertical-align:4px}.w-sw.k0{border-color:var(--k0)}.w-sw.k1{border-color:var(--k1)}.w-sw.k2{border-color:var(--k2)}.w-sw.ref{border-top-style:dashed}.w-sw.u{border-top:3px dotted var(--kunv)}
+.w-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}.w-keys .ch-key{white-space:normal;display:inline-block}.w-p{border:1px solid var(--line);border-radius:6px;padding:6px 8px;background:var(--card);min-width:0}
+.w-p.u{border-style:dashed;background:repeating-linear-gradient(135deg,transparent 0 6px,rgba(141,138,132,.08) 6px 9px)}.w-pt{margin:0 0 4px;line-height:1.3}
+table.w-tab td,table.w-tab th{text-align:left;vertical-align:top}table.w-tab td{white-space:normal;min-width:64px}table.w-tab th[scope=row]{min-width:110px}.w-ch{font-weight:700}
 @media (max-width:640px){h1{font-size:1.6rem}h2{font-size:1.4rem}section{padding:14px 12px;margin:24px 0}table.num td,table.num th{white-space:normal}}
 """
 CSS = base_css() + EXTRA_CSS
@@ -1077,16 +1556,17 @@ def build_chapter(P):
         if n_people == 0:
             gaps.append(f"{term_years(t)}: no decision-makers mapped in the people files.")
         sources = " · ".join(src(s["url"], s["title"]) for s in t.get("sources") or [] if url_ok(s.get("url")))
+        wh, w_ok_t = wealth_block(t, tp)
         tblocks.append(f'''<section id="{tp}" class="term-block"><h2 id="{tp}-h">{esc(name)}, {term_years(t)}{' <span class="flag">interim</span>' if t.get("interim") else ""}</h2>
 <p class="big"><strong>{esc(t["title"])}.</strong> {esc(t["how_came_to_power"])} <strong>Left:</strong> {esc(t["how_left"])}.</p>{mini}
-<p class="subnav"><a href="#{tp}-deals">Deals</a><a href="#{tp}-followed">What followed</a><a href="#{tp}-power">Power</a><a href="#{tp}-people">People</a><a href="#{tp}-numbers">Numbers</a><a href="#top">Top</a></p>
+<p class="subnav">{f'<a href="#{tp}-wealth">Richer or poorer</a>' if w_ok_t else ""}<a href="#{tp}-deals">Deals</a><a href="#{tp}-followed">What followed</a><a href="#{tp}-power">Power</a><a href="#{tp}-people">People</a><a href="#{tp}-numbers">Numbers</a><a href="#top">Top</a></p>{wh}
 <h3 id="{tp}-deals">Deals, {term_years(t)}</h3>{f_strip}{f_money}{f_who}{deals_html}
 <h3 id="{tp}-followed">What followed, {term_years(t)}</h3>{f_chain}{followed_table(fol)}
 <h3 id="{tp}-power">Who could help or block, {term_years(t)}</h3>{f_cong}{f_appr}{f_court}{pwh}
 <h3 id="{tp}-people">The people who decided, {term_years(t)} ({n_people})</h3>{f_ppl}{ph}
 <h3 id="{tp}-numbers">Inherited and handed over, {term_years(t)}</h3>{nh}<p class="callout">This is the situation they worked in, not a score.</p>
 <p class="small muted">Term sources: {sources or "none"}</p></section>''')
-        overview.append(dict(t=t, tp=tp, n_deals=n_deals, n_main=n_main, n_by=n_by, n_dis=len(fol), deaths=deaths, n_people=n_people, real=real))
+        overview.append(dict(t=t, tp=tp, wealth=w_ok_t, n_deals=n_deals, n_main=n_main, n_by=n_by, n_dis=len(fol), deaths=deaths, n_people=n_people, real=real))
         totals["deals"] += n_deals
         totals["people"] += n_people
     total_deaths = sum(n for n in (td.deaths_count(d.get("deaths")) for d, _ in all_dis.values()) if n)
@@ -1133,10 +1613,11 @@ def build_chapter(P):
         aps_all = [p for x in appr_segs for p in x[3]]
         f_all_ap = fig("summary-approval", "Approval across terms: " + ", ".join(f'{p["pct"]}% ({int(p["t"])})' for p in aps_all), approval_svg(appr_segs),
                        " · ".join(dict.fromkeys(src(p["a"].get("source_url"), p["a"].get("source_title") or "source") for p in aps_all)) + ". Lines join points only inside one term.", "")
+    sw_html = summary_wealth(terms)
     summary = f'''<section id="summary"><h2 id="summary-h">{esc(name)} in one screen</h2>
 {f_all}
 <p class="lead big"><strong>{esc(P["full"])}</strong> held office in {len(terms)} term{"s" if len(terms) != 1 else ""}: {yrs}.</p>
-<h3 id="summary-how">How they came and left</h3><p>{ent}</p>
+{sw_html}<h3 id="summary-how">How they came and left</h3><p>{ent}</p>
 <h3 id="summary-facts">The biggest facts</h3><ul class="facts big">{"".join(f"<li>{b}</li>" for b in bullets)}</ul>
 {('<h3 id="summary-power">Power, per term</h3><ul>' + "".join(pw_sum) + '</ul>') if pw_sum else ''}{f_all_ap}
 <p class="small muted">Plain facts from the sections below. No verdict.</p></section>'''
@@ -1160,6 +1641,7 @@ def build_chapter(P):
         return '<p class="subnav">' + "".join(f'<a href="#{o["tp"]}-{sub}">{term_years(o["t"])}</a>' for o in overview) + "</p>"
     ov = f'''<section id="overview"><h2 id="overview-h">All terms side by side</h2>
 <p class="big">Counts only, not a score. Each term has its own block below.</p>{ov_tab}
+{('<h3 id="wealth">Who got richer, who got poorer</h3><p>Real incomes and the income gap, per term.</p><p class="subnav">' + "".join(f'<a href="#{o["tp"]}-wealth">{term_years(o["t"])}</a>' for o in overview if o["wealth"]) + "</p>") if any(o["wealth"] for o in overview) else ""}
 <h3 id="deals">Deals made under {esc(name)}</h3><p>Jump to the deals of a term.</p>{jump("deals")}{role_bar(collections.Counter(c["role"] for c in classified)) if classified is not None else '<p class="small muted">Roles are not classified yet for this president.</p>'}
 <h3 id="followed-by">What followed</h3><p>{len(all_dis)} disasters linked to these deals. A link is not proof of cause; read the chain.</p>{jump("followed")}
 <h3 id="power">Who could help or block {esc(name)}</h3><p>{"Power data is in the file." if pw_real else '<strong>Being researched.</strong>'}</p>{jump("power")}
@@ -1190,7 +1672,7 @@ def build_chapter(P):
     gaps.append("Disaster links come from text matching plus hand overrides; they show order in time, not cause.")
     gaps_html = f'<section id="gaps"><h2 id="gaps-h">What is missing or unverified</h2><ul class="big">{"".join(f"<li>{esc(g)}</li>" for g in gaps)}</ul></section>'
 
-    toc = ('<nav id="contents" aria-label="Contents"><h2 id="contents-h">Contents</h2><ol class="toc"><li><a href="#summary">Summary</a></li><li><a href="#overview">All terms side by side</a></li>'
+    toc = ('<nav id="contents" aria-label="Contents"><h2 id="contents-h">Contents</h2><ol class="toc"><li><a href="#summary">Summary</a></li>' + ('<li><a href="#summary-wealth">Who got richer, who got poorer</a></li>' if sw_html else '') + '<li><a href="#overview">All terms side by side</a></li>'
            + "".join(f'<li><a href="#{o["tp"]}">{term_years(o["t"])}</a></li>' for o in overview)
            + '<li><a href="#foreign">Foreign counterparts</a></li><li><a href="#gaps">Gaps</a></li></ol></nav>')
     tabs = '<nav class="termnav" id="termnav" aria-label="Jump between terms"><a href="#summary">Summary</a>' + "".join(

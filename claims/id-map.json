@@ -16708,6 +16708,90 @@
 "file": "data/series-political.json",
 "json_path": "$.series[8]"
 },
+"series/dist-bndes-implicit-subsidy-brl-bn": {
+"fp": "9c47bb35e1a7de3ff6d39efa01f68bd18dd8597a",
+"ident": "dist-bndes-implicit-subsidy-brl-bn",
+"status": "active",
+"file": "data/series-distribution.json",
+"json_path": "$.series[5]"
+},
+"series/dist-bndes-treasury-loans-stock-brl-bn": {
+"fp": "9bdcf0008c3fc945b1b1c0a85015437daf6314fa",
+"ident": "dist-bndes-treasury-loans-stock-brl-bn",
+"status": "active",
+"file": "data/series-distribution.json",
+"json_path": "$.series[6]"
+},
+"series/dist-bolsa-familia-brl-bn": {
+"fp": "7976dde0e6ba526365d31fa939abe789aa5b93a4",
+"ident": "dist-bolsa-familia-brl-bn",
+"status": "active",
+"file": "data/series-distribution.json",
+"json_path": "$.series[2]"
+},
+"series/dist-bolsa-familia-dec-monthly-brl-bn": {
+"fp": "5440577abeb3ba371c6f74d0f4355fa32b11a62d",
+"ident": "dist-bolsa-familia-dec-monthly-brl-bn",
+"status": "active",
+"file": "data/series-distribution.json",
+"json_path": "$.series[4]"
+},
+"series/dist-bolsa-familia-pct-gdp": {
+"fp": "c5244b99740fe74c9151e307ca2e8084ec78ac68",
+"ident": "dist-bolsa-familia-pct-gdp",
+"status": "active",
+"file": "data/series-distribution.json",
+"json_path": "$.series[3]"
+},
+"series/dist-extreme-poverty-rate": {
+"fp": "a16d764c39521a16f1ca778d207a5ed2937d8585",
+"ident": "dist-extreme-poverty-rate",
+"status": "active",
+"file": "data/series-distribution.json",
+"json_path": "$.series[7]"
+},
+"series/dist-interest-brl-bn": {
+"fp": "8fac7b803deac1c820a79ac447c2bd64cbbb2e0b",
+"ident": "dist-interest-brl-bn",
+"status": "active",
+"file": "data/series-distribution.json",
+"json_path": "$.series[1]"
+},
+"series/dist-interest-pct-gdp": {
+"fp": "f18b396cb5bb27a6d1525a390ece1c7726a571d6",
+"ident": "dist-interest-pct-gdp",
+"status": "active",
+"file": "data/series-distribution.json",
+"json_path": "$.series[0]"
+},
+"series/dist-poverty-rate": {
+"fp": "6424968ad088837c0c119db953b01801d3753728",
+"ident": "dist-poverty-rate",
+"status": "active",
+"file": "data/series-distribution.json",
+"json_path": "$.series[8]"
+},
+"series/dist-wid-bottom50-share": {
+"fp": "e7a83c65503ed535c10a9c088980854f3d97d30a",
+"ident": "dist-wid-bottom50-share",
+"status": "active",
+"file": "data/series-distribution.json",
+"json_path": "$.series[9]"
+},
+"series/dist-wid-middle40-share": {
+"fp": "8ee2878a332b3811bb59897446581ad053cd2088",
+"ident": "dist-wid-middle40-share",
+"status": "active",
+"file": "data/series-distribution.json",
+"json_path": "$.series[10]"
+},
+"series/dist-wid-top10-share": {
+"fp": "0e1a2552490263bb44395db4a226f58fa3054cf1",
+"ident": "dist-wid-top10-share",
+"status": "active",
+"file": "data/series-distribution.json",
+"json_path": "$.series[11]"
+},
 "series/dlsp-pct-gdp": {
 "fp": "c33e74c6b11f165e425b9608149f52b00c93a31e",
 "ident": "dlsp-pct-gdp",
