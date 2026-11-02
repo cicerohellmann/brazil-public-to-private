@@ -1230,7 +1230,7 @@ page = f'''<!doctype html>
 <title>Brazil timeline: patrimony, purchasing power, concentration and who decided</title>
 <style>{CSS}</style></head>
 <body><main id="top">
-<p class="sub"><a href="index.html">← Main page: the transfer cases</a> · <a href="disasters.html">Disasters</a> · <a href="chapters/index.html">President chapters</a> · <a href="timeline-charts.html">Timeline charts, full width</a></p>
+<p class="sub"><a href="index.html">← Main page: the transfer cases</a> · <a href="disasters.html">Disasters</a> · <a href="chapters/index.html">President chapters</a> · <a href="timeline-charts.html">Timeline charts, full width</a> · <a href="explorer.html">Explorer: incomes, gap, poverty</a></p>
 <h1 id="title">Brazil 1822–2026: who ruled, what was handed over, and what happened to wages and wealth</h1>
 <p class="sub">One shared year axis for every term of power, every transfer case, and the data on public patrimony, purchasing power, concentration and democracy. Built from the data files by build_timeline.py.</p>
 {answer}
@@ -1347,7 +1347,7 @@ page_ch = f'''<!doctype html>
 <title>Brazil 1822–2026 on one year axis: timeline charts</title>
 <style>{CSS}{CSS_CH}</style></head>
 <body><main id="top">
-<p class="sub"><a href="timeline.html">← Full timeline page (terms, people, deals)</a> · <a href="index.html">Main page</a> · <a href="disasters.html">Disasters</a></p>
+<p class="sub"><a href="timeline.html">← Full timeline page (terms, people, deals)</a> · <a href="index.html">Main page</a> · <a href="disasters.html">Disasters</a> · <a href="explorer.html">Explorer: incomes, gap, poverty</a></p>
 <h1 id="title">Brazil 1822–2026 on one year axis</h1>
 <nav id="contents" aria-label="Contents"><h2 id="contents-h">Contents</h2><ol class="toc">{CH_TOC}</ol></nav>
 {timeline_section(True)}

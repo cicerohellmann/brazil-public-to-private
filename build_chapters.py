@@ -702,6 +702,42 @@ def summary_wealth(terms):
     return (f'<h3 id="summary-wealth">Who got richer, who got poorer</h3><p class="big">Per term, start to end, inflation removed:</p>'
             f'<ul class="big">{"".join(per)}</ul>{f_r}{f_g}<p class="small muted">Each term has its own table in its section. Surveys miss top incomes; tax data catches them, so the two gap measures can move apart.</p>')
 
+EX_SERIES = "household-income-per-capita,min-wage-real,income-gini-pnad-ipea-1995-2025,dist-interest-pct-gdp"   # explorer.html default lines
+
+
+def wealth_term_short(t, tp):
+    """Per-term block, short: one sentence and a link to explorer.html zoomed to this term. Old figure ids kept as empty anchors."""
+    if not w_has(t):
+        return "", False
+    sp = w_span(t)
+    tyrs = term_years(t)
+    _rows, facts = headline_rows(sp)
+    main = w_main(facts) or f"No income series covers {tyrs} at both ends."
+    so_far = ' <span class="flag">so far</span>' if sp["open"] else ""
+    html_ = (f'<h3 id="{tp}-wealth">Who got richer, who got poorer, {tyrs}{so_far}</h3>'
+             f'<p class="big"><strong>{esc(main)}</strong> <a href="../explorer.html#{esc(t["id"])}">See it on the chart, zoomed to {tyrs} →</a></p>'
+             f'<span id="{tp}-f-richer"></span><span id="{tp}-f-gap"></span><span id="{tp}-f-state-money"></span>')
+    return html_, True
+
+
+def summary_wealth_explorer(terms, slug):
+    """Summary block: lead line, button to the explorer, and the explorer itself in an iframe zoomed to this person."""
+    ts = [t for t in terms if w_has(t)]
+    if not ts:
+        return ""
+    sy = td.term_ref_years(ts[0])[0]
+    ey = td.term_ref_years(ts[-1])[1] or 2025
+    frm, to = max(1920, ts[0]["_start"].year - 3), min(2026, ts[-1]["_end"].year + 3)
+    src_ = f"../explorer.html#from={frm}&to={to}&base={sy}&s={EX_SERIES}&y={ey}&embed=1"
+    return (f'<h3 id="summary-wealth">Who got richer, who got poorer</h3>'
+            f'<p class="big"><strong>Incomes, the income gap, state money and poverty, on one time line.</strong> '
+            f'Every line shows the change since {sy}, the year before {esc(PERSONS[slug]["name"])} took office. Pick other lines, drag through the years, or click another president.</p>'
+            f'<p><a class="ex-btn" href="../explorer.html#p-{esc(slug)}">Open the interactive chart →</a></p>'
+            f'<iframe class="ex-frame" id="explorer-frame" title="Interactive chart: who got richer" src="{esc(src_)}" loading="lazy"></iframe>'
+            f'<span id="summary-f-richer"></span><span id="summary-f-gap"></span>'
+            '<script>addEventListener("message",function(e){var f=document.getElementById("explorer-frame");'
+            'if(f&&e.source===f.contentWindow&&e.data&&e.data.explorerHeight)f.style.height=Math.ceil(e.data.explorerHeight)+4+"px";});</script>')
+
 
 # ------------------------------------------------------------------ power json
 def num(v):
@@ -1368,6 +1404,9 @@ def base_css():
 
 EXTRA_CSS = r"""
 main{max-width:1000px}
+.ex-btn{display:inline-block;padding:10px 18px;border:2px solid var(--acc);border-radius:99px;background:var(--acc);color:var(--card);font-weight:700;text-decoration:none}
+.ex-frame{display:block;width:100%;height:940px;border:1px solid var(--line);border-radius:8px;background:var(--bg);margin:10px 0}
+@media (max-width:640px){.ex-frame{height:1600px}}
 section{padding:22px 20px;margin:34px 0}
 h1{font-size:2.1rem}h2{font-size:1.7rem;margin-bottom:.7em}h3{font-size:1.35rem;margin:1.8em 0 .6em}h4{font-size:1.1rem;margin:1.6em 0 .4em}
 .termnav{position:sticky;top:0;z-index:6;display:flex;gap:8px;overflow-x:auto;background:var(--bg);padding:8px 2px;border-bottom:1px solid var(--line);margin:0}
@@ -1562,7 +1601,7 @@ def build_chapter(P):
         if n_people == 0:
             gaps.append(f"{term_years(t)}: no decision-makers mapped in the people files.")
         sources = " · ".join(src(s["url"], s["title"]) for s in t.get("sources") or [] if url_ok(s.get("url")))
-        wh, w_ok_t = wealth_block(t, tp)
+        wh, w_ok_t = wealth_term_short(t, tp)
         tblocks.append(f'''<section id="{tp}" class="term-block"><h2 id="{tp}-h">{esc(name)}, {term_years(t)}{' <span class="flag">interim</span>' if t.get("interim") else ""}</h2>
 <p class="big"><strong>{esc(t["title"])}.</strong> {esc(t["how_came_to_power"])} <strong>Left:</strong> {esc(t["how_left"])}.</p>{mini}
 <p class="subnav">{f'<a href="#{tp}-wealth">Richer or poorer</a>' if w_ok_t else ""}<a href="#{tp}-deals">Deals</a><a href="#{tp}-followed">What followed</a><a href="#{tp}-power">Power</a><a href="#{tp}-people">People</a><a href="#{tp}-numbers">Numbers</a><a href="#top">Top</a></p>{wh}
@@ -1619,7 +1658,7 @@ def build_chapter(P):
         aps_all = [p for x in appr_segs for p in x[3]]
         f_all_ap = fig("summary-approval", "Approval across terms: " + ", ".join(f'{p["pct"]}% ({int(p["t"])})' for p in aps_all), approval_svg(appr_segs),
                        " · ".join(dict.fromkeys(src(p["a"].get("source_url"), p["a"].get("source_title") or "source") for p in aps_all)) + ". Lines join points only inside one term.", "")
-    sw_html = summary_wealth(terms)
+    sw_html = summary_wealth_explorer(terms, slug)
     summary = f'''<section id="summary"><h2 id="summary-h">{esc(name)} in one screen</h2>
 {f_all}
 <p class="lead big"><strong>{esc(P["full"])}</strong> held office in {len(terms)} term{"s" if len(terms) != 1 else ""}: {yrs}.</p>
@@ -1683,7 +1722,7 @@ def build_chapter(P):
            + '<li><a href="#foreign">Foreign counterparts</a></li><li><a href="#gaps">Gaps</a></li></ol></nav>')
     tabs = '<nav class="termnav" id="termnav" aria-label="Jump between terms"><a href="#summary">Summary</a>' + "".join(
         f'<a href="#{o["tp"]}">{term_years(o["t"])}</a>' for o in overview) + '<a href="#foreign">Foreign</a><a href="#gaps">Gaps</a></nav>'
-    head = (f'<p class="sub"><a href="index.html">← All chapters</a> · <a href="../timeline.html">Timeline</a> · <a href="../index.html">Transfer cases</a> · <a href="../disasters.html">Disasters</a></p>'
+    head = (f'<p class="sub"><a href="index.html">← All chapters</a> · <a href="../timeline.html">Timeline</a> · <a href="../explorer.html">Explorer</a> · <a href="../index.html">Transfer cases</a> · <a href="../disasters.html">Disasters</a></p>'
             f'<h1 id="title">{esc(name)}: everything in one place</h1>')
     body = head + tabs + summary + toc + ov + "".join(tblocks) + foreign + gaps_html
     return page(f"{name}: president chapter", body), pw_real, len(terms)
@@ -1696,7 +1735,7 @@ def build_index():
         rows.append(f'<tr id="c-{P["slug"]}"><td class="nw">{ts[0]["_start"].year}–{"today" if ts[-1]["_open"] else ts[-1]["_end"].year}</td>'
                     f'<td><a href="{P["slug"]}.html">{esc(P["name"])}</a></td><td class="small">{", ".join(term_years(t) for t in ts)}</td>'
                     f'<td class="small">{esc(ts[0]["regime"])}</td></tr>')
-    body = (f'<p class="sub"><a href="../timeline.html">← Timeline</a> · <a href="../timeline-charts.html">Timeline chart, 1822–2026</a> · <a href="../index.html">Transfer cases</a></p><h1 id="title">President chapters</h1>'
+    body = (f'<p class="sub"><a href="../timeline.html">← Timeline</a> · <a href="../timeline-charts.html">Timeline chart, 1822–2026</a> · <a href="../explorer.html">Explorer</a> · <a href="../index.html">Transfer cases</a></p><h1 id="title">President chapters</h1>'
             f'<p class="lead">One page per ruler of the republic, with every term, deal, disaster link, person and number in one place. Time order.</p>'
             f'<nav id="contents"><h2 id="contents-h">Contents</h2><ol class="toc"><li><a href="#all">All chapters</a></li></ol></nav>'
             f'<section id="all"><h2 id="all-h">All {len(PERSONS)} chapters</h2><div class="tw"><table><thead><tr><th>Years</th><th>Chapter</th><th>Terms</th><th>Regime</th></tr></thead><tbody>'
