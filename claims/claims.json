@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T01:48:43Z",
+ "generated_at": "2026-11-02T03:17:29Z",
  "counts": {
   "fig": 1315,
   "post": 299,
@@ -7,10 +7,10 @@
   "tie": 90,
   "controversy": 72,
   "counterpart": 78,
-  "series": 73,
+  "series": 74,
   "term": 52
  },
- "n_claims": 2587,
+ "n_claims": 2588,
  "records_without_id": [],
  "claims_without_source_url": [
   "e2-03/fig/3",
@@ -44568,6 +44568,22 @@
    "legacy_status": "verified",
    "file": "data/series-concentration.json",
    "json_path": "$.series[11]",
+   "flags": []
+  },
+  {
+   "id": "series/cesta-basica-sp-nominal",
+   "kind": "series",
+   "group": "series",
+   "record_id": "cesta-basica-sp-nominal",
+   "claim_text": "Series: Food basket price (DIEESE cesta basica, Sao Paulo), R$ a month, nominal (R$ a month (nominal)), 31 points 1995 to 2025.",
+   "value": "31 points",
+   "numbers": [],
+   "source_urls": [
+    "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIEESE12_CBSP12')"
+   ],
+   "legacy_status": "unverified",
+   "file": "data/series-cost.json",
+   "json_path": "$.series[0]",
    "flags": []
   },
   {

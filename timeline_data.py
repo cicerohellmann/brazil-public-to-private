@@ -18,7 +18,7 @@ CASE_FILES = ["g1-colony", "g2-republic", "g3-dictatorship", "g4-privatization",
               "g5-2003-2016", "g6-2016-2026", "g7-cross-cutting"]
 DIS_FILES = ["g8-dis-mining", "g9-dis-oil", "g10-dis-hydro-land"]
 SERIES_FILES = ["series-patrimony", "series-purchasing", "series-concentration", "series-political"]
-OPTIONAL_SERIES_FILES = ["series-distribution"]   # loaded only if present and readable
+OPTIONAL_SERIES_FILES = ["series-distribution", "series-cost"]   # loaded only if present and readable
 TODAY = datetime.date(2026, 11, 1)
 COLONY = "colony"
 

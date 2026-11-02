@@ -16708,6 +16708,13 @@
 "file": "data/series-political.json",
 "json_path": "$.series[8]"
 },
+"series/cesta-basica-sp-nominal": {
+"fp": "5ef388aefaae1d83db7794da26b50cfc9eea501c",
+"ident": "cesta-basica-sp-nominal",
+"status": "active",
+"file": "data/series-cost.json",
+"json_path": "$.series[0]"
+},
 "series/dist-bndes-implicit-subsidy-brl-bn": {
 "fp": "9c47bb35e1a7de3ff6d39efa01f68bd18dd8597a",
 "ident": "dist-bndes-implicit-subsidy-brl-bn",

@@ -37,15 +37,19 @@ SERIES = [
     ("dist-bndes-implicit-subsidy-brl-bn", "state", "BNDES loan subsidy (not inflation-adjusted)", "BNDES subsidy", "brl-bn", 1, "R$ ", " bn", "cost of cheap Treasury loans to BNDES; nominal R$", 1, True),
     ("dlsp-pct-gdp", "state", "Public debt (net)", "Public debt", "pct-debt", 1, "", "% of GDP", "", 1, False),
     ("public-investment-public-sector-pct-gdp", "state", "Public investment", "Public investment", "pct-gdp", 2, "", "% of GDP", "roads, energy, schools built by the state", 1, False),
+    ("prices-overall-ipca", "cost", "Prices overall (IPCA)", "Prices overall", "price-index", 0, "", "", "a rising line = prices rose", 1, False),
+    ("inflation-ipca", "cost", "Inflation per year (IPCA)", "Inflation per year", "pct-year", 1, "", "% a year", "down = prices rose more slowly", 1, False),
+    ("cesta-basica-sp-nominal", "cost", "Food basket price (São Paulo)", "Food basket price", "brl-nominal", 0, "R$ ", " a month", "price of the DIEESE food basket; nominal R$", 1, True),
     ("dist-extreme-poverty-rate", "pov", "Extreme poverty (under US$ 3 a day)", "Extreme poverty", "pct-people", 1, "", "% of people", "down = fewer very poor", 1, False),
     ("dist-poverty-rate", "pov", "Poverty (under US$ 8.30 a day)", "Poverty", "pct-people", 1, "", "% of people", "down = fewer poor", 1, False),
 ]
-GROUPS = [("rich", "Did people get richer?"), ("gap", "Did the gap shrink?"), ("state", "Where did the state's money go?"), ("pov", "Poverty")]
+GROUPS = [("rich", "Did people get richer?"), ("gap", "Did the gap shrink?"), ("state", "Where did the state's money go?"), ("pov", "Poverty"), ("cost", "Cost of living")]
 UNITS = {
     "brl-month": "R$ a month, inflation removed", "baskets": "Food baskets a month (São Paulo)", "usd-year": "US$ a year, 2015 prices",
     "gini": "Gini, 0 to 100 (up = more unequal)", "pct-income": "% of national income", "pct-labour": "Workers' share, % of GDP",
     "pct-wealth": "% of all personal wealth", "pct-gdp": "% of GDP each year", "brl-bn": "R$ bn a year, not inflation-adjusted",
     "pct-debt": "Public debt, % of GDP", "pct-people": "% of people",
+    "price-index": "Price level, Dec 1994 = 100", "pct-year": "Inflation, % a year (Dec to Dec)", "brl-nominal": "R$ a month, not inflation-adjusted",
 }
 DEFAULT = dict(frm=1990, to=MAXY, base=2002, s=["household-income-per-capita", "min-wage-real", "income-gini-pnad-ipea-1995-2025", "dist-interest-pct-gdp"])
 PRESETS = [("lula-1", "Lula 2003–2010", 2000, 2013, 2002, 2010), ("lula-3", "Lula 2023–now", 2019, MAXY, 2022, 2025),
@@ -67,19 +71,44 @@ def roman(n):
     return ["", "I", "II", "III", "IV", "V"][n] if n < 6 else str(n)
 
 
+RATE_ONLY = {"inflation-ipca"}   # a % per year: "change since" makes no sense, so it only shows in Real values mode
+PRICE_BASE_YEAR = 1994           # price level = 100 at the end of this year
+
+
+def prices_overall():
+    """Price level from compounding the yearly IPCA % (Dec to Dec): Dec 1994 = 100. Inherits the source's status and link."""
+    src = S["inflation-ipca"]
+    lvl, pts = 100.0, {}
+    for y in sorted(src["_pts"]):
+        if y > PRICE_BASE_YEAR:
+            lvl *= 1 + src["_pts"][y] / 100
+            pts[y] = lvl
+    return dict(_pts=pts, status=src.get("status"), unit="index, Dec 1994 = 100", source_title=src.get("source_title"),
+                source_url=src.get("source_url"))
+
+
 def series_json():
     out = []
+    S_ = dict(S)
+    S_["prices-overall-ipca"] = prices_overall()
     for sid, grp, name, short, ukey, dec, pre, suf, better, scale, nominal in SERIES:
-        s = S[sid]
-        pts, dropped = bc.w_pts(sid, scale)
+        s = S_[sid]
+        if sid == "prices-overall-ipca":
+            pts, dropped = dict(s["_pts"]), []
+        else:
+            pts, dropped = bc.w_pts(sid, scale)
         pts = [[y, round(pts[y], dec + 2)] for y in sorted(pts)]
         note = []
         if nominal:
             note.append("Nominal reais: part of the rise is inflation.")
+        if sid == "prices-overall-ipca":
+            note.append("Computed from yearly IPCA: each year's rate (December to December) compounded from Dec 1994 = 100.")
+        if sid in RATE_ONLY:
+            note.append("Shown in Real values only.")
         if dropped:
             note.append(f"Last value repeated in the source for {dropped[0]}–{dropped[-1]}; treated as no new data.")
         out.append(dict(id=sid, g=grp, name=name, short=short, u=ukey, dec=dec, pre=pre, suf=suf, better=better,
-                        ok=s.get("status") in OK, status=s.get("status") or "unverified", nominal=nominal,
+                        rate=sid in RATE_ONLY, ok=s.get("status") in OK, status=s.get("status") or "unverified", nominal=nominal,
                         unit=s.get("unit") or "", src_t=s.get("source_title") or "source", src_u=s.get("source_url") or "",
                         note=" ".join(note), pts=pts))
     return out
@@ -290,6 +319,7 @@ body:not(.embed) .embed-only{display:none}
 <div class="grp"><label class="lbl" for="base">Compare with</label><select id="base"></select><label class="lbl" for="from">From</label><select id="from"></select><label class="lbl" for="to">to</label><select id="to"></select></div>
 <a class="full embed-only" id="fulllink" href="explorer.html" target="_top">Open the full page ↗</a>
 </div>
+<p class="small muted" id="costnote">Wages and incomes here already have inflation removed; 'Prices overall' shows how much prices themselves rose.</p>
 <div class="flow"><div class="picker" id="picker"></div>
 <div class="legend" id="legend" aria-label="Lines on the chart"></div>
 <div class="stage">
@@ -335,6 +365,7 @@ function setSel(ids){st.slots=[null,null,null,null,null,null,null,null];ids.filt
 function toggle(id){var k=slotOf(id);if(k>=0){st.slots[k]=null;}else{var f=st.slots.indexOf(null);if(f<0)return;st.slots[f]=id;}render();}
 /* base value: the base year, else the nearest year within 2, else the first year in view */
 function baseOf(s){
+  if(s.rate)return null;
   var b=st.base;
   if(s.map[b]!=null)return{y:b,v:s.map[b],why:""};
   var best=null;for(var d=1;d<=2;d++){if(s.map[b-d]!=null){best=b-d;break;}if(s.map[b+d]!=null){best=b+d;break;}}
@@ -398,7 +429,7 @@ function renderPicker(){
     ids.forEach(function(i){var s=SER[i],on=slotOf(i)>=0;
       h+='<button type="button" class="chip" data-id="'+i+'" aria-pressed="'+on+'"'+(!on&&full?' disabled title="8 lines at most. Turn one off first."':'')+'>'
        +'<span class="key'+(on?"":" off")+(s.ok?"":" u")+'"'+(on?' style="border-top-color:'+col(i)+'"':'')+'></span>'+esc(s.name)
-       +(s.ok?"":' <span class="tag">unverified</span>')+(s.nominal?' <span class="tag nom">nominal</span>':'')+'</button>';});
+       +(s.ok?"":' <span class="tag">unverified</span>')+(s.nominal?' <span class="tag nom">nominal</span>':'')+(s.rate?' <span class="tag">real values only</span>':'')+'</button>';});
     h+='</div></details>';});
   box.innerHTML=h;
   var lg="";sel().forEach(function(i){var s=SER[i];lg+='<span class="it"><span class="key'+(s.ok?"":" u")+'" style="border-top-color:'+col(i)+'"></span>'+esc(s.short)+(s.ok?"":' <span class="tag">unverified</span>')+'</span>';});
@@ -513,7 +544,8 @@ function renderPanel(){
     ids.forEach(function(i){var s=SER[i],v=s.map[y],line;
       if(v!=null){line='<span class="v">'+esc(fmtv(s,v))+'</span>';
         var bi=baseOf(s);if(bi&&bi.y!==y)line+=' <span class="sm">'+esc(pct(idx(s,v,bi))+" since "+bi.y+(bi.why?" ("+bi.why+")":""))+'</span>';}
-      else line='<span class="sm">'+(y<s.first?"no data before "+s.first:y>s.last?"no data after "+s.last:"no data for "+y+" (gap in the source)")+'</span>';
+      if(v!=null&&st.mode==="index"&&s.rate)line+=' <span class="sm">(use Real values for this line)</span>';
+      if(v==null)line='<span class="sm">'+(y<s.first?"no data before "+s.first:y>s.last?"no data after "+s.last:"no data for "+y+" (gap in the source)")+'</span>';
       h+='<li><span class="key'+(s.ok?"":" u")+'" style="border-top-color:'+col(i)+'"></span><span>'+line+'<br><span class="nm">'+esc(s.name)+'</span>'
         +(s.ok?"":' <span class="tag">unverified</span>')+(s.nominal?' <span class="tag nom">nominal</span>':'')
         +'<br><span class="sm">'+(s.better?esc(s.better)+" · ":"")+(s.src_u?'<a href="'+esc(s.src_u)+'" target="_blank" rel="noopener">source</a>':esc(s.src_t))+'</span></span></li>';});
