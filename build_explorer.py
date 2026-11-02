@@ -54,6 +54,14 @@ UNITS = {
 DEFAULT = dict(frm=1990, to=MAXY, base=2002, s=["household-income-per-capita", "min-wage-real", "income-gini-pnad-ipea-1995-2025", "dist-interest-pct-gdp"])
 PRESETS = [("lula-1", "Lula 2003–2010", 2000, 2013, 2002, 2010), ("lula-3", "Lula 2023–now", 2019, MAXY, 2022, 2025),
            ("cardoso", "Cardoso", 1992, 2005, 1994, 2002), ("all", "All", None, MAXY, None, 2025)]
+# Topic buttons: one per question; each switches the chart to that topic's lines.
+TOPICS = [
+    ("topic-rich", "Richer or poorer?", ["household-income-per-capita", "min-wage-real", "min-wage-in-cestas"]),
+    ("topic-gap", "The gap", ["income-gini-pnad-ipea-1995-2025", "top10-income-share-wid-2001-2024", "dist-wid-bottom50-share", "dist-wid-middle40-share"]),
+    ("topic-state", "State money", ["dist-interest-pct-gdp", "dist-bolsa-familia-pct-gdp", "dist-bndes-implicit-subsidy-brl-bn"]),
+    ("topic-pov", "Poverty", ["dist-extreme-poverty-rate", "dist-poverty-rate"]),
+    ("topic-cost", "Cost of living", ["prices-overall-ipca", "cesta-basica-sp-nominal", "min-wage-real", "min-wage-in-cestas"]),
+]
 
 
 def esc(s):
@@ -193,6 +201,11 @@ def build():
     go = {}
     for pid, label, f, t, b, y in PRESETS:
         go[pid] = dict(label=label, frm=f, to=t, base=b, y=y)
+    known = {x["id"] for x in ser}
+    for tid, label, ids in TOPICS:
+        missing = [i for i in ids if i not in known]
+        assert not missing, (tid, missing)
+        go[tid] = dict(label=label, frm=1995, to=MAXY, base=2002, y=2025, s=ids)
     persons = {}
     for t in terms:
         persons.setdefault(t["slug"], []).append(t)
@@ -204,6 +217,7 @@ def build():
     js_data = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 
     preset_html = "".join(f'<a class="pbtn" id="{p[0]}" href="#{p[0]}">{esc(p[1])}</a>' for p in PRESETS)
+    topic_html = "".join(f'<a class="pbtn topic" id="{t[0]}" href="#{t[0]}">{esc(t[1])}</a>' for t in TOPICS)
     jump = []
     for slug, ts in reversed(list(persons.items())):
         jump.append(f'<li><a id="p-{slug}" href="#p-{slug}"><strong>{esc(ts[0]["person"])}</strong></a>: '
@@ -214,7 +228,7 @@ def build():
         link = f'<a href="{esc(s["src_u"])}">{esc(s["src_t"])}</a>' if s["src_u"].startswith("http") else esc(s["src_t"])
         src_rows.append(f'<li><strong>{esc(s["name"])}</strong> {pill} <span class="muted small">{esc(s["unit"])}; {s["pts"][0][0]}–{s["pts"][-1][0]}.</span>'
                         f'{(" " + esc(s["note"])) if s["note"] else ""}<br><span class="small">Source: {link}</span></li>')
-    html_ = TEMPLATE.replace("/*BASECSS*/", bc.base_css()).replace("@@PRESETS@@", preset_html).replace("@@JUMP@@", "".join(jump)) \
+    html_ = TEMPLATE.replace("/*BASECSS*/", bc.base_css()).replace("@@PRESETS@@", preset_html).replace("@@TOPICS@@", topic_html).replace("@@JUMP@@", "".join(jump)) \
         .replace("@@SOURCES@@", "".join(src_rows)).replace("@@NSER@@", str(len(ser))).replace("@@DATA@@", js_data)
     for bad in ("/" + "Users/", "file" + "://", "@" + "gmail"):   # split so this file passes the publish scan too
         assert bad not in html_, bad
@@ -243,6 +257,7 @@ h1{font-size:1.8rem}
 .lbl{font-size:.85rem;color:var(--muted);font-weight:600}
 .pbtn,.mbtn{display:inline-block;padding:6px 12px;border:2px solid var(--acc);border-radius:99px;background:var(--card);color:var(--acc);font:600 .9rem/1.2 inherit;text-decoration:none;cursor:pointer}
 .pbtn.on,.mbtn.on{background:var(--acc);color:var(--card)}
+.bar .topics{padding-bottom:6px;border-bottom:1px solid var(--line);width:100%}.pbtn.topic{font-size:.95rem}
 select{font:inherit;font-size:.9rem;padding:4px 6px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--fg)}
 .picker{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:8px 14px;margin:0 0 10px}
 .picker details{border:1px solid var(--line);border-radius:8px;padding:6px 10px;background:var(--bg)}
@@ -309,12 +324,13 @@ body:not(.embed) .embed-only{display:none}
 <div class="page-only">
 <p class="sub"><a href="index.html">Main page</a> · <a href="timeline.html">Timeline</a> · <a href="chapters/index.html">President chapters</a> · <a href="disasters.html">Disasters</a></p>
 <h1 id="title">Who got richer, who got poorer: one chart</h1>
-<p class="lead"><strong>Incomes, the gap, state money and poverty on one time line.</strong> Pick the lines. Drag, tap or press ← → to move through the years. Click a president's name to zoom in.</p>
+<p class="lead"><strong>Incomes, the gap, state money, poverty and the cost of living on one time line.</strong> Pick a Topic, or single lines. Drag, tap or press ← → to move through the years. Click a president's name to zoom in.</p>
 <nav id="contents" aria-label="Contents"><h2 id="contents-h" class="small">Contents</h2><ul class="toc"><li><a href="#explore">The chart</a></li><li><a href="#how">How to read it</a></li><li><a href="#jump">Jump to a president</a></li><li><a href="#numbers">The numbers</a></li><li><a href="#sources">Sources</a></li></ul></nav>
 </div>
 <section id="explore" aria-label="The chart"><h2 id="explore-h" class="page-only">The chart</h2>
 <div class="bar">
-<div class="grp" aria-label="Presets"><span class="lbl">Show:</span>@@PRESETS@@</div>
+<div class="grp topics" aria-label="Topics"><span class="lbl">Topic:</span>@@TOPICS@@</div>
+<div class="grp" aria-label="Presets"><span class="lbl">Years:</span>@@PRESETS@@</div>
 <div class="grp"><span class="lbl">Lines as:</span><button type="button" class="mbtn" id="m-index" data-mode="index">Change since …</button><button type="button" class="mbtn" id="m-real" data-mode="real">Real values</button></div>
 <div class="grp"><label class="lbl" for="base">Compare with</label><select id="base"></select><label class="lbl" for="from">From</label><select id="from"></select><label class="lbl" for="to">to</label><select id="to"></select></div>
 <a class="full embed-only" id="fulllink" href="explorer.html" target="_top">Open the full page ↗</a>
@@ -324,7 +340,7 @@ body:not(.embed) .embed-only{display:none}
 <div class="legend" id="legend" aria-label="Lines on the chart"></div>
 <div class="stage">
 <div><div id="chartbox" tabindex="0" aria-label="Chart. Left and right arrow keys move the year."><svg id="chart" role="img" aria-labelledby="chart-desc"><desc id="chart-desc">Time chart of the selected series with presidents as bands along the top.</desc></svg></div>
-<p class="hint" id="hint">Tip: click a name in the top band to zoom to that term. Pick lines in the boxes <span class="below">below</span><span class="above">above</span>.</p></div>
+<p class="hint" id="hint">Tip: click a name in the top band to zoom to that term. Use the Topic buttons above, or pick single lines in the boxes <span class="below">below</span><span class="above">above</span>.</p></div>
 <aside id="panel" aria-live="polite"></aside>
 </div></div>
 </section>
@@ -379,6 +395,7 @@ function pct(i){var p=i-100;return (p>=0.5?"+":p<=-0.5?"−":"")+num(Math.abs(p)
 function applyGo(id){
   var g=D.go[id];if(!g)return false;
   var to=g.to,frm=g.frm,base=g.base;
+  if(g.s)setSel(g.s);
   if(id==="all"){var ids=sel().length?sel():ORDER;frm=Math.min.apply(null,ids.map(function(i){return SER[i].first;}));base=st.base;}
   st.frm=frm;st.to=to;st.base=base;st.y=clamp(g.y||to,frm,to);return true;
 }
@@ -415,7 +432,7 @@ function renderControls(){
   mi.classList.toggle("on",st.mode==="index");document.getElementById("m-real").classList.toggle("on",st.mode==="real");
   mi.setAttribute("aria-pressed",st.mode==="index");document.getElementById("m-real").setAttribute("aria-pressed",st.mode==="real");
   Array.prototype.forEach.call(document.querySelectorAll(".pbtn"),function(a){var g=D.go[a.id];
-    var on=g&&g.to===st.to&&(a.id==="all"?st.frm===Math.min.apply(null,(sel().length?sel():ORDER).map(function(i){return SER[i].first;})):(g.frm===st.frm&&g.base===st.base));
+    var on=g&&g.to===st.to&&(!g.s||g.s.join()===sel().join())&&(a.id==="all"?st.frm===Math.min.apply(null,(sel().length?sel():ORDER).map(function(i){return SER[i].first;})):(g.frm===st.frm&&g.base===st.base));
     a.classList.toggle("on",!!on);});
 }
 var openGroups=null;
